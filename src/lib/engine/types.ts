@@ -64,7 +64,7 @@ export const CandidatePoolSchema = z.object({
 });
 export type Candidate = z.infer<typeof CandidateSchema>;
 
-/** Pass 3 — assembled papers. */
+/** Pass 3 — assembled papers (one batch: 1–2 at a time). */
 export const PredictedSetsSchema = z.object({
-  sets: z.array(z.string().min(120)).min(3).max(4),
+  sets: z.array(z.string().min(120)).min(1).max(4),
 });

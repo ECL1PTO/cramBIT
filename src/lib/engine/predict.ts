@@ -10,16 +10,11 @@ import {
   topicFreqFor,
 } from "./data";
 import { chat, parseJson } from "./llm";
-import {
-  analysisPrompt,
-  assemblyPrompt,
-  candidatePoolPrompt,
-  validationPrompt,
-} from "./prompts";
+import { analysisPrompt, assemblyPrompt, candidatePoolPrompt } from "./prompts";
+import { validatePaper } from "./validate";
 import {
   BlueprintSchema,
   CandidatePoolSchema,
-  PredictedSetsSchema,
   type Blueprint,
   type Candidate,
   type Coverage,
@@ -170,8 +165,8 @@ export async function assembleBatch(
   const assemble = (n: number) =>
     chat({
       tier: "reason",
-      json: true,
-      maxTokens: 4000,
+      json: false,
+      maxTokens: 7000,
       prompt: assemblyPrompt({
         courseCode: codeLabel,
         courseName: r.name,
@@ -179,25 +174,26 @@ export async function assembleBatch(
         candidates,
         setCount: n,
       }),
-    }).then((raw) => PredictedSetsSchema.parse(parseJson<unknown>(raw)).sets);
+    }).then((raw) =>
+      raw
+        .split("===SET_SPLIT===")
+        .map((s) => s.trim())
+        .filter((s) => s.length > 150),
+    );
 
-  const sets = (await assemble(count)).slice(0, count);
+  let sets = (await assemble(count)).slice(0, count);
 
-  const out: string[] = [];
-  for (const set of sets) {
-    const ok = await chat({
-      tier: "fast",
-      json: true,
-      maxTokens: 1200,
-      prompt: validationPrompt(set, r.syllabus),
-    })
-      .then((v) => parseJson<{ ok: boolean }>(v).ok)
-      .catch(() => true);
-    if (ok) {
-      out.push(set);
-    } else {
-      out.push(await assemble(1).then((s) => s[0] ?? set).catch(() => set));
+  // Structural check in code (free). Re-assemble once if a paper is malformed.
+  const bad = sets.some((s) => !validatePaper(s).ok);
+  if (bad || sets.length < count) {
+    try {
+      const retry = (await assemble(count)).slice(0, count);
+      if (retry.filter((s) => validatePaper(s).ok).length >= sets.filter((s) => validatePaper(s).ok).length) {
+        sets = retry;
+      }
+    } catch {
+      /* keep first attempt */
     }
   }
-  return out;
+  return sets;
 }

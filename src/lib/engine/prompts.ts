@@ -150,7 +150,10 @@ RULES:
 - You may lightly rephrase a candidate for fit, but not change its topic or difficulty.
 - If the pool lacks a needed part, write one that matches the blueprint and syllabus.
 
-Each set is GitHub-flavoured Markdown, formatted EXACTLY:
+OUTPUT: plain GitHub-flavoured Markdown. Separate the ${args.setCount} papers with a line
+containing exactly ===SET_SPLIT=== and nothing else. No JSON, no code fences.
+
+Format EACH paper EXACTLY like this:
 
 <div align="center">
 <b>BIRLA INSTITUTE OF TECHNOLOGY, MESRA — NOIDA CAMPUS</b><br/>
@@ -171,13 +174,16 @@ Each set is GitHub-flavoured Markdown, formatted EXACTLY:
 **(b)** <question> _(3 Marks)_
 
 **Q2.**
-... Q2–Q5 same shape ...
+
+**(a)** <question> _(2 Marks)_
+
+**(b)** <question> _(3 Marks)_
+
+(Q3, Q4, Q5 the same — always exactly 5 questions, each with a 2-mark (a) and a 3-mark (b).)
 
 ---
 
-_${PAPER_FOOTER}_
-
-Return JSON only: { "sets": ["<markdown 1>", "<markdown 2>", ...] }`;
+_${PAPER_FOOTER}_`;
 }
 
 /* ------------------------------------------------------------------ pass 4 */

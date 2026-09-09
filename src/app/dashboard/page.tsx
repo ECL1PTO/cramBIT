@@ -21,7 +21,7 @@ interface Suggestion {
 const STEP_COPY: Record<"planning" | "pooling" | "writing", string> = {
   planning: "Reading past papers, building the topic blueprint…",
   pooling: "Ranking the most probable questions…",
-  writing: "Drafting and validating four papers…",
+  writing: "Drafting and checking the papers…",
 };
 
 export default function Dashboard() {
@@ -232,7 +232,7 @@ export default function Dashboard() {
           />
 
           <Button onClick={run} disabled={busy} className="w-full">
-            {busy ? STEP_COPY[phase as "planning" | "pooling" | "writing"] : "Generate 4 papers"}
+            {busy ? STEP_COPY[phase as "planning" | "pooling" | "writing"] : "Generate papers"}
           </Button>
 
           {coverage && (
@@ -252,7 +252,7 @@ export default function Dashboard() {
           {!busy && sets.length === 0 && (
             <Card className="flex min-h-[420px] flex-col items-center justify-center text-center">
               <p className="max-w-xs text-body-sm text-faint">
-                Your predicted papers will appear here — four distinct 25-mark sets.
+                Your predicted papers will appear here — distinct 25-mark sets.
               </p>
             </Card>
           )}

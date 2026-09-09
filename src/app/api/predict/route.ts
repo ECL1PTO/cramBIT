@@ -15,7 +15,7 @@ import { PRICING } from "@/data/pricing";
 export const runtime = "nodejs";
 export const maxDuration = 60;
 
-const SET_COUNT = 4;
+const SET_COUNT = 3;
 
 const Body = z.object({
   phase: z.enum(["plan", "pool", "write"]),
@@ -95,12 +95,15 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "disclaimer-required" }, { status: 428 });
     }
 
-    const sets: string[] = [];
-    for (let i = 0; i < SET_COUNT; i += 2) {
-      sets.push(...(await assembleBatch(r, blueprint, candidates, Math.min(2, SET_COUNT - i))));
+    const sets = await assembleBatch(r, blueprint, candidates, SET_COUNT);
+    if (!sets.length) {
+      return NextResponse.json(
+        { error: "The engine could not assemble a valid paper. Please retry." },
+        { status: 502 },
+      );
     }
 
-    await db.from("generated_papers").insert({
+    const { error: insertError } = await db.from("generated_papers").insert({
       user_id: user.id,
       subject_code: r.code,
       course_input: courseInput.trim(),
@@ -111,6 +114,11 @@ export async function POST(req: Request) {
       set_count: sets.length,
       is_paid: ent.isPaid,
     });
+    if (insertError) {
+      // The paper was generated — don't fail the request, but the free-credit
+      // counter depends on this row, so log loudly.
+      console.error("generated_papers insert failed:", insertError);
+    }
 
     return NextResponse.json({ coverage: r.coverage, sets, isPaid: ent.isPaid });
   } catch (err) {
