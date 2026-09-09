@@ -1,15 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <defs>
-    <linearGradient id="s" x1="16" y1="16" x2="30" y2="16" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#5b6ef5" stop-opacity="0"/>
-      <stop offset="1" stop-color="#5b6ef5" stop-opacity="0.6"/>
-    </linearGradient>
-  </defs>
-  <circle cx="16" cy="16" r="16" fill="#12121b"/>
-  <circle cx="16" cy="16" r="14" fill="none" stroke="#2f2f3c" stroke-width="1.4"/>
-  <circle cx="16" cy="16" r="8.5" fill="none" stroke="#2f2f3c" stroke-width="1.4"/>
-  <path d="M16 16 L31 16 A15 15 0 0 0 26.6 5.4 Z" fill="url(#s)" transform="rotate(-35 16 16)"/>
-  <line x1="16" y1="16" x2="30" y2="7" stroke="#5b6ef5" stroke-width="2" stroke-linecap="round"/>
-  <circle cx="16" cy="16" r="2.4" fill="#5b6ef5"/>
-  <circle cx="23" cy="11" r="2" fill="#e152ff"/>
+  <rect x="0" y="0" width="32" height="32" rx="8" fill="#5b6ef5"/>
+  <g fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M7 8 L13 16 L7 24"/>
+    <path d="M25 8 L19 16 L25 24"/>
+  </g>
+  <circle cx="16" cy="16" r="2.4" fill="#fff"/>
 </svg>

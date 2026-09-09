@@ -197,6 +197,104 @@
           ]
         }
       ]
+    },
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define univariate and bivariate analysis.",
+              "marks": 2,
+              "topic": "CO2"
+            },
+            {
+              "label": "b",
+              "text": "Why is data pre-processing necessary? What are the different measures to perform cleaning of data?",
+              "marks": 3,
+              "topic": "CO1, CO3"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Contrast and compare supervised and unsupervised machine learning approach.",
+              "marks": 2,
+              "topic": "CO2, CO3"
+            },
+            {
+              "label": "b",
+              "text": "What do you mean by categorical attribute? Illustrate the types of categorical attribute using example.",
+              "marks": 3,
+              "topic": "CO2"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "The following observations are arranged in ascending order. The median of the data is 25. Evaluate the value of x. 17, x, 24, x+7, 35, 36, 46",
+              "marks": 2,
+              "topic": "CO1"
+            },
+            {
+              "label": "b",
+              "text": "Why is data transformation required? Use max-min normalization (in the range of 0 to 1) to normalize the values 200, 300, 400, 600, 1000.",
+              "marks": 3,
+              "topic": "CO1, CO2"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What strategies can be implemented to minimize the overfitting problems in decision tree?",
+              "marks": 2,
+              "topic": "CO2"
+            },
+            {
+              "label": "b",
+              "text": "Why is cost function required in regression? Give mathematical expression of cost function.",
+              "marks": 3,
+              "topic": "CO4"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Why tree pruning is necessary?",
+              "marks": 2,
+              "topic": "CO3"
+            },
+            {
+              "label": "b",
+              "text": "Use the following data set to find the information gain [Info Gain(Age)] for the attribute age. Risk represents the class label [H means ‘High’ and L means ‘Low’], Age : Y is Young, M is Middle Age, S is Senior. ID Age Car Risk 1 M Sports L 2 Y Vintage H 3 M Sports L 4 S SUV H 5 Y Sports H 6 M SUV H",
+              "marks": 3,
+              "topic": "CO3"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

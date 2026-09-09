@@ -126,13 +126,42 @@ html {
 }
 
 body {
-  background-color: var(--color-canvas);
+  /* transparent so the fixed background layers (which sit behind, at z:-1/-2)
+     are not painted over by an opaque body background */
+  background-color: transparent;
   color: var(--color-text);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
-  transition: background-color 0.3s var(--ease-glide), color 0.3s var(--ease-glide);
+  transition: color 0.3s var(--ease-glide);
+}
+
+/* page content always sits above the fixed background layers */
+main {
+  position: relative;
+  z-index: 1;
+}
+
+/* ---- Animated aurora (CSS, always renders even if canvas fails) ---- */
+.aurora {
+  position: fixed;
+  inset: -20%;
+  z-index: -2;
+  pointer-events: none;
+  filter: blur(60px) saturate(1.2);
+  opacity: 0.9;
+  background:
+    radial-gradient(38% 44% at 20% 25%, var(--glow-1), transparent 60%),
+    radial-gradient(36% 40% at 82% 30%, var(--glow-2), transparent 60%),
+    radial-gradient(44% 48% at 50% 88%, var(--glow-3), transparent 62%);
+  background-size: 180% 180%, 170% 170%, 190% 190%;
+  animation: aurora-move 22s ease-in-out infinite alternate;
+}
+@keyframes aurora-move {
+  0%   { background-position: 0% 0%, 100% 0%, 50% 100%; }
+  50%  { background-position: 60% 40%, 30% 60%, 70% 30%; }
+  100% { background-position: 100% 80%, 0% 100%, 20% 60%; }
 }
 
 ::selection {

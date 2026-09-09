@@ -875,5 +875,18 @@
       "RSA key generation"
     ],
     "sessions": 1
+  },
+  {
+    "key": "CSE/IT340 MACHINE LEARNING_OE (MID_MO22).pdf",
+    "code": "IT340",
+    "name": "MACHINE LEARNING",
+    "dept": "CSE",
+    "topics": [
+      "CO1",
+      "CO2",
+      "CO3",
+      "CO4"
+    ],
+    "sessions": 1
   }
 ]
