@@ -137,8 +137,9 @@ export async function POST(req: Request) {
     if (/exhausted|429|rate.?limit|quota|capacity/i.test(msg)) {
       return NextResponse.json(
         {
-          error:
-            "cramBIT's AI is at capacity right now (free-tier limit). Try again in a few minutes.",
+          error: "capacity",
+          message:
+            "cramBIT is at capacity right now — the AI's free daily limit is used up. It resets within a few hours. Your tries aren't spent; come back and generate then.",
         },
         { status: 503 },
       );

@@ -9,7 +9,7 @@ import {
   similarCourses,
   topicFreqFor,
 } from "./data";
-import { chat, parseJson } from "./llm";
+import { chat, chatJson } from "./llm";
 import { analysisPrompt, assemblyPrompt, candidatePoolPrompt } from "./prompts";
 import { validatePaper } from "./validate";
 import {
@@ -106,20 +106,21 @@ export async function buildBlueprint(r: Resolved): Promise<Blueprint> {
   }
 
   const ev = gatherEvidence(r);
-  const raw = await chat({
-    tier: "reason",
-    json: true,
-    maxTokens: 3000,
-    prompt: analysisPrompt({
-      courseName: r.name,
-      syllabus: r.syllabus,
-      coverage: r.coverage,
-      ownPapers: ev.own,
-      borrowedPapers: ev.borrowed,
-      topicFreq: r.code ? topicFreqFor(r.code) : undefined,
-    }),
-  });
-  const blueprint = BlueprintSchema.parse(parseJson<unknown>(raw));
+  const blueprint = await chatJson(
+    {
+      tier: "reason",
+      maxTokens: 3000,
+      prompt: analysisPrompt({
+        courseName: r.name,
+        syllabus: r.syllabus,
+        coverage: r.coverage,
+        ownPapers: ev.own,
+        borrowedPapers: ev.borrowed,
+        topicFreq: r.code ? topicFreqFor(r.code) : undefined,
+      }),
+    },
+    (v) => BlueprintSchema.parse(v),
+  );
 
   await db
     .from("blueprints")
@@ -137,20 +138,20 @@ export async function buildCandidatePool(
   blueprint: Blueprint,
 ): Promise<Candidate[]> {
   const ev = gatherEvidence(r);
-  const raw = await chat({
-    tier: "reason",
-    json: true,
-    maxTokens: 3000,
-    prompt: candidatePoolPrompt({
-      courseName: r.name,
-      syllabus: r.syllabus,
-      blueprint,
-      pastPapers: ev.all,
-    }),
-  });
-  return CandidatePoolSchema.parse(parseJson<unknown>(raw)).candidates.sort(
-    (a, b) => b.probability - a.probability,
+  const pool = await chatJson(
+    {
+      tier: "reason",
+      maxTokens: 3200,
+      prompt: candidatePoolPrompt({
+        courseName: r.name,
+        syllabus: r.syllabus,
+        blueprint,
+        pastPapers: ev.all,
+      }),
+    },
+    (v) => CandidatePoolSchema.parse(v),
   );
+  return pool.candidates.sort((a, b) => b.probability - a.probability);
 }
 
 /* ------------------------------------------ pass 3 + 4: assemble and validate */

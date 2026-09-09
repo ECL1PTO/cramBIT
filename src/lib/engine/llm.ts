@@ -47,18 +47,22 @@ function chainFor(tier: Tier): Attempt[] {
     model,
   });
 
+  // Ordered best → worst for exam-paper prediction. Groq first (fast, strong),
+  // then OpenRouter, then Cerebras. Each slot has its own daily budget.
   if (tier === "reason") {
     return [
-      or("deepseek/deepseek-chat-v3.1:free"),
       groq("openai/gpt-oss-120b"),
-      groq("llama-3.3-70b-versatile"),
+      or("nvidia/nemotron-3-super-120b-a12b:free"),
+      or("nex-agi/nex-n2.5-pro:free"),
+      groq("qwen/qwen3.8-27b"),
+      groq("openai/gpt-oss-20b"),
       cerebras("gpt-oss-120b"),
-      or("meta-llama/llama-3.3-70b-instruct:free"),
+      or("google/gemma-4-31b-it:free"),
     ];
   }
   return [
-    groq("llama-3.1-8b-instant"),
-    or("meta-llama/llama-3.3-70b-instruct:free"),
+    groq("openai/gpt-oss-20b"),
+    or("nex-agi/nex-n2.5-mini:free"),
     groq("qwen/qwen3.8-27b"),
   ];
 }
@@ -74,6 +78,7 @@ interface ChatOpts {
 async function callOpenAICompatible(a: Attempt, o: ChatOpts): Promise<string> {
   const res = await fetch(`${a.base}/chat/completions`, {
     method: "POST",
+    signal: AbortSignal.timeout(45_000),
     headers: {
       Authorization: `Bearer ${a.key}`,
       "Content-Type": "application/json",
@@ -99,36 +104,80 @@ async function callOpenAICompatible(a: Attempt, o: ChatOpts): Promise<string> {
   return text;
 }
 
+/** Plain text — first provider that answers wins. */
 export async function chat(o: ChatOpts): Promise<string> {
   const errors: string[] = [];
-  for (const a of chainFor(o.tier)) {
-    if (!a.key) continue;
+  for (const a of [...chainFor(o.tier), null]) {
     try {
-      return await callOpenAICompatible(a, o);
+      if (a) {
+        if (!a.key) continue;
+        return await callOpenAICompatible(a, o);
+      }
+      return await geminiGenerate({
+        model: o.tier === "reason" ? "gemini-flash-latest" : "gemini-flash-lite-latest",
+        system: o.system,
+        prompt: o.prompt,
+        json: o.json,
+        maxOutputTokens: o.maxTokens,
+      });
     } catch (err) {
       errors.push(err instanceof Error ? err.message : String(err));
     }
   }
+  throw new Error(`All LLM providers exhausted: ${errors.join(" | ")}`);
+}
 
-  try {
-    return await geminiGenerate({
-      model: o.tier === "reason" ? "gemini-flash-latest" : "gemini-flash-lite-latest",
-      system: o.system,
-      prompt: o.prompt,
-      json: o.json,
-      maxOutputTokens: o.maxTokens,
-    });
-  } catch (err) {
-    errors.push(err instanceof Error ? err.message : String(err));
-    throw new Error(`All LLM providers exhausted: ${errors.join(" | ")}`);
+/**
+ * JSON with validation — walks the provider chain until one returns output that
+ * both parses AND passes `validate`. Bad JSON from a free model just moves on.
+ */
+export async function chatJson<T>(
+  o: ChatOpts,
+  validate: (v: unknown) => T,
+): Promise<T> {
+  const errors: string[] = [];
+  const attempts = [...chainFor(o.tier), null];
+  for (const a of attempts) {
+    try {
+      let raw: string;
+      if (a) {
+        if (!a.key) continue;
+        raw = await callOpenAICompatible(a, { ...o, json: true });
+      } else {
+        raw = await geminiGenerate({
+          model: o.tier === "reason" ? "gemini-flash-latest" : "gemini-flash-lite-latest",
+          system: o.system,
+          prompt: o.prompt,
+          json: true,
+          maxOutputTokens: o.maxTokens,
+        });
+      }
+      return validate(parseJson<unknown>(raw));
+    } catch (err) {
+      errors.push(`${a ? a.provider + "/" + a.model : "gemini"}: ${err instanceof Error ? err.message : err}`);
+    }
   }
+  throw new Error(`No provider produced valid JSON: ${errors.join(" | ")}`);
 }
 
 export function parseJson<T>(raw: string): T {
-  const cleaned = raw
-    .trim()
-    .replace(/^```(?:json)?/i, "")
-    .replace(/```$/, "")
-    .trim();
-  return JSON.parse(cleaned) as T;
+  const s = raw.trim().replace(/^```(?:json)?/i, "").replace(/```\s*$/, "").trim();
+  try {
+    return JSON.parse(s) as T;
+  } catch {
+    // Free models sometimes wrap JSON in prose or trailing reasoning. Pull the
+    // outermost balanced {...} or [...] and parse that.
+    const open = s.search(/[{[]/);
+    if (open === -1) throw new Error("no JSON in response");
+    const openCh = s[open];
+    const closeCh = openCh === "{" ? "}" : "]";
+    let depth = 0;
+    for (let i = open; i < s.length; i++) {
+      if (s[i] === openCh) depth++;
+      else if (s[i] === closeCh && --depth === 0) {
+        return JSON.parse(s.slice(open, i + 1)) as T;
+      }
+    }
+    throw new Error("unbalanced JSON in response");
+  }
 }

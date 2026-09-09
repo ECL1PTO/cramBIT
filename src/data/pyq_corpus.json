@@ -990,5 +990,43 @@
       "Pragmatic analysis"
     ],
     "sessions": 1
+  },
+  {
+    "key": "CSE/IT423 INTERNET OF THINGS (MID_MO22).pdf",
+    "code": "IT423",
+    "name": "INTERNET OF THINGS",
+    "dept": "CSE",
+    "topics": [
+      "definition",
+      "OS resources",
+      "renewable power",
+      "IoT platform devices",
+      "sensors",
+      "Data link layer",
+      "MANET",
+      "topologies",
+      "working process",
+      "ZigBee and WiFi"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/IT423 INTERNET OF THINGS_OE (MID_MO22).pdf",
+    "code": "IT423",
+    "name": "INTERNET OF THINGS",
+    "dept": "CSE",
+    "topics": [
+      "IoT definition",
+      "IoT architecture",
+      "IoT operating systems",
+      "IoT device characteristics",
+      "IoT interfaces",
+      "IoT data link protocols",
+      "IoT communication modes",
+      "IoT network types",
+      "Bluetooth",
+      "ZigBee"
+    ],
+    "sessions": 1
   }
 ]

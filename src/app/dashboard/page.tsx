@@ -137,7 +137,7 @@ export default function Dashboard() {
       }
       if (!planRes.ok) {
         setPhase("idle");
-        return setError(plan.error ?? "Could not start.");
+        return setError(planRes.status === 503 ? (plan.message ?? plan.error) : (plan.error ?? "Could not start."));
       }
 
       setCoverage(plan.coverage);
@@ -158,7 +158,7 @@ export default function Dashboard() {
       const pool = await poolRes.json();
       if (!poolRes.ok) {
         setPhase("idle");
-        return setError(pool.error ?? "Could not rank questions.");
+        return setError(poolRes.status === 503 ? (pool.message ?? pool.error) : (pool.error ?? "Could not rank questions."));
       }
       await hold(t1, 1800);
 
@@ -178,7 +178,7 @@ export default function Dashboard() {
             reason: written.error,
           });
         if (writeRes.status === 428) return setNeedAck(true);
-        return setError(written.error ?? "Generation failed.");
+        return setError(writeRes.status === 503 ? (written.message ?? written.error) : (written.error ?? "Generation failed."));
       }
       setSets(written.sets ?? []);
       setIsPaid(Boolean(written.isPaid));

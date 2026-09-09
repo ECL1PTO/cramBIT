@@ -15,6 +15,202 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH.   SEMESTER: VII\nBRANCH: ECE & EEE   SESSION:MO/2022\n\nSUBJECT: IT423 INTERNET OF THINGS\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data handbook/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a) Explain the term “Internet of Things” and the factors affecting its growth.  [2] 1 2\nQ1 (b) Draw a neat sketch of the layered IoT Reference Architecture Model mentioning\nthe different functions associated with each layer.\n[3] 1 3\n\n\nQ2 (a) Discuss the different types of Operating Systems that can be used for IoT Devices. [2] 2 2\nQ2 (b) Explain  some  common  characteristics  of  an  IoT  Device  and differentiate\nbetween Basic and Advanced Devices.\n[3] 2 4\n\n\nQ3 (a) Using a block diagram explain different interfaces and connectivity options of an\nIoT Device.\n[2] 2 3\nQ3 (b) Explain some of the Data Link Layer protocols used for IoT. [3] 3 2\n\n\nQ4 (a) Explain the different types of communication modes supported in IoT. [2] 3 2\nQ4 (b) Differentiate between  WPAN, WLAN, WNAN and WWAN. Mention some  of the\nprotocols used for each of them.\n[3] 3 4\n\n\nQ5 (a) What is meant by the term “Blue Tooth” and briefly explain its working.  [2] 3 2\nQ5 (b) Briefly discuss concepts of Zig Bee protocol and explore how it can be used for\nbuilding IoT based Home Automation Application.\n[3] 3 4\n\n\n\n :::::: 01/10/2022 ::::::M"
+    },
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is Internet of Things? Write about it in brief.",
+              "marks": 2,
+              "topic": "definition"
+            },
+            {
+              "label": "b",
+              "text": "How does Operating system help to maintain resources constraint in IoT platform? Explain it.",
+              "marks": 3,
+              "topic": "OS resources"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is renewable power source? Write its applications.",
+              "marks": 2,
+              "topic": "renewable power"
+            },
+            {
+              "label": "b",
+              "text": "Briefly discuss about the platform of IoT devices with examples.",
+              "marks": 3,
+              "topic": "IoT platform devices"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define different sensors with its applications.",
+              "marks": 2,
+              "topic": "sensors"
+            },
+            {
+              "label": "b",
+              "text": "Write the role of Data link layer in IoT with a diagram.",
+              "marks": 3,
+              "topic": "Data link layer"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is MANET ? Explain briefly with a suitable diagram.",
+              "marks": 2,
+              "topic": "MANET"
+            },
+            {
+              "label": "b",
+              "text": "Write in brief about topologies of Internet of Things.",
+              "marks": 3,
+              "topic": "topologies"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Briefly explain the working process of IoT with a diagram.",
+              "marks": 2,
+              "topic": "working process"
+            },
+            {
+              "label": "b",
+              "text": "Write short notes on a. ZigBee b. WiFi",
+              "marks": 3,
+              "topic": "ZigBee and WiFi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the term “Internet of Things” and the factors affecting its growth.",
+              "marks": 2,
+              "topic": "IoT definition"
+            },
+            {
+              "label": "b",
+              "text": "Draw a neat sketch of the layered IoT Reference Architecture Model mentioning the different functions associated with each layer.",
+              "marks": 3,
+              "topic": "IoT architecture"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Discuss the different types of Operating Systems that can be used for IoT Devices.",
+              "marks": 2,
+              "topic": "IoT operating systems"
+            },
+            {
+              "label": "b",
+              "text": "Explain some common characteristics of an IoT Device and differentiate between Basic and Advanced Devices.",
+              "marks": 3,
+              "topic": "IoT device characteristics"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Using a block diagram explain different interfaces and connectivity options of an IoT Device.",
+              "marks": 2,
+              "topic": "IoT interfaces"
+            },
+            {
+              "label": "b",
+              "text": "Explain some of the Data Link Layer protocols used for IoT.",
+              "marks": 3,
+              "topic": "IoT data link protocols"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the different types of communication modes supported in IoT.",
+              "marks": 2,
+              "topic": "IoT communication modes"
+            },
+            {
+              "label": "b",
+              "text": "Differentiate between WPAN, WLAN, WNAN and WWAN. Mention some of the protocols used for each of them.",
+              "marks": 3,
+              "topic": "IoT network types"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is meant by the term “Blue Tooth” and briefly explain its working.",
+              "marks": 2,
+              "topic": "Bluetooth"
+            },
+            {
+              "label": "b",
+              "text": "Briefly discuss concepts of Zig Bee protocol and explore how it can be used for building IoT based Home Automation Application.",
+              "marks": 3,
+              "topic": "ZigBee"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
