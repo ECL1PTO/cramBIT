@@ -26836,5 +26836,4469 @@
     "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2020%20QP/ME6007%20DESIGN%20OF%20MECHANICAL%20SYSTEMS%20(MID_SP20).pdf",
     "downloaded": true,
     "bytes": 346196
+  },
+  "Pharmacy/BP401T PHARMACEUTICAL ORGANIC CHEMISTRY III (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "BP401T PHARMACEUTICAL ORGANIC CHEMISTRY III (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/BP401T%20PHARMACEUTICAL%20ORGANIC%20CHEMISTRY%20III%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 365946
+  },
+  "Pharmacy/BP402T MEDICINAL CHEMISTRY I (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "BP402T MEDICINAL CHEMISTRY I (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/BP402T%20MEDICINAL%20CHEMISTRY%20I%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 323737
+  },
+  "Pharmacy/BP403T PHYSICAL PHARMACEUTICS II (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "BP403T PHYSICAL PHARMACEUTICS II (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/BP403T%20PHYSICAL%20PHARMACEUTICS%20II%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 249317
+  },
+  "Pharmacy/BP404T PHARMACOLOGY-I (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "BP404T PHARMACOLOGY-I (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/BP404T%20PHARMACOLOGY-I%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 260455
+  },
+  "Pharmacy/BP405T PHARMACOGNOSY AND PHYTOCHEMISTRY I (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "BP405T PHARMACOGNOSY AND PHYTOCHEMISTRY I (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/BP405T%20PHARMACOGNOSY%20AND%20PHYTOCHEMISTRY%20I%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 310203
+  },
+  "Pharmacy/BP601T MEDICINAL CHEMISTRY III (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "BP601T MEDICINAL CHEMISTRY III (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/BP601T%20MEDICINAL%20CHEMISTRY%20III%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 332500
+  },
+  "Pharmacy/BP602T PHARMACOLOGY - III (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "BP602T PHARMACOLOGY - III (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/BP602T%20PHARMACOLOGY%20-%20III%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 249152
+  },
+  "Pharmacy/BP603T HERBAL DRUG TECHNOLOGY (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "BP603T HERBAL DRUG TECHNOLOGY (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/BP603T%20HERBAL%20DRUG%20TECHNOLOGY%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 241463
+  },
+  "Pharmacy/BP604T BIOPHARMACEUTICS AND PHARMACOKINETICS (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "BP604T BIOPHARMACEUTICS AND PHARMACOKINETICS (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/BP604T%20BIOPHARMACEUTICS%20AND%20PHARMACOKINETICS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 249894
+  },
+  "Pharmacy/BP605T PHARMACEUTICAL BIOTECHNOLOGY (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "BP605T PHARMACEUTICAL BIOTECHNOLOGY (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/BP605T%20PHARMACEUTICAL%20BIOTECHNOLOGY%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 243796
+  },
+  "Pharmacy/BP606T PHARMACEUTICAL QUALITY ASSURANCE (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "BP606T PHARMACEUTICAL QUALITY ASSURANCE (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/BP606T%20PHARMACEUTICAL%20QUALITY%20ASSURANCE%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 246890
+  },
+  "Pharmacy/BP801T BIOSTATISTICS AND RESEARCH METHODOLOGY (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "BP801T BIOSTATISTICS AND RESEARCH METHODOLOGY (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/BP801T%20BIOSTATISTICS%20AND%20RESEARCH%20METHODOLOGY%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 202007
+  },
+  "Pharmacy/BP802T SOCIAL AND PREVENTIVE PHARMACY (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "BP802T SOCIAL AND PREVENTIVE PHARMACY (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/BP802T%20SOCIAL%20AND%20PREVENTIVE%20PHARMACY%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 154520
+  },
+  "Pharmacy/BP803ET PHARMACEUTICAL MARKETING MANAGEMENT (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "BP803ET PHARMACEUTICAL MARKETING MANAGEMENT (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/BP803ET%20PHARMACEUTICAL%20MARKETING%20MANAGEMENT%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 253723
+  },
+  "Pharmacy/BP805ET PHARMACIVIGILANCE (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "BP805ET PHARMACIVIGILANCE (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/BP805ET%20PHARMACIVIGILANCE%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 244411
+  },
+  "Pharmacy/MPC201T ADVANCED SPECTRAL ANALYSIS (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "MPC201T ADVANCED SPECTRAL ANALYSIS (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MPC201T%20ADVANCED%20SPECTRAL%20ANALYSIS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 622098
+  },
+  "Pharmacy/MPC202T ADVANCED ORGANIC CHEMISTRY II (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "MPC202T ADVANCED ORGANIC CHEMISTRY II (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MPC202T%20ADVANCED%20ORGANIC%20CHEMISTRY%20II%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 240649
+  },
+  "Pharmacy/MPC203T COMPUTER AIDED DRUG DESIGN (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "MPC203T COMPUTER AIDED DRUG DESIGN (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MPC203T%20COMPUTER%20AIDED%20DRUG%20DESIGN%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 173725
+  },
+  "Pharmacy/MPC204T PHARMACEUTICAL PROCESS CHEMISTRY (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "MPC204T PHARMACEUTICAL PROCESS CHEMISTRY (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MPC204T%20PHARMACEUTICAL%20PROCESS%20CHEMISTRY%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 225724
+  },
+  "Pharmacy/MPG201T MEDICINAL PLANT BIOTECHNOLOGY (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "MPG201T MEDICINAL PLANT BIOTECHNOLOGY (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MPG201T%20MEDICINAL%20PLANT%20BIOTECHNOLOGY%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 238084
+  },
+  "Pharmacy/MPG202T ADVANCED PHARMACOGNOSY (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "MPG202T ADVANCED PHARMACOGNOSY (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MPG202T%20ADVANCED%20PHARMACOGNOSY%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 454800
+  },
+  "Pharmacy/MPG203T INDIAN SYSTEM OF MEDICINE (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "MPG203T INDIAN SYSTEM OF MEDICINE (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MPG203T%20INDIAN%20SYSTEM%20OF%20MEDICINE%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 238370
+  },
+  "Pharmacy/MPG204T HERBAL COSMETICS (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "MPG204T HERBAL COSMETICS (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MPG204T%20HERBAL%20COSMETICS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 237302
+  },
+  "Pharmacy/MPH201T MOLECULAR PHARMACEUTICS (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH201T MOLECULAR PHARMACEUTICS (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MPH201T%20MOLECULAR%20PHARMACEUTICS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 170732
+  },
+  "Pharmacy/MPH202T ADVANCED BIOPHARMACEUTICS & PHARMACOKINETICS (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH202T ADVANCED BIOPHARMACEUTICS & PHARMACOKINETICS (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MPH202T%20ADVANCED%20BIOPHARMACEUTICS%20%26%20PHARMACOKINETICS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 176658
+  },
+  "Pharmacy/MPH203T COMPUTER AIDED DRUG DELIVERY SYSTEMS (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH203T COMPUTER AIDED DRUG DELIVERY SYSTEMS (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MPH203T%20COMPUTER%20AIDED%20DRUG%20DELIVERY%20SYSTEMS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 243761
+  },
+  "Pharmacy/MPH204T COSMETIC AND COSMECEUTICALS (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH204T COSMETIC AND COSMECEUTICALS (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MPH204T%20COSMETIC%20AND%20COSMECEUTICALS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 242763
+  },
+  "Pharmacy/MPL201T ADVANCED PHARMACOLOGY-II (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "MPL201T ADVANCED PHARMACOLOGY-II (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MPL201T%20ADVANCED%20PHARMACOLOGY-II%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 269410
+  },
+  "Pharmacy/MPL202T PHARMA_ & TOXICOLOGICAL SCREENING METHODS - II (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "MPL202T PHARMA_ & TOXICOLOGICAL SCREENING METHODS - II (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MPL202T%20PHARMA_%20%26%20TOXICOLOGICAL%20SCREENING%20METHODS%20-%20II%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 174174
+  },
+  "Pharmacy/MPL203T PRINCIPLES OF DRUG DISCOVERY (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "MPL203T PRINCIPLES OF DRUG DISCOVERY (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MPL203T%20PRINCIPLES%20OF%20DRUG%20DISCOVERY%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 174336
+  },
+  "Pharmacy/MPL204T CLINICAL RESEARCH & PHARMACOVIGILANCE (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "MPL204T CLINICAL RESEARCH & PHARMACOVIGILANCE (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MPL204T%20CLINICAL%20RESEARCH%20%26%20PHARMACOVIGILANCE%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 174701
+  },
+  "Pharmacy/MQA201T HAZARDS & SAFETY MANAGEMENT (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "MQA201T HAZARDS & SAFETY MANAGEMENT (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MQA201T%20HAZARDS%20%26%20SAFETY%20MANAGEMENT%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 241689
+  },
+  "Pharmacy/MQA202T PHARMACEUTICAL VALIDATION (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "MQA202T PHARMACEUTICAL VALIDATION (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MQA202T%20PHARMACEUTICAL%20VALIDATION%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 244008
+  },
+  "Pharmacy/MQA203T AUDITS & REGULATORY COMPLIANCE (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "MQA203T AUDITS & REGULATORY COMPLIANCE (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MQA203T%20AUDITS%20%26%20REGULATORY%20COMPLIANCE%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 171739
+  },
+  "Pharmacy/MQA204T PHARMACEUTICAL MANUFACTURING TECHNOLOGY (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "MQA204T PHARMACEUTICAL MANUFACTURING TECHNOLOGY (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MQA204T%20PHARMACEUTICAL%20MANUFACTURING%20TECHNOLOGY%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 170802
+  },
+  "Pharmacy/MRM301T RESEARCH METHODOLOGY & BIOSTATISTICS (END_SP23).pdf": {
+    "dept": "Pharmacy",
+    "name": "MRM301T RESEARCH METHODOLOGY & BIOSTATISTICS (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/MRM301T%20RESEARCH%20METHODOLOGY%20%26%20BIOSTATISTICS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 242955
+  },
+  "Pharmacy/BP201T.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP201T.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP201T.pdf",
+    "downloaded": true,
+    "bytes": 316887
+  },
+  "Pharmacy/BP101T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP101T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP101T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 242540
+  },
+  "Pharmacy/BP202T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP202T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP202T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 316018
+  },
+  "Pharmacy/BP102T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP102T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP102T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 332782
+  },
+  "Pharmacy/BP203T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP203T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP203T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 310875
+  },
+  "Pharmacy/BP103T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP103T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP103T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 178810
+  },
+  "Pharmacy/BP204T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP204T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP204T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 243323
+  },
+  "Pharmacy/BP104T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP104T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP104T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 247857
+  },
+  "Pharmacy/BP205T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP205T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP205T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 272702
+  },
+  "Pharmacy/BP105T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP105T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP105T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 261287
+  },
+  "Pharmacy/BP206T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP206T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP206T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 335550
+  },
+  "Pharmacy/BP106RBT_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP106RBT_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP106RBT_MO22.pdf",
+    "downloaded": true,
+    "bytes": 263525
+  },
+  "Pharmacy/BP401T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP401T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP401T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 351286
+  },
+  "Pharmacy/BP106RMT_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP106RMT_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP106RMT_MO22.pdf",
+    "downloaded": true,
+    "bytes": 300561
+  },
+  "Pharmacy/BP402T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP402T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP402T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 249780
+  },
+  "Pharmacy/BP301T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP301T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP301T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 247221
+  },
+  "Pharmacy/BP403T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP403T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP403T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 447004
+  },
+  "Pharmacy/BP302T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP302T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP302T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 321514
+  },
+  "Pharmacy/BP404T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP404T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP404T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 107812
+  },
+  "Pharmacy/BP303T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP303T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP303T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 179405
+  },
+  "Pharmacy/BP405T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP405T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP405T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 240626
+  },
+  "Pharmacy/BP304T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP304T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP304T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 275799
+  },
+  "Pharmacy/BP601T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP601T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP601T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 84141
+  },
+  "Pharmacy/BP501T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP501T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP501T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 250424
+  },
+  "Pharmacy/BP602T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP602T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP602T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 364425
+  },
+  "Pharmacy/BP502T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP502T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP502T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 189139
+  },
+  "Pharmacy/BP603T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP603T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP603T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 353031
+  },
+  "Pharmacy/BP503T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP503T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP503T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 179251
+  },
+  "Pharmacy/BP604T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP604T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP604T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 290674
+  },
+  "Pharmacy/BP504T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP504T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP504T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 234807
+  },
+  "Pharmacy/BP605T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP605T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP605T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 188839
+  },
+  "Pharmacy/BP505T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP505T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP505T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 314421
+  },
+  "Pharmacy/BP606T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP606T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP606T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 126255
+  },
+  "Pharmacy/BP701T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP701T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP701T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 342147
+  },
+  "Pharmacy/BP801T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP801T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP801T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 284332
+  },
+  "Pharmacy/BP702T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP702T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP702T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 250494
+  },
+  "Pharmacy/BP802T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP802T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP802T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 249070
+  },
+  "Pharmacy/BP703T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP703T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP703T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 244862
+  },
+  "Pharmacy/BP803ET_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP803ET_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP803ET_SP22.pdf",
+    "downloaded": true,
+    "bytes": 259761
+  },
+  "Pharmacy/BP704T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP704T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP704T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 282232
+  },
+  "Pharmacy/BP808ET_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP808ET_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP808ET_SP22.pdf",
+    "downloaded": true,
+    "bytes": 424483
+  },
+  "Pharmacy/MPC101T_MPG101T_MPH101T_MPL101T_MQA101T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPC101T_MPG101T_MPH101T_MPL101T_MQA101T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPC101T_MPG101T_MPH101T_MPL101T_MQA101T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 241214
+  },
+  "Pharmacy/MPC201T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPC201T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPC201T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 129312
+  },
+  "Pharmacy/MPC102T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPC102T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPC102T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 173571
+  },
+  "Pharmacy/MPC202T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPC202T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPC202T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 241957
+  },
+  "Pharmacy/MPC103T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPC103T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPC103T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 172913
+  },
+  "Pharmacy/MPC203T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPC203T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPC203T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 188864
+  },
+  "Pharmacy/MPC104T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPC104T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPC104T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 108299
+  },
+  "Pharmacy/MPC204T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPC204T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPC204T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 62496
+  },
+  "Pharmacy/MPG102T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPG102T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPG102T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 173998
+  },
+  "Pharmacy/MPG201T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPG201T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPG201T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 196946
+  },
+  "Pharmacy/MPG103T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPG103T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPG103T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 194441
+  },
+  "Pharmacy/MPG202T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPG202T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPG202T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 198172
+  },
+  "Pharmacy/MPG104T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPG104T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPG104T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 313152
+  },
+  "Pharmacy/MPG203T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPG203T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPG203T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 165552
+  },
+  "Pharmacy/MPH102T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH102T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPH102T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 240217
+  },
+  "Pharmacy/MPG204T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPG204T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPG204T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 208462
+  },
+  "Pharmacy/MPH103T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH103T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPH103T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 177043
+  },
+  "Pharmacy/MPH201T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH201T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPH201T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 274350
+  },
+  "Pharmacy/MPH104T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH104T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPH104T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 238509
+  },
+  "Pharmacy/MPH202T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH202T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPH202T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 207647
+  },
+  "Pharmacy/MPL102T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPL102T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPL102T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 174155
+  },
+  "Pharmacy/MPH203T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH203T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPH203T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 279851
+  },
+  "Pharmacy/MPL103T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPL103T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPL103T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 171267
+  },
+  "Pharmacy/MPH204T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH204T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPH204T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 521004
+  },
+  "Pharmacy/MPL104T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPL104T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPL104T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 172193
+  },
+  "Pharmacy/MPL201T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPL201T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPL201T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 385319
+  },
+  "Pharmacy/MQA102T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MQA102T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MQA102T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 171392
+  },
+  "Pharmacy/MPL202T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPL202T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPL202T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 410937
+  },
+  "Pharmacy/MQA103T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MQA103T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MQA103T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 173518
+  },
+  "Pharmacy/MPL203T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPL203T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPL203T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 188210
+  },
+  "Pharmacy/MQA104T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MQA104T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MQA104T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 173101
+  },
+  "Pharmacy/MPL204T_SP22(2).pdf": {
+    "dept": "Pharmacy",
+    "name": "MPL204T_SP22(2).pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPL204T_SP22(2).pdf",
+    "downloaded": true,
+    "bytes": 268470
+  },
+  "Pharmacy/MRM301T_MO22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MRM301T_MO22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MRM301T_MO22.pdf",
+    "downloaded": true,
+    "bytes": 270815
+  },
+  "Pharmacy/MQA201T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MQA201T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MQA201T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 74854
+  },
+  "Pharmacy/MQA202T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MQA202T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MQA202T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 458744
+  },
+  "Pharmacy/MQA203T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MQA203T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MQA203T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 450447
+  },
+  "Pharmacy/MQA204T_SP22.pdf": {
+    "dept": "Pharmacy",
+    "name": "MQA204T_SP22.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MQA204T_SP22.pdf",
+    "downloaded": true,
+    "bytes": 246188
+  },
+  "Pharmacy/BP101T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP101T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP101T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 313351
+  },
+  "Pharmacy/BP201T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP201T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP201T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 243600
+  },
+  "Pharmacy/BP102T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP102T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP102T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 313244
+  },
+  "Pharmacy/BP202T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP202T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP202T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 311866
+  },
+  "Pharmacy/BP103T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP103T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP103T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 314170
+  },
+  "Pharmacy/BP203T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP203T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP203T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 312284
+  },
+  "Pharmacy/BP104T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP104T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP104T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 444852
+  },
+  "Pharmacy/BP204T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP204T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP204T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 314897
+  },
+  "Pharmacy/BP105T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP105T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP105T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 327639
+  },
+  "Pharmacy/BP205T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP205T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP205T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 315462
+  },
+  "Pharmacy/BP106RBT_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP106RBT_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP106RBT_MO19.pdf",
+    "downloaded": true,
+    "bytes": 373808
+  },
+  "Pharmacy/BP206T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP206T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP206T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 265677
+  },
+  "Pharmacy/BP106RMT_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP106RMT_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP106RMT_MO19.pdf",
+    "downloaded": true,
+    "bytes": 412461
+  },
+  "Pharmacy/BP401T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP401T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP401T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 315031
+  },
+  "Pharmacy/BP301T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP301T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP301T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 315196
+  },
+  "Pharmacy/BP402T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP402T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP402T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 325815
+  },
+  "Pharmacy/BP302T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP302T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP302T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 317083
+  },
+  "Pharmacy/BP403T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP403T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP403T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 327752
+  },
+  "Pharmacy/BP303T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP303T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP303T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 245559
+  },
+  "Pharmacy/BP404T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP404T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP404T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 311148
+  },
+  "Pharmacy/BP304T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP304T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP304T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 323735
+  },
+  "Pharmacy/BP405T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP405T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP405T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 311160
+  },
+  "Pharmacy/BP501T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP501T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP501T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 342909
+  },
+  "Pharmacy/MPC201T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPC201T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPC201T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 339954
+  },
+  "Pharmacy/BP502T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP502T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP502T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 180250
+  },
+  "Pharmacy/MPC202T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPC202T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPC202T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 445865
+  },
+  "Pharmacy/BP503T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP503T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP503T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 358181
+  },
+  "Pharmacy/MPC203T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPC203T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPC203T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 266854
+  },
+  "Pharmacy/BP504T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP504T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP504T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 346152
+  },
+  "Pharmacy/MPC204T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPC204T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPC204T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 299690
+  },
+  "Pharmacy/BP505T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP505T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP505T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 313396
+  },
+  "Pharmacy/MPG201T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPG201T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPG201T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 525615
+  },
+  "Pharmacy/MPC102T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPC102T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPC102T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 267123
+  },
+  "Pharmacy/MPG202T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPG202T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPG202T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 643479
+  },
+  "Pharmacy/MPC103T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPC103T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPC103T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 265654
+  },
+  "Pharmacy/MPG203T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPG203T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPG203T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 535116
+  },
+  "Pharmacy/MPC104T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPC104T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPC104T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 463367
+  },
+  "Pharmacy/MPG204T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPG204T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPG204T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 264675
+  },
+  "Pharmacy/MPG102T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPG102T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPG102T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 335905
+  },
+  "Pharmacy/MPH201T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH201T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPH201T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 337026
+  },
+  "Pharmacy/MPG103T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPG103T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPG103T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 263600
+  },
+  "Pharmacy/MPH202T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH202T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPH202T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 369947
+  },
+  "Pharmacy/MPG104T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPG104T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPG104T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 268168
+  },
+  "Pharmacy/MPH203T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH203T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPH203T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 372495
+  },
+  "Pharmacy/MPH101T_MPC101T_MPL101T_MQA101T_MPG101T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH101T_MPC101T_MPL101T_MQA101T_MPG101T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPH101T_MPC101T_MPL101T_MQA101T_MPG101T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 524614
+  },
+  "Pharmacy/MPH204T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH204T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPH204T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 267836
+  },
+  "Pharmacy/MPH102T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH102T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPH102T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 338754
+  },
+  "Pharmacy/MPL201T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPL201T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPL201T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 366193
+  },
+  "Pharmacy/MPH103T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH103T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPH103T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 278117
+  },
+  "Pharmacy/MPL202T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPL202T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPL202T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 269646
+  },
+  "Pharmacy/MPH104T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH104T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPH104T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 452902
+  },
+  "Pharmacy/MPL203T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPL203T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPL203T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 266956
+  },
+  "Pharmacy/MPL102T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPL102T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPL102T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 270010
+  },
+  "Pharmacy/MPL204T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPL204T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPL204T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 265445
+  },
+  "Pharmacy/MPL103T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPL103T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPL103T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 266390
+  },
+  "Pharmacy/MQA201T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MQA201T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MQA201T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 268928
+  },
+  "Pharmacy/MPL104T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPL104T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MPL104T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 270376
+  },
+  "Pharmacy/MQA202T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MQA202T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MQA202T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 450392
+  },
+  "Pharmacy/MQA102T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MQA102T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MQA102T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 267780
+  },
+  "Pharmacy/MQA203T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MQA203T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MQA203T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 266466
+  },
+  "Pharmacy/MQA103T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MQA103T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MQA103T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 266870
+  },
+  "Pharmacy/MQA204T_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MQA204T_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MQA204T_SP19.pdf",
+    "downloaded": true,
+    "bytes": 447856
+  },
+  "Pharmacy/MQA104T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MQA104T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MQA104T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 268355
+  },
+  "Pharmacy/PS6401_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS6401_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PS6401_SP19.pdf",
+    "downloaded": true,
+    "bytes": 447775
+  },
+  "Pharmacy/MRM301T_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "MRM301T_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MRM301T_MO19.pdf",
+    "downloaded": true,
+    "bytes": 353194
+  },
+  "Pharmacy/PS6403_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS6403_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PS6403_SP19.pdf",
+    "downloaded": true,
+    "bytes": 201307
+  },
+  "Pharmacy/PS7401_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS7401_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PS7401_MO19.pdf",
+    "downloaded": true,
+    "bytes": 411668
+  },
+  "Pharmacy/PS6405_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS6405_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PS6405_SP19.pdf",
+    "downloaded": true,
+    "bytes": 200588
+  },
+  "Pharmacy/PS7403_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS7403_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PS7403_MO19.pdf",
+    "downloaded": true,
+    "bytes": 308401
+  },
+  "Pharmacy/PS6407_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS6407_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PS6407_SP19.pdf",
+    "downloaded": true,
+    "bytes": 269896
+  },
+  "Pharmacy/PS7405_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS7405_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PS7405_MO19.pdf",
+    "downloaded": true,
+    "bytes": 266696
+  },
+  "Pharmacy/PS8403_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS8403_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PS8403_SP19.pdf",
+    "downloaded": true,
+    "bytes": 271966
+  },
+  "Pharmacy/PS7407_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS7407_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PS7407_MO19.pdf",
+    "downloaded": true,
+    "bytes": 269716
+  },
+  "Pharmacy/PS8405_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS8405_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PS8405_SP19.pdf",
+    "downloaded": true,
+    "bytes": 270375
+  },
+  "Pharmacy/PS7411_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS7411_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PS7411_MO19.pdf",
+    "downloaded": true,
+    "bytes": 265053
+  },
+  "Pharmacy/PS8407_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS8407_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PS8407_SP19.pdf",
+    "downloaded": true,
+    "bytes": 268672
+  },
+  "Pharmacy/PS7413_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS7413_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PS7413_MO19.pdf",
+    "downloaded": true,
+    "bytes": 267001
+  },
+  "Pharmacy/PS8413_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS8413_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PS8413_SP19.pdf",
+    "downloaded": true,
+    "bytes": 493496
+  },
+  "Pharmacy/PS7415_MO19.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS7415_MO19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PS7415_MO19.pdf",
+    "downloaded": true,
+    "bytes": 266267
+  },
+  "Pharmacy/PSB601_SP19.pdf": {
+    "dept": "Pharmacy",
+    "name": "PSB601_SP19.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PSB601_SP19.pdf",
+    "downloaded": true,
+    "bytes": 202664
+  },
+  "Pharmacy/BP101T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP101T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP101T_MO18.pdf",
+    "downloaded": true,
+    "bytes": 313798
+  },
+  "Pharmacy/BP2001_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP2001_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/BP2001_SP18.pdf",
+    "downloaded": true,
+    "bytes": 197622
+  },
+  "Pharmacy/BP102T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP102T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP102T_MO18.pdf",
+    "downloaded": true,
+    "bytes": 333039
+  },
+  "Pharmacy/BP2003_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP2003_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/BP2003_SP18.pdf",
+    "downloaded": true,
+    "bytes": 199556
+  },
+  "Pharmacy/BP103T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP103T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP103T_MO18.pdf",
+    "downloaded": true,
+    "bytes": 313968
+  },
+  "Pharmacy/BP2005_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP2005_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/BP2005_SP18.pdf",
+    "downloaded": true,
+    "bytes": 268385
+  },
+  "Pharmacy/BP104T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP104T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP104T_MO18.pdf",
+    "downloaded": true,
+    "bytes": 311263
+  },
+  "Pharmacy/BP2007_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP2007_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/BP2007_SP18.pdf",
+    "downloaded": true,
+    "bytes": 203133
+  },
+  "Pharmacy/BP301T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP301T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP301T_MO18.pdf",
+    "downloaded": true,
+    "bytes": 346674
+  },
+  "Pharmacy/BP2009_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP2009_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/BP2009_SP18.pdf",
+    "downloaded": true,
+    "bytes": 276350
+  },
+  "Pharmacy/BP302T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP302T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/BP302T_MO18.pdf",
+    "downloaded": true,
+    "bytes": 277912
+  },
+  "Pharmacy/MPH2001_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH2001_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/MPH2001_SP18.pdf",
+    "downloaded": true,
+    "bytes": 339379
+  },
+  "Pharmacy/BP303T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP303T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/BP303T_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/MPH2003_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH2003_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/MPH2003_SP18.pdf",
+    "downloaded": true,
+    "bytes": 230578
+  },
+  "Pharmacy/BP304T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "BP304T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/BP304T_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/MPH2005_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH2005_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/MPH2005_SP18.pdf",
+    "downloaded": true,
+    "bytes": 298948
+  },
+  "Pharmacy/MPC102T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPC102T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/MPC102T_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/MPH2007_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH2007_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/MPH2007_SP18.pdf",
+    "downloaded": true,
+    "bytes": 198335
+  },
+  "Pharmacy/MPC103T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPC103T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/MPC103T_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/MPH2011_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH2011_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/MPH2011_SP18.pdf",
+    "downloaded": true,
+    "bytes": 715772
+  },
+  "Pharmacy/MPC104T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPC104T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/MPC104T_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/MPH2013_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH2013_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/MPH2013_SP18.pdf",
+    "downloaded": true,
+    "bytes": 265678
+  },
+  "Pharmacy/MPG102T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPG102T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/MPG102T_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/MPH2015_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH2015_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/MPH2015_SP18.pdf",
+    "downloaded": true,
+    "bytes": 302789
+  },
+  "Pharmacy/MPG103T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPG103T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/MPG103T_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/MPH2017_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH2017_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/MPH2017_SP18.pdf",
+    "downloaded": true,
+    "bytes": 206456
+  },
+  "Pharmacy/MPG104T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPG104T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/MPG104T_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/MPH2021_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH2021_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/MPH2021_SP18.pdf",
+    "downloaded": true,
+    "bytes": 271023
+  },
+  "Pharmacy/MPH101T_MPC101T_MPL101T_MQA101T_MPG 101T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH101T_MPC101T_MPL101T_MQA101T_MPG 101T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/MPH101T_MPC101T_MPL101T_MQA101T_MPG%20101T_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/MPH2023_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH2023_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/MPH2023_SP18.pdf",
+    "downloaded": true,
+    "bytes": 198697
+  },
+  "Pharmacy/MPH102T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH102T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/MPH102T_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/MPH2025_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH2025_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/MPH2025_SP18.pdf",
+    "downloaded": true,
+    "bytes": 267298
+  },
+  "Pharmacy/MPH103T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH103T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/MPH103T_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/MPH2027_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH2027_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/MPH2027_SP18.pdf",
+    "downloaded": true,
+    "bytes": 199730
+  },
+  "Pharmacy/MPH104T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH104T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/MPH104T_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/MPH2031_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH2031_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/MPH2031_SP18.pdf",
+    "downloaded": true,
+    "bytes": 335732
+  },
+  "Pharmacy/MPL102T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPL102T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/MPL102T_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/MPH2033_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH2033_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/MPH2033_SP18.pdf",
+    "downloaded": true,
+    "bytes": 230987
+  },
+  "Pharmacy/MPL103T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPL103T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/MPL103T_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/MPH2035_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH2035_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/MPH2035_SP18.pdf",
+    "downloaded": true,
+    "bytes": 266942
+  },
+  "Pharmacy/MPL104T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPL104T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/MPL104T_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/MPH2037_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MPH2037_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/MPH2037_SP18.pdf",
+    "downloaded": true,
+    "bytes": 198666
+  },
+  "Pharmacy/MQA102T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MQA102T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/MQA102T_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/PS4401_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS4401_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/PS4401_SP18.pdf",
+    "downloaded": true,
+    "bytes": 237497
+  },
+  "Pharmacy/MQA103T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MQA103T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/MQA103T_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/PS4403_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS4403_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/PS4403_SP18.pdf",
+    "downloaded": true,
+    "bytes": 267550
+  },
+  "Pharmacy/MQA104T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MQA104T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/MQA104T_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/PS4405_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS4405_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/PS4405_SP18.pdf",
+    "downloaded": true,
+    "bytes": 264514
+  },
+  "Pharmacy/MRM301T_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "MRM301T_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/MRM301T_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/PS4407_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS4407_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/PS4407_SP18.pdf",
+    "downloaded": true,
+    "bytes": 201239
+  },
+  "Pharmacy/PS5401_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS5401_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/PS5401_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/PS4409_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS4409_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/PS4409_SP18.pdf",
+    "downloaded": true,
+    "bytes": 206461
+  },
+  "Pharmacy/PS5403_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS5403_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/PS5403_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/PS6401_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS6401_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/PS6401_SP18.pdf",
+    "downloaded": true,
+    "bytes": 196835
+  },
+  "Pharmacy/PS5405_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS5405_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/PS5405_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/PS6403_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS6403_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/PS6403_SP18.pdf",
+    "downloaded": true,
+    "bytes": 268950
+  },
+  "Pharmacy/PS5407_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS5407_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/PS5407_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/PS6405_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS6405_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/PS6405_SP18.pdf",
+    "downloaded": true,
+    "bytes": 200629
+  },
+  "Pharmacy/PS5409_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS5409_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/PS5409_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/PS6407_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS6407_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/PS6407_SP18.pdf",
+    "downloaded": true,
+    "bytes": 232261
+  },
+  "Pharmacy/PS5411_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS5411_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/PS5411_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/PS8403_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS8403_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/PS8403_SP18.pdf",
+    "downloaded": true,
+    "bytes": 343021
+  },
+  "Pharmacy/PS7401_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS7401_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018/PS7401_MO18.pdf",
+    "downloaded": false,
+    "error": "404"
+  },
+  "Pharmacy/PS8405_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS8405_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/PS8405_SP18.pdf",
+    "downloaded": true,
+    "bytes": 203361
+  },
+  "Pharmacy/PS7403_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS7403_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PS7403_MO18.pdf",
+    "downloaded": true,
+    "bytes": 393491
+  },
+  "Pharmacy/PS8407_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS8407_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/PS8407_SP18.pdf",
+    "downloaded": true,
+    "bytes": 198841
+  },
+  "Pharmacy/PS7405_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS7405_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PS7405_MO18.pdf",
+    "downloaded": true,
+    "bytes": 268551
+  },
+  "Pharmacy/PS8411_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS8411_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/PS8411_SP18.pdf",
+    "downloaded": true,
+    "bytes": 264373
+  },
+  "Pharmacy/PS7407_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS7407_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PS7407_MO18.pdf",
+    "downloaded": true,
+    "bytes": 267943
+  },
+  "Pharmacy/PS8413_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS8413_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/PS8413_SP18.pdf",
+    "downloaded": true,
+    "bytes": 269080
+  },
+  "Pharmacy/PS7411_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS7411_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PS7411_MO18.pdf",
+    "downloaded": true,
+    "bytes": 265080
+  },
+  "Pharmacy/PSB601_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PSB601_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/PSB601_SP18.pdf",
+    "downloaded": true,
+    "bytes": 203880
+  },
+  "Pharmacy/PS7413_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS7413_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PS7413_MO18.pdf",
+    "downloaded": true,
+    "bytes": 267807
+  },
+  "Pharmacy/PSB4401_SP18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PSB4401_SP18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2018%20QP/PSB4401_SP18.pdf",
+    "downloaded": true,
+    "bytes": 200808
+  },
+  "Pharmacy/PS7415_MO18.pdf": {
+    "dept": "Pharmacy",
+    "name": "PS7415_MO18.pdf",
+    "code": "UNKNOWN",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PS7415_MO18.pdf",
+    "downloaded": true,
+    "bytes": 264230
+  },
+  "Physics/PH102 ELECTRICITY AND MAGNETISM (MID_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH102 ELECTRICITY AND MAGNETISM (MID_SP23).pdf",
+    "code": "PH102",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH102%20ELECTRICITY%20AND%20MAGNETISM%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 200324
+  },
+  "Physics/PH102 ELECTRICITY & MAGNETISM (END_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH102 ELECTRICITY & MAGNETISM (END_SP23).pdf",
+    "code": "PH102",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH102%20ELECTRICITY%20%26%20MAGNETISM%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 478201
+  },
+  "Physics/PH106 WAVES AND OPTICS (MID_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH106 WAVES AND OPTICS (MID_SP23).pdf",
+    "code": "PH106",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH106%20WAVES%20AND%20OPTICS%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 196212
+  },
+  "Physics/PH106 WAVES AND OPTICS (END_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH106 WAVES AND OPTICS (END_SP23).pdf",
+    "code": "PH106",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH106%20WAVES%20AND%20OPTICS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 267256
+  },
+  "Physics/PH109 PHYSICS-I (MID_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH109 PHYSICS-I (MID_SP23).pdf",
+    "code": "PH109",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH109%20PHYSICS-I%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 285001
+  },
+  "Physics/PH109 PHYSICS-I (END_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH109 PHYSICS-I (END_SP23).pdf",
+    "code": "PH109",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH109%20PHYSICS-I%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 339179
+  },
+  "Physics/PH113 PHYSICS (MID_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH113 PHYSICS (MID_SP23).pdf",
+    "code": "PH113",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH113%20PHYSICS%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 196168
+  },
+  "Physics/PH113 PHYSICS (END_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH113 PHYSICS (END_SP23).pdf",
+    "code": "PH113",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH113%20PHYSICS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 382973
+  },
+  "Physics/PH207R1 MATHEMATICAL PHYSICS III (MID_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH207R1 MATHEMATICAL PHYSICS III (MID_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH207R1%20MATHEMATICAL%20PHYSICS%20III%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 428541
+  },
+  "Physics/PH207R1 MATHEMATICAL PHYSICS III (END_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH207R1 MATHEMATICAL PHYSICS III (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH207R1%20MATHEMATICAL%20PHYSICS%20III%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 334433
+  },
+  "Physics/PH208 ELEMENTS OF MODERN PHYSICS (MID_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH208 ELEMENTS OF MODERN PHYSICS (MID_SP23).pdf",
+    "code": "PH208",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH208%20ELEMENTS%20OF%20MODERN%20PHYSICS%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 281983
+  },
+  "Physics/PH208 ELEMENTS OF MODERN PHYSICS (END_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH208 ELEMENTS OF MODERN PHYSICS (END_SP23).pdf",
+    "code": "PH208",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH208%20ELEMENTS%20OF%20MODERN%20PHYSICS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 399257
+  },
+  "Physics/PH209 ANALOG SYSTEMS AND APPLICATIONS (MID_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH209 ANALOG SYSTEMS AND APPLICATIONS (MID_SP23).pdf",
+    "code": "PH209",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH209%20ANALOG%20SYSTEMS%20AND%20APPLICATIONS%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 210825
+  },
+  "Physics/PH209 ANALOG SYSTEM AND APPLICATIONS (END_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH209 ANALOG SYSTEM AND APPLICATIONS (END_SP23).pdf",
+    "code": "PH209",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH209%20ANALOG%20SYSTEM%20AND%20APPLICATIONS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 281896
+  },
+  "Physics/PH315 ELECTROMAGNETIC THEORY (MID_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH315 ELECTROMAGNETIC THEORY (MID_SP23).pdf",
+    "code": "PH315",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH315%20ELECTROMAGNETIC%20THEORY%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 326749
+  },
+  "Physics/PH315 ELECTROMAGNETIC THEORY (END_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH315 ELECTROMAGNETIC THEORY (END_SP23).pdf",
+    "code": "PH315",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH315%20ELECTROMAGNETIC%20THEORY%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 351542
+  },
+  "Physics/PH316 STATISTICAL MECHANICS (MID_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH316 STATISTICAL MECHANICS (MID_SP23).pdf",
+    "code": "PH316",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH316%20STATISTICAL%20MECHANICS%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 315169
+  },
+  "Physics/PH316 STATISTICAL MECHANICS (END_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH316 STATISTICAL MECHANICS (END_SP23).pdf",
+    "code": "PH316",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH316%20STATISTICAL%20MECHANICS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 323319
+  },
+  "Physics/PH318 INTRODUCTION TO NUCLEAR AND PARTICLE PHYSICS (MID_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH318 INTRODUCTION TO NUCLEAR AND PARTICLE PHYSICS (MID_SP23).pdf",
+    "code": "PH318",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH318%20INTRODUCTION%20TO%20NUCLEAR%20AND%20PARTICLE%20PHYSICS%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 198447
+  },
+  "Physics/PH318 INTRODUCTION TO NUCLEAR AND PARTICLE PHYSICS (END_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH318 INTRODUCTION TO NUCLEAR AND PARTICLE PHYSICS (END_SP23).pdf",
+    "code": "PH318",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH318%20INTRODUCTION%20TO%20NUCLEAR%20AND%20PARTICLE%20PHYSICS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 268126
+  },
+  "Physics/PH318 INTRODUCTION TO NUCLEAR AND PARTICLE PHYSICS_OE (MID_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH318 INTRODUCTION TO NUCLEAR AND PARTICLE PHYSICS_OE (MID_SP23).pdf",
+    "code": "PH318",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH318%20INTRODUCTION%20TO%20NUCLEAR%20AND%20PARTICLE%20PHYSICS_OE%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 200508
+  },
+  "Physics/PH318 INTRODUCTION TO NUCLEAR AND PARTICLE PHYSICS_OE (END_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH318 INTRODUCTION TO NUCLEAR AND PARTICLE PHYSICS_OE (END_SP23).pdf",
+    "code": "PH318",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH318%20INTRODUCTION%20TO%20NUCLEAR%20AND%20PARTICLE%20PHYSICS_OE%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 265845
+  },
+  "Physics/PH320 ATMOSPHERIC PHYSICS (MID_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH320 ATMOSPHERIC PHYSICS (MID_SP23).pdf",
+    "code": "PH320",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH320%20ATMOSPHERIC%20PHYSICS%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 198819
+  },
+  "Physics/PH320 ATMOSPHERIC PHYSICS (END_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH320 ATMOSPHERIC PHYSICS (END_SP23).pdf",
+    "code": "PH320",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH320%20ATMOSPHERIC%20PHYSICS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 297722
+  },
+  "Physics/PH320 ATMOSPHERIC PHYSICS_OE (MID_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH320 ATMOSPHERIC PHYSICS_OE (MID_SP23).pdf",
+    "code": "PH320",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH320%20ATMOSPHERIC%20PHYSICS_OE%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 196969
+  },
+  "Physics/PH320 ATMOSPHERIC PHYSICS_OE (END_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH320 ATMOSPHERIC PHYSICS_OE (END_SP23).pdf",
+    "code": "PH320",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH320%20ATMOSPHERIC%20PHYSICS_OE%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 295262
+  },
+  "Physics/PH321 ADVANCED EXPERIMENTAL TECHNIQUES (AET) (MID_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH321 ADVANCED EXPERIMENTAL TECHNIQUES (AET) (MID_SP23).pdf",
+    "code": "PH321",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH321%20ADVANCED%20EXPERIMENTAL%20TECHNIQUES%20(AET)%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 212292
+  },
+  "Physics/PH321 ADVANCED EXPERIMENTAL TECHNIQUES (AET) (END_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH321 ADVANCED EXPERIMENTAL TECHNIQUES (AET) (END_SP23).pdf",
+    "code": "PH321",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH321%20ADVANCED%20EXPERIMENTAL%20TECHNIQUES%20(AET)%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 282557
+  },
+  "Physics/SEC407 BASIC INSTRUMENTATION SKILLS (MID_SP23).pdf": {
+    "dept": "Physics",
+    "name": "SEC407 BASIC INSTRUMENTATION SKILLS (MID_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/SEC407%20BASIC%20INSTRUMENTATION%20SKILLS%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 253357
+  },
+  "Physics/SEC407 BASIC INSTRUMENTATION SKILLS (END_SP23).pdf": {
+    "dept": "Physics",
+    "name": "SEC407 BASIC INSTRUMENTATION SKILLS (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/SEC407%20BASIC%20INSTRUMENTATION%20SKILLS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 423401
+  },
+  "Physics/PH408 STATISTICAL PHYSICS (END_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH408 STATISTICAL PHYSICS (END_SP23).pdf",
+    "code": "PH408",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH408%20STATISTICAL%20PHYSICS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 272700
+  },
+  "Physics/PH409 ATOMIC AND MOLECULAR SPECTROSCOPY (END_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH409 ATOMIC AND MOLECULAR SPECTROSCOPY (END_SP23).pdf",
+    "code": "PH409",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH409%20ATOMIC%20AND%20MOLECULAR%20SPECTROSCOPY%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 271430
+  },
+  "Physics/PH410 ELECTRONIC DEVICES & CIRCUITS (END_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH410 ELECTRONIC DEVICES & CIRCUITS (END_SP23).pdf",
+    "code": "PH410",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH410%20ELECTRONIC%20DEVICES%20%26%20CIRCUITS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 239033
+  },
+  "Physics/PH411 CONDENSED MATTER PHYSICS (END_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH411 CONDENSED MATTER PHYSICS (END_SP23).pdf",
+    "code": "PH411",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH411%20CONDENSED%20MATTER%20PHYSICS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 201498
+  },
+  "Physics/PH515 THEORETICAL AND COMPUTATIONAL CONDENSED MATTER PHYSICS (END_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH515 THEORETICAL AND COMPUTATIONAL CONDENSED MATTER PHYSICS (END_SP23).pdf",
+    "code": "PH515",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH515%20THEORETICAL%20AND%20COMPUTATIONAL%20CONDENSED%20MATTER%20PHYSICS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 482235
+  },
+  "Physics/PH516 NONLINEAR DYNAMICS AND CHAOS (END_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH516 NONLINEAR DYNAMICS AND CHAOS (END_SP23).pdf",
+    "code": "PH516",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH516%20NONLINEAR%20DYNAMICS%20AND%20CHAOS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 385578
+  },
+  "Physics/PH517 NONCONVENTIONAL ENERGY MATERIALS (END_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH517 NONCONVENTIONAL ENERGY MATERIALS (END_SP23).pdf",
+    "code": "PH517",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH517%20NONCONVENTIONAL%20ENERGY%20MATERIALS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 263190
+  },
+  "Physics/PH519 PHYSICS OF THIN FILMS (END_SP23).pdf": {
+    "dept": "Physics",
+    "name": "PH519 PHYSICS OF THIN FILMS (END_SP23).pdf",
+    "code": "PH519",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PH519%20PHYSICS%20OF%20THIN%20FILMS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 266664
+  },
+  "Physics/PH101 - MECHANICS (MID_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH101 - MECHANICS (MID_MO22).pdf",
+    "code": "PH101",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH101%20-%20MECHANICS%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 352424
+  },
+  "Physics/PH101 - MECHANICS (END_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH101 - MECHANICS (END_MO22).pdf",
+    "code": "PH101",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH101%20-%20MECHANICS%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 403648
+  },
+  "Physics/PH105R1 MATHEMATICAL PHYSICS - I (MID_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH105R1 MATHEMATICAL PHYSICS - I (MID_MO22).pdf",
+    "code": "UNKNOWN",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH105R1%20MATHEMATICAL%20PHYSICS%20-%20I%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 352942
+  },
+  "Physics/PH105R1 MATHEMATICAL PHYSICS - I (END_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH105R1 MATHEMATICAL PHYSICS - I (END_MO22).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH105R1%20MATHEMATICAL%20PHYSICS%20-%20I%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 722299
+  },
+  "Physics/PH109 PHYSICS-I (MID_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH109 PHYSICS-I (MID_MO22).pdf",
+    "code": "PH109",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH109%20PHYSICS-I%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 352907
+  },
+  "Physics/PH109 PHYSICS-I (END_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH109 PHYSICS-I (END_MO22).pdf",
+    "code": "PH109",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH109%20PHYSICS-I%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 279949
+  },
+  "Physics/PH111 PHYSICS-II (MID_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH111 PHYSICS-II (MID_MO22).pdf",
+    "code": "PH111",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH111%20PHYSICS-II%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 225893
+  },
+  "Physics/PH111 PHYSICS-II (END_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH111 PHYSICS-II (END_MO22).pdf",
+    "code": "PH111",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH111%20PHYSICS-II%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 428457
+  },
+  "Physics/PH113 PHYSICS (MID_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH113 PHYSICS (MID_MO22).pdf",
+    "code": "PH113",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH113%20PHYSICS%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 342166
+  },
+  "Physics/PH113 PHYSICS (END_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH113 PHYSICS (END_MO22).pdf",
+    "code": "PH113",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH113%20PHYSICS%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 399200
+  },
+  "Physics/PH201 THERMAL PHYSICS (MID_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH201 THERMAL PHYSICS (MID_MO22).pdf",
+    "code": "PH201",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH201%20THERMAL%20PHYSICS%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 386593
+  },
+  "Physics/PH201 THERMAL PHYSICS (END_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH201 THERMAL PHYSICS (END_MO22).pdf",
+    "code": "PH201",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH201%20THERMAL%20PHYSICS%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 281970
+  },
+  "Physics/PH202 DIGITAL SYSTEMS AND APPLICATIONS (MID_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH202 DIGITAL SYSTEMS AND APPLICATIONS (MID_MO22).pdf",
+    "code": "PH202",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH202%20DIGITAL%20SYSTEMS%20AND%20APPLICATIONS%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 326033
+  },
+  "Physics/PH202 DIGITAL SYSTEM AND APPLICATIONS (END_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH202 DIGITAL SYSTEM AND APPLICATIONS (END_MO22).pdf",
+    "code": "PH202",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH202%20DIGITAL%20SYSTEM%20AND%20APPLICATIONS%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 203133
+  },
+  "Physics/PH213 MATHEMATICAL PHYSICS II (MID_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH213 MATHEMATICAL PHYSICS II (MID_MO22).pdf",
+    "code": "PH213",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH213%20MATHEMATICAL%20PHYSICS%20II%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 276491
+  },
+  "Physics/PH213 MATHEMATICAL PHYSICS II (END_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH213 MATHEMATICAL PHYSICS II (END_MO22).pdf",
+    "code": "PH213",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH213%20MATHEMATICAL%20PHYSICS%20II%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 223128
+  },
+  "Physics/PH301 QUANTUM MECHANICS AND APPLICATIONS (MID_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH301 QUANTUM MECHANICS AND APPLICATIONS (MID_MO22).pdf",
+    "code": "PH301",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH301%20QUANTUM%20MECHANICS%20AND%20APPLICATIONS%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 303713
+  },
+  "Physics/PH301 QUANTUM MECHANICS AND APPLICATIONS (END_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH301 QUANTUM MECHANICS AND APPLICATIONS (END_MO22).pdf",
+    "code": "PH301",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH301%20QUANTUM%20MECHANICS%20AND%20APPLICATIONS%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 376509
+  },
+  "Physics/PH302 SOLID STATE PHYSICS (MID_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH302 SOLID STATE PHYSICS (MID_MO22).pdf",
+    "code": "PH302",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH302%20SOLID%20STATE%20PHYSICS%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 276989
+  },
+  "Physics/PH302 SOLID STATE PHYSICS (END_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH302 SOLID STATE PHYSICS (END_MO22).pdf",
+    "code": "PH302",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH302%20SOLID%20STATE%20PHYSICS%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 270329
+  },
+  "Physics/PH303 ADVANCED MATHEMATICAL PHYSICS (MID_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH303 ADVANCED MATHEMATICAL PHYSICS (MID_MO22).pdf",
+    "code": "PH303",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH303%20ADVANCED%20MATHEMATICAL%20PHYSICS%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 464735
+  },
+  "Physics/PH303 ADVANCED MATHEMATICAL PHYSICS (END_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH303 ADVANCED MATHEMATICAL PHYSICS (END_MO22).pdf",
+    "code": "PH303",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH303%20ADVANCED%20MATHEMATICAL%20PHYSICS%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 294133
+  },
+  "Physics/PH306 MATERIALS SCIENCE AND NANOTECHNOLOGY (MID_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH306 MATERIALS SCIENCE AND NANOTECHNOLOGY (MID_MO22).pdf",
+    "code": "PH306",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH306%20MATERIALS%20SCIENCE%20AND%20NANOTECHNOLOGY%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 274296
+  },
+  "Physics/PH306 MATERIALS SCIENCE AND NANOTECHNOLOGY (END_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH306 MATERIALS SCIENCE AND NANOTECHNOLOGY (END_MO22).pdf",
+    "code": "PH306",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH306%20MATERIALS%20SCIENCE%20AND%20NANOTECHNOLOGY%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 266117
+  },
+  "Physics/SEC303 COMPUTATIONAL SKILLS (MID_MO22).pdf": {
+    "dept": "Physics",
+    "name": "SEC303 COMPUTATIONAL SKILLS (MID_MO22).pdf",
+    "code": "UNKNOWN",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/SEC303%20COMPUTATIONAL%20SKILLS%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 444153
+  },
+  "Physics/SEC303 COMPUTATIONAL PHYSICS SKILLS (END_MO22).pdf": {
+    "dept": "Physics",
+    "name": "SEC303 COMPUTATIONAL PHYSICS SKILLS (END_MO22).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/SEC303%20COMPUTATIONAL%20PHYSICS%20SKILLS%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 277608
+  },
+  "Physics/SEC307 RENEWABLE ENERGY AND ENERGY HARVESTING (MID_MO22).pdf": {
+    "dept": "Physics",
+    "name": "SEC307 RENEWABLE ENERGY AND ENERGY HARVESTING (MID_MO22).pdf",
+    "code": "UNKNOWN",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/SEC307%20RENEWABLE%20ENERGY%20AND%20ENERGY%20HARVESTING%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 276825
+  },
+  "Physics/SEC307 RENEWABLE ENERGY AND ENERGY HARVESTING (END_MO22).pdf": {
+    "dept": "Physics",
+    "name": "SEC307 RENEWABLE ENERGY AND ENERGY HARVESTING (END_MO22).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/SEC307%20RENEWABLE%20ENERGY%20AND%20ENERGY%20HARVESTING%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 205826
+  },
+  "Physics/PH401 MATHEMATICAL PHYSICS (END_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH401 MATHEMATICAL PHYSICS (END_MO22).pdf",
+    "code": "PH401",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH401%20MATHEMATICAL%20PHYSICS%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 525608
+  },
+  "Physics/PH402 ELECTRODYNAMICS (END_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH402 ELECTRODYNAMICS (END_MO22).pdf",
+    "code": "PH402",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH402%20ELECTRODYNAMICS%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 206813
+  },
+  "Physics/PH403 CLASSICAL MECHANICS (END_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH403 CLASSICAL MECHANICS (END_MO22).pdf",
+    "code": "PH403",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH403%20CLASSICAL%20MECHANICS%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 267342
+  },
+  "Physics/PH404 QUANTUM MECHANICS (END_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH404 QUANTUM MECHANICS (END_MO22).pdf",
+    "code": "PH404",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH404%20QUANTUM%20MECHANICS%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 444613
+  },
+  "Physics/PH405 MODERN COMPUTATIONAL TECHNIQUES & PROGRAMMING (END_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH405 MODERN COMPUTATIONAL TECHNIQUES & PROGRAMMING (END_MO22).pdf",
+    "code": "PH405",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH405%20MODERN%20COMPUTATIONAL%20TECHNIQUES%20%26%20PROGRAMMING%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 363432
+  },
+  "Physics/PH501 NUCLEAR AND PARTICLE PHYSICS (END_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH501 NUCLEAR AND PARTICLE PHYSICS (END_MO22).pdf",
+    "code": "PH501",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH501%20NUCLEAR%20AND%20PARTICLE%20PHYSICS%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 390029
+  },
+  "Physics/PH502 ADVANCED QUANTUM MECHANICS (END_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH502 ADVANCED QUANTUM MECHANICS (END_MO22).pdf",
+    "code": "PH502",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH502%20ADVANCED%20QUANTUM%20MECHANICS%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 197674
+  },
+  "Physics/PH503 LASER PHYSICS AND APPLICATIONS (END_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH503 LASER PHYSICS AND APPLICATIONS (END_MO22).pdf",
+    "code": "PH503",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH503%20LASER%20PHYSICS%20AND%20APPLICATIONS%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 195765
+  },
+  "Physics/PH504 NUMERICAL METHODS FOR PHYSICISTS (END_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH504 NUMERICAL METHODS FOR PHYSICISTS (END_MO22).pdf",
+    "code": "PH504",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH504%20NUMERICAL%20METHODS%20FOR%20PHYSICISTS%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 235050
+  },
+  "Physics/PH505 THEORY OF SOLIDS (END_MO22).pdf": {
+    "dept": "Physics",
+    "name": "PH505 THEORY OF SOLIDS (END_MO22).pdf",
+    "code": "PH505",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PH505%20THEORY%20OF%20SOLIDS%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 202409
+  },
+  "Production/PE211 ENGINEERING ECONOMY_OE (MID_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE211 ENGINEERING ECONOMY_OE (MID_SP23).pdf",
+    "code": "PE211",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE211%20ENGINEERING%20ECONOMY_OE%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 204369
+  },
+  "Production/PE211 ENGINEERING ECONOMY_OE (END_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE211 ENGINEERING ECONOMY_OE (END_SP23).pdf",
+    "code": "PE211",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE211%20ENGINEERING%20ECONOMY_OE%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 416804
+  },
+  "Production/PE216 FOUNDRY, FORMING & WELDING TECHNOLOGIES (MID_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE216 FOUNDRY, FORMING & WELDING TECHNOLOGIES (MID_SP23).pdf",
+    "code": "PE216",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE216%20FOUNDRY%2C%20FORMING%20%26%20WELDING%20TECHNOLOGIES%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 281953
+  },
+  "Production/PE216 FOUNDRY, FORMING & WELDING TECHNOLOGIES (END_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE216 FOUNDRY, FORMING & WELDING TECHNOLOGIES (END_SP23).pdf",
+    "code": "PE216",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE216%20FOUNDRY%2C%20FORMING%20%26%20WELDING%20TECHNOLOGIES%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 268596
+  },
+  "Production/PE218 PRODUCTION AND OPERATIONS MANAGEMENT (MID_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE218 PRODUCTION AND OPERATIONS MANAGEMENT (MID_SP23).pdf",
+    "code": "PE218",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE218%20PRODUCTION%20AND%20OPERATIONS%20MANAGEMENT%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 277910
+  },
+  "Production/PE218 PRODUCTION AND OPERATIONS MANAGEMENT (END_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE218 PRODUCTION AND OPERATIONS MANAGEMENT (END_SP23).pdf",
+    "code": "PE218",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE218%20PRODUCTION%20AND%20OPERATIONS%20MANAGEMENT%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 277461
+  },
+  "Production/PE219 PROJECT ENGINEERING (MID_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE219 PROJECT ENGINEERING (MID_SP23).pdf",
+    "code": "PE219",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE219%20PROJECT%20ENGINEERING%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 330980
+  },
+  "Production/PE219- PROJECT ENGINEERING (END_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE219- PROJECT ENGINEERING (END_SP23).pdf",
+    "code": "PE219",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE219-%20PROJECT%20ENGINEERING%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 316693
+  },
+  "Production/PE221 QUANTITATIVE TECHNIQUES (MID_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE221 QUANTITATIVE TECHNIQUES (MID_SP23).pdf",
+    "code": "PE221",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE221%20QUANTITATIVE%20TECHNIQUES%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 199922
+  },
+  "Production/PE221 QUANTITATIVE TECHNIQUES (END_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE221 QUANTITATIVE TECHNIQUES (END_SP23).pdf",
+    "code": "PE221",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE221%20QUANTITATIVE%20TECHNIQUES%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 1334481
+  },
+  "Production/PE222 DISCRETE EVENT SYSTEM SIMULATION (MID_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE222 DISCRETE EVENT SYSTEM SIMULATION (MID_SP23).pdf",
+    "code": "PE222",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE222%20DISCRETE%20EVENT%20SYSTEM%20SIMULATION%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 200635
+  },
+  "Production/PE222 DISCRETE EVENT SYSTEM SIMULATION (END_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE222 DISCRETE EVENT SYSTEM SIMULATION (END_SP23).pdf",
+    "code": "PE222",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE222%20DISCRETE%20EVENT%20SYSTEM%20SIMULATION%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 449271
+  },
+  "Production/PE227 ENGINEERING MATERIALS_OE (MID_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE227 ENGINEERING MATERIALS_OE (MID_SP23).pdf",
+    "code": "PE227",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE227%20ENGINEERING%20MATERIALS_OE%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 314067
+  },
+  "Production/PE227 ENGINEERING MATERIALS (END_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE227 ENGINEERING MATERIALS (END_SP23).pdf",
+    "code": "PE227",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE227%20ENGINEERING%20MATERIALS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 540115
+  },
+  "Production/PE303 DESIGN OF MACHINE ELEMENTS (MID_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE303 DESIGN OF MACHINE ELEMENTS (MID_SP23).pdf",
+    "code": "PE303",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE303%20DESIGN%20OF%20MACHINE%20ELEMENTS%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 565076
+  },
+  "Production/PE303 DESIGN OF MACHINE ELEMENTS (END_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE303 DESIGN OF MACHINE ELEMENTS (END_SP23).pdf",
+    "code": "PE303",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE303%20DESIGN%20OF%20MACHINE%20ELEMENTS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 323123
+  },
+  "Production/PE309 PROJECT MANAGEMENT_OE (MID_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE309 PROJECT MANAGEMENT_OE (MID_SP23).pdf",
+    "code": "PE309",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE309%20PROJECT%20MANAGEMENT_OE%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 197604
+  },
+  "Production/PE309 PROJECT MANAGEMENT_OE (END_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE309 PROJECT MANAGEMENT_OE (END_SP23).pdf",
+    "code": "PE309",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE309%20PROJECT%20MANAGEMENT_OE%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 340029
+  },
+  "Production/PE313 TOOL DESIGN (MID_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE313 TOOL DESIGN (MID_SP23).pdf",
+    "code": "PE313",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE313%20TOOL%20DESIGN%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 228137
+  },
+  "Production/PE313 TOOL DESIGN (END_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE313 TOOL DESIGN (END_SP23).pdf",
+    "code": "PE313",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE313%20TOOL%20DESIGN%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 566748
+  },
+  "Production/PE314 STATISTICAL QUALITY CONTROL (MID_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE314 STATISTICAL QUALITY CONTROL (MID_SP23).pdf",
+    "code": "PE314",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE314%20STATISTICAL%20QUALITY%20CONTROL%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 905228
+  },
+  "Production/PE314 STATISTICAL QUALITY CONTROL (END_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE314 STATISTICAL QUALITY CONTROL (END_SP23).pdf",
+    "code": "PE314",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE314%20STATISTICAL%20QUALITY%20CONTROL%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 542228
+  },
+  "Production/PE315 WORK-STUDY AND ERGONOMICS (MID_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE315 WORK-STUDY AND ERGONOMICS (MID_SP23).pdf",
+    "code": "PE315",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE315%20WORK-STUDY%20AND%20ERGONOMICS%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 198868
+  },
+  "Production/PE315 WORK STUDY AND ERGONOMICS (END_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE315 WORK STUDY AND ERGONOMICS (END_SP23).pdf",
+    "code": "PE315",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE315%20WORK%20STUDY%20AND%20ERGONOMICS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 274522
+  },
+  "Production/PE319 MATERIAL DEFORMATION PROCESSES (MID_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE319 MATERIAL DEFORMATION PROCESSES (MID_SP23).pdf",
+    "code": "PE319",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE319%20MATERIAL%20DEFORMATION%20PROCESSES%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 352129
+  },
+  "Production/PE319 MATERIAL DEFORMATION PROCESSES (END_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE319 MATERIAL DEFORMATION PROCESSES (END_SP23).pdf",
+    "code": "PE319",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE319%20MATERIAL%20DEFORMATION%20PROCESSES%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 357660
+  },
+  "Production/PE324 SURFACE ENGINEERING AND LASER ADDITIVE MANUFACTURING (MID_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE324 SURFACE ENGINEERING AND LASER ADDITIVE MANUFACTURING (MID_SP23).pdf",
+    "code": "PE324",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE324%20SURFACE%20ENGINEERING%20AND%20LASER%20ADDITIVE%20MANUFACTURING%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 414142
+  },
+  "Production/PE324 SURFACE ENGINEERING AND LASER ADDITIVE MANUFACTURING (END_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE324 SURFACE ENGINEERING AND LASER ADDITIVE MANUFACTURING (END_SP23).pdf",
+    "code": "PE324",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE324%20SURFACE%20ENGINEERING%20AND%20LASER%20ADDITIVE%20MANUFACTURING%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 573102
+  },
+  "Production/PE332 OPERATIONS RESEARCH WITH PYTHON_OE (MID_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE332 OPERATIONS RESEARCH WITH PYTHON_OE (MID_SP23).pdf",
+    "code": "PE332",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE332%20OPERATIONS%20RESEARCH%20WITH%20PYTHON_OE%20(MID_SP23).pdf",
+    "downloaded": true,
+    "bytes": 203967
+  },
+  "Production/PE332 OPERATION RESEARCH WITH PYTHON_OE (END_SP23).pdf": {
+    "dept": "Production",
+    "name": "PE332 OPERATION RESEARCH WITH PYTHON_OE (END_SP23).pdf",
+    "code": "PE332",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/PE332%20OPERATION%20RESEARCH%20WITH%20PYTHON_OE%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 441218
+  },
+  "Production/PE204 MANUFACTURING PROCESSES - I_A (END-SP22)(1).pdf": {
+    "dept": "Production",
+    "name": "PE204 MANUFACTURING PROCESSES - I_A (END-SP22)(1).pdf",
+    "code": "PE204",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE204%20MANUFACTURING%20PROCESSES%20-%20I_A%20(END-SP22)(1).pdf",
+    "downloaded": true,
+    "bytes": 751873
+  },
+  "Production/PE208 PROJECT ENGINEERING (END-SP22).pdf": {
+    "dept": "Production",
+    "name": "PE208 PROJECT ENGINEERING (END-SP22).pdf",
+    "code": "PE208",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE208%20PROJECT%20ENGINEERING%20(END-SP22).pdf",
+    "downloaded": true,
+    "bytes": 1239956
+  },
+  "Production/PE209 ENGG_ ECONOMY, COSTING & ACCOUNTING_A (END-SP22).pdf": {
+    "dept": "Production",
+    "name": "PE209 ENGG_ ECONOMY, COSTING & ACCOUNTING_A (END-SP22).pdf",
+    "code": "PE209",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE209%20ENGG_%20ECONOMY%2C%20COSTING%20%26%20ACCOUNTING_A%20(END-SP22).pdf",
+    "downloaded": true,
+    "bytes": 490954
+  },
+  "Production/PE211 ENGINEERING ECONOMY_A (END-SP22).pdf": {
+    "dept": "Production",
+    "name": "PE211 ENGINEERING ECONOMY_A (END-SP22).pdf",
+    "code": "PE211",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE211%20ENGINEERING%20ECONOMY_A%20(END-SP22).pdf",
+    "downloaded": true,
+    "bytes": 1115687
+  },
+  "Production/PE309 PROJECT MANAGEMENT (END-SP22).pdf": {
+    "dept": "Production",
+    "name": "PE309 PROJECT MANAGEMENT (END-SP22).pdf",
+    "code": "PE309",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE309%20PROJECT%20MANAGEMENT%20(END-SP22).pdf",
+    "downloaded": true,
+    "bytes": 898306
+  },
+  "Production/PE311 MACHINE TOOL DESIGN_A (END-SP22).pdf": {
+    "dept": "Production",
+    "name": "PE311 MACHINE TOOL DESIGN_A (END-SP22).pdf",
+    "code": "PE311",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE311%20MACHINE%20TOOL%20DESIGN_A%20(END-SP22).pdf",
+    "downloaded": true,
+    "bytes": 780627
+  },
+  "Production/PE313 TOOL DESIGN_A (END-SP22).pdf": {
+    "dept": "Production",
+    "name": "PE313 TOOL DESIGN_A (END-SP22).pdf",
+    "code": "PE313",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE313%20TOOL%20DESIGN_A%20(END-SP22).pdf",
+    "downloaded": true,
+    "bytes": 876309
+  },
+  "Production/PE314 STATISTICAL QUALITY CONTROL_A (END-SP22).pdf": {
+    "dept": "Production",
+    "name": "PE314 STATISTICAL QUALITY CONTROL_A (END-SP22).pdf",
+    "code": "PE314",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE314%20STATISTICAL%20QUALITY%20CONTROL_A%20(END-SP22).pdf",
+    "downloaded": true,
+    "bytes": 1557779
+  },
+  "Production/PE315 WORK STUDY AND ERGONOMICS_A (END-SP22).pdf": {
+    "dept": "Production",
+    "name": "PE315 WORK STUDY AND ERGONOMICS_A (END-SP22).pdf",
+    "code": "PE315",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE315%20WORK%20STUDY%20AND%20ERGONOMICS_A%20(END-SP22).pdf",
+    "downloaded": true,
+    "bytes": 2439450
+  },
+  "Production/PE319 MATERIAL DEFORMATION PROCESSES (END-SP22).pdf": {
+    "dept": "Production",
+    "name": "PE319 MATERIAL DEFORMATION PROCESSES (END-SP22).pdf",
+    "code": "PE319",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE319%20MATERIAL%20DEFORMATION%20PROCESSES%20(END-SP22).pdf",
+    "downloaded": true,
+    "bytes": 865158
+  },
+  "Production/PE203 OPERATIONS RESEARCH (MID_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE203 OPERATIONS RESEARCH (MID_MO22).pdf",
+    "code": "PE203",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE203%20OPERATIONS%20RESEARCH%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 381450
+  },
+  "Production/PE203 OPERATIONS RESEARCH (END_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE203 OPERATIONS RESEARCH (END_MO22).pdf",
+    "code": "PE203",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE203%20OPERATIONS%20RESEARCH%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 381450
+  },
+  "Production/PE206 METROLOGY & MEASUREMENT (MID_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE206 METROLOGY & MEASUREMENT (MID_MO22).pdf",
+    "code": "PE206",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE206%20METROLOGY%20%26%20MEASUREMENT%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 357805
+  },
+  "Production/PE206 METROLOGY & MEASUREMENT (END_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE206 METROLOGY & MEASUREMENT (END_MO22).pdf",
+    "code": "PE206",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE206%20METROLOGY%20%26%20MEASUREMENT%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 271912
+  },
+  "Production/PE211 ENGINEERING ECONOMY (MID_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE211 ENGINEERING ECONOMY (MID_MO22).pdf",
+    "code": "PE211",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE211%20ENGINEERING%20ECONOMY%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 347431
+  },
+  "Production/PE211 ENGINEERING ECONOMY (END_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE211 ENGINEERING ECONOMY (END_MO22).pdf",
+    "code": "PE211",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE211%20ENGINEERING%20ECONOMY%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 398809
+  },
+  "Production/PE213 MANUFACTURING PROCESSES (MID_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE213 MANUFACTURING PROCESSES (MID_MO22).pdf",
+    "code": "PE213",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE213%20MANUFACTURING%20PROCESSES%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 360618
+  },
+  "Production/PE213 MANUFACTURING PROCESSES (END_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE213 MANUFACTURING PROCESSES (END_MO22).pdf",
+    "code": "PE213",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE213%20MANUFACTURING%20PROCESSES%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 200033
+  },
+  "Production/PE214 METALLURGICAL & MATERIALS ENGINEERING (MID_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE214 METALLURGICAL & MATERIALS ENGINEERING (MID_MO22).pdf",
+    "code": "PE214",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE214%20METALLURGICAL%20%26%20MATERIALS%20ENGINEERING%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 381596
+  },
+  "Production/PE214 METALLURGICAL AND MATERIALS ENGINEERING (END_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE214 METALLURGICAL AND MATERIALS ENGINEERING (END_MO22).pdf",
+    "code": "PE214",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE214%20METALLURGICAL%20AND%20MATERIALS%20ENGINEERING%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 720791
+  },
+  "Production/PE301 MANUFACTURING PROCESSES-II (MID_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE301 MANUFACTURING PROCESSES-II (MID_MO22).pdf",
+    "code": "PE301",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE301%20MANUFACTURING%20PROCESSES-II%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 345361
+  },
+  "Production/PE301 MANUFACTURING PROCESSES II (END_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE301 MANUFACTURING PROCESSES II (END_MO22).pdf",
+    "code": "PE301",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE301%20MANUFACTURING%20PROCESSES%20II%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 1021757
+  },
+  "Production/PE304 PRODUCTION AND OPERATIONS MANAGEMENT (MID_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE304 PRODUCTION AND OPERATIONS MANAGEMENT (MID_MO22).pdf",
+    "code": "PE304",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE304%20PRODUCTION%20AND%20OPERATIONS%20MANAGEMENT%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 269476
+  },
+  "Production/PE304 PRODUCTION & OPERATIONS MANAGEMENT (END_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE304 PRODUCTION & OPERATIONS MANAGEMENT (END_MO22).pdf",
+    "code": "PE304",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE304%20PRODUCTION%20%26%20OPERATIONS%20MANAGEMENT%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 280836
+  },
+  "Production/PE307 COMPETITIVE MANUFACTURING STRATEGIES (MID_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE307 COMPETITIVE MANUFACTURING STRATEGIES (MID_MO22).pdf",
+    "code": "PE307",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE307%20COMPETITIVE%20MANUFACTURING%20STRATEGIES%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 346273
+  },
+  "Production/PE307 COMPETITIVE MANUFACTURING STRATEGIES (END_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE307 COMPETITIVE MANUFACTURING STRATEGIES (END_MO22).pdf",
+    "code": "PE307",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE307%20COMPETITIVE%20MANUFACTURING%20STRATEGIES%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 222821
+  },
+  "Production/PE308 LOGISTICS & SUPPLY CHAIN MANAGEMENT (MID_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE308 LOGISTICS & SUPPLY CHAIN MANAGEMENT (MID_MO22).pdf",
+    "code": "PE308",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE308%20LOGISTICS%20%26%20SUPPLY%20CHAIN%20MANAGEMENT%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 345232
+  },
+  "Production/PE308 LOGISTICS & SUPPLY CHAIN MANAGEMENT (END_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE308 LOGISTICS & SUPPLY CHAIN MANAGEMENT (END_MO22).pdf",
+    "code": "PE308",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE308%20LOGISTICS%20%26%20SUPPLY%20CHAIN%20MANAGEMENT%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 270760
+  },
+  "Production/PE309 PROJECT MANAGEMENT (MID_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE309 PROJECT MANAGEMENT (MID_MO22).pdf",
+    "code": "PE309",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE309%20PROJECT%20MANAGEMENT%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 272213
+  },
+  "Production/PE309 PROJECT MANAGEMENT (END_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE309 PROJECT MANAGEMENT (END_MO22).pdf",
+    "code": "PE309",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE309%20PROJECT%20MANAGEMENT%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 508795
+  },
+  "Production/PE402 AUTOMATION IN MANUFACTURING (MID_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE402 AUTOMATION IN MANUFACTURING (MID_MO22).pdf",
+    "code": "PE402",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE402%20AUTOMATION%20IN%20MANUFACTURING%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 327491
+  },
+  "Production/PE402 AUTOMATION IN MANUFACTURING (END_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE402 AUTOMATION IN MANUFACTURING (END_MO22).pdf",
+    "code": "PE402",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE402%20AUTOMATION%20IN%20MANUFACTURING%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 279609
+  },
+  "Production/PE406 NON-CONVENTIONAL MACHINING PROCESSES (MID_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE406 NON-CONVENTIONAL MACHINING PROCESSES (MID_MO22).pdf",
+    "code": "PE406",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE406%20NON-CONVENTIONAL%20MACHINING%20PROCESSES%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 261987
+  },
+  "Production/PE406 NON-CONVENTIONAL MACHINING PROCESSES (END_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE406 NON-CONVENTIONAL MACHINING PROCESSES (END_MO22).pdf",
+    "code": "PE406",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE406%20NON-CONVENTIONAL%20MACHINING%20PROCESSES%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 266259
+  },
+  "Production/PE407 ADVANCED MANUFACTURING PROCESSES (MID_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE407 ADVANCED MANUFACTURING PROCESSES (MID_MO22).pdf",
+    "code": "PE407",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE407%20ADVANCED%20MANUFACTURING%20PROCESSES%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 276490
+  },
+  "Production/PE407 ADVANCED MANUFACTURING PROCESSES (END_MO22).pdf": {
+    "dept": "Production",
+    "name": "PE407 ADVANCED MANUFACTURING PROCESSES (END_MO22).pdf",
+    "code": "PE407",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/PE407%20ADVANCED%20MANUFACTURING%20PROCESSES%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 265378
+  },
+  "Production/PE204 MANUFACTURING PROCESSES-I (MID-SP20)(2).pdf": {
+    "dept": "Production",
+    "name": "PE204 MANUFACTURING PROCESSES-I (MID-SP20)(2).pdf",
+    "code": "PE204",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE204%20MANUFACTURING%20PROCESSES-I%20(MID-SP20)(2).pdf",
+    "downloaded": true,
+    "bytes": 414745
+  },
+  "Production/PE206 METROLOGY & MEASUREMENT (MID-SP20).pdf": {
+    "dept": "Production",
+    "name": "PE206 METROLOGY & MEASUREMENT (MID-SP20).pdf",
+    "code": "PE206",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE206%20METROLOGY%20%26%20MEASUREMENT%20(MID-SP20).pdf",
+    "downloaded": true,
+    "bytes": 276553
+  },
+  "Production/PE208 PROJECT ENGINEERING (MID-SP20).pdf": {
+    "dept": "Production",
+    "name": "PE208 PROJECT ENGINEERING (MID-SP20).pdf",
+    "code": "PE208",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE208%20PROJECT%20ENGINEERING%20(MID-SP20).pdf",
+    "downloaded": true,
+    "bytes": 341653
+  },
+  "Production/PE209 ENGINEERING ECONOMY, COSTING AND ACCOUNTING (MID-SP20).pdf": {
+    "dept": "Production",
+    "name": "PE209 ENGINEERING ECONOMY, COSTING AND ACCOUNTING (MID-SP20).pdf",
+    "code": "PE209",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE209%20ENGINEERING%20ECONOMY%2C%20COSTING%20AND%20ACCOUNTING%20(MID-SP20).pdf",
+    "downloaded": true,
+    "bytes": 479825
+  },
+  "Production/PE6001 TOOL DESIGN (MID-SP20).pdf": {
+    "dept": "Production",
+    "name": "PE6001 TOOL DESIGN (MID-SP20).pdf",
+    "code": "PE6001",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE6001%20TOOL%20DESIGN%20(MID-SP20).pdf",
+    "downloaded": true,
+    "bytes": 340166
+  },
+  "Production/PE6003 MATERIAL DEFORMATION PROCESSES (MID-SP20).pdf": {
+    "dept": "Production",
+    "name": "PE6003 MATERIAL DEFORMATION PROCESSES (MID-SP20).pdf",
+    "code": "PE6003",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE6003%20MATERIAL%20DEFORMATION%20PROCESSES%20(MID-SP20).pdf",
+    "downloaded": true,
+    "bytes": 528332
+  },
+  "Production/PE6005 PRODUCTION PLANNING AND CONTROL (MID-SP20).pdf": {
+    "dept": "Production",
+    "name": "PE6005 PRODUCTION PLANNING AND CONTROL (MID-SP20).pdf",
+    "code": "PE6005",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE6005%20PRODUCTION%20PLANNING%20AND%20CONTROL%20(MID-SP20).pdf",
+    "downloaded": true,
+    "bytes": 360184
+  },
+  "Production/PE6007 MANUFACTURING AUTOMATION AND ROBOTICS (MID-SP20).pdf": {
+    "dept": "Production",
+    "name": "PE6007 MANUFACTURING AUTOMATION AND ROBOTICS (MID-SP20).pdf",
+    "code": "PE6007",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE6007%20MANUFACTURING%20AUTOMATION%20AND%20ROBOTICS%20(MID-SP20).pdf",
+    "downloaded": true,
+    "bytes": 370677
+  },
+  "Production/PE6009 ENGINEERING ECONOMY (MID-SP20).pdf": {
+    "dept": "Production",
+    "name": "PE6009 ENGINEERING ECONOMY (MID-SP20).pdf",
+    "code": "PE6009",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE6009%20ENGINEERING%20ECONOMY%20(MID-SP20).pdf",
+    "downloaded": true,
+    "bytes": 290305
+  },
+  "Production/PE201 METALLURGY (MID-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE201 METALLURGY (MID-MO19).pdf",
+    "code": "PE201",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE201%20METALLURGY%20(MID-MO19).pdf",
+    "downloaded": true,
+    "bytes": 409211
+  },
+  "Production/PE201 METALLURGY (END-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE201 METALLURGY (END-MO19).pdf",
+    "code": "PE201",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE201%20METALLURGY%20(END-MO19).pdf",
+    "downloaded": true,
+    "bytes": 198805
+  },
+  "Production/PE203 OPERATIONS RESEARCH (MID-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE203 OPERATIONS RESEARCH (MID-MO19).pdf",
+    "code": "PE203",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE203%20OPERATIONS%20RESEARCH%20(MID-MO19).pdf",
+    "downloaded": true,
+    "bytes": 357749
+  },
+  "Production/PE203 OPERATIONS RESEARCH (END-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE203 OPERATIONS RESEARCH (END-MO19).pdf",
+    "code": "PE203",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE203%20OPERATIONS%20RESEARCH%20(END-MO19).pdf",
+    "downloaded": true,
+    "bytes": 299069
+  },
+  "Production/PE213 MANUFACTURING PROCESSES (MID-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE213 MANUFACTURING PROCESSES (MID-MO19).pdf",
+    "code": "PE213",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE213%20MANUFACTURING%20PROCESSES%20(MID-MO19).pdf",
+    "downloaded": true,
+    "bytes": 344087
+  },
+  "Production/PE213 MANUFACTURING PROCESSES (END-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE213 MANUFACTURING PROCESSES (END-MO19).pdf",
+    "code": "PE213",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE213%20MANUFACTURING%20PROCESSES%20(END-MO19).pdf",
+    "downloaded": true,
+    "bytes": 361877
+  },
+  "Production/PE5001 MANUFACTURING PROCESSES II (MID-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE5001 MANUFACTURING PROCESSES II (MID-MO19).pdf",
+    "code": "PE5001",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE5001%20MANUFACTURING%20PROCESSES%20II%20(MID-MO19).pdf",
+    "downloaded": true,
+    "bytes": 357438
+  },
+  "Production/PE5001 MANUFACTURING PROCESS-II (END-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE5001 MANUFACTURING PROCESS-II (END-MO19).pdf",
+    "code": "PE5001",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE5001%20MANUFACTURING%20PROCESS-II%20(END-MO19).pdf",
+    "downloaded": true,
+    "bytes": 277083
+  },
+  "Production/PE5003 MACHINE TOOL DESIGN (MID-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE5003 MACHINE TOOL DESIGN (MID-MO19).pdf",
+    "code": "PE5003",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE5003%20MACHINE%20TOOL%20DESIGN%20(MID-MO19).pdf",
+    "downloaded": true,
+    "bytes": 344909
+  },
+  "Production/PE5003 MACHINE TOOL DESIGN (END-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE5003 MACHINE TOOL DESIGN (END-MO19).pdf",
+    "code": "PE5003",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE5003%20MACHINE%20TOOL%20DESIGN%20(END-MO19).pdf",
+    "downloaded": true,
+    "bytes": 294542
+  },
+  "Production/PE5005 STATISTICAL QUALITY CONTROL (MID-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE5005 STATISTICAL QUALITY CONTROL (MID-MO19).pdf",
+    "code": "PE5005",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE5005%20STATISTICAL%20QUALITY%20CONTROL%20(MID-MO19).pdf",
+    "downloaded": true,
+    "bytes": 923726
+  },
+  "Production/PE5005 STATISTICAL QUALITY CONTROL (END-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE5005 STATISTICAL QUALITY CONTROL (END-MO19).pdf",
+    "code": "PE5005",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE5005%20STATISTICAL%20QUALITY%20CONTROL%20(END-MO19).pdf",
+    "downloaded": true,
+    "bytes": 960574
+  },
+  "Production/PE5007 WORK STUDY AND ERGONOMICS (MID-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE5007 WORK STUDY AND ERGONOMICS (MID-MO19).pdf",
+    "code": "PE5007",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE5007%20WORK%20STUDY%20AND%20ERGONOMICS%20(MID-MO19).pdf",
+    "downloaded": true,
+    "bytes": 346005
+  },
+  "Production/PE5007 WORKSTUDY AND ERGONOMICS (END-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE5007 WORKSTUDY AND ERGONOMICS (END-MO19).pdf",
+    "code": "PE5007",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE5007%20WORKSTUDY%20AND%20ERGONOMICS%20(END-MO19).pdf",
+    "downloaded": true,
+    "bytes": 269994
+  },
+  "Production/PE5009 INDUSTRIAL ORGANIZATION AND MANAGEMENT (MID-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE5009 INDUSTRIAL ORGANIZATION AND MANAGEMENT (MID-MO19).pdf",
+    "code": "PE5009",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE5009%20INDUSTRIAL%20ORGANIZATION%20AND%20MANAGEMENT%20(MID-MO19).pdf",
+    "downloaded": true,
+    "bytes": 342440
+  },
+  "Production/PE5009 INDUSTRIAL ORGANIZATION AND MANAGEMENT (END-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE5009 INDUSTRIAL ORGANIZATION AND MANAGEMENT (END-MO19).pdf",
+    "code": "PE5009",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE5009%20INDUSTRIAL%20ORGANIZATION%20AND%20MANAGEMENT%20(END-MO19).pdf",
+    "downloaded": true,
+    "bytes": 269779
+  },
+  "Production/PE5011 PROJECT ENGINEERING (MID-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE5011 PROJECT ENGINEERING (MID-MO19).pdf",
+    "code": "PE5011",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE5011%20PROJECT%20ENGINEERING%20(MID-MO19).pdf",
+    "downloaded": true,
+    "bytes": 341250
+  },
+  "Production/PE5011 PROJECT ENGINEERING (END-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE5011 PROJECT ENGINEERING (END-MO19).pdf",
+    "code": "PE5011",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE5011%20PROJECT%20ENGINEERING%20(END-MO19).pdf",
+    "downloaded": true,
+    "bytes": 357086
+  },
+  "Production/PE7009 ADVANCED WELDING TECHNOLOGY (MID-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE7009 ADVANCED WELDING TECHNOLOGY (MID-MO19).pdf",
+    "code": "PE7009",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE7009%20ADVANCED%20WELDING%20TECHNOLOGY%20(MID-MO19).pdf",
+    "downloaded": true,
+    "bytes": 276216
+  },
+  "Production/PE7009 ADVANCED WELDING TECHNOLOGY (END-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE7009 ADVANCED WELDING TECHNOLOGY (END-MO19).pdf",
+    "code": "PE7009",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE7009%20ADVANCED%20WELDING%20TECHNOLOGY%20(END-MO19).pdf",
+    "downloaded": true,
+    "bytes": 356031
+  },
+  "Production/PE7011 ADVANCED MANUFACTURING PROCESSES (MID-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE7011 ADVANCED MANUFACTURING PROCESSES (MID-MO19).pdf",
+    "code": "PE7011",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE7011%20ADVANCED%20MANUFACTURING%20PROCESSES%20(MID-MO19).pdf",
+    "downloaded": true,
+    "bytes": 344483
+  },
+  "Production/PE7011 ADVANCED MANUFACTURING PROCESSES (END-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE7011 ADVANCED MANUFACTURING PROCESSES (END-MO19).pdf",
+    "code": "PE7011",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE7011%20ADVANCED%20MANUFACTURING%20PROCESSES%20(END-MO19).pdf",
+    "downloaded": true,
+    "bytes": 268412
+  },
+  "Production/PE7019 ADVANCED OPERATIONS RESEARCH (MID-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE7019 ADVANCED OPERATIONS RESEARCH (MID-MO19).pdf",
+    "code": "PE7019",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE7019%20ADVANCED%20OPERATIONS%20RESEARCH%20(MID-MO19).pdf",
+    "downloaded": true,
+    "bytes": 690917
+  },
+  "Production/PE7019 ADVANCED OPERATION RESEARCH (END-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE7019 ADVANCED OPERATION RESEARCH (END-MO19).pdf",
+    "code": "PE7019",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE7019%20ADVANCED%20OPERATION%20RESEARCH%20(END-MO19).pdf",
+    "downloaded": true,
+    "bytes": 935209
+  },
+  "Production/PE7021 MAINTENANCE ENGINEERING (MID-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE7021 MAINTENANCE ENGINEERING (MID-MO19).pdf",
+    "code": "PE7021",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE7021%20MAINTENANCE%20ENGINEERING%20(MID-MO19).pdf",
+    "downloaded": true,
+    "bytes": 356839
+  },
+  "Production/PE7021 MAINTENANCE ENGINEERING (END-MO19).pdf": {
+    "dept": "Production",
+    "name": "PE7021 MAINTENANCE ENGINEERING (END-MO19).pdf",
+    "code": "PE7021",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/PE7021%20MAINTENANCE%20ENGINEERING%20(END-MO19).pdf",
+    "downloaded": true,
+    "bytes": 338625
+  },
+  "Production/PE4001 MANUFACTURING PROCESS-I (MID_SP19).pdf": {
+    "dept": "Production",
+    "name": "PE4001 MANUFACTURING PROCESS-I (MID_SP19).pdf",
+    "code": "PE4001",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/PE4001%20MANUFACTURING%20PROCESS-I%20(MID_SP19).pdf",
+    "downloaded": true,
+    "bytes": 346397
+  },
+  "Production/PE4001 MANUFACTURING PROCESSES-I (END_SP19).pdf": {
+    "dept": "Production",
+    "name": "PE4001 MANUFACTURING PROCESSES-I (END_SP19).pdf",
+    "code": "PE4001",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/PE4001%20MANUFACTURING%20PROCESSES-I%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 368596
+  },
+  "Production/PE4003 METROLOGY (MID_SP19).pdf": {
+    "dept": "Production",
+    "name": "PE4003 METROLOGY (MID_SP19).pdf",
+    "code": "PE4003",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/PE4003%20METROLOGY%20(MID_SP19).pdf",
+    "downloaded": true,
+    "bytes": 409881
+  },
+  "Production/PE4003 METROLOGY (END_SP19).pdf": {
+    "dept": "Production",
+    "name": "PE4003 METROLOGY (END_SP19).pdf",
+    "code": "PE4003",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/PE4003%20METROLOGY%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 273883
+  },
+  "Production/PE6001 TOOL DESIGN (MID_SP19).pdf": {
+    "dept": "Production",
+    "name": "PE6001 TOOL DESIGN (MID_SP19).pdf",
+    "code": "PE6001",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/PE6001%20TOOL%20DESIGN%20(MID_SP19).pdf",
+    "downloaded": true,
+    "bytes": 340575
+  },
+  "Production/PE6001 TOOL DESIGN (END_SP19).pdf": {
+    "dept": "Production",
+    "name": "PE6001 TOOL DESIGN (END_SP19).pdf",
+    "code": "PE6001",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/PE6001%20TOOL%20DESIGN%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 388704
+  },
+  "Production/PE6003 MATERIAL DEFORMATION PROCESSES (MID_SP19).pdf": {
+    "dept": "Production",
+    "name": "PE6003 MATERIAL DEFORMATION PROCESSES (MID_SP19).pdf",
+    "code": "PE6003",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/PE6003%20MATERIAL%20DEFORMATION%20PROCESSES%20(MID_SP19).pdf",
+    "downloaded": true,
+    "bytes": 462808
+  },
+  "Production/PE6003 MATERIAL DEFORMATION PROCESSES (END_SP19).pdf": {
+    "dept": "Production",
+    "name": "PE6003 MATERIAL DEFORMATION PROCESSES (END_SP19).pdf",
+    "code": "PE6003",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/PE6003%20MATERIAL%20DEFORMATION%20PROCESSES%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 208301
+  },
+  "Production/PE6005 PRODUCTION PLANNING AND CONTROL (MID_SP19).pdf": {
+    "dept": "Production",
+    "name": "PE6005 PRODUCTION PLANNING AND CONTROL (MID_SP19).pdf",
+    "code": "PE6005",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/PE6005%20PRODUCTION%20PLANNING%20AND%20CONTROL%20(MID_SP19).pdf",
+    "downloaded": true,
+    "bytes": 281467
+  },
+  "Production/PE6005 PRODUCTION PLANNING AND CONTROL (END_SP19).pdf": {
+    "dept": "Production",
+    "name": "PE6005 PRODUCTION PLANNING AND CONTROL (END_SP19).pdf",
+    "code": "PE6005",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/PE6005%20PRODUCTION%20PLANNING%20AND%20CONTROL%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 277711
+  },
+  "Production/PE6007 MANUFACTURING AUTOMATION AND ROBOTICS (MID_SP19).pdf": {
+    "dept": "Production",
+    "name": "PE6007 MANUFACTURING AUTOMATION AND ROBOTICS (MID_SP19).pdf",
+    "code": "PE6007",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/PE6007%20MANUFACTURING%20AUTOMATION%20AND%20ROBOTICS%20(MID_SP19).pdf",
+    "downloaded": true,
+    "bytes": 458463
+  },
+  "Production/PE6007 MANUFACTURING AUTOMATION & ROBOTICS (END_SP19).pdf": {
+    "dept": "Production",
+    "name": "PE6007 MANUFACTURING AUTOMATION & ROBOTICS (END_SP19).pdf",
+    "code": "PE6007",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/PE6007%20MANUFACTURING%20AUTOMATION%20%26%20ROBOTICS%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 562226
+  },
+  "Production/PE6009 ENGINEERING ECONOMY (MID_SP19).pdf": {
+    "dept": "Production",
+    "name": "PE6009 ENGINEERING ECONOMY (MID_SP19).pdf",
+    "code": "PE6009",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/PE6009%20ENGINEERING%20ECONOMY%20(MID_SP19).pdf",
+    "downloaded": true,
+    "bytes": 417520
+  },
+  "Production/PE6009 ENGINEERING ECONOMY (END_SP19).pdf": {
+    "dept": "Production",
+    "name": "PE6009 ENGINEERING ECONOMY (END_SP19).pdf",
+    "code": "PE6009",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/PE6009%20ENGINEERING%20ECONOMY%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 280029
+  },
+  "Production/PE510 ROBOTICS AND ROBOT APPLICATION (END_SP19).pdf": {
+    "dept": "Production",
+    "name": "PE510 ROBOTICS AND ROBOT APPLICATION (END_SP19).pdf",
+    "code": "PE510",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/PE510%20ROBOTICS%20AND%20ROBOT%20APPLICATION%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 738477
+  },
+  "Production/PE511 COMPUTER INTEGRATED MANUFACTURING (END_SP19).pdf": {
+    "dept": "Production",
+    "name": "PE511 COMPUTER INTEGRATED MANUFACTURING (END_SP19).pdf",
+    "code": "PE511",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/PE511%20COMPUTER%20INTEGRATED%20MANUFACTURING%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 345915
+  },
+  "Production/PE512 SOFT COMPUTATION IN MANUFACTURING AUTOMATION (END_SP19).pdf": {
+    "dept": "Production",
+    "name": "PE512 SOFT COMPUTATION IN MANUFACTURING AUTOMATION (END_SP19).pdf",
+    "code": "PE512",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/PE512%20SOFT%20COMPUTATION%20IN%20MANUFACTURING%20AUTOMATION%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 260898
+  },
+  "Production/PE513 MANUFACTURING SYSTEM DESIGN (END_SP19).pdf": {
+    "dept": "Production",
+    "name": "PE513 MANUFACTURING SYSTEM DESIGN (END_SP19).pdf",
+    "code": "PE513",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/PE513%20MANUFACTURING%20SYSTEM%20DESIGN%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 265916
+  },
+  "Production/PE515 SMART MANUFACTURING (END_SP19).pdf": {
+    "dept": "Production",
+    "name": "PE515 SMART MANUFACTURING (END_SP19).pdf",
+    "code": "PE515",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/PE515%20SMART%20MANUFACTURING%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 261935
+  },
+  "Production/PE3001 METALLURGY (MID_MO18).pdf": {
+    "dept": "Production",
+    "name": "PE3001 METALLURGY (MID_MO18).pdf",
+    "code": "PE3001",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE3001%20METALLURGY%20(MID_MO18).pdf",
+    "downloaded": true,
+    "bytes": 293065
+  },
+  "Production/PE3001-METALLURGY (END(M02018).pdf": {
+    "dept": "Production",
+    "name": "PE3001-METALLURGY (END(M02018).pdf",
+    "code": "PE3001",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE3001-METALLURGY%20(END(M02018).pdf",
+    "downloaded": true,
+    "bytes": 274312
+  },
+  "Production/PE3003 OPERATIONS RESEARCH (MID_MO18).pdf": {
+    "dept": "Production",
+    "name": "PE3003 OPERATIONS RESEARCH (MID_MO18).pdf",
+    "code": "PE3003",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE3003%20OPERATIONS%20RESEARCH%20(MID_MO18).pdf",
+    "downloaded": true,
+    "bytes": 305869
+  },
+  "Production/PE3003-OPERATIONS RESEARCH (END_MO2018).pdf": {
+    "dept": "Production",
+    "name": "PE3003-OPERATIONS RESEARCH (END_MO2018).pdf",
+    "code": "PE3003",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE3003-OPERATIONS%20RESEARCH%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 369453
+  },
+  "Production/PE5001 MANUFACTURING PROCESSES II (MID_MO18).pdf": {
+    "dept": "Production",
+    "name": "PE5001 MANUFACTURING PROCESSES II (MID_MO18).pdf",
+    "code": "PE5001",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE5001%20MANUFACTURING%20PROCESSES%20II%20(MID_MO18).pdf",
+    "downloaded": true,
+    "bytes": 276662
+  },
+  "Production/PE5001-MANUFACTURING PROCESSES II (END_MO2018).pdf": {
+    "dept": "Production",
+    "name": "PE5001-MANUFACTURING PROCESSES II (END_MO2018).pdf",
+    "code": "PE5001",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE5001-MANUFACTURING%20PROCESSES%20II%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 544380
+  },
+  "Production/PE5003 MACHINE TOOL DESIGN (MID_MO18).pdf": {
+    "dept": "Production",
+    "name": "PE5003 MACHINE TOOL DESIGN (MID_MO18).pdf",
+    "code": "PE5003",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE5003%20MACHINE%20TOOL%20DESIGN%20(MID_MO18).pdf",
+    "downloaded": true,
+    "bytes": 279575
+  },
+  "Production/PE5003 MACHINE TOOL DESIGN (END_MO2018).pdf": {
+    "dept": "Production",
+    "name": "PE5003 MACHINE TOOL DESIGN (END_MO2018).pdf",
+    "code": "PE5003",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE5003%20MACHINE%20TOOL%20DESIGN%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 340653
+  },
+  "Production/PE5005 STATISTICAL QUALITY CONTROL (MID_MO18).pdf": {
+    "dept": "Production",
+    "name": "PE5005 STATISTICAL QUALITY CONTROL (MID_MO18).pdf",
+    "code": "PE5005",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE5005%20STATISTICAL%20QUALITY%20CONTROL%20(MID_MO18).pdf",
+    "downloaded": true,
+    "bytes": 638520
+  },
+  "Production/PE5005 STATISTICAL QUALITY CONTROL (END_MO2018).pdf": {
+    "dept": "Production",
+    "name": "PE5005 STATISTICAL QUALITY CONTROL (END_MO2018).pdf",
+    "code": "PE5005",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE5005%20STATISTICAL%20QUALITY%20CONTROL%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 678537
+  },
+  "Production/PE5007 WORK STUDY AND ERGONOMICS (MID_MO18).pdf": {
+    "dept": "Production",
+    "name": "PE5007 WORK STUDY AND ERGONOMICS (MID_MO18).pdf",
+    "code": "PE5007",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE5007%20WORK%20STUDY%20AND%20ERGONOMICS%20(MID_MO18).pdf",
+    "downloaded": true,
+    "bytes": 345464
+  },
+  "Production/PE5007-WORK STUDY AND ERGONOMICS  (END_MO1018).pdf": {
+    "dept": "Production",
+    "name": "PE5007-WORK STUDY AND ERGONOMICS  (END_MO1018).pdf",
+    "code": "PE5007",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE5007-WORK%20STUDY%20AND%20ERGONOMICS%20%20(END_MO1018).pdf",
+    "downloaded": true,
+    "bytes": 269966
+  },
+  "Production/PE5009 INDUSTRIAL ORGANIZATION & MGMT (MID_MO18).pdf": {
+    "dept": "Production",
+    "name": "PE5009 INDUSTRIAL ORGANIZATION & MGMT (MID_MO18).pdf",
+    "code": "PE5009",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE5009%20INDUSTRIAL%20ORGANIZATION%20%26%20MGMT%20(MID_MO18).pdf",
+    "downloaded": true,
+    "bytes": 345949
+  },
+  "Production/PE5009 INDUSTRIAL ORGANIZATION & MGMT (END_MO2018).pdf": {
+    "dept": "Production",
+    "name": "PE5009 INDUSTRIAL ORGANIZATION & MGMT (END_MO2018).pdf",
+    "code": "PE5009",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE5009%20INDUSTRIAL%20ORGANIZATION%20%26%20MGMT%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 269980
+  },
+  "Production/PE5011 PROJECT ENGINEERING (MID_MO18).pdf": {
+    "dept": "Production",
+    "name": "PE5011 PROJECT ENGINEERING (MID_MO18).pdf",
+    "code": "PE5011",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE5011%20PROJECT%20ENGINEERING%20(MID_MO18).pdf",
+    "downloaded": true,
+    "bytes": 341526
+  },
+  "Production/PE5011 PROJECT ENGINEERING (END_MO2018).pdf": {
+    "dept": "Production",
+    "name": "PE5011 PROJECT ENGINEERING (END_MO2018).pdf",
+    "code": "PE5011",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE5011%20PROJECT%20ENGINEERING%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 304831
+  },
+  "Production/PE7005 COMPETITIVE MANUFACTURING STRATEGIES (MID_MO18).pdf": {
+    "dept": "Production",
+    "name": "PE7005 COMPETITIVE MANUFACTURING STRATEGIES (MID_MO18).pdf",
+    "code": "PE7005",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE7005%20COMPETITIVE%20MANUFACTURING%20STRATEGIES%20(MID_MO18).pdf",
+    "downloaded": true,
+    "bytes": 234066
+  },
+  "Production/PE7005 COMPETITIVE MANUFACTURING STRATEGIES (END_MO2018).pdf": {
+    "dept": "Production",
+    "name": "PE7005 COMPETITIVE MANUFACTURING STRATEGIES (END_MO2018).pdf",
+    "code": "PE7005",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE7005%20COMPETITIVE%20MANUFACTURING%20STRATEGIES%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 302912
+  },
+  "Production/PE7009 ADVANCED WELDING TECHNOLOGY (MID_MO18).pdf": {
+    "dept": "Production",
+    "name": "PE7009 ADVANCED WELDING TECHNOLOGY (MID_MO18).pdf",
+    "code": "PE7009",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE7009%20ADVANCED%20WELDING%20TECHNOLOGY%20(MID_MO18).pdf",
+    "downloaded": true,
+    "bytes": 278614
+  },
+  "Production/PE7009 ADVANCED WELDING TECHNOLOGY (END_MO2018).pdf": {
+    "dept": "Production",
+    "name": "PE7009 ADVANCED WELDING TECHNOLOGY (END_MO2018).pdf",
+    "code": "PE7009",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE7009%20ADVANCED%20WELDING%20TECHNOLOGY%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 269447
+  },
+  "Production/PE7011 ADVANCED MANUFACTURING PROCESSES (MID_MO18).pdf": {
+    "dept": "Production",
+    "name": "PE7011 ADVANCED MANUFACTURING PROCESSES (MID_MO18).pdf",
+    "code": "PE7011",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE7011%20ADVANCED%20MANUFACTURING%20PROCESSES%20(MID_MO18).pdf",
+    "downloaded": true,
+    "bytes": 339957
+  },
+  "Production/PE7011 ADVANCED MANUFACTURING PROCESSES (END_MO2018).pdf": {
+    "dept": "Production",
+    "name": "PE7011 ADVANCED MANUFACTURING PROCESSES (END_MO2018).pdf",
+    "code": "PE7011",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE7011%20ADVANCED%20MANUFACTURING%20PROCESSES%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 266469
+  },
+  "Production/PE7019 ADVANCED OPERATIONS RESEARCH (MID_MO18).pdf": {
+    "dept": "Production",
+    "name": "PE7019 ADVANCED OPERATIONS RESEARCH (MID_MO18).pdf",
+    "code": "PE7019",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE7019%20ADVANCED%20OPERATIONS%20RESEARCH%20(MID_MO18).pdf",
+    "downloaded": true,
+    "bytes": 643012
+  },
+  "Production/PE7019-ADVANCED OPERATION RESEARCH (END_MO2018).pdf": {
+    "dept": "Production",
+    "name": "PE7019-ADVANCED OPERATION RESEARCH (END_MO2018).pdf",
+    "code": "PE7019",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE7019-ADVANCED%20OPERATION%20RESEARCH%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 663582
+  },
+  "Production/PE7021 MAINTENANCE ENGINEERING (MID_MO18).pdf": {
+    "dept": "Production",
+    "name": "PE7021 MAINTENANCE ENGINEERING (MID_MO18).pdf",
+    "code": "PE7021",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE7021%20MAINTENANCE%20ENGINEERING%20(MID_MO18).pdf",
+    "downloaded": true,
+    "bytes": 338980
+  },
+  "Production/PE7021 MAINTENANCE ENGINEERING (END_MO2018).pdf": {
+    "dept": "Production",
+    "name": "PE7021 MAINTENANCE ENGINEERING (END_MO2018).pdf",
+    "code": "PE7021",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE7021%20MAINTENANCE%20ENGINEERING%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 379473
+  },
+  "Production/PE501 MANUFACTURING AUTOMATION (END_MO2018).pdf": {
+    "dept": "Production",
+    "name": "PE501 MANUFACTURING AUTOMATION (END_MO2018).pdf",
+    "code": "PE501",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE501%20MANUFACTURING%20AUTOMATION%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 266876
+  },
+  "Production/PE503 PLANNING AND CONTROL OF PRODUCTION SYSTEMS (END_MO2018).pdf": {
+    "dept": "Production",
+    "name": "PE503 PLANNING AND CONTROL OF PRODUCTION SYSTEMS (END_MO2018).pdf",
+    "code": "PE503",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE503%20PLANNING%20AND%20CONTROL%20OF%20PRODUCTION%20SYSTEMS%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 340566
+  },
+  "Production/PE504 MODELING AND SIMULATION (END_MO2018).pdf": {
+    "dept": "Production",
+    "name": "PE504 MODELING AND SIMULATION (END_MO2018).pdf",
+    "code": "PE504",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE504%20MODELING%20AND%20SIMULATION%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 263629
+  },
+  "Production/PE506 MANUFACTURING TECHNOLOGY (END_MO2018).pdf": {
+    "dept": "Production",
+    "name": "PE506 MANUFACTURING TECHNOLOGY (END_MO2018).pdf",
+    "code": "PE506",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE506%20MANUFACTURING%20TECHNOLOGY%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 480762
+  },
+  "Production/PE507 ADDITIVE MANUFACTURING (END_MO2018).pdf": {
+    "dept": "Production",
+    "name": "PE507 ADDITIVE MANUFACTURING (END_MO2018).pdf",
+    "code": "PE507",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE507%20ADDITIVE%20MANUFACTURING%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 346319
   }
 }

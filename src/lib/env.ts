@@ -19,6 +19,14 @@ const schema = z.object({
   TELEGRAM_BOT_TOKEN: z.string().optional(),
   TELEGRAM_ADMIN_CHAT_ID: z.string().optional(),
   TELEGRAM_WEBHOOK_SECRET: z.string().optional(),
+
+  // Transactional email (payment activation). SMTP is preferred — one config
+  // that also powers Supabase Auth's magic-link mail. Resend API is a fallback.
+  SMTP_HOST: z.string().optional(),
+  SMTP_PORT: z.coerce.number().optional(),
+  SMTP_USER: z.string().optional(),
+  SMTP_PASS: z.string().optional(),
+  SMTP_FROM: z.string().optional(), // e.g. "cramBIT <crambit.noida@gmail.com>"
   RESEND_API_KEY: z.string().optional(),
 });
 
