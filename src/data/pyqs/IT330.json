@@ -1,0 +1,104 @@
+{
+  "courseCode": "IT330",
+  "courseName": "CRYPTOGRAPHY AND NETWORK SECURITY",
+  "historical_papers": [
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Differentiate between symmetric cryptography and asymmetric cryptography.",
+              "marks": 2,
+              "topic": "symmetric vs asymmetric cryptography"
+            },
+            {
+              "label": "b",
+              "text": "Explain the security requirement CIA (Confidentiality, Integrity and Availability) triad in details.",
+              "marks": 3,
+              "topic": "CIA triad"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Differentiate between stream cipher and block cipher.",
+              "marks": 2,
+              "topic": "stream vs block cipher"
+            },
+            {
+              "label": "b",
+              "text": "Consider Plaintext=”Algorithm” and Key=”Playfair”. Using Playfair Cryptographic Algorithm, compute Cyphertext.",
+              "marks": 3,
+              "topic": "Playfair cipher"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain Euclidean Algorithm with the help of an example.",
+              "marks": 2,
+              "topic": "Euclidean algorithm"
+            },
+            {
+              "label": "b",
+              "text": "With the help of a diagram explain DES encryption algorithm.",
+              "marks": 3,
+              "topic": "DES encryption"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "For GF(5^2) find finite field Z_5^2.",
+              "marks": 2,
+              "topic": "finite fields GF(5^2)"
+            },
+            {
+              "label": "b",
+              "text": "Find out additive inverse and multiplicative inverse for GF(2^3).",
+              "marks": 3,
+              "topic": "inverse in GF(2^3)"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define Euler’s Totient Function and Euler’s Theorem.",
+              "marks": 2,
+              "topic": "Euler's Totient function"
+            },
+            {
+              "label": "b",
+              "text": "Find out the public key and private key using RSA algorithm for the following problem: Two prime numbers are p=11 and q=13. Select other values suitably, if required.",
+              "marks": 3,
+              "topic": "RSA key generation"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

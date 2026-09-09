@@ -799,5 +799,81 @@
       "Shannon capacity"
     ],
     "sessions": 1
+  },
+  {
+    "key": "CSE/IT303 INTERNET AND WEB TECHNOLOGY (MID_MO22).pdf",
+    "code": "IT303",
+    "name": "INTERNET AND WEB TECHNOLOGY",
+    "dept": "CSE",
+    "topics": [
+      "Social Networks",
+      "Social Media",
+      "HTML Tagging",
+      "SaaS",
+      "Silverlight",
+      "RIA",
+      "HTML img attributes",
+      "XHTML Table",
+      "XHTML storage",
+      "XHTML Form"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/IT305 SOFTWARE ENGINEERING (MID_MO22).pdf",
+    "code": "IT305",
+    "name": "SOFTWARE ENGINEERING",
+    "dept": "CSE",
+    "topics": [
+      "Software Engineering",
+      "Agile Methodologies",
+      "Software Process Activities",
+      "Use Case Diagram",
+      "Requirements",
+      "Requirement Analysis",
+      "Project Scheduling",
+      "Requirement Types",
+      "Risk Management",
+      "Software Development Approaches"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/IT322 CLOUD COMPUTING (MID_MO22).pdf",
+    "code": "IT322",
+    "name": "CLOUD COMPUTING",
+    "dept": "CSE",
+    "topics": [
+      "definition",
+      "evolution",
+      "reference model",
+      "service-oriented framework",
+      "parallel processing benefits",
+      "distributed vs parallel",
+      "architectural styles",
+      "inter process communication",
+      "message-based communication",
+      "virtualization"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/IT330 CRYPTOGRAPHY AND NETWORK SECURITY (MID_MO22).pdf",
+    "code": "IT330",
+    "name": "CRYPTOGRAPHY AND NETWORK SECURITY",
+    "dept": "CSE",
+    "topics": [
+      "symmetric vs asymmetric cryptography",
+      "CIA triad",
+      "stream vs block cipher",
+      "Playfair cipher",
+      "Euclidean algorithm",
+      "DES encryption",
+      "finite fields GF(5^2)",
+      "inverse in GF(2^3)",
+      "Euler's Totient function",
+      "RSA key generation"
+    ],
+    "sessions": 1
   }
 ]

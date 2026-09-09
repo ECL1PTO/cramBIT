@@ -1,0 +1,104 @@
+{
+  "courseCode": "IT322",
+  "courseName": "CLOUD COMPUTING",
+  "historical_papers": [
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define Cloud Computing and summarize the core features of cloud computing.",
+              "marks": 2,
+              "topic": "definition"
+            },
+            {
+              "label": "b",
+              "text": "Give a brief discussion on the evolution of cloud computing and also enlist the advantages of cloud computing.",
+              "marks": 3,
+              "topic": "evolution"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "With the use of an appropriate illustration, briefly describe the cloud computing reference model.",
+              "marks": 2,
+              "topic": "reference model"
+            },
+            {
+              "label": "b",
+              "text": "Demonstrate what do you understand by service-oriented computing framework? How does it support cloud computing?",
+              "marks": 3,
+              "topic": "service-oriented framework"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Discuss the benefits of parallel processing that make it a relevant computing solution.",
+              "marks": 2,
+              "topic": "parallel processing benefits"
+            },
+            {
+              "label": "b",
+              "text": "Identify the key differences between distributed and parallel computing. Enumerate the different programming approaches to achieve parallelism.",
+              "marks": 3,
+              "topic": "distributed vs parallel"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Enlist the most important software architectural styles for distributed computing.",
+              "marks": 2,
+              "topic": "architectural styles"
+            },
+            {
+              "label": "b",
+              "text": "Demonstrate the different inter process communication models used for distributed systems?",
+              "marks": 3,
+              "topic": "inter process communication"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Enlist the different models for message-based communication.",
+              "marks": 2,
+              "topic": "message-based communication"
+            },
+            {
+              "label": "b",
+              "text": "Explain virtualization in terms of cloud computing. Discuss briefly how virtual machine instances are different from container instances.",
+              "marks": 3,
+              "topic": "virtualization"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

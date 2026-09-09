@@ -1,0 +1,104 @@
+{
+  "courseCode": "IT303",
+  "courseName": "INTERNET AND WEB TECHNOLOGY",
+  "historical_papers": [
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is Friendster? Who acquired MySpace in 2005?",
+              "marks": 2,
+              "topic": "Social Networks"
+            },
+            {
+              "label": "b",
+              "text": "Describe social media examples.",
+              "marks": 3,
+              "topic": "Social Media"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Illustrate tagging with examples.",
+              "marks": 2,
+              "topic": "HTML Tagging"
+            },
+            {
+              "label": "b",
+              "text": "What is Software as a service?",
+              "marks": 3,
+              "topic": "SaaS"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What was Silverlight formerly called as?",
+              "marks": 2,
+              "topic": "Silverlight"
+            },
+            {
+              "label": "b",
+              "text": "Illustrate any one technology for RIA’s.",
+              "marks": 3,
+              "topic": "RIA"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What attributes in <img> tag makes browser’s loading and rendering of web pages faster?",
+              "marks": 2,
+              "topic": "HTML img attributes"
+            },
+            {
+              "label": "b",
+              "text": "Create an XHTML page that consists of a table that has 5 rows and five columns. The first row will contain an image of BIT Mesra that spans two rows and two columns. The first row will also have a heading “BIT Mesra” that spans two columns and two rows and is to the right of the image. The second row will have all columns filled with different hyperlinks to other pages namely “Lalpur”, “Deoghar”, “Patna”, “Noida” and “Bhimtal”. The third row will contain number of students in each of these extension centers namely 2000, 3000, 4000, 5000 and 6000. There should be a table footer that shows number of courses running in these centers namely 12, 13, 14, 15 and 16.",
+              "marks": 3,
+              "topic": "XHTML Table"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Where are XHTML documents stored?",
+              "marks": 2,
+              "topic": "XHTML storage"
+            },
+            {
+              "label": "b",
+              "text": "Create an XHTML page with a form that takes name, address, person’s description in 5 lines, password, gives options of five sports and lets the user select more than one and gives to select whether the person is male or female, gives a menu to select number of hours they can give to sports in a week and submit and reset buttons.",
+              "marks": 3,
+              "topic": "XHTML Form"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
