@@ -1,19 +1,36 @@
 import "server-only";
 import type { SupabaseClient } from "@supabase/supabase-js";
 
+/**
+ * Anti-abuse model (college students will do anything to avoid paying):
+ *
+ * - FREE plan: the first generation binds the user to ONE course. They may
+ *   re-generate for that same course (tweaking the syllabus) up to
+ *   FREE_REGEN_CAP times. Switching to any other course requires payment.
+ * - PER-SUBJECT (₹49): unlocks exactly that subject, also capped at
+ *   SUBJECT_REGEN_CAP re-generations so it can't become a de-facto bundle.
+ * - BUNDLE (₹199): every subject, capped only by the daily rate limit.
+ *
+ * The course identity is the resolved subject code, or (for unknown courses)
+ * the normalised typed string — stored in generated_papers.course_input.
+ */
+
+export const FREE_REGEN_CAP = 10;
+export const SUBJECT_REGEN_CAP = 12;
+
 export interface EntitlementCheck {
   allowed: boolean;
-  isPaid: boolean; // true => covered by a paid entitlement; false => uses the free credit
-  reason?: "needs-payment";
+  isPaid: boolean;
+  reason?: "needs-payment" | "regen-cap";
+  lockedCourse?: string; // the course the free/paid plan is bound to
+  triesLeft?: number;
 }
 
-/**
- * `db` must be a service-role client. `subjectCode` is null for unknown/new courses.
- */
 export async function checkEntitlement(
   db: SupabaseClient,
   userId: string,
   subjectCode: string | null,
+  courseKey: string,
 ): Promise<EntitlementCheck> {
   const { data: ents } = await db
     .from("entitlements")
@@ -24,25 +41,48 @@ export async function checkEntitlement(
   const hasBundle = ents?.some((e) => e.scope === "bundle") ?? false;
   const hasSubject =
     subjectCode != null &&
-    (ents?.some((e) => e.scope === "subject" && e.subject_code === subjectCode) ??
-      false);
+    (ents?.some((e) => e.scope === "subject" && e.subject_code === subjectCode) ?? false);
 
-  if (hasBundle || hasSubject) return { allowed: true, isPaid: true };
+  if (hasBundle) return { allowed: true, isPaid: true };
 
-  // Free credit: exactly one lifetime unpaid generation.
-  const { count } = await db
+  if (hasSubject) {
+    const { count } = await db
+      .from("generated_papers")
+      .select("id", { count: "exact", head: true })
+      .eq("user_id", userId)
+      .eq("subject_code", subjectCode);
+    const used = count ?? 0;
+    if (used >= SUBJECT_REGEN_CAP) {
+      return { allowed: false, isPaid: true, reason: "regen-cap", lockedCourse: subjectCode! };
+    }
+    return { allowed: true, isPaid: true, triesLeft: SUBJECT_REGEN_CAP - used };
+  }
+
+  // ---- Free plan ----
+  const { data: freeRows } = await db
     .from("generated_papers")
-    .select("id", { count: "exact", head: true })
+    .select("subject_code, course_input")
     .eq("user_id", userId)
-    .eq("is_paid", false);
+    .eq("is_paid", false)
+    .order("created_at", { ascending: true });
 
-  if ((count ?? 0) === 0) return { allowed: true, isPaid: false };
+  if (!freeRows?.length) {
+    // First ever generation — this becomes their free course.
+    return { allowed: true, isPaid: false, triesLeft: FREE_REGEN_CAP - 1 };
+  }
 
-  return { allowed: false, isPaid: false, reason: "needs-payment" };
+  const boundKey = freeRows[0].subject_code ?? freeRows[0].course_input;
+  if (boundKey !== courseKey) {
+    return { allowed: false, isPaid: false, reason: "needs-payment", lockedCourse: boundKey };
+  }
+  if (freeRows.length >= FREE_REGEN_CAP) {
+    return { allowed: false, isPaid: false, reason: "regen-cap", lockedCourse: boundKey };
+  }
+  return { allowed: true, isPaid: false, triesLeft: FREE_REGEN_CAP - freeRows.length };
 }
 
 const LIMITS: Record<string, { max: number; windowMs: number }> = {
-  generate: { max: 20, windowMs: 24 * 60 * 60 * 1000 },
+  generate: { max: 25, windowMs: 24 * 60 * 60 * 1000 },
   chat: { max: 60, windowMs: 60 * 60 * 1000 },
 };
 
@@ -64,7 +104,6 @@ export async function rateLimit(
   const windowStart = data ? new Date(data.window_start).getTime() : 0;
   const fresh = now - windowStart > cfg.windowMs;
   const nextCount = fresh ? 1 : (data?.count ?? 0) + 1;
-
   if (nextCount > cfg.max) return false;
 
   await db.from("rate_limits").upsert(

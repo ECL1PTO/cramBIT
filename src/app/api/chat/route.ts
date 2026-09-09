@@ -28,7 +28,7 @@ export async function POST(req: Request) {
 
   const db = createServiceClient();
   const code = normalizeCode(courseContext);
-  const ent = await checkEntitlement(db, user.id, code || null);
+  const ent = await checkEntitlement(db, user.id, code || null, code);
   // The AI tutor is a paid-tier feature — the free paper does not include it.
   if (!ent.allowed || !ent.isPaid) {
     return NextResponse.json({ error: "needs-payment" }, { status: 402 });

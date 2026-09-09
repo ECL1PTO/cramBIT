@@ -37,31 +37,31 @@ function LoginInner() {
   }
 
   return (
-    <main className="flex min-h-screen items-center bg-onyx">
+    <main className="flex min-h-screen items-center bg-canvas">
       <Container className="max-w-md">
-        <Link href="/" className="font-mono text-body-sm text-ash hover:text-ivory">
+        <Link href="/" className="font-mono text-body-sm text-muted hover:text-text">
           ← cramBIT
         </Link>
         <Card className="mt-6">
           {status === "sent" ? (
             <>
-              <h1 className="text-h3 font-normal text-ivory">Check your inbox</h1>
-              <p className="mt-3 text-body-sm leading-relaxed text-ash">
+              <h1 className="text-h3 font-normal text-text">Check your inbox</h1>
+              <p className="mt-3 text-body-sm leading-relaxed text-muted">
                 We sent a sign-in link to{" "}
-                <span className="font-mono text-ivory">{email}</span>. Open it on this
+                <span className="font-mono text-text">{email}</span>. Open it on this
                 device.
               </p>
               <button
                 onClick={() => setStatus("idle")}
-                className="mt-6 text-body-sm text-ash hover:text-ivory"
+                className="mt-6 text-body-sm text-muted hover:text-text"
               >
                 Use a different email
               </button>
             </>
           ) : (
             <>
-              <h1 className="text-h3 font-normal text-ivory">Sign in</h1>
-              <p className="mt-2 text-body-sm text-ash">
+              <h1 className="text-h3 font-normal text-text">Sign in</h1>
+              <p className="mt-2 text-body-sm text-muted">
                 Restricted to BIT Mesra, Noida students.
               </p>
               <form onSubmit={sendLink} className="mt-6 space-y-4">

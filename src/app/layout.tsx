@@ -1,12 +1,9 @@
 import type { Metadata } from "next";
-import { Inter, Instrument_Serif, IBM_Plex_Mono } from "next/font/google";
+import { Inter, Instrument_Serif, IBM_Plex_Mono, Newsreader } from "next/font/google";
+import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
 
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-  display: "swap",
-});
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
 
 const instrumentSerif = Instrument_Serif({
   subsets: ["latin"],
@@ -20,6 +17,14 @@ const ibmPlexMono = IBM_Plex_Mono({
   subsets: ["latin"],
   weight: ["400", "500"],
   variable: "--font-ibm-plex-mono",
+  display: "swap",
+});
+
+const newsreader = Newsreader({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  style: ["normal", "italic"],
+  variable: "--font-newsreader",
   display: "swap",
 });
 
@@ -49,8 +54,14 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${instrumentSerif.variable} ${ibmPlexMono.variable}`}>
-      <body>{children}</body>
+    <html
+      lang="en"
+      suppressHydrationWarning
+      className={`${inter.variable} ${instrumentSerif.variable} ${ibmPlexMono.variable} ${newsreader.variable}`}
+    >
+      <body>
+        <ThemeProvider>{children}</ThemeProvider>
+      </body>
     </html>
   );
 }

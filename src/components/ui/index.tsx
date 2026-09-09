@@ -44,10 +44,10 @@ export function SectionHeading({
           {eyebrow}
         </p>
       ) : null}
-      <h2 className="text-h2 font-normal leading-tight tracking-tight text-ivory">
+      <h2 className="text-h2 font-normal leading-tight tracking-tight text-text">
         {title}
       </h2>
-      {lead ? <p className="mt-4 text-lead leading-relaxed text-ash">{lead}</p> : null}
+      {lead ? <p className="mt-4 text-lead leading-relaxed text-muted">{lead}</p> : null}
     </div>
   );
 }
@@ -60,9 +60,9 @@ const buttonBase =
   "inline-flex items-center justify-center gap-2 rounded-pill px-5 py-2.5 text-body-sm font-medium transition-colors duration-200 disabled:opacity-50 disabled:pointer-events-none";
 
 const buttonVariants: Record<ButtonVariant, string> = {
-  primary: "bg-cobalt text-white hover:bg-cobalt-hover",
-  ghost: "border border-ivory/25 text-ivory hover:border-ivory/60",
-  quiet: "text-ash hover:text-ivory",
+  primary: "bg-accent text-white hover:bg-accent-hover",
+  ghost: "border border-text/25 text-text hover:border-text/60",
+  quiet: "text-muted hover:text-text",
 };
 
 export function Button({
@@ -101,7 +101,7 @@ export function Card({
   ...props
 }: HTMLAttributes<HTMLDivElement>) {
   return (
-    <div className={clsx("rounded-card bg-graphite p-6 sm:p-8", className)} {...props}>
+    <div className={clsx("rounded-card bg-surface p-6 sm:p-8", className)} {...props}>
       {children}
     </div>
   );
@@ -111,7 +111,7 @@ export function Badge({ children, className }: { children: ReactNode; className?
   return (
     <span
       className={clsx(
-        "inline-flex items-center rounded-pill border border-hairline px-3 py-1 text-caption text-ash",
+        "inline-flex items-center rounded-pill border border-border px-3 py-1 text-caption text-muted",
         className,
       )}
     >
@@ -124,7 +124,7 @@ export function MonoChip({ children, className }: { children: ReactNode; classNa
   return (
     <span
       className={clsx(
-        "inline-flex items-center rounded-sheet border border-hairline bg-obsidian px-2 py-0.5 font-mono text-caption text-ivory",
+        "inline-flex items-center rounded-sheet border border-border bg-surface-2 px-2 py-0.5 font-mono text-caption text-text",
         className,
       )}
     >
@@ -136,7 +136,7 @@ export function MonoChip({ children, className }: { children: ReactNode; classNa
 /* ------------------------------------------------------------------ inputs */
 
 const fieldBase =
-  "w-full rounded-input border border-hairline bg-obsidian px-4 py-3 text-body text-ivory placeholder:text-faint transition-colors duration-200 focus:border-cobalt focus:outline-none";
+  "w-full rounded-input border border-border bg-surface-2 px-4 py-3 text-body text-text placeholder:text-faint transition-colors duration-200 focus:border-accent focus:outline-none";
 
 export function Field({
   label,
@@ -151,7 +151,7 @@ export function Field({
 }) {
   return (
     <label className={clsx("block", className)}>
-      <span className="mb-2 block text-body-sm text-ash">{label}</span>
+      <span className="mb-2 block text-body-sm text-muted">{label}</span>
       <input className={fieldBase} {...props} />
       {error ? (
         <span className="mt-1.5 block text-caption text-danger">{error}</span>
@@ -173,7 +173,7 @@ export function TextArea({
 }) {
   return (
     <label className={clsx("block", className)}>
-      <span className="mb-2 block text-body-sm text-ash">{label}</span>
+      <span className="mb-2 block text-body-sm text-muted">{label}</span>
       <textarea className={clsx(fieldBase, "min-h-40 resize-y font-mono text-body-sm")} {...props} />
       {hint ? <span className="mt-1.5 block text-caption text-faint">{hint}</span> : null}
     </label>

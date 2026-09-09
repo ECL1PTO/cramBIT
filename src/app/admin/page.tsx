@@ -27,15 +27,15 @@ export default async function AdminPage() {
   const rows = claims ?? [];
 
   return (
-    <main className="min-h-screen bg-onyx">
+    <main className="min-h-screen bg-canvas">
       <Container className="py-section">
-        <h1 className="text-h2 font-normal tracking-tight text-ivory">Payment claims</h1>
+        <h1 className="text-h2 font-normal tracking-tight text-text">Payment claims</h1>
         <div className="mt-8 space-y-3">
           {rows.length === 0 && <p className="text-body-sm text-faint">No claims yet.</p>}
           {rows.map((c) => (
             <Card key={c.id} className="flex flex-wrap items-center gap-4 p-5">
               <div className="min-w-0 flex-1">
-                <p className="font-mono text-body-sm text-ivory">
+                <p className="font-mono text-body-sm text-text">
                   {c.plan}
                   {c.subject_code ? ` · ${c.subject_code}` : ""} · ₹{c.amount}
                 </p>
@@ -46,7 +46,7 @@ export default async function AdminPage() {
               {c.status === "pending" ? (
                 <ClaimActions claimId={c.id} />
               ) : (
-                <span className="font-mono text-caption text-ash">{c.status}</span>
+                <span className="font-mono text-caption text-muted">{c.status}</span>
               )}
             </Card>
           ))}

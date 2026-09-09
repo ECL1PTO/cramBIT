@@ -1,28 +1,31 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 /*
-  cramBIT — "Onyx Editorial" design system.
-  Dark-only. One accent (cobalt). Flat surfaces, hairline borders, no shadows, no gradients.
+  cramBIT design system — semantic tokens, light + dark.
+  Restrained: one accent, hairline borders, flat surfaces, purposeful motion.
 */
 
 @theme {
-  /* ---- Color ---- */
-  --color-onyx: #171721;          /* page canvas */
-  --color-graphite: #1e1e2a;      /* card / elevated surface (one-step lift) */
-  --color-obsidian: #272735;      /* inputs, secondary surfaces */
-  --color-hairline: #2e2e3c;      /* 1px borders / dividers */
-  --color-ivory: #ededf3;         /* primary text */
-  --color-ash: #a5a5b3;           /* muted text */
-  --color-faint: #6f6f7e;         /* tertiary text, placeholders */
-  --color-cobalt: #5266eb;        /* the only chromatic action */
-  --color-cobalt-hover: #6376ef;
-  --color-paper: #ffffff;         /* printed exam sheet */
-  --color-danger: #e5674f;
+  --color-canvas: var(--c-canvas);
+  --color-surface: var(--c-surface);
+  --color-surface-2: var(--c-surface-2);
+  --color-border: var(--c-border);
+  --color-text: var(--c-text);
+  --color-muted: var(--c-muted);
+  --color-faint: var(--c-faint);
+  --color-accent: var(--c-accent);
+  --color-accent-hover: var(--c-accent-hover);
+  --color-accent-soft: var(--c-accent-soft);
+  --color-danger: var(--c-danger);
+  --color-paper: #ffffff;
+  --color-paper-ink: #14161a;
 
-  /* ---- Type ---- */
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-serif: var(--font-instrument-serif), ui-serif, Georgia, serif;
   --font-mono: var(--font-ibm-plex-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-paper: var(--font-newsreader), ui-serif, "Iowan Old Style", Georgia, serif;
 
   --text-caption: 0.75rem;
   --text-body-sm: 0.875rem;
@@ -33,21 +36,69 @@
   --text-h1: 2.75rem;
   --text-display: 4rem;
 
-  /* ---- Spacing (4px base) ---- */
-  --spacing-section: 4.5rem;      /* 72px vertical rhythm */
+  --spacing-section: 4.5rem;
 
-  /* ---- Radius ---- */
-  --radius-card: 0.75rem;         /* 12px */
-  --radius-input: 0.5rem;         /* 8px */
+  --radius-card: 0.875rem;
+  --radius-input: 0.5rem;
   --radius-pill: 9999px;
-  --radius-sheet: 0.375rem;       /* 6px — exam paper surface */
+  --radius-sheet: 0.375rem;
 
-  /* ---- Motion ---- */
   --ease-glide: cubic-bezier(0.19, 1, 0.22, 1);
 }
 
+/* ---- Light (default) ---- */
 :root {
+  --c-canvas: #fbfaf8;
+  --c-surface: #ffffff;
+  --c-surface-2: #f3f2ef;
+  --c-border: #e7e5e0;
+  --c-text: #191a1f;
+  --c-muted: #5c5d68;
+  --c-faint: #9a9aa4;
+  --c-accent: #4a45d4;
+  --c-accent-hover: #3d38c4;
+  --c-accent-soft: color-mix(in oklab, var(--c-accent) 12%, transparent);
+  --c-danger: #d1483a;
+  --grid-line: rgba(20, 20, 40, 0.035);
+  --glow: color-mix(in oklab, var(--c-accent) 22%, transparent);
+  color-scheme: light;
+}
+
+/* ---- Dark ---- */
+.dark {
+  --c-canvas: #121219;
+  --c-surface: #1b1b25;
+  --c-surface-2: #24242f;
+  --c-border: #2f2f3c;
+  --c-text: #f0f0f4;
+  --c-muted: #a6a6b4;
+  --c-faint: #6d6d7c;
+  --c-accent: #6674f6;
+  --c-accent-hover: #7b87f8;
+  --c-accent-soft: color-mix(in oklab, var(--c-accent) 16%, transparent);
+  --c-danger: #ec6a54;
+  --grid-line: rgba(255, 255, 255, 0.022);
+  --glow: color-mix(in oklab, var(--c-accent) 30%, transparent);
   color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not(.light) {
+    --c-canvas: #121219;
+    --c-surface: #1b1b25;
+    --c-surface-2: #24242f;
+    --c-border: #2f2f3c;
+    --c-text: #f0f0f4;
+    --c-muted: #a6a6b4;
+    --c-faint: #6d6d7c;
+    --c-accent: #6674f6;
+    --c-accent-hover: #7b87f8;
+    --c-accent-soft: color-mix(in oklab, #6674f6 16%, transparent);
+    --c-danger: #ec6a54;
+    --grid-line: rgba(255, 255, 255, 0.022);
+    --glow: color-mix(in oklab, #6674f6 30%, transparent);
+    color-scheme: dark;
+  }
 }
 
 * {
@@ -55,34 +106,34 @@
 }
 
 html {
-  background-color: var(--color-onyx);
+  background-color: var(--color-canvas);
   -webkit-text-size-adjust: 100%;
   scroll-behavior: smooth;
 }
 
 body {
-  background-color: var(--color-onyx);
-  color: var(--color-ivory);
+  background-color: var(--color-canvas);
+  color: var(--color-text);
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
-  /* barely-there retro grid — one flat texture, no motion */
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.018) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.018) 1px, transparent 1px);
+    linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
   background-size: 72px 72px;
   background-position: center -1px;
+  transition: background-color 0.3s var(--ease-glide), color 0.3s var(--ease-glide);
 }
 
 ::selection {
-  background: color-mix(in oklab, var(--color-cobalt) 40%, transparent);
+  background: var(--color-accent-soft);
 }
 
 *:focus-visible {
-  outline: 2px solid var(--color-cobalt);
+  outline: 2px solid var(--color-accent);
   outline-offset: 2px;
-  border-radius: 2px;
+  border-radius: 3px;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -93,25 +144,84 @@ body {
   }
 }
 
-/* ---- Reveal-on-load (hero, one slow move) ---- */
+/* ---- Motion ---- */
 @keyframes rise {
-  from { opacity: 0; transform: translateY(12px); }
+  from { opacity: 0; transform: translateY(14px); }
   to   { opacity: 1; transform: translateY(0); }
 }
+@keyframes fade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes blink {
+  0%, 45% { opacity: 1; }
+  50%, 95% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes sheen {
+  from { background-position: -150% 0; }
+  to   { background-position: 250% 0; }
+}
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
 .rise { animation: rise 0.7s var(--ease-glide) both; }
 .rise-1 { animation-delay: 0.05s; }
-.rise-2 { animation-delay: 0.12s; }
-.rise-3 { animation-delay: 0.19s; }
+.rise-2 { animation-delay: 0.13s; }
+.rise-3 { animation-delay: 0.21s; }
+.rise-4 { animation-delay: 0.29s; }
+.fade-in { animation: fade 0.5s ease both; }
+.cursor-blink { animation: blink 1.2s step-end infinite; }
 
-/* ---- Print: clean white A4 exam sheet ---- */
+/* accent glow helper */
+.glow-accent {
+  position: relative;
+}
+.glow-accent::before {
+  content: "";
+  position: absolute;
+  inset: -40% -20%;
+  background: radial-gradient(50% 50% at 50% 50%, var(--glow), transparent 70%);
+  filter: blur(40px);
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* shimmering text for one accent word */
+.shimmer {
+  background: linear-gradient(
+    100deg,
+    var(--color-accent) 20%,
+    color-mix(in oklab, var(--color-accent) 45%, var(--color-text)) 40%,
+    var(--color-accent) 60%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: sheen 6s linear infinite;
+}
+
+/* card hover lift */
+.lift {
+  transition: transform 0.25s var(--ease-glide), border-color 0.25s var(--ease-glide);
+}
+.lift:hover {
+  transform: translateY(-3px);
+  border-color: var(--color-accent-soft);
+}
+
+/* ---- Print: clean paper ---- */
 @media print {
-  body { background: #fff; color: #000; }
+  body { background: #fff; color: #000; background-image: none; }
   .no-print { display: none !important; }
   .print-sheet {
     background: #fff !important;
-    color: #000 !important;
+    color: var(--color-paper-ink) !important;
     border: none !important;
-    font-family: var(--font-mono);
+    font-family: var(--font-paper);
   }
-  .print-sheet * { color: #000 !important; }
+  .print-sheet * { color: var(--color-paper-ink) !important; }
 }

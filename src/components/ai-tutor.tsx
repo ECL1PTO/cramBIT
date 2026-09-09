@@ -66,15 +66,15 @@ export function AITutor({
       {!open ? (
         <button
           onClick={() => setOpen(true)}
-          className="rounded-pill bg-cobalt px-5 py-3 text-body-sm font-medium text-white transition-colors hover:bg-cobalt-hover"
+          className="rounded-pill bg-accent px-5 py-3 text-body-sm font-medium text-white transition-colors hover:bg-accent-hover"
         >
           Ask the tutor
         </button>
       ) : (
-        <div className="flex h-[460px] w-[360px] flex-col rounded-card border border-hairline bg-graphite sm:w-[400px]">
-          <div className="flex items-center justify-between border-b border-hairline px-4 py-3">
-            <span className="text-body-sm text-ivory">Tutor</span>
-            <button onClick={() => setOpen(false)} className="text-ash hover:text-ivory">
+        <div className="flex h-[460px] w-[360px] flex-col rounded-card border border-border bg-surface sm:w-[400px]">
+          <div className="flex items-center justify-between border-b border-border px-4 py-3">
+            <span className="text-body-sm text-text">Tutor</span>
+            <button onClick={() => setOpen(false)} className="text-muted hover:text-text">
               Close
             </button>
           </div>
@@ -84,8 +84,8 @@ export function AITutor({
                 key={i}
                 className={`max-w-[85%] rounded-input px-3 py-2 text-body-sm ${
                   m.role === "user"
-                    ? "ml-auto bg-cobalt text-white"
-                    : "bg-obsidian text-ivory [&_code]:font-mono [&_pre]:overflow-x-auto"
+                    ? "ml-auto bg-accent text-white"
+                    : "bg-surface-2 text-text [&_code]:font-mono [&_pre]:overflow-x-auto"
                 }`}
               >
                 {m.role === "user" ? m.content : <Markdown>{m.content}</Markdown>}
@@ -94,12 +94,12 @@ export function AITutor({
             {loading && <p className="text-caption text-faint">Thinking…</p>}
             <div ref={endRef} />
           </div>
-          <form onSubmit={send} className="border-t border-hairline p-3">
+          <form onSubmit={send} className="border-t border-border p-3">
             <input
               value={input}
               onChange={(e) => setInput(e.target.value)}
               placeholder="How do I solve Q2(b)?"
-              className="w-full rounded-input border border-hairline bg-obsidian px-3 py-2 text-body-sm text-ivory placeholder:text-faint focus:border-cobalt focus:outline-none"
+              className="w-full rounded-input border border-border bg-surface-2 px-3 py-2 text-body-sm text-text placeholder:text-faint focus:border-accent focus:outline-none"
             />
           </form>
         </div>

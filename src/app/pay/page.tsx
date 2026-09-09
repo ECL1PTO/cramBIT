@@ -43,39 +43,39 @@ function PayInner() {
   }
 
   return (
-    <main className="flex min-h-screen items-center bg-onyx">
+    <main className="flex min-h-screen items-center bg-canvas">
       <Container className="max-w-md">
-        <Link href="/dashboard" className="font-mono text-body-sm text-ash hover:text-ivory">
+        <Link href="/dashboard" className="font-mono text-body-sm text-muted hover:text-text">
           ← dashboard
         </Link>
 
         <Card className="mt-6">
           {state === "done" ? (
             <>
-              <h1 className="text-h3 font-normal text-ivory">Payment submitted</h1>
-              <p className="mt-3 text-body-sm leading-relaxed text-ash">
+              <h1 className="text-h3 font-normal text-text">Payment submitted</h1>
+              <p className="mt-3 text-body-sm leading-relaxed text-muted">
                 Your access unlocks within a couple of hours, once we confirm the transfer.
                 You’ll get an email when it’s active.
               </p>
               <Link
                 href="/dashboard"
-                className="mt-6 inline-block text-body-sm text-cobalt hover:underline"
+                className="mt-6 inline-block text-body-sm text-accent hover:underline"
               >
                 Back to dashboard
               </Link>
             </>
           ) : (
             <>
-              <h1 className="text-h3 font-normal text-ivory">
+              <h1 className="text-h3 font-normal text-text">
                 {plan === "bundle" ? "Season bundle" : `Unlock ${subject}`}
               </h1>
-              <p className="mt-1 font-mono text-h3 text-ivory">₹{amount}</p>
+              <p className="mt-1 font-mono text-h3 text-text">₹{amount}</p>
 
-              <ol className="mt-6 space-y-3 text-body-sm text-ash">
+              <ol className="mt-6 space-y-3 text-body-sm text-muted">
                 <li>
                   1. Pay ₹{amount} to{" "}
                   {VPA ? (
-                    <span className="font-mono text-ivory">{VPA}</span>
+                    <span className="font-mono text-text">{VPA}</span>
                   ) : (
                     <span className="text-faint">(UPI ID not configured)</span>
                   )}
@@ -83,7 +83,7 @@ function PayInner() {
                     <>
                       {" "}
                       —{" "}
-                      <a href={upiLink} className="text-cobalt hover:underline">
+                      <a href={upiLink} className="text-accent hover:underline">
                         open UPI app
                       </a>
                     </>

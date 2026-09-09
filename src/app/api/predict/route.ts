@@ -9,6 +9,7 @@ import {
   buildCandidatePool,
   resolve,
 } from "@/lib/engine/predict";
+import { normalizeCode } from "@/lib/engine/data";
 import { BlueprintSchema, CandidateSchema } from "@/lib/engine/types";
 import { PRICING } from "@/data/pricing";
 
@@ -43,12 +44,14 @@ export async function POST(req: Request) {
     );
   }
 
-  const ent = await checkEntitlement(db, user.id, r.code);
+  const courseKey = r.code ?? normalizeCode(courseInput);
+  const ent = await checkEntitlement(db, user.id, r.code, courseKey);
   if (!ent.allowed) {
     return NextResponse.json(
       {
-        error: "needs-payment",
+        error: ent.reason ?? "needs-payment",
         courseCode: r.code,
+        lockedCourse: ent.lockedCourse ?? null,
         plans: { subject: r.code ? PRICING.perSubject : null, bundle: PRICING.bundle },
       },
       { status: 402 },
@@ -64,6 +67,7 @@ export async function POST(req: Request) {
         courseName: r.name,
         borrowedFrom: r.borrowedFrom,
         isPaid: ent.isPaid,
+        triesLeft: ent.triesLeft ?? null,
         blueprint: bp,
       });
     }
@@ -106,7 +110,7 @@ export async function POST(req: Request) {
     const { error: insertError } = await db.from("generated_papers").insert({
       user_id: user.id,
       subject_code: r.code,
-      course_input: courseInput.trim(),
+      course_input: courseKey,
       syllabus_text: r.syllabus,
       coverage: r.coverage,
       blueprint: { ...blueprint, topCandidates: candidates.slice(0, 12) },
@@ -120,7 +124,12 @@ export async function POST(req: Request) {
       console.error("generated_papers insert failed:", insertError);
     }
 
-    return NextResponse.json({ coverage: r.coverage, sets, isPaid: ent.isPaid });
+    return NextResponse.json({
+      coverage: r.coverage,
+      sets,
+      isPaid: ent.isPaid,
+      triesLeft: ent.triesLeft != null ? ent.triesLeft - 1 : null,
+    });
   } catch (err) {
     console.error("predict error:", err);
     return NextResponse.json(
