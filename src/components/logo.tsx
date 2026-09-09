@@ -59,6 +59,7 @@ export function Wordmark({
       />
       <span className={clsx("font-mono font-medium tracking-tight text-text", text)}>
         cram<span className="text-accent">BIT</span>
+        <span className="cursor-blink text-accent">_</span>
       </span>
     </Link>
   );
