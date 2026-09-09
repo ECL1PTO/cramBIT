@@ -21,7 +21,7 @@ interface Suggestion {
 }
 
 const STEP_COPY: Record<"planning" | "pooling" | "writing", string> = {
-  planning: "Reading past papers, building the topic blueprint…",
+  planning: "Reading PYQs, building the topic blueprint…",
   pooling: "Ranking the most probable questions…",
   writing: "Drafting and checking the papers…",
 };
@@ -187,7 +187,7 @@ export default function Dashboard() {
               await supabase.auth.signOut();
               router.push("/login");
             }}
-            className="rounded-pill border border-border px-3 py-1.5 transition-colors hover:text-text"
+            className="rounded-pill border border-text/25 px-3 py-1.5 transition-colors hover:border-text/50 hover:text-text"
           >
             Sign out
           </button>
@@ -198,7 +198,7 @@ export default function Dashboard() {
         {/* controls */}
         <div className="space-y-5 no-print">
           <div>
-            <h1 className="text-h2 font-normal tracking-tight text-text">Predict a paper</h1>
+            <h1 className="text-h2 font-medium tracking-tight text-text">Predict a paper</h1>
             <p className="mt-2 text-body-sm text-muted">
               Type your course code. Paste the syllabus if it’s a new subject or yours differs.
             </p>
@@ -417,7 +417,7 @@ function CoverageNote({
         <MonoChip>softer prediction</MonoChip>{" "}
         {coverage === "new-course"
           ? "This course isn't in cramBIT's database yet."
-          : "No past papers on record for this course."}{" "}
+          : "No PYQs on record for this course."}{" "}
         It&apos;s predicted from your syllabus
         {borrowedFrom.length ? " plus past papers of subjects with a similar syllabus" : ""}.
         Use at your own risk.

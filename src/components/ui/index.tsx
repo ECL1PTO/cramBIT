@@ -40,14 +40,16 @@ export function SectionHeading({
   return (
     <div className={clsx("max-w-2xl", className)}>
       {eyebrow ? (
-        <p className="mb-3 font-mono text-caption uppercase tracking-[0.14em] text-faint">
+        <p className="mb-3 font-mono text-body-sm uppercase tracking-[0.14em] text-accent">
           {eyebrow}
         </p>
       ) : null}
-      <h2 className="text-h2 font-normal leading-tight tracking-tight text-text">
+      <h2 className="text-[1.9rem] font-medium leading-tight tracking-tight text-text sm:text-h2">
         {title}
       </h2>
-      {lead ? <p className="mt-4 text-lead leading-relaxed text-muted">{lead}</p> : null}
+      {lead ? (
+        <p className="mt-4 text-lead leading-relaxed text-muted">{lead}</p>
+      ) : null}
     </div>
   );
 }
@@ -61,7 +63,7 @@ const buttonBase =
 
 const buttonVariants: Record<ButtonVariant, string> = {
   primary: "bg-accent text-white hover:bg-accent-hover",
-  ghost: "border border-text/25 text-text hover:border-text/60",
+  ghost: "border border-text/30 text-text hover:border-text/60 hover:bg-surface-2",
   quiet: "text-muted hover:text-text",
 };
 

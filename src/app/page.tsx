@@ -36,15 +36,14 @@ export default function LandingPage() {
       <Container className="relative grid items-center gap-14 pt-14 pb-16 sm:pt-20 sm:pb-section lg:grid-cols-[1.05fr_0.95fr]">
         <div className="max-w-2xl">
           <Badge className="rise rise-1">BIT Mesra · Noida campus</Badge>
-          <h1 className="rise rise-2 mt-6 text-[2.7rem] font-normal leading-[1.03] tracking-tight text-text sm:text-[3.4rem] md:text-[4.2rem] lg:text-[4.75rem]">
+          <h1 className="rise rise-2 mt-6 text-[2.7rem] font-medium leading-[1.03] tracking-tight text-text sm:text-[3.4rem] md:text-[4.2rem] lg:text-[4.75rem]">
             Walk into your mid-sem
             <br className="hidden sm:block" /> having already{" "}
             <span className="shimmer font-serif italic">seen the paper.</span>
           </h1>
-          <p className="rise rise-3 mt-6 max-w-xl text-lead leading-relaxed text-muted sm:text-[1.25rem]">
-            cramBIT reads the <span className="text-text">real past mid-sem papers</span> for
-            your course, cross-references your syllabus, and writes the{" "}
-            <span className="mark text-paper-ink">25-mark question papers</span> most likely to
+          <p className="rise rise-3 mt-6 max-w-xl text-lead leading-relaxed text-text/90 sm:text-[1.3rem]">
+            cramBIT reads every <a href="#how" className="underline decoration-dotted decoration-accent underline-offset-4 hover:text-text">PYQ</a> for your course, cross-references your syllabus, and writes the{" "}
+            <span className="mark text-text">25-mark question papers</span> most likely to
             come up. Three full sets, per subject.
           </p>
           <div className="rise rise-4 mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
@@ -61,12 +60,12 @@ export default function LandingPage() {
               How it works ↓
             </Link>
           </div>
-          <p className="rise rise-4 mt-5 text-caption text-faint">{DISCLAIMER_SHORT}</p>
+          <p className="rise rise-4 mt-5 text-body-sm text-muted">{DISCLAIMER_SHORT}</p>
 
           {/* stat strip */}
           <div className="rise rise-4 mt-12 grid max-w-md grid-cols-3 gap-4 border-t border-border pt-6">
             <Stat value={courses.toLocaleString()} label="Noida courses" />
-            <Stat value={`${papers}+`} label="past papers read" />
+            <Stat value={`${papers}+`} label="PYQs read" />
             <Stat value="3" label="sets per subject" />
           </div>
         </div>
@@ -82,14 +81,14 @@ export default function LandingPage() {
           eyebrow="How it works"
           title={
             <>
-              Past papers do the <span className="gradient-text">talking</span>.
+              <span className="gradient-text">PYQs</span> do the talking.
             </>
           }
           lead="Not a generic AI guess. Every predicted question is anchored to what your course has actually asked before and what your syllabus actually covers."
         />
         <div className="mt-12 grid gap-4 md:grid-cols-3">
           <Step n="01" title="Pick your subject">
-            Type the course code. cramBIT loads every past mid-sem paper on record for it.
+            Type the course code. cramBIT loads every PYQ (previous-year paper) on record for it.
           </Step>
           <Step n="02" title="Paste the syllabus">
             Your section&apos;s syllabus becomes the hard boundary — nothing outside it is asked.
@@ -106,11 +105,9 @@ export default function LandingPage() {
         <Card className="lift glow-accent border border-border">
           <div className="flex flex-col gap-5 md:flex-row md:items-center">
             <MonoChip className="self-start">new course?</MonoChip>
-            <p className="text-lead leading-relaxed text-muted">
-              Brand-new subject with no past papers on record? cramBIT still predicts your
-              paper — from <span className="text-text">your syllabus</span> plus the past
-              papers of subjects with a{" "}
-              <span className="mark text-paper-ink">similar syllabus</span>, then flags it so
+            <p className="text-lead leading-relaxed text-text/90">
+              Brand-new subject with no PYQs on record? cramBIT still predicts your
+              paper — from <span className="text-text">your syllabus</span> plus the PYQs of subjects with a <span className="mark text-text">similar syllabus</span>, then flags it so
               you know it&apos;s a softer prediction.
             </p>
           </div>
@@ -214,8 +211,8 @@ export default function LandingPage() {
 function Stat({ value, label }: { value: string; label: string }) {
   return (
     <div>
-      <p className="font-serif text-h2 leading-none text-text">{value}</p>
-      <p className="mt-1.5 text-caption text-faint">{label}</p>
+      <p className="font-serif text-h1 leading-none text-text">{value}</p>
+      <p className="mt-2 text-body-sm text-muted">{label}</p>
     </div>
   );
 }
