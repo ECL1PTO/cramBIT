@@ -188,19 +188,16 @@ export async function assembleBatch(
         .filter((s) => s.length > 150),
     );
 
-  let sets = (await assemble(count)).slice(0, count);
+  const sets = (await assemble(count)).slice(0, count);
+  const valid = sets.filter((s) => validatePaper(s).ok);
 
-  // Structural check in code (free). Re-assemble once if a paper is malformed.
-  const bad = sets.some((s) => !validatePaper(s).ok);
-  if (bad || sets.length < count) {
-    try {
-      const retry = (await assemble(count)).slice(0, count);
-      if (retry.filter((s) => validatePaper(s).ok).length >= sets.filter((s) => validatePaper(s).ok).length) {
-        sets = retry;
-      }
-    } catch {
-      /* keep first attempt */
-    }
+  // Only pay for a second round if the first was largely unusable.
+  if (valid.length >= Math.min(2, count)) return sets;
+  try {
+    const retry = (await assemble(count)).slice(0, count);
+    const retryValid = retry.filter((s) => validatePaper(s).ok);
+    return retryValid.length > valid.length ? retry : sets;
+  } catch {
+    return sets;
   }
-  return sets;
 }

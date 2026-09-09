@@ -1028,5 +1028,24 @@
       "ZigBee"
     ],
     "sessions": 1
+  },
+  {
+    "key": "CSE/IT426 DATA MINING CONCEPTS & TECHNIQUES (MID_MO22).pdf",
+    "code": "IT426",
+    "name": "DATA MINING CONCEPTS & TECHNIQUES",
+    "dept": "CSE",
+    "topics": [
+      "interestingness",
+      "data mining tasks",
+      "normalization",
+      "outlier detection",
+      "characterization vs discrimination",
+      "chi-square test",
+      "OLTP vs OLAP",
+      "data warehouse architecture",
+      "bitmap indexing",
+      "data warehouse design"
+    ],
+    "sessions": 1
   }
 ]
