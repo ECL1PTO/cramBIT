@@ -1,0 +1,104 @@
+{
+  "courseCode": "CS275/CS261",
+  "courseName": "FUNDAMENTAL OF DATA STRUCTURES",
+  "historical_papers": [
+    {
+      "session": "SP/2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the difference between function sub algorithm and procedure sub algorithm?",
+              "marks": 2,
+              "topic": "functions"
+            },
+            {
+              "label": "b",
+              "text": "Determine the computational complexity of the selection sort using the step count method?",
+              "marks": 3,
+              "topic": "selection sort"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the purpose of asymptotic notations?",
+              "marks": 2,
+              "topic": "asymptotic notation"
+            },
+            {
+              "label": "b",
+              "text": "Briefly discuss the sparse matrix?",
+              "marks": 3,
+              "topic": "sparse matrix"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the benefits of Abstract Data Types (ADTs)?",
+              "marks": 2,
+              "topic": "abstract data types"
+            },
+            {
+              "label": "b",
+              "text": "Given an array A[] of size N, write an algorithm to reverse the array using stack?",
+              "marks": 3,
+              "topic": "stack"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the difference between queue and circular queue?",
+              "marks": 2,
+              "topic": "queue"
+            },
+            {
+              "label": "b",
+              "text": "Briefly discuss the maze problem?",
+              "marks": 3,
+              "topic": "maze problem"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What benefits do linked lists have over arrays?",
+              "marks": 2,
+              "topic": "linked list"
+            },
+            {
+              "label": "b",
+              "text": "Write an iterative and recursive piece of code for counting the number of nodes in a singly linked list?",
+              "marks": 3,
+              "topic": "recursion"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

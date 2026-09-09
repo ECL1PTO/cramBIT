@@ -1,0 +1,80 @@
+{
+  "courseCode": "CS241",
+  "courseName": "Design and Analysis of Algorithm",
+  "historical_papers": [
+    {
+      "session": "SP2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the significance of Asymptotic Notations in Design and Analysis of an algorithm? Illustrate O, Ω, Ɵ notations in term of Time Complexity with suitable examples.",
+              "marks": 5,
+              "topic": "Asymptotic Notations"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Derive the Best Case and Worst-Case Time Complexity of Insertion Sort and prove that Insertion Sort is stable.",
+              "marks": 5,
+              "topic": "Insertion Sort"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "State and explain the Master Theorem. Solve the following recurrence relations using Master Theorem: T(n)=2 T(n/2)+ n / log n ; T(n)=2 T(n/2)+ n log n ; T(n)=T(n/4)+ n log n ; T(n)=T(n/2)+1 ; T(n)=2 T(n/2)+ n log n",
+              "marks": 5,
+              "topic": "Master Theorem"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write the Quick Sort algorithm and derive its Time Complexity for Best Case and Worst-Case.",
+              "marks": 5,
+              "topic": "Quick Sort"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the Binary Search algorithm and derive its Time Complexity using mathematical induction method.",
+              "marks": 2,
+              "topic": "Binary Search"
+            },
+            {
+              "label": "b",
+              "text": "Solve the following using Recursion Tree method: T(n)=2 T(n/2)+ n ; T(n)=3 T(n/4)+ c n^2",
+              "marks": 3,
+              "topic": "Recursion Tree"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

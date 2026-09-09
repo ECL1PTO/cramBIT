@@ -1,0 +1,98 @@
+{
+  "courseCode": "CS233",
+  "courseName": "OBJECT ORIENTED PROGRAMMING & DESIGN PATTERNS",
+  "historical_papers": [
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "In context to Java, what is the importance of setting environment variables?",
+              "marks": 2,
+              "topic": "environment variables"
+            },
+            {
+              "label": "b",
+              "text": "Can we return multiple values from a method? Explain with suitable examples.",
+              "marks": 3,
+              "topic": "multiple return values"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Correct errors (if any) and predict the output of the following code: class Test { public static void main(String args[ ]) { int x = 2; int y = 0; for( ; y<10; ++y) { if(y % x ==0) continue; else if(y == 8) break; else System.out.println(y + “ ”); } } }",
+              "marks": 2,
+              "topic": "error correction and output prediction"
+            },
+            {
+              "label": "b",
+              "text": "How an application comprising of multiple classes can be compiled? Illustrate with a suitable program.",
+              "marks": 3,
+              "topic": "compilation of multiple classes"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "How multidimensional arrays are declared? Can you have uneven (irregular) multidimensional arrays? Explain with a suitable example.",
+              "marks": 2,
+              "topic": "multidimensional arrays"
+            },
+            {
+              "label": "b",
+              "text": "Differentiate between local variables, class variables and instance variables of a class with a suitable program segment.",
+              "marks": 3,
+              "topic": "variable scope"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the significance of the bytecode.",
+              "marks": 2,
+              "topic": "bytecode"
+            },
+            {
+              "label": "b",
+              "text": "What is mutable and immutable object? Explain each with an example.",
+              "marks": 3,
+              "topic": "mutable vs immutable objects"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write a program to read a line of text from the user. All the words that begin with a vowel are capitalized and all the words that begin with a consonant are prefixed with @ and appended with #. (Eg: the line “Today is Sunday” would become “@Today# IS @Sunday#\")",
+              "marks": 5,
+              "topic": "string manipulation"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

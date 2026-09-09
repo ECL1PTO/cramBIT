@@ -1,0 +1,202 @@
+{
+  "courseCode": "CS101",
+  "courseName": "PROGRAMMING FOR PROBLEM SOLVING",
+  "historical_papers": [
+    {
+      "session": "SP/2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Compare Pseudocode with an algorithm for the Program Factorial of a Number.",
+              "marks": 2,
+              "topic": "pseudocode"
+            },
+            {
+              "label": "b",
+              "text": "Write a C program to convert a decimal number into an equivalent binary number using bitwise operators.",
+              "marks": 3,
+              "topic": "binary conversion"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write a C program to check that the input pair of numbers is amicable.",
+              "marks": 2,
+              "topic": "amicable numbers"
+            },
+            {
+              "label": "b",
+              "text": "(I) Explain the differences between the source program, the object program, and an executable program. Which do you create, and which does the compiler create? Which does the linker or loader create?\n\n(II) Given a=10, b=5 and c=6, evaluate the logical expression: d = ((a < b) && (b > c)) || (a > c).",
+              "marks": 3,
+              "topic": "program execution"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "How many lines of output does the given C code produce?",
+              "marks": 2,
+              "topic": "loops"
+            },
+            {
+              "label": "b",
+              "text": "Write a program in C to check whether a number can be expressed as the sum of two prime numbers.",
+              "marks": 3,
+              "topic": "prime numbers"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write a C program to implement password registration, that accepts a string as password if it is at least 8 characters in length, has at least one capital letter, small letter, digit, and a special character.",
+              "marks": 2,
+              "topic": "password validation"
+            },
+            {
+              "label": "b",
+              "text": "Write a C program to search a name in a list using binary search techniques.",
+              "marks": 3,
+              "topic": "binary search"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Find the total number of swaps that take place when sorting the given set of numbers using bubble sort. Show the passes in individual steps.",
+              "marks": 2,
+              "topic": "bubble sort"
+            },
+            {
+              "label": "b",
+              "text": "Write a C program that takes two integer sets A[] and B[] as input and prints the union between the two sets (output set should contain unique elements).",
+              "marks": 3,
+              "topic": "set union"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the difference between a keyword and an identifier?",
+              "marks": 2,
+              "topic": "identifiers"
+            },
+            {
+              "label": "b",
+              "text": "Explain the features of different types of storage classes of a variable.",
+              "marks": 3,
+              "topic": "storage classes"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the role of an Operating System?",
+              "marks": 2,
+              "topic": "operating system"
+            },
+            {
+              "label": "b",
+              "text": "Given x=4, y=20 and z=5, evaluate the value of the following expressions: i. x * y / z + ( x * z + y ) ii. x + y * z – 4 ^ y / x",
+              "marks": 3,
+              "topic": "operators"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is an ASCII code?",
+              "marks": 2,
+              "topic": "ASCII"
+            },
+            {
+              "label": "b",
+              "text": "What will be the output of the following program? #include <stdio.h> int main() { int a=20, b=5; ++ a; b= b-- + a; printf(\"%d, %d\", a++, --b); return 0; }",
+              "marks": 3,
+              "topic": "program output"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Given a= 10, b=5 and c=6, evaluate the following logical expression: d= ((a < b) && (b > c)) || (a > c)",
+              "marks": 2,
+              "topic": "logical operators"
+            },
+            {
+              "label": "b",
+              "text": "Write a C program to input a number from the user in a loop till the user enters -1 and count how many numbers inputted are positive, negative and zero valued.",
+              "marks": 3,
+              "topic": "loops"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What are the different types of errors in C programming?",
+              "marks": 2,
+              "topic": "errors"
+            },
+            {
+              "label": "b",
+              "text": "Write a C program to generate the following pattern as an output: 1 2  2 3  3  3 4  4  4  4",
+              "marks": 3,
+              "topic": "patterns"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

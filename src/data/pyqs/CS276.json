@@ -1,0 +1,104 @@
+{
+  "courseCode": "CS276",
+  "courseName": "CYBER LAW AND SECURITY",
+  "historical_papers": [
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "“Like citizens, netizens have certain rights and duties.” Comment. Explain who are netizens.",
+              "marks": 2,
+              "topic": "Netizens rights"
+            },
+            {
+              "label": "b",
+              "text": "Explain the various threats to Network Security? Differentiate between Active and Passive threats.",
+              "marks": 3,
+              "topic": "Network security threats"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is cyberspace? Explain some of its features.",
+              "marks": 2,
+              "topic": "Cyberspace"
+            },
+            {
+              "label": "b",
+              "text": "What is cyber law? Explain its component.",
+              "marks": 3,
+              "topic": "Cyber law"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write a detailed note and analyze some of the key issues addressed by IT Act, 2000.",
+              "marks": 2,
+              "topic": "IT Act issues"
+            },
+            {
+              "label": "b",
+              "text": "Many people have the opinion that “The right to Internet access, must be a fundamental human right so that they can exercise and enjoy their rights to freedom of expression and opinion and other fundamental human rights” – evaluate and justify.",
+              "marks": 3,
+              "topic": "Internet access as human right"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Briefly explain the National and International law(s) regarding Online freedom of speech and expression.",
+              "marks": 2,
+              "topic": "Online freedom of speech"
+            },
+            {
+              "label": "b",
+              "text": "Discuss the Right to Privacy in the Online environment and mention some of the efforts and laws made by India and International community.",
+              "marks": 3,
+              "topic": "Online privacy"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Discuss some of the legal issues faced in electronic commerce environment.",
+              "marks": 2,
+              "topic": "E-commerce legal issues"
+            },
+            {
+              "label": "b",
+              "text": "Define the term 'cybercrime'. Classify and differentiate between different types of cybercrimes.",
+              "marks": 3,
+              "topic": "Cybercrime types"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

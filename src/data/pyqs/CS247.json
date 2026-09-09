@@ -1,0 +1,116 @@
+{
+  "courseCode": "CS247",
+  "courseName": "DATABASE MANAGEMENT SYSTEM",
+  "historical_papers": [
+    {
+      "session": "SP2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Give two functions of a DBA.",
+              "marks": 2,
+              "topic": "DBA functions"
+            },
+            {
+              "label": "b",
+              "text": "Give 1 example each where a DBMS is better and where a traditional file system is better. Justify your answer.",
+              "marks": 3,
+              "topic": "DBMS vs file system"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define super keys, candidate keys, primary keys and a discriminator.",
+              "marks": 2,
+              "topic": "keys definition"
+            },
+            {
+              "label": "b",
+              "text": "Illustrate the roles of a buffer manager and a transaction control manager.",
+              "marks": 3,
+              "topic": "buffer manager"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Construct an ER diagram (including important attributes) for a car insurance database that includes data about customers (car owners), cars, accidents, and injured drivers. Show at least one generalization and at least one use of ternary or n-ary relationship.",
+              "marks": 3,
+              "topic": "ER diagram car insurance"
+            },
+            {
+              "label": "b",
+              "text": "Draw two separate ER diagrams where the concept “accident” is an entity and a relationship respectively. One of the two ER diagrams may be satisfied with the first diagram with attributes.",
+              "marks": 2,
+              "topic": "ER diagram accident"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Find employee names and their departments whose age is better than some employee named ‘X’.",
+              "marks": 2,
+              "topic": "relational algebra"
+            },
+            {
+              "label": "b",
+              "text": "Find the employee id’s of employees certified for supervisor job in some project.",
+              "marks": 1,
+              "topic": "relational algebra"
+            },
+            {
+              "label": "c",
+              "text": "Find the names of employees who can work in projects with a budget greater than 3,000 but do not belong to grade 'X'.",
+              "marks": 2,
+              "topic": "relational algebra"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Find the age of the oldest student who is either a History major or enrolled in a course taught by I. Teach.",
+              "marks": 1,
+              "topic": "SQL queries"
+            },
+            {
+              "label": "b",
+              "text": "Find the names of all students who are enrolled in two classes that meet at the same time.",
+              "marks": 2,
+              "topic": "SQL queries"
+            },
+            {
+              "label": "c",
+              "text": "Find the names of faculty members for whom the combined enrollment of the courses that they teach is less than five.",
+              "marks": 2,
+              "topic": "SQL queries"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

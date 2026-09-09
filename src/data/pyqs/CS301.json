@@ -1,0 +1,380 @@
+{
+  "courseCode": "CS301",
+  "courseName": "DATABASE MANAGEMENT SYSTEM",
+  "historical_papers": [
+    {
+      "session": "SP/2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is data Independence? Explain its type?",
+              "marks": 2,
+              "topic": "Data Independence"
+            },
+            {
+              "label": "b",
+              "text": "Discuss the main characteristics of database approach and how it differs from traditional file systems.",
+              "marks": 3,
+              "topic": "Database approach"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What are the different types of database end users? Discuss the main activities with examples.",
+              "marks": 2,
+              "topic": "Database end users"
+            },
+            {
+              "label": "b",
+              "text": "Explain the role of various Query processor components of a database.",
+              "marks": 3,
+              "topic": "Query processor"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the concepts of generalization with appropriate example.",
+              "marks": 2,
+              "topic": "Generalization"
+            },
+            {
+              "label": "b",
+              "text": "With suitable example, explain the mapping of different types of relationship represented in an ER diagram into tables.",
+              "marks": 3,
+              "topic": "ER diagram"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is cursor? Why and how it is used in database? Explain with example.",
+              "marks": 2,
+              "topic": "Cursor"
+            },
+            {
+              "label": "b",
+              "text": "With suitable example, explain join operation and its type.",
+              "marks": 3,
+              "topic": "Join operation"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "How rename operation is performed in SQL? Give an example for the same.",
+              "marks": 2,
+              "topic": "Rename operation"
+            },
+            {
+              "label": "b",
+              "text": "What is relational Algebra? Write queries in relational Algebra to show following operations: Union, Selection & Projection, Cartesian product.",
+              "marks": 3,
+              "topic": "Relational Algebra"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "session": "SP/2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Who is DBA and what its role?",
+              "marks": 2,
+              "topic": "DBA"
+            },
+            {
+              "label": "b",
+              "text": "Discuss abstract view of the database.",
+              "marks": 3,
+              "topic": "Database abstraction"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Reduce the below (Q.2(b)) E-R diagram into their equivalent tables.",
+              "marks": 2,
+              "topic": "ER diagram"
+            },
+            {
+              "label": "b",
+              "text": "Design an E-R diagram (with suitable assumption) for a Bank include the entities Customer, Employee, Account, Loan.",
+              "marks": 3,
+              "topic": "ER diagram"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the distinction between Disjoint & overlapping design constraints with suitable examples.",
+              "marks": 2,
+              "topic": "Design constraints"
+            },
+            {
+              "label": "b",
+              "text": "Discuss the following with suitable examples: a) Primary key & foreign key b) Candidate key & alternate key c) Super key, secondary key",
+              "marks": 3,
+              "topic": "Database keys"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Given two relation R1 & R2 wherein R1 contains N1 tuples & C1 attributes and R2 contains N2 tuples & C2 attributes, give the result produced by these Relational expressions. a) R1 x R2 b) π a ( σ a=5 (R1))",
+              "marks": 2,
+              "topic": "Relational algebra"
+            },
+            {
+              "label": "b",
+              "text": "Consider the following database & write the expression in Relational Algebra for the following queries: Employee (emp_id, emp_name, emp_city, emp_addr, emp_dept, join_date) i) Display the emp_id, of employee who live in city ‘Pune’ or ‘Nagpur’. ii) Delete employee record with emp-id as 123. iii) Display the total number of employees whose dept is 50.",
+              "marks": 3,
+              "topic": "Relational algebra"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "List different types of database users.",
+              "marks": 2,
+              "topic": "Database users"
+            },
+            {
+              "label": "b",
+              "text": "Discuss Join and Division operation with suitable example.",
+              "marks": 3,
+              "topic": "Relational operations"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the difference between logical and physical data independence.",
+              "marks": 2,
+              "topic": "data independence"
+            },
+            {
+              "label": "b",
+              "text": "Discuss the main characteristics of database approach and how it differs from traditional file systems.",
+              "marks": 3,
+              "topic": "database approach"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": null,
+              "text": "What do you mean by data abstraction, views, data model, DDL and DML. Discuss all its types.",
+              "marks": 5,
+              "topic": "data abstraction"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": null,
+              "text": "Draw an ER diagram pertaining to the given schema and reduce it into appropriate tables.",
+              "marks": 5,
+              "topic": "ER diagram"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": null,
+              "text": "Explain the concepts of generalization & specialization with appropriate examples.",
+              "marks": 5,
+              "topic": "generalization"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Illustrate the differences with example between weak & strong entity sets.",
+              "marks": null,
+              "topic": "entity sets"
+            },
+            {
+              "label": "b",
+              "text": "Illustrate the differences with example between Primary key & foreign key, Super key & Candidate key.",
+              "marks": null,
+              "topic": "keys"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is DBMS? Explain with Purpose of Database Management System.",
+              "marks": 2,
+              "topic": "Remembering"
+            },
+            {
+              "label": "b",
+              "text": "Explain about the role of Database Users and Administrator?",
+              "marks": 3,
+              "topic": "Understand"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is E–R Diagram? explain with Extended E – R Features.",
+              "marks": 2,
+              "topic": "Remembering"
+            },
+            {
+              "label": "b",
+              "text": "What is Structure of Relational Database? Explain with Codd's Rules.",
+              "marks": 3,
+              "topic": "Understand"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain about the Fundamental Relational Algebra Operations?",
+              "marks": 2,
+              "topic": "Remembering"
+            },
+            {
+              "label": "b",
+              "text": "Write shorts notes on the following: (i)Basic structure of SQL queries (ii) Aggregate Functions,(iii) Null Values",
+              "marks": 3,
+              "topic": "Analyze"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain about the View of Data, Database Languages and Transaction Management?",
+              "marks": 2,
+              "topic": "Remembering"
+            },
+            {
+              "label": "b",
+              "text": "What is Query Processing? Explain with Evaluation of Expressions.",
+              "marks": 3,
+              "topic": "Understand"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is Ordered Indices? Explain with B+ Tree index files, B-Tree index files,?",
+              "marks": 2,
+              "topic": "Understand"
+            },
+            {
+              "label": "b",
+              "text": "Differentiate ordered indexing and hashing? Explain",
+              "marks": 3,
+              "topic": "Analyze"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

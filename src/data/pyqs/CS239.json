@@ -1,0 +1,98 @@
+{
+  "courseCode": "CS239",
+  "courseName": "OPERATING SYSTEM",
+  "historical_papers": [
+    {
+      "session": "SP2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the basic functions of an operating system.",
+              "marks": 2,
+              "topic": "OS functions"
+            },
+            {
+              "label": "b",
+              "text": "Differentiate multi-programming, multi-tasking and multi-processing.",
+              "marks": 3,
+              "topic": "Multiprogramming"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the need for Context Switching.",
+              "marks": 2,
+              "topic": "Context Switching"
+            },
+            {
+              "label": "b",
+              "text": "Demonstrate the functionalities of different type of schedulers.",
+              "marks": 3,
+              "topic": "Schedulers"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the state diagram (life cycle) of threads.",
+              "marks": 2,
+              "topic": "Thread lifecycle"
+            },
+            {
+              "label": "b",
+              "text": "Compare user and kernel level threads. Describe how they are mapped.",
+              "marks": 3,
+              "topic": "User vs kernel threads"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain how scheduling works in a multiprocessor system.",
+              "marks": 2,
+              "topic": "Multiprocessor scheduling"
+            },
+            {
+              "label": "b",
+              "text": "Consider the given process table and compute the average waiting time and turnaround time using shortest remaining job first (preemptive SJF).",
+              "marks": 3,
+              "topic": "SJF scheduling"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "For a two‑level queue system with preemptive priority in queue A (higher priority) and round‑robin in A, preemptive priority in B, FCFS on collision, time slice 3, compute average turnaround time and response time for queue A, queue B, and the overall system.",
+              "marks": 5,
+              "topic": "Two‑level queue scheduling"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

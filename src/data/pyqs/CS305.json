@@ -1,0 +1,98 @@
+{
+  "courseCode": "CS305",
+  "courseName": "COMPILER DESIGN",
+  "historical_papers": [
+    {
+      "session": "SP2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain briefly the back-end and the front-end parts of a compiler. Point out some important features of any standard compiler.",
+              "marks": 2,
+              "topic": "compiler architecture"
+            },
+            {
+              "label": "b",
+              "text": "Highlight the secondary tasks of lexical analyser. Also, discuss the issues in designing lexical analyser.",
+              "marks": 3,
+              "topic": "lexical analysis"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Briefly discuss about Lex tool.",
+              "marks": 2,
+              "topic": "lex tool"
+            },
+            {
+              "label": "b",
+              "text": "Write a simple Lex program to recognize identifier and all the relational operators used in C.",
+              "marks": 3,
+              "topic": "lex programming"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Discuss briefly the advantages and the disadvantages of top down parser.",
+              "marks": 2,
+              "topic": "top-down parsing"
+            },
+            {
+              "label": "b",
+              "text": "Let us consider the following grammar (G): S→aA, A→bB, B→c. Discuss formally how LL(1) parser parses the strings w1=abc and w2=bac, using G. Can you think about LL(0) parser for this G to parse w1 and w2? If so, then explain the idea to parse.",
+              "marks": 3,
+              "topic": "LL parsing"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Construct Predictive parsing table (eliminating immediate left recursion) for the grammar given below: E→E*T , E→T , T→id , where E is the start symbol of G. Also, trace parsing by taking an expression (w)= id*id*id, using the constructed table.",
+              "marks": 5,
+              "topic": "predictive parsing"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Discuss briefly the logic behind shift-reduce parser. What are the common issues in shift-reduce parser?",
+              "marks": 2,
+              "topic": "shift-reduce parsing"
+            },
+            {
+              "label": "b",
+              "text": "Construct SLR(1) parsing table for the grammar(G): S→AA, A→aA , A→b. What does it happen in the table for LR(0) parser?",
+              "marks": 3,
+              "topic": "SLR parsing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

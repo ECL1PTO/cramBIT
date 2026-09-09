@@ -1,0 +1,98 @@
+{
+  "courseCode": "CS237",
+  "courseName": "DATABASE MANAGEMENT SYSTEM",
+  "historical_papers": [
+    {
+      "session": "SP2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the difference between logical and physical data independence using suitable diagram.",
+              "marks": 2,
+              "topic": "Data Independence"
+            },
+            {
+              "label": "b",
+              "text": "What is Trigger in SQL and how it is constructed? Discuss with an example.",
+              "marks": 3,
+              "topic": "Triggers"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Construct a view consisting of branches and their customer names for the above database.",
+              "marks": 2,
+              "topic": "Views"
+            },
+            {
+              "label": "b",
+              "text": "Explain various join operations with suitable relations",
+              "marks": 3,
+              "topic": "Joins"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Differentiate between a unary and binary relationship using an E-R diagram",
+              "marks": 2,
+              "topic": "Relationships"
+            },
+            {
+              "label": "b",
+              "text": "Write the following queries in relational algebra: a. Find the names of employees who have borrowed a book published by McGraw-Hill. b. Find the names of employees who have borrowed more than five different books published by McGraw-Hill.",
+              "marks": 3,
+              "topic": "Relational Algebra"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Differentiate between Primary, Candidate and Super Key with suitable example.",
+              "marks": 2,
+              "topic": "Keys"
+            },
+            {
+              "label": "b",
+              "text": "A database of Banking enterprise is given, answer the queries below using SQL: (i) Retrieve the set of names and cities of customers who have a loan at ‘Mesra’ branch. (ii) Display Number of accounts with balances between 700 and 900. (iii) Retrieve the set of names of branches whose assets are greater than assets of ‘Lalpur’ branch.",
+              "marks": 3,
+              "topic": "SQL"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "",
+              "text": "Design and draw a complete E-R diagram for a UNIVERSITY database assuming suitable database requirements and constraints. Also indicate the cardinality ratio for the relationships in the diagram.",
+              "marks": 5,
+              "topic": "ER Diagram"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

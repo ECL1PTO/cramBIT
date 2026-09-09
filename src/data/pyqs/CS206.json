@@ -1,0 +1,202 @@
+{
+  "courseCode": "CS206",
+  "courseName": "DESIGN AND ANALYSIS OF ALGORITHM",
+  "historical_papers": [
+    {
+      "session": "SP 2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "How do you measure the efficiency of an Algorithm?",
+              "marks": 2,
+              "topic": "Efficiency of Algorithm"
+            },
+            {
+              "label": "b",
+              "text": "Determine the best and worst conditions for the insertion sort algorithm's complexity?",
+              "marks": 3,
+              "topic": "Insertion Sort Complexity"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define recurrence relation?",
+              "marks": 2,
+              "topic": "Recurrence Relation"
+            },
+            {
+              "label": "b",
+              "text": "Solve the recurrence relation using back substitution method",
+              "marks": 3,
+              "topic": "Recurrence Relation"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Solve using master theorem: T(n) = 4T(n/2) + n^2 log_2 n",
+              "marks": 2,
+              "topic": "Master Theorem"
+            },
+            {
+              "label": "b",
+              "text": "Explain quicksort with an example?",
+              "marks": 3,
+              "topic": "Quicksort"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What do you know about the divide-and-conquer algorithm?",
+              "marks": 2,
+              "topic": "Divide-and-Conquer"
+            },
+            {
+              "label": "b",
+              "text": "Briefly describe the maximum subarray problem using the divide-and-conquer method.",
+              "marks": 3,
+              "topic": "Maximum Subarray Problem"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the main idea of Transform and Conquer?",
+              "marks": 2,
+              "topic": "Transform and Conquer"
+            },
+            {
+              "label": "b",
+              "text": "Construct an AVL tree having the following elements: H, I, J, B, A, E, C, F, D, G, K, L",
+              "marks": 3,
+              "topic": "AVL Tree Construction"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Describe different asymptotic notations.",
+              "marks": 2,
+              "topic": "asymptotic notations"
+            },
+            {
+              "label": "b",
+              "text": "Find the best and worst case time complexity of Insertion Sort.",
+              "marks": 3,
+              "topic": "Insertion Sort complexity"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Discuss the ‘Divide and conquer’ paradigm of problem solving.",
+              "marks": 2,
+              "topic": "Divide and conquer"
+            },
+            {
+              "label": "b",
+              "text": "Find the Time Complexity of Binary Search and Merge Sort algorithms.",
+              "marks": 3,
+              "topic": "Binary Search and Merge Sort complexity"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Illustrate the AVL Tree.",
+              "marks": 2,
+              "topic": "AVL Tree"
+            },
+            {
+              "label": "b",
+              "text": "Explain the Recursion Tree and Master Theorem.",
+              "marks": 3,
+              "topic": "Recursion Tree and Master Theorem"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write any algorithm to find the ‘All-pair Shortest Path’.",
+              "marks": 2,
+              "topic": "All-pair Shortest Path algorithm"
+            },
+            {
+              "label": "b",
+              "text": "How you can solve efficiently the ‘Travelling Salesperson Problem’?",
+              "marks": 3,
+              "topic": "Travelling Salesperson Problem"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is optimal BST?",
+              "marks": 2,
+              "topic": "Optimal BST"
+            },
+            {
+              "label": "b",
+              "text": "Define ‘Transform and conquer’ paradigm with suitable example.",
+              "marks": 3,
+              "topic": "Transform and conquer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

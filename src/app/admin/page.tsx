@@ -27,7 +27,7 @@ export default async function AdminPage() {
   const rows = claims ?? [];
 
   return (
-    <main className="min-h-screen bg-canvas">
+    <main className="min-h-screen">
       <Container className="py-section">
         <h1 className="text-h2 font-normal tracking-tight text-text">Payment claims</h1>
         <div className="mt-8 space-y-3">

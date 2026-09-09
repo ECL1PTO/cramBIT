@@ -1,0 +1,104 @@
+{
+  "courseCode": "CS391",
+  "courseName": "INTRODUCTION TO DISTRIBUTED SYSTEM",
+  "historical_papers": [
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is a Distributed System? Give at least two examples of Distributed System which you have interacted with.",
+              "marks": 2,
+              "topic": "Distributed System"
+            },
+            {
+              "label": "b",
+              "text": "Differentiate centralized system and distributed system as per their characteristics.",
+              "marks": 3,
+              "topic": "Centralized vs Distributed"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "State four common characteristics which can be used to assess Distributed System.",
+              "marks": 2,
+              "topic": "Characteristics"
+            },
+            {
+              "label": "b",
+              "text": "Briefly explain the following terms: (i) Access transparency (ii) Replication transparency.",
+              "marks": 3,
+              "topic": "Transparency"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is Peer-to-Peer System and what are it’s purposes?",
+              "marks": 2,
+              "topic": "Peer-to-Peer"
+            },
+            {
+              "label": "b",
+              "text": "Explain issues like management, lookup and throughput in a Peer-to-Peer network.",
+              "marks": 3,
+              "topic": "Peer-to-Peer"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "How does the processes in distributed system communicate?",
+              "marks": 2,
+              "topic": "Communication"
+            },
+            {
+              "label": "b",
+              "text": "Enumerate the layers of OSI reference model used as framework of communication amongst components of distributed System.",
+              "marks": 3,
+              "topic": "OSI model"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "If it is a client-server communication model, then how many layers would be sufficient for a client and a server to communicate? Mention the names of layers used.",
+              "marks": 2,
+              "topic": "Client-Server"
+            },
+            {
+              "label": "b",
+              "text": "A client-server model is using a large sparse address space, such as the space of 64-bit binary integers for each of the processes to pick their ids, which implicit problem will arise and what would be the solution for it?",
+              "marks": 3,
+              "topic": "Address Space"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

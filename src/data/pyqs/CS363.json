@@ -1,0 +1,104 @@
+{
+  "courseCode": "CS363",
+  "courseName": "ARTIFICIAL INTELLIGENCE FUNDAMENTALS",
+  "historical_papers": [
+    {
+      "session": "SP/2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define Artificial Intelligence. Explain nature of problems that are referred as AI problems.",
+              "marks": 2,
+              "topic": "AI definition"
+            },
+            {
+              "label": "b",
+              "text": "Elaborate Tic-Tac-Toe problem.",
+              "marks": 3,
+              "topic": "Game problem"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Describe an agent. How does it interact with environment?",
+              "marks": 2,
+              "topic": "Agent"
+            },
+            {
+              "label": "b",
+              "text": "What are basic kinds of agent? Elaborate any two.",
+              "marks": 3,
+              "topic": "Agent types"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write down the steps of problem solving by searching.",
+              "marks": 2,
+              "topic": "Search steps"
+            },
+            {
+              "label": "b",
+              "text": "What are different components of problems stated in Artificial Intelligence? Explain with examples.",
+              "marks": 3,
+              "topic": "Problem components"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Differentiate between Brute force search and Greedy search.",
+              "marks": 2,
+              "topic": "Search comparison"
+            },
+            {
+              "label": "b",
+              "text": "Elaborate the methodology for measuring any search techniques.",
+              "marks": 3,
+              "topic": "Search evaluation"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Illustrate the working of Breadth First Search.",
+              "marks": 2,
+              "topic": "BFS"
+            },
+            {
+              "label": "b",
+              "text": "Evaluate between A* and AO* search techniques.",
+              "marks": 3,
+              "topic": "A* vs AO*"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

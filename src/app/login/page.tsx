@@ -1,11 +1,13 @@
 "use client";
 
 import { Suspense, useState } from "react";
-import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { createClient } from "@/utils/supabase/client";
 import { Button, Card, Container, Field } from "@/components/ui";
+import { Wordmark } from "@/components/logo";
+import { ThemeToggle } from "@/components/theme-toggle";
 import { DISCLAIMER_SHORT } from "@/data/legal";
+import { pickHype } from "@/data/hype";
 
 const ALLOWED_DOMAIN = "@bitmesra.ac.in";
 
@@ -37,12 +39,16 @@ function LoginInner() {
   }
 
   return (
-    <main className="flex min-h-screen items-center bg-canvas">
-      <Container className="max-w-md">
-        <Link href="/" className="font-mono text-body-sm text-muted hover:text-text">
-          ← cramBIT
-        </Link>
-        <Card className="mt-6">
+    <main className="min-h-screen">
+      <Container className="flex items-center justify-between py-5 sm:py-6">
+        <Wordmark size="md" />
+        <ThemeToggle />
+      </Container>
+      <Container className="flex max-w-md flex-col justify-center py-10 sm:min-h-[70vh]">
+        <p className="mb-4 font-serif text-h2 italic leading-tight text-muted">
+          {pickHype("login")}
+        </p>
+        <Card className="glow-accent border border-border">
           {status === "sent" ? (
             <>
               <h1 className="text-h3 font-normal text-text">Check your inbox</h1>

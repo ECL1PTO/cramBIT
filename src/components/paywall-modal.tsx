@@ -19,7 +19,7 @@ export function PaywallModal({
   const capReached = reason === "regen-cap";
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-canvas/80 p-6 no-print"
+      className="fixed inset-0 z-50 flex items-center justify-center bg-canvas/70 backdrop-blur-sm p-6 no-print"
       onClick={onClose}
     >
       <Card

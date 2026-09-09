@@ -1,0 +1,98 @@
+{
+  "courseCode": "CS235",
+  "courseName": "Computer Organization & Architecture",
+  "historical_papers": [
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Describe the Von-Neumann Architecture.",
+              "marks": 2,
+              "topic": "Von-Neumann Architecture"
+            },
+            {
+              "label": "b",
+              "text": "Differentiate between Computer Architecture and Organization. Out of CA and CO, which one has undergone more change with respect to time? What may be reason for this?",
+              "marks": 3,
+              "topic": "Computer Architecture vs Organization"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "State the parameters which affect the performance of a computer.",
+              "marks": 2,
+              "topic": "Performance Parameters"
+            },
+            {
+              "label": "b",
+              "text": "With the suitable diagram explain the internal structure of CPU with control signals.",
+              "marks": 3,
+              "topic": "CPU Internal Structure"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "A processor chip is used for application in which 25% of execution time is spent on floating point addition. For the new model of processor, the design team has redesigned the floating point adder to make it thrice as fast. Calculate the speedup for adder redesign.",
+              "marks": 2,
+              "topic": "Amdahl's Law"
+            },
+            {
+              "label": "b",
+              "text": "Show the IEEE 754 binary representation of the number (12.125) in single precision.",
+              "marks": 3,
+              "topic": "IEEE 754 Representation"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is instruction sequencing? What is difference between Big-endian and little-endian representation.",
+              "marks": 2,
+              "topic": "Instruction Sequencing and Endianness"
+            },
+            {
+              "label": "b",
+              "text": "Multiply using Booth’s Multiplication algorithm: 7X-5.",
+              "marks": 3,
+              "topic": "Booth's Multiplication"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define Addressing Modes. With proper example show the operations performed by different Addressing Modes.",
+              "marks": 5,
+              "topic": "Addressing Modes"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

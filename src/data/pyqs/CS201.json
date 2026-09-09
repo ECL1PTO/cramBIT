@@ -1,0 +1,104 @@
+{
+  "courseCode": "CS201",
+  "courseName": "DATA STRUCTURES",
+  "historical_papers": [
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What do you understand by the efficiency of an algorithm?",
+              "marks": 2,
+              "topic": "efficiency"
+            },
+            {
+              "label": "b",
+              "text": "With suitable example, explain the best case, average case and worst-case time complexity of an algorithm?",
+              "marks": 3,
+              "topic": "time complexity"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the significance of Big-Oh, Big-omega and Big-theta notations?",
+              "marks": 2,
+              "topic": "big-O"
+            },
+            {
+              "label": "b",
+              "text": "Solve the recurrence relation using back substitution method: T(n) = 1 if n=0, T(n-1) + n if n > 0",
+              "marks": 3,
+              "topic": "recurrence"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the purpose and properties of Abstract Data Type?",
+              "marks": 2,
+              "topic": "ADT"
+            },
+            {
+              "label": "b",
+              "text": "Briefly discuss sparse matrix?",
+              "marks": 3,
+              "topic": "sparse matrix"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Differentiate between peek () and pop () functions?",
+              "marks": 2,
+              "topic": "stack"
+            },
+            {
+              "label": "b",
+              "text": "Convert the following infix expression into postfix expression using the algorithm: A – ( B / C + ( D % E * F ) / G ) * H",
+              "marks": 3,
+              "topic": "infix to postfix"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Obtain the infix expression from the given postfix expression: P: 9, 3, 4, *, 8, +, 4, /, -",
+              "marks": 2,
+              "topic": "postfix to infix"
+            },
+            {
+              "label": "b",
+              "text": "Discuss how Circular queue is better than a linear queue?",
+              "marks": 3,
+              "topic": "circular queue"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -15,6 +15,7 @@ const schema = z.object({
 
   NEXT_PUBLIC_SITE_URL: z.string().url().default("http://localhost:3000"),
   NEXT_PUBLIC_UPI_VPA: z.string().min(3).optional(),
+  NEXT_PUBLIC_SUPPORT_EMAIL: z.string().email().default("redacted@example.com"),
 
   TELEGRAM_BOT_TOKEN: z.string().optional(),
   TELEGRAM_ADMIN_CHAT_ID: z.string().optional(),

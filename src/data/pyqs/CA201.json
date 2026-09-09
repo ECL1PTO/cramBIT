@@ -1,0 +1,104 @@
+{
+  "courseCode": "CA201",
+  "courseName": "OBJECT ORIENTED PROGRAMMING USING JAVA",
+  "historical_papers": [
+    {
+      "session": "SP/2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is Reserved Keyword in Java? Give one example.",
+              "marks": 2,
+              "topic": "Reserved Keyword"
+            },
+            {
+              "label": "b",
+              "text": "Differentiate between Procedure Oriented Programming and Object Oriented Programming.",
+              "marks": 3,
+              "topic": "Programming Paradigms"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is Java Virtual Machine? How it works?",
+              "marks": 2,
+              "topic": "JVM"
+            },
+            {
+              "label": "b",
+              "text": "Explain why main method is declared as public, static and void?",
+              "marks": 3,
+              "topic": "main method"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is instance variable? Give example of such variable.",
+              "marks": 2,
+              "topic": "instance variable"
+            },
+            {
+              "label": "b",
+              "text": "Write a program in Java to check whether a given integer number is even or odd.",
+              "marks": 3,
+              "topic": "Control Flow"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write the syntax of switch case statement.",
+              "marks": 2,
+              "topic": "switch case"
+            },
+            {
+              "label": "b",
+              "text": "Write a program to find sum of first 10 numbers. Use loop.",
+              "marks": 3,
+              "topic": "loops"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define Array. How one dimensional array is declared? Give Example.",
+              "marks": 2,
+              "topic": "Array"
+            },
+            {
+              "label": "b",
+              "text": "What is method in Java? Give an example how to add method in a class.",
+              "marks": 3,
+              "topic": "Methods"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

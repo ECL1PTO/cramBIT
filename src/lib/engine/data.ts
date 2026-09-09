@@ -65,7 +65,21 @@ export function getPyqs(code: string): PyqFile | null {
 }
 
 export function indexedPaperCount(): number {
-  return index.corpus.reduce((n, c) => n + (c.sessions ?? 0), 0);
+  const fromIndex = index.corpus.reduce((n, c) => n + (c.sessions ?? 0), 0);
+  if (fromIndex > 0) return fromIndex;
+  // Fall back to counting the extracted PYQ files directly.
+  try {
+    const dir = path.join(DATA_DIR, "pyqs");
+    let n = 0;
+    for (const f of fs.readdirSync(dir)) {
+      if (!f.endsWith(".json")) continue;
+      const j = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")) as PyqFile;
+      n += j.historical_papers?.length ?? 0;
+    }
+    return n;
+  } catch {
+    return 0;
+  }
 }
 
 export function topicFreqFor(code: string): Record<string, number> | undefined {

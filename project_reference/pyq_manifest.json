@@ -31300,5 +31300,1238 @@
     "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/PE507%20ADDITIVE%20MANUFACTURING%20(END_MO2018).pdf",
     "downloaded": true,
     "bytes": 346319
+  },
+  "RemoteSensing/GI501 PRINCIPLES OF REMOTE SENSING_OE (END_SP23).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI501 PRINCIPLES OF REMOTE SENSING_OE (END_SP23).pdf",
+    "code": "GI501",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/GI501%20PRINCIPLES%20OF%20REMOTE%20SENSING_OE%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 333797
+  },
+  "RemoteSensing/GI509R1 DIGITAL SATELLITE IMAGE PROCESSING (END_SP23).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI509R1 DIGITAL SATELLITE IMAGE PROCESSING (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/GI509R1%20DIGITAL%20SATELLITE%20IMAGE%20PROCESSING%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 205620
+  },
+  "RemoteSensing/GI509R1 DIGITAL SATELLITE IMAGE PROCESSING_MGI (END_SP23).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI509R1 DIGITAL SATELLITE IMAGE PROCESSING_MGI (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/GI509R1%20DIGITAL%20SATELLITE%20IMAGE%20PROCESSING_MGI%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 267048
+  },
+  "RemoteSensing/GI509R1 DIGITAL SATELLITE IMAGE PROCESSING_OE (END_SP23).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI509R1 DIGITAL SATELLITE IMAGE PROCESSING_OE (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/GI509R1%20DIGITAL%20SATELLITE%20IMAGE%20PROCESSING_OE%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 274235
+  },
+  "RemoteSensing/GI510R1 RESEARCH METHODS AND STATISTICS IN GEOINFORMATICS (END_SP23).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI510R1 RESEARCH METHODS AND STATISTICS IN GEOINFORMATICS (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/GI510R1%20RESEARCH%20METHODS%20AND%20STATISTICS%20IN%20GEOINFORMATICS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 337061
+  },
+  "RemoteSensing/GI514R1 GEOINFORMATICS FOR CLIMATE CHANGE AND ENVIRONMENTAL IMPACT ASSESSMENT (END_SP23).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI514R1 GEOINFORMATICS FOR CLIMATE CHANGE AND ENVIRONMENTAL IMPACT ASSESSMENT (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/GI514R1%20GEOINFORMATICS%20FOR%20CLIMATE%20CHANGE%20AND%20ENVIRONMENTAL%20IMPACT%20ASSESSMENT%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 197426
+  },
+  "RemoteSensing/GI515R1 GEOINFORMATICS FOR HYDROLOGY & WATER RESOURCES (END_SP23).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI515R1 GEOINFORMATICS FOR HYDROLOGY & WATER RESOURCES (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/GI515R1%20GEOINFORMATICS%20FOR%20HYDROLOGY%20%26%20WATER%20RESOURCES%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 200827
+  },
+  "RemoteSensing/GI518 SPATIAL DATA HANDLING THROUGH PROGRAMMING (END_SP23).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI518 SPATIAL DATA HANDLING THROUGH PROGRAMMING (END_SP23).pdf",
+    "code": "GI518",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/GI518%20SPATIAL%20DATA%20HANDLING%20THROUGH%20PROGRAMMING%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 448680
+  },
+  "RemoteSensing/RS506 REMOTE SENSING IN DISASTER MANAGEMENT (END_SP23).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS506 REMOTE SENSING IN DISASTER MANAGEMENT (END_SP23).pdf",
+    "code": "RS506",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/RS506%20REMOTE%20SENSING%20IN%20DISASTER%20MANAGEMENT%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 267761
+  },
+  "RemoteSensing/RS512RS1 ADVANCED REMOTE SENSING AND GEOSPATIAL MODELLING (END_SP23).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS512RS1 ADVANCED REMOTE SENSING AND GEOSPATIAL MODELLING (END_SP23).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/RS512RS1%20ADVANCED%20REMOTE%20SENSING%20AND%20GEOSPATIAL%20MODELLING%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 335077
+  },
+  "RemoteSensing/RS521 DATA SOURCES, STATISTICS AND RESEARCH METHODS IN GEOSPATIAL DOMAIN (END_SP23).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS521 DATA SOURCES, STATISTICS AND RESEARCH METHODS IN GEOSPATIAL DOMAIN (END_SP23).pdf",
+    "code": "RS521",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/RS521%20DATA%20SOURCES%2C%20STATISTICS%20AND%20RESEARCH%20METHODS%20IN%20GEOSPATIAL%20DOMAIN%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 264980
+  },
+  "RemoteSensing/RS522 PROGRAMMING CONCEPTS FOR SPATIAL DATA HANDLING (END_SP23).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS522 PROGRAMMING CONCEPTS FOR SPATIAL DATA HANDLING (END_SP23).pdf",
+    "code": "RS522",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/RS522%20PROGRAMMING%20CONCEPTS%20FOR%20SPATIAL%20DATA%20HANDLING%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 549721
+  },
+  "RemoteSensing/RS523 PHYSICAL METEOROLOGY (END_SP23).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS523 PHYSICAL METEOROLOGY (END_SP23).pdf",
+    "code": "RS523",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/RS523%20PHYSICAL%20METEOROLOGY%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 264461
+  },
+  "RemoteSensing/RS527 REMOTE SENSING OF ENVIRONMENT (END_SP23).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS527 REMOTE SENSING OF ENVIRONMENT (END_SP23).pdf",
+    "code": "RS527",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/RS527%20REMOTE%20SENSING%20OF%20ENVIRONMENT%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 265677
+  },
+  "RemoteSensing/GI501 PRINCIPLES OF REMOTE SENSING (END_MO22).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI501 PRINCIPLES OF REMOTE SENSING (END_MO22).pdf",
+    "code": "GI501",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/GI501%20PRINCIPLES%20OF%20REMOTE%20SENSING%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 266514
+  },
+  "RemoteSensing/GI502 GEOGRAPHIC INFORMATION SYSTEM (END_MO22).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI502 GEOGRAPHIC INFORMATION SYSTEM (END_MO22).pdf",
+    "code": "GI502",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/GI502%20GEOGRAPHIC%20INFORMATION%20SYSTEM%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 216756
+  },
+  "RemoteSensing/GI503 DIGITAL CARTOGRAPHY AND GPS (END_MO22).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI503 DIGITAL CARTOGRAPHY AND GPS (END_MO22).pdf",
+    "code": "GI503",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/GI503%20DIGITAL%20CARTOGRAPHY%20AND%20GPS%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 270035
+  },
+  "RemoteSensing/GI504R1 ADVANCED IMAGE ACQUISITION & INTERPRETATION FOR ENVIRONMENTAL MAPPING (END_MO22).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI504R1 ADVANCED IMAGE ACQUISITION & INTERPRETATION FOR ENVIRONMENTAL MAPPING (END_MO22).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/GI504R1%20ADVANCED%20IMAGE%20ACQUISITION%20%26%20INTERPRETATION%20FOR%20ENVIRONMENTAL%20MAPPING%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 267733
+  },
+  "RemoteSensing/GI602 ADVANCED GEOSPATIAL MODELLING AND DECISION SUPPORT SYSTEM (END_MO22).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI602 ADVANCED GEOSPATIAL MODELLING AND DECISION SUPPORT SYSTEM (END_MO22).pdf",
+    "code": "GI602",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/GI602%20ADVANCED%20GEOSPATIAL%20MODELLING%20AND%20DECISION%20SUPPORT%20SYSTEM%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 208722
+  },
+  "RemoteSensing/GI603 AERIAL, SATELLITE, UAV BASED PHOTOGRAMMETRY & APPLICATION (END_MO22).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI603 AERIAL, SATELLITE, UAV BASED PHOTOGRAMMETRY & APPLICATION (END_MO22).pdf",
+    "code": "GI603",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/GI603%20AERIAL%2C%20SATELLITE%2C%20UAV%20BASED%20PHOTOGRAMMETRY%20%26%20APPLICATION%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 202672
+  },
+  "RemoteSensing/GI607 GEOINFORMATICS IN DISASTER MANAGEMENT (END_MO22).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI607 GEOINFORMATICS IN DISASTER MANAGEMENT (END_MO22).pdf",
+    "code": "GI607",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/GI607%20GEOINFORMATICS%20IN%20DISASTER%20MANAGEMENT%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 202611
+  },
+  "RemoteSensing/RS501 PRINCIPLES OF REMOTE SENSING & DIGITAL SATELLITE IMAGE PROCESSING (END_MO22).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS501 PRINCIPLES OF REMOTE SENSING & DIGITAL SATELLITE IMAGE PROCESSING (END_MO22).pdf",
+    "code": "RS501",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/RS501%20PRINCIPLES%20OF%20REMOTE%20SENSING%20%26%20DIGITAL%20SATELLITE%20IMAGE%20PROCESSING%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 335380
+  },
+  "RemoteSensing/RS502 GEOGRAPHIC INFORMATION SYSTEM AND SATELLITE NAVIGATION SYSTEM (END_MO22).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS502 GEOGRAPHIC INFORMATION SYSTEM AND SATELLITE NAVIGATION SYSTEM (END_MO22).pdf",
+    "code": "RS502",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/RS502%20GEOGRAPHIC%20INFORMATION%20SYSTEM%20AND%20SATELLITE%20NAVIGATION%20SYSTEM%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 202158
+  },
+  "RemoteSensing/RS507 REMOTE SENSING IN HYDROLOGY & WATER RESOURCES (END_MO22).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS507 REMOTE SENSING IN HYDROLOGY & WATER RESOURCES (END_MO22).pdf",
+    "code": "RS507",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/RS507%20REMOTE%20SENSING%20IN%20HYDROLOGY%20%26%20WATER%20RESOURCES%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 264700
+  },
+  "RemoteSensing/RS511 AERIAL, SATELLITE, UAV BASED PHOTOGRAMMETRY & APPLICATIONS (END_MO22).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS511 AERIAL, SATELLITE, UAV BASED PHOTOGRAMMETRY & APPLICATIONS (END_MO22).pdf",
+    "code": "RS511",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/RS511%20AERIAL%2C%20SATELLITE%2C%20UAV%20BASED%20PHOTOGRAMMETRY%20%26%20APPLICATIONS%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 274943
+  },
+  "RemoteSensing/RS517 REMOTE SENSING IN CLIMATE CHANGE AND ENVIRONMENTAL IMPACT ASSESSMENT (END_MO22).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS517 REMOTE SENSING IN CLIMATE CHANGE AND ENVIRONMENTAL IMPACT ASSESSMENT (END_MO22).pdf",
+    "code": "RS517",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/RS517%20REMOTE%20SENSING%20IN%20CLIMATE%20CHANGE%20AND%20ENVIRONMENTAL%20IMPACT%20ASSESSMENT%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 203881
+  },
+  "RemoteSensing/RS520R1 REAL WORLD OPERATIONALISATION OF GIS AND GNSS (MID_MO22).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS520R1 REAL WORLD OPERATIONALISATION OF GIS AND GNSS (MID_MO22).pdf",
+    "code": "UNKNOWN",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/RS520R1%20REAL%20WORLD%20OPERATIONALISATION%20OF%20GIS%20AND%20GNSS%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 276698
+  },
+  "RemoteSensing/RS520R1 REAL-WORLD OPERATIONALISATION OF GIS & GNSS (END_MO22).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS520R1 REAL-WORLD OPERATIONALISATION OF GIS & GNSS (END_MO22).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/RS520R1%20REAL-WORLD%20OPERATIONALISATION%20OF%20GIS%20%26%20GNSS%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 267107
+  },
+  "RemoteSensing/GI501 PRINCIPLES OF REMOTE SENSING (END_SP22).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI501 PRINCIPLES OF REMOTE SENSING (END_SP22).pdf",
+    "code": "GI501",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/GI501%20PRINCIPLES%20OF%20REMOTE%20SENSING%20(END_SP22).pdf",
+    "downloaded": true,
+    "bytes": 571998
+  },
+  "RemoteSensing/GI509 DIGITAL SATELLITE IMAGE PROCESSING (END_SP22).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI509 DIGITAL SATELLITE IMAGE PROCESSING (END_SP22).pdf",
+    "code": "GI509",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/GI509%20DIGITAL%20SATELLITE%20IMAGE%20PROCESSING%20(END_SP22).pdf",
+    "downloaded": true,
+    "bytes": 313493
+  },
+  "RemoteSensing/GI510 RESEARCH METHODS AND STATISTICS IN GEOINFORMATICS (END_SP22).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI510 RESEARCH METHODS AND STATISTICS IN GEOINFORMATICS (END_SP22).pdf",
+    "code": "GI510",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/GI510%20RESEARCH%20METHODS%20AND%20STATISTICS%20IN%20GEOINFORMATICS%20(END_SP22).pdf",
+    "downloaded": true,
+    "bytes": 223956
+  },
+  "RemoteSensing/GI514R1 GEOINFORMATICS FOR CLIMATE CHANGE AND ENVIRONMENTAL IMPACT ASSESSMENT (END_SP22).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI514R1 GEOINFORMATICS FOR CLIMATE CHANGE AND ENVIRONMENTAL IMPACT ASSESSMENT (END_SP22).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/GI514R1%20GEOINFORMATICS%20FOR%20CLIMATE%20CHANGE%20AND%20ENVIRONMENTAL%20IMPACT%20ASSESSMENT%20(END_SP22).pdf",
+    "downloaded": true,
+    "bytes": 18835
+  },
+  "RemoteSensing/GI515R1 GEOINFORMATICS FOR HYDROLOGY & WATER RESOURCES (END_SP22).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI515R1 GEOINFORMATICS FOR HYDROLOGY & WATER RESOURCES (END_SP22).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/GI515R1%20GEOINFORMATICS%20FOR%20HYDROLOGY%20%26%20WATER%20RESOURCES%20(END_SP22).pdf",
+    "downloaded": true,
+    "bytes": 384174
+  },
+  "RemoteSensing/RS511 AERIAL AND SATELLITE PHOTOGRAMMETRY & IMAGE INTERPRETATION (END_SP22).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS511 AERIAL AND SATELLITE PHOTOGRAMMETRY & IMAGE INTERPRETATION (END_SP22).pdf",
+    "code": "RS511",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/RS511%20AERIAL%20AND%20SATELLITE%20PHOTOGRAMMETRY%20%26%20IMAGE%20INTERPRETATION%20(END_SP22).pdf",
+    "downloaded": true,
+    "bytes": 314660
+  },
+  "RemoteSensing/RS512RS1 ADVANCED REMOTE SENSING AND GEOSPATIAL MODELLING (END_SP22).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS512RS1 ADVANCED REMOTE SENSING AND GEOSPATIAL MODELLING (END_SP22).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/RS512RS1%20ADVANCED%20REMOTE%20SENSING%20AND%20GEOSPATIAL%20MODELLING%20(END_SP22).pdf",
+    "downloaded": true,
+    "bytes": 79373
+  },
+  "RemoteSensing/RS516 REMOTE SENSING IN SNOW & GLACIER HYDROLOGY (END_SP22).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS516 REMOTE SENSING IN SNOW & GLACIER HYDROLOGY (END_SP22).pdf",
+    "code": "RS516",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/RS516%20REMOTE%20SENSING%20IN%20SNOW%20%26%20GLACIER%20HYDROLOGY%20(END_SP22).pdf",
+    "downloaded": true,
+    "bytes": 71175
+  },
+  "RemoteSensing/RS517 REMOTE SENSING IN CLIMATE CHANGE AND ENVIRONMENTAL IMPACT ASSESSMENT (END_SP22).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS517 REMOTE SENSING IN CLIMATE CHANGE AND ENVIRONMENTAL IMPACT ASSESSMENT (END_SP22).pdf",
+    "code": "RS517",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/RS517%20REMOTE%20SENSING%20IN%20CLIMATE%20CHANGE%20AND%20ENVIRONMENTAL%20IMPACT%20ASSESSMENT%20(END_SP22).pdf",
+    "downloaded": true,
+    "bytes": 126629
+  },
+  "RemoteSensing/RS521 DATA SOURCES, STATISTICS AND RESEARCH METHODS IN GEOSPATIAL DOMAIN (END_SP22).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS521 DATA SOURCES, STATISTICS AND RESEARCH METHODS IN GEOSPATIAL DOMAIN (END_SP22).pdf",
+    "code": "RS521",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/RS521%20DATA%20SOURCES%2C%20STATISTICS%20AND%20RESEARCH%20METHODS%20IN%20GEOSPATIAL%20DOMAIN%20(END_SP22).pdf",
+    "downloaded": true,
+    "bytes": 70835
+  },
+  "RemoteSensing/GI501 PRINCIPLES OF REMOTE SENSING (END_MO19).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI501 PRINCIPLES OF REMOTE SENSING (END_MO19).pdf",
+    "code": "GI501",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/GI501%20PRINCIPLES%20OF%20REMOTE%20SENSING%20(END_MO19).pdf",
+    "downloaded": true,
+    "bytes": 330695
+  },
+  "RemoteSensing/GI502 GEOGRAPHIC INFORMATION SYSTEM (END_MO19).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI502 GEOGRAPHIC INFORMATION SYSTEM (END_MO19).pdf",
+    "code": "GI502",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/GI502%20GEOGRAPHIC%20INFORMATION%20SYSTEM%20(END_MO19).pdf",
+    "downloaded": true,
+    "bytes": 286369
+  },
+  "RemoteSensing/GI503 AERIAL,SATELLITE,UAV BASED PHOTOGRAMMETRY AND APPLICATIONS (END_MO19).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI503 AERIAL,SATELLITE,UAV BASED PHOTOGRAMMETRY AND APPLICATIONS (END_MO19).pdf",
+    "code": "GI503",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/GI503%20AERIAL%2CSATELLITE%2CUAV%20BASED%20PHOTOGRAMMETRY%20AND%20APPLICATIONS%20(END_MO19).pdf",
+    "downloaded": true,
+    "bytes": 269623
+  },
+  "RemoteSensing/GI503 DIGITAL CARTOGRAPHY AND GLOBAL POSITIONING SYSTEM (END_MO19).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI503 DIGITAL CARTOGRAPHY AND GLOBAL POSITIONING SYSTEM (END_MO19).pdf",
+    "code": "GI503",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/GI503%20DIGITAL%20CARTOGRAPHY%20AND%20GLOBAL%20POSITIONING%20SYSTEM%20(END_MO19).pdf",
+    "downloaded": true,
+    "bytes": 334126
+  },
+  "RemoteSensing/GI504 ADV_ IMAGE ACQUI_ & INT_ FOR ENV_ MAPPING (END_MO19).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI504 ADV_ IMAGE ACQUI_ & INT_ FOR ENV_ MAPPING (END_MO19).pdf",
+    "code": "GI504",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/GI504%20ADV_%20IMAGE%20ACQUI_%20%26%20INT_%20FOR%20ENV_%20MAPPING%20(END_MO19).pdf",
+    "downloaded": true,
+    "bytes": 264519
+  },
+  "RemoteSensing/GI602 ADVANCED GEOSPATIAL MODELLING AND DECISION SUPPORT SYSTEM (END_MO19).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI602 ADVANCED GEOSPATIAL MODELLING AND DECISION SUPPORT SYSTEM (END_MO19).pdf",
+    "code": "GI602",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/GI602%20ADVANCED%20GEOSPATIAL%20MODELLING%20AND%20DECISION%20SUPPORT%20SYSTEM%20(END_MO19).pdf",
+    "downloaded": true,
+    "bytes": 272561
+  },
+  "RemoteSensing/GI607 GEOINFORMATICS FOR DISASTER MANAGEMENT (END_MO19).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI607 GEOINFORMATICS FOR DISASTER MANAGEMENT (END_MO19).pdf",
+    "code": "GI607",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/GI607%20GEOINFORMATICS%20FOR%20DISASTER%20MANAGEMENT%20(END_MO19).pdf",
+    "downloaded": true,
+    "bytes": 260988
+  },
+  "RemoteSensing/RS501 PRINCIPLES OF REMOTE SENSING AND DIGITAL SATELLITE IMAGE (END_MO19).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS501 PRINCIPLES OF REMOTE SENSING AND DIGITAL SATELLITE IMAGE (END_MO19).pdf",
+    "code": "RS501",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/RS501%20PRINCIPLES%20OF%20REMOTE%20SENSING%20AND%20DIGITAL%20SATELLITE%20IMAGE%20(END_MO19).pdf",
+    "downloaded": true,
+    "bytes": 331378
+  },
+  "RemoteSensing/RS502 GEOGRAPHIC INFORMATION SYSTEM AND SATELLITE NAVIGATION SYSTEM (END_MO19).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS502 GEOGRAPHIC INFORMATION SYSTEM AND SATELLITE NAVIGATION SYSTEM (END_MO19).pdf",
+    "code": "RS502",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/RS502%20GEOGRAPHIC%20INFORMATION%20SYSTEM%20AND%20SATELLITE%20NAVIGATION%20SYSTEM%20(END_MO19).pdf",
+    "downloaded": true,
+    "bytes": 339352
+  },
+  "RemoteSensing/RS506 REMOTE SENSING IN DISASTER MANAGEMENT (END_MO19).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS506 REMOTE SENSING IN DISASTER MANAGEMENT (END_MO19).pdf",
+    "code": "RS506",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/RS506%20REMOTE%20SENSING%20IN%20DISASTER%20MANAGEMENT%20(END_MO19).pdf",
+    "downloaded": true,
+    "bytes": 264242
+  },
+  "RemoteSensing/RS507 REMOTE SENSING IN HYDROLOGY AND WATER RESOURCES (END_MO19).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS507 REMOTE SENSING IN HYDROLOGY AND WATER RESOURCES (END_MO19).pdf",
+    "code": "RS507",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/RS507%20REMOTE%20SENSING%20IN%20HYDROLOGY%20AND%20WATER%20RESOURCES%20(END_MO19).pdf",
+    "downloaded": true,
+    "bytes": 261311
+  },
+  "RemoteSensing/RS602 DATA SOURCES, STATISTICS AND RESEARCH METHODS IN GEOSPATIAL DOMAIN (END_MO19).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS602 DATA SOURCES, STATISTICS AND RESEARCH METHODS IN GEOSPATIAL DOMAIN (END_MO19).pdf",
+    "code": "RS602",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/RS602%20DATA%20SOURCES%2C%20STATISTICS%20AND%20RESEARCH%20METHODS%20IN%20GEOSPATIAL%20DOMAIN%20(END_MO19).pdf",
+    "downloaded": true,
+    "bytes": 269855
+  },
+  "RemoteSensing/SGI1001 PRINCIPLES OF REMOTE SENSING (END_MO19).pdf": {
+    "dept": "RemoteSensing",
+    "name": "SGI1001 PRINCIPLES OF REMOTE SENSING (END_MO19).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/SGI1001%20PRINCIPLES%20OF%20REMOTE%20SENSING%20(END_MO19).pdf",
+    "downloaded": true,
+    "bytes": 269177
+  },
+  "RemoteSensing/SGI1001 PRINCIPLES OF REMOTE SENSING (MID_MO19).pdf": {
+    "dept": "RemoteSensing",
+    "name": "SGI1001 PRINCIPLES OF REMOTE SENSING (MID_MO19).pdf",
+    "code": "UNKNOWN",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/SGI1001%20PRINCIPLES%20OF%20REMOTE%20SENSING%20(MID_MO19).pdf",
+    "downloaded": true,
+    "bytes": 207633
+  },
+  "RemoteSensing/GI509 DIGITAL SATELLITE IMAGE PROCESSING (END_SP19).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI509 DIGITAL SATELLITE IMAGE PROCESSING (END_SP19).pdf",
+    "code": "GI509",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/GI509%20DIGITAL%20SATELLITE%20IMAGE%20PROCESSING%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 198569
+  },
+  "RemoteSensing/GI510 RESEARCH METHODS AND STATISTICS IN GEOINFORMATICS (END_SP19).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI510 RESEARCH METHODS AND STATISTICS IN GEOINFORMATICS (END_SP19).pdf",
+    "code": "GI510",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/GI510%20RESEARCH%20METHODS%20AND%20STATISTICS%20IN%20GEOINFORMATICS%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 262507
+  },
+  "RemoteSensing/GI514 GEOINFORMATICS FOR CLIMATE CHANGE AND EIA (END_SP19).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI514 GEOINFORMATICS FOR CLIMATE CHANGE AND EIA (END_SP19).pdf",
+    "code": "GI514",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/GI514%20GEOINFORMATICS%20FOR%20CLIMATE%20CHANGE%20AND%20EIA%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 262458
+  },
+  "RemoteSensing/RS502 GEOGRAPHICAL INFORMATION SYSTEM AND SATELLITE NAVIGATION (END_SP19).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS502 GEOGRAPHICAL INFORMATION SYSTEM AND SATELLITE NAVIGATION (END_SP19).pdf",
+    "code": "RS502",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/RS502%20GEOGRAPHICAL%20INFORMATION%20SYSTEM%20AND%20SATELLITE%20NAVIGATION%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 335330
+  },
+  "RemoteSensing/RS511 AERIAL AND SATELLITE PHOTOGRAMMETRY & IMAGE INTERPRETATION (END_SP19).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS511 AERIAL AND SATELLITE PHOTOGRAMMETRY & IMAGE INTERPRETATION (END_SP19).pdf",
+    "code": "RS511",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/RS511%20AERIAL%20AND%20SATELLITE%20PHOTOGRAMMETRY%20%26%20IMAGE%20INTERPRETATION%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 232866
+  },
+  "RemoteSensing/RS512 ADVANCED REMOTE SENSING AND GEOSPATIAL MODELLING (END_SP19).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS512 ADVANCED REMOTE SENSING AND GEOSPATIAL MODELLING (END_SP19).pdf",
+    "code": "RS512",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/RS512%20ADVANCED%20REMOTE%20SENSING%20AND%20GEOSPATIAL%20MODELLING%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 267866
+  },
+  "RemoteSensing/RS517 REMOTE SENSING IN CLIMATE CHANGE AND ENVIRONMENTAL IMPACT ASSESSMENT (END_SP19).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS517 REMOTE SENSING IN CLIMATE CHANGE AND ENVIRONMENTAL IMPACT ASSESSMENT (END_SP19).pdf",
+    "code": "RS517",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/RS517%20REMOTE%20SENSING%20IN%20CLIMATE%20CHANGE%20AND%20ENVIRONMENTAL%20IMPACT%20ASSESSMENT%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 335653
+  },
+  "RemoteSensing/RS602 DATA SOURCES, STATISTICS AND RESEARCH METHODS IN GEOSPATIAL DOMAIN (END_SP19).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS602 DATA SOURCES, STATISTICS AND RESEARCH METHODS IN GEOSPATIAL DOMAIN (END_SP19).pdf",
+    "code": "RS602",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/RS602%20DATA%20SOURCES%2C%20STATISTICS%20AND%20RESEARCH%20METHODS%20IN%20GEOSPATIAL%20DOMAIN%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 262874
+  },
+  "RemoteSensing/GI501 PRINCIPLES OF REMOTE SENSING (END_MO2018).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI501 PRINCIPLES OF REMOTE SENSING (END_MO2018).pdf",
+    "code": "GI501",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/GI501%20PRINCIPLES%20OF%20REMOTE%20SENSING%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 262548
+  },
+  "RemoteSensing/GI502 GEOGRAPHIC INFORMATION SYSTEM (END_MO2018).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI502 GEOGRAPHIC INFORMATION SYSTEM (END_MO2018).pdf",
+    "code": "GI502",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/GI502%20GEOGRAPHIC%20INFORMATION%20SYSTEM%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 267206
+  },
+  "RemoteSensing/GI503 DIGITAL CARTOGRAPHY AND GPS (END_MO2018).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI503 DIGITAL CARTOGRAPHY AND GPS (END_MO2018).pdf",
+    "code": "GI503",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/GI503%20DIGITAL%20CARTOGRAPHY%20AND%20GPS%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 265455
+  },
+  "RemoteSensing/GI504 ADV_ IMAGE ACQUISITION & INTERPRETATION FOR ENV_ MAPPING (END_MO2018).pdf": {
+    "dept": "RemoteSensing",
+    "name": "GI504 ADV_ IMAGE ACQUISITION & INTERPRETATION FOR ENV_ MAPPING (END_MO2018).pdf",
+    "code": "GI504",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/GI504%20ADV_%20IMAGE%20ACQUISITION%20%26%20INTERPRETATION%20FOR%20ENV_%20MAPPING%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 267629
+  },
+  "RemoteSensing/RS501 PRINCIPLES OF REMOTE SENSING AND DIGITAL SATELLITE IMAGE PROCESSING (END_MO2018).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS501 PRINCIPLES OF REMOTE SENSING AND DIGITAL SATELLITE IMAGE PROCESSING (END_MO2018).pdf",
+    "code": "RS501",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/RS501%20PRINCIPLES%20OF%20REMOTE%20SENSING%20AND%20DIGITAL%20SATELLITE%20IMAGE%20PROCESSING%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 267002
+  },
+  "RemoteSensing/RS502 GEOGRAPHIC INFORMATION SYSTEM AND SATELLITE NAVIGATION SYSTEMS (END_MO2018).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS502 GEOGRAPHIC INFORMATION SYSTEM AND SATELLITE NAVIGATION SYSTEMS (END_MO2018).pdf",
+    "code": "RS502",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/RS502%20GEOGRAPHIC%20INFORMATION%20SYSTEM%20AND%20SATELLITE%20NAVIGATION%20SYSTEMS%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 269249
+  },
+  "RemoteSensing/RS506 REMOTE SENSING IN DISASTER MANAGEMENT (END_MO2018).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS506 REMOTE SENSING IN DISASTER MANAGEMENT (END_MO2018).pdf",
+    "code": "RS506",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/RS506%20REMOTE%20SENSING%20IN%20DISASTER%20MANAGEMENT%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 264507
+  },
+  "RemoteSensing/RS507 REMOTE SENSING IN HYDROLOGY & WATER RESOURCES (END_MO2018).pdf": {
+    "dept": "RemoteSensing",
+    "name": "RS507 REMOTE SENSING IN HYDROLOGY & WATER RESOURCES (END_MO2018).pdf",
+    "code": "RS507",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/RS507%20REMOTE%20SENSING%20IN%20HYDROLOGY%20%26%20WATER%20RESOURCES%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 261925
+  },
+  "RemoteSensing/SGI1001–PRINCIPLE OF REMOTE SENSING (END_MO2018).pdf": {
+    "dept": "RemoteSensing",
+    "name": "SGI1001–PRINCIPLE OF REMOTE SENSING (END_MO2018).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/SGI1001%E2%80%93PRINCIPLE%20OF%20REMOTE%20SENSING%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 270421
+  },
+  "RemoteSensing/SGI3001 SPATIAL ANALYSIS MODELLING & DSS (END_MO2018).pdf": {
+    "dept": "RemoteSensing",
+    "name": "SGI3001 SPATIAL ANALYSIS MODELLING & DSS (END_MO2018).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/SGI3001%20SPATIAL%20ANALYSIS%20MODELLING%20%26%20DSS%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 289566
+  },
+  "RemoteSensing/SGI3003 GEOINFORMATICS IN RESOURCE MANAGEMENT (END_MO2018).pdf": {
+    "dept": "RemoteSensing",
+    "name": "SGI3003 GEOINFORMATICS IN RESOURCE MANAGEMENT (END_MO2018).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/SGI3003%20GEOINFORMATICS%20IN%20RESOURCE%20MANAGEMENT%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 197256
+  },
+  "RemoteSensing/SGI3005 GEOINFORMATICS IN DISASTER MANAGEMENT (END_MO2018).pdf": {
+    "dept": "RemoteSensing",
+    "name": "SGI3005 GEOINFORMATICS IN DISASTER MANAGEMENT (END_MO2018).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/SGI3005%20GEOINFORMATICS%20IN%20DISASTER%20MANAGEMENT%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 266447
+  },
+  "RemoteSensing/SGI3017 GEOINFORMATICS IN ENVIRONMENTAL STUDIES (END_MO2018).pdf": {
+    "dept": "RemoteSensing",
+    "name": "SGI3017 GEOINFORMATICS IN ENVIRONMENTAL STUDIES (END_MO2018).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/SGI3017%20GEOINFORMATICS%20IN%20ENVIRONMENTAL%20STUDIES%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 265488
+  },
+  "RemoteSensing/SGI3019 GEOINFORMATICS IN WATER RESOURCES (END_MO2018).pdf": {
+    "dept": "RemoteSensing",
+    "name": "SGI3019 GEOINFORMATICS IN WATER RESOURCES (END_MO2018).pdf",
+    "code": "UNKNOWN",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/SGI3019%20GEOINFORMATICS%20IN%20WATER%20RESOURCES%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 199722
+  },
+  "SER/SR508 AERODYNAMIC STABILITY AND CONTROL (END_SP23).pdf": {
+    "dept": "SER",
+    "name": "SR508 AERODYNAMIC STABILITY AND CONTROL (END_SP23).pdf",
+    "code": "SR508",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/SR508%20AERODYNAMIC%20STABILITY%20AND%20CONTROL%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 263964
+  },
+  "SER/SR501 ELEMENTS OF ROCKET PROPULSION (END_MO22).pdf": {
+    "dept": "SER",
+    "name": "SR501 ELEMENTS OF ROCKET PROPULSION (END_MO22).pdf",
+    "code": "SR501",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/SR501%20ELEMENTS%20OF%20ROCKET%20PROPULSION%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 236295
+  },
+  "SER/SR521 COMPUTATIONAL COMBUSTION (END_SP23).pdf": {
+    "dept": "SER",
+    "name": "SR521 COMPUTATIONAL COMBUSTION (END_SP23).pdf",
+    "code": "SR521",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/SR521%20COMPUTATIONAL%20COMBUSTION%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 276577
+  },
+  "SER/SR502 ELEMENTS OF AERODYNAMICS (END_MO22).pdf": {
+    "dept": "SER",
+    "name": "SR502 ELEMENTS OF AERODYNAMICS (END_MO22).pdf",
+    "code": "SR502",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/SR502%20ELEMENTS%20OF%20AERODYNAMICS%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 301752
+  },
+  "SER/SR522 CRYOGENIC PROPULSION (END_SP23).pdf": {
+    "dept": "SER",
+    "name": "SR522 CRYOGENIC PROPULSION (END_SP23).pdf",
+    "code": "SR522",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/SR522%20CRYOGENIC%20PROPULSION%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 263627
+  },
+  "SER/SR503 SPACE ENGINEERING AND SPACE DYNAMICS (END_MO22).pdf": {
+    "dept": "SER",
+    "name": "SR503 SPACE ENGINEERING AND SPACE DYNAMICS (END_MO22).pdf",
+    "code": "SR503",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/SR503%20SPACE%20ENGINEERING%20AND%20SPACE%20DYNAMICS%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 410625
+  },
+  "SER/SR550 LIQUID AND HYBRID ROCKET PROPULSION (END_SP23).pdf": {
+    "dept": "SER",
+    "name": "SR550 LIQUID AND HYBRID ROCKET PROPULSION (END_SP23).pdf",
+    "code": "SR550",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/SR550%20LIQUID%20AND%20HYBRID%20ROCKET%20PROPULSION%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 265366
+  },
+  "SER/SR510 FUNDAMENTALS OF AEROSPACE ENGINEERING (END_MO22).pdf": {
+    "dept": "SER",
+    "name": "SR510 FUNDAMENTALS OF AEROSPACE ENGINEERING (END_MO22).pdf",
+    "code": "SR510",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/SR510%20FUNDAMENTALS%20OF%20AEROSPACE%20ENGINEERING%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 302436
+  },
+  "SER/SR551 SOLID ROCKET PROPULSION (END_SP23).pdf": {
+    "dept": "SER",
+    "name": "SR551 SOLID ROCKET PROPULSION (END_SP23).pdf",
+    "code": "SR551",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/SR551%20SOLID%20ROCKET%20PROPULSION%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 265099
+  },
+  "SER/SR510 FUNDAMENTALS OF AEROSPACE ENGINEERING (MID_MO22).pdf": {
+    "dept": "SER",
+    "name": "SR510 FUNDAMENTALS OF AEROSPACE ENGINEERING (MID_MO22).pdf",
+    "code": "SR510",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/SR510%20FUNDAMENTALS%20OF%20AEROSPACE%20ENGINEERING%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 253580
+  },
+  "SER/SR552 ROCKET COMBUSTION PROCESS (END_SP23).pdf": {
+    "dept": "SER",
+    "name": "SR552 ROCKET COMBUSTION PROCESS (END_SP23).pdf",
+    "code": "SR552",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/SR552%20ROCKET%20COMBUSTION%20PROCESS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 448837
+  },
+  "SER/SR511 FUNDAMENTALS OF FUELS & COMBUSTION (END_MO22).pdf": {
+    "dept": "SER",
+    "name": "SR511 FUNDAMENTALS OF FUELS & COMBUSTION (END_MO22).pdf",
+    "code": "SR511",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/SR511%20FUNDAMENTALS%20OF%20FUELS%20%26%20COMBUSTION%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 203527
+  },
+  "SER/SR576 COMPRESSIBLE FLOWS (END_SP23).pdf": {
+    "dept": "SER",
+    "name": "SR576 COMPRESSIBLE FLOWS (END_SP23).pdf",
+    "code": "SR576",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/SR576%20COMPRESSIBLE%20FLOWS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 265071
+  },
+  "SER/SR511 FUNDAMENTALS OF FUELS & COMBUSTION_IMSC (END_MO22).pdf": {
+    "dept": "SER",
+    "name": "SR511 FUNDAMENTALS OF FUELS & COMBUSTION_IMSC (END_MO22).pdf",
+    "code": "SR511",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/SR511%20FUNDAMENTALS%20OF%20FUELS%20%26%20COMBUSTION_IMSC%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 273181
+  },
+  "SER/SR577 BOUNDARY LAYER THEORY (END_SP23).pdf": {
+    "dept": "SER",
+    "name": "SR577 BOUNDARY LAYER THEORY (END_SP23).pdf",
+    "code": "SR577",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/SR577%20BOUNDARY%20LAYER%20THEORY%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 263729
+  },
+  "SER/SR511 FUNDAMENTALS OF FUELS AND COMBUSTION (MID_MO22).pdf": {
+    "dept": "SER",
+    "name": "SR511 FUNDAMENTALS OF FUELS AND COMBUSTION (MID_MO22).pdf",
+    "code": "SR511",
+    "examType": "MID",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/SR511%20FUNDAMENTALS%20OF%20FUELS%20AND%20COMBUSTION%20(MID_MO22).pdf",
+    "downloaded": true,
+    "bytes": 416349
+  },
+  "SER/SR578 COMPUTATIONAL FLUID DYNAMICS (END_SP23).pdf": {
+    "dept": "SER",
+    "name": "SR578 COMPUTATIONAL FLUID DYNAMICS (END_SP23).pdf",
+    "code": "SR578",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/SR578%20COMPUTATIONAL%20FLUID%20DYNAMICS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 362231
+  },
+  "SER/SR513 APPLIED MATHEMATICS (END_MO22).pdf": {
+    "dept": "SER",
+    "name": "SR513 APPLIED MATHEMATICS (END_MO22).pdf",
+    "code": "SR513",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/SR513%20APPLIED%20MATHEMATICS%20(END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 215855
+  },
+  "SER/SR579 EXPERIMENTAL AERODYNAMICS (END_SP23).pdf": {
+    "dept": "SER",
+    "name": "SR579 EXPERIMENTAL AERODYNAMICS (END_SP23).pdf",
+    "code": "SR579",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2023%20QP/SR579%20EXPERIMENTAL%20AERODYNAMICS%20(END_SP23).pdf",
+    "downloaded": true,
+    "bytes": 264151
+  },
+  "SER/SR514 ROCKET AND MISSILE STRUCTURE 9END_MO22).pdf": {
+    "dept": "SER",
+    "name": "SR514 ROCKET AND MISSILE STRUCTURE 9END_MO22).pdf",
+    "code": "SR514",
+    "examType": "OTHER",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2022%20QP/SR514%20ROCKET%20AND%20MISSILE%20STRUCTURE%209END_MO22).pdf",
+    "downloaded": true,
+    "bytes": 236323
+  },
+  "SER/SR550 LIQUID AND HYBRID ROCKET PROPULSION (END_SP22).pdf": {
+    "dept": "SER",
+    "name": "SR550 LIQUID AND HYBRID ROCKET PROPULSION (END_SP22).pdf",
+    "code": "SR550",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/SR550%20LIQUID%20AND%20HYBRID%20ROCKET%20PROPULSION%20(END_SP22).pdf",
+    "downloaded": true,
+    "bytes": 193468
+  },
+  "SER/SR501 ELEMENTS OF ROCKET PROPULSION (END_MO19).pdf": {
+    "dept": "SER",
+    "name": "SR501 ELEMENTS OF ROCKET PROPULSION (END_MO19).pdf",
+    "code": "SR501",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/SR501%20ELEMENTS%20OF%20ROCKET%20PROPULSION%20(END_MO19).pdf",
+    "downloaded": true,
+    "bytes": 266329
+  },
+  "SER/SR551 SOLID ROCKET PROPULSION (END_SP22).pdf": {
+    "dept": "SER",
+    "name": "SR551 SOLID ROCKET PROPULSION (END_SP22).pdf",
+    "code": "SR551",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/SR551%20SOLID%20ROCKET%20PROPULSION%20(END_SP22).pdf",
+    "downloaded": true,
+    "bytes": 198185
+  },
+  "SER/SR502 ELEMENTS OF AERODYNAMICS (END_MO19).pdf": {
+    "dept": "SER",
+    "name": "SR502 ELEMENTS OF AERODYNAMICS (END_MO19).pdf",
+    "code": "SR502",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/SR502%20ELEMENTS%20OF%20AERODYNAMICS%20(END_MO19).pdf",
+    "downloaded": true,
+    "bytes": 261539
+  },
+  "SER/SR552 ROCKET COMBUSTION PROCESS (END_SP22).pdf": {
+    "dept": "SER",
+    "name": "SR552 ROCKET COMBUSTION PROCESS (END_SP22).pdf",
+    "code": "SR552",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/SR552%20ROCKET%20COMBUSTION%20PROCESS%20(END_SP22).pdf",
+    "downloaded": true,
+    "bytes": 200409
+  },
+  "SER/SR503 SPACE ENGINEERING AND SPACE DYNAMICS (END_MO19).pdf": {
+    "dept": "SER",
+    "name": "SR503 SPACE ENGINEERING AND SPACE DYNAMICS (END_MO19).pdf",
+    "code": "SR503",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/SR503%20SPACE%20ENGINEERING%20AND%20SPACE%20DYNAMICS%20(END_MO19).pdf",
+    "downloaded": true,
+    "bytes": 125763
+  },
+  "SER/SR554 ADVANCED PROPULSION SYSTEM (END_SP22).pdf": {
+    "dept": "SER",
+    "name": "SR554 ADVANCED PROPULSION SYSTEM (END_SP22).pdf",
+    "code": "SR554",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/SR554%20ADVANCED%20PROPULSION%20SYSTEM%20(END_SP22).pdf",
+    "downloaded": true,
+    "bytes": 379389
+  },
+  "SER/SR504 FUNDAMENTALS OF COMBUSTION (END_MO19).pdf": {
+    "dept": "SER",
+    "name": "SR504 FUNDAMENTALS OF COMBUSTION (END_MO19).pdf",
+    "code": "SR504",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/SR504%20FUNDAMENTALS%20OF%20COMBUSTION%20(END_MO19).pdf",
+    "downloaded": true,
+    "bytes": 268313
+  },
+  "SER/SR555 HEAT TRANSFER IN SPACE APPLICATIONS (END_SP22).pdf": {
+    "dept": "SER",
+    "name": "SR555 HEAT TRANSFER IN SPACE APPLICATIONS (END_SP22).pdf",
+    "code": "SR555",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/SR555%20HEAT%20TRANSFER%20IN%20SPACE%20APPLICATIONS%20(END_SP22).pdf",
+    "downloaded": true,
+    "bytes": 194333
+  },
+  "SER/SR508 AERODYNAMIC STABILITY AND CONTROL (END_MO19).pdf": {
+    "dept": "SER",
+    "name": "SR508 AERODYNAMIC STABILITY AND CONTROL (END_MO19).pdf",
+    "code": "SR508",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/SR508%20AERODYNAMIC%20STABILITY%20AND%20CONTROL%20(END_MO19).pdf",
+    "downloaded": true,
+    "bytes": 261079
+  },
+  "SER/SR576 COMPRESSIBLE FLOWS (END_SP22).pdf": {
+    "dept": "SER",
+    "name": "SR576 COMPRESSIBLE FLOWS (END_SP22).pdf",
+    "code": "SR576",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/SR576%20COMPRESSIBLE%20FLOWS%20(END_SP22).pdf",
+    "downloaded": true,
+    "bytes": 211024
+  },
+  "SER/SR578 COMPUTATIONAL FLUID DYNAMICS (END_MO19).pdf": {
+    "dept": "SER",
+    "name": "SR578 COMPUTATIONAL FLUID DYNAMICS (END_MO19).pdf",
+    "code": "SR578",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/SR578%20COMPUTATIONAL%20FLUID%20DYNAMICS%20(END_MO19).pdf",
+    "downloaded": true,
+    "bytes": 334388
+  },
+  "SER/SR577 BOUNDARY LAYER THEORY (END_SP22).pdf": {
+    "dept": "SER",
+    "name": "SR577 BOUNDARY LAYER THEORY (END_SP22).pdf",
+    "code": "SR577",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/SR577%20BOUNDARY%20LAYER%20THEORY%20(END_SP22).pdf",
+    "downloaded": true,
+    "bytes": 195149
+  },
+  "SER/SR601 PROPELLANT TECHNOLOGY (END_MO19).pdf": {
+    "dept": "SER",
+    "name": "SR601 PROPELLANT TECHNOLOGY (END_MO19).pdf",
+    "code": "SR601",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/SR601%20PROPELLANT%20TECHNOLOGY%20(END_MO19).pdf",
+    "downloaded": true,
+    "bytes": 268597
+  },
+  "SER/SR578 COMPUTATIONAL FLUID DYNAMICS (END_SP22).pdf": {
+    "dept": "SER",
+    "name": "SR578 COMPUTATIONAL FLUID DYNAMICS (END_SP22).pdf",
+    "code": "SR578",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/SR578%20COMPUTATIONAL%20FLUID%20DYNAMICS%20(END_SP22).pdf",
+    "downloaded": true,
+    "bytes": 45718
+  },
+  "SER/SR605 CRYOGENIC PROPULSION (END_MO19).pdf": {
+    "dept": "SER",
+    "name": "SR605 CRYOGENIC PROPULSION (END_MO19).pdf",
+    "code": "SR605",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/SR605%20CRYOGENIC%20PROPULSION%20(END_MO19).pdf",
+    "downloaded": true,
+    "bytes": 265574
+  },
+  "SER/SR579 EXPERIMENTAL AERODYNAMICS (END_SP22).pdf": {
+    "dept": "SER",
+    "name": "SR579 EXPERIMENTAL AERODYNAMICS (END_SP22).pdf",
+    "code": "SR579",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/SR579%20EXPERIMENTAL%20AERODYNAMICS%20(END_SP22).pdf",
+    "downloaded": true,
+    "bytes": 210982
+  },
+  "SER/SR611 FUNDAMENTALS OF TURBULENCE (END_MO19).pdf": {
+    "dept": "SER",
+    "name": "SR611 FUNDAMENTALS OF TURBULENCE (END_MO19).pdf",
+    "code": "SR611",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/SR611%20FUNDAMENTALS%20OF%20TURBULENCE%20(END_MO19).pdf",
+    "downloaded": true,
+    "bytes": 192903
+  },
+  "SER/SR580 ELEMENTS OF HYPERSONIC FLIGHT (END_SP22).pdf": {
+    "dept": "SER",
+    "name": "SR580 ELEMENTS OF HYPERSONIC FLIGHT (END_SP22).pdf",
+    "code": "SR580",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/SR580%20ELEMENTS%20OF%20HYPERSONIC%20FLIGHT%20(END_SP22).pdf",
+    "downloaded": true,
+    "bytes": 210775
+  },
+  "SER/SR612 AERODYNAMICS OF INTERNAL FLOWS (END_MO19).pdf": {
+    "dept": "SER",
+    "name": "SR612 AERODYNAMICS OF INTERNAL FLOWS (END_MO19).pdf",
+    "code": "SR612",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/SR612%20AERODYNAMICS%20OF%20INTERNAL%20FLOWS%20(END_MO19).pdf",
+    "downloaded": true,
+    "bytes": 404860
+  },
+  "SER/SR581 MISSILE AERODYNAMICS (END_SP22).pdf": {
+    "dept": "SER",
+    "name": "SR581 MISSILE AERODYNAMICS (END_SP22).pdf",
+    "code": "SR581",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/SR581%20MISSILE%20AERODYNAMICS%20(END_SP22).pdf",
+    "downloaded": true,
+    "bytes": 41806
+  },
+  "SER/SR614 TURBULENCE MODELING IN CFD (END_MO19).pdf": {
+    "dept": "SER",
+    "name": "SR614 TURBULENCE MODELING IN CFD (END_MO19).pdf",
+    "code": "SR614",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2019%20QP/SR614%20TURBULENCE%20MODELING%20IN%20CFD%20(END_MO19).pdf",
+    "downloaded": true,
+    "bytes": 263921
+  },
+  "SER/SR603 COMPUTATIONAL COMBUSTION (END_SP22).pdf": {
+    "dept": "SER",
+    "name": "SR603 COMPUTATIONAL COMBUSTION (END_SP22).pdf",
+    "code": "SR603",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/SR603%20COMPUTATIONAL%20COMBUSTION%20(END_SP22).pdf",
+    "downloaded": true,
+    "bytes": 323288
+  },
+  "SER/SR605 CRYGRNIC PROPULSION (END_SP22).pdf": {
+    "dept": "SER",
+    "name": "SR605 CRYGRNIC PROPULSION (END_SP22).pdf",
+    "code": "SR605",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/SR605%20CRYGRNIC%20PROPULSION%20(END_SP22).pdf",
+    "downloaded": true,
+    "bytes": 198976
+  },
+  "SER/SR614 TURBULENCE MODELING IN CFD (END_SP22).pdf": {
+    "dept": "SER",
+    "name": "SR614 TURBULENCE MODELING IN CFD (END_SP22).pdf",
+    "code": "SR614",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2022%20QP/SR614%20TURBULENCE%20MODELING%20IN%20CFD%20(END_SP22).pdf",
+    "downloaded": true,
+    "bytes": 49938
+  },
+  "SER/SR550 LIQUID AND HYBRID ROCKET PROPULSION (END_SP19).pdf": {
+    "dept": "SER",
+    "name": "SR550 LIQUID AND HYBRID ROCKET PROPULSION (END_SP19).pdf",
+    "code": "SR550",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/SR550%20LIQUID%20AND%20HYBRID%20ROCKET%20PROPULSION%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 260578
+  },
+  "SER/SR501 ELEMENTS OF ROCKET PROPULSION (END_MO2018).pdf": {
+    "dept": "SER",
+    "name": "SR501 ELEMENTS OF ROCKET PROPULSION (END_MO2018).pdf",
+    "code": "SR501",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/SR501%20ELEMENTS%20OF%20ROCKET%20PROPULSION%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 266238
+  },
+  "SER/SR551 SOLID ROCKET PROPULSION (END_SP19).pdf": {
+    "dept": "SER",
+    "name": "SR551 SOLID ROCKET PROPULSION (END_SP19).pdf",
+    "code": "SR551",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/SR551%20SOLID%20ROCKET%20PROPULSION%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 194796
+  },
+  "SER/SR502 ELEMENTS OF AERODYNAMICS_ (END_MO2018).pdf": {
+    "dept": "SER",
+    "name": "SR502 ELEMENTS OF AERODYNAMICS_ (END_MO2018).pdf",
+    "code": "SR502",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/SR502%20ELEMENTS%20OF%20AERODYNAMICS_%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 456306
+  },
+  "SER/SR552 ROCKET COMBUSTION PROCESSES (END_SP19).pdf": {
+    "dept": "SER",
+    "name": "SR552 ROCKET COMBUSTION PROCESSES (END_SP19).pdf",
+    "code": "SR552",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/SR552%20ROCKET%20COMBUSTION%20PROCESSES%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 266686
+  },
+  "SER/SR503 SPACE ENGINEERING AND SPACE DYNAMICS (END_MO2018).pdf": {
+    "dept": "SER",
+    "name": "SR503 SPACE ENGINEERING AND SPACE DYNAMICS (END_MO2018).pdf",
+    "code": "SR503",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/SR503%20SPACE%20ENGINEERING%20AND%20SPACE%20DYNAMICS%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 200300
+  },
+  "SER/SR553 IGNITION & EXTINCTION IN CHEMICAL ROCKETS (END_SP19).pdf": {
+    "dept": "SER",
+    "name": "SR553 IGNITION & EXTINCTION IN CHEMICAL ROCKETS (END_SP19).pdf",
+    "code": "SR553",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/SR553%20IGNITION%20%26%20EXTINCTION%20IN%20CHEMICAL%20ROCKETS%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 268582
+  },
+  "SER/SR504 FUNDAMENTALS OF COMBUSTION (END_MO2018).pdf": {
+    "dept": "SER",
+    "name": "SR504 FUNDAMENTALS OF COMBUSTION (END_MO2018).pdf",
+    "code": "SR504",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/SR504%20FUNDAMENTALS%20OF%20COMBUSTION%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 267496
+  },
+  "SER/SR554 ADVANCED PROPULSION SYSTEM (END_SP19).pdf": {
+    "dept": "SER",
+    "name": "SR554 ADVANCED PROPULSION SYSTEM (END_SP19).pdf",
+    "code": "SR554",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/SR554%20ADVANCED%20PROPULSION%20SYSTEM%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 264208
+  },
+  "SER/SR505 FLAME PROPAGATION & STABILITY (END_MO2018).pdf": {
+    "dept": "SER",
+    "name": "SR505 FLAME PROPAGATION & STABILITY (END_MO2018).pdf",
+    "code": "SR505",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/SR505%20FLAME%20PROPAGATION%20%26%20STABILITY%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 266496
+  },
+  "SER/SR555 HEAT TRANSFER IN SPACE APPLICATIONS (END_SP19).pdf": {
+    "dept": "SER",
+    "name": "SR555 HEAT TRANSFER IN SPACE APPLICATIONS (END_SP19).pdf",
+    "code": "SR555",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/SR555%20HEAT%20TRANSFER%20IN%20SPACE%20APPLICATIONS%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 264238
+  },
+  "SER/SR508 AERODYNAMIC STABILITY & CONTROL (END_MO2018).pdf": {
+    "dept": "SER",
+    "name": "SR508 AERODYNAMIC STABILITY & CONTROL (END_MO2018).pdf",
+    "code": "SR508",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/SR508%20AERODYNAMIC%20STABILITY%20%26%20CONTROL%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 266434
+  },
+  "SER/SR576 COMPRESSIBLE FLOWS (END_SP19).pdf": {
+    "dept": "SER",
+    "name": "SR576 COMPRESSIBLE FLOWS (END_SP19).pdf",
+    "code": "SR576",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/SR576%20COMPRESSIBLE%20FLOWS%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 265554
+  },
+  "SER/SR509 AEROACOUSTICS (END_MO2018).pdf": {
+    "dept": "SER",
+    "name": "SR509 AEROACOUSTICS (END_MO2018).pdf",
+    "code": "SR509",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/MO2018%20QP/SR509%20AEROACOUSTICS%20(END_MO2018).pdf",
+    "downloaded": true,
+    "bytes": 261306
+  },
+  "SER/SR577 BOUNDARY LAYER THEORY (END_SP19).pdf": {
+    "dept": "SER",
+    "name": "SR577 BOUNDARY LAYER THEORY (END_SP19).pdf",
+    "code": "SR577",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/SR577%20BOUNDARY%20LAYER%20THEORY%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 263528
+  },
+  "SER/SR578 COMPUTATIONAL FLUID DYNAMICS (END_SP19).pdf": {
+    "dept": "SER",
+    "name": "SR578 COMPUTATIONAL FLUID DYNAMICS (END_SP19).pdf",
+    "code": "SR578",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/SR578%20COMPUTATIONAL%20FLUID%20DYNAMICS%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 283157
+  },
+  "SER/SR579 EXPERIMENTAL AERODYNAMICS (END_SP19).pdf": {
+    "dept": "SER",
+    "name": "SR579 EXPERIMENTAL AERODYNAMICS (END_SP19).pdf",
+    "code": "SR579",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/SR579%20EXPERIMENTAL%20AERODYNAMICS%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 332527
+  },
+  "SER/SR580 ELEMENTS OF HYPERSONIC FLIGHT (END_SP19).pdf": {
+    "dept": "SER",
+    "name": "SR580 ELEMENTS OF HYPERSONIC FLIGHT (END_SP19).pdf",
+    "code": "SR580",
+    "examType": "END",
+    "url": "https://www.bitmesra.ac.in/UploadedDocuments/adminexam/files/SP2019%20QP/SR580%20ELEMENTS%20OF%20HYPERSONIC%20FLIGHT%20(END_SP19).pdf",
+    "downloaded": true,
+    "bytes": 264195
   }
 }

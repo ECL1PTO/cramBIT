@@ -1,0 +1,202 @@
+{
+  "courseCode": "CS303",
+  "courseName": "OPERATING SYSTEM",
+  "historical_papers": [
+    {
+      "session": "SP/2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "List various services provided by an operating system.",
+              "marks": 2,
+              "topic": "services"
+            },
+            {
+              "label": "b",
+              "text": "Why the operating system is regarded as a resource manager? Explain with a suitable diagram.",
+              "marks": 3,
+              "topic": "resource management"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Differentiate between multiprogramming and time sharing systems.",
+              "marks": 2,
+              "topic": "multiprogramming vs time sharing"
+            },
+            {
+              "label": "b",
+              "text": "Describe the characteristics of modern operating systems.",
+              "marks": 3,
+              "topic": "OS characteristics"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Specify the purpose of each element of a process.",
+              "marks": 2,
+              "topic": "process elements"
+            },
+            {
+              "label": "b",
+              "text": "Demonstrate the use of suspend state with process state transition diagram.",
+              "marks": 3,
+              "topic": "process state"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Specify the characteristics of a long term scheduler.",
+              "marks": 2,
+              "topic": "long term scheduler"
+            },
+            {
+              "label": "b",
+              "text": "Draw the Gantt chart for the execution of processes using priority‑based scheduling and calculate average waiting time and average turnaround time.",
+              "marks": 3,
+              "topic": "priority scheduling"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Calculate the exponential averaging with predicted burst time of first process (S1)=0, smoothing factor (α)=0.5, using Shortest Job First (SJF) and previous run times 8, 7, 4, 16.",
+              "marks": 2,
+              "topic": "exponential averaging"
+            },
+            {
+              "label": "b",
+              "text": "Explain the need for fair‑share scheduling with suitable examples.",
+              "marks": 3,
+              "topic": "fair‑share scheduling"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What are the three main purposes of an operating System?",
+              "marks": 2,
+              "topic": "purposes"
+            },
+            {
+              "label": "b",
+              "text": "List the basic services provided by operating system.",
+              "marks": 3,
+              "topic": "services"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain process states with diagram.",
+              "marks": 2,
+              "topic": "process states"
+            },
+            {
+              "label": "b",
+              "text": "Differentiate between user level and kernel level thread.",
+              "marks": 3,
+              "topic": "threads"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the difference between pre-emptive and non pre-emptive scheduling.",
+              "marks": 2,
+              "topic": "scheduling types"
+            },
+            {
+              "label": "b",
+              "text": "Describe the difference between long term, short term and medium-term scheduler?",
+              "marks": 3,
+              "topic": "scheduler types"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Draw the Gannt. Chart, illustrating the execution of these processes using Non-preemptive and Preemptive Priority Scheduling algorithm.",
+              "marks": 2,
+              "topic": "priority scheduling"
+            },
+            {
+              "label": "b",
+              "text": "Calculate the average turnaround time and waiting time of each process for each of the scheduling algorithm as mention in (a).",
+              "marks": 3,
+              "topic": "turnaround time"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Draw the scheduling chart for Rate Monotonic Scheduling algorithm for the above set of processes.",
+              "marks": 2,
+              "topic": "rate monotonic scheduling"
+            },
+            {
+              "label": "b",
+              "text": "Explain the following terms related to Inter Process Communication– a) Race condition b) critical section c) Mutual exclusion d)Semaphores",
+              "marks": 3,
+              "topic": "interprocess communication"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

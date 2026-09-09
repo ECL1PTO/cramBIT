@@ -1,0 +1,86 @@
+{
+  "courseCode": "IT301",
+  "courseName": "DATA COMMUNICATION & COMPUTER NETWORK",
+  "historical_papers": [
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the significance of Eb/No ratio?",
+              "marks": 2,
+              "topic": "Eb/No"
+            },
+            {
+              "label": "b",
+              "text": "What are various transmission impairments a signal encounter? Explain attenuation with diagram.",
+              "marks": 3,
+              "topic": "Transmission impairments"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": null,
+              "text": "For the given digital data, generate digital signals using NRZ-I, NRZ-L, Bipolar-AMI, Manchester & Differential Manchester. Also write the rules. Digital data - 1001101011",
+              "marks": 5,
+              "topic": "Line coding"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": null,
+              "text": "Draw and explain TCP/IP model. Also compare TCP/IP with OSI model.",
+              "marks": 5,
+              "topic": "TCP/IP"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": null,
+              "text": "Explain the transmission characteristics of Satellite microwave and optical fiber.",
+              "marks": 5,
+              "topic": "Transmission media"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is modulation? Explain Amplitude modulation.",
+              "marks": 2,
+              "topic": "Modulation"
+            },
+            {
+              "label": "b",
+              "text": "What is the significance of Shannon’s formula for channel capacity? Explain",
+              "marks": 3,
+              "topic": "Shannon capacity"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

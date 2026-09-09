@@ -6,6 +6,7 @@ import Markdown from "markdown-to-jsx";
 import { createClient } from "@/utils/supabase/client";
 import { Button, Card, Container, MonoChip, TextArea } from "@/components/ui";
 import { DISCLAIMER_ACK } from "@/data/legal";
+import { pickHype } from "@/data/hype";
 import { PaywallModal } from "@/components/paywall-modal";
 import { AITutor } from "@/components/ai-tutor";
 import { Wordmark } from "@/components/logo";
@@ -175,7 +176,7 @@ export default function Dashboard() {
   const busy = phase === "planning" || phase === "pooling" || phase === "writing";
 
   return (
-    <main className="min-h-screen bg-canvas pb-32">
+    <main className="min-h-screen pb-32">
       <Container className="flex items-center justify-between py-5 no-print sm:py-6">
         <Wordmark size="md" />
         <div className="flex items-center gap-3 text-body-sm text-muted">
@@ -204,9 +205,12 @@ export default function Dashboard() {
           </div>
 
           {error && (
-            <p className="rounded-input border border-danger/40 bg-danger/10 px-4 py-3 text-body-sm text-danger">
+            <div className="rounded-input border border-danger/40 bg-danger/10 px-4 py-3 text-body-sm text-danger">
               {error}
-            </p>
+              <a href="/support" className="ml-2 underline hover:no-underline">
+                Report it
+              </a>
+            </div>
           )}
 
           <div className="relative">
@@ -300,19 +304,26 @@ export default function Dashboard() {
                   </div>
                 );
               })}
+              <p className="mt-2 border-t border-border pt-4 font-serif text-body italic text-muted">
+                {pickHype("generating", phase.length)}
+              </p>
             </Card>
           )}
 
           {!busy && sets.length === 0 && (
-            <Card className="flex min-h-[420px] flex-col items-center justify-center text-center">
+            <Card className="flex min-h-[420px] flex-col items-center justify-center gap-2 text-center">
+              <p className="font-serif text-h3 italic text-muted">{pickHype("empty")}</p>
               <p className="max-w-xs text-body-sm text-faint">
-                Your predicted papers will appear here — distinct 25-mark sets.
+                Your three predicted 25-mark papers will show up here.
               </p>
             </Card>
           )}
 
           {!busy && sets.length > 0 && (
             <div>
+              <p className="mb-4 font-serif text-lead italic text-muted no-print">
+                {pickHype("done", activeSet)}
+              </p>
               <div className="mb-4 flex flex-wrap items-center gap-2 no-print">
                 {sets.map((_, i) => (
                   <button
@@ -366,7 +377,7 @@ export default function Dashboard() {
       )}
 
       {needAck && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-canvas/80 p-6 no-print">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-canvas/70 backdrop-blur-sm p-6 no-print">
           <Card className="max-w-md">
             <h2 className="text-h3 font-normal text-text">Before we start</h2>
             <p className="mt-3 text-body-sm leading-relaxed text-muted">{DISCLAIMER_ACK}</p>

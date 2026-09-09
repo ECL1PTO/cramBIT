@@ -1,0 +1,202 @@
+{
+  "courseCode": "IT340",
+  "courseName": "MACHINE LEARNING",
+  "historical_papers": [
+    {
+      "session": "SP/23",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the importance of machine learning in complex real-world problem solving.",
+              "marks": 2,
+              "topic": "importance"
+            },
+            {
+              "label": "b",
+              "text": "With a suitable representation explain the relationship between the following terms: Data, Information, Knowledge, and Intelligence",
+              "marks": 3,
+              "topic": "relationship"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Enumerate the importance of central tendency and dispersion based statistical measures in machine learning.",
+              "marks": 2,
+              "topic": "central tendency"
+            },
+            {
+              "label": "b",
+              "text": "Explain in detail the machine learning process model for problem solving.",
+              "marks": 3,
+              "topic": "process model"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Outline the differences between labelled and unlabeled data with appropriate examples.",
+              "marks": 2,
+              "topic": "labelled vs unlabeled"
+            },
+            {
+              "label": "b",
+              "text": "Give a detailed discussion on classification of various types of machine learning algorithms and their features in detail.",
+              "marks": 3,
+              "topic": "classification"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the significance of data preprocessing? Enumerate the different approaches for data cleaning.",
+              "marks": 2,
+              "topic": "data preprocessing"
+            },
+            {
+              "label": "b",
+              "text": "Discuss how the bias-variance trade off influences the effectiveness of machine learning algorithms.",
+              "marks": 3,
+              "topic": "bias-variance tradeoff"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the importance of feature engineering in machine learning based problem solving.",
+              "marks": 2,
+              "topic": "feature engineering"
+            },
+            {
+              "label": "b",
+              "text": "Describe the process of principal component analysis and its applicability towards feature reduction.",
+              "marks": 3,
+              "topic": "principal component analysis"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "session": "SP/2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Describe the machine learning.",
+              "marks": 2,
+              "topic": "machine learning definition"
+            },
+            {
+              "label": "b",
+              "text": "Explain the different types of machine learning.",
+              "marks": 3,
+              "topic": "types of machine learning"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Illustrate the following terms used in linear regression: (i) Mean absolute Error (ii) Mean squared Error (iii) Root Mean square Error (iv) Relative MSE",
+              "marks": 2,
+              "topic": "linear regression error metrics"
+            },
+            {
+              "label": "b",
+              "text": "Consider the following dataset ... Based on the dataset, predict the number of hours that will be spent by the research scholar in the 7th and 9th week. Apply linear Regression model.",
+              "marks": 3,
+              "topic": "linear regression prediction"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the role of sigmoid function used in logistic regression.",
+              "marks": 2,
+              "topic": "sigmoid function logistic regression"
+            },
+            {
+              "label": "b",
+              "text": "Describe the pre‑pruning and post pruning approaches in Decision tree.",
+              "marks": 3,
+              "topic": "decision tree pruning"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Describe the PCA algorithm used for feature selection.",
+              "marks": 2,
+              "topic": "PCA algorithm"
+            },
+            {
+              "label": "b",
+              "text": "Discuss the trade‑off between bias and variance.",
+              "marks": 3,
+              "topic": "bias‑variance tradeoff"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define the margin in SVM. how you can find the largest margin ?.",
+              "marks": 2,
+              "topic": "SVM margin"
+            },
+            {
+              "label": "b",
+              "text": "Discuss the two advantage and disadvantage of decision tree. Describe the ID3 algorithm in detail.",
+              "marks": 3,
+              "topic": "decision tree advantages disadvantages ID3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

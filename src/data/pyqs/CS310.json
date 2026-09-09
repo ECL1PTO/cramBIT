@@ -1,0 +1,110 @@
+{
+  "courseCode": "CS310",
+  "courseName": "FORMAL LANGUAGES AND AUTOMATA THEORY",
+  "historical_papers": [
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Construct minimal DFA for the language of strings of 0’s and 1’s whose integer equivalent is congruent to 2 (mod 3).",
+              "marks": 2,
+              "topic": "DFA construction"
+            },
+            {
+              "label": "b",
+              "text": "Construct minimal DFA for the language of strings of 0’s and 1’s whose length is divisible by 2 and not divisible by 3.",
+              "marks": 4,
+              "topic": "DFA construction"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Construct the Mealy machine that takes strings of a’s and b’s as input and produces a 1 on appearance of “baa” in the string. Convert the Mealy machine to the corresponding Moore machine.",
+              "marks": null,
+              "topic": "Mealy and Moore machines"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Minimize the given DFA with proper explanation.",
+              "marks": 3,
+              "topic": "DFA minimization"
+            },
+            {
+              "label": "b",
+              "text": "Derive the corresponding regular expression from the minimal DFA.",
+              "marks": 2,
+              "topic": "Regular expression derivation"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What do you mean by regular expression? Construct the regular expression for the language consisting of all strings of a’s and b’s where the length of the string is at most 3.",
+              "marks": null,
+              "topic": "Regular expressions"
+            },
+            {
+              "label": "b",
+              "text": "Construct the regular expression for the language where the length of the string is congruent to 2 (mod 5).",
+              "marks": null,
+              "topic": "Regular expressions"
+            },
+            {
+              "label": "c",
+              "text": "Construct the regular expression for the language where the number of a’s is at most 2.",
+              "marks": null,
+              "topic": "Regular expressions"
+            },
+            {
+              "label": "d",
+              "text": "Construct the regular expression for the language containing at least one a and at least one b.",
+              "marks": null,
+              "topic": "Regular expressions"
+            },
+            {
+              "label": "e",
+              "text": "Construct the regular expression for L = { aⁿ bᵐ | n+m is even }.",
+              "marks": null,
+              "topic": "Regular expressions"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write a regular expression for strings that end with “011” and convert it to the corresponding DFA.",
+              "marks": null,
+              "topic": "Regular expression to DFA conversion"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

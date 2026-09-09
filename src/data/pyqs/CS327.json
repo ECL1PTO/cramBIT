@@ -1,0 +1,104 @@
+{
+  "courseCode": "CS327",
+  "courseName": "COMPUTER GRAPHICS",
+  "historical_papers": [
+    {
+      "session": "SP/2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "If we use direct coding of RGB values with 10 bits per primary color, how many possible colors do we have for each pixel.",
+              "marks": 2,
+              "topic": "color representation"
+            },
+            {
+              "label": "b",
+              "text": "What are Raster Images? Discuss the working principles of Raster Display with diagrams.",
+              "marks": 3,
+              "topic": "raster images"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define Refresh rate. Write what is the minimum refresh rate of a raster scan display device.",
+              "marks": 2,
+              "topic": "refresh rate"
+            },
+            {
+              "label": "b",
+              "text": "Can you avoid the aliasing effect? Justify your answer.",
+              "marks": 3,
+              "topic": "aliasing"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write at least two recursively defined drawings and explain with the diagrams.",
+              "marks": 2,
+              "topic": "recursive drawing"
+            },
+            {
+              "label": "b",
+              "text": "Write the Bresenham’s Line drawing algorithm and explain with an example.",
+              "marks": 3,
+              "topic": "Bresenham algorithm"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "An object is defined with respect to a coordinate system whose units are measured in feet. If an observer’s coordinate system uses inches as the basic unit, what is the coordinate transformation used to describe object coordinates in the observer’s coordinate system?",
+              "marks": 2,
+              "topic": "coordinate transformation"
+            },
+            {
+              "label": "b",
+              "text": "Write an algorithm for even and odd method for polygon inside test. Explain with an example.",
+              "marks": 3,
+              "topic": "polygon inside test"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Is there any difference between Geometric transformations and Coordinate Transformations? Justify your answer.",
+              "marks": 2,
+              "topic": "geometric vs coordinate transformations"
+            },
+            {
+              "label": "b",
+              "text": "Explain the Logical functioning of Graphics Input-Output devices.",
+              "marks": 3,
+              "topic": "graphics I/O"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

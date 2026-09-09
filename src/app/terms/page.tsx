@@ -7,7 +7,7 @@ export const metadata: Metadata = { title: "Terms" };
 
 export default function TermsPage() {
   return (
-    <main className="min-h-screen bg-canvas">
+    <main className="min-h-screen">
       <Container className="py-section">
         <Link href="/" className="font-mono text-body-sm text-muted hover:text-text">
           ← cramBIT

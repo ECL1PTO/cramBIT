@@ -1,0 +1,104 @@
+{
+  "courseCode": "CS325",
+  "courseName": "DATABASE MODELLING",
+  "historical_papers": [
+    {
+      "session": "SP2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain Logical design of database life cycle with suitable example.",
+              "marks": 3,
+              "topic": "Logical design"
+            },
+            {
+              "label": "b",
+              "text": "In a classroom, there are many students. Among them one student may be the class monitor. Draw an ER diagram for the given statements mentioning connectivity, existence and degree of the relationship.",
+              "marks": 2,
+              "topic": "ER diagram"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "The flight database stores details about an airline’s fleet, flights, and seat bookings. Consider the given requirements and draw an ER diagram using crow’s‑foot approach.",
+              "marks": 3,
+              "topic": "Flight database ER diagram"
+            },
+            {
+              "label": "b",
+              "text": "Differentiate Generalization and Aggregation with suitable examples.",
+              "marks": 2,
+              "topic": "Generalization vs Aggregation"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Convert the following schema into tables.",
+              "marks": 3,
+              "topic": "Schema conversion"
+            },
+            {
+              "label": "b",
+              "text": "Write the SQL commands for creating the tables of the above Figure.",
+              "marks": 2,
+              "topic": "SQL table creation"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Elaborate the steps for conceptual schema integration with proper examples.",
+              "marks": 4,
+              "topic": "Conceptual schema integration"
+            },
+            {
+              "label": "b",
+              "text": "Define entity integrity and Referential integrity.",
+              "marks": 1,
+              "topic": "Entity and Referential integrity"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Draw an activity diagram to resolve an issue in a software design as described.",
+              "marks": 4,
+              "topic": "Activity diagram"
+            },
+            {
+              "label": "b",
+              "text": "State the difference between join and merge in an activity diagram.",
+              "marks": 1,
+              "topic": "Join vs Merge"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "courseCode": "CS321",
+  "courseName": "SOFT COMPUTING",
+  "historical_papers": [
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "How soft computing is differed from conventional computing? What are the major building blocks of soft Computing?",
+              "marks": 2,
+              "topic": "soft computing"
+            },
+            {
+              "label": "b",
+              "text": "The fuzzy sets A and B are defined as universe, x = [0,1,2,3] with the following membership fractions: Define the intervals along the x-axis corresponding to the α‑cut sets for each fuzzy set A and B for α = 0.2 and α = 0.6?",
+              "marks": 3,
+              "topic": "fuzzy sets"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Using your own intuition develop fuzzy membership functions on the real line for the fuzzy number 4, using the following function shapes: symmetric triangle, Trapezoid and Gaussian function.",
+              "marks": 2,
+              "topic": "membership functions"
+            },
+            {
+              "label": "b",
+              "text": "Suppose we have a universe of integers Y={1,2,3,4,5}, we define the following linguistic terms as a mapping into Y: “small” = [1/1+0.7/2+0.6/3+0.4/4+0.2/5} “large” = {0.2/1+0.4/2+0.6/3+0.9/4+1/5} Find (i) “very small” (ii) “~ very small and ~very very large” (iii) “intensely small”.",
+              "marks": 3,
+              "topic": "linguistic variables"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "For speed control of DC motor, the membership functions of series resistance, armature current and speed are given as follows: Compute relation T for relating series resistance to motor speed i.e. R → N. Perform max‑min composition only.",
+              "marks": 2,
+              "topic": "max-min composition"
+            },
+            {
+              "label": "b",
+              "text": "Show that the fuzzy rule “if x is A or y is B then z is C” is equivalent to the union of two fuzzy rules “if x is A then z is C” and “if y is B then z is C” under max‑min composition.",
+              "marks": 3,
+              "topic": "fuzzy rule"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the compositional rule of Inference.",
+              "marks": 2,
+              "topic": "compositional inference"
+            },
+            {
+              "label": "b",
+              "text": "Discuss the Fuzzy expert system with suitable diagram.",
+              "marks": 3,
+              "topic": "fuzzy expert system"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is Fuzzification and defuzzification. Why defuzzification required?",
+              "marks": 2,
+              "topic": "fuzzification"
+            },
+            {
+              "label": "b",
+              "text": "Write the FIS for Controlling the water level and temperature in the boiler using Mamdani model. Assume your own linguistic variables.",
+              "marks": 3,
+              "topic": "Mamdani model"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

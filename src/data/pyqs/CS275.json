@@ -1,0 +1,104 @@
+{
+  "courseCode": "CS275",
+  "courseName": "FUNDAMENTALS OF DATA STRUCTURES",
+  "historical_papers": [
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What are the differences between linear array and linked list",
+              "marks": 2,
+              "topic": "array vs linked list"
+            },
+            {
+              "label": "b",
+              "text": "What is a doubly linked list? How can it be memory efficient?",
+              "marks": 3,
+              "topic": "doubly linked list"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "int i, j, k = 0; for (i = n / 2; i <= n; i++) { for (j = 2; j <= n; j = j * 2) { k = k + n / 2; } } What is the time complexity of this code?",
+              "marks": 2,
+              "topic": "time complexity"
+            },
+            {
+              "label": "b",
+              "text": "Solve the recurrence relation T[n]=n^0.5T[n/6]",
+              "marks": 3,
+              "topic": "recurrence"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "How a prefix expression can be converted to a postfix expression. Explain with a pseudocode.",
+              "marks": 2,
+              "topic": "expression conversion"
+            },
+            {
+              "label": "b",
+              "text": "Given a linked list and a value x, write an algorithm to partition it such that all nodes less than x come before nodes greater than or equal to x.",
+              "marks": 3,
+              "topic": "linked list partition"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "How to implement a queue using a minimal number of stacks.",
+              "marks": 2,
+              "topic": "queue using stacks"
+            },
+            {
+              "label": "b",
+              "text": "Consider a rat in a maze problem with this matrix {1, 1, 1, 1, 1 }, { 1, 0, 1, 0, 0 }, { 1, 0, 1, 1, 1 }, { 1, 0, 0, 1, 1 } Rat is at (0,0) and has to reach (3,4). The rat can move to the down and right in this order. Explain the rats movement using a stack. (0 -> can not move. 1 -> can move)",
+              "marks": 3,
+              "topic": "maze traversal"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "In a circular queue, explain how the rear and front changes?",
+              "marks": 2,
+              "topic": "circular queue"
+            },
+            {
+              "label": "b",
+              "text": "What kind of ADT can be suitable for making a music player of a playlist (consider that jumping to random locations is not allowed). Write a pseudocode for any insertion possible.",
+              "marks": 3,
+              "topic": "ADT playlist"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

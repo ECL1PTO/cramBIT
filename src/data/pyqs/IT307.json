@@ -1,0 +1,104 @@
+{
+  "courseCode": "IT307",
+  "courseName": "IMAGE PROCESSING",
+  "historical_papers": [
+    {
+      "session": "SP2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What are the side effects of using low spatial and intensity resolutions?",
+              "marks": 2,
+              "topic": "Resolution"
+            },
+            {
+              "label": "b",
+              "text": "Describe the transformation achieved on a grayscale image with following transformation curves A and B.",
+              "marks": 3,
+              "topic": "Image Transformation"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the criteria for two pixels p and q to be m- adjacent?",
+              "marks": 2,
+              "topic": "Adjacency"
+            },
+            {
+              "label": "b",
+              "text": "Compute the transformed intensity values for the given frequency of intensity levels in the input image r_k 0 1 2 3 4 5 6 7 n_k 2 4 6 8 10 12 14 16.",
+              "marks": 3,
+              "topic": "Intensity Mapping"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Discuss the role of histograms in inferring about the contrast of an image.",
+              "marks": 2,
+              "topic": "Histogram"
+            },
+            {
+              "label": "b",
+              "text": "Calculate the DFT coefficients for f(x)={1,2,8,9}.",
+              "marks": 3,
+              "topic": "DFT"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "State the process of framing the 2d Laplacian operator.",
+              "marks": 2,
+              "topic": "Laplacian"
+            },
+            {
+              "label": "b",
+              "text": "Prove that Discrete Fourier Transform is periodic in nature.",
+              "marks": 3,
+              "topic": "DFT"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "State the reason behind DCT being a popular choice for image compression.",
+              "marks": 2,
+              "topic": "DCT"
+            },
+            {
+              "label": "b",
+              "text": "Compute the filter output H(u, v) for a frequency at u=50, v=60 for a Butterworth Low Pass filter with order n=2 and cut off frequency D0=50.",
+              "marks": 3,
+              "topic": "Butterworth Filter"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

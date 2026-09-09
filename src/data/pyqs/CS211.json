@@ -1,0 +1,86 @@
+{
+  "courseCode": "CS211",
+  "courseName": "OPERATING SYSTEM",
+  "historical_papers": [
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the major functionalities of operating system.",
+              "marks": 2,
+              "topic": "Operating System"
+            },
+            {
+              "label": "b",
+              "text": "Describe Spooling with proper figure.",
+              "marks": 3,
+              "topic": "Spooling"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "State the differences between user level thread and kernel level thread.",
+              "marks": 2,
+              "topic": "Threads"
+            },
+            {
+              "label": "b",
+              "text": "Calculate the number of times hello is printed and the number of child processes created in the given code.",
+              "marks": 3,
+              "topic": "Process creation"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain process life cycle in operating system with proper figure where processes may pre‑empt depending on timer or priority.",
+              "marks": 5,
+              "topic": "Process lifecycle"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Calculate the turn‑around time of each job and the average waiting time for Shortest Remaining Time First CPU scheduling algorithm given the arrival and burst times.",
+              "marks": 5,
+              "topic": "Shortest Remaining Time First"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "For the given set of processes, calculate the average waiting time and average turn‑around time using Round Robin with time quantum = 3.",
+              "marks": 5,
+              "topic": "Round Robin"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

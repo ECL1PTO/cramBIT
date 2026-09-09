@@ -1,0 +1,104 @@
+{
+  "courseCode": "CS231",
+  "courseName": "DATA STRUCTURES",
+  "historical_papers": [
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Let B be a two dimensional array declared as B: array [1...10] [1...15] of integer; Assuming that each integer takes one memory location the array is stored in row major order and the first element of the array is stored at location 100, what is the address of the element B[i][j]?",
+              "marks": 2,
+              "topic": "Array Addressing"
+            },
+            {
+              "label": "b",
+              "text": "Write a program/procedure/algorithm/pseudocode which deletes all duplicate elements from the array.",
+              "marks": 3,
+              "topic": "Array Duplicate Removal"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the complexity of the program given below void function(int n) { int i, j, k ,count=0; for(i=n/2;i<=n;i++) for(j=1;j<=n;j=2*j) for(k=1;k<=n;k=k*2) count++; }",
+              "marks": 2,
+              "topic": "Time Complexity"
+            },
+            {
+              "label": "b",
+              "text": "How is a 1D, 2D and multidimensional array represented in computer memory? Explain Sparse matrix representation with an example.",
+              "marks": 3,
+              "topic": "Array Representation"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Given a string containing n S’s and n X’s where S indicates a PUSH operation and X indicates a POP operation, and with the STACK initially empty, formulate a rule to check whether a given string S of operations is admissible or not?",
+              "marks": 2,
+              "topic": "Stack Operations"
+            },
+            {
+              "label": "b",
+              "text": "Write an algorithm/program/procedure/pseudocode for the conversion of INFIX expressions to POSTFIX expression. Explain through an Example.",
+              "marks": 3,
+              "topic": "Expression Conversion"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is most appropriate data structure to print elements of QUEUE in reverse order. Explain with Diagram.",
+              "marks": 2,
+              "topic": "Queue Reverse"
+            },
+            {
+              "label": "b",
+              "text": "Discuss the Implementation of QUEUE using STACKS. Explain with an Example.",
+              "marks": 3,
+              "topic": "Queue Implementation"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "If the array representation of a circular queue contains only one element, then write the conditions for this using FRONT and REAR.",
+              "marks": 2,
+              "topic": "Circular Queue"
+            },
+            {
+              "label": "b",
+              "text": "Write a program/procedure/algorithm/pseudocode to make first element of singly linked list is the last element of the list.",
+              "marks": 3,
+              "topic": "Linked List Manipulation"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

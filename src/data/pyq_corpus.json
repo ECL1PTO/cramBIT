@@ -1,0 +1,803 @@
+[
+  {
+    "key": "CSE/CA201 OBJECT ORIENTED PROGRAMMING USING JAVA (MID_SP23).pdf",
+    "code": "CA201",
+    "name": "OBJECT ORIENTED PROGRAMMING USING JAVA",
+    "dept": "CSE",
+    "topics": [
+      "Reserved Keyword",
+      "Programming Paradigms",
+      "JVM",
+      "main method",
+      "instance variable",
+      "Control Flow",
+      "switch case",
+      "loops",
+      "Array",
+      "Methods"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS101 PROGRAMMING FOR PROBLEM SOLVING (MID_SP23).pdf",
+    "code": "CS101",
+    "name": "PROGRAMMING FOR PROBLEM SOLVING",
+    "dept": "CSE",
+    "topics": [
+      "pseudocode",
+      "binary conversion",
+      "amicable numbers",
+      "program execution",
+      "loops",
+      "prime numbers",
+      "password validation",
+      "binary search",
+      "bubble sort",
+      "set union"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS203 COMPUTER ORGANIZATION & ARCHITECTURE (MID_SP23).pdf",
+    "code": "CS203",
+    "name": "COMPUTER ORGANIZATION & ARCHITECTURE",
+    "dept": "CSE",
+    "topics": [
+      "Computer Organization vs Architecture",
+      "IR MAR MDR registers",
+      "Computer Performance",
+      "2's complement and Base conversion",
+      "Instruction sequencing",
+      "IEEE754 representation",
+      "Byte addressability and Endianness",
+      "Booth's algorithm",
+      "Relative addressing mode",
+      "Effective address calculation"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS206 DESIGN AND ANALYSIS OF ALGORITHM (MID_SP23).pdf",
+    "code": "CS206",
+    "name": "DESIGN AND ANALYSIS OF ALGORITHM",
+    "dept": "CSE",
+    "topics": [
+      "Efficiency of Algorithm",
+      "Insertion Sort Complexity",
+      "Recurrence Relation",
+      "Master Theorem",
+      "Quicksort",
+      "Divide-and-Conquer",
+      "Maximum Subarray Problem",
+      "Transform and Conquer",
+      "AVL Tree Construction"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS237 DATABASE MANAGEMENT SYSTEM (MID-SP23).pdf",
+    "code": "CS237",
+    "name": "DATABASE MANAGEMENT SYSTEM",
+    "dept": "CSE",
+    "topics": [
+      "Data Independence",
+      "Triggers",
+      "Views",
+      "Joins",
+      "Relationships",
+      "Relational Algebra",
+      "Keys",
+      "SQL",
+      "ER Diagram"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS239 OPERATING SYSTEM (MID_SP23).pdf",
+    "code": "CS239",
+    "name": "OPERATING SYSTEM",
+    "dept": "CSE",
+    "topics": [
+      "OS functions",
+      "Multiprogramming",
+      "Context Switching",
+      "Schedulers",
+      "Thread lifecycle",
+      "User vs kernel threads",
+      "Multiprocessor scheduling",
+      "SJF scheduling",
+      "Two‑level queue scheduling"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS241 DESIGN AND ANALYSIS OF ALGORITHM (MID_SP23).pdf",
+    "code": "CS241",
+    "name": "Design and Analysis of Algorithm",
+    "dept": "CSE",
+    "topics": [
+      "Asymptotic Notations",
+      "Insertion Sort",
+      "Master Theorem",
+      "Quick Sort",
+      "Binary Search",
+      "Recursion Tree"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS247 DATABASE MANAGEMENT SYSTEM (MID_SP23).pdf",
+    "code": "CS247",
+    "name": "DATABASE MANAGEMENT SYSTEM",
+    "dept": "CSE",
+    "topics": [
+      "DBA functions",
+      "DBMS vs file system",
+      "keys definition",
+      "buffer manager",
+      "ER diagram car insurance",
+      "ER diagram accident",
+      "relational algebra",
+      "SQL queries"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS275_CS261 FUNDAMENTAL OF DATA STRUCTURES (MID_SP23).pdf",
+    "code": "CS275/CS261",
+    "name": "FUNDAMENTAL OF DATA STRUCTURES",
+    "dept": "CSE",
+    "topics": [
+      "functions",
+      "selection sort",
+      "asymptotic notation",
+      "sparse matrix",
+      "abstract data types",
+      "stack",
+      "queue",
+      "circular queue",
+      "maze problem",
+      "linked list",
+      "recursion"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS301 DATABASE MANAGEMENT SYSTEM (MID_SP23).pdf",
+    "code": "CS301",
+    "name": "DATABASE MANAGEMENT SYSTEM",
+    "dept": "CSE",
+    "topics": [
+      "Data Independence",
+      "Database approach",
+      "Database end users",
+      "Query processor",
+      "Generalization",
+      "ER diagram",
+      "Cursor",
+      "Join operation",
+      "Rename operation",
+      "Relational Algebra"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS305 COMPILER DESIGN (MID_SP23).pdf",
+    "code": "CS305",
+    "name": "COMPILER DESIGN",
+    "dept": "CSE",
+    "topics": [
+      "compiler architecture",
+      "lexical analysis",
+      "lex tool",
+      "lex programming",
+      "top-down parsing",
+      "LL parsing",
+      "predictive parsing",
+      "shift-reduce parsing",
+      "SLR parsing"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS307 GRAPH THEORY (MID_SP23).pdf",
+    "code": "CS307",
+    "name": "GRAPH THEORY",
+    "dept": "CSE",
+    "topics": [
+      "odd degree vertices",
+      "graph construction feasibility",
+      "vertex types",
+      "graph complement",
+      "graph isomorphism",
+      "eccentricity",
+      "k-ray tree height",
+      "tree characterization",
+      "tree degree sum",
+      "minimum spanning tree",
+      "connectivity inequality",
+      "cut-sets matrix",
+      "max flow"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS327 COMPUTER GRAPHICS (MID_SP23).pdf",
+    "code": "CS327",
+    "name": "COMPUTER GRAPHICS",
+    "dept": "CSE",
+    "topics": [
+      "color representation",
+      "raster images",
+      "refresh rate",
+      "aliasing",
+      "recursive drawing",
+      "Bresenham algorithm",
+      "coordinate transformation",
+      "polygon inside test",
+      "geometric vs coordinate transformations",
+      "graphics I/O"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS363 ARTIFICIAL INTELLIGENCE FUNDAMENTALS_OE (MID_SP23).pdf",
+    "code": "CS363",
+    "name": "ARTIFICIAL INTELLIGENCE FUNDAMENTALS",
+    "dept": "CSE",
+    "topics": [
+      "AI definition",
+      "Game problem",
+      "Agent",
+      "Agent types",
+      "Search steps",
+      "Problem components",
+      "Search comparison",
+      "Search evaluation",
+      "BFS",
+      "A* vs AO*"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/IT271 INTRODUCTION TO PYTHON_OE (MID_SP23).pdf",
+    "code": "IT271",
+    "name": "INTRODUCTION TO PYTHON",
+    "dept": "CSE",
+    "topics": [
+      "Algorithm",
+      "Sorting",
+      "Data Types",
+      "String Manipulation",
+      "Tuples vs Lists",
+      "Dictionaries",
+      "List Methods",
+      "Tuple Operations",
+      "Dictionary Operations",
+      "Tuples"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/IT305 SOFTWARE ENGINEERING (MID_SP23).pdf",
+    "code": "IT305",
+    "name": "SOFTWARE ENGINEERING",
+    "dept": "CSE",
+    "topics": [
+      "Waterfall Model",
+      "Plan driven vs Agile",
+      "Spiral Model",
+      "Prototyping",
+      "Metrics for Non-functional Requirements",
+      "Requirement Engineering Process",
+      "SRS Writing Methods",
+      "Requirement Readers",
+      "Requirement Properties",
+      "Non-functional Requirements Examples"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/IT305 SOFTWARE ENGINEERING_OE (MID_SP23).pdf",
+    "code": "IT305",
+    "name": "SOFTWARE ENGINEERING",
+    "dept": "CSE",
+    "topics": [
+      "Remembering",
+      "Understanding",
+      "Analysing"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/IT307 IMAGE PROCESSING (MID_SP23).pdf",
+    "code": "IT307",
+    "name": "IMAGE PROCESSING",
+    "dept": "CSE",
+    "topics": [
+      "Resolution",
+      "Image Transformation",
+      "Adjacency",
+      "Intensity Mapping",
+      "Histogram",
+      "DFT",
+      "Laplacian",
+      "DCT",
+      "Butterworth Filter"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/IT340 MACHINE LEARNING (MID_SP23).pdf",
+    "code": "IT340",
+    "name": "MACHINE LEARNING",
+    "dept": "CSE",
+    "topics": [
+      "importance",
+      "relationship",
+      "central tendency",
+      "process model",
+      "labelled vs unlabeled",
+      "classification",
+      "data preprocessing",
+      "bias-variance tradeoff",
+      "feature engineering",
+      "principal component analysis"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/IT340 MACHINE LEARNING_OE (MID_SP23).pdf",
+    "code": "IT340",
+    "name": "MACHINE LEARNING",
+    "dept": "CSE",
+    "topics": [
+      "machine learning definition",
+      "types of machine learning",
+      "linear regression error metrics",
+      "linear regression prediction",
+      "sigmoid function logistic regression",
+      "decision tree pruning",
+      "PCA algorithm",
+      "bias‑variance tradeoff",
+      "SVM margin",
+      "decision tree advantages disadvantages ID3"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS204 OBJECT ORIENTED PROGRAMMING & DESIGN PATTERNS (MID_SP23).pdf",
+    "code": "CS204",
+    "name": "OBJECT ORIENTED PROGRAMMING & DESIGN PATTERNS",
+    "dept": "CSE",
+    "topics": [
+      "Object-oriented programming",
+      "Static variables",
+      "Error correction and output",
+      "Constructors",
+      "Multidimensional arrays",
+      "Method overloading",
+      "String immutability",
+      "Classes and objects",
+      "Duplicate characters"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS301 DATABASE MANAGEMENT SYSTEM _IMSC (MID_SP23).pdf",
+    "code": "CS301",
+    "name": "DATABASE MANAGEMENT SYSTEM",
+    "dept": "CSE",
+    "topics": [
+      "DBA",
+      "Database abstraction",
+      "ER diagram",
+      "Design constraints",
+      "Database keys",
+      "Relational algebra",
+      "Database users",
+      "Relational operations"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS303 OPERATING SYSTEM_IMSC (MID_SP23).pdf",
+    "code": "CS303",
+    "name": "OPERATING SYSTEM",
+    "dept": "CSE",
+    "topics": [
+      "services",
+      "resource management",
+      "multiprogramming vs time sharing",
+      "OS characteristics",
+      "process elements",
+      "process state",
+      "long term scheduler",
+      "priority scheduling",
+      "exponential averaging",
+      "fair‑share scheduling"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS325 DATABASE MODELLING (MID_SP23).pdf",
+    "code": "CS325",
+    "name": "DATABASE MODELLING",
+    "dept": "CSE",
+    "topics": [
+      "Logical design",
+      "ER diagram",
+      "Flight database ER diagram",
+      "Generalization vs Aggregation",
+      "Schema conversion",
+      "SQL table creation",
+      "Conceptual schema integration",
+      "Entity and Referential integrity",
+      "Activity diagram",
+      "Join vs Merge"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CA433 INTRUSION DETECTION SYSTEM (MID_SP23).pdf",
+    "code": "CA433",
+    "name": "INTRUSION DETECTION SYSTEM",
+    "dept": "CSE",
+    "topics": [
+      "IDS vs IPS",
+      "IDS goals",
+      "Network attacks",
+      "DoS vs DDoS",
+      "IDS metrics",
+      "Anomaly detection",
+      "Botnets",
+      "Fast Flux",
+      "Zero-day attack",
+      "Insider threats"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS101 PROGRAMMING FOR PROBLEM SOLVING (MID_MO22).pdf",
+    "code": "CS101",
+    "name": "Programming for Problem Solving",
+    "dept": "CSE",
+    "topics": [
+      "identifiers",
+      "storage classes",
+      "operating system",
+      "operators",
+      "ASCII",
+      "program output",
+      "logical operators",
+      "loops",
+      "errors",
+      "patterns"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS201 DATA STRUCTURES (MID_MO22).pdf",
+    "code": "CS201",
+    "name": "DATA STRUCTURES",
+    "dept": "CSE",
+    "topics": [
+      "efficiency",
+      "time complexity",
+      "big-O",
+      "recurrence",
+      "ADT",
+      "sparse matrix",
+      "stack",
+      "infix to postfix",
+      "postfix to infix",
+      "circular queue"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS203 COMPUTER ORGANIZATION AND ARCHITECTURE (MID_MO22).pdf",
+    "code": "CS203",
+    "name": "COMPUTER ORGANIZATION AND ARCHITECTURE",
+    "dept": "CSE",
+    "topics": [
+      "Number Systems",
+      "Binary Representation",
+      "ALU",
+      "Von Neumann Architecture",
+      "Full Adder",
+      "Memory Layout",
+      "Instruction Cycle",
+      "Floating Point",
+      "Parameter Passing",
+      "Assembly Language"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS204 OBJECT ORIENTED PROGRAMMING AND DESIGN (MID_MO22).pdf",
+    "code": "CS204",
+    "name": "OBJECT ORIENTED PROGRAMMING AND DESIGN",
+    "dept": "CSE",
+    "topics": [
+      "polymorphism",
+      "Scanner input methods",
+      "variable types",
+      "java features",
+      "bitwise operators",
+      "class constructors factorial fibonacci",
+      "access modifiers",
+      "array sorting intersection",
+      "java packages",
+      "ArrayList"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS206 DESIGN AND ANALYSIS OF ALGORITHM_OE (MID_MO22).pdf",
+    "code": "CS206",
+    "name": "DESIGN AND ANALYSIS OF ALGORITHM",
+    "dept": "CSE",
+    "topics": [
+      "asymptotic notations",
+      "Insertion Sort complexity",
+      "Divide and conquer",
+      "Binary Search and Merge Sort complexity",
+      "AVL Tree",
+      "Recursion Tree and Master Theorem",
+      "All-pair Shortest Path algorithm",
+      "Travelling Salesperson Problem",
+      "Optimal BST",
+      "Transform and conquer"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS211 OPERATING SYSTEM_M (MID_MO22).pdf",
+    "code": "CS211",
+    "name": "OPERATING SYSTEM",
+    "dept": "CSE",
+    "topics": [
+      "Operating System",
+      "Spooling",
+      "Threads",
+      "Process creation",
+      "Process lifecycle",
+      "Shortest Remaining Time First",
+      "Round Robin"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS231 DATA STRUCTURES (MID_MO22).pdf",
+    "code": "CS231",
+    "name": "DATA STRUCTURES",
+    "dept": "CSE",
+    "topics": [
+      "Array Addressing",
+      "Array Duplicate Removal",
+      "Time Complexity",
+      "Array Representation",
+      "Stack Operations",
+      "Expression Conversion",
+      "Queue Reverse",
+      "Queue Implementation",
+      "Circular Queue",
+      "Linked List Manipulation"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS233 OBJECT ORIENTED PROGRAMMING & DESIGN PATTERNS (MID_MO22).pdf",
+    "code": "CS233",
+    "name": "OBJECT ORIENTED PROGRAMMING & DESIGN PATTERNS",
+    "dept": "CSE",
+    "topics": [
+      "environment variables",
+      "multiple return values",
+      "error correction and output prediction",
+      "compilation of multiple classes",
+      "multidimensional arrays",
+      "variable scope",
+      "bytecode",
+      "mutable vs immutable objects",
+      "string manipulation"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS235 COMPUTER ORGANIZATION & ARCH (MID_MO22).pdf",
+    "code": "CS235",
+    "name": "Computer Organization & Architecture",
+    "dept": "CSE",
+    "topics": [
+      "Von-Neumann Architecture",
+      "Computer Architecture vs Organization",
+      "Performance Parameters",
+      "CPU Internal Structure",
+      "Amdahl's Law",
+      "IEEE 754 Representation",
+      "Instruction Sequencing and Endianness",
+      "Booth's Multiplication",
+      "Addressing Modes"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS275 FUNDAMENTALS OF DATA STRUCTURES (MID_MO22).pdf",
+    "code": "CS275",
+    "name": "FUNDAMENTALS OF DATA STRUCTURES",
+    "dept": "CSE",
+    "topics": [
+      "array vs linked list",
+      "doubly linked list",
+      "time complexity",
+      "recurrence",
+      "expression conversion",
+      "linked list partition",
+      "queue using stacks",
+      "maze traversal",
+      "circular queue",
+      "ADT playlist"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS276 CYBER LAW AND SECURITY (MID_MO22).pdf",
+    "code": "CS276",
+    "name": "CYBER LAW AND SECURITY",
+    "dept": "CSE",
+    "topics": [
+      "Netizens rights",
+      "Network security threats",
+      "Cyberspace",
+      "Cyber law",
+      "IT Act issues",
+      "Internet access as human right",
+      "Online freedom of speech",
+      "Online privacy",
+      "E-commerce legal issues",
+      "Cybercrime types"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS301 DATABASE MANAGEMENT SYSTEMS (MID_MO22).pdf",
+    "code": "CS301",
+    "name": "DATABASE MANAGEMENT SYSTEMS",
+    "dept": "CSE",
+    "topics": [
+      "data independence",
+      "database approach",
+      "data abstraction",
+      "ER diagram",
+      "generalization",
+      "entity sets",
+      "keys"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS301 DATABASE MANAGEMENT SYSTEM (MID_MO22).pdf",
+    "code": "CS301",
+    "name": "DATABASE MANAGEMENT SYSTEM",
+    "dept": "CSE",
+    "topics": [
+      "Remembering",
+      "Understand",
+      "Analyze"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS303 OPERATING SYSTEM_M (MID_MO22).pdf",
+    "code": "CS303",
+    "name": "OPERATING SYSTEM",
+    "dept": "CSE",
+    "topics": [
+      "purposes",
+      "services",
+      "process states",
+      "threads",
+      "scheduling types",
+      "scheduler types",
+      "priority scheduling",
+      "turnaround time",
+      "rate monotonic scheduling",
+      "interprocess communication"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS310 FORMAL LANGUAGES AND AUTOMATA THEORY (MID_MO22).pdf",
+    "code": "CS310",
+    "name": "FORMAL LANGUAGES AND AUTOMATA THEORY",
+    "dept": "CSE",
+    "topics": [
+      "DFA construction",
+      "Mealy and Moore machines",
+      "DFA minimization",
+      "Regular expression derivation",
+      "Regular expressions",
+      "Regular expression to DFA conversion"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS321 SOFT COMPUTING (MID_MO22).pdf",
+    "code": "CS321",
+    "name": "SOFT COMPUTING",
+    "dept": "CSE",
+    "topics": [
+      "soft computing",
+      "fuzzy sets",
+      "membership functions",
+      "linguistic variables",
+      "max-min composition",
+      "fuzzy rule",
+      "compositional inference",
+      "fuzzy expert system",
+      "fuzzification",
+      "Mamdani model"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS391 INTRODUCTION TO DISTRIBUTED SYSTEM (MID_MO22).pdf",
+    "code": "CS391",
+    "name": "INTRODUCTION TO DISTRIBUTED SYSTEM",
+    "dept": "CSE",
+    "topics": [
+      "Distributed System",
+      "Centralized vs Distributed",
+      "Characteristics",
+      "Transparency",
+      "Peer-to-Peer",
+      "Communication",
+      "OSI model",
+      "Client-Server",
+      "Address Space"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS429 INFORMATION AND CODING THEORY (MID_MO22).pdf",
+    "code": "CS429",
+    "name": "INFORMATION AND CODING THEORY",
+    "dept": "CSE",
+    "topics": [
+      "CO-1",
+      "CO-2",
+      "CO-5"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/IT271 INTRODUCTION TO PYTHON (MID_MO22).pdf",
+    "code": "IT271",
+    "name": "INTRODUCTION TO PYTHON",
+    "dept": "CSE",
+    "topics": [
+      "Remember",
+      "Understand",
+      "Evaluate"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/IT301 DATA COMMUNICATION & COMPUTER NETWORK (MID_MO22).pdf",
+    "code": "IT301",
+    "name": "DATA COMMUNICATION & COMPUTER NETWORK",
+    "dept": "CSE",
+    "topics": [
+      "Eb/No",
+      "Transmission impairments",
+      "Line coding",
+      "TCP/IP",
+      "Transmission media",
+      "Modulation",
+      "Shannon capacity"
+    ],
+    "sessions": 1
+  }
+]

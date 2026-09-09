@@ -1,0 +1,104 @@
+{
+  "courseCode": "CA433",
+  "courseName": "INTRUSION DETECTION SYSTEM",
+  "historical_papers": [
+    {
+      "session": "SP/2023",
+      "examType": "END",
+      "maxMarks": 50,
+      "durationHrs": 3,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 10,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Differentiate between Intrusion Detection System and Intrusion Prevention System.",
+              "marks": 5,
+              "topic": "IDS vs IPS"
+            },
+            {
+              "label": "b",
+              "text": "Discuss the goals of Network Intrusion Detection System. Explain the need of a firewall.",
+              "marks": 5,
+              "topic": "IDS goals"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 10,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain about the Attacks on the network layer.",
+              "marks": 5,
+              "topic": "Network attacks"
+            },
+            {
+              "label": "b",
+              "text": "Distinguish between Denial-of-Service Attack and distributed Denial-of-Service Attack.",
+              "marks": 5,
+              "topic": "DoS vs DDoS"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 10,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain metrics for evaluating the effectiveness of an Intrusion Detection System.",
+              "marks": 5,
+              "topic": "IDS metrics"
+            },
+            {
+              "label": "b",
+              "text": "Explain Statistical anomaly detection based Detection technique.",
+              "marks": 5,
+              "topic": "Anomaly detection"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 10,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the purpose of Botnets. What is a web based Botnet?",
+              "marks": 5,
+              "topic": "Botnets"
+            },
+            {
+              "label": "b",
+              "text": "What is fast Flux? Differentiate between single flux and double flux.",
+              "marks": 5,
+              "topic": "Fast Flux"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 10,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the steps followed in a zero-day attack. What are the attack vectors of a zero-day attack?",
+              "marks": 5,
+              "topic": "Zero-day attack"
+            },
+            {
+              "label": "b",
+              "text": "Explain the issues and Impact of insider threats. Explain the method to prevent an insider attack.",
+              "marks": 5,
+              "topic": "Insider threats"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

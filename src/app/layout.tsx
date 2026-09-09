@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Instrument_Serif, IBM_Plex_Mono, Newsreader } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
+import { Backdrop } from "@/components/backdrop";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
@@ -60,7 +61,10 @@ export default function RootLayout({
       className={`${inter.variable} ${instrumentSerif.variable} ${ibmPlexMono.variable} ${newsreader.variable}`}
     >
       <body>
-        <ThemeProvider>{children}</ThemeProvider>
+        <ThemeProvider>
+          <Backdrop />
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

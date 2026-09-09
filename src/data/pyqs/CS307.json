@@ -1,0 +1,122 @@
+{
+  "courseCode": "CS307",
+  "courseName": "GRAPH THEORY",
+  "historical_papers": [
+    {
+      "session": "SP2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Prove that number of odd degree vertices in a simple graph is even.",
+              "marks": 2,
+              "topic": "odd degree vertices"
+            },
+            {
+              "label": "b",
+              "text": "Can we construct a graph with 30 vertices, 5 components and 24 edges? Answer yes/No with justification.",
+              "marks": 1,
+              "topic": "graph construction feasibility"
+            },
+            {
+              "label": "c",
+              "text": "Identify pendent, isolated vertex. Calculate the degree of all vertices.",
+              "marks": 2,
+              "topic": "vertex types"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Find graph G_C \\u2229 H from given graphs G and H, where G_C stands for complement of G.",
+              "marks": 2,
+              "topic": "graph complement"
+            },
+            {
+              "label": "b",
+              "text": "Prove the two given graphs are isomorphic.",
+              "marks": 3,
+              "topic": "graph isomorphism"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Find eccentricity and centre of given graph.",
+              "marks": 1,
+              "topic": "eccentricity"
+            },
+            {
+              "label": "b",
+              "text": "Derive a formula to find height of k-ray tree.",
+              "marks": 2,
+              "topic": "k-ray tree height"
+            },
+            {
+              "label": "c",
+              "text": "Prove that a simple acyclic graph with n vertices and n-1 edges is a tree.",
+              "marks": 2,
+              "topic": "tree characterization"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Prove that a graph with 9 vertices with sum of degree of all vertices = 18 is not a tree.",
+              "marks": 2,
+              "topic": "tree degree sum"
+            },
+            {
+              "label": "b",
+              "text": "Find minimum spanning tree in given graph using Prim's algorithm.",
+              "marks": 3,
+              "topic": "minimum spanning tree"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Show the given inequality K(G) \\u2264 \\u03bb(G) \\u2264 \\u03b4(G) is true for the given graph.",
+              "marks": 1,
+              "topic": "connectivity inequality"
+            },
+            {
+              "label": "b",
+              "text": "Find the cut-sets matrix of given graph.",
+              "marks": 2,
+              "topic": "cut-sets matrix"
+            },
+            {
+              "label": "c",
+              "text": "Find max flow in given graph.",
+              "marks": 2,
+              "topic": "max flow"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -9,12 +9,18 @@ import {
 } from "@/components/ui";
 import { Wordmark } from "@/components/logo";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { SupportForm } from "@/components/support-form";
+import { HeroVisual } from "@/components/hero-visual";
+import { courseCount, indexedPaperCount } from "@/lib/engine/data";
 import { PRICING } from "@/data/pricing";
 import { DISCLAIMER_SHORT, NOT_AFFILIATED } from "@/data/legal";
 
 export default function LandingPage() {
+  const courses = courseCount();
+  const papers = indexedPaperCount();
+
   return (
-    <main className="min-h-screen bg-canvas">
+    <main className="min-h-screen">
       {/* nav */}
       <Container className="flex items-center justify-between py-5 sm:py-6">
         <Wordmark size="md" />
@@ -27,31 +33,46 @@ export default function LandingPage() {
       </Container>
 
       {/* hero */}
-      <Container className="relative pt-12 pb-16 sm:pt-20 sm:pb-section">
-        <div className="glow-accent max-w-3xl">
+      <Container className="relative grid items-center gap-14 pt-14 pb-16 sm:pt-20 sm:pb-section lg:grid-cols-[1.05fr_0.95fr]">
+        <div className="max-w-2xl">
           <Badge className="rise rise-1">BIT Mesra · Noida campus</Badge>
-          <h1 className="rise rise-2 mt-6 text-[2.4rem] font-normal leading-[1.06] tracking-tight text-text sm:text-h1 md:text-[3.5rem] lg:text-display">
+          <h1 className="rise rise-2 mt-6 text-[2.7rem] font-normal leading-[1.03] tracking-tight text-text sm:text-[3.4rem] md:text-[4.2rem] lg:text-[4.75rem]">
             Walk into your mid-sem
             <br className="hidden sm:block" /> having already{" "}
             <span className="shimmer font-serif italic">seen the paper.</span>
           </h1>
-          <p className="rise rise-3 mt-6 max-w-xl text-body leading-relaxed text-muted sm:text-lead">
-            cramBIT reads the real past mid-sem papers for your course, cross-references your
-            syllabus, and writes the 25-mark question papers most likely to come up — three
-            full sets, per subject.
+          <p className="rise rise-3 mt-6 max-w-xl text-lead leading-relaxed text-muted sm:text-[1.25rem]">
+            cramBIT reads the <span className="text-text">real past mid-sem papers</span> for
+            your course, cross-references your syllabus, and writes the{" "}
+            <span className="mark text-paper-ink">25-mark question papers</span> most likely to
+            come up. Three full sets, per subject.
           </p>
-          <div className="rise rise-4 mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
-            <ButtonLink href="/login" className="justify-center px-6 py-3 text-body">
+          <div className="rise rise-4 mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
+            <ButtonLink
+              href="/login"
+              className="justify-center px-7 py-3.5 text-lead font-semibold"
+            >
               Predict my first paper — free
             </ButtonLink>
             <Link
               href="#how"
-              className="px-4 py-2 text-center text-body-sm text-muted transition-colors hover:text-text"
+              className="px-4 py-2 text-center text-body text-muted transition-colors hover:text-text"
             >
               How it works ↓
             </Link>
           </div>
           <p className="rise rise-4 mt-5 text-caption text-faint">{DISCLAIMER_SHORT}</p>
+
+          {/* stat strip */}
+          <div className="rise rise-4 mt-12 grid max-w-md grid-cols-3 gap-4 border-t border-border pt-6">
+            <Stat value={courses.toLocaleString()} label="Noida courses" />
+            <Stat value={`${papers}+`} label="past papers read" />
+            <Stat value="3" label="sets per subject" />
+          </div>
+        </div>
+
+        <div className="rise rise-2 order-last lg:order-none">
+          <HeroVisual />
         </div>
       </Container>
 
@@ -59,7 +80,11 @@ export default function LandingPage() {
       <Container id="how" className="scroll-mt-8 py-16 sm:py-section">
         <SectionHeading
           eyebrow="How it works"
-          title="Past papers do the talking."
+          title={
+            <>
+              Past papers do the <span className="gradient-text">talking</span>.
+            </>
+          }
           lead="Not a generic AI guess. Every predicted question is anchored to what your course has actually asked before and what your syllabus actually covers."
         />
         <div className="mt-12 grid gap-4 md:grid-cols-3">
@@ -70,23 +95,23 @@ export default function LandingPage() {
             Your section&apos;s syllabus becomes the hard boundary — nothing outside it is asked.
           </Step>
           <Step n="03" title="Get the papers">
-            A frequency blueprint of topics and question styles, then three distinct 25-mark
-            papers. Download as PDF, or ask the tutor to solve any question.
+            A topic blueprint, a ranked pool of the most probable questions, then three
+            distinct 25-mark papers. Download as PDF, or ask the AI tutor to solve any of them.
           </Step>
         </div>
       </Container>
 
       {/* new course */}
       <Container className="py-16 sm:py-section">
-        <Card className="lift border border-border">
+        <Card className="lift glow-accent border border-border">
           <div className="flex flex-col gap-5 md:flex-row md:items-center">
             <MonoChip className="self-start">new course?</MonoChip>
-            <p className="text-body leading-relaxed text-muted">
-              If your subject is brand new and has no past papers on record, cramBIT still
-              works — it predicts your paper from{" "}
-              <span className="text-text">your syllabus</span> plus the past papers of
-              subjects with a <span className="text-text">similar syllabus</span>, then flags
-              it clearly so you know it&apos;s a softer prediction.
+            <p className="text-lead leading-relaxed text-muted">
+              Brand-new subject with no past papers on record? cramBIT still predicts your
+              paper — from <span className="text-text">your syllabus</span> plus the past
+              papers of subjects with a{" "}
+              <span className="mark text-paper-ink">similar syllabus</span>, then flags it so
+              you know it&apos;s a softer prediction.
             </p>
           </div>
         </Card>
@@ -121,7 +146,12 @@ export default function LandingPage() {
       <Container className="py-16 sm:py-section">
         <SectionHeading
           eyebrow="Pricing"
-          title="First subject free. Try it against a real exam."
+          title={
+            <>
+              First subject <span className="gradient-text">free</span>. Try it against a real
+              exam.
+            </>
+          }
           lead="Generate your first subject for free, sit the exam, and see for yourself how close it lands. If it's worth it, come back and unlock the rest."
         />
         <div className="mt-10 grid gap-4 md:grid-cols-3">
@@ -147,10 +177,27 @@ export default function LandingPage() {
         </p>
       </Container>
 
+      {/* support */}
+      <Container className="py-16 sm:py-section">
+        <div className="grid gap-10 md:grid-cols-[1fr_1.1fr] md:items-start">
+          <SectionHeading
+            eyebrow="Stuck?"
+            title="Something broke? Prediction way off?"
+            lead="Tell us. You'll get an instant confirmation email, then a real reply from a human — usually within a day."
+          />
+          <Card className="border border-border">
+            <SupportForm />
+          </Card>
+        </div>
+      </Container>
+
       {/* footer */}
       <Container className="flex flex-wrap items-center justify-between gap-4 border-t border-border py-10 text-caption text-faint">
         <span>© {new Date().getFullYear()} cramBIT</span>
         <div className="flex items-center gap-5">
+          <Link href="/support" className="hover:text-muted">
+            Support
+          </Link>
           <Link href="/terms" className="hover:text-muted">
             Terms
           </Link>
@@ -161,6 +208,15 @@ export default function LandingPage() {
         <span className="w-full text-faint md:w-auto">{NOT_AFFILIATED}</span>
       </Container>
     </main>
+  );
+}
+
+function Stat({ value, label }: { value: string; label: string }) {
+  return (
+    <div>
+      <p className="font-serif text-h2 leading-none text-text">{value}</p>
+      <p className="mt-1.5 text-caption text-faint">{label}</p>
+    </div>
   );
 }
 
@@ -176,8 +232,8 @@ function Step({
   return (
     <Card className="lift border border-border">
       <MonoChip>{n}</MonoChip>
-      <h3 className="mt-4 text-h3 font-normal tracking-tight text-text">{title}</h3>
-      <p className="mt-2 text-body-sm leading-relaxed text-muted">{children}</p>
+      <h3 className="mt-4 text-h3 font-medium tracking-tight text-text">{title}</h3>
+      <p className="mt-2 text-body leading-relaxed text-muted">{children}</p>
     </Card>
   );
 }
@@ -196,11 +252,13 @@ function PriceCard({
   return (
     <Card
       className={
-        highlight ? "lift border border-accent bg-accent-soft" : "lift border border-border"
+        highlight
+          ? "lift glow-accent border border-accent bg-accent-soft"
+          : "lift border border-border"
       }
     >
       <p className="text-body-sm text-muted">{name}</p>
-      <p className="mt-2 font-serif text-h2 text-text">{price}</p>
+      <p className="mt-2 font-serif text-h1 text-text">{price}</p>
       <p className="mt-3 text-body-sm leading-relaxed text-muted">{note}</p>
     </Card>
   );

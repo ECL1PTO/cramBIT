@@ -1,0 +1,202 @@
+{
+  "courseCode": "IT305",
+  "courseName": "SOFTWARE ENGINEERING",
+  "historical_papers": [
+    {
+      "session": "SP2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Draw the diagram of waterfall model.",
+              "marks": 2,
+              "topic": "Waterfall Model"
+            },
+            {
+              "label": "b",
+              "text": "Differentiate between plan driven models and agile methods.",
+              "marks": 3,
+              "topic": "Plan driven vs Agile"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Describe briefly spiral model.",
+              "marks": 2,
+              "topic": "Spiral Model"
+            },
+            {
+              "label": "b",
+              "text": "Describe the benefits of prototyping.",
+              "marks": 3,
+              "topic": "Prototyping"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Briefly tell the metrics for specifying non functional requirements.",
+              "marks": 2,
+              "topic": "Metrics for Non-functional Requirements"
+            },
+            {
+              "label": "b",
+              "text": "Draw the complete diagram of requirement engineering process.",
+              "marks": 3,
+              "topic": "Requirement Engineering Process"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "List the different ways in which Software Requirement Specification is written.",
+              "marks": 2,
+              "topic": "SRS Writing Methods"
+            },
+            {
+              "label": "b",
+              "text": "Describe the readers of user requirements and system requirements separately.",
+              "marks": 3,
+              "topic": "Requirement Readers"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Requirements should be ____________ and __________________.",
+              "marks": 2,
+              "topic": "Requirement Properties"
+            },
+            {
+              "label": "b",
+              "text": "Give an example of each of the following non functional requirements: Performance requirements, Accounting requirements, Operational requirements.",
+              "marks": 3,
+              "topic": "Non-functional Requirements Examples"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "session": "SP/2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is principle aim of software engineering. Discuss?",
+              "marks": 2,
+              "topic": "Remembering"
+            },
+            {
+              "label": "b",
+              "text": "Describe four essential attributes of good software?",
+              "marks": 3,
+              "topic": "Remembering"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What are the skills required for software project manager?",
+              "marks": 2,
+              "topic": "Remembering"
+            },
+            {
+              "label": "b",
+              "text": "Briefly, discuss various phases of software development life cycle? Explain SDLC. Discuss activities during SDLC?",
+              "marks": 3,
+              "topic": "Remembering"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define Planning?",
+              "marks": 2,
+              "topic": "Understanding"
+            },
+            {
+              "label": "b",
+              "text": "Diagrammatically illustrate and discuss the iterative waterfall model or prototype model?",
+              "marks": 3,
+              "topic": "Understanding"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define coupling and its type?",
+              "marks": 2,
+              "topic": "Understanding"
+            },
+            {
+              "label": "b",
+              "text": "How is a SRS document organized into different sections?",
+              "marks": 3,
+              "topic": "Analysing"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define Risk and its Types?",
+              "marks": 2,
+              "topic": "Analysing"
+            },
+            {
+              "label": "b",
+              "text": "Explain requirement Engineering process?",
+              "marks": 3,
+              "topic": "Analysing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
