@@ -1,0 +1,30 @@
+{
+  "courseCode": "CA25209",
+  "courseName": "Statistics with R",
+  "historical_papers": [
+    {
+      "year": 2023,
+      "term": "Mid-Semester",
+      "questions": [
+        "Q1. Define descriptive and inferential statistics.",
+        "Q2. Explain the difference between primary and secondary data.",
+        "Q3. Calculate the mean, median, and mode for the given dataset: [12, 15, 12, 18, 20, 22, 15, 12].",
+        "Q4. State the multiplication theorem of probability.",
+        "Q5. What is the standard error of the mean?",
+        "Q6. (a) Fit a straight line trend by the method of least squares to the following data. (b) Explain Type I and Type II errors in hypothesis testing."
+      ]
+    },
+    {
+      "year": 2022,
+      "term": "Mid-Semester",
+      "questions": [
+        "Q1. What are the characteristics of a good measure of central tendency?",
+        "Q2. Differentiate between correlation and regression.",
+        "Q3. Write the R syntax to import a CSV file and find the summary statistics.",
+        "Q4. Define a random variable and its probability distribution.",
+        "Q5. Explain the concept of degrees of freedom.",
+        "Q6. (a) Given a normal distribution with mean 50 and standard deviation 10, find the probability that a value falls between 40 and 60. (b) Write a short note on the properties of a Poisson distribution."
+      ]
+    }
+  ]
+}

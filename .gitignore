@@ -32,6 +32,10 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
+
+# scraped raw PYQ PDFs (hundreds of files; extracted JSON in src/data/pyqs is committed)
+/project_reference/pyq_pdfs/
 
 # vercel
 .vercel
