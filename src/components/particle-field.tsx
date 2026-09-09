@@ -3,10 +3,10 @@
 import { useEffect, useRef } from "react";
 
 /**
- * Live constellation canvas — drifting nodes that link up when close, with a
- * gentle pull toward the cursor. Reads the theme's accent colour, caps work by
- * viewport size, pauses when the tab is hidden, and freezes for
- * prefers-reduced-motion.
+ * Live background: a breathing dot-grid that ripples on its own and lights up
+ * around the cursor, over a slowly rotating colour wash painted on the canvas
+ * itself (so light mode is never "just white"). DPR-aware, pauses on hidden
+ * tab, freezes for prefers-reduced-motion.
  */
 export function ParticleField() {
   const ref = useRef<HTMLCanvasElement>(null);
@@ -20,105 +20,132 @@ export function ParticleField() {
     const ctx: CanvasRenderingContext2D = context;
 
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const css = (v: string, fb: string) =>
+      getComputedStyle(document.documentElement).getPropertyValue(v).trim() || fb;
 
     let w = 0;
     let h = 0;
     let dpr = 1;
-    const accent = () =>
-      getComputedStyle(document.documentElement).getPropertyValue("--c-accent").trim() ||
-      "#7c83ff";
-
-    type P = { x: number; y: number; vx: number; vy: number };
-    let nodes: P[] = [];
+    const GAP = 46;
+    let cols = 0;
+    let rows = 0;
 
     function resize() {
       dpr = Math.min(window.devicePixelRatio || 1, 2);
-      w = canvas.clientWidth;
-      h = canvas.clientHeight;
+      w = window.innerWidth;
+      h = window.innerHeight;
       canvas.width = w * dpr;
       canvas.height = h * dpr;
+      canvas.style.width = `${w}px`;
+      canvas.style.height = `${h}px`;
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-
-      const target = Math.round(Math.min(120, (w * h) / 16000));
-      nodes = Array.from({ length: target }, () => ({
-        x: Math.random() * w,
-        y: Math.random() * h,
-        vx: (Math.random() - 0.5) * 0.25,
-        vy: (Math.random() - 0.5) * 0.25,
-      }));
+      cols = Math.ceil(w / GAP) + 1;
+      rows = Math.ceil(h / GAP) + 1;
     }
 
-    const mouse = { x: -999, y: -999 };
+    const mouse = { x: w / 2, y: -300 };
     const onMove = (e: MouseEvent) => {
       mouse.x = e.clientX;
       mouse.y = e.clientY;
     };
     const onLeave = () => {
-      mouse.x = -999;
-      mouse.y = -999;
+      mouse.y = -300;
     };
 
     let raf = 0;
-    const LINK = 130;
+    let t = 0;
 
-    function frame() {
+    function draw() {
+      t += reduce ? 0 : 0.012;
+
+      const accent = css("--c-accent", "#6674f6");
+      const accent2 = css("--c-accent-2", "#e152ff");
+      const isDark = document.documentElement.classList.contains("dark")
+        ? true
+        : document.documentElement.classList.contains("light")
+          ? false
+          : window.matchMedia("(prefers-color-scheme: dark)").matches;
+
       ctx.clearRect(0, 0, w, h);
-      const col = accent();
 
-      for (const p of nodes) {
-        p.x += p.vx;
-        p.y += p.vy;
-        if (p.x < 0 || p.x > w) p.vx *= -1;
-        if (p.y < 0 || p.y > h) p.vy *= -1;
+      // rotating colour wash
+      const cx = w * (0.5 + 0.28 * Math.cos(t * 0.35));
+      const cy = h * (0.32 + 0.22 * Math.sin(t * 0.28));
+      const g = ctx.createRadialGradient(cx, cy, 0, cx, cy, Math.max(w, h) * 0.9);
+      g.addColorStop(0, hexA(accent, isDark ? 0.22 : 0.14));
+      g.addColorStop(0.45, hexA(accent2, isDark ? 0.1 : 0.07));
+      g.addColorStop(1, hexA(accent, 0));
+      ctx.fillStyle = g;
+      ctx.fillRect(0, 0, w, h);
 
-        const dx = mouse.x - p.x;
-        const dy = mouse.y - p.y;
-        const d2 = dx * dx + dy * dy;
-        if (d2 < 26000) {
-          p.vx += (dx / Math.sqrt(d2 + 1)) * 0.012;
-          p.vy += (dy / Math.sqrt(d2 + 1)) * 0.012;
+      // dot grid
+      const near: { x: number; y: number }[] = [];
+      for (let i = 0; i < cols; i++) {
+        for (let j = 0; j < rows; j++) {
+          const x0 = i * GAP;
+          const y0 = j * GAP;
+          const wave = Math.sin(x0 * 0.02 + y0 * 0.02 - t * 2) * 2.4;
+          const x = x0 + wave;
+          const y = y0 + wave;
+
+          const dx = mouse.x - x;
+          const dy = mouse.y - y;
+          const dist = Math.hypot(dx, dy);
+          const glow = Math.max(0, 1 - dist / 170);
+
+          const r = 1 + glow * 2.6;
+          ctx.beginPath();
+          ctx.arc(x, y, r, 0, Math.PI * 2);
+          ctx.fillStyle = hexA(
+            glow > 0.05 ? accent : isDark ? "#ffffff" : "#111111",
+            (isDark ? 0.16 : 0.13) + glow * 0.75,
+          );
+          ctx.fill();
+
+          if (glow > 0.25) near.push({ x, y });
         }
-        p.vx = Math.max(-0.6, Math.min(0.6, p.vx));
-        p.vy = Math.max(-0.6, Math.min(0.6, p.vy));
-
-        ctx.beginPath();
-        ctx.arc(p.x, p.y, 1.4, 0, Math.PI * 2);
-        ctx.fillStyle = col;
-        ctx.globalAlpha = 0.55;
-        ctx.fill();
       }
 
-      for (let i = 0; i < nodes.length; i++) {
-        for (let j = i + 1; j < nodes.length; j++) {
-          const a = nodes[i];
-          const b = nodes[j];
-          const dx = a.x - b.x;
-          const dy = a.y - b.y;
-          const dist = Math.hypot(dx, dy);
-          if (dist < LINK) {
+      // link the dots near the cursor
+      for (let a = 0; a < near.length; a++) {
+        for (let b = a + 1; b < near.length; b++) {
+          const d = Math.hypot(near[a].x - near[b].x, near[a].y - near[b].y);
+          if (d < GAP * 1.7) {
             ctx.beginPath();
-            ctx.moveTo(a.x, a.y);
-            ctx.lineTo(b.x, b.y);
-            ctx.strokeStyle = col;
-            ctx.globalAlpha = (1 - dist / LINK) * 0.14;
+            ctx.moveTo(near[a].x, near[a].y);
+            ctx.lineTo(near[b].x, near[b].y);
+            ctx.strokeStyle = hexA(accent, 0.35 * (1 - d / (GAP * 1.7)));
             ctx.lineWidth = 1;
             ctx.stroke();
           }
         }
       }
-      ctx.globalAlpha = 1;
 
-      if (!reduce && !document.hidden) raf = requestAnimationFrame(frame);
+      if (!reduce && !document.hidden) raf = requestAnimationFrame(draw);
+    }
+
+    function hexA(hex: string, a: number) {
+      const c = hex.replace("#", "");
+      const n =
+        c.length === 3
+          ? c
+              .split("")
+              .map((ch) => ch + ch)
+              .join("")
+          : c.padEnd(6, "0").slice(0, 6);
+      const r = parseInt(n.slice(0, 2), 16);
+      const gg = parseInt(n.slice(2, 4), 16);
+      const bb = parseInt(n.slice(4, 6), 16);
+      return `rgba(${r},${gg},${bb},${a})`;
     }
 
     resize();
-    frame();
-    if (reduce) cancelAnimationFrame(raf);
+    draw();
 
     const onVis = () => {
       if (!document.hidden && !reduce) {
         cancelAnimationFrame(raf);
-        raf = requestAnimationFrame(frame);
+        raf = requestAnimationFrame(draw);
       }
     };
 
@@ -139,8 +166,8 @@ export function ParticleField() {
   return (
     <canvas
       ref={ref}
-      className="absolute inset-0 h-full w-full"
-      style={{ maskImage: "linear-gradient(to bottom, #000 55%, transparent)" }}
+      className="fixed inset-0 h-full w-full"
+      style={{ zIndex: -1 }}
       aria-hidden="true"
     />
   );

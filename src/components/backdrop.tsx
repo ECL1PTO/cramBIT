@@ -1,16 +1,10 @@
 import { ParticleField } from "./particle-field";
 
 /**
- * Ambient background: a live constellation canvas over two slow colour glows.
- * Fixed, behind everything, non-interactive. Motion is disabled for
- * prefers-reduced-motion (canvas freezes; glows stop animating via globals.css).
+ * Ambient background — a live, cursor-reactive dot-grid over a slowly rotating
+ * colour wash, painted on a fixed full-viewport canvas. Frozen for
+ * prefers-reduced-motion.
  */
 export function Backdrop() {
-  return (
-    <div className="backdrop" aria-hidden="true">
-      <div className="backdrop-blob b1" />
-      <div className="backdrop-blob b2" />
-      <ParticleField />
-    </div>
-  );
+  return <ParticleField />;
 }

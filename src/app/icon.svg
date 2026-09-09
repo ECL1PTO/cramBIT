@@ -1,5 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-  <rect x="0" y="0" width="24" height="24" rx="6.5" fill="#5b6ef5"/>
-  <path d="M12 4.2l1.45 4.35a2 2 0 0 0 1.26 1.26L19.8 11l-4.35 1.45a2 2 0 0 0-1.26 1.26L12.9 18a1 1 0 0 1-1.8 0l-1.29-3.84a2 2 0 0 0-1.26-1.26L4.2 11.6a1 1 0 0 1 0-1.9l3.84-1.29a2 2 0 0 0 1.26-1.26L12 4.2z" fill="#fff"/>
-  <circle cx="18.5" cy="18.5" r="1.5" fill="#fff" opacity="0.85"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="s" x1="16" y1="16" x2="30" y2="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5b6ef5" stop-opacity="0"/>
+      <stop offset="1" stop-color="#5b6ef5" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+  <circle cx="16" cy="16" r="16" fill="#12121b"/>
+  <circle cx="16" cy="16" r="14" fill="none" stroke="#2f2f3c" stroke-width="1.4"/>
+  <circle cx="16" cy="16" r="8.5" fill="none" stroke="#2f2f3c" stroke-width="1.4"/>
+  <path d="M16 16 L31 16 A15 15 0 0 0 26.6 5.4 Z" fill="url(#s)" transform="rotate(-35 16 16)"/>
+  <line x1="16" y1="16" x2="30" y2="7" stroke="#5b6ef5" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="16" cy="16" r="2.4" fill="#5b6ef5"/>
+  <circle cx="23" cy="11" r="2" fill="#e152ff"/>
 </svg>

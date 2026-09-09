@@ -10,9 +10,14 @@ export function HeroVisual() {
 
       {/* paper card */}
       <div
-        className="rise rise-3 relative rounded-card border border-border bg-surface p-6 shadow-[0_30px_80px_-20px_rgba(80,70,229,0.35)] [transform:rotateX(6deg)_rotateY(-9deg)]"
+        className="rise rise-3 relative overflow-hidden rounded-card border border-border bg-surface p-6 shadow-[0_30px_80px_-20px_rgba(80,70,229,0.35)] [transform:rotateX(6deg)_rotateY(-9deg)]"
         style={{ animation: "float-slow 7s ease-in-out infinite" }}
       >
+        {/* scanning beam */}
+        <div
+          className="pointer-events-none absolute inset-x-0 top-0 h-8 bg-gradient-to-b from-accent/30 to-transparent"
+          style={{ animation: "scan 3.4s var(--ease-glide) infinite" }}
+        />
         <div className="flex items-center gap-1.5">
           <span className="h-2 w-2 rounded-full bg-danger/70" />
           <span className="h-2 w-2 rounded-full bg-hi/80" />
