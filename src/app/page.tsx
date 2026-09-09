@@ -139,6 +139,34 @@ export default function LandingPage() {
         </div>
       </Container>
 
+      {/* AI tutor */}
+      <Container className="py-16 sm:py-section">
+        <div className="grid gap-10 md:grid-cols-[1fr_1.05fr] md:items-center">
+          <div className="order-last md:order-first">
+            <Card className="lift glow-accent border border-border font-mono text-body-sm">
+              <p className="text-faint">student:</p>
+              <p className="mt-1 text-text">how do I solve Q2(b)?</p>
+              <p className="mt-4 text-faint">cramBIT tutor:</p>
+              <p className="mt-1 text-muted">
+                Start from the recurrence T(n) = 2T(n/2) + n. Draw the tree, sum each
+                level (n per level, log n levels)…
+              </p>
+              <span className="cursor-blink text-accent">▍</span>
+            </Card>
+          </div>
+          <SectionHeading
+            eyebrow="AI tutor · paid plans"
+            title={
+              <>
+                Don&apos;t just get the paper —{" "}
+                <span className="gradient-text">learn to answer it</span>.
+              </>
+            }
+            lead="Every predicted paper comes with a tutor that already knows the questions. Ask it to solve any one, walk you through a derivation, explain a concept, or check your working. It's built into every paid subject."
+          />
+        </div>
+      </Container>
+
       {/* pricing */}
       <Container className="py-16 sm:py-section">
         <SectionHeading
@@ -178,9 +206,9 @@ export default function LandingPage() {
       <Container className="py-16 sm:py-section">
         <div className="grid gap-10 md:grid-cols-[1fr_1.1fr] md:items-start">
           <SectionHeading
-            eyebrow="Stuck?"
-            title="Something broke? Prediction way off?"
-            lead="Tell us. You'll get an instant confirmation email, then a real reply from a human — usually within a day."
+            eyebrow="Feedback & support"
+            title="Prediction way off? Something broke? Just have thoughts?"
+            lead="Tell us anything — a prediction that missed, a bug, a feature you want. You'll get an instant confirmation, then a real reply. After your exam, there's a one-tap 'how close was it?' on every generated paper too."
           />
           <Card className="border border-border">
             <SupportForm />

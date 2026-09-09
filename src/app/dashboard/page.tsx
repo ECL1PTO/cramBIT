@@ -9,6 +9,7 @@ import { DISCLAIMER_ACK } from "@/data/legal";
 import { pickHype } from "@/data/hype";
 import { PaywallModal } from "@/components/paywall-modal";
 import { AITutor } from "@/components/ai-tutor";
+import { FeedbackBar } from "@/components/feedback-bar";
 import { Wordmark } from "@/components/logo";
 import { ThemeToggle } from "@/components/theme-toggle";
 
@@ -46,6 +47,8 @@ export default function Dashboard() {
   const [courseCode, setCourseCode] = useState<string | null>(null);
   const [isPaid, setIsPaid] = useState(false);
   const [triesLeft, setTriesLeft] = useState<number | null>(null);
+  const [papersRead, setPapersRead] = useState(0);
+  const [scanned, setScanned] = useState(0);
 
   const [paywall, setPaywall] = useState<
     null | { code: string | null; locked?: string | null; reason?: string }
@@ -97,14 +100,26 @@ export default function Dashboard() {
     setPhase("planning");
     setSets([]);
     setActiveSet(0);
+    setPapersRead(0);
+    setScanned(0);
+
+    // A minimum visible duration per phase so it's clear the engine is actually
+    // working through the papers, not faking it.
+    const hold = (start: number, ms: number) =>
+      new Promise<void>((res) => setTimeout(res, Math.max(0, ms - (Date.now() - start))));
 
     try {
+      const t0 = Date.now();
       const planRes = await fetch("/api/predict", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ phase: "plan", courseInput, syllabus }),
       });
       const plan = await planRes.json();
+      if (planRes.ok && plan.papersRead) {
+        setPapersRead(plan.papersRead);
+        await hold(t0, Math.min(9000, 2500 + plan.papersRead * 350));
+      }
 
       if (planRes.status === 402) {
         setPhase("idle");
@@ -138,12 +153,14 @@ export default function Dashboard() {
         });
 
       setPhase("pooling");
+      const t1 = Date.now();
       const poolRes = await post({ phase: "pool", blueprint: plan.blueprint });
       const pool = await poolRes.json();
       if (!poolRes.ok) {
         setPhase("idle");
         return setError(pool.error ?? "Could not rank questions.");
       }
+      await hold(t1, 3500);
 
       setPhase("writing");
       const writeRes = await post({
@@ -174,6 +191,16 @@ export default function Dashboard() {
   }, [courseInput, syllabus, ackedAt]);
 
   const busy = phase === "planning" || phase === "pooling" || phase === "writing";
+
+  // Count-up ticker while the blueprint is being built.
+  useEffect(() => {
+    if (phase !== "planning" || papersRead === 0) return;
+    const step = Math.max(180, 4200 / papersRead);
+    const id = setInterval(() => {
+      setScanned((s) => (s >= papersRead ? s : s + 1));
+    }, step);
+    return () => clearInterval(id);
+  }, [phase, papersRead]);
 
   return (
     <main className="min-h-screen pb-32">
@@ -296,7 +323,9 @@ export default function Dashboard() {
                     <span
                       className={`text-body-sm ${state === "todo" ? "text-faint" : "text-text"}`}
                     >
-                      {STEP_COPY[p]}
+                      {p === "planning" && state === "active" && papersRead > 0
+                        ? `Reading past paper ${Math.min(scanned + 1, papersRead)} of ${papersRead}…`
+                        : STEP_COPY[p]}
                     </span>
                     {state === "active" && (
                       <span className="cursor-blink ml-auto text-accent">▍</span>
@@ -304,7 +333,23 @@ export default function Dashboard() {
                   </div>
                 );
               })}
-              <p className="mt-2 border-t border-border pt-4 font-serif text-body italic text-muted">
+              {papersRead > 0 && (
+                <div className="h-1 overflow-hidden rounded-pill bg-surface-2">
+                  <div
+                    className="h-full bg-accent transition-[width] duration-300"
+                    style={{
+                      width: `${
+                        phase === "planning"
+                          ? (scanned / papersRead) * 33
+                          : phase === "pooling"
+                            ? 66
+                            : 100
+                      }%`,
+                    }}
+                  />
+                </div>
+              )}
+              <p className="mt-1 border-t border-border pt-4 font-serif text-body italic text-muted">
                 {pickHype("generating", phase.length)}
               </p>
             </Card>
@@ -349,6 +394,9 @@ export default function Dashboard() {
               <article className="print-sheet overflow-x-auto rounded-sheet border border-border bg-surface p-6 font-paper text-[1.02rem] leading-[1.7] text-text sm:p-10 [&_b]:font-semibold [&_div]:text-center [&_h1]:text-h3 [&_hr]:my-5 [&_hr]:border-border [&_img]:hidden [&_p]:my-2.5 [&_strong]:font-semibold [&_table]:block [&_table]:overflow-x-auto">
                 <Markdown>{sets[activeSet] ?? ""}</Markdown>
               </article>
+              <div className="mt-5">
+                <FeedbackBar subjectCode={courseCode ?? courseInput} />
+              </div>
             </div>
           )}
         </div>

@@ -34,6 +34,7 @@ export interface Resolved {
   syllabus: string;
   needsSyllabus: boolean;
   borrowedFrom: string[];
+  papersRead: number;
 }
 
 export function resolve(courseInput: string, pastedSyllabus: string): Resolved {
@@ -48,6 +49,10 @@ export function resolve(courseInput: string, pastedSyllabus: string): Resolved {
 
   const syllabus = (course?.syllabus?.trim() || pastedSyllabus.trim()).slice(0, SYLLABUS_CAP);
   const neighbours = pyqs ? [] : similarCourses(syllabus, 4);
+  const borrowedCount = borrowedPyqs(neighbours.map((n) => n.code)).reduce(
+    (n, f) => n + f.historical_papers.length,
+    0,
+  );
 
   return {
     coverage,
@@ -56,6 +61,7 @@ export function resolve(courseInput: string, pastedSyllabus: string): Resolved {
     syllabus,
     needsSyllabus: !syllabus || syllabus.length < 40,
     borrowedFrom: neighbours.map((n) => `${n.code}${n.name ? " — " + n.name : ""}`),
+    papersRead: (pyqs?.historical_papers.length ?? 0) + borrowedCount,
   };
 }
 

@@ -945,5 +945,23 @@
       "trademark distinctiveness"
     ],
     "sessions": 1
+  },
+  {
+    "key": "CSE/IT420 ARTIFICIAL INTELLIGENCE (MID_MO22).pdf",
+    "code": "IT420",
+    "name": "ARTIFICIAL INTELLIGENCE",
+    "dept": "CSE",
+    "topics": [
+      "search",
+      "PEAS",
+      "agents",
+      "probability",
+      "state space",
+      "heuristic",
+      "constraint propagation",
+      "minimax",
+      "crypto arithmetic"
+    ],
+    "sessions": 1
   }
 ]

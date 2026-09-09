@@ -66,6 +66,7 @@ export async function POST(req: Request) {
         courseCode: r.code,
         courseName: r.name,
         borrowedFrom: r.borrowedFrom,
+        papersRead: r.papersRead,
         isPaid: ent.isPaid,
         triesLeft: ent.triesLeft ?? null,
         blueprint: bp,
