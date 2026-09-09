@@ -1,4 +1,17 @@
 {
-  "courses": {},
+  "courses": {
+    "BAM": {
+      "topicFreq": {},
+      "stems": []
+    },
+    "BBA": {
+      "topicFreq": {},
+      "stems": []
+    },
+    "CA25209": {
+      "topicFreq": {},
+      "stems": []
+    }
+  },
   "corpus": []
 }

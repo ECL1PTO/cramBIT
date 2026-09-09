@@ -1,71 +1,68 @@
-// Turn downloaded PYQ PDFs into structured question banks via Gemini.
-// Reads project_reference/pyq_manifest.json, writes src/data/pyqs/<CODE>.json
-// and a topic-tagged corpus at src/data/pyq_corpus.json. Resumable.
-//
+// Turn downloaded PYQ PDFs into structured question banks (pdf-parse -> Groq).
+// Reads project_reference/pyq_manifest.json; writes src/data/pyqs/<CODE>.json
+// and src/data/pyq_corpus.json. Resumable. Skips scanned PDFs with no text layer
+// (listed at the end for optional OCR).
 //   node scripts/extract-pyqs.mjs
 import path from "node:path";
-import { ROOT, askJson, pdfPart, writeJson, readJson, sleep } from "./lib.mjs";
+import { ROOT, groqJson, pdfText, writeJson, readJson, sleep } from "./lib.mjs";
 
 const manifest = readJson("project_reference/pyq_manifest.json", {}) ?? {};
 const corpus = readJson("src/data/pyq_corpus.json", []) ?? [];
-const done = new Set(corpus.map((c) => c.key));
+const seen = new Set(corpus.map((c) => c.key));
 
-const PROMPT = `Extract this university exam question paper. Return JSON:
-{
-  "courseCode": "<code>", "courseName": "<title>", "session": "<e.g. Monsoon 2022>",
-  "examType": "MID|END", "maxMarks": <int>, "durationHrs": <number|null>,
-  "questions": [
-    { "number": "Q1", "marks": <int|null>,
-      "parts": [ { "label": "a", "text": "<question text>", "marks": <int|null>,
-                   "topic": "<short topic keyword>" } ] }
-  ],
-  "topics": ["<all distinct topic keywords in this paper>"]
-}
-Transcribe question text faithfully. If the scan is unreadable, return {"questions":[]}.`;
+const SYSTEM = "You transcribe university exam papers into structured JSON. JSON only.";
+const prompt = (text) => `Extract this exam question paper. Return JSON:
+{ "courseCode": "<code>", "courseName": "<title>", "session": "<e.g. Monsoon 2022>",
+  "examType": "MID|END", "maxMarks": <int|null>, "durationHrs": <number|null>,
+  "questions": [ { "number": "Q1", "marks": <int|null>,
+    "parts": [ { "label": "a", "text": "<question text>", "marks": <int|null>, "topic": "<keyword>" } ] } ],
+  "topics": ["<distinct topic keywords in this paper>"] }
+Transcribe faithfully. If unreadable, return {"questions":[],"topics":[]}.
 
-const byCode = {};
+PAPER TEXT:
+${text.slice(0, 24000)}`;
+
+const scanned = [];
 
 for (const [key, m] of Object.entries(manifest)) {
-  if (!m.downloaded || m.examType === "OTHER") continue;
-  if (done.has(key)) continue;
-
+  if (!m.downloaded || m.examType === "OTHER" || seen.has(key)) continue;
   const abs = path.join(ROOT, "project_reference", "pyq_pdfs", m.dept, m.name);
   console.log("→", key);
   try {
-    const out = await askJson(PROMPT, [pdfPart(abs)]);
+    const { text } = await pdfText(abs);
+    if (text.trim().length < 150) {
+      scanned.push(key);
+      corpus.push({ key, code: m.code, dept: m.dept, topics: [], sessions: 0, scanned: true });
+      writeJson("src/data/pyq_corpus.json", corpus);
+      continue;
+    }
+    const out = await groqJson(SYSTEM, prompt(text));
     if (!out.questions?.length) {
       corpus.push({ key, code: m.code, dept: m.dept, topics: [], sessions: 0, empty: true });
     } else {
       const code = (out.courseCode || m.code || "UNKNOWN").toUpperCase().replace(/\s+/g, "");
-      byCode[code] ??= readJson(`src/data/pyqs/${code}.json`, {
-        courseCode: code,
-        courseName: out.courseName || "",
-        historical_papers: [],
-      });
-      byCode[code].historical_papers.push({
+      const file = `src/data/pyqs/${code}.json`;
+      const data = readJson(file, { courseCode: code, courseName: out.courseName || "", historical_papers: [] });
+      data.historical_papers.push({
         session: out.session || "unknown",
         examType: out.examType || m.examType,
         maxMarks: out.maxMarks ?? null,
         durationHrs: out.durationHrs ?? null,
         questions: out.questions,
       });
-      corpus.push({
-        key,
-        code,
-        name: out.courseName || "",
-        dept: m.dept,
-        topics: out.topics || [],
-        sessions: 1,
-      });
+      writeJson(file, data);
+      corpus.push({ key, code, name: out.courseName || "", dept: m.dept, topics: out.topics || [], sessions: 1 });
     }
+    writeJson("src/data/pyq_corpus.json", corpus);
   } catch (e) {
     console.error("  failed:", e.message);
     corpus.push({ key, code: m.code, dept: m.dept, topics: [], sessions: 0, error: e.message });
   }
-
-  for (const [code, data] of Object.entries(byCode)) writeJson(`src/data/pyqs/${code}.json`, data);
-  writeJson("src/data/pyq_corpus.json", corpus);
-  await sleep(1200);
+  await sleep(800);
 }
 
+if (scanned.length) {
+  writeJson("project_reference/scanned_pdfs.json", scanned);
+  console.log(`\n${scanned.length} scanned PDFs skipped (no text layer) — see scanned_pdfs.json`);
+}
 console.log("extract complete");

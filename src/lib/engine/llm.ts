@@ -11,11 +11,10 @@ import { generate as geminiGenerate } from "./gemini";
 
 type Tier = "reason" | "fast";
 
-// gpt-oss-120b is an open-weight reasoning model, free on Groq, strong at
-// structured analysis — this is the "better than Gemini free" the engine wants.
+// Best models available free on Groq for structured reasoning + JSON.
 const GROQ_MODELS: Record<Tier, string> = {
   reason: "openai/gpt-oss-120b",
-  fast: "llama-3.3-70b-versatile",
+  fast: "qwen/qwen3.8-27b",
 };
 
 interface ChatOpts {
