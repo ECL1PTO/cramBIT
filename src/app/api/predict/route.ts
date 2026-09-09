@@ -3,18 +3,26 @@ import { z } from "zod";
 import { requireUser } from "@/lib/auth";
 import { createServiceClient } from "@/utils/supabase/service";
 import { checkEntitlement, rateLimit } from "@/lib/entitlement";
-import { buildBlueprint, resolve, writeSets } from "@/lib/engine/predict";
-import { BlueprintSchema } from "@/lib/engine/types";
+import {
+  assembleBatch,
+  buildBlueprint,
+  buildCandidatePool,
+  resolve,
+} from "@/lib/engine/predict";
+import { BlueprintSchema, CandidateSchema } from "@/lib/engine/types";
 import { PRICING } from "@/data/pricing";
 
 export const runtime = "nodejs";
 export const maxDuration = 60;
 
+const SET_COUNT = 4;
+
 const Body = z.object({
-  phase: z.enum(["plan", "write"]),
+  phase: z.enum(["plan", "pool", "write"]),
   courseInput: z.string().min(1).max(80),
   syllabus: z.string().max(12000).default(""),
   blueprint: BlueprintSchema.optional(),
+  candidates: z.array(CandidateSchema).optional(),
 });
 
 export async function POST(req: Request) {
@@ -22,22 +30,15 @@ export async function POST(req: Request) {
   if (!user) return NextResponse.json({ error: "Sign in required." }, { status: 401 });
 
   const body = Body.safeParse(await req.json().catch(() => null));
-  if (!body.success) {
-    return NextResponse.json({ error: "Bad request." }, { status: 400 });
-  }
-  const { phase, courseInput, syllabus, blueprint } = body.data;
+  if (!body.success) return NextResponse.json({ error: "Bad request." }, { status: 400 });
+  const { phase, courseInput, syllabus, blueprint, candidates } = body.data;
 
   const db = createServiceClient();
   const r = resolve(courseInput, syllabus);
 
   if (r.needsSyllabus) {
     return NextResponse.json(
-      {
-        error:
-          "This course isn't in our database — paste its syllabus so cramBIT can work from it.",
-        coverage: r.coverage,
-        needsSyllabus: true,
-      },
+      { error: "Paste this course's syllabus so cramBIT can work from it.", needsSyllabus: true },
       { status: 422 },
     );
   }
@@ -47,12 +48,8 @@ export async function POST(req: Request) {
     return NextResponse.json(
       {
         error: "needs-payment",
-        coverage: r.coverage,
         courseCode: r.code,
-        plans: {
-          subject: r.code ? PRICING.perSubject : null,
-          bundle: PRICING.bundle,
-        },
+        plans: { subject: r.code ? PRICING.perSubject : null, bundle: PRICING.bundle },
       },
       { status: 402 },
     );
@@ -71,20 +68,24 @@ export async function POST(req: Request) {
       });
     }
 
-    // phase === "write"
-    if (!blueprint) {
-      return NextResponse.json({ error: "Missing blueprint." }, { status: 400 });
+    if (phase === "pool") {
+      if (!blueprint) return NextResponse.json({ error: "Missing blueprint." }, { status: 400 });
+      const pool = await buildCandidatePool(r, blueprint);
+      return NextResponse.json({ candidates: pool });
     }
 
-    const ok = await rateLimit(db, user.id, "generate");
-    if (!ok) {
+    // phase === "write"
+    if (!blueprint || !candidates?.length) {
+      return NextResponse.json({ error: "Missing plan data." }, { status: 400 });
+    }
+
+    if (!(await rateLimit(db, user.id, "generate"))) {
       return NextResponse.json(
         { error: "Daily generation limit reached. Try again tomorrow." },
         { status: 429 },
       );
     }
 
-    // Disclaimer must be acknowledged.
     const { data: profile } = await db
       .from("profiles")
       .select("disclaimer_ack_at")
@@ -94,7 +95,10 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "disclaimer-required" }, { status: 428 });
     }
 
-    const { sets, topCandidates } = await writeSets(r, blueprint, 4);
+    const sets: string[] = [];
+    for (let i = 0; i < SET_COUNT; i += 2) {
+      sets.push(...(await assembleBatch(r, blueprint, candidates, Math.min(2, SET_COUNT - i))));
+    }
 
     await db.from("generated_papers").insert({
       user_id: user.id,
@@ -102,7 +106,7 @@ export async function POST(req: Request) {
       course_input: courseInput.trim(),
       syllabus_text: r.syllabus,
       coverage: r.coverage,
-      blueprint: { ...blueprint, topCandidates },
+      blueprint: { ...blueprint, topCandidates: candidates.slice(0, 12) },
       sets,
       set_count: sets.length,
       is_paid: ent.isPaid,

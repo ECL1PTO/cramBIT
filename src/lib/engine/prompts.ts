@@ -10,23 +10,21 @@ BIT Mesra (Noida campus) MID-SEMESTER format — non-negotiable:
 - Questions must be concrete and examinable — a real question a professor would set.
 `;
 
-function renderPapers(papers: PastPaper[]): string {
-  return papers
-    .map((p) => {
-      const body =
-        p.rawText?.trim() ||
-        p.questions
-          .map(
-            (q) =>
-              `${q.number}. ` +
-              q.parts
-                .map((x) => `(${x.label}) [${x.marks ?? "?"}m] ${x.text}`)
-                .join("  "),
-          )
-          .join("\n");
-      return `### ${p.session} — ${p.examType} (max ${p.maxMarks ?? "?"})\n${body}`;
-    })
-    .join("\n\n");
+const clip = (s: string, n: number) => (s.length > n ? s.slice(0, n) + "…" : s);
+
+function renderPapers(papers: PastPaper[], budgetChars = 5200): string {
+  const rendered = papers.slice(0, 6).map((p) => {
+    const body =
+      p.questions
+        .map(
+          (q) =>
+            `${q.number}. ` +
+            q.parts.map((x) => `(${x.label}) [${x.marks ?? "?"}m] ${x.text}`).join("  "),
+        )
+        .join("\n") || clip(p.rawText?.trim() ?? "", 1500);
+    return `### ${p.session} — ${p.examType} (max ${p.maxMarks ?? "?"})\n${body}`;
+  });
+  return clip(rendered.join("\n\n"), budgetChars);
 }
 
 /* ------------------------------------------------------------------ pass 1 */
@@ -55,7 +53,7 @@ export function analysisPrompt(args: {
 mid-sem for "${args.courseName}" is actually set, based on real evidence.
 
 SYLLABUS (the only allowed scope):
-${args.syllabus}
+${clip(args.syllabus, 4200)}
 
 ${
   own
@@ -99,7 +97,7 @@ export function candidatePoolPrompt(args: {
 "${args.courseName}". Reason step by step, then output the pool.
 
 SYLLABUS:
-${args.syllabus}
+${clip(args.syllabus, 4200)}
 
 BLUEPRINT (from evidence analysis):
 ${JSON.stringify(args.blueprint)}
@@ -134,8 +132,12 @@ ${args.courseCode} — ${args.courseName} from this candidate pool.
 
 ${EXAM_RULES}
 
+SYLLABUS SCOPE:
+${clip(args.syllabus, 3200)}
+
 CANDIDATE POOL (module | marks | probability | question):
 ${args.candidates
+  .slice(0, 26)
   .map((c) => `- ${c.module} | ${c.marks}m | ${c.probability.toFixed(2)} | ${c.text}`)
   .join("\n")}
 
@@ -189,7 +191,7 @@ Fail (ok:false) if ANY of: not exactly 5 questions; a question's parts are not (
 sub-questions in the same paper are duplicates.
 
 SYLLABUS:
-${syllabus}
+${clip(syllabus, 3500)}
 
 PAPER:
 ${set}`;

@@ -108,7 +108,7 @@ export async function buildBlueprint(r: Resolved): Promise<Blueprint> {
   const raw = await chat({
     tier: "reason",
     json: true,
-    maxTokens: 10000,
+    maxTokens: 4000,
     prompt: analysisPrompt({
       courseName: r.name,
       syllabus: r.syllabus,
@@ -131,12 +131,15 @@ export async function buildBlueprint(r: Resolved): Promise<Blueprint> {
 
 /* ------------------------------------------ pass 2: ranked candidate question pool */
 
-async function buildCandidatePool(r: Resolved, blueprint: Blueprint): Promise<Candidate[]> {
+export async function buildCandidatePool(
+  r: Resolved,
+  blueprint: Blueprint,
+): Promise<Candidate[]> {
   const ev = gatherEvidence(r);
   const raw = await chat({
     tier: "reason",
     json: true,
-    maxTokens: 14000,
+    maxTokens: 4000,
     prompt: candidatePoolPrompt({
       courseName: r.name,
       syllabus: r.syllabus,
@@ -151,56 +154,50 @@ async function buildCandidatePool(r: Resolved, blueprint: Blueprint): Promise<Ca
 
 /* ------------------------------------------ pass 3 + 4: assemble and validate */
 
-export async function writeSets(
+/**
+ * One batch of the write phase — up to 2 papers assembled + validated. The
+ * route calls this once or twice so each HTTP request stays well inside
+ * serverless timeouts and free-tier token/minute limits.
+ */
+export async function assembleBatch(
   r: Resolved,
   blueprint: Blueprint,
-  setCount = 4,
-): Promise<{ sets: string[]; topCandidates: Candidate[] }> {
+  candidates: Candidate[],
+  count: number,
+): Promise<string[]> {
   const codeLabel = r.code ?? r.name.toUpperCase();
-  const candidates = await buildCandidatePool(r, blueprint);
 
-  const assemble = (count: number) =>
+  const assemble = (n: number) =>
     chat({
       tier: "reason",
       json: true,
-      maxTokens: 14000,
+      maxTokens: 4000,
       prompt: assemblyPrompt({
         courseCode: codeLabel,
         courseName: r.name,
         syllabus: r.syllabus,
         candidates,
-        setCount: count,
+        setCount: n,
       }),
     }).then((raw) => PredictedSetsSchema.parse(parseJson<unknown>(raw)).sets);
 
-  const sets = await assemble(setCount);
-
-  const checked = await Promise.all(
-    sets.map(async (set) => {
-      const ok = await chat({
-        tier: "fast",
-        json: true,
-        prompt: validationPrompt(set, r.syllabus),
-      })
-        .then((v) => parseJson<{ ok: boolean }>(v).ok)
-        .catch(() => true);
-      return { set, ok };
-    }),
-  );
+  const sets = (await assemble(count)).slice(0, count);
 
   const out: string[] = [];
-  for (const c of checked) {
-    if (c.ok) {
-      out.push(c.set);
-      continue;
-    }
-    try {
-      const [fixed] = await assemble(1);
-      out.push(fixed ?? c.set);
-    } catch {
-      out.push(c.set);
+  for (const set of sets) {
+    const ok = await chat({
+      tier: "fast",
+      json: true,
+      maxTokens: 1200,
+      prompt: validationPrompt(set, r.syllabus),
+    })
+      .then((v) => parseJson<{ ok: boolean }>(v).ok)
+      .catch(() => true);
+    if (ok) {
+      out.push(set);
+    } else {
+      out.push(await assemble(1).then((s) => s[0] ?? set).catch(() => set));
     }
   }
-
-  return { sets: out, topCandidates: candidates.slice(0, 12) };
+  return out;
 }

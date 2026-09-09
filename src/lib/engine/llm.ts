@@ -5,17 +5,34 @@ import { generate as geminiGenerate } from "./gemini";
 /**
  * Text-reasoning LLM for the engine and tutor.
  *
- * Prefers Groq (free, fast, reliable — Llama) when GROQ_API_KEY is set;
- * falls back to Gemini Flash. PDF/vision work stays on Gemini (see gemini.ts).
+ * Provider order: Cerebras → Groq → Gemini Flash. The first two are
+ * OpenAI-compatible and free; Cerebras has by far the highest free limits so
+ * it's preferred when CEREBRAS_API_KEY is set. PDF/vision work stays on Gemini.
  */
 
 type Tier = "reason" | "fast";
 
-// Best models available free on Groq for structured reasoning + JSON.
-const GROQ_MODELS: Record<Tier, string> = {
-  reason: "openai/gpt-oss-120b",
-  fast: "qwen/qwen3.8-27b",
-};
+interface Provider {
+  name: string;
+  key: string | undefined;
+  base: string;
+  models: Record<Tier, string>;
+}
+
+const PROVIDERS: Provider[] = [
+  {
+    name: "cerebras",
+    key: env.CEREBRAS_API_KEY,
+    base: "https://api.cerebras.ai/v1",
+    models: { reason: "gpt-oss-120b", fast: "llama-3.3-70b" },
+  },
+  {
+    name: "groq",
+    key: env.GROQ_API_KEY,
+    base: "https://api.groq.com/openai/v1",
+    models: { reason: "openai/gpt-oss-120b", fast: "qwen/qwen3.8-27b" },
+  },
+];
 
 interface ChatOpts {
   tier: Tier;
@@ -25,54 +42,65 @@ interface ChatOpts {
   maxTokens?: number;
 }
 
-async function groqChat({
-  tier,
-  system,
-  prompt,
-  json,
-  maxTokens = 8192,
-}: ChatOpts): Promise<string> {
-  const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+async function openaiChat(p: Provider, o: ChatOpts): Promise<string> {
+  const res = await fetch(`${p.base}/chat/completions`, {
     method: "POST",
     headers: {
-      Authorization: `Bearer ${env.GROQ_API_KEY}`,
+      Authorization: `Bearer ${p.key}`,
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      model: GROQ_MODELS[tier],
+      model: p.models[o.tier],
       messages: [
-        ...(system ? [{ role: "system", content: system }] : []),
-        { role: "user", content: prompt },
+        ...(o.system ? [{ role: "system", content: o.system }] : []),
+        { role: "user", content: o.prompt },
       ],
-      temperature: json ? 0.4 : 0.8,
-      max_tokens: maxTokens,
-      ...(json ? { response_format: { type: "json_object" } } : {}),
+      temperature: o.json ? 0.35 : 0.8,
+      max_tokens: o.maxTokens ?? 8192,
+      ...(o.json ? { response_format: { type: "json_object" } } : {}),
     }),
   });
   if (!res.ok) {
-    throw new Error(`Groq ${res.status}: ${(await res.text()).slice(0, 200)}`);
+    throw new Error(`${p.name} ${res.status}: ${(await res.text()).slice(0, 240)}`);
   }
   const data = await res.json();
   const text = data.choices?.[0]?.message?.content;
-  if (!text?.trim()) throw new Error("Groq empty response");
+  if (!text?.trim()) throw new Error(`${p.name} empty response`);
   return text;
 }
 
-export async function chat(opts: ChatOpts): Promise<string> {
-  if (env.GROQ_API_KEY) {
-    try {
-      return await groqChat(opts);
-    } catch (err) {
-      console.warn("Groq failed, falling back to Gemini:", err);
+export async function chat(o: ChatOpts): Promise<string> {
+  const errors: string[] = [];
+  for (const p of PROVIDERS) {
+    if (!p.key) continue;
+    for (let attempt = 0; attempt < 2; attempt++) {
+      try {
+        return await openaiChat(p, o);
+      } catch (err) {
+        const msg = err instanceof Error ? err.message : String(err);
+        errors.push(msg);
+        if (/429|rate.?limit/i.test(msg) && attempt === 0) {
+          await new Promise((r) => setTimeout(r, 8000));
+          continue;
+        }
+        break;
+      }
     }
   }
-  return geminiGenerate({
-    model: opts.tier === "reason" ? "gemini-flash-latest" : "gemini-flash-lite-latest",
-    system: opts.system,
-    prompt: opts.prompt,
-    json: opts.json,
-    maxOutputTokens: opts.maxTokens,
-  });
+
+  // Last resort: Gemini Flash (its own retry/backoff lives in gemini.ts).
+  try {
+    return await geminiGenerate({
+      model: o.tier === "reason" ? "gemini-flash-latest" : "gemini-flash-lite-latest",
+      system: o.system,
+      prompt: o.prompt,
+      json: o.json,
+      maxOutputTokens: o.maxTokens,
+    });
+  } catch (err) {
+    errors.push(err instanceof Error ? err.message : String(err));
+    throw new Error(`All LLM providers failed: ${errors.join(" | ")}`);
+  }
 }
 
 export function parseJson<T>(raw: string): T {

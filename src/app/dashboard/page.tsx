@@ -10,7 +10,7 @@ import { DISCLAIMER_ACK } from "@/data/legal";
 import { PaywallModal } from "@/components/paywall-modal";
 import { AITutor } from "@/components/ai-tutor";
 
-type Phase = "idle" | "planning" | "writing" | "done";
+type Phase = "idle" | "planning" | "pooling" | "writing" | "done";
 interface Suggestion {
   code: string;
   name: string;
@@ -18,9 +18,10 @@ interface Suggestion {
   grounding: string;
 }
 
-const STEP_COPY: Record<Exclude<Phase, "idle" | "done">, string> = {
-  planning: "Reading past papers and building the topic blueprint…",
-  writing: "Drafting and validating the predicted papers…",
+const STEP_COPY: Record<"planning" | "pooling" | "writing", string> = {
+  planning: "Reading past papers, building the topic blueprint…",
+  pooling: "Ranking the most probable questions…",
+  writing: "Drafting and validating four papers…",
 };
 
 export default function Dashboard() {
@@ -118,23 +119,33 @@ export default function Dashboard() {
       setCoverage(plan.coverage);
       setBorrowedFrom(plan.borrowedFrom ?? []);
       setCourseCode(plan.courseCode ?? null);
-      
+
+      const post = (payload: object) =>
+        fetch("/api/predict", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ courseInput, syllabus, ...payload }),
+        });
+
+      setPhase("pooling");
+      const poolRes = await post({ phase: "pool", blueprint: plan.blueprint });
+      const pool = await poolRes.json();
+      if (!poolRes.ok) {
+        setPhase("idle");
+        return setError(pool.error ?? "Could not rank questions.");
+      }
 
       setPhase("writing");
-      const writeRes = await fetch("/api/predict", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          phase: "write",
-          courseInput,
-          syllabus,
-          blueprint: plan.blueprint,
-        }),
+      const writeRes = await post({
+        phase: "write",
+        blueprint: plan.blueprint,
+        candidates: pool.candidates,
       });
       const written = await writeRes.json();
       if (!writeRes.ok) {
         setPhase("idle");
         if (writeRes.status === 402) return setPaywall({ code: plan.courseCode ?? null });
+        if (writeRes.status === 428) return setNeedAck(true);
         return setError(written.error ?? "Generation failed.");
       }
       setSets(written.sets ?? []);
@@ -146,7 +157,7 @@ export default function Dashboard() {
     }
   }, [courseInput, syllabus, ackedAt]);
 
-  const busy = phase === "planning" || phase === "writing";
+  const busy = phase === "planning" || phase === "pooling" || phase === "writing";
 
   return (
     <main className="min-h-screen bg-onyx pb-32">
@@ -221,7 +232,7 @@ export default function Dashboard() {
           />
 
           <Button onClick={run} disabled={busy} className="w-full">
-            {busy ? STEP_COPY[phase as "planning" | "writing"] : "Generate 4 papers"}
+            {busy ? STEP_COPY[phase as "planning" | "pooling" | "writing"] : "Generate 4 papers"}
           </Button>
 
           {coverage && (
@@ -234,7 +245,7 @@ export default function Dashboard() {
           {busy && (
             <Card className="flex min-h-[420px] flex-col items-center justify-center gap-3 text-center">
               <span className="h-2 w-2 animate-ping rounded-full bg-cobalt" />
-              <p className="text-body-sm text-ash">{STEP_COPY[phase as "planning" | "writing"]}</p>
+              <p className="text-body-sm text-ash">{STEP_COPY[phase as "planning" | "pooling" | "writing"]}</p>
             </Card>
           )}
 
