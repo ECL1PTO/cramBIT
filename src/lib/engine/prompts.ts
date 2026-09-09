@@ -12,8 +12,8 @@ BIT Mesra (Noida campus) MID-SEMESTER format — non-negotiable:
 
 const clip = (s: string, n: number) => (s.length > n ? s.slice(0, n) + "…" : s);
 
-function renderPapers(papers: PastPaper[], budgetChars = 6000): string {
-  const list = papers.slice(0, 5);
+function renderPapers(papers: PastPaper[], budgetChars = 4000): string {
+  const list = papers.slice(0, 3);
   const per = Math.floor(budgetChars / Math.max(1, list.length));
   const rendered = list.map((p) => {
     const structured = p.questions
@@ -55,7 +55,7 @@ export function analysisPrompt(args: {
 mid-sem for "${args.courseName}" is actually set, based on real evidence.
 
 SYLLABUS (the only allowed scope):
-${clip(args.syllabus, 4200)}
+${clip(args.syllabus, 3400)}
 
 ${
   own
@@ -99,7 +99,7 @@ export function candidatePoolPrompt(args: {
 "${args.courseName}". Reason step by step, then output the pool.
 
 SYLLABUS:
-${clip(args.syllabus, 4200)}
+${clip(args.syllabus, 3400)}
 
 BLUEPRINT (from evidence analysis):
 ${JSON.stringify(args.blueprint)}
@@ -135,7 +135,7 @@ ${args.courseCode} — ${args.courseName} from this candidate pool.
 ${EXAM_RULES}
 
 SYLLABUS SCOPE:
-${clip(args.syllabus, 3200)}
+${clip(args.syllabus, 2800)}
 
 CANDIDATE POOL (module | marks | probability | question):
 ${args.candidates

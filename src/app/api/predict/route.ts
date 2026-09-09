@@ -133,6 +133,16 @@ export async function POST(req: Request) {
     });
   } catch (err) {
     console.error("predict error:", err);
+    const msg = err instanceof Error ? err.message : "";
+    if (/exhausted|429|rate.?limit|quota|capacity/i.test(msg)) {
+      return NextResponse.json(
+        {
+          error:
+            "cramBIT's AI is at capacity right now (free-tier limit). Try again in a few minutes.",
+        },
+        { status: 503 },
+      );
+    }
     return NextResponse.json(
       { error: "The engine hit a snag. Please try again." },
       { status: 502 },

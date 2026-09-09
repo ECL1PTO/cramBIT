@@ -1,6 +1,5 @@
 import Link from "next/link";
 import {
-  Badge,
   ButtonLink,
   Card,
   Container,
@@ -35,8 +34,7 @@ export default function LandingPage() {
       {/* hero */}
       <Container className="relative grid items-center gap-14 pt-14 pb-16 sm:pt-20 sm:pb-section lg:grid-cols-[1.05fr_0.95fr]">
         <div className="max-w-2xl">
-          <Badge className="rise rise-1">BIT Mesra · Noida campus</Badge>
-          <h1 className="rise rise-2 mt-6 text-[2.7rem] font-medium leading-[1.03] tracking-tight text-text sm:text-[3.4rem] md:text-[4.2rem] lg:text-[4.75rem]">
+          <h1 className="rise rise-1 text-[2.7rem] font-medium leading-[1.03] tracking-tight text-text sm:text-[3.4rem] md:text-[4.2rem] lg:text-[4.75rem]">
             Walk into your mid-sem
             <br className="hidden sm:block" /> having already{" "}
             <span className="shimmer font-serif italic">seen the paper.</span>

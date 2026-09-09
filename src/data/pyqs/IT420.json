@@ -113,6 +113,98 @@
           ]
         }
       ]
+    },
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 2,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define in your own words: Rational agent; Bounded rationality; Turing Test; Omniscience.",
+              "marks": 2,
+              "topic": "Rational agent"
+            },
+            {
+              "label": "b",
+              "text": "For each of the following activities, give a PEAS description of the task environment and characterize it in terms of the properties: (a) Shopping for AI books on the Internet. (b) Part picking robot.",
+              "marks": 3,
+              "topic": "PEAS"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write down the task environment of the followings: Chess with a clock; Medical diagnosis. Indicate for each: Fully/Partially observed, Single/Multi‑agent, Deterministic/Stochastic/Strategic, Episodic/Sequential, Discrete/Continuous.",
+              "marks": 2,
+              "topic": "Task environment"
+            },
+            {
+              "label": "b",
+              "text": "Describe how agent architectures are modified from simple reflex agent to model‑based agent to goal‑based and finally to utility‑based agent in a partially observed environment (take vacuum agent / automated taxi driving as an example).",
+              "marks": 3,
+              "topic": "Agent architectures"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "The 8‑puzzle consists of a 3×3 board with eight numbered tiles and a blank space. By using left, right, up, and down action sequences show one solution using Depth‑First Search.",
+              "marks": 2,
+              "topic": "8-puzzle"
+            },
+            {
+              "label": "b",
+              "text": "Consider the Water Jug Problem and describe: (a) the problem statement as a state‑space search; (b) the production rules for moving within the search space; (c) the starting and goal states and at least two solutions; (d) how Breadth‑First Search works in this example.",
+              "marks": 3,
+              "topic": "Water Jug Problem"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "In general, iterative deepening is the preferred uninformed search method when the search space is large and the depth of the solution is not known – explain.",
+              "marks": 2,
+              "topic": "Iterative deepening"
+            },
+            {
+              "label": "b",
+              "text": "Differentiate Breadth‑First Search and Iterative‑Deepening Depth‑First Search with the help of algorithms and evaluate time complexity and space complexity. For b=10 and d=5, find the number of nodes, time complexity and space complexity (assume 1 million nodes can be generated per second and a node requires 1000 bytes).",
+              "marks": 3,
+              "topic": "BFS vs IDDFS"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define the terms NLP, NLU and NLG. Explain briefly: morphology analysis, syntactic processing, semantic analysis, and pragmatic analysis of NLP.",
+              "marks": 5,
+              "topic": "NLP"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

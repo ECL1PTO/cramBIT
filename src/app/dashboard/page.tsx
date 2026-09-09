@@ -118,7 +118,7 @@ export default function Dashboard() {
       const plan = await planRes.json();
       if (planRes.ok && plan.papersRead) {
         setPapersRead(plan.papersRead);
-        await hold(t0, Math.min(9000, 2500 + plan.papersRead * 350));
+        await hold(t0, Math.min(4500, 1600 + plan.papersRead * 150));
       }
 
       if (planRes.status === 402) {
@@ -160,7 +160,7 @@ export default function Dashboard() {
         setPhase("idle");
         return setError(pool.error ?? "Could not rank questions.");
       }
-      await hold(t1, 3500);
+      await hold(t1, 1800);
 
       setPhase("writing");
       const writeRes = await post({

@@ -109,7 +109,7 @@ export async function buildBlueprint(r: Resolved): Promise<Blueprint> {
   const raw = await chat({
     tier: "reason",
     json: true,
-    maxTokens: 4000,
+    maxTokens: 3000,
     prompt: analysisPrompt({
       courseName: r.name,
       syllabus: r.syllabus,
@@ -140,7 +140,7 @@ export async function buildCandidatePool(
   const raw = await chat({
     tier: "reason",
     json: true,
-    maxTokens: 4000,
+    maxTokens: 3000,
     prompt: candidatePoolPrompt({
       courseName: r.name,
       syllabus: r.syllabus,
@@ -172,7 +172,7 @@ export async function assembleBatch(
     chat({
       tier: "reason",
       json: false,
-      maxTokens: 7000,
+      maxTokens: 5500,
       prompt: assemblyPrompt({
         courseCode: codeLabel,
         courseName: r.name,

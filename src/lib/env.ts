@@ -11,7 +11,8 @@ const schema = z.object({
   SUPABASE_SERVICE_ROLE_KEY: z.string().min(1),
   GEMINI_API_KEY: z.string().min(1), // last-resort fallback + PDF pipeline
   GROQ_API_KEY: z.string().optional(),
-  CEREBRAS_API_KEY: z.string().optional(), // preferred: highest free limits
+  OPENROUTER_API_KEY: z.string().optional(), // free DeepSeek etc.; $10 credit → 1000/day
+  CEREBRAS_API_KEY: z.string().optional(),
 
   NEXT_PUBLIC_SITE_URL: z.string().url().default("http://localhost:3000"),
   NEXT_PUBLIC_UPI_VPA: z.string().min(3).optional(),

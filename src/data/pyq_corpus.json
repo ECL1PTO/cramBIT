@@ -963,5 +963,32 @@
       "crypto arithmetic"
     ],
     "sessions": 1
+  },
+  {
+    "key": "CSE/IT420 ARTIFICIAL INTELLIGENCE_OE (MID_MO22).pdf",
+    "code": "IT420",
+    "name": "ARTIFICIAL INTELLIGENCE",
+    "dept": "CSE",
+    "topics": [
+      "Rational agent",
+      "Bounded rationality",
+      "Turing Test",
+      "Omniscience",
+      "PEAS",
+      "Task environment",
+      "Agent architectures",
+      "8-puzzle",
+      "Water Jug Problem",
+      "Iterative deepening",
+      "BFS vs IDDFS",
+      "NLP",
+      "NLU",
+      "NLG",
+      "Morphology",
+      "Syntactic processing",
+      "Semantic analysis",
+      "Pragmatic analysis"
+    ],
+    "sessions": 1
   }
 ]
