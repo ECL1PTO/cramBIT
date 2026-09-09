@@ -94,7 +94,7 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "disclaimer-required" }, { status: 428 });
     }
 
-    const sets = await writeSets(r, blueprint, 4);
+    const { sets, topCandidates } = await writeSets(r, blueprint, 4);
 
     await db.from("generated_papers").insert({
       user_id: user.id,
@@ -102,7 +102,7 @@ export async function POST(req: Request) {
       course_input: courseInput.trim(),
       syllabus_text: r.syllabus,
       coverage: r.coverage,
-      blueprint,
+      blueprint: { ...blueprint, topCandidates },
       sets,
       set_count: sets.length,
       is_paid: ent.isPaid,

@@ -41,6 +41,7 @@ export default function Dashboard() {
   const [sets, setSets] = useState<string[]>([]);
   const [activeSet, setActiveSet] = useState(0);
   const [courseCode, setCourseCode] = useState<string | null>(null);
+  const [isPaid, setIsPaid] = useState(false);
 
   const [paywall, setPaywall] = useState<null | { code: string | null }>(null);
   const [needAck, setNeedAck] = useState(false);
@@ -137,6 +138,7 @@ export default function Dashboard() {
         return setError(written.error ?? "Generation failed.");
       }
       setSets(written.sets ?? []);
+      setIsPaid(Boolean(written.isPaid));
       setPhase("done");
     } catch {
       setPhase("idle");
@@ -276,8 +278,17 @@ export default function Dashboard() {
         </div>
       </Container>
 
-      {sets.length > 0 && (
+      {sets.length > 0 && isPaid && (
         <AITutor courseCode={courseCode ?? courseInput} paperContent={sets[activeSet] ?? ""} />
+      )}
+
+      {sets.length > 0 && !isPaid && (
+        <button
+          onClick={() => setPaywall({ code: courseCode })}
+          className="fixed bottom-5 right-5 z-40 rounded-pill border border-hairline px-5 py-3 text-body-sm text-ash hover:text-ivory no-print"
+        >
+          Unlock the AI tutor
+        </button>
       )}
 
       {paywall && (

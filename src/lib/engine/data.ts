@@ -68,6 +68,10 @@ export function indexedPaperCount(): number {
   return index.corpus.reduce((n, c) => n + (c.sessions ?? 0), 0);
 }
 
+export function topicFreqFor(code: string): Record<string, number> | undefined {
+  return index.courses[normalizeCode(code)]?.topicFreq;
+}
+
 /**
  * For a new / PYQ-less course, find the most similar courses in the whole
  * archive corpus by keyword overlap against the provided syllabus text.

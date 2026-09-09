@@ -7,14 +7,23 @@ import {
   getPyqs,
   normalizeCode,
   similarCourses,
+  topicFreqFor,
 } from "./data";
-import { generate, MODELS, parseJson } from "./gemini";
-import { analysisPrompt, predictionPrompt, validationPrompt } from "./prompts";
+import { chat, parseJson } from "./llm";
+import {
+  analysisPrompt,
+  assemblyPrompt,
+  candidatePoolPrompt,
+  validationPrompt,
+} from "./prompts";
 import {
   BlueprintSchema,
+  CandidatePoolSchema,
   PredictedSetsSchema,
   type Blueprint,
+  type Candidate,
   type Coverage,
+  type PastPaper,
 } from "./types";
 
 const SYLLABUS_CAP = 8000;
@@ -42,10 +51,7 @@ export function resolve(courseInput: string, pastedSyllabus: string): Resolved {
   else if (course) coverage = "syllabus-only";
   else coverage = "new-course";
 
-  const syllabus = (course?.syllabus?.trim() || pastedSyllabus.trim()).slice(
-    0,
-    SYLLABUS_CAP,
-  );
+  const syllabus = (course?.syllabus?.trim() || pastedSyllabus.trim()).slice(0, SYLLABUS_CAP);
   const neighbours = pyqs ? [] : similarCourses(syllabus, 4);
 
   return {
@@ -58,7 +64,30 @@ export function resolve(courseInput: string, pastedSyllabus: string): Resolved {
   };
 }
 
-/** Pass 1 — analysis blueprint (DB-cached). */
+/** All past-paper evidence available for this course (own first, then similar). */
+function gatherEvidence(r: Resolved): {
+  own: PastPaper[];
+  borrowed: { code: string; name: string; papers: PastPaper[] }[];
+  all: PastPaper[];
+} {
+  const ownPyqs = r.code ? getPyqs(r.code) : null;
+  const own = ownPyqs?.historical_papers ?? [];
+  const neighbours = own.length ? [] : similarCourses(r.syllabus, 4);
+  const borrowedFiles = borrowedPyqs(neighbours.map((n) => n.code));
+  const borrowed = neighbours.map((n, i) => ({
+    code: n.code,
+    name: n.name,
+    papers: borrowedFiles[i]?.historical_papers ?? [],
+  }));
+  return {
+    own,
+    borrowed,
+    all: [...own, ...borrowed.flatMap((b) => b.papers)],
+  };
+}
+
+/* ---------------------------------------------------------- pass 1: blueprint */
+
 export async function buildBlueprint(r: Resolved): Promise<Blueprint> {
   const subjectKey = r.code ?? `new:${hash(r.syllabus)}`;
   const syllabus_hash = hash(r.syllabus);
@@ -75,23 +104,18 @@ export async function buildBlueprint(r: Resolved): Promise<Blueprint> {
     if (cached.success) return cached.data;
   }
 
-  const ownPyqs = r.code ? getPyqs(r.code) : null;
-  const neighbours = ownPyqs ? [] : similarCourses(r.syllabus, 4);
-  const borrowed = borrowedPyqs(neighbours.map((n) => n.code));
-
-  const raw = await generate({
-    model: MODELS.reason,
+  const ev = gatherEvidence(r);
+  const raw = await chat({
+    tier: "reason",
     json: true,
+    maxTokens: 10000,
     prompt: analysisPrompt({
       courseName: r.name,
       syllabus: r.syllabus,
       coverage: r.coverage,
-      ownPapers: ownPyqs?.historical_papers ?? [],
-      borrowedPapers: neighbours.map((n, i) => ({
-        code: n.code,
-        name: n.name,
-        papers: borrowed[i]?.historical_papers ?? [],
-      })),
+      ownPapers: ev.own,
+      borrowedPapers: ev.borrowed,
+      topicFreq: r.code ? topicFreqFor(r.code) : undefined,
     }),
   });
   const blueprint = BlueprintSchema.parse(parseJson<unknown>(raw));
@@ -105,32 +129,56 @@ export async function buildBlueprint(r: Resolved): Promise<Blueprint> {
   return blueprint;
 }
 
-/** Pass 2 + 3 — write the papers and validate them. */
+/* ------------------------------------------ pass 2: ranked candidate question pool */
+
+async function buildCandidatePool(r: Resolved, blueprint: Blueprint): Promise<Candidate[]> {
+  const ev = gatherEvidence(r);
+  const raw = await chat({
+    tier: "reason",
+    json: true,
+    maxTokens: 14000,
+    prompt: candidatePoolPrompt({
+      courseName: r.name,
+      syllabus: r.syllabus,
+      blueprint,
+      pastPapers: ev.all,
+    }),
+  });
+  return CandidatePoolSchema.parse(parseJson<unknown>(raw)).candidates.sort(
+    (a, b) => b.probability - a.probability,
+  );
+}
+
+/* ------------------------------------------ pass 3 + 4: assemble and validate */
+
 export async function writeSets(
   r: Resolved,
   blueprint: Blueprint,
   setCount = 4,
-): Promise<string[]> {
+): Promise<{ sets: string[]; topCandidates: Candidate[] }> {
   const codeLabel = r.code ?? r.name.toUpperCase();
+  const candidates = await buildCandidatePool(r, blueprint);
 
-  const raw = await generate({
-    model: MODELS.reason,
-    json: true,
-    maxOutputTokens: 12000,
-    prompt: predictionPrompt({
-      courseCode: codeLabel,
-      courseName: r.name,
-      syllabus: r.syllabus,
-      blueprint,
-      setCount,
-    }),
-  });
-  const { sets } = PredictedSetsSchema.parse(parseJson<unknown>(raw));
+  const assemble = (count: number) =>
+    chat({
+      tier: "reason",
+      json: true,
+      maxTokens: 14000,
+      prompt: assemblyPrompt({
+        courseCode: codeLabel,
+        courseName: r.name,
+        syllabus: r.syllabus,
+        candidates,
+        setCount: count,
+      }),
+    }).then((raw) => PredictedSetsSchema.parse(parseJson<unknown>(raw)).sets);
+
+  const sets = await assemble(setCount);
 
   const checked = await Promise.all(
     sets.map(async (set) => {
-      const ok = await generate({
-        model: MODELS.fast,
+      const ok = await chat({
+        tier: "fast",
         json: true,
         prompt: validationPrompt(set, r.syllabus),
       })
@@ -147,21 +195,12 @@ export async function writeSets(
       continue;
     }
     try {
-      const retry = await generate({
-        model: MODELS.reason,
-        json: true,
-        prompt: predictionPrompt({
-          courseCode: codeLabel,
-          courseName: r.name,
-          syllabus: r.syllabus,
-          blueprint,
-          setCount: 1,
-        }),
-      });
-      out.push(PredictedSetsSchema.parse(parseJson<unknown>(retry)).sets[0] ?? c.set);
+      const [fixed] = await assemble(1);
+      out.push(fixed ?? c.set);
     } catch {
       out.push(c.set);
     }
   }
-  return out;
+
+  return { sets: out, topCandidates: candidates.slice(0, 12) };
 }

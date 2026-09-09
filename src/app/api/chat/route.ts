@@ -4,7 +4,7 @@ import { requireUser } from "@/lib/auth";
 import { createServiceClient } from "@/utils/supabase/service";
 import { checkEntitlement, rateLimit } from "@/lib/entitlement";
 import { normalizeCode } from "@/lib/engine/data";
-import { generate, MODELS } from "@/lib/engine/gemini";
+import { chat } from "@/lib/engine/llm";
 
 export const runtime = "nodejs";
 export const maxDuration = 30;
@@ -29,7 +29,8 @@ export async function POST(req: Request) {
   const db = createServiceClient();
   const code = normalizeCode(courseContext);
   const ent = await checkEntitlement(db, user.id, code || null);
-  if (!ent.allowed) {
+  // The AI tutor is a paid-tier feature — the free paper does not include it.
+  if (!ent.allowed || !ent.isPaid) {
     return NextResponse.json({ error: "needs-payment" }, { status: 402 });
   }
   if (!(await rateLimit(db, user.id, "chat"))) {
@@ -50,11 +51,11 @@ derivations and code. If asked something outside the paper's scope, answer brief
 back.`;
 
   try {
-    const text = await generate({
-      model: MODELS.fast,
+    const text = await chat({
+      tier: "reason",
       system,
       prompt: `${transcript}\nTutor:`,
-      maxOutputTokens: 2048,
+      maxTokens: 2048,
     });
     return NextResponse.json({ text });
   } catch (err) {
