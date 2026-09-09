@@ -1,0 +1,13 @@
+{
+  "courseCode": "EC305",
+  "courseName": "SIGNAL PROCESSING TECHNIQUES",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH   SEMESTER: V\nBRANCH: ECE   SESSION: MO/2022\n\nSUBJECT: EC305 SIGNAL PROCESSING TECHNIQUES\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n\n:::::: 28/09/2022 M ::::::\n\n    CO BL\nQ1(a) Define stability of a digital system. Test for the stability of the system h(n)=0.2\nn\nu(n).\n[2] CO1 L1,L3\nQ1(b) Determine the zero-input response of the system described by the difference\nequation\ny(n)-3y(n-1)-4y(n-2) =0\n[3] CO1 L2\n\n\nQ2(a) Find the circular convolution of x(n)= {1, 0.5} and y(n)= {0.5, 1}. [2] CO1 L3\nQ2(b)\nFor the given 풙\n(\n풏\n)\n=ퟎ.ퟑ\n풏\n풖\n(\n풏\n)\n+ퟎ.ퟖ\n풏\n풖(−풏−ퟏ) .  Find 푿(풛)and  show\nthe ROC.\n[3] CO1 L3\n\n\nQ3(a) Prove that circular convolution in time domain is equivalent to multiplication of\nDFTs in frequency domain.\n[2] CO1 L4\nQ3(b) Sketch  the butterfly  structure  for  computing  the  FFT  of  the  sequence\nx(n)={1,2,3,4,-1,-2,-3,-4} , using DIT technique.\n[3] CO1 L4\n\n\nQ4(a) List out the difference between FIR and IIR filters. [2] CO2 L1\nQ4(b) Realize the following system in Direct form II.\n\n[3] CO2 L3\n\n\nQ5(a) For the given system H(z), if 2 is quantized to 2.1 and 3 is quantized to 3.1. Find\nthe quantization errors in the poles of the system.\n\n[2] CO2 L2\n (b) Realize the given system in cascade form.\n푯\n(\n풛\n)\n=\nퟏ+ퟎ.ퟐퟓ풛\nିퟏ\n(ퟏ−ퟐ풛\nିퟏ\n+ퟎ.ퟐퟓ풛\nିퟐ\n)(ퟏ−ퟑ풛\nିퟏ\n+ퟎ.ퟐ풛\nିퟐ\n)\n\n[3] CO2 L3\n퐻\n(\n푧\n)\n=\n1+3푧\n−1\n1−5푧\n−1\n+3푧\n−2\n\n퐻\n(\n푧\n)\n=\n1+3푧\n−1\n1−2푧\n−1\n+3푧\n−2"
+    }
+  ]
+}

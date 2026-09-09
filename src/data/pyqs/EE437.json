@@ -1,0 +1,13 @@
+{
+  "courseCode": "EE437",
+  "courseName": "INDUSTRIAL DRIVES AND CONTROL",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH.   SEMESTER: VII\nBRANCH: EEE   SESSION: MO/2022\n\nSUBJECT: EE437 INDUSTRIAL DRIVES AND CONTROL\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n    CO BL\nQ1 (a) List applications of Electrical Drives in different industries. [2] CO1 BL1\nQ1 (b) Briefly  discuss  criteria  for  the  choice  of  an  electrical  drive  for  different\napplications.\n[3] CO1 BL1\n\n\nQ2 (a) Draw a block diagram of generalized electrical drives. [2] CO2 BL2\nQ2 (b) Explain the role of power converters in electrical drives. [3] CO2 BL2\n\n\nQ3 (a) Discuss the steady-state stability of a drive. Give an example of a stable point\nof operation and an unstable point of operation by drawing motoring speed-\ntorque characteristics and load speed-torque characteristics in each case.\n[2] CO3 BL3\nQ3 (b) A drive has rotational inertia 10kg/m\n2\n. Its speed (N) torque (T) characteristics\nis  given  by    (푻 = ퟏퟎퟎ − ퟎ.ퟏ푵)  newton-meter.  Passive  load  torque\ncharacteristics is (T\nL\n = 0.05N ) newton-meter. N is the speed in rpm. Initially,\nthe  drive  is  operating  in  the  steady  state.  If  the  motor  speed-torque\ncharacteristics is changed to\n(푻=−ퟏퟎퟎ−ퟎ.ퟏ푵) newton-meter. Calculate the time of reversal if the motor\nreaches steady state.\n[3] CO3 BL3\n\n\nQ4 (a) Briefly explain different classes of motor duty. [2] CO4 BL4\nQ4 (b) Derive the thermal model of a motor. [3] CO4 BL4\n\n\nQ5 (a) Derive speed torque characteristics of DC series motor. [2] CO5 BL5\nQ5 (b) Design a starter of DC hunt motor using limiting resistances. Show the Circuit\ndiagram and briefly explain.\n[3] CO5 BL5\n\n\n\n\n :::::: 28/09/2022 ::::::M"
+    }
+  ]
+}

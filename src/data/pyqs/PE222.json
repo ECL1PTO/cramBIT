@@ -1,0 +1,13 @@
+{
+  "courseCode": "PE222",
+  "courseName": "DISCRETE EVENT SYSTEM SIMULATION",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2023)\nCLASS:  BTECH   SEMESTER : VI\nBRANCH: PROD &IE   SESSION : SP/2023\n\nSUBJECT: PE222 DISCRETE EVENT SYSTEM SIMULATION\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Give one example each for discrete and continuous simulation problems and plot graphs.\nTake time in X-axis and system variable in Y axis.\n[2] 2 3\nQ.1(b) Construct a flow chat indicating steps of modeling and simulation. Identify and explain the\niterative processes present in the flowchart.\n[3] 2 2\n\n\nQ.2(a) Differentiate between model verification and validation.  [2] 3 2\nQ.2(b) Give a detail account on model taxonomy.  [3] 3 2\n\n\nQ.3(a) For a warehouse, identify any four entities their attributes and state variables. [2] 1 3\nQ.3(b) Explain queue behavior and queue discipline briefly. [3] 2 2\n\n\nQ.4(a) Differentiate between activity and delay in the context of simulation. [2] 2 2\nQ.4(b) Compare  between  a  deterministic  and  stochastic  inventory  model  and  describe  how\nsimulation helps in the stochastic inventory model.\n[3] 3 3\n\n\nQ.5 Jobs  arrive  at  a  machine  with  inter-arrival  time  discrete  uniformly  distributed  with\nprobability  p(a)  =  0.25  with  a  =  3,  5,  6,  8  min.  Operation  time  follows  probability\ndistribution N (4, 1) min. Simulate the discrete event system for completion of five jobs to\nfind average cycle time. Use random standardized normal numbers as 1.98, 0.23, —0.68,\n—1.44, 2.45\n[5] 4 4\n\n::::::24/02/2023::::::M"
+    }
+  ]
+}

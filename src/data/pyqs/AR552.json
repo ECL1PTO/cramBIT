@@ -1,0 +1,13 @@
+{
+  "courseCode": "AR552",
+  "courseName": "CONSTRUCTION PROJECT MANAGEMENT",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2023)\nCLASS:  B.ARCH   SEMESTER : Xth\nBRANCH: ARCHITECTURE   SESSION : SP/2023\n\nSUBJECT: AR552 CONSTRUCTION PROJECT MANAGEMENT\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) What is Construction Project Management and its triple constraint? [2] A Lvl.1\nQ.1(b) Explain the different project management processes and its interrelationship. [3] B Lvl.1\n\n\nQ.2(a) Explain LINE OF BALANCE SCHEDULING TECHNIQUE and where is it useful? [2] A Lvl.1\nQ.2(b) Explain the different steps involved in Construction Project Planning. [3] B Lvl.1\n\n\nQ.3(a) Explain  the  Project  Time  Management  and  processes  required  to  ensure  timely\ncompletion of any construction project.\n[2] A Lvl.2\nQ.3(b) What is WBS and its possible ways to organize WBS? [3] B Lvl.2\n\n\nQ.4(a) Explain Lag and Overlap with respect to Project schedule? [2] A Lvl.1\nQ.4(b) Draw AOA and AON network diagramme for the project details given below. [3] C Lvl.4\n\nActivity A B C D E F G H\npredecessor - - A A & B C C D & E F & G\n\n\n\n\nQ.5(a) What is the total project duration, and free Float for Activity E for the given network\ndiagramme?\n[2] A Lvl.3\nQ.5(b) What is the critical Path for the network diagramme given below? [3] C Lvl.4\n\n\n\n\n\n::::::01/03/2023::::::M"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "courseCode": "ME251",
+  "courseName": "THERMO FLUID ENGINEERING",
+  "historical_papers": [
+    {
+      "session": "SP20",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH   SEMESTER: IV\nBRANCH: MECHANICAL   SESSION : SP/2020\n\nSUBJECT: ME251 THERMO FLUID ENGINEERING\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates may attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n    CO BL\nQ1 (a) Define clearly the local and convective acceleration with examples. [2] 1 1\nQ1 (b) Derive  an  expression  for  the  material  derivative  and  explain  clearly  the\nphysical interpretation of each term.\n[3] 1 2,\n6\n\nQ2 (a) Water flows out of the device as shown in Fig. 1. Calculate the rate of change\nof the mass of water (dm/dt) in the device.\n[2] 1 3\nQ2 (b) Determine the conservation of mass from the Reynolds transport theorem and\ndiscuss the special cases in context to the compressible and incompressible\nflows.\n\n\n\n\n\n\n\n[3] 1 3\n\nQ3 (a) Derive  an expression  for  the  volumetric  dilatation  rate  and  explain  its\nsignificance.\n[2] 2 6\nQ3 (b) With  a  neat  sketch,  derive  an  expression  for  the  angular  motion  and\ndeformation of a differential fluid element.\n[3] 2 6\n\nQ4  In the case of rectangular parallelepiped, how would you derive the relation\nfor the rate of shearing strains.\n[5] 2 6\n\nQ5  Water flows steadily through the 90°reducing elbow shown in Fig. 2. At the\ninlet to the elbow, the absolute pressure is 220 kPa and the cross-sectional\narea is 0.01 m\n2\n. At the outlet, the cross-sectional area is 0.0025 m\n2\n and the\nvelocity is 16 m/s. The elbow  discharges  to  the atmosphere. Calculate the\nforce required to hold the elbow in place.\n\n\n\n\n\n\n[5] 3 3\n\n\n\n :::::: 04/03/2020 ::::::E"
+    }
+  ]
+}

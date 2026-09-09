@@ -1,0 +1,13 @@
+{
+  "courseCode": "PE303",
+  "courseName": "DESIGN OF MACHINE ELEMENTS",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS: B.TECH   SEMESTER : VI\nBRANCH: PROD.   SESSION : SP2023\n\nSUBJECT: PE303 DESIGN OF MACHINE ELEMENTS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1 What do you mean by the factor of safety? List the important factors that influence the\nmagnitude of the factor of safety.\n[5] 1 2\n\nQ.2 The diameter of the shaft in Fig. 1 is 60 mm. The material used is 50C4 steel, having a yield\ntensile  strength  of  400  MPa.  Using the  factor  of  safety  =  2.5,  find  the  load  P  applying\nmaximum shear stress theory.\n\n\nFig. 1\nAll dimensions in mm\n\n[5] 1 3\n\nQ.3 Two rods are connected utilizing a cotter joint. The inside diameter of the socket and the\noutside  diameter  of  the  socket  collar  are  50  and  100  mm,  respectively.  The  rods  are\nsubjected to a tensile force of 50 kN. The cotter is made of steel 30C8 with a tensile yield\nstrength of 400 MPa, and the factor of safety is 4. The width of the cotter is five times of\nthickness.  Calculate  the  width and  thickness  of  the  cotter  based on  shear and  bending\nfailure.\n[5] 2 3\n\nQ.4 A bracket, as shown in Fig. 2, carries a load of 10 kN. Find the size of the weld if the\nallowable shear stress is not to exceed 80 MPa.\n\n\nFig. 2\nAll dimensions in mm\n[5] 2 3\n\n    PTO\n\n\n\n\n\n\nQ.5 A crane-runway bracket is fastened to the roof truss employing two identical bolts, as shown\nin Fig. 3. Select the size of the bolts, if the permissible tensile stress in the bolts is limited\nto 75 MPa.\n\n\nFig. 3\nAll dimensions in mm\n\n[5] 3 4\n Basic dimensions for ISO metric screw threads (coarse series)\n\n\n\n\n::::::20/02/2023::::::M"
+    }
+  ]
+}

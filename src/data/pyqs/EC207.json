@@ -1,0 +1,13 @@
+{
+  "courseCode": "EC207",
+  "courseName": "ELECTRONIC MEASUREMENTS",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH   SEMESTER: III\nBRANCH: ECE   SESSION: MO/2022\n\nSUBJECT:EC207 ELECTRONIC MEASUREMENTS\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a) Describe  the  difference  between  the  deflection  and  null  type instruments  by\ngiving suitable examples.\n[2] CO1 BL2\nQ1 (b) Draw the block diagram of a generalized instrumentation system and explain\nthe functions of each block.\n[3] CO1 BL1\n\n\nQ2 (a) Define reproducibility. How is it different from repeatability? [2] CO1 BL1\nQ2 (b) Explain (i) Drift (ii)accuracy (iii)dead zone [3] CO1 BL2\n\n\nQ3 (a) A moving coil voltmeter has a uniform scale with 100 divisions, the full scale\nreading is 100V and 1/10 of a scale division can be estimated with a fair degree\nof certainty. Determine the resolution of instrument in volts.\n[2] CO1 BL5\nQ3 (b) Explain precision. Find out the significant figures in the following (i) 25.53 A  (ii)\n0.00437 V\n[3] CO1 BL5\n\n\nQ4 (a) Discuss why PMMC can be used only for DC measurements. [2] CO2 BL6\nQ4 (b) Describe the construction and working of PMMC in brief. [3] CO2 BL1\n\n\nQ5 (a) Discuss why the scale of attraction type moving iron instruments is non linear. [2] CO2 BL6\nQ5 (b) Discuss  the  attraction  and  repulsion  type  moving  iron  instrument  with  clear\ndiagram.\n[3] CO2 BL2\n\n\n\n\n :::::: 28/09/2022 M ::::::"
+    }
+  ]
+}

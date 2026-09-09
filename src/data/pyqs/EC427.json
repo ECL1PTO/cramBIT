@@ -1,0 +1,13 @@
+{
+  "courseCode": "EC427",
+  "courseName": "NEURAL NETWORK AND FUZZY SYSTEM",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH   SEMESTER: VII\nBRANCH: ECE   SESSION: MO/2022\n\nSUBJECT: EC427 NEURAL NETWORK AND FUZZY SYSTEM\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n    CO BL\nQ1 (a) Compare the Artificial Neuron with the Biological Neuron. [2] CO1 L2\nQ1 (b) What is the need for activation function? Explain different types of activation\nfunctions used in ANN.\n[3] CO1 L1\nL3\n\n\nQ2 (a) Justify-XOR  function  is  non-linearly  separable  by  a  single  decision boundary\nline.\n[2] CO1 L3\nQ2 (b) Implement  the  XOR  function  using  McCulloch-Pitts  neuron  (consider  binary\ndata).\n[3] CO1 L3\n\n\nQ3 (a) Write the training algorithm for Hebb Network. [2] CO1 L1\nQ3 (b) Obtain the output of the neuron  Y connected to a set of input neurons with\ninput x=[0.8 0.6 0.4] and corresponding weights w=[0.1 0.3 -0.2]. Use binary\nsigmoid as the activation function.\n[3] CO1 L3\n\n\nQ4 (a) What are the different learning strategies  used in artificial Neural networks?\nExplain briefly.\n[2] CO1 L1\nL2\nQ4 (b) Implement Boolean !AND function using MP neurons. (Use binary data) [3] CO1 L3\n\n\nQ5 (a) Structure a perceptron network with three inputs and one hidden layer. [2] CO1 L4\nQ5 (b) Write the  perceptron learning  algorithm  and  explain  how  the  error  is\nminimized.\n[3] CO1 L2\n\n\n\n :::::: 26/09/2022 ::::::M"
+    }
+  ]
+}

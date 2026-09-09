@@ -1,0 +1,13 @@
+{
+  "courseCode": "ED103",
+  "courseName": "STATISTICAL METHOD-I",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: IMSc   SEMESTER: I\nBRANCH: QEDS   SESSION: MO/2022\n\nSUBJECT: ED103 STATISTICAL METHOD-I\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Distinguish between population and sample. [2] 1\nQ.1(b) Discuss the merits and demerits of complete enumeration (census) and Sample survey\nmethod.\n[3] 1\n\nQ.2 Draw the histogram of the following frequency distribution and find the proportion of\nfirms with annual sales greater than Rs. 70000:\nAnnual Sales (Rs ‘000): 0-20 20-50 50-100 100-250 250-500 500-1000\nNo. of firms 20 50 69 30 25 19\n\n[5] 1\n\nQ.3 For a group of 100 candidates the mean and standard deviation of their marks were found\nto be 60 and 15 respectively. Later on it was found that the scores 45 and 72 were wrongly\nentered as 40 and 27. Find the correct mean and standard deviation.\n[5] 2\n\nQ.4(a)\nThe temperature of two cities A and B in a winter season are given below. Find which city\nis more consistent in temperature changes?\nTemp.  of  city\nA  (in  degree\nCelsius)\n18 20 22 24 26\nTemp.  of  city\nB  (in  degree\nCelsius)\n11 14 15 17 18\n\n[5] 2\n\nQ.5(a) If the first quartile is 142 and semi-interquartile range is 18, find the median (assuming\nthe distribution to be symmetrical about mean or median)\n[2]\nQ.5(b) Calculate the coefficient of skewness based on quartiles from the following:\nMore than 0 5474\nMore than 10 5426\nMore than 20 5259\nMore than 30 5023\nMore than 40 4475\nMore than 50 3712\nMore than 60 2718\nMore than 70 1406\nMore than 80 764\nMore than 90 370\nMore than 100 160\nMore than 110 39\n\n[3]\n\n\n\n\n :::::: 17/01/2023 ::::::M"
+    }
+  ]
+}

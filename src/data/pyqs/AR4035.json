@@ -1,0 +1,13 @@
+{
+  "courseCode": "AR4035",
+  "courseName": "THEORY OF STRUCTURE",
+  "historical_papers": [
+    {
+      "session": "SP19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.ARCH   SEMESTER: IV\nBRANCH: ARCHITECTURE   SESSION : SP/2019\n\nSUBJECT : AR4035 THEORY OF STRUCTURE\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) Explain externally indeterminate structure with an example. [2]\n (b) Determine the degree of indeterminacy of rigid joint frame shown below:\n\n                         (i)                                                      (ii)\n\n\n\n                        (iii)\n[3]\n\nQ2  Determine all the reaction components for the beam shown below by Consistent\ndeformation method. Consider EI constant.\n\n[5]\n\nQ3  Determine all the reaction components for the beam shown for Q2. by three moment\ntheorem method. Also draw shear and moment diagrams.\n[5]\n\nQ4  Compute the reactions at the support by force method for the beam shown below and\ndraw shear and moment diagrams\n\n[5]\n   PTO\n\n\n\n\n\n\nQ5 (a) Sate Castigliano’s second theorem. [2]\n (b) Differentiate between Force and Displacement methods for analysis of Indeterminate\nstructures.\n[3]\n\nQ6  Determine the fixed end moments and reactions for the beam shown below:\n\n[5]\n\n\n\n :::: 05/03/2019 ::::::E"
+    }
+  ]
+}

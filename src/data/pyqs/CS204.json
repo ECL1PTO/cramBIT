@@ -3,194 +3,25 @@
   "courseName": "OBJECT ORIENTED PROGRAMMING & DESIGN PATTERNS",
   "historical_papers": [
     {
-      "session": "SP2023",
+      "session": "SP23",
       "examType": "MID",
-      "maxMarks": 25,
-      "durationHrs": 2,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What are the features of Object‑oriented Programming? Explain with examples.",
-              "marks": 2,
-              "topic": "Object-oriented programming"
-            },
-            {
-              "label": "b",
-              "text": "What are Static Variables? What is the benefit of using it?",
-              "marks": 3,
-              "topic": "Static variables"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Correct errors (if any) and predict the output of the following code:\nclass Test {\n    public static void main(String args[]) {\n        int x = 2; int y = 0;\n        for (; y < 10; ++y) {\n            if (y % x == 0)\n                continue;\n            else if (y == 8)\n                break;\n            else\n                System.out.println(y + \" \");\n        }\n    }\n}",
-              "marks": 2,
-              "topic": "Error correction and output"
-            },
-            {
-              "label": "b",
-              "text": "What is a Constructor in Java? Explain different types of Constructors using suitable program segment.",
-              "marks": 3,
-              "topic": "Constructors"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "How multidimensional arrays are declared? Can you have uneven (irregular) multidimensional arrays? Explain with a suitable example.",
-              "marks": 2,
-              "topic": "Multidimensional arrays"
-            },
-            {
-              "label": "b",
-              "text": "What do you mean by Method Overloading in Java? Explain with suitable examples the different conditions of achieving Method Overloading.",
-              "marks": 3,
-              "topic": "Method overloading"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Why String Class Objects are immutable in Java? Explain with an example.",
-              "marks": 2,
-              "topic": "String immutability"
-            },
-            {
-              "label": "b",
-              "text": "What are Classes, Objects and Methods in Java? What is a Static Method?",
-              "marks": 3,
-              "topic": "Classes and objects"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Write a Java Program to find duplicate characters in a string. (Eg. The string “Hello Java” should return ‘l’ and ‘a’ as the duplicate characters.)",
-              "marks": 5,
-              "topic": "Duplicate characters"
-            }
-          ]
-        }
-      ]
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS:  IMSc   SEMESTER : IV\nBRANCH: MATHS & COMP.   SESSION : SP2023\n\nSUBJECT: CS204 OBJECT ORIENTED PROGRAMMING & DESIGN PATTERNS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n    CO BL\nQ1 (a) What are the features of Object – oriented Programming? Explain with examples. [2] 1 4\nQ1 (b) What are Static Variables? What is the benefit of using it? [3] 2 2\n\n\nQ2 (a) Correct errors (if any) and predict the output of the following code:\nclass Test\n{   public static void main(String args[ ])\n      {   int x = 2;     int y = 0;\n           for(  ; y<10; ++y)\n             {    if(y % x ==0)\n                     continue;\n                  else if(y == 8)\n                      break;\n                  else\n                      System.out.println(y + “ ”);\n             }\n        }\n }\n[2] 2 3\nQ2 (b) What is a Constructor in Java? Explain different types of Constructors using suitable\nprogram segment.\n[3] 2 3\n\n\nQ3 (a) How  multidimensional  arrays  are  declared?  Can  you  have  uneven  (irregular)\nmultidimensional arrays? Explain with a suitable example.\n[2] 1 1\nQ3 (b) What do you mean by Method Overloading in Java? Explain with suitable examples the\ndifferent conditions of achieving Method Overloading.\n[3] 2 4\n\n\nQ4 (a) Why String Class Objects are immutable in Java? Explain with an example. [2] 1 1\nQ4 (b) What are Classes, Objects and Methods in Java? What is a Static Method? [3] 1 2\n\n\nQ5  Write a Java Program to find duplicate characters in a string. (Eg. The string “Hello\nJava” should return ‘l’ and ‘a’ as the duplicate characters.)\n[5] 2 6\n\n\n\n\n::::::22/02/2023::::::M"
     },
     {
-      "session": "MO/2022",
+      "session": "MO22",
       "examType": "MID",
-      "maxMarks": 25,
-      "durationHrs": 2,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Define polymorphism.",
-              "marks": 2,
-              "topic": "polymorphism"
-            },
-            {
-              "label": "b",
-              "text": "What are the different data types and corresponding input methods used in Scanner class?",
-              "marks": 3,
-              "topic": "Scanner input methods"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Name all the types of variables in java?",
-              "marks": 2,
-              "topic": "variable types"
-            },
-            {
-              "label": "b",
-              "text": "Explain all the features of java.",
-              "marks": 3,
-              "topic": "java features"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What are the different bitwise operators in java? Give examples with results.",
-              "marks": 2,
-              "topic": "bitwise operators"
-            },
-            {
-              "label": "b",
-              "text": "Write a java class that has two integer data members and constructors- one default and one parameterized that initializes the two data members. Create two objects of this class. One object will call the method to find factorial of the two integer data members and another would call a method that would find Fibonacci series between the two numbers. Display the results.",
-              "marks": 3,
-              "topic": "class constructors factorial fibonacci"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Write the names of access modifiers and give their accessibility within class, within package, outside package by subclass only and outside package.",
-              "marks": 2,
-              "topic": "access modifiers"
-            },
-            {
-              "label": "b",
-              "text": "Write a java program to sort two integer arrays and find the intersection of the two and store it in a third array.",
-              "marks": 3,
-              "topic": "array sorting intersection"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Write the names of any five packages of java?",
-              "marks": 2,
-              "topic": "java packages"
-            },
-            {
-              "label": "b",
-              "text": "Explain an arraylist and all its features and methods.",
-              "marks": 3,
-              "topic": "ArrayList"
-            }
-          ]
-        }
-      ]
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH   SEMESTER: V\nBRANCH: ALL   SESSION: MO/2022\n\nSUBJECT: CS204 OBJECT ORIENTED PROGRAMMING AND DESIGN\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n    CO BL\nQ1 (a) Define polymorphism. [2] [1] [1]\nQ1 (b) What are the different data types and corresponding input methods used in\nScanner class?\n[3] [1] [1]\n\n\nQ2 (a) Name all the types of variables in java? [2] [2] [1]\nQ2 (b) Explain all the features of java. [3] [1] [2]\n\n\nQ3 (a) What are the different bitwise operators in java? Give examples with results. [2] [2] [1]\nQ3 (b) Write a java class that has two integer data members and constructors- one\ndefault and one parameterized that initializes the two data members. Create\ntwo objects of this class. One object will call the method to find factorial of\nthe two integer data members and another would call a method that would\nfind Fibonacci series between the two numbers. Display the results.\n[3] [2] [5]\n\n\nQ4 (a) Write the names of  access modifiers and give their accessibility within class,\nwithin package, outside package by subclass only and outside package.\n[2] [2] [5]\nQ4 (b) Write a java program to sort two integer arrays and find the intersection of\nthe two and store it in a third array.\n[3] [2] [5]\n\n\nQ5 (a) Write the names of any five packages of java? [2] [2] [5]\nQ5 (b) Explain an arraylist and all its features and methods. [3] [2] [2]\n\n\n\n\n :::::: 30/09/2022 ::::::M"
+    },
+    {
+      "session": "SP20",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH/IMSC   SEMESTER: IV\nBRANCH: EEE/CSE/IT/BT/CHEMICAL/CEP&P/MATHS & COMP. SESSION: SP/2020\n\nSUBJECT: CS204 OBJECT ORIENTED PROGRAMMING AND DESIGN PATTERNS\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates may attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\n\n    CO BL\nQ1 (a) Describe the concept of memory areas in JAVA.  [2] 2 1\nQ1 (b) Differentiate between JDK, JRE and JVM.  [3] 1 2\n\n\nQ2 (a) Explain the significance of argument promotion in java with instances. [2] 2 5\nQ2 (b) Identify the  advantages or  disadvantages  of static members  over  instance\nmembers.\n[3] 4 1\n\n\nQ3 (a) Identify the significance of polymorphism feature introduced in JAVA.  [2] 2 1\nQ3 (b) Describe  what the  keyword  ‘this’  refer  to? Illustrate  its  use  in  different\nsituations with example.\n[3] 2 3\n\n\nQ4 (a) Interfaces provide 100% abstraction. Describe whether statement is true or\nfalse with justification.\n[2] 2 5\nQ4 (b) Identify  and  list  out  all  the  differences  between Abstract  classes  and\nInterfaces.\n[3] 2 4\n\n\nQ5 (a) State the significance of getters setters in JAVA.  [2] 2 3\nQ5 (b) Explain the role of  blocks,  constructors, variables  and methods  while using\nthe concept of inheritance.\n[3] 1 5\n\n\n\n\n:::: 28/02/2020E ::::::"
     }
   ]
 }

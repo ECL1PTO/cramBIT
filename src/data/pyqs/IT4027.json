@@ -1,0 +1,13 @@
+{
+  "courseCode": "IT4027",
+  "courseName": "SCIENTIFIC COMPUTING",
+  "historical_papers": [
+    {
+      "session": "SP19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: IV\nBRANCH: IT   SESSION : SP/2019\n\nSUBJECT : IT4027 SCIENTIFIC COMPUTING\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 Perform three iterations of the Newton-Raphson method to find the root of the equation:\n풇\n(\n풙\n)\n=풆\nି풙\n−풙=ퟎ. Take the initial approximation as 풙\nퟎ\n=ퟎ.\n[5]\n\n\nQ2\nApply the Bisection method to find the root of the equation: 풇\n(\n풙\n)\n=풙\nퟐ\n−풙−ퟏ=ퟎ. Perform\nthree iterations of the method, and use the initial interval as (ퟏ,ퟐ).\n[5]\n\n\nQ3 Solve the following system of equations using Gauss-Jordan method without partial pivoting:\n2푥\nଵ\n+4푥\nଶ\n+6푥\nଷ\n=18\n4푥\nଵ\n+5푥\nଶ\n+6푥\nଷ\n=24\n3푥\nଵ\n+푥\nଶ\n−2푥\nଷ\n=4\n[5]\n\n\nQ4 Apply three iterations of the Gauss-Jacobi method to solve the following system of equations.\nUse the initial approximations as 푥\nଵ\n(଴)\n=0, 푥\nଶ\n(଴)\n=0, and 푥\nଷ\n(଴)\n=0.\n푥\nଵ\n+20푥\nଶ\n+푥\nଷ\n=−18\n25푥\nଵ\n+푥\nଶ\n−5푥\nଷ\n=19\n3푥\nଵ\n+4푥\nଶ\n+8푥\nଷ\n=7\n[5]\n\n\nQ5 Apply Newton’s divided difference formula to fit an interpolating polynomial to the given data,\nand hence find 풇\nᇱ\n(ퟏ).\n푥\n-1 1 2 3\n푓(푥)\n-21 15 12 3\n\n[5]\n\n\nQ6 Evaluate the following integral using Trapezoidal rule with 4 equal subintervals.\n퐼=න\n푑푥\n(푥\nଶ\n+6푥+10)\nଵ\n଴\n\n[5]\n\n\n\n\n:::: 06/03//2019 E::::::"
+    }
+  ]
+}

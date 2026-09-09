@@ -3,102 +3,11 @@
   "courseName": "DATA STRUCTURES",
   "historical_papers": [
     {
-      "session": "MO/2022",
+      "session": "MO22",
       "examType": "MID",
-      "maxMarks": 25,
-      "durationHrs": 2,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Let B be a two dimensional array declared as B: array [1...10] [1...15] of integer; Assuming that each integer takes one memory location the array is stored in row major order and the first element of the array is stored at location 100, what is the address of the element B[i][j]?",
-              "marks": 2,
-              "topic": "Array Addressing"
-            },
-            {
-              "label": "b",
-              "text": "Write a program/procedure/algorithm/pseudocode which deletes all duplicate elements from the array.",
-              "marks": 3,
-              "topic": "Array Duplicate Removal"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What is the complexity of the program given below void function(int n) { int i, j, k ,count=0; for(i=n/2;i<=n;i++) for(j=1;j<=n;j=2*j) for(k=1;k<=n;k=k*2) count++; }",
-              "marks": 2,
-              "topic": "Time Complexity"
-            },
-            {
-              "label": "b",
-              "text": "How is a 1D, 2D and multidimensional array represented in computer memory? Explain Sparse matrix representation with an example.",
-              "marks": 3,
-              "topic": "Array Representation"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Given a string containing n S’s and n X’s where S indicates a PUSH operation and X indicates a POP operation, and with the STACK initially empty, formulate a rule to check whether a given string S of operations is admissible or not?",
-              "marks": 2,
-              "topic": "Stack Operations"
-            },
-            {
-              "label": "b",
-              "text": "Write an algorithm/program/procedure/pseudocode for the conversion of INFIX expressions to POSTFIX expression. Explain through an Example.",
-              "marks": 3,
-              "topic": "Expression Conversion"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What is most appropriate data structure to print elements of QUEUE in reverse order. Explain with Diagram.",
-              "marks": 2,
-              "topic": "Queue Reverse"
-            },
-            {
-              "label": "b",
-              "text": "Discuss the Implementation of QUEUE using STACKS. Explain with an Example.",
-              "marks": 3,
-              "topic": "Queue Implementation"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "If the array representation of a circular queue contains only one element, then write the conditions for this using FRONT and REAR.",
-              "marks": 2,
-              "topic": "Circular Queue"
-            },
-            {
-              "label": "b",
-              "text": "Write a program/procedure/algorithm/pseudocode to make first element of singly linked list is the last element of the list.",
-              "marks": 3,
-              "topic": "Linked List Manipulation"
-            }
-          ]
-        }
-      ]
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH   SEMESTER: III\nBRANCH: CSE/IT   SESSION: MO/2022\n\nSUBJECT: CS231 DATA STRUCTURES\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data handbook/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a) Let B be a two dimensional array declared as B: array [1...10] [1...15] of integer;\nAssuming that each integer takes one memory location the array is stored in\nrow major order and the first element of the array is stored at location 100,\nwhat is the address of the element B[i][j]?\n[2] [CO1] 2\nQ1 (b) Write a program/procedure/algorithm/pseudocode which deletes all duplicate\nelements from the array.\n[3] [CO2] 2\n\n\nQ2 (a) What is the complexity of the program given below\nvoid function(int n) {\nint i, j, k ,count=0;\nfor(i=n/2;i<=n;i++)\n for(j=1;j<=n;j=2*j)\n    for(k=1;k<=n;k=k*2)\n         count++;\n[2] [CO4] 2\nQ2 (b) How  is  an  1D,  2D  and  multidimensional  array  represented  in  computer\nmemory? Explain Sparse matrix representation with an example.\n[3] [CO2] 1\n\n\nQ3 (a) Given a string containing n S’s and n X’s where S indicates a PUSH operation\nand X indicates a POP operation, and with the STACK initially empty, formulate\na rule to check whether a given string S of operations is admissible or not?\n[2] [CO3] 3\nQ3 (b) Write an algorithm/program/procedure/pseudocode for the conversion of INFIX\nexpressions to POSTFIX expression. Explain through an Example.\n[3] [CO3] 1\n\n\nQ4 (a) What is most appropriate data structure to print elements of QUEUE in reverse\norder. Explain with Diagram.\n[2] [CO4] 3\nQ4 (b) Discuss the Implementation of QUEUE using STACKS. Explain with an Example.  [3] [CO5] 3\n\n\nQ5 (a) If the array representation of a circular queue contains only one element, then\nwrite the conditions for this using FRONT and REAR.\n[2] [CO1] 2\nQ5 (b) Write  a  program/procedure/algorithm/pseudocode  to  make  first  element  of\nsingly linked list is the last element of the list.\n[3] [CO5] 2\n\n\n:::::: 27/09/2022 M ::::::"
     }
   ]
 }

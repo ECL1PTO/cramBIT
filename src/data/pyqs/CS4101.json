@@ -1,0 +1,13 @@
+{
+  "courseCode": "CS4101",
+  "courseName": "-DISCRETE MATHEMATICS STRUCTURE",
+  "historical_papers": [
+    {
+      "session": "MO18",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: III\nBRANCH: CSE  SESSION : MO/2018\n\nSUBJECT : CS4101-DISCRETE MATHEMATICS STRUCTURE\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) What is a statement? [2]\n (b) Write the negations of the following statements:\ni) Raju plays cricket on Sunday and Sachin do walking on Saturday.\nii) 5 < x < 20.\niii) If n is divisible by 6 then n is divisible by 2 and n is divisible by 3.\n[3]\n\n\nQ2 (a) Use the Principle of Mathematical Induction to  verify that, for any positive integer n,\n is divisible by 5.\n[5]\n\n\nQ3 (a) Express the statement “there is a number x such that when it is added to any number, the\nresult is that number, and if it is multiplied by any number, the result is x” as a logical\nexpression.\n[2]\n (b)\nWithout  using  truth  tables,  prove  that  and  are  logically\nequivalent.\n[3]\n\n\nQ4 (a)\nIn each of the following situation, indicate whether f=O(g) or f=(g) or f=(g) and justify\nyour answer.\ni)\nii) f(n) =n−100, g(n) =n−200\n[5]\n\n\nQ5 (a) What is the difference between a relation and a function? Give an example of a relation\nwhich is not a function.\n[2]\n (b) Define Transitive closure. Find the transitive closure of the following relation\nR={(1,1), (1,2), (2,2), (2,4), (3,2), (4,1), (4,3)}.\n[3]\n\n\nQ6 (a) Give the definition of Equivalence Relation and an example. [2]\n (b)\nProve that f(x)=(g(x)) if and only if f(x)=O(g(x)) and g(x)=O(f(x)).\n[3]\n\n\n\n :::: 10/09/2018 E ::::::"
+    }
+  ]
+}

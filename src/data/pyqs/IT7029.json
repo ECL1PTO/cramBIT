@@ -1,0 +1,13 @@
+{
+  "courseCode": "IT7029",
+  "courseName": "OBJECT ORIENTED DESIGN",
+  "historical_papers": [
+    {
+      "session": "MO19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VII\nBRANCH: IT   SESSION : MO/2019\n\nSUBJECT : IT7029 OBJECT ORIENTED DESIGN\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) Define Class, Object and Instance.  [2]\n (b) How the object oriented concept of Generalization is implemented through\nInheritance? Explain with example.\n[3]\n\n\nQ2 (a) What is the difference between a model and a diagram? [2]\n (b) Draw an activity diagram for the activity Write Chapter. [3]\n\n\nQ3 (a) For an android application of Railway Ticket Booking, identify the functional\nrequirements and non-functional requirements.\n[2]\n (b) What is document sampling? Write its advantages and disadvantages. [3]\n\n\nQ4 (a) What are Use Cases? Write their purposes. [2]\n (b) With an Activity diagram show the steps of Requirement Capture and Modeling. [3]\n\n\nQ5 (a) What is Class Responsibility Collaboration (CRC) card? Write the format of a CRC card. [2]\n (b) Draw a class diagram for the use case Assign staff to work on a campaign. [3]\n\n\nQ6 (a) What are the main activities of Development Process? [2]\n (b) Describe the difference between <<extend>> and <<include>> relationships in use case\ndiagrams.\n[3]\n\n\n\n\n:::: 20/09/2019M ::::::"
+    }
+  ]
+}

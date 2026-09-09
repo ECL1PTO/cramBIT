@@ -1,0 +1,20 @@
+{
+  "courseCode": "CH104",
+  "courseName": "PHYSICAL CHEMISTRY-I",
+  "historical_papers": [
+    {
+      "session": "MO19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: IMSC   SEMESTER: I\nBRANCH: CHEMISTRY   SESSION : MO/2019\n\nSUBJECT : CH104 PHYSICAL CHEMISTRY-I: STATES OF MATTER & IONIC EQUILIBRIUM\n\nTIME: 2.00 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates may attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) What is collision frequency, Z\n1(1)\n and mean free path (λ)? [2]\nQ1 (b) Derive the expression for Z\n1(1)\n and show its relationship with mean free path (λ). [3]\n\n\nQ2 (a) What is the law of equipartition of energy? Estimate the molar heat capacity ‘C\nV, m\n’ of\nHCl at high temperature.\n[2]\nQ2 (b) Calculate the most probable velocity of SO\n2\n at 25 °C. [3]\n\n\nQ3 (a) Why does real gas behave differently than ideal gas? [2]\nQ3 (b) The density of mercury (atomic wt. 200.59) is 13.6 g/cc. Estimate the ‘b’ value. [3]\n\n\nQ4 (a) What are the critical constants for real gases?  [2]\nQ4 (b) The critical temperature and pressure of CO\n2\n gas are 304 K and 72.9 atm respectively.\nWhat is the radius of CO\n2\n molecule assuming it to behave as van der Waals gas?\n[3]\n\n\nQ5 (a) Show the surface tension and surface energy have same dimension. [2]\nQ5 (b)\nThe surface tension of water at 20 °C is 72.75 × 10\n-3\n N/m. How high will a column of\nwater rise in a capillary tube with radius of 0.005 cm?\n[3]\n\n\n:::::: 14/10/2019 M ::::::"
+    },
+    {
+      "session": "MO18",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: IMSC   SEMESTER: I\nBRANCH: CHEMISTRY  SESSION: MO/2018\n\nSUBJECT: CH104 PHYSICAL CHEMISTRY-I: STATES OF MATTER & IONIC EQUILIBRIUM\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates may attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1. (a) Estimate the heat capacity ‘C\nV\n’ of HCN at high temperature.  [2]\nQ1. (b) Calculate the most probable velocities of O\n2\n at 25 °C. [3]\n\n\nQ2. (a) What are the two types of intermolecular interactions responsible for deviations from\nideal gas behaviour, and indicate their effect on the pressure?\n[2]\nQ2. (b) The collision diameter for He is 207 pm and for CH\n4\n, 414 pm. How does the mean free\npath for He compare with that for CH\n4\n under same conditions?\n[3]\n\n\nQ3. (a) What is critical temperature ‘T\nC\n’ and mention its physical significance? [2]\nQ3. (b) The critical temperature of ethane is 32.3 °C, and the critical pressure is 48.2 atm.\nCompute the critical volume and the van der Waals constant ‘b’.\n[3]\n\n\nQ4. (a) Why does the viscosity of a gas increase with increasing temperature? [2]\nQ4. (b) The van der Waals constant ‘b’ of N\n2\nO is 0.044 dm\n3\nmol\n-1\n. Estimate the viscosity at 25°\nC.\n[3]\n\n\nQ5. (a) The viscosity of a fluid in motion is 1Poise. What will be its viscosity (in Poise) when the\nfluid is at rest?-Explain\n[2]\nQ5. (b) The enthalpy of vaporization of cyclohexane (C\n6\nH\n12\n) at its boiling point 80.75\n0\nC is 385.15\nJ g\n-1\n. The densities of liquid and vapour at this temperature are 0.719 g cm\n-3\n and 0.0029\ng cm\n-3\n respectively. (a) Calculate the value of dp/dT. (b) Estimate the boiling point at\n740 mmHg.\n[3]\n\n\n :::::: 09/10/2018 M ::::::"
+    }
+  ]
+}

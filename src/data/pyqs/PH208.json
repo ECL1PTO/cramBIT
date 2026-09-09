@@ -1,0 +1,13 @@
+{
+  "courseCode": "PH208",
+  "courseName": "ELEMENTS OF MODERN PHYSICS",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2023)\nCLASS:  IMSc   SEMESTER : IV\nBRANCH: PHYSICS   SESSION : SP/2023\n\nSUBJECT: PH208 ELEMENTS OF MODERN PHYSICS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) How Einstein’s hypothesis of light quanta differs from Planck’s hypothesis? [2] 1 I\nQ.1(b) In Compton effect, show that the fractional change in energy of the photon is equal to\nh’(1-cos )/m\no\nc\n2\n, where ’ is the frequency of scattered photon and  is the angle of\nscattering.\n[3] 1 II\n\n\nQ.2(a) Find the de Broglie wavelength of an electron moving with velocity, v = 3c/5. [2] 1 I\nQ.2(b) State  and  prove  Heisenberg’s  uncertainty  relation  in  estimating  the  position  and\nmomentum of a quantum mechanical particle.\n[3] 1 V\n\n\nQ.3(a) Define the concept of probability current density. [2] 2 I\nQ.3(b) Using  a  classical  wave  equation,  derive  the  time-independent  and  time  dependent\nSchrodinger equation for a moving particle.\n\n[3]\n2 V\n\n\nQ.4(a) Define Normalization and orthogonalization of a wavefunction.  [2] 2 I\nQ.4(b) The normalized state of a free particle is represented by the wave function,\n(x,0) = N exp[(-x\n2\n/2\n2\n)+ikx]\n(i) Find the factor N.\n(ii) In what region of space, the particle is most likely to be found.\n[3] 2 I\n\n\nQ.5(a) What do you mean by tunneling through a barrier? [2] 3 I\nQ.5(b) Find the energy and momentum eigen values of a particle confined in a one dimensional\ninfinitely rigid potential box of width L.\n[3] 3 I\n\n\n\n::::::21/02/2023::::::M"
+    }
+  ]
+}

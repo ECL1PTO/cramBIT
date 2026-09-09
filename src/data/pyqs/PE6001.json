@@ -1,0 +1,20 @@
+{
+  "courseCode": "PE6001",
+  "courseName": "TOOL DESIGN",
+  "historical_papers": [
+    {
+      "session": "SP20",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VI\nBRANCH: PRODUCTION   SESSION : SP/2020\n\nSUBJECT : PE6001 TOOL DESIGN\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) Why should a jig have four feet and not three? [2]\n (b) Explain different type of strap clamp with suitable diagram. [3]\n\n\nQ2 (a) What is diamond pin locator? When is it used?  [2]\n (b) What is quick acting clamping? Explain in brief. [3]\n\n\nQ3 (a) What do you mean by fool proofing and redundant location?  [2]\n (b) Explain with neat sketch the different types of mandrel used for production purposes.  [3]\n\n\nQ4 (a) Brief on different work holding devices used in turning. [2]\n (b) Explain gang milling fixture with neat sketch.  [3]\n\n\nQ5 (a) Write short note with neat sketch on Wiring die.  [2]\n (b) What  are  the  essential  elements  of  a  press  tool?  Label  them  on  a  neat  sketch  and\ncategorized them in constructional and technological components.\n[3]\n\n\nQ6 (a) Differentiate between the simple die and progressive die. [2]\n (b) With the help of neat diagram explain a die set which can be used for making a circular\nwasher in each stroke of press at one workstation.\n[3]\n\n\n\n :::::: 26/02/2020 ::::::M"
+    },
+    {
+      "session": "SP19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VI\nBRANCH: PRODUCTION   SESSION : SP/2019\n\nSUBJECT : PE6001 TOOL DESIGN\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) Why  proper consideration  of  burr  or  chip  removal  is  very  important  in  jig  and  fixture\ndesign?\n[2]\n (b) Calculate the diameter of diamond pin placed at 45±0.15 distance from a plane surface\nif the locating hole in the work piece D is 55.55/55.596 and engagement width W of the\npin is 2.\n[3]\n\nQ2 (a) Explain Cam and toggle clamp with neat and clean diagram. [2]\n (b) Explain Location from circular surfaces with proper sketch. [3]\n\nQ3 (a) Explain Template and box Jig with neat and clean diagram. [2]\n (b) Explain different type of quick acting clamp with suitable diagram. [3]\n\nQ4 (a) Explain the different type of mandrel used for production purposes. [2]\n (b) What are the different components of milling fixture? [3]\n\nQ5 (a) Write down the design consideration for turning fixture. [2]\n (b) Explain  different  type  of  indexing  device  used  for  production  purposes  with  suitable\nsketch.\n[3]\n\nQ6 (a) Differentiate between the progressive die and plain die with neat diagram. [2]\n (b) Explain various constructional components of a die set with the help of a neat diagram. [3]\n\n\n\n :::: 01/03/2019 ::::::E"
+    }
+  ]
+}

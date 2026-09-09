@@ -1,0 +1,13 @@
+{
+  "courseCode": "EC4203",
+  "courseName": "ANALOG COMMUNICATION SYSTEM",
+  "historical_papers": [
+    {
+      "session": "SP19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: IV\nBRANCH: ECE   SESSION : SP/2019\n\nSUBJECT : EC4203 ANALOG COMMUNICATION SYSTEM\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) What conditions a periodic signal should meet to apply Fourier series expansion? [2]\n (b) Write the trigonometric form of Fourier series expansion of a periodic waveform. Then\nderive its complex exponential Fourier series representation.\n[3]\n\nQ2 (a) Differentiate between energy signals and power signals. [2]\n (b) Find the Fourier transform of a decaying exponential pulse, defined as below:\n푥\n(\n푡\n)\n=\n൜\n푒\nି∝௧\n푓표푟 푡≥0\n0      푓표푟 푡<0\nൠ\n\n[3]\n\nQ3 (a) Define autocorrelation function and write its properties for energy signals. [2]\n (b)\nProve  that  for  a  periodic  signal 품\n풑\n(풕) having  a  period  of 푻\nퟎ\n,  the  autocorrelation\nfunction and the power spectral density form a Fourier transform pair.\n[3]\n\nQ4 (a) State and explain the conditions for distortions less transmission. [2]\n (b)\nFind the Hibert transform of 퐜퐨퐬\n(\nퟐ흅풇\n풄\n풕\n)\n.\n[3]\n\nQ5 (a) In what respect DSBSC is different from AM? [2]\n (b) Describe the square law modulator and draw the spectrum obtained. [3]\n\nQ6 (a) Explain how envelope detector works. [2]\n (b) A 100 watts carrier is modulated to a depth of 60 %. Find the total power in the amplitude\nmodulated wave. Assume the modulating signal is a sinusoidal signal.\n[3]\n\n\n\n :::: 01/03/2019 ::::::E"
+    }
+  ]
+}

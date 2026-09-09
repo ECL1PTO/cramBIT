@@ -1,0 +1,13 @@
+{
+  "courseCode": "PE221",
+  "courseName": "QUANTITATIVE TECHNIQUES",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2023)\nCLASS:  BTECH   SEMESTER : IV\nBRANCH:  P&IE   SESSION : SP/2023\n\nSUBJECT: PE221 QUANTITATIVE TECHNIQUES\nTIME : 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ.1(a) Describe the different types of data as per measurement scales.   [2]\nQ.1(b) Calculate Mean, Variance, and Median of the following data set. [3]\n Data Set:  55,  59, 50, 27, 55, 57, 25, 29, 34, 36, 27, 59, 51, 31, 41, 61, 64, 64, 65, 45, 44, 41,\n36, 28\n\n\n\nQ.2(a) What is sampling method? How it is different from Census method?  [2]\nQ.2(b) What are the various types of sampling techniques? [3]\n\n\nQ.3 Write short notes on any TWO of the following. [2.5x2]\n a)Simple random sampling, b) Cluster sampling, c) Quota sampling\n\n\nQ.4(a) Frame  at  least  two  research  questions,  hypothesis,  and  null-hypothesis  from  any  one  of  the\nfollowing topics.\n[3]\n i) Food behavior of students at BIT Mesra ii) Sports culture at BIT Mesra\nQ.4(b) Develop sample questioner to collect data for testing the hypothesis developed in question 4(a).  [2]\n\n\nQ.5 Honorable Vice Chancellor of BIT Mesra wants to estimate the mean research grant earned by a\nfaculty member at BIT Mesra. He has taken a sample of 15 faculty members. The grants earned\nby each of these faculty members from various government and non-government sources are\ngiven  below.  It  is  also  known  that  the  standard  division  of  the  grants  earned  by  the  faculty\nmembers  at  BIT  Mesra  is  3  lacks.  Estimate  the  range  within  which  the  mean  research  grant\nearned by any faculty member at BIT Mesra will fall with 97% confidence level.\n[5]\n Grants earned by the sampled 15 faculty members (in lacks): 10, 2, 0, 5, 7, 3, 2, 2, 1.5, 6, 0.5,\n8, 18, 15, 1\n\n\n\n\n::::::24/02/2023::::::M"
+    }
+  ]
+}

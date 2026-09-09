@@ -3,200 +3,25 @@
   "courseName": "COMPUTER ORGANIZATION & ARCHITECTURE",
   "historical_papers": [
     {
-      "session": "SP/2023",
+      "session": "SP23",
       "examType": "MID",
-      "maxMarks": 25,
-      "durationHrs": 2,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Distinguish between Computer Organization and Architecture. Out of CO & CA which one has undergone more change with respect to time?",
-              "marks": 2,
-              "topic": "Computer Organization vs Architecture"
-            },
-            {
-              "label": "b",
-              "text": "Explain the functions of IR, MAR, MDR registers present in the CPU.",
-              "marks": 3,
-              "topic": "IR MAR MDR registers"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What do you mean by computer performance? What are the relevant parameters which affect mostly the performance of computer?",
-              "marks": 2,
-              "topic": "Computer Performance"
-            },
-            {
-              "label": "b",
-              "text": "i) Perform following operations in 2’s complement representation of binary numbers: (+7) + (-4) and (-4) – (-7). ii) Convert number (777)₈ to base‑5.",
-              "marks": 3,
-              "topic": "2's complement and Base conversion"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Explain instruction sequencing with the help of a suitable example.",
-              "marks": 2,
-              "topic": "Instruction sequencing"
-            },
-            {
-              "label": "b",
-              "text": "Represent the decimal -20.125 into its IEEE754 Single Precision floating point format.",
-              "marks": 3,
-              "topic": "IEEE754 representation"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What do you mean by Byte addressability? Differentiate Big‑Endian and Little‑Endian assignments.",
-              "marks": 2,
-              "topic": "Byte addressability and Endianness"
-            },
-            {
-              "label": "b",
-              "text": "Draw the flowchart of Booth's algorithm. Multiply (-8) × (9) using Booth's multiplication algorithm.",
-              "marks": 3,
-              "topic": "Booth's algorithm"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What is relative addressing mode? Explain with the help of an example.",
-              "marks": 2,
-              "topic": "Relative addressing mode"
-            },
-            {
-              "label": "b",
-              "text": "An instruction is stored at location 400 with its address fields at location 401. The address field has the value 500. A processor register R1 contains the number 300. Evaluate the effective address if the addressing mode of the instruction is (i) Direct (ii) Immediate (iii) Relative (iv) Register Indirect (v) Index with R1 as the Index register.",
-              "marks": 3,
-              "topic": "Effective address calculation"
-            }
-          ]
-        }
-      ]
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS:  BTECH   SEMESTER :VI\nBRANCH: ECE/MECH/EEE   SESSION : SP/2023\n\nSUBJECT:CS203 COMPUTER ORGANIZATION & ARCHITECTURE\nTIME: 02\nHours\n   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n   CO BL\nQ.1(a) Distinguish between Computer Organization and Architecture. Out of CO & CA\nwhich one has undergone more change with respect to time?\n[2] 1 4\nQ.1(b) Explain the functions of IR, MAR, MDR registers present in the CPU [3] 2 2\n\n\nQ.2(a) What  do you  mean  by  computer  performance?  What  are  the  relevant\nparameters which affect mostly the performance of computer?\n[2] 1 1\nQ.2(b) i)  Perform  following  operations  in  2’s  complement  representation  of  binary\nnumbers: (+7) + (-4) and (-4) – (-7)\nii) Convert number (777)\n8\n to ( )\n5\n\n[3] 3 4\n\n\nQ.3(a) Explain instruction sequencing with the help of suitable example. [2] 2 2\nQ.3(b) Represent the decimal -20.125 into its IEEE754 Single Precision floating point\nformat.\n[3] 2 4\n\n\nQ.4(a) What do you mean by Byte addressability? Differentiate Big-Endian and Little-\nEndian Assignments.\n[2] 2 1\nQ.4(b) Draw  the  flowchart  of booths  algorithms.  Multiply  (-8)  X  (9)  using  booths\nmultiplication algorithm.\n[3] 3 4\n\n\nQ.5(a) What is relative addressing mode? Explain with the help of example. [2] 2 2\nQ.5(b) An instruction is stored at location 400 with its address fields at location 401.\nThe  address  field  has  the  value  500.  A  processor  register  R1  contains  the\nnumber  300.  Evaluate  the  effective  address  if  the  addressing  mode  of  the\ninstruction is (i) Direct  (ii) Immediate (iii) Relative  (iv) Register Indirect  (v)\nIndex with R1 as the Index register.\n[3] 2 4\n\n\n\n::::::27/02/2023::::::M"
     },
     {
-      "session": "MO/2022",
+      "session": "MO22",
       "examType": "MID",
-      "maxMarks": 25,
-      "durationHrs": 2,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What number can be the minimum decimal equivalent of the number (243) x",
-              "marks": 2,
-              "topic": "Number Systems"
-            },
-            {
-              "label": "b",
-              "text": "Represent (-7)8 in signed magnitude, 2’s complement, and 1’s complement",
-              "marks": 3,
-              "topic": "Binary Representation"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Briefly explain how ALU works.",
-              "marks": 2,
-              "topic": "ALU"
-            },
-            {
-              "label": "b",
-              "text": "Explain the Von Neumann Architecture and Why it is the significant growth in computer architecture?",
-              "marks": 3,
-              "topic": "Von Neumann Architecture"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Explain the mechanism of a full-adder.",
-              "marks": 2,
-              "topic": "Full Adder"
-            },
-            {
-              "label": "b",
-              "text": "Consider this structure struct random { short int a; int b; char c; short int d; int e; }; Consider a 32-bit Computer with byte addressability and aligned words. How many words and bytes do we need to represent? If the address begins with 100, at which address we will find the variable d?",
-              "marks": 3,
-              "topic": "Memory Layout"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Explain the lifecycle of an instruction with an example in case of straight-line sequencing and branching",
-              "marks": 2,
-              "topic": "Instruction Cycle"
-            },
-            {
-              "label": "b",
-              "text": "In IEEE Single Precision floating point representation, explain with an example where and how the E (exponent) can be negative.",
-              "marks": 3,
-              "topic": "Floating Point"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What is the pass by name? How is it different from others?",
-              "marks": 2,
-              "topic": "Parameter Passing"
-            },
-            {
-              "label": "b",
-              "text": "Write Assembly code for (A+E) / (B*(C-D)) in zero and two addressing format",
-              "marks": 3,
-              "topic": "Assembly Language"
-            }
-          ]
-        }
-      ]
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH   SEMESTER: V\nBRANCH: ECE/BT/CP&P/ME/PIE SESSION: MO/2022\n\nSUBJECT: CS203 COMPUTER ORGANIZATION AND ARCHITECTURE\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a)\nWhat number can be the minimum decimal equivalent of the number (243)\nx\n\n[2] 3 4\nQ1 (b)\nRepresent (-7)\n8\n in signed magnitude, 2’s complement, and 1’s complement\n[3] 3 3\n\n\nQ2 (a) Briefly explain how ALU works. [2] 2 1\nQ2 (b) Explain the Von Neumann Architecture and Why it is the significant growth in\ncomputer architecture?\n[3] 1 2\n\n\nQ3 (a) Explain the mechanism of a full-adder. [2] 2 1\nQ3 (b) Consider this structure\nstruct random\n{\n     short int a;\n     int b;\n     char c;\n     short int d;\n     int e;\n};\nConsider a 32-bit Computer with byte addressability and aligned words. How\nmany words and bytes do we need to represent? If the address begins with 100,\nat which address we will find the variable d?\n[3] 3 4\n\n\nQ4 (a) Explain the lifecycle of an instruction with an example in case of straight-line\nsequencing and branching\n[2] 2 4\nQ4 (b) In IEEE Single Precision floating point representation, explain with an example\nwhere and how the E (exponent) can be negative.\n[3] 2 5\n\n\nQ5 (a) What is the pass by name? How is it different from others?  [2] 1 2\nQ5 (b) Write Assembly code for (A+E) / (B*(C-D)) in zero and two addressing format [3] 1 5\n\n\n\n:::::: 15/10/2022 E ::::::"
+    },
+    {
+      "session": "SP20",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH   SEMESTER: IV\nBRANCH: CSE/IT   SESSION : SP/2020\n\nSUBJECT : CS203 COMPUTER ORGANIZATION ARCHITECTURE\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates may attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO\nQ1 (a) Differentiate between Computer Organization and Architecture. [2] CO1\nQ1 (b) Explain the functioning of IR, MAR, MDR registers present in CPU. [3] CO1\n\n\nQ2 (a) Define  ranges  of  ‘n’  bit  binary  numbers  in  Unsigned,  Sighed-Magnitude,  1’s\nComplement and 2’s complement representation of numbers.\n[2] CO3\nQ2 (b) i)  Perform following  operations  in  2’s  complement  representation  of  binary\nnumbers: (+7) + (-3) and (-3) – (-7)\nii) Convert number (712)\n8\n to (  )\n6\n[3] CO3\n\n\nQ3 (a) Write algorithm for multiplication of positive binary numbers with example. [2] CO2\nQ3 (b) Draw and explain the sequential circuit of binary multiplier. [3] CO4\n\n\nQ4 (a) What do you mean by immediate addressing mode? Explain with example [2] CO2\nQ4 (b) An instruction is stored at the location 300 with its address field at location 301.\nThe address field has the value 400. A processor register R1 contains the number\n200. Evaluate the effective address if the addressing mode of the instruction is (i)\nDirect, (ii) Immediate and (iii) Relative\n[3] CO3\n\n\nQ5 (a) What do you mean by zero and one addressing formats of codes? [2] CO2\nQ5 (b) Write code in zero and one addressing format for the expression\nx = (a+b)/(c*t)\n[3] CO3\n\n\n\n :::::: 27/02/2020 ::::::E"
     }
   ]
 }

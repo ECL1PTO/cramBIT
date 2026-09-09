@@ -1,0 +1,13 @@
+{
+  "courseCode": "EC3205",
+  "courseName": "SEMICONDUCTOR DEVICES",
+  "historical_papers": [
+    {
+      "session": "MO18",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: III\nBRANCH: ECE   SESSION : MO/2018\n\nSUBJECT : EC3205 SEMICONDUCTOR DEVICES\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) Write down the expression for probability function? Explain each term in it. [2]\n (b) Plot  (a) band diagram, (b) density of states, (c) Fermi-Dirac distribution, and (d) the\ncarrier concentrations for n-type semiconductors at thermal equilibrium.\n[3]\n\n\n\n\nQ2 (a)\nThe intrinsic level E\ni\n lies exactly at the middle of the band gap (E\nC\n ‒ E\nV\n = E\nG\n/2). The\nstatement is true or false. If false why?\n[2]\n (b) Assume that intrinsic carrier concentration n\ni\n = 1.5×10\n10\n. A Silicon sample is doped with\n10\n17\n Antimony atoms/cm\n3\n. What is the equilibrium hole concentration p\n0\n at 300 K? How\nfar away is the Fermi Energy level, E\nF\n with respect to intrinsic energy level?\n[3]\n\n\nQ3 (a) Define diffusion length and minority carrier life time.  [2]\n (b) Explain how a pulse of excess electrons injected at x = 0 at time t = 0 will spread out in\ntime. Substantiate your answer with suitable diagram.\n[3]\n\n\nQ4 (a) Differentiate  between  Hall  effect  and  Haynes-Shockley  experiment  in  relation  to\nmeasurement of carrier mobility?\n[2]\n (b) Draw a plot to explain how injected excess hole concentration dies out exponentially\nwith x (distance) due to recombination in steady state condition.\n[3]\n\n\nQ5 (a) Why is the transition region formed? Why does it stop widening? [2]\n (b) What is barrier potential? Barrier potential cannot be measured. The statement is true\nor false. What is the value of barrier potential for Si PN junction?\n[3]\n\n\nQ6 (a) Explain the physical meaning of C\nd\n(0)? [2]\n (b) In a p-n junction, if n-type region is on the\n−x side and p\n-type region is on the +x side,\ndraw the  plot of electric field with\n−\nw\nn\n and +w\np\n being the penetration of depletion\nregion in n-side and p-side respectively.\n[3]\n\n\n\n:::: 13/09/2018 E ::::::"
+    }
+  ]
+}

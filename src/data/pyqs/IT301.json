@@ -3,84 +3,11 @@
   "courseName": "DATA COMMUNICATION & COMPUTER NETWORK",
   "historical_papers": [
     {
-      "session": "MO/2022",
+      "session": "MO22",
       "examType": "MID",
-      "maxMarks": 25,
-      "durationHrs": 2,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What is the significance of Eb/No ratio?",
-              "marks": 2,
-              "topic": "Eb/No"
-            },
-            {
-              "label": "b",
-              "text": "What are various transmission impairments a signal encounter? Explain attenuation with diagram.",
-              "marks": 3,
-              "topic": "Transmission impairments"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": 5,
-          "parts": [
-            {
-              "label": null,
-              "text": "For the given digital data, generate digital signals using NRZ-I, NRZ-L, Bipolar-AMI, Manchester & Differential Manchester. Also write the rules. Digital data - 1001101011",
-              "marks": 5,
-              "topic": "Line coding"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": 5,
-          "parts": [
-            {
-              "label": null,
-              "text": "Draw and explain TCP/IP model. Also compare TCP/IP with OSI model.",
-              "marks": 5,
-              "topic": "TCP/IP"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": 5,
-          "parts": [
-            {
-              "label": null,
-              "text": "Explain the transmission characteristics of Satellite microwave and optical fiber.",
-              "marks": 5,
-              "topic": "Transmission media"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What is modulation? Explain Amplitude modulation.",
-              "marks": 2,
-              "topic": "Modulation"
-            },
-            {
-              "label": "b",
-              "text": "What is the significance of Shannon’s formula for channel capacity? Explain",
-              "marks": 3,
-              "topic": "Shannon capacity"
-            }
-          ]
-        }
-      ]
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH   SEMESTER: V\nBRANCH: CSE/IT   SESSION: MO/2022\n\nSUBJECT: IT301 DATA COMMUNICATION & COMPUTER NETWORK\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n    CO BL\nQ1 (a) What is the significance of E\nb\n/N\no\nratio? [2] C1 K4\nQ1 (b) What  are  various  Transmission  impairments  a  signal  encounter?  Explain\nattenuation with diagram.\n[3] C1 K1\n\n\nQ2  For the given digital data, generate digital signals using NRZ-I, NRZ-L, Bipolar-\nAMI, Manchester & Differential Manchester. Also write the rules.\nDigital data -   1001101011\n[5] C3 K3\n\n\nQ3  Draw and explain TCP/IP model. Also compare TCP/IP with OSI model. [5] C2 K5\n\n\nQ4  Explain the transmission characteristics of Satellite microwave and optical fiber. [5] C1 K2\n\n\nQ5 (a) What is modulation? Explain Amplitude modulation. [2] C1 K1\nQ5 (b) What is the significance of Shannon’s formula for channel capacity? Explain [3] C3 K4\n\n\n\n\n :::::: 28/09/2022 ::::::M"
     }
   ]
 }

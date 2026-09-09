@@ -1,0 +1,13 @@
+{
+  "courseCode": "MA106",
+  "courseName": "ORDINARY DIFFERENTIAL EQUATIONS",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS:  IMSc   SEMESTER : II\nBRANCH: MATHEMATICS   SESSION : SP/2023\n\nSUBJECT: MA106 ORDINARY DIFFERENTIAL EQUATIONS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Find a one parameter family of solution of the Clairaut equation\n푦=푝푥+푝\nଷ\n,푝≡푑/푑푥\n[2] CO1 BT1\nQ.1(b)\nDetermine if the given equation is exact and hence solve:\n(\n2푥푦+1\n)\n푑푥+\n(\n푥\nଶ\n+4푦\n)\n푑푦=0.\n[3] CO2 BT4\n\n\nQ.2(a) Find the orthogonal trajectories of the family of curves\n 푦=푐푥\nଷ\n\n[2] CO1 BT1\nQ.2(b)\nSolve the given differential equation:\nௗ௬\nௗ௫\n+3\n௬\n௫\n=6푥\nଶ\n.\n[3] CO1 BT3\n\n\nQ.3 Solve the Cauchy-Euler equation\n 푥\nଶ\nௗ\nమ\n௬\nௗ௫\nమ\n−5푥\nௗ௬\nௗ௫\n+8푦=2푥\nଷ\n.\n[5] CO1 BT3\n\n\nQ.4 Find the general solution of the non-homogeneous differential equation by the\nmethod of undetermined coefficients:\nௗ\nమ\n௬\nௗ௫\nమ\n−3\nௗ௬\nௗ௫\n+2푦=4푥\nଶ\n.\n[5] CO1 BT1\n\n\nQ.5(a)\nSolve the simultaneous differential equation\nௗ௫\nௗ௧\n=6푥−3푦;\nௗ௬\nௗ௧\n=2푥+푦.\n[5] CO1 BT3\n\n\n::::::25/05/2023::::::M"
+    }
+  ]
+}

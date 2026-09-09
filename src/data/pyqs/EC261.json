@@ -1,0 +1,13 @@
+{
+  "courseCode": "EC261",
+  "courseName": "DIGITAL COMPUTER ELECTRONICS_OE",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2023)\nCLASS: BTECH   SEMESTER: IV\nBRANCH:  MECH/CSE/EEE/IT\nSESSION:\nSP/2023\n\nSUBJECT: EC261 DIGITAL COMPUTER ELECTRONICS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n   CO BL\nQ.1(a) Implement a Full adder using NAND gate only. [2] CO1 BL4\nQ.1(b) Derive a logic expression that equal 1 only when the two binary numbers A\n1\nA\n0\n and\nB\n1\nB\n0\n have   the same value.  Draw the logic diagram and construct the truth table\nto verify the logic.\n[3] CO1 BL2\n\nQ.2(a) Realize a Full subtractor using a 3-line- to-8 line decoder. [2] CO1 BL4\nQ.2(b) Draw logic diagram of a BCD adder using two 4 bit adders and correction circuit. [3] CO1 BL3\n\nQ.3(a) Explain and draw logic diagram of BCD encoder. [2] CO1 BL4\nQ.3(b) Construct SR flip flop with NAND gates and obtain its characteristics equations. [3] CO2 BL3\n\nQ.4(a) Explain SISO shift register and  PIPO shift register with diagram [2] CO2 BL1\nQ.4(b) Explain the operation of J-K flip flop. How does a J-K flip flop differ from an S-R\nflip flop in its operation?\n[3] CO2 BL1\n\nQ.5(a) Design a synchronous 3-bit Up counter Using J-K flip flops. [2] CO2 BL3\nQ.5(b) Explain the operation of 4-bit ring counter with diagram. Why is that name?                         [3] CO2 BL1\n\n\n::::::27/02/2023::::::M"
+    }
+  ]
+}

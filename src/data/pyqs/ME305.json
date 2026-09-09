@@ -1,0 +1,13 @@
+{
+  "courseCode": "ME305",
+  "courseName": "AUTOMOBILE ENGINEERING",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS: B.TECH   SEMESTER : VI\nBRANCH: MECHANICAL   SESSION : SP2023\n\nSUBJECT: ME305 AUTOMOBILE ENGINEERING\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Briefly explain the working of a knock sensor. [2] CO1 BL2\nQ.1(b) With a neat sketch explain the working of a starting system. [3] CO1 BL3\n\n\nQ.2(a) How does a solenoid work? Explain. [2] CO1 BL2\nQ.2(b) Sketch  the  construction  of  capacitive discharge  ignition  system  and  explain  its\nworking.\n[3] CO1 BL3\n\n\nQ.3(a) Describe various resistances that try to retard the motion of a vehicle. [2] CO2 BL4\nQ.3(b) Discuss the function of various types of temperature sensors. [3] CO1 BL2\n\n\nQ.4 Obtain the expression for maximum acceleration and reaction forces for front wheel\ndrive vehicle.\n[5] CO2 BL6\n\n\nQ.5 The coefficient of rolling resistance for a truck weighing 65000N in 0.015 and the\ncoefficient of air resistance is 0.02 in the formula R= KW + K\na\nAV\n2\n Newton. Where A is\ntruck’s frontal area (in m\n2\n), W is its weight, V is the speed (in km/hr), K is coefficient\nof rolling resistance and K\na\n is coefficient of air resistance. The transmission efficiency\nin the top gear is 6:1 is 90% and that in second gear is 15:1 is 80%. The frontal area\nis 6 m\n2\n. If the truck has to have a maximum speed of 90 km/hr in top gear. Calculate:\ni) The engine brake power.\nii) The engine speed if the driving wheels have an effective diameter of 0.8\nm.\niii) The maximum grade that the truck can negotiate at the above engine\nspeed in second gear.\n[5] CO2 BL5\n\n\n\n::::::20/02/2023::::::M"
+    }
+  ]
+}

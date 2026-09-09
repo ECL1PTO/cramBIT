@@ -1,0 +1,13 @@
+{
+  "courseCode": "EC205",
+  "courseName": "SIGNALS AND SYSTEMS",
+  "historical_papers": [
+    {
+      "session": "MO19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH   SEMESTER:  III\nBRANCH: MECH   SESSION : MO/2019\n\nSUBJECT : EC205 SIGNALS AND SYSTEMS\n\nTIME: 2  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates may attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) Write the properties of the Dirac Delta function. [2]\nQ1 (b)\nDetermine whether\n( )cos\n10\no\nt\nx t rectt\n  \n\n  \n  \n is an energy signal or power signal.\n[3]\n\n\nQ2 (a) Explain convolution for LTI System. [2]\nQ2 (b) Explain the concept of state, state variable and state model for continuous time system\nwith suitable examples.\n[3]\n\n\nQ3 (a) Define Linear System. Show that the straight-line equation represents the linear system\nmodel.\n[2]\nQ3 (b) Find the condition under that the sum of discrete time sequences and continuous time\nsignals will be periodic. Comment over periodicity.\n[3]\n\n\nQ4 (a) Write the Dirichlet’s Conditions. [2]\nQ4 (b) Obtain  the  expression  of  Fourier  transform  for  continuous  time  signal.  What  is  the\ndifference between Fourier Series and Fourier Transform?\n[3]\n\n\nQ5 (a) Explain Gibb’s Phenomenon. [2]\nQ5 (b) Obtain the exponential Fourier series for the given waveform. Also draw the Frequency\nspectrum.\n[3]\n\n\n\n :::::: 23/09/2019 ::::::E"
+    }
+  ]
+}

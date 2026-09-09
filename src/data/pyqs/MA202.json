@@ -1,0 +1,13 @@
+{
+  "courseCode": "MA202",
+  "courseName": "MODERN ALGEBRA",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: IMSC   SEMESTER:  III\nBRANCH: MATHS AND COMPUTING  SESSION: MO/2022\n\nSUBJECT: MA202 MODERN ALGEBRA\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n---------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a)\nDefine the Mobius function. Find .\n[2] CO1 LO\nQ1 (b)\nSolve the linear congruence equation .\n[3] CO1  IO\n\n\nQ2 (a)\nDefine Euler’s phi function. Find .\n[2] CO1 LO\nQ2 (b) Find the solution of Diophantine equation  56x+72y=40.  [3] CO1  IO\n\n\nQ3\nDefine the left cosets. Find all the left cosets of  in  where\nand.\n[5] CO2 LO,\nIO\n\n\nQ4\nA group homomorphism  is a one-one if and only if   .\n[5] CO2 IO\n\n\nQ5  State and prove fundamental theorem of group homomorphism.  [5] CO2 IO\n\n\n\n :::::: 29/09/2022 ::::::M"
+    }
+  ]
+}

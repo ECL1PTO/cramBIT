@@ -1,98 +1,13 @@
 {
   "courseCode": "CS235",
-  "courseName": "Computer Organization & Architecture",
+  "courseName": "COMPUTER ORGANIZATION & ARCH",
   "historical_papers": [
     {
-      "session": "MO/2022",
+      "session": "MO22",
       "examType": "MID",
-      "maxMarks": 25,
-      "durationHrs": 2,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Describe the Von-Neumann Architecture.",
-              "marks": 2,
-              "topic": "Von-Neumann Architecture"
-            },
-            {
-              "label": "b",
-              "text": "Differentiate between Computer Architecture and Organization. Out of CA and CO, which one has undergone more change with respect to time? What may be reason for this?",
-              "marks": 3,
-              "topic": "Computer Architecture vs Organization"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "State the parameters which affect the performance of a computer.",
-              "marks": 2,
-              "topic": "Performance Parameters"
-            },
-            {
-              "label": "b",
-              "text": "With the suitable diagram explain the internal structure of CPU with control signals.",
-              "marks": 3,
-              "topic": "CPU Internal Structure"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "A processor chip is used for application in which 25% of execution time is spent on floating point addition. For the new model of processor, the design team has redesigned the floating point adder to make it thrice as fast. Calculate the speedup for adder redesign.",
-              "marks": 2,
-              "topic": "Amdahl's Law"
-            },
-            {
-              "label": "b",
-              "text": "Show the IEEE 754 binary representation of the number (12.125) in single precision.",
-              "marks": 3,
-              "topic": "IEEE 754 Representation"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What is instruction sequencing? What is difference between Big-endian and little-endian representation.",
-              "marks": 2,
-              "topic": "Instruction Sequencing and Endianness"
-            },
-            {
-              "label": "b",
-              "text": "Multiply using Booth’s Multiplication algorithm: 7X-5.",
-              "marks": 3,
-              "topic": "Booth's Multiplication"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Define Addressing Modes. With proper example show the operations performed by different Addressing Modes.",
-              "marks": 5,
-              "topic": "Addressing Modes"
-            }
-          ]
-        }
-      ]
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.Tech   SEMESTER: 3rd\nBRANCH: CS/IT   SESSION: MO/2022\n\nSUBJECT: CS235 COMPUTER ORGANIZATION & ARCH\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n    CO BL\nQ1 (a) Describe the Von-Neumann Architecture. [2] 1 2\nQ1 (b) Differentiate  between  Computer  Architecture  and  Organization.  Out  of  CA\nand CO.  which one has undergone more change with respect to time? What\nmay be reason for this?\n[3] 1,5 4\n\n\nQ2 (a) State the parameters which affect the performance of a computer. [2] 5 1,2\nQ2 (b) With the suitable diagram explain the internal structure of CPU with control\nsignals.\n[3] 2 2\n\n\nQ3 (a) A processor  chip  is  used  for application  in which  25%  of  execution time  is\nspent on floating point addition, For the new model of processor, the design\nteam  has  redesigned  the  floating  point  adder  to  make  it  thrice  as  fast.\nCalculate the speedup for adder redesign.\n[2] 5 3\nQ3 (b) Show the IEEE 754 binary representation of the number (12.125)\n10\n in single\nprecision.\n[3] 3 3\n\n\nQ4 (a) What is instruction sequencing? What is  difference between Big-endian and\nlittle-endian representation.\n[2] 2,3 2\nQ4 (b) Multiply using Booth’s Multiplication algorithm:\n7X-5\n[3] 3 5\n\n\nQ5  Define  Addressing  Modes. With proper  example  show  the  operations\nperformed by different Addressing Modes.\n[5] 1,2 2\n\n\n\n\n\n :::::: 29/09/2022 ::::::M"
     }
   ]
 }

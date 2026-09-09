@@ -3,96 +3,11 @@
   "courseName": "COMPILER DESIGN",
   "historical_papers": [
     {
-      "session": "SP2023",
+      "session": "SP23",
       "examType": "MID",
-      "maxMarks": 25,
-      "durationHrs": 2,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Explain briefly the back-end and the front-end parts of a compiler. Point out some important features of any standard compiler.",
-              "marks": 2,
-              "topic": "compiler architecture"
-            },
-            {
-              "label": "b",
-              "text": "Highlight the secondary tasks of lexical analyser. Also, discuss the issues in designing lexical analyser.",
-              "marks": 3,
-              "topic": "lexical analysis"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Briefly discuss about Lex tool.",
-              "marks": 2,
-              "topic": "lex tool"
-            },
-            {
-              "label": "b",
-              "text": "Write a simple Lex program to recognize identifier and all the relational operators used in C.",
-              "marks": 3,
-              "topic": "lex programming"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Discuss briefly the advantages and the disadvantages of top down parser.",
-              "marks": 2,
-              "topic": "top-down parsing"
-            },
-            {
-              "label": "b",
-              "text": "Let us consider the following grammar (G): S→aA, A→bB, B→c. Discuss formally how LL(1) parser parses the strings w1=abc and w2=bac, using G. Can you think about LL(0) parser for this G to parse w1 and w2? If so, then explain the idea to parse.",
-              "marks": 3,
-              "topic": "LL parsing"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Construct Predictive parsing table (eliminating immediate left recursion) for the grammar given below: E→E*T , E→T , T→id , where E is the start symbol of G. Also, trace parsing by taking an expression (w)= id*id*id, using the constructed table.",
-              "marks": 5,
-              "topic": "predictive parsing"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Discuss briefly the logic behind shift-reduce parser. What are the common issues in shift-reduce parser?",
-              "marks": 2,
-              "topic": "shift-reduce parsing"
-            },
-            {
-              "label": "b",
-              "text": "Construct SLR(1) parsing table for the grammar(G): S→AA, A→aA , A→b. What does it happen in the table for LR(0) parser?",
-              "marks": 3,
-              "topic": "SLR parsing"
-            }
-          ]
-        }
-      ]
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS:  BTECH   SEMESTER : VI\nBRANCH: CSE   SESSION : SP2023\n\nSUBJECT: CS305 COMPILER DESIGN\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n    CO BL\nQ1 (a) Explain briefly the back-end and the front-end parts of a compiler. Point out\nsome important features of any standard compiler.\n[2] CO-1 Understan\nd\nQ1 (b)\nHighlight  the secondary tasks  of lexical analyser. Also, discuss the issues in\ndesigning lexical analyser.\n[3] CO-2 Understan\nd\n\nQ2 (a) Briefly discuss about Lex tool. [2] CO-3 Understan\nd\nQ2 (b) Write a simple Lex program to recognize identifier and all the relational\noperators  used in C.\n[3] CO-3 Analyse\n\nQ3 (a) Discuss briefly the advantages and the disadvantages of top down parser. [2] CO-1 Analyse\nQ3 (b) Let  us consider the following grammar (G):\n                SaA,  AbB, Bc\nDiscuss formally  how LL(1) parser parses  the strings: w\n1\n=abc and w\n2\n=bac,\nusing G.   Can you think about LL(0) parser for this G to parse w\n1\n and w\n2\n ? If\nso, then  explain the idea to parse.\n\n[3] CO-4 Apply\n\nQ4  Construct Predictive parsing table (eliminating immediate left recursion)\nfor the grammar given below:\n EE*T ,    ET ,    Tid ,  where  E  is the start symbol of  G.\n      Also, trace parsing by taking an expression (w)= id*id*id,   using the\nconstructed table.\n[5] CO-4 Apply\n\nQ5 (a) Discuss briefly the logic behind shift-reduce parser. What are the common\nissues in shift-reduce parser?\n[2] CO-1 Understan\nd\nQ5 (b)  Construct SLR(1) parsing table  for the gramma(G):\nSAA,   AaA ,  Ab.  What  does it happen in the table  for LR(0) parser?\n[3] CO-4 Apply\n\n\n\n::::::22/02/2023::::::M"
     }
   ]
 }

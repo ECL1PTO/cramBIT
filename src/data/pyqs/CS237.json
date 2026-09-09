@@ -3,96 +3,11 @@
   "courseName": "DATABASE MANAGEMENT SYSTEM",
   "historical_papers": [
     {
-      "session": "SP2023",
+      "session": "SP23",
       "examType": "MID",
-      "maxMarks": 25,
-      "durationHrs": 2,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Explain the difference between logical and physical data independence using suitable diagram.",
-              "marks": 2,
-              "topic": "Data Independence"
-            },
-            {
-              "label": "b",
-              "text": "What is Trigger in SQL and how it is constructed? Discuss with an example.",
-              "marks": 3,
-              "topic": "Triggers"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Construct a view consisting of branches and their customer names for the above database.",
-              "marks": 2,
-              "topic": "Views"
-            },
-            {
-              "label": "b",
-              "text": "Explain various join operations with suitable relations",
-              "marks": 3,
-              "topic": "Joins"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Differentiate between a unary and binary relationship using an E-R diagram",
-              "marks": 2,
-              "topic": "Relationships"
-            },
-            {
-              "label": "b",
-              "text": "Write the following queries in relational algebra: a. Find the names of employees who have borrowed a book published by McGraw-Hill. b. Find the names of employees who have borrowed more than five different books published by McGraw-Hill.",
-              "marks": 3,
-              "topic": "Relational Algebra"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Differentiate between Primary, Candidate and Super Key with suitable example.",
-              "marks": 2,
-              "topic": "Keys"
-            },
-            {
-              "label": "b",
-              "text": "A database of Banking enterprise is given, answer the queries below using SQL: (i) Retrieve the set of names and cities of customers who have a loan at ‘Mesra’ branch. (ii) Display Number of accounts with balances between 700 and 900. (iii) Retrieve the set of names of branches whose assets are greater than assets of ‘Lalpur’ branch.",
-              "marks": 3,
-              "topic": "SQL"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "",
-              "text": "Design and draw a complete E-R diagram for a UNIVERSITY database assuming suitable database requirements and constraints. Also indicate the cardinality ratio for the relationships in the diagram.",
-              "marks": 5,
-              "topic": "ER Diagram"
-            }
-          ]
-        }
-      ]
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS:  BTECH   SEMESTER : IV\nBRANCH: CSE   SESSION : SP2023\n\nSUBJECT: CS237 DATABASE MANAGEMENT SYSTEM\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) Explain the difference between logical and physical data independence using suitable\ndiagram.\n[2] 1 4\nQ.1(b) What is Trigger in SQL and how it is constructed? Discuss with an example. [3] 2 2\n\nQ.2(a) loan (loan_number, branch_name, amount)\nborrower (customer_name, loan_number)\naccount (account_number, branch_name, balance)\ndepositor (customer_name, account_number)\nConstruct a view consisting of branches and their customer names for the above database.\n[2] 1 5\nQ.2(b) Explain various join operations with suitable relations [3] 2 4\n\nQ.3(a) Differentiate between a unary and binary relationship using an E-R diagram [2] 1 4\nQ.3(b) Consider the following relational schema\n    employee(empno, name, office, age )\n    book(isbn, title, authors, publisher)\n    loan(empno, isbn, date)\nwrite the following queries in relational algebra\na. Find the names of employees who have borrowed a book published by McGrwa-\nHill.\nb. Find the names of employees who have borrowed more than five different books\npublished by McGraw-Hill.\n[3] 2 4\n\nQ.4(a) Differentiate between Primary, Candidate and Super Key with suitable example. [2] 2 4\nQ.4(b) A database of Banking enterprise is given, answer the queries below using SQL:\nAccount(Acc_no, branch_name, balance)\nBranch(branch_name, branch_city, assets)\nCustomer(Cust_name, Cust_city, Cust_Street)\nLoan(Loan_no, branch_name, amount)\n(i) Retrieve the set of names and cities of customers who have a loan at ‘Mesra’\nbranch.\n(ii) Display Number of accounts with balances between 700 and 900.\n(iii) Retrieve the set of names of branches whose assents are greater than assets\nof ‘Lalpur’ branch\n[3] 2 4\n\nQ.5 Design and draw a complete E-R diagram for a UNIVERSITY database assuming suitable\ndata-base  requirements  and  constraints.  Also  indicate  the  cardinality  ratio  for  the\nrelationships in the diagram.\n[5] 1 5\n\n\n\n::::::23/02/2023::::::M"
     }
   ]
 }

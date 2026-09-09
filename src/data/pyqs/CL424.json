@@ -1,0 +1,13 @@
+{
+  "courseCode": "CL424",
+  "courseName": "MICROFLUIDICS",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B. TECH   SEMESTER: VII\nBRANCH: CHEMICAL/ CHEMICAL (P&P)  SESSION: MO/2022\n\nSUBJECT: CL424 MICROFLUIDICS\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n    CO BL\nQ1 (a) Explain point value in continuum fluid mechanics. [2] CO1 L1\nQ1 (b) Write short notes on microelectromechanical systems (MEMS). [3] CO1 L2\n\n\nQ2  Derive Navier-Stoke equation from Navier’s equation of equilibrium. [5] CO1 L4\n\n\nQ3 (a) Define: Contact angle, surface tension. [2] CO1 L1\nQ3 (b) Derive the Young-Laplace equation [3] CO2 L4\n\n\nQ4 (a) How will you apply Knudsen number to characterize fluid flow? [2] CO1 L2\nQ4 (b) Show that the rise in capillary height is inversely proportional to the radius of\ncapillary tube.\n[3] CO2 L3\n\n\nQ5 (a) How inertia force affects the dynamics of surface driven flow? Mention the\nassumptions and limitation related to the model.\n[2] CO2 L2\nQ5 (b) Mention the different methods to control surface tension and capillary force in\na microfluidic channel.\n[3] CO2 L3\n\n\n\n\n:::::: 26/09/2022 ::::::M"
+    }
+  ]
+}

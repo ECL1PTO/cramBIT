@@ -1,0 +1,13 @@
+{
+  "courseCode": "ME403",
+  "courseName": "HYDRAULIC AND PNEUMATIC CONTROL",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH   SEMESTER: VII\nBRANCH: MECHANICAL ENGINEERING  SESSION: MO/2022\n\nSUBJECT: ME403 HYDRAULIC AND PNEUMATIC CONTROL\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data handbook/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n    CO BL\nQ1 (a) Prove  that  the  internal  leakage  resistance (R\nL\n) through  a  radial  clearance\nbetween two concentric cylindrical bodies or between a spool and a sleeve is\n3\n12\nL\nL\nR\nDc\n\n\n\n;  where L  and D  are  the  Length  of  leakage  path  and  spool\ndiameter, respectively; is the kinematic viscosity; ρ is the density of the oil;\nc is the radial clearance.\n[3] I III\nQ1 (b) Write various applications of the power hydraulic system. [2] I I\n\n\nQ2 (a) A gear pump of 12.5 cm\n3\n geometric volume operated at 1800 rev/min delivers\nthe oil at 16 MPa pressure. Assuming an ideal pump, calculate the pump flow\nrate,  Q\nt\n,  the  hydraulic  power  at  the  pump  exit  line,  N\nout\n,  and  the  driving\ntorque, T\nt\n, if the inlet pressure is 200 kPa.\n[3] I III\nQ2 (b) Write the definition of a pump and provide its classification. [2] I I\n\n\nQ3 (a) Derive an expression of viscous friction coefficient (f\nv\n) for a part moving in the\noil.\n[3] II III\nQ3 (b) Calculate, the viscous friction coefficient for the given spool valve given: L\n1\n =\nL\n2\n = 10 mm, D = 8 mm, c = 2 μm, μ = 0.02 Ns/m\n2\n; where c and L are the radial\nclearance and length of spool land, respectively.\n\n\n[5] II III\n\n\nQ4  Design and describe the working principle of a direct operated pressure relief\nvalve with a suitable sketch and symbol.\n[5] II III\n\n\nQ5  Write short note:\n\ni. Double-acting cylinder\nii. Open-loop system\n[5] III II\n\n\n\n\n :::::: 26/09/2022 ::::::M"
+    }
+  ]
+}

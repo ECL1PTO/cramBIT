@@ -1,0 +1,13 @@
+{
+  "courseCode": "BE308",
+  "courseName": "BIOSEPARATION ENGINEERING",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS: B. TECH   SEMESTER : VI\nBRANCH: BIOTECH   SESSION : SP2023\n\nSUBJECT: BE308 BIOSEPARATION ENGINEERING\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n    CO BL\nQ1 (a) Draw a flow chart to depict an overall Bioseparation process.  [2] CO1 BL2\nQ1 (b) It  was  observed  that  at  high  antibiotic concentration,  a  resin  can  adsorb  62  mg\nantibiotic  per  gram  adsorbent.  At  a  solution  concentration  of  82  g/L,  the  resin\nadsorbs  half  of  its  maximum  value.  Estimate  the  amount  adsorb  at  final  solution\nconcentration of 200 g/L assuming Langmuir model.\n[3] CO2 BL4\n\n\nQ2 (a) Write the applications of affinity chromatography. [2] CO3 BL1\nQ2 (b)\nExplain, with diagram, the basic principal of Anion Exchange Chromatography.\n[3] CO3 BL3\n\n\nQ3  A  broth  of  80  L  contains  lipase  of  12.8  g/L and  some  contaminant  of  1.8  g/L.\nCalculate the salt required to recover 98% of lipase if the value of β and k for lipase\nare 9.33 and 1.1 respectively and that of contaminant are 8.8 and 0.95 respectively.\nWhat will be the purity of the lipase at 98% recovery?\n[5] CO2 BL5\n\n\nQ4  Two analyte A and B are separated on a 50 cm column. The observed retention times\nwere 2.5 min and 3.1 min and base width of 0.24 and 0.3 min respectively. Calculate\nthe number of theoretical plates and resolution of these two peaks?\n[5] CO3 BL5\n\n\nQ5 (a) Justify the use of ammonium sulphate for salt precipitation.  [2] CO2 BL2\nQ5 (b)\nWrite a short note on IMAC\n[3] CO3 BL3\n\n\n\n::::::22/02/2023::::::M"
+    }
+  ]
+}

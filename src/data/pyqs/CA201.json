@@ -3,102 +3,25 @@
   "courseName": "OBJECT ORIENTED PROGRAMMING USING JAVA",
   "historical_papers": [
     {
-      "session": "SP/2023",
+      "session": "SP23",
       "examType": "MID",
-      "maxMarks": 25,
-      "durationHrs": 2,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What is Reserved Keyword in Java? Give one example.",
-              "marks": 2,
-              "topic": "Reserved Keyword"
-            },
-            {
-              "label": "b",
-              "text": "Differentiate between Procedure Oriented Programming and Object Oriented Programming.",
-              "marks": 3,
-              "topic": "Programming Paradigms"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What is Java Virtual Machine? How it works?",
-              "marks": 2,
-              "topic": "JVM"
-            },
-            {
-              "label": "b",
-              "text": "Explain why main method is declared as public, static and void?",
-              "marks": 3,
-              "topic": "main method"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What is instance variable? Give example of such variable.",
-              "marks": 2,
-              "topic": "instance variable"
-            },
-            {
-              "label": "b",
-              "text": "Write a program in Java to check whether a given integer number is even or odd.",
-              "marks": 3,
-              "topic": "Control Flow"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Write the syntax of switch case statement.",
-              "marks": 2,
-              "topic": "switch case"
-            },
-            {
-              "label": "b",
-              "text": "Write a program to find sum of first 10 numbers. Use loop.",
-              "marks": 3,
-              "topic": "loops"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Define Array. How one dimensional array is declared? Give Example.",
-              "marks": 2,
-              "topic": "Array"
-            },
-            {
-              "label": "b",
-              "text": "What is method in Java? Give an example how to add method in a class.",
-              "marks": 3,
-              "topic": "Methods"
-            }
-          ]
-        }
-      ]
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/23)\nCLASS: BTECH   SEMESTER : IV\nBRANCH:  ALL   SESSION : SP/2023\n\nSUBJECT: CA201 OBJECT ORIENTED PROGRAMMING USING JAVA\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) What is Reserved Keyword in Java? Give one example. [2] 2 1\nQ.1(b) Differentiate   between   Procedure   Oriented   Programming   and   Object   Oriented\nProgramming.\n[3] 1 2\n\n\nQ.2(a) What is Java Virtual Machine? How it works? [2] 1 1\nQ.2(b) Explain why main method is declared as public, static and void? [3] 2 2\n\n\nQ.3(a) What is instance variable? Give example of such variable. [2] 2 1\nQ.3(b) Write a program in Java to check whether a given integer number is even or odd. [3] 4 3\n\n\nQ.4(a) Write the syntax of switch case statement. [2] 2 1\nQ.4(b) Write a program to find sum of first 10 numbers. Use loop. [3] 4 3\n\n\nQ.5(a) Define Array. How one dimensional array is declared? Give Example. [2] 2 1\nQ.5(b) What is method in Java?  Give an example how to add method in a class. [3] 4 3\n\n\n\n\n\n::::::28/02/2023::::::M"
+    },
+    {
+      "session": "SP20",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH   SEMESTER: IV\nBRANCH: EEE   SESSION: SP/2020\n\nSUBJECT: CA201 OBJECT ORIENTED PROGRAMMING USING JAVA\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates may attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a) Write any two important features of Object Oriented Programming. [2] 1 I\nQ1 (b) Explain briefly the structure of a typical Java Program. [3] 1 I\n\n\nQ2 (a) Why the main() method in Java is declared as public? [2] 1,2 II\nQ2 (b) What happen when the following code snippet is executed:\nchar c=’a’;\nswitch(c)\n{\ncase ‘a’: System.out.println(“a”);\ndefault:  System.out.println(“Default”);\n}\n[3] 1,3 IV\n\n\nQ3 (a) Compare instance variable and static variable in Java. Give example for both\ntypes of variable.\n[2] 1 II\nQ3 (b) What is the extension of file generated after compiling a program with java\nextension? What is byte code?\n[3] 2 I\n\n\nQ4 (a) Write general form of method definition in Java. [2] 1 I\nQ4 (b) Write a program in Java to calculate and print marks of five subjecs. Use array\nto store and initialize the marks of the subjects and a function calculate() to\nperform the task of adding 5 marks.\n[3] 1,3 III\n\n\nQ5 (a) Give an example of while loop in Java. [2] 1 I\nQ5 (b) Your  Institute  has  introduced  a  scholarship  policy  for  all  its  registered\nstudents. The policy is as follows: A Scholarship of 1% of total annual fees is\ngiven  to  all  students  irrespective  of  their  GPA  and 5%  is  given  to female\nstudents  if  their GPA  is  more  than 8.0.  Represent  this  logic  using  nested\nif..else statement.\n[3] 1,3 III\n\n\n\n\n:::: 28/02/2020E ::::::"
+    },
+    {
+      "session": "MO19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: IMSc   SEMESTER: III\nBRANCH: PHYSICS/CHEMISTRY    SESSION : MO/2019\n\nSUBJECT : CA201 OBJECT ORIENTED PROGRAMMING USING JAVA\n\nTIME: 2:00  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates may attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) How java is platform independent and explain it with proper diagram? [2]\nQ1 (b)\nWrite down six differences between POP and OOP.\n[3]\n\n\n\nQ2 (a) Briefly explain what is JVM, JRE and JDK. [2]\nQ2 (b) Explain any 6 features of Java. [3]\n\nQ3 (a) Write down the differences between instance variable and class variable. [2]\nQ3 (b)\nWhat is static polymorphism and explain it with an example?\n[3]\n\n\n\nQ4 (a) Write a short note on type casting in java with the help of an example. [2]\nQ4 (b) Write a java code for Fibonacci series with the help of one dimensional array. [3]\n\nQ5 (a) What do you mean by Architectural Neutral? [2]\nQ5 (b) Write a java program to calculate the area of different shape\nI. Declare a class namely “Shape”\nII. Declare 3 function in the class which are taking two integer parameters.\nIII. Declare a parameterized constructor which will initialize two instance\nvariables.\nIV. Create an object of the class in Main() function and call the functions to show\nthe output.\n[5]\n\n\n\n :::::: 19/09/2019 ::::::E\n\nInstance variables :\nLength ,breath ;\nShape(); //Constructor\n\nFunctions :\nArea_Triangle();\nArea_reactangle();\nArea_Square();\n\n\nShape"
     }
   ]
 }

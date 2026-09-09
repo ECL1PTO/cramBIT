@@ -1,0 +1,13 @@
+{
+  "courseCode": "CE417",
+  "courseName": "DESIGN OF HYDRAULIC STRUCTURES",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2023)\nCLASS:  BTECH   SEMESTER : IV\nBRANCH: CIVIL   SESSION : SP/2023\n\nSUBJECT : CE417 DESIGN OF HYDRAULIC STRUCTURES\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) What are the different types of dams? Give classification. [2] 1 1\nQ.1(b) Fig. 1 shows the section of non-overflow portion of the concrete gravity dam. Calculate\nthe  maximum  vertical  stresses  at  the  heel  and  toe  of  the  dam.  Assume  Weight  of\nconcrete = 24.0 kN/m\n3\n, and unit length of dam. Allowable stress in concrete may be\ntaken as 2500 kN/m\n2\n.\n(Neglect effects of earthquake and drainage gallery)\n\n\n(Fig.1)\n\n[3] 2 3\n\n\nQ.2(a) What are the advantages and disadvantages of a gravity dam over the other types? [2] 1 1\nQ.2(b) Calculate the major principal stress at the toe of the dam and the intensity of shear\nstress on a horizontal plane near the toe for the same section of non-overflow section\nof a concrete gravity dam as described in Fig.1.\n[3] 2 3\n\n\nQ.3(a) Differentiate between a weir and a barrage. [2] 2 1\nQ.3(b) Draw a neat layout of diversion head-works indicating the various components of the\nsystem. Briefly indicate the function of each component.\n[3] 2 2\n\n\nQ.4(a) What  are  the  main  causes  of  failures  of  weirs  on  permeable  foundations,  and  what\nremedies can be suggested as preventive measures?\n[2] 2 2\nQ.4(b) Define any two: (i) Bligh’s creep theory, (ii) Lane’s weighted Creep theory, and (iii)\nKhosla’s theory.\n[3] 2 1\n\n    PTO\n\n\n\n\n\n\nQ.5 Design a 1.5 m Sarda-type fall for a canal having a discharge of 12 cumecs with the\nfollowing data (Design for crest level; u/s wing wall, u/s protection & u/s curtain wall;\ntotal impervious floor length; cistern):\nu/s bed level = 103.0 m\nd/s bed level = 101.5 m\nside slope of the channel = 1:1\nu/s FSL = 104.50 m\nu/s and d/s bed with = 10 m.\nsoil = good Loam\nAssume Bligh’s coefficient = 6\n[5] 3 3\n\n::::::24/02/2023::::::M"
+    }
+  ]
+}

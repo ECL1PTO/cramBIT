@@ -1,0 +1,13 @@
+{
+  "courseCode": "CE4007",
+  "courseName": "FLUID MECHANICS – I",
+  "historical_papers": [
+    {
+      "session": "SP19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: IV\nBRANCH: CEVIL   SESSION : SP/2019\n\nSUBJECT : CE4007 FLUID MECHANICS – I\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) Differentiate between ideal fluids and real fluids. [2]\n (b) Draw a typical rheological diagram and describe various types of fluids on it. [3]\n\n\nQ2 (a) Define the following:\n(i) vapour pressure, (ii) bulk modulus of elasticity, and (iii) surface tension\n[2]\n (b) Through a very narrow gap of height h, a thin plate of large extent is pulled at a velocity\nV. On one side of the plate is oil of viscosity 흁\nퟏ\n and on the other side oil of viscosity 흁\nퟐ\n.\nCalculate the position of the plate so that (i) the shear force on the two sides of the\nplate is equal (ii) the pull required to drag the plate is minimum.\n[3]\n\n\nQ3 (a) Differentiate between a simple manometer and a differential manometer. [2]\n (b) Derive the expression for hydrostatic force on a vertical plane surface. Also obtain the\nexpression for centre of pressure.\n[3]\n\n\nQ4 (a) With the help of a sketch, define metacenter and metacentric height. [2]\n (b) A circular plate 2.5 m diameter is immersed in water, its greatest and least depth below\nthe free surface being 3 m and 1 m respectively. Find (a) hydrostatic force on one face\nof the plate and (b) the position of centre of pressure.\n[3]\n\n\nQ5 (a) Differentiate between steady flow and non-steady flow. [2]\n (b) For the velocity components in a fluid flow given by\n푢=2푥푦\n푣=푎\nଶ\n+푥\nଶ\n−푦\nଶ\n\nShow that the flow is possible. Obtain the relevant stream function.\n[3]\n\n\nQ6 (a) What are the basic principles of fluid flow? Name the equations obtained from these basic\nprinciples of fluid flow.\n[2]\n (b)\nIf 흓=ퟒ\n(\n풙\nퟐ\n−풚\nퟐ\n)\n, determine the corresponding values of 흍.\n[3]\n\n\n:::: 06/03//2019 E::::::"
+    }
+  ]
+}

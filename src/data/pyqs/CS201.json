@@ -3,102 +3,25 @@
   "courseName": "DATA STRUCTURES",
   "historical_papers": [
     {
-      "session": "MO/2022",
+      "session": "MO22",
       "examType": "MID",
-      "maxMarks": 25,
-      "durationHrs": 2,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What do you understand by the efficiency of an algorithm?",
-              "marks": 2,
-              "topic": "efficiency"
-            },
-            {
-              "label": "b",
-              "text": "With suitable example, explain the best case, average case and worst-case time complexity of an algorithm?",
-              "marks": 3,
-              "topic": "time complexity"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What is the significance of Big-Oh, Big-omega and Big-theta notations?",
-              "marks": 2,
-              "topic": "big-O"
-            },
-            {
-              "label": "b",
-              "text": "Solve the recurrence relation using back substitution method: T(n) = 1 if n=0, T(n-1) + n if n > 0",
-              "marks": 3,
-              "topic": "recurrence"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What is the purpose and properties of Abstract Data Type?",
-              "marks": 2,
-              "topic": "ADT"
-            },
-            {
-              "label": "b",
-              "text": "Briefly discuss sparse matrix?",
-              "marks": 3,
-              "topic": "sparse matrix"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Differentiate between peek () and pop () functions?",
-              "marks": 2,
-              "topic": "stack"
-            },
-            {
-              "label": "b",
-              "text": "Convert the following infix expression into postfix expression using the algorithm: A – ( B / C + ( D % E * F ) / G ) * H",
-              "marks": 3,
-              "topic": "infix to postfix"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Obtain the infix expression from the given postfix expression: P: 9, 3, 4, *, 8, +, 4, /, -",
-              "marks": 2,
-              "topic": "postfix to infix"
-            },
-            {
-              "label": "b",
-              "text": "Discuss how Circular queue is better than a linear queue?",
-              "marks": 3,
-              "topic": "circular queue"
-            }
-          ]
-        }
-      ]
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B. TECH   SEMESTER: V\nBRANCH: All (MINOR)   SESSION: MO/2022\n\nSUBJECT: CS201 DATA STRUCTURES\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a) What do you understand by the efficiency of an algorithm? [2] CO [3] BT-2\nQ1 (b) With suitable example, explain the best case, average case and worst-\ncase time complexity of an algorithm?\n[3] CO [4] BT-3\n\n\nQ2 (a) What is the significance of Big-Oh, Big-omega and Big-theta notations? [2] CO [4] BT-4\nQ2 (b) Solve the recurrence relation using back substitution method:\nT(n) =    1 if n=0,\n              T(n-1) + n   if n > 0\n[3] CO [3] BT-3\n\n\nQ3 (a) What is the purpose and properties of Abstract Data Type? [2] CO[1],\nCO [2]\nBT-2\nQ3 (b) Briefly discuss sparse matrix? [3] CO [2] BT-3\n\n\nQ4 (a) Differentiate between peek () and pop () functions? [2] CO[1],\nCO [2]\nBT-2\nQ4 (b) Convert the following infix expression into postfix expression using the\nalgorithm:\nA – ( B / C + ( D % E * F ) / G ) * H\n[3] CO [5] BT-4\n\n\nQ5 (a) Obtain the infix expression from the given postfix expression:\nP: 9,  3,  4,  *,  8,  +,  4,  /,  -\n[2] CO[1],\nCO [5]\nBT-3\nQ5 (b)\nDiscuss how Circular queue is better than a linear queue?\n[3] CO [2] BT-\n4,\nBT-5\n\n\n:::::: 15/10/2022 ::::::M"
+    },
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: IMSC   SEMESTER: III\nBRANCH: MATHS   SESSION: MO/2022\n\nSUBJECT: CS201 DATA STRUCTURES\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data handbook/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a) List the limitations of array.  [2] 1 2\nQ1 (b) Write an algorithm/procedure/program/pseudocode to find the length of the\nentered string.\n[3] 1 2\n\n\nQ2 (a) Calculate the address of X[4,3] in a two dimensional array X[1....5, 1...4] stored\nin row major order in the main memory. Assume the base address to be 1000\nand that each element requires 4 words of storage.\n[2] 2 2\nQ2 (b) Write an algorithm/program/procedure/pseudocode to insert a number in an\narray which is already sorted in ascending order.\n[3] 2 2\n\n\nQ3 (a) Convert the infix to prefix and postfix expressions.\nA-B/C+D*E*F/G*H\n[2] 3 1\nQ3 (b) Write an algorithm/procedure/program/pseudocode for the evaluation of\nPostfix expressions and explain with an example.\n[3] 3 1\n\n\nQ4 (a) List the demerits of Liner Queue. Explain through examples the Queue\noperations based on which rule.\n[2] 4 2\nQ4 (b) Write a program/algorithm/procedure/pseudocode to show the insert and\ndelete operations in a Circular Queue.\n[3] 4 1\n\n\nQ5 (a) Explain the merits and demerits of Linked list over Array Implementations. [2] 5 3\nQ5 (b) Write a program/procedure/pseudocode/algorithm for reversing a link list.  [3] 5 2\n\n\n:::::: 27/09/2022 M ::::::"
+    },
+    {
+      "session": "MO19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH/IMSC   SEMESTER:  III\nBRANCH: CSE/IT/MATHS & COMP.  SESSION : MO/2019\n\nSUBJECT : CS201 DATA STRUCTURES\n\nTIME: 2:00  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates may attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) Explain the criteria that you will keep in mind while choosing an appropriate algorithm\nto solve a particular problem. Give examples.\n[2]\n (b) Write  a  Non-Recursive  function  as  well  as  recursive  function  for  the  same  problem.\nAnalyze their time complexity in detail. In general, Recursive algorithm is better than\nNon recursive algorithm with respect to time and space. Justify.\n[3]\n\n\nQ2 (a) Distinguish between the row major order and column major ordering of an array. [2]\n (b) Write a procedure to evaluate the POSTFIX expression E. Explain with example. [3]\n\n\nQ3 (a) Convert the infix expression E= 2+3/1-6*2+9-3+5-6*2/1+4 to prefix expression. [2]\n (b) Write a procedure to maintain a list of items as a circular Queue which is implemented\nusing an array. Write the procedure for insertion and deletion and explain with example.\n[3]\n\n\nQ4 (a) Differentiate between array and stack. [2]\n (b) Write a procedure/algorithm to perform addition and subtraction on two polynomials\nusing link list.\n[3]\n\n\nQ5 (a) Write an algorithm/procedure to delete every second element/node from the List. [2]\n (b) What is Sparse matrix? Explain the linked representation of Sparse matrix with example. [3]\n\n\n\n ::::::25/09/2019 ::::::E"
     }
   ]
 }

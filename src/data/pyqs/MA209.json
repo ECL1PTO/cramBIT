@@ -1,0 +1,13 @@
+{
+  "courseCode": "MA209",
+  "courseName": "INTEGRAL EQUATIONS AND GREEN’S FUNCTION",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: IMSC   SEMESTER: IV\nBRANCH: MATHS & COMPUTING  SESSION: SP/2023\n\nSUBJECT: MA209 INTEGRAL EQUATIONS AND GREEN’S FUNCTION\n\nTIME: 2 HOURS   FULL MARKS: 25\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1\nShow that the function 푦\n(\n푥\n)\n=푐표푠 2푥 is a solution of the integral equation:\n     푦\n(\n푥\n)\n=푐표푠 푥+3\nන\n푘\n(\n푥,푡\n)\n푦\n(\n푡\n)\n푑푡\nగ\n଴\n,\n 푤ℎ푒푛,푘(푥,푡)=\nቄ\n푠푖푛 푥  푐표푠 푡,              0≤푥≤푡\n푐표푠 푥  푠푖푛 푡,              푡≤푥≤휋\n\n\n[5] CO-1 BT-\n1\n\nQ.2 Convert the following IVP into the corresponding integral equation:\n푦\nᇱᇱ\n(\n푥\n)\n+\n(\n푥\nଶ\n+1\n)\n푦\n(\n푥\n)\n=푐표푠 푥\n subject to the conditions:     푦′(0)=2,푦(0)=0\n[5]\n\nCO-1 BT-\n3\n\nQ.3 If exists, find the Eigen values and Eigen functions of the following homogeneous\nFredholm integral equations with degenerate kernels:\n푦\n(\n푥\n)\n=λ\nන\n(\n6푥−푡\n)\n푦\n(\n푡\n)\nଵ\n଴\n\n[5] CO-2 BT-\n1\n\nQ.4 Solve the following non homogeneous Fredholm Integral equations:\n푦\n(\n푥\n)\n=1+λ\nන൫\n1+푒\n(\n௫ା௧\n)\n൯\n푦\n(\n푡\n)\n푑푡\nଵ\n଴\n\n[5] CO-2 BT-\n3\n\nQ.5 Solve the following Fredholm integral equations with the help of resolvent kernels:\ny\n(\nx\n)\n=e\nx\n -\ne\n2\n+\n1\n2\n+\n1\n2\n+\nන\n푦\n(\n푡\n)\n푑푡\nଵ\n଴\n\n[5] CO-2 BT-\n3\n\n::::::24/02/2023::::::M"
+    }
+  ]
+}

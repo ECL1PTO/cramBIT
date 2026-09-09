@@ -1,0 +1,13 @@
+{
+  "courseCode": "EC325",
+  "courseName": "DIGITAL SYSTEM DESIGN WITH FPGAs",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH   SEMESTER: V\nBRANCH: ECE   SESSION: MO/2022\n\nSUBJECT: EC325 DIGITAL SYSTEM DESIGN WITH FPGAs\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a) Identify  few  points  of  difference  between  semi-custom  design  and  full  custom\ndesign.\n[2]  2  2\nQ1 (b) Distinguish   difference   between   channeled   and   channel   less   array-based\nimplementation approaches.\n[3]   3   3\n\n\n\n\n\nQ2 (a) List the different types of macrocells. Give these types advantages. [2] 2 1\nQ2 (b) Outline the standard-cell approach and give its advantages. [3] 3 3\n\n\n\n\nQ3 (a) Differentiate between simulation and synthesis in brief. [2] 2 2\nQ3 (b) Illustrate different data types offered in Verilog HDL? Discuss them with necessary\nsyntax and an example.\n[3] 3 3\n\n\n\n\n\nQ4 (a) Discus the classification of digital systems based on local clocks. [2] 2 2\nQ4 (b) Identified three different techniques of field-programmable gate array (FPGA). [3] 3 3\n\n\n\n\n\n\n\n\nQ5 (a) Explain about chew rate and jitter in digital system with suitable timing diagram.  [2] 2 2\nQ5 (b) List some design techniques for dealing with clock skew and jitter. [3] 3 1\n\n\n\n\n\n\n:::::: 15/10/2022 ::::::M"
+    }
+  ]
+}

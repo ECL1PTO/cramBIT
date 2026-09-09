@@ -1,0 +1,13 @@
+{
+  "courseCode": "CE4003",
+  "courseName": "STRUCTURAL DESIGN - I",
+  "historical_papers": [
+    {
+      "session": "SP19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: IV\nBRANCH: CIVIL ENGG.   SESSION : SP/2019\n\nSUBJECT : CE4003 STRUCTURAL DESIGN - I\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n6. IS Code 800: 2007 is allowed in the exam.\n----------------------------------------------------------------------------------------------------------------------------\n\n\nQ1  What are the assumptions for Plastic Analysis in design of steel structures? [5]\n\nQ2  Consider a Square cross section for which the permissible stress is 0.66 times of the yield\nstress. Find load factor of the section.\n[5]\n\nQ3  Two plates (Made of Fe410) of thickness 10mm each are attached together by a single\nbolt of grade 4.6 having nominal diameter 16mm. Calculate the shear  capacity of the\nbolt considering the intersection of two plates lies within the threaded part of the bolt\nin the connection.\n[5]\n\n\nQ4  Consider  a  lap  joint  where  two  plates  of  thickness  16mm  and  12mm  respectively  are\nconnected with 4 number of bolts of grade 4.6, having nominal diameter 16mm. Steel\nplates are made of Fe410 grade steel. What would be the total bearing capacity of the\nbolts in the connection?\n[5]\n\nQ5  Consider an angle ISA 75x75x8 for which only one leg is connected to a gusset plate of\nthickness  8mm  with  one  row  of  chain  bolting  having  bolts  of  grade  5.6  with  nominal\ndiameter 20mm. Gusset plate is made of Fe410 grade steel. If we use welding instead of\nbolting for this connection, what would be the change in net area of the cross section?\n[5]\n\nQ6  Two plates (Made of Fe410) width 200 mm width and 16mm thickness each are attached\ntogether with 3 bolts (Each of Grade 4.6, having nominal diameter 16mm) as shown in\nthe figure (Fig: 1). Calculate the design rupture strength of the plate in tension only for\nthe  failure  line  A-B-C-D-E  as  shown  in  the  figure.  (Consider  appropriate  pitch,  end\ndistance, edge distance and gauge distance as per IS 800: 2007)\n\n[5]\n  Fig: 1\n\n :::: 02/03//2019 E::::::"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "courseCode": "EE447",
+  "courseName": "MACHINE LEARNING",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2023)\nCLASS: BTECH   SEMESTER : VI\nBRANCH: EEE   SESSION : SP/2023\n\nSUBJECT: EE447 MACHINE LEARNING\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) State the difference between a hypothesis and training data with suitable example.  [2] 1 2\nQ.1(b) Explain different advantages, issues, and applications of machine learning. [3] 1 1\n\n\nQ.2(a) Explain the method of cross validation in machine learning. [2] 1,3 3\nQ.2(b) State the steps followed in the Candidate Elimination Algorithm with suitable example. [3] 1,2 3\n\n\nQ.3(a) Explain overfitting and underfitting in machine learning. [2] 1 2\nQ.3(b) State the Bayes Theorem. Explain its relationship with MAP hypothesis. [3] 2,3 3\n\n\nQ.4(a) Explain the features and problems associated with the Bayesian Learning Method. [2] 1,2 1\nQ.4(b) Explain minimum descriptive length principle with suitable example. [3] 2 2\n\n\nQ.5(a) Explain maximum likelihood estimation with suitable example. [2] 1,2 2\nQ.5(b) Consider the following two hypothesis.\n(a) A particular brick is suitable for building material.\n(b) Brick is not suitable for building material.\nFrom the past data it is considered that 0.1 bricks are not suitable for building material.\nThe brick strength test is the indicator for suitability of bricks and the test shows 99% of\ncorrect  positive  result  and  99.5%  of  correct  negative  results.  Determine  the  posterior\nprobability of new brick to be suitable for building material along with positive test result.\n[3] 2,3 3\n\n\n::::::01/03/2023::::::M"
+    }
+  ]
+}

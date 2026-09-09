@@ -1,0 +1,13 @@
+{
+  "courseCode": "ME213",
+  "courseName": "THERMO-FLUID ENGINEERING",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION, SP2023)\nCLASS:  BTECH    SEMESTER: IV\nBRANCH:  MECHANICAL   SESSION: SP/2023\n\nSUBJECT: ME213 THERMO-FLUID ENGINEERING\nTIME: 02 Hours    FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) Describe with an example, the Eulerian and Lagrangian description in fluid flow. [2] CO2 2\nQ.1(b) Derive an expression for the acceleration flow field and explain the various terms. [3] CO3 3\n\n\nQ.2 Consider 2-D, steady, incompressible flow through the plane converging channel shown in\nFig. 1. The velocity on the horizontal centerline (x axis) is given by 푉\nሬ⃗\n=푉\nଵ\n[\n1+푥/퐿\n]\n횤\n̂\n. Find an\nexpression  for  the  acceleration  of  a  particle  moving  along  the  centerline  using  (a)  the\nEulerian approach  and (b) the Lagrangian approach. Evaluate the acceleration when the\nparticle is at the beginning and at the end of the channel.\n[5] CO4 4\n\n\nQ.3 The fluid in direct contact with a stationary solid boundary has zero velocity; there is no slip\nat the boundary. Thus, the flow over a flat plate adheres to the plate surface and forms a\nboundary layer, as depicted below. The flow ahead of the plate is uniform with velocity 푉\nሬ⃗\n=\n푈횤\n̂\n; U=30  m/s.  The  velocity  distribution  within  the  boundary  layer  (0≤y≤δ) along cd is\napproximated as u/U = 2(y/δ) - (y/δ)\n2\n.\nThe boundary-layer thickness at location d is δ=5 mm. The fluid is air with density ρ=1.24\nkg/m\n3\n. Assuming the plate width perpendicular to the paper to be w=0.6 m, calculate the\nmass flow rate across surface bc of control volume abcd.\n[5] CO5 4\n\n\nQ.4 Derive  the  differential  form  of continuity  equation  in  Cartesian  coordinate  system.  Also\nexpress the same in terms of material derivative.\n[5] CO5 3\n\n\nQ.5\nConsider a fluid particle with velocity 푉\nሬ⃗\n=2푥횤\n̂\n−3푦횥\n̂\n+푧푘\n෠\n. Describe the deformation of the\nfluid particle.\n[5] CO4 2\n\n\n::::::23/02/2023::::::M"
+    }
+  ]
+}

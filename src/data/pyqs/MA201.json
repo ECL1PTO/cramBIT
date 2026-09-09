@@ -1,0 +1,13 @@
+{
+  "courseCode": "MA201",
+  "courseName": "PARTIAL DIFFERENTIAL EQUATION",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: IMSC   SEMESTER: III\nBRANCH: MATHEMATICS AND COMPUTING  SESSION: MO/2022\n\nSUBJECT: MA201 PARTIAL DIFFERENTIAL EQUATION\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n    CO BL\nQ1 (a)\nFind the partial differential equation arising from 풁=풇\n(\n풙+풊풕\n)\n+품(풙−\n풊풕), where 풊=\n√\n−ퟏ.\n[2] 1 2\nQ1 (b)\nFind the general integral of the following partial differential equations:\n풙\nퟐ\n\n(\n풚\n−\n풖\n)\n풑\n+풚\nퟐ\n\n(\n풖\n−\n풙\n\n)\n풒\n=풖\nퟐ\n(\n풙\n−\n풚\n)\n.\n\n[3] 2 3\n\n\nQ2 (a)\nShow that the integral surface of the equation ퟐ풚\n(\n풖−ퟑ\n)\n풑+\n(\nퟐ풙−풖\n)\n풒=\n풚(ퟐ풙−ퟑ) that passes through the circle 풙\nퟐ\n+풚\nퟐ\n=ퟐ풙, 풖=ퟎ is\n푥\nଶ\n+푦\nଶ\n−푢\nଶ\n−2푥+4푢=0.\n[2] 3 4\nQ2 (b) Find the solution of the following Cauchy problems:\n5푢\n௫\n+2푢\n௬\n=0,푢\n(\n푥,표\n)\n=sin푥.\n[3] 4 4\n\n\nQ3 (a) Find a function u(x,y) that solves the Cauchy problem\n푥\nଶ\n푢\n௫\n+푦\nଶ\n푢\n௬\n=푢\nଶ\n,  푢\n(\n푥,2푥\n)\n=푥\nଶ\n,푥∈푅. Is the solution defined for all x\nand y?\n[2] 4 4\nQ3 (b) Find the surface which is orthogonal to the one-parameter system\n푢=푐푥푦(푥\nଶ\n+푦\nଶ\n)  and which passes through the hyperbola 푥\nଶ\n−푦\nଶ\n=\n푎\nଶ\n,푢=0.\n[3] 3 3\n\n\nQ4 (a) Solve the following nonlinear partial differential equations:\n푝\nଶ\n푦\n(\n1+푥\nଶ\n)\n=푞푥\nଶ\n.\n[2] 2 3\nQ4 (b) Reduce the following equations to canonical form and solve:\n4푢\n௫௫\n−12푢\n௫௬\n+9푢\n௬௬\n=푒\nଷ௫ାଶ௬\n\n[3] 2 3\n\n\nQ5 (a) Classify the following second-order partial differential equations:\n푢\n௫௫\n+4푢\n௫௬\n+\n(\n푥\nଶ\n+4푦\nଶ\n)\n푢\n௬௬\n=sin\n(\n푥+푦\n)\n.\n[2] 1 2\nQ5 (b)\nFind the general solution of ퟑ풖\n풙풙\n+ퟏퟎ 풖\n풙풚\n+ퟑ 풖\n풚풚\n=ퟎ.\n[3] 2 3\n\n\n\n:::::: 28/09/2022 M ::::::"
+    }
+  ]
+}

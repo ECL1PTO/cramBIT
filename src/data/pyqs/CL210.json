@@ -1,0 +1,13 @@
+{
+  "courseCode": "CL210",
+  "courseName": "TRANSPORT PHENOMENA",
+  "historical_papers": [
+    {
+      "session": "SP20",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: IV\nBRANCH: CHEMICAL   SESSION : SP/2020\n\nSUBJECT: CL210 TRANSPORT PHENOMENA\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates may attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1  A fluid of constant density is flowing in laminar flow at steady state in the horizontal x\ndirection between two flat and parallel plates. The distance between the two plates in\nthe vertical y direction is 2y\n0\n. Derive the equation for the velocity profile within this fluid\nand the maximum velocity for a distance L m in the x direction.\n[5]\n\n\nQ2  For a layer of liquid flowing in laminar flow in the z direction down a vertical plate or\nsurface, derive the velocity profile. Where δ is the thickness of the layer, x is the distance\nfrom the free surface of the liquid toward the plate and v\nz\n is the velocity at a distance x\nfrom the free surface.\n(i). What is the maximum velocity v\nz,max\n ?\n(ii). Derive the expression for the average velocity v\nz av\n  and also relate it to  v\nz,max.\n\n[5]\n\n\nQ3  A Newtonian fluid of constant density and viscosity is in a vertical cylindrical container\nof radius R. The container is caused to rotate about its own axis at an angular velocity\nꞷ.  Find  the  shape  of  the  free  surface  of  the  liquid  when  steady  state  has  been\nestablished.\n[5]\n\n\nQ4  An incompressible, isothermal Newtonian fluid is held between two vertically placed co-\naxial cylinders. Determine the velocity distributions for the flow of the fluid when-the\nouter cylinder is rotating at an angular velocity ɷ while the inner cylinder is stationary.\nUse Navier-Stoke’s equation.\n[5]\n\n\nQ5  Briefly describe the following terms\n(i) Gradient;    (ii) Divergence;   (iii) Substantial time derivative;\n[5]\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n   PTO\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n :::::: 04/03/2020 ::::::E"
+    }
+  ]
+}

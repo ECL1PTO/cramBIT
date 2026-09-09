@@ -1,0 +1,13 @@
+{
+  "courseCode": "ME355",
+  "courseName": "ADVANCED SOLID MECHANICS",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2023)\nCLASS: BTECH   SEMESTER : VI\nBRANCH: MECHANICAL   SESSION :  SP/2023\n\nSUBJECT: ME355 ADVANCED SOLID MECHANICS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Define stress at a point. [2] 1 1\nQ.1(b)\nA body is subjected to uniaxial tensile loading such that 휎\n௫\n=10 푀푃푎, and all other stress\ncomponents are zero. Find the normal and shear stresses on a plane whose direction cosines\nare 푛\n௫\n=푛\n௬\n=\nଵ\n√\nଶ\n,푎푛푑 푛\n௭\n=0.\n[3] 1 3\n\n\nQ.2(a) What do you understand by principal stresses. [2] 1 2\nQ.2(b)\nFind the value of principal stresses if the stress components at a point are 휎\n௫\n=휎\n௬\n=휎\n௭\n=\n1 푀푃푎,휏\n௫௬\n=2 푀푃푎,휏\n௬௭\n=휏\n௭௫\n=1 푀푃푎.\n[3] 1 4\n\n\nQ.3(a) Define linear strain and shear strain. [2] 1 1\nQ.3(b) Derive the differential equation of equilibrium [3] 1 3\n\n\nQ.4(a) What is a beam column? [2] 2 2\nQ.4(b) Derive beam column equation. [3] 2 3\n\n\nQ.5 Derive the equation for deflection of a beam column subjected to a concentrated load. [5] 2 4\n\n\n\n::::::01/03/2023::::::M"
+    }
+  ]
+}

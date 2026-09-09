@@ -1,80 +1,13 @@
 {
   "courseCode": "CS241",
-  "courseName": "Design and Analysis of Algorithm",
+  "courseName": "DESIGN AND ANALYSIS OF ALGORITHM",
   "historical_papers": [
     {
-      "session": "SP2023",
+      "session": "SP23",
       "examType": "MID",
-      "maxMarks": 25,
-      "durationHrs": 2,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What is the significance of Asymptotic Notations in Design and Analysis of an algorithm? Illustrate O, Ω, Ɵ notations in term of Time Complexity with suitable examples.",
-              "marks": 5,
-              "topic": "Asymptotic Notations"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Derive the Best Case and Worst-Case Time Complexity of Insertion Sort and prove that Insertion Sort is stable.",
-              "marks": 5,
-              "topic": "Insertion Sort"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "State and explain the Master Theorem. Solve the following recurrence relations using Master Theorem: T(n)=2 T(n/2)+ n / log n ; T(n)=2 T(n/2)+ n log n ; T(n)=T(n/4)+ n log n ; T(n)=T(n/2)+1 ; T(n)=2 T(n/2)+ n log n",
-              "marks": 5,
-              "topic": "Master Theorem"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Write the Quick Sort algorithm and derive its Time Complexity for Best Case and Worst-Case.",
-              "marks": 5,
-              "topic": "Quick Sort"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Explain the Binary Search algorithm and derive its Time Complexity using mathematical induction method.",
-              "marks": 2,
-              "topic": "Binary Search"
-            },
-            {
-              "label": "b",
-              "text": "Solve the following using Recursion Tree method: T(n)=2 T(n/2)+ n ; T(n)=3 T(n/4)+ c n^2",
-              "marks": 3,
-              "topic": "Recursion Tree"
-            }
-          ]
-        }
-      ]
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS:  BTECH   SEMESTER : IV\nBRANCH: CSE/IT   SESSION : SP2023\n\nSUBJECT: CS241 DESIGN AND ANALYSIS OF ALGORITHM\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1 What  is  the  significance  of  Asymptotic  Notations  in Design and  Analysis of an\nalgorithm? Illustrate O, Ω, Ɵ notations in term of Time Complexity with suitable\nexamples.\n[5] CO1, CO2 BL3\n\n\nQ.2 Derive the Best Case and Worst-Case Time Complexity of Insertion Sort and prove\nthat Insertion Sort is stable.\n[5] CO1, CO2 BL4,\nBL5\n\n\nQ.3 State and explain the Master Theorem. Solve the following recurrence relations\nusing Master Theorem.\n                    T (n) = 2 T (n / 2) + n / log n\nT (n) = 2 T (n / 2) + 푛 푙표푔푛\nି ଶ\n\n푇\n(\n푛\n)\n=푇\nቀ\n푛\n4\nቁ\n+푛푙표푔푛\n푇\n(\n푛\n)\n=푇\nቀ\n푛\n2\nቁ\n+1\n푇\n(\n푛\n)\n=2푇\nቀ\n푛\n2\nቁ\n+푛푙표푔푛\n\n[5] CO1, C02 BL2,\nBL3\n\n\nQ.4 Write the Quick Sort algorithm and derive its Time Complexity for Best Case and\nWorst-Case.\n[5] CO1,\nCO2, CO3\nBL4\n\n\nQ.5(a) Explain  the  Binary  Search  algorithm  and  derive  its  Time  Complexity  using\nmathematical induction method.\n[2] CO1,\nCO2, CO3\nBL3\nQ.5(b) Solve the following using Recursion Tree method:\n                     T (n) = 2 T (n / 2) + n\nT (n) = 3 T (n / 4) + cn\n2\n\n[3] CO1,\nCO2, CO3\nBL4\n\n\n\n::::::22/02/2023::::::M"
     }
   ]
 }

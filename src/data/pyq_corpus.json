@@ -888,5 +888,62 @@
       "CO4"
     ],
     "sessions": 1
+  },
+  {
+    "key": "CSE/IT401 DATA ANALYSIS AND INTERPRETATION (MID_MO22).pdf",
+    "code": "IT401",
+    "name": "DATA ANALYSIS AND INTERPRETATION",
+    "dept": "CSE",
+    "topics": [
+      "descriptive statistics",
+      "standard normal distribution",
+      "permutation test",
+      "hypothesis testing",
+      "ANOVA",
+      "simple linear regression",
+      "ridge regression",
+      "KNN classification",
+      "bias-variance tradeoff",
+      "logistic regression"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/IT402 _NET PROGRAMMING (MID_MO22).pdf",
+    "code": "IT402",
+    "name": ".NET PROGRAMMING",
+    "dept": "CSE",
+    "topics": [
+      "architecture",
+      "arithmetic",
+      "CLR",
+      "compilation",
+      "inheritance",
+      "array sum",
+      "regular expression",
+      "multiple inheritance",
+      "exception handling",
+      "custom exception"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/IT404 INTELLECTUAL PROPERTY RIGHTS AND CYBER LAWS (MID_MO22).pdf",
+    "code": "IT404",
+    "name": "INTELLECTUAL PROPERTY RIGHTS AND CYBER LAWS",
+    "dept": "CSE",
+    "topics": [
+      "definition",
+      "forms",
+      "justification",
+      "TRIPS",
+      "copyright concept",
+      "copyright history",
+      "patent definition",
+      "patent rights",
+      "trademark definition",
+      "trademark distinctiveness"
+    ],
+    "sessions": 1
   }
 ]

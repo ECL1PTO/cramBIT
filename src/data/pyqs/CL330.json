@@ -1,0 +1,13 @@
+{
+  "courseCode": "CL330",
+  "courseName": "NATURAL GAS ENGINEERING",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS: B. TECH   SEMESTER : VI\nBRANCH: CHEMICAL/CHEMICAL P&P  SESSION : SP2023\n\nSUBJECT: CL330 NATURAL GAS ENGINEERING\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) Write the name of the methods for transporting natural gas from its origin to the existing\nmarkets.\n[2] 1 1\nQ.1(b) Define the following terms: (i) Reservoir, (ii) Field, and (iii) Pool [3] 1 1\nQ.1(c) For  the  gas  composition  given  below, determine  apparent  molecular  weight,  specific\ngravity, pseudocritical pressure, and pseudo-critical temperature of the gas.\n\nComponent Mole fraction T\nCi\n (°R) P\nCi\n (psia)\nCH\n4\n 0.765 344 673\nC\n2\nH\n6\n 0.073 550 709\nC\n3\nH\n8\n 0.021 666 618\ni-C\n4\nH\n10\n 0.005 733 530\nn-C\n5\nH\n12\n 0.006 847 485\nN\n2\n 0.060 492 227\nCO\n2\n 0.040 548 1073\nH\n2\nS 0.030 1306 672\n\n[5] 1 3\n\nQ.2(a) Define absolute and effective porosity of a rock material. [2] 2 1\nQ.2(b) Define the following terms: (i) absolute permeability, (ii) Effective permeability, and (iii)\nRelative permeability.\n[3] 2 1\nQ.2(c) Prove the following relationship for the gas flow in a tube using first law of thermodynamics\nand with appropriate assumptions.\n\n\n\n[5] 2 3\n\nQ.3 Draw a neat schematic diagram of various processes of a gas processing plant. Write at least\nthree roles of a gas processing plant.\n[5] 3 1\n\n\n::::::23/02/2023::::::M"
+    }
+  ]
+}

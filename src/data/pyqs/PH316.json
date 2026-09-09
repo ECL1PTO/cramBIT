@@ -1,0 +1,13 @@
+{
+  "courseCode": "PH316",
+  "courseName": "STATISTICAL MECHANICS",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2023)\nCLASS:  IMSc   SEMESTER : VI\nBRANCH: PHYSICS   SESSION : SP/2023\n\nSUBJECT: PH316 STATISTICAL MECHANICS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) Define microstates and macrostates. [2] 1 1\nQ.1(b) Derive the relation between the Boltzmann constant k\nB\n and the universal gas constant\nR.\n[3] 1 3\n\n\nQ.2(a) Explain  the  difference  between  the  microcanonical,  canonical  and  grand canonical\nensembles.\n[2] 1 2\nQ.2(b) How does the quantum indistinguishability of particles leads to the resolution of the\nGibbs paradox?\n[3] 1 2\n\n\nQ.3(a) A cavity has its walls maintained at the temperature T. Explain whether the shape, size\nor  material  of  the  walls  should  affect  the  spectral  energy  density  of  the  radiations\nenclosed by it.\n[2] 2 1\nQ.3(b) Sunlight falls on the earth with power per unit area given by 1370 W/m\n2\n. Estimate the\nradiation pressure.\n[3] 2 3\n\n\nQ.4(a) Briefly describe Wien’s Displacement Law. [2] 2 2\nQ.4(b) In a 3D cavity, the number of modes of radiation in the frequency range 휈 to 휈+d휈 is\ngiven by N(휈)d휈 = (8휋V/c\n3\n)휈\n2\nd휈. Explain how this leads to the ultraviolet catastrophe.\n[3] 2 2\n\n\nQ.5(a) What were the properties of radiations proposed by Planck that led to the resolution of\nthe UV catastrophe?\n[2] 3 1\nQ.5(b) Derive the Stefan-Boltzmann Law using the Planck’s Radiation Law. [3] 3 2\n\n\n\n::::::21/02/2023::::::M"
+    }
+  ]
+}

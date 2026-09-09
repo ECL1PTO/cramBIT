@@ -1,0 +1,20 @@
+{
+  "courseCode": "EE303",
+  "courseName": "INTRODUCTION TO MICROPROCESSOR & MICROCONTROLLERS",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS:  BTECH   SEMESTER : IV\nBRANCH: EEE   SESSION : SP2023\n\nSUBJECT: EE303 INTRODUCTION TO MICROPROCESSOR & MICROCONTROLLERS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) The segment address is given as 1234 H and Offset address is 0005 H. Find out the\nphysical address.\n[2] CO-1\nQ.1(b) Explain the architecture of 8086 microprocessor with suitable block diagram.  [3] CO_3\n\n\nQ.2(a) Write short notes on (a) minimum and maximum operating modes (b) pipelining.  [2] CO-1\nQ.2(b) Explain the 8086 flag register format and significance of each flag bit. Add two signed\nhexadecimal 42 H and 44 H, and find out the effects on the status flags.\n[3] CP-3\n\n\nQ.3(a) Write the advantages and disadvantages of pipelining feature in 8086 microprocessor. [2] CO-2\nQ.3(b) Elucidate the memory segmentation in the 8086 microprocessor. State its advantages. [3] CO-2\n\n\nQ.4(a) Explain the significance of the following pins in 8086 microprocessor.\n(i) NMI (ii)Reset (iii) Ready (iv) GND\n[2] CO-1\nQ.4(b) List  and  describe  with  examples  different  data  memory,  I/O  and  program  memory\naddressing modes in 8086 microprocessor.\n[3] CO-2\n\n\nQ.5(a) Classify and explain 8086 instruction set. [2] CO-3\nQ.5(b) Write a program to add two 8 bit or 16 bit hexadecimal numbers. [3] CO-3\n\n\n\n::::::22/02/2023::::::M"
+    },
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH   SEMESTER: V\nBRANCH: EEE   SESSION: MO/2022\n\nSUBJECT: EE303 INTRODUCTION TO MICROPROCESSOR AND MICROCONTROLLERS\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates may attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data handbook/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n    CO BL\nQ1 (a) Draw and explain the internal architecture of 8085 microprocessor. [3]\nQ1 (b) What are status pins available on 8085? Explain their meanings and uses. [2]\n\n\nQ2 (a) Differentiate  between  8085  and  8086  micro-processor based  on the functional\nfeatures.\n[2]\nQ2 (b) Explain the types of registers and pointers available in 8086 micro-processor. Also\nmention their uses in programming.\n[3]\n\n\nQ3 (a) Discuss the functions of the following pins – RESET, DT/R, LOCK, NMI. [2]\nQ3 (b) Explain memory banking of 8086 and draw its interfacing diagram. [3]\n\n\nQ4 (a) Explain  different  types  of  addressing  modes  available  in  8086  with  suitable\nexamples.\n[2]\nQ4 (b) What are the different operations on which instructions of 8086 is categorized?\nMention suitable instruction names in each category.\n[3]\n\n\nQ5 (a) Explain  about  Interrupt  structure  of  8086.  Also  mention  the  instructions\nassociated with Interrupt operation.\n[2]\nQ5 (b) Explain following instructions – I) XCHG, II) DAA, III) IDIV, IV) TEST [2]\nQ5 (c) Write an ALP in 8086 to find square of a number (8-bit) at NUM and store result at\nRESULT.\n[1]\n\n\n:::::: 27/09/2022 M ::::::"
+    }
+  ]
+}

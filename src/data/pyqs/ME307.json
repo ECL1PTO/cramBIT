@@ -1,0 +1,13 @@
+{
+  "courseCode": "ME307",
+  "courseName": "ROBOTICS ENGINEERING",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS:  BTECH   SEMESTER : VI\nBRANCH: MECHANICAL   SESSION : SP2023\n\nSUBJECT: ME307 ROBOTICS ENGINEERING\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a)\nA vector\n୅\nP is rotated about 푍\nመ\n஺\n by an angle θ and is subsequently rotated about\n푋\n෠\n஺\n by an angle φ. Evaluate the rotational matrix that accomplishes these rotations\nin the given order.\n[2] 1 Evaluate\nQ.1(b) Two frames {A} and {B} are related by the following matrix:\n푇 =൦\n01015\n−1 0 0 20\n0 0 1 −9\n0 0 0 1\n൪\n஻\n஺\n. If the orientation vector of a parameter is given in frame\n{B} as\n஻\n푉=\n൝\n10\n10\n10\nൡ\n, what is its orientation in {A}? Also, sketch frame {B} relative to\nframe {A}.\n[3] 1 Sketch\n\n\nQ.2 {A}  and  {B}  are  frames  differing  only  in  orientation.  {B}  is  attained  as  follows:\nstarting coinciding with {A}, {B} is rotated by θ radians about unit vector 퐾\n෡\n,푖.푒.,\n푅\n஻\n஺\n= 푅\n௞\n஻\n஺\n(\nθ\n)\n. Show that 푅\n஻\n஺\n=푒\n௄ఏ\n, where\n퐾=\n቎\n0  −푘\n௭\n푘\n௬\n푘\n௭\n0−푘\n௫\n−푘\n௬\n푘\n௫\n0\n቏\n.\n[5] 1 Evaluate\n\n\nQ.3(a) Write the name of the point where the tool frame should be affixed.  [1] 1 Write\nQ.3(b) Show  the  attachment  of  the  link  frames  and  derive  the  DH-parameter  of  the\nmanipulator shown in Fig. Q.3(b).\n\nFig. Q.3(b)\n[4] 1 Derive\n\n    PTO\n\n\n\n\n\n\n\nQ.4(a) Define repeatability and accuracy. [2] 2 Define\nQ.4(b)\nDerive inverse-kinematics solution for 푑\nଶ\n and 푑\nଷ\n shown in Fig. Q.4(b).\n\nFig. Q.4(b)\n\n[3]\n2 Derive\n\n\nQ.5(a) For a manipulator derive Jacobian in force domain. [2] 2 Derive\nQ.5(b)\nThe two-link manipulator (shown in Fig. Q.5(b)) is applying a force vector\nଷ\n퐹 with\nits  end-effector.  Consider  this  force  to  be  acting  at  the  origin  of  {3}.  Find  the\nrequired joint torques as a function of configuration and of the applied force.\n\n\nFig. Q.5(b)\n[3] 2 Find\n\n\nHint:\n\n\n::::::21/02/2023::::::M"
+    }
+  ]
+}

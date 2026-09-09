@@ -1,0 +1,13 @@
+{
+  "courseCode": "ME357",
+  "courseName": "MEASUREMENT AND INSTRUMENTATION",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS:  BTECH   SEMESTER : VI\nBRANCH: MECHANICAL   SESSION : SP2023\n\nSUBJECT: ME357 MEASUREMENT AND INSTRUMENTATION.\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) What is the difference between accuracy and Precision? Give Examples. [2] 1 L\nQ.1(b) Explain about static characteristics of measurement? What are the types of measurement?\nGive Examples.\n[3] 2 M\n\n\nQ.2(a) What do mean by static characteristics of Instruments? Give Examples. [2] 1 L\nQ.2(b) With the help of Line and block diagram explain the three stages generalized measurement\nsystem. Give examples.\n[3] 2 M\n\n\nQ.3(a) What do you mean by dynamic characteristics of instruments? Give Examples. [2] 1 L\nQ.3(b) Distinguish between electrical and mechanical Transducers? [3] 2 L\n\n\nQ.4(a) Explain briefly error classifications in measurement. [2] 1 L\nQ.4(b) By using a micrometer the following reading were taken of a certain physics length\n\n1.34, 1.38, 1.56, 1.47, 1.42, 1.44, 1.53 1.48, 1.40, 1.59 mm\n\nAssuming the random errors are present calculate the following :\n\n(i) Arithmetic mean\n(ii) Average deviation\n(iii)  Standard deviation\n(iv) Variance\n[3] 2 M\n\n\nQ.5(a) Write short Notes on (i) Digital Instruments (ii) Analog Instruments [2] 1 L\nQ.5(b) Define: (i) Amplification\n            (ii) Impedance\n            (iii) Filters\n[3] 2 M\n\n\n\n::::::22/02/2023::::::M"
+    }
+  ]
+}

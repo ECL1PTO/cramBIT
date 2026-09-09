@@ -1,0 +1,13 @@
+{
+  "courseCode": "BE205",
+  "courseName": "BASICS OF BIOINFORMATICS",
+  "historical_papers": [
+    {
+      "session": "MO19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH   SEMESTER: III\nBRANCH: BIOTECHNOLOGY   SESSION : MO/2019\n\nSUBJECT : BE205 BASICS OF BIOINFORMATICS\n\nTIME: 2.00  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates may attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) Describe followings information resources and databases: NCBI, EMBL, RCSB, SGD, TIGR and\nSCOP.\n[2]\nQ1 (b) Demonstrate four different formats used in bioinformatics databases with example. [3]\n\n\nQ2 (a) For the following two sequences, find out three possible alignments and Calculate optimal\nalignment, [mismatch :-2, match: +4 Gap opening penalty -2 and gap extension penalty -1]\n[2]\nQ2 (b) Compose the sequence searching algorithm BLAST stepwise (theory and types). What is E-\nvalue?\n[3]\n\n\nQ3 (a) Differentiate the matrix PAM and BLOSUM with proper application. [2]\nQ3 (b) Using Needleman-Wunsch algorithm used in Dynamic Programming, complete the following\nalignment matrix (array) and predicts the possible alignment, [Match : +4; mismatch: -4,\nlinear GAP penalty: -2]\n\n0 A (2) G (4) C (6)\nA (2)\n\n\nG (4)\n\n\nG(6)\n\n\n\n[3]\n\n\nQ4 (a) Theorize with example: molecular clock, transversion and dendogram. [2]\nQ4 (b) For  the  following  individual  pairwise  distances,  construct  the  phylogenetic  tree  using\nUPGMA method, (ab:5; ac:30; ad:45; bc28; bd:42; cd:10).\n[3]\n\n\nQ5 (a) Hypothesize different substitution of model DNA. [2]\nQ5 (b) Synthesize  the  stepwise  methodology  for  building  phylogenetic  tree,  Fitch-Margolish\nmethod.\n[3]\n\n\n\n:::: 26/09/2019E ::::::\n\ns T C A G A C G A G T G\nt T C G G A G C T G"
+    }
+  ]
+}

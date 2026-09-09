@@ -1,0 +1,13 @@
+{
+  "courseCode": "EC449",
+  "courseName": "WIRELESS SENSOR NETWORKS",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH.   SEMESTER: VII\nBRANCH: ECE   SESSION: MO/2022\n\nSUBJECT: EC449 WIRELESS SENSOR NETWORKS\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n    CO BL\nQ1 (a) Write the characteristics of mobile ad-hoc networks. [2] CO1 1\nQ1 (b) Discuss three basic Radio propagation mechanisms.                                                                                       [3] CO1 2\n\n\nQ2 (a) Create  a  table and compare  short  range  wireless  network  standards  (i.e.\nBluetooth,  Zigbee  and  UWB)  in  terms  of  frequency  range,  modulation,\nmaximum data rate, and access mechanism.\n[2] CO1 2\nQ2 (b) List  the  design  challenges  and  applications  of ad-hoc  network. Draw  the\narchitecture of mobile ad-hoc network and explain in brief.\n[3] CO1 1,2,3\n\n\nQ3 (a) Compare traditional networks and Wireless sensor Networks. [2] CO2 2\nQ3 (b) Draw the Hardware architecture of a sensor node and explain the functionality\nof each components.\n[3] CO2 1,2\n\n\nQ4 (a) What are the factors that affects the design of WSNs? [2] CO2 2\nQ4 (b) What is the significance of data relaying and aggregation in WSNs? Discuss any\ntwo data relaying and aggregation strategies.\n[3] CO2 2,3\n\n\nQ5 (a) Compare contention based and contention free MAC protocols in WSNs. [2] CO3 4\nQ5 (b) Why IEEE802.11 MAC protocol is not suitable  for WSNs? How SMAC  protocol\nreduces the energy consumption from all sources of energy inefficiency?\n[3] CO3 2,4\n\n\n\n\n :::::: 26/09/2022 ::::::M"
+    }
+  ]
+}

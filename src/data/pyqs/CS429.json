@@ -3,102 +3,11 @@
   "courseName": "INFORMATION AND CODING THEORY",
   "historical_papers": [
     {
-      "session": "MO/2022",
+      "session": "MO22",
       "examType": "MID",
-      "maxMarks": 25,
-      "durationHrs": 2,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Explain the importance of measuring entropy in context of Information theory.",
-              "marks": 2,
-              "topic": "CO-1"
-            },
-            {
-              "label": "b",
-              "text": "Find self-information of each of the following symbols. Also, calculate total information and entropy of the set. Source alphabet whose letters have the following probabilities. A B C D ¼ 1/8 ½ 1/8",
-              "marks": 3,
-              "topic": "CO-2"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Define Discrete Memoryless Channel. Why source coding is often called as noiseless coding?",
-              "marks": 2,
-              "topic": "CO-1"
-            },
-            {
-              "label": "b",
-              "text": "Suppose we send words along a symmetric binary channel with symbol error probability (1/3). Can we be able to compute the transition matrix of the channel? If possible, derive that.",
-              "marks": 3,
-              "topic": "CO-1"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "State Kraft’s inequality. Apply Kraft’s inequality to ascertain if an Instantaneous code can be created with the following codeword lengths {2, 2, 3, 3, 4}.",
-              "marks": 2,
-              "topic": "CO-5"
-            },
-            {
-              "label": "b",
-              "text": "Discuss the drawbacks of fixed length coding in comparison to other efficient coding techniques.",
-              "marks": 3,
-              "topic": "CO-2"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Give the logic to generate Huffman code. Point out the merits and demerits of this code.",
-              "marks": 2,
-              "topic": "CO-2"
-            },
-            {
-              "label": "b",
-              "text": "Justify the statement – “A code C is instantaneous if and only if it is prefix”.",
-              "marks": 3,
-              "topic": "CO-5"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "How do you decide a channel is symmetric and error free?",
-              "marks": 2,
-              "topic": "CO-1"
-            },
-            {
-              "label": "b",
-              "text": "Suppose you wish to send the result of rolling a fair eight-sided die. Design the most efficient way to encode the message (corresponding to each side). Show the encoded message.",
-              "marks": 3,
-              "topic": "CO-5"
-            }
-          ]
-        }
-      ]
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VII\nBRANCH: CS/IT   SESSION: MO/2022\n\nSUBJECT: CS429 INFORMATION AND CODING THEORY\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n    CO BL\nQ1 (a) Explain the importance of   measuring   entropy   in   context   of\nInformation theory.\n[2] CO-1 Understand\nQ1 (b)\nFind  self-information  of  each  of  the  following  symbols.  Also,\ncalculate total information and entropy of the set.  Source alphabet\nwhose letters have the following probabilities.\n            A     B     C     D\n           ¼    1/8   ½    1/8\n[3] CO-2 Apply\n\nQ2 (a) Define  Discrete Memoryless Channel. Why  source  coding  is  often\ncalled as noiseless coding?\n[2] CO-1 Understand\nQ2 (b) Suppose we  send  words  along  a  symmetric  binary  channel  with\nsymbol  error  probability  (1/3).  Can  we  be  able  to  compute  the\ntransition matrix of the channel?  If possible, derive that.\n[3] CO-1 Analyse\n\nQ3 (a) State  Kraft’s inequality. Apply  Kraft’s  inequality  to  ascertain  if  an\nInstantaneous  code  can  be  created  with  the  following  codeword\nlengths {2, 2, 3, 3, 4}.\n[2] CO-5 Analyse\nQ3 (b) Discuss    the drawbacks of fixed length  coding  in comparison  to\nother  efficient  coding  techniques.\n[3] CO-2 Understand\n\nQ4 (a) Give the logic to generate Huffman code.  Point out the merits  and\ndemerits  of   this code.\n[2] CO-2 Understand\nQ4 (b) Justify the statement – “A code C is instantaneous if and only if it\nis  prefix”.\n[3] CO-5 Evaluate\n\nQ5 (a) How do you decide a channel is symmetric and error free? [2] CO-1 Understand\nQ5 (b) Suppose you wish to send the result of rolling a fair eight-sided die.\nDesign the most efficient way to encode the message (corresponding\nto each side). Show the encoded message.\n[3] CO-5 Create\n\n\n\n\n :::::: 26/09/2022 ::::::M"
     }
   ]
 }

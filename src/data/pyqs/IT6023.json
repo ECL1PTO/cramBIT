@@ -1,0 +1,20 @@
+{
+  "courseCode": "IT6023",
+  "courseName": "COMPUTER NETWORK AND SECURITY",
+  "historical_papers": [
+    {
+      "session": "SP20",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VI\nBRANCH: IT   SESSION : SP/2020\n\nSUBJECT : IT6023 COMPUTER NETWORK AND SECURITY\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) What are the different types of classical encryption techniques? [2]\n (b) Discuss the different types of Modes of Operation using a suitable block diagram. [3]\n\n\nQ2 (a) Compare the symmetric-key and asymmetric-key cryptography. [2]\n (b) Given the key ‘GYBNQKURP’, apply the Hill cipher to the plaintext ‘ACT’. Prove the\nauthenticity of the message.\n[3]\n\n\nQ3 (a) Why we are using XOR operation in the Feistel cipher? [2]\n (b) Discuss the different types of transformation involved for decryption in AES cipher. [3]\n\n\nQ4 (a) Write the steps to produce ciphertext C from plain text p using triple DES with two keys. [2]\n (b) Explain the meet-in-the-middle attack. [3]\n\n\nQ5 (a) Define the discrete logarithmic problems. [2]\n (b) How sender can send a message securely to receiver by using RSA algorithm. Explain the\ndifferent steps involved in this during encryption, and decryption.\n[3]\n\n\nQ6 (a) Define the different possible attacks on RSA. [2]\n (b) What are the steps for key calculation by sender, receiver and attacker in the man-in-\nthe-middle attack?\n[3]\n\n\n\n :::::: 03/03/2020 ::::::M"
+    },
+    {
+      "session": "SP19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VI\nBRANCH: IT   SESSION : SP/2019\n\nSUBJECT : IT6023 COMPUTER NETWORKS AND SECURITY\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) Explain the key principles of security? What are the security approaches to implement\nin security model?\n[2]\n (b) List and briefly define categories of passive and active security attacks with example. [3]\n\nQ2 (a) Distinguish between Stream Cipher & Block Cipher? Give examples. [2]\n (b) Using the Vigenere cipher, encrypt the word “cryptography” using the key house. Also\nperform decryption.\n[3]\n\nQ3 (a) What is the life cycle of a key? [2]\n (b)\nEncrypt the message “good morning” using the Hill cipher with key k=\nቂ\nퟔퟒ\nퟓퟕ\nቃ\n.\n[3]\n\nQ4 (a) Define algorithm modes. Explain Cipher feedback with suitable example. [2]\n (b) With suitable block diagram explain the working of DES Algorithm.  [3]\n\nQ5 (a) Differentiate between Symmetric and Asymmetric Cryptography with suitable example. [2]\n (b) Given two prime numbers P=47, Q=71, find out n,e and d in the RSA encryption process. [3]\n\nQ6  Write short notes on:\ni) Affine Cipher\nii) Diffie –Hellman key exchange\n\n   [2.5*2]\n\n\n:::: 06/03//2019 E::::::"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "courseCode": "ME219",
+  "courseName": "NON-DESTRUCTIVE TESTING",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS:BTECH    SEMESTER : IV\nBRANCH:MECH    SESSION : SP-2023\n\nSUBJECT: ME219 NON-DESTRUCTIVE TESTING\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Compare the non-destructive evaluation with destructive evaluation. [2] 1 2\nQ.1(b) Outline the general steps in non-destructive testing. [3] 1 4\n\n\nQ.2(a) Describe the role of developer along with its desirable properties. [2] 1 2\nQ.2(b) Demonstrate the liquid penetrant test for evaluation of surface flaw. [3] 1 3\n\n\nQ.3(a) Explain the advantages of magnetic particle inspection. [2] 2 2\nQ.3(b) With neat sketch describe magnetization using an electromagnet. [3] 2 3\n\n\nQ.4(a) Explain dry and wet magnetic particles. [2] 2 2\nQ.4(b) Illustrate the requirement of demagnetization in magnetic particle testing. [3] 2 4\n\n\nQ.5(a) Identify the effect of  conductivity on eddy current. [2] 2 2\nQ.5(b) Demonstrate the eddy current testing for flaw detection. [3] 2 3\n\n\n\n:::::23/02/2023:::::M"
+    }
+  ]
+}

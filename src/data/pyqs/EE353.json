@@ -1,0 +1,13 @@
+{
+  "courseCode": "EE353",
+  "courseName": "POWER ELECTRONICS",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS:  BTECH   SEMESTER : VI\nBRANCH: EEE   SESSION : SP2023\n\nSUBJECT: EE353 POWER ELECTRONICS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) Discuss the ideal and practical i-v characteristics of a power diode. [2] 1 2\nQ.1(b) Explain with the help of a neat diagram the reverse recovery characteristics of power\ndiodes.\n[3] 1 2\n\n\nQ.2(a) State the necessary condition to turn-off a thyristor? [2] 1 1\nQ.2(b) Using two transistor model of a thyristor, derive the expression of anode current. [3] 1 2\n\n\nQ.3(a) State the differences between BJT and Power MOSFET. [2] 1 1\nQ.3(b) Draw an explain the transfer and output characteristics of n-channel Power MOSFET. [3] 1 1\n\n\nQ.4(a) State the turn-on conditions for SCR triggering. [2] 1 1\nQ.4(b) Define latching and holding currents as applicable to an SCR. Show these currents on its\nstatic i-v characteristics.\n[3] 1 1\n\n\nQ.5(a) Explain the switching characteristics of Power MOSFET with proper waveforms. [2] 1 2\nQ.5(b) Explain Class F line commutation technique for a thyristor.  [3] 1 1\n\n\n\n::::::23/02/2023::::::M"
+    }
+  ]
+}

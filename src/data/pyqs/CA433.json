@@ -3,102 +3,18 @@
   "courseName": "INTRUSION DETECTION SYSTEM",
   "historical_papers": [
     {
-      "session": "SP/2023",
-      "examType": "END",
-      "maxMarks": 50,
-      "durationHrs": 3,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": 10,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Differentiate between Intrusion Detection System and Intrusion Prevention System.",
-              "marks": 5,
-              "topic": "IDS vs IPS"
-            },
-            {
-              "label": "b",
-              "text": "Discuss the goals of Network Intrusion Detection System. Explain the need of a firewall.",
-              "marks": 5,
-              "topic": "IDS goals"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": 10,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Explain about the Attacks on the network layer.",
-              "marks": 5,
-              "topic": "Network attacks"
-            },
-            {
-              "label": "b",
-              "text": "Distinguish between Denial-of-Service Attack and distributed Denial-of-Service Attack.",
-              "marks": 5,
-              "topic": "DoS vs DDoS"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": 10,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Explain metrics for evaluating the effectiveness of an Intrusion Detection System.",
-              "marks": 5,
-              "topic": "IDS metrics"
-            },
-            {
-              "label": "b",
-              "text": "Explain Statistical anomaly detection based Detection technique.",
-              "marks": 5,
-              "topic": "Anomaly detection"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": 10,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Explain the purpose of Botnets. What is a web based Botnet?",
-              "marks": 5,
-              "topic": "Botnets"
-            },
-            {
-              "label": "b",
-              "text": "What is fast Flux? Differentiate between single flux and double flux.",
-              "marks": 5,
-              "topic": "Fast Flux"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": 10,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Explain the steps followed in a zero-day attack. What are the attack vectors of a zero-day attack?",
-              "marks": 5,
-              "topic": "Zero-day attack"
-            },
-            {
-              "label": "b",
-              "text": "Explain the issues and Impact of insider threats. Explain the method to prevent an insider attack.",
-              "marks": 5,
-              "topic": "Insider threats"
-            }
-          ]
-        }
-      ]
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(END SEMESTER EXAMINATION)\nCLASS: MCA   SEMESTER : II\nBRANCH: MCA   SESSION : SP/2023\n\nSUBJECT: CA433 INTRUSION DETECTION SYSTEM\nTIME: 3 Hours   FULL MARKS: 50\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 10 marks and total 50 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Differentiate between Intrusion Detection System and Intrusion Prevention System. [5] 1 4\nQ.1(b) Discuss  the  goals  of  Network  Intrusion  Detection  System. Explain  the  need  of  a\nfirewall.\n[5] 2 2\n\n\nQ.2(a)\nExplain about the Attacks on the network layer.\n[5] 2 2\nQ.2(b) Distinguish  between Denial-of-Service  Attack  and  distributed  Denial-of-Service\nAttack.\n[5] 3 4\n\n\nQ.3(a) Explain metrics for evaluating  the effectiveness of an Intrusion Detection System. [5] 2 2\nQ.3(b) Explain Statistical anomaly detection  based Detection technique. [5] 2 2\n\n\nQ.4(a) Explain the purpose of Botnets.What is a web based Botnet? [5] 3 2\nQ.4(b) What is fast Flux? Differentiate between single flux and double flux. [5] 3 3\n\n\nQ.5(a) Explain the steps followed in a a zero-day attack. What are the attack vectors of a\nzero-day attack?\n[5] 4 2\nQ.5(b) Explain the issues and Impact of insider threats. Explain the method to prevent an\ninsider attack.\n[5] 3 2\n\n\n:::::01/05/2023 E:::::"
+    },
+    {
+      "session": "SP22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\nEND SEMESTER EXAMINATION\nCLASS: MCA   SEMESTER :II\nBRANCH: MCA   SESSION :SP/22\nSUBJECT: CA433 Intrusion Detection System\nTIME: 2:00hrs   FULL MARKS: 50\nINSTRUCTIONS:\n1. The question paper contains 5theory questions, with options, each of 10 marks and total of 50\nmarks\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\nQ.1 Explain Intrusion Prevention System and Intrusion Detection system. Which are three\nmain types of intrusion detection system?\n\n[10]\n\nor What is a firewall? How does a VPN work? Which VPN protocols are there?\n\nQ.2 What do you understand by denial of service? What are the categories of denials of\nservice?\n[10]\nor Explain about the attacks on network layers. What do you mean by code injection?\nGive suitable example.\n\n\nQ.3 Explain Statistical anomaly based intrusion detection system. What is Snort?\n\n[10]\n\nor What do you understand by Anomaly Based Intrusion detection system? Explain snort\nrules.\n\n\n\nQ.4\nHow does obfuscation work? How the success of obfuscation methods can be\nmeasured?\n[10]\nor What are attack tree? Explain the components of a polymorphic malware.\n\n\nQ.5 Explain threat issues .How insider threat issues can be detected? [10]\n\nor Write notes on Email security issues and IM security issues.\n\n /* 6\nth\n May 2022*/"
     }
   ]
 }

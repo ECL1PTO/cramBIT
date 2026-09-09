@@ -1,0 +1,13 @@
+{
+  "courseCode": "EC209",
+  "courseName": "NETWORK THEORY",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH   SEMESTER: 3\nrd\n\nBRANCH: ECE   SESSION: MO/2022\n\nSUBJECT: EC209 NETWORK THEORY\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data handbook/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n    CO BL\nQ1 (a) From the cut set matrix given below, draw the oriented graph. The branches of\nthe graph are 2, 4 and 6.\n1  2    3    4   5 6\n\n[2] CO1\nCO2\nBL2\nQ1 (b) Using Thevenin’s theorem, calculate the current through the 2Ω resistor.\n\n[3] CO1\nCO2\nCO3\nCO4\nBL2\n\nQ2 (a) Define reciprocity theorem. [2] CO1 BL1\nQ2 (b) Derive  the  condition  for  maximum  power  transfer  to  the  load Z\nL\n =  R\nL\n +  jX\nL\n\nconnected to a network whose impedance is given by Z\nS\n = R\nS\n + jX\nS\n.\n[3] CO2 BL2\n\nQ3 (a) Find the edge currents of the following network using f-circuit equations.\n\n[5] CO1\nCO2\nCO4\nBL1\n\nQ4 (a) Sketch the transform network of the circuit shown and write the mesh\nequations. Assume initial current i\nL4\n(0) through L\n4\n and initial voltage v\nC5\n(0)\nacross capacitor C\n5\n. Nodes are marked as a, b, c, and d.\n\n[5] CO1\nCO2\nCO4\nBL3\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPTO\n\n\n\n\n\n\nQ5 (a)\nTransfer function of a network is given by\n158\n2\n)(\n2\n\n\nss\nsH. Calculate the\nunit step response of the network in time domain.\n[2] CO2 BL3\nQ5 (b) A set of measurements is made on a linear time invariant passive network N as\nshown in the Fig. (a). The network is then reconnected as Fig. (b). Solve the\nproblem to find the current through the 5Ω resistor.\n\n[3] CO1\nCO2\nCO4\nBL3\n\n\n\n :::::: 29/09/2022 ::::::M"
+    }
+  ]
+}

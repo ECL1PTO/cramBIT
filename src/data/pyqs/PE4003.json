@@ -1,0 +1,13 @@
+{
+  "courseCode": "PE4003",
+  "courseName": "METROLOGY",
+  "historical_papers": [
+    {
+      "session": "SP19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: IV/ADD\nBRANCH: PRODUCTION   SESSION : SP/2019\n\nSUBJECT : PE4003 METROLOGY\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) Why should engineers study metrology?  [2]\n (b) How  sensitivity,  drift  and  reproducibility  of  a  measuring  instrument  affect  its\nperformance?\n[3]\n\nQ2 (a) What is parallax error in measurement? How can it be rectified? [2]\n (b) Differentiate between line standard and end standard with example. [3]\n\nQ3 (a) State the basic principle of a comparator. [2]\n (b) What are the various means of magnification in mechanical comparators? [3]\n\nQ4  Explain the working of a sigma comparator with neat sketch. [5]\n\nQ5 (a) Define ‘tolerance’ and ‘allowance’ in designing of any component or assembly. [2]\n (b) What is meant by ‘interchangeability’ and ‘selective assembly’? Site examples. [3]\n\nQ6  For  each  of  the  following  hole  and  shaft  assembly,  find  shaft  tolerance  and  hole\ntolerance. State whether the type of fit is clearance or interference or transition.\n(a) Hole: 50\n+ 0.25\n\n-0.00\n\nShaft:50\n+0.05\n+0.005\n(b) Hole: 30\n+0.05\n\n+ 0.00\n\nShaft: 30\n-0.02\n\n-0.05\n(c) Hole: 25\n+0.04\n\n+0.00\n\nShaft: 25\n+0.06\n\n+0.04\nAll dimensions are in mm.\n[5]\n\n\n\n :::: 05/03/2019 ::::::E"
+    }
+  ]
+}

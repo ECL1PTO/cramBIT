@@ -1,0 +1,13 @@
+{
+  "courseCode": "IT3021",
+  "courseName": "DISCRETE MATHEMATICS AND GRAPH THEORY",
+  "historical_papers": [
+    {
+      "session": "MO18",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: III\nBRANCH: IT  SESSION : MO/2018\n\nSUBJECT : IT3021 DISCRETE MATHEMATICS AND GRAPH THEORY\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) Express the following statements in symbolic form:\n(i) If Kuntal is not in a good mood or he is not busy, then he will go to Bengaluru.\n(ii) If Bidhan knows object-oriented programming and oracle, then he will get a job.\n[2]\n (b) Consider\np\n:  Debu  is  rich  and\nq\n:  Debu  is  generous.  Write  the  new  propositions  using\nconjunction\n)(\n, disjunction\n)(\n and negation\n(~)\n.\n[3]\n\n\nQ2 (a) Investigate the tautology of the propositional statement (symbolic), i.e.,\n(  ~ ) (~   )pqp    q    \n\n[3]\n (b)\nShow  that  the  statement\n2 4 ... 2  (  2)( 1)nnn             \n,  for  all\n1n\n,  satisfies  the\ninductive step but possesses no basis.\n[3]\n\n\nQ3\nFind  an  explicit  formula  of  the  Fibonacci  sequence\n0, 1, 1, 2, 3, 5, 8, 13, ...,\nusing  the\nrecurrence relation of the sequence.\n[5]\n\n\nQ4\nThe solution of a recurrence relation\n12\n( )\nnnn\nyyyf  n    \n\n\n is\n12\n3   4 2\nnn\nn\nycc        \n , where\n6)(nf\n for all n. Determine\n,   ,      \n .\n[5]\n\n\nQ5 (a)\nFind the coefficient of\n6\nx\n in the following product of polynomials like\n22   3  3   5\n(1   )()(   )x    xx    xxxx    \n\n[2]\n (b)\nProvide a closed formula for the generating function\n)31(\n3\nx\nx\n\n   .\n[3]\n\n\nQ6\nSolve  the  recurrence  relation\n21\n5  6  2,   0\nnnn\naaan\n\n       \n,    using  the  generating\nfunction method, subjected to the initial conditions\n0\n1a\n and\n1\n3a\n.\n[5]\n\n\n\n :::: 10/09/2018 E ::::::"
+    }
+  ]
+}

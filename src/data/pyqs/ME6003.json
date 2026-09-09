@@ -1,0 +1,13 @@
+{
+  "courseCode": "ME6003",
+  "courseName": "HEAT AND MASS TRANSFER",
+  "historical_papers": [
+    {
+      "session": "SP20",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VI/ADD\nBRANCH: MECHANICAL   SESSION : SP/2020\n\nSUBJECT: ME6003 HEAT AND MASS TRANSFER\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n6. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 An aluminium alloy plate of 400 mm x 400 mm x 4 mm size at 200°C is suddenly quenched\ninto  liquid  oxygen  at  -183°C.  Determine  the  time  required  for  the  plate  to  reach  a\ntemperature of -70°C. Assume h = 20000 kJ/m\n2\n-h-°C, C\np\n  = 0.8 kJ/kg°C, and ρ = 3000 kg/m\n3\n.\n[5]\n\nQ2 Explain the following:\n(i) physical significance of Thermal conductivity and Thermal Diffusivity\n(ii) concept of Contact Thermal Resistance\n[5]\n\nQ3 A turbine blade made of stainless steel (k = 29 W/m°C) is 60 mm long, 500 mm\n2\n cross-\nsectional area and 120 mm perimeter. The temperature of the root of blade is 480°C and it\nis  exposed  to  products  of  combustion  passing  through  the  turbine  at  820°C.  If  the  film\ncoefficient between the blade and the combustion gases is 320 W/m\n2\n°C, determine: the\ntemperature at the middle of the blade and the rate of heat flow from the blade.\n[5]\n\nQ4 Stating the boundary conditions followed by the determining the temperature distribution\nequation,  analyze  the  heat dissipation equation from a rectangular fin  of length  L  with\ninsulated end.\n[5]\n\nQ5 Show that “the emissive power of a radiating surface is π times the radiation intensity”. [5]\n\n\n\nQ6 Analyze the reciprocity equation considering two black surfaces of areas A\n1\n and A\n2\n arranged\nat inclinations θ\n1\n and θ\n2\nrespectively, with their normal that are at temperatures T\n1\n and T\n2\n\nrespectively and separated by a non-absorbing medium.\n[5]\n\n\n:::::: 27/02/2020 ::::::M"
+    }
+  ]
+}

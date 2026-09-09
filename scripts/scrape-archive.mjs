@@ -8,12 +8,42 @@ import { ROOT, sleep, writeJson, readJson } from "./lib.mjs";
 
 const LIST_BASE = "https://archive.bitmesra.ac.in";
 const FILE_BASE = "https://www.bitmesra.ac.in"; // PDFs 301 → bitmesra.ac.in
+
+// The archive.bitmesra.ac.in mirror lists 18 engineering-department folders.
+// The live site (www) additionally has BBA / BCA / BAM / MAD / BMLT / B.Com /
+// HSS folders — re-run with those pids once the live index page is reachable
+// (it 500s intermittently). Add "Name: pid" pairs here as you find them.
 const DEPTS = {
   Architecture: 376, BioEngg: 375, Chemical: 378, Chemistry: 379, Civil: 445,
   CSE: 446, CQEDS: 447, EEE: 448, ECE: 449, HMCT: 450, Management: 439,
   Mathematics: 451, Mechanical: 452, Pharmacy: 438, Physics: 453,
   Production: 380, RemoteSensing: 454, SER: 455,
+  // BBA: ?, BCA: ?, BAM: ?, BCom: ?, HSS: ?, MAD: ?, BMLT: ?
 };
+
+// Try to discover every folder pid from the live archive index.
+async function discoverDepts() {
+  for (const host of [FILE_BASE, LIST_BASE]) {
+    try {
+      const html = await fetch(
+        `${host}/Visit_Other_Department_9910?cid=1&deptid=258&pid=361`,
+        { headers: { "User-Agent": "Mozilla/5.0" } },
+      ).then((r) => (r.ok ? r.text() : ""));
+      const found = {};
+      for (const [, pid, name] of html.matchAll(
+        /deptid=258&(?:amp;)?pid=(\d+)"[^>]*>\s*([A-Za-z][^<]{1,26})<\/a>/g,
+      )) {
+        const n = name.trim().replace(/&amp;/g, "&").replace(/[^\w]/g, "");
+        if (n.length > 1 && !/Schedule|Seating|Rules|Committee|Notice|FAQ|Contact|Form|Convocation|About/i.test(n))
+          found[n] = Number(pid);
+      }
+      if (Object.keys(found).length > 18) return found;
+    } catch {
+      /* try next host */
+    }
+  }
+  return DEPTS;
+}
 
 const OUT_DIR = path.join(ROOT, "project_reference", "pyq_pdfs");
 const MANIFEST = "project_reference/pyq_manifest.json";
@@ -25,7 +55,10 @@ const get = (url) =>
     return r.text();
   });
 
-for (const [dept, pid] of Object.entries(DEPTS)) {
+const folders = await discoverDepts();
+console.log(`${Object.keys(folders).length} folders:`, Object.keys(folders).join(", "));
+
+for (const [dept, pid] of Object.entries(folders)) {
   console.log(`\n== ${dept}`);
   let html;
   try {

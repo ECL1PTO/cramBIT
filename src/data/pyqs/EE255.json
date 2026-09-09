@@ -1,0 +1,13 @@
+{
+  "courseCode": "EE255",
+  "courseName": "SIGNAL AND SYSTEM",
+  "historical_papers": [
+    {
+      "session": "SP20",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH   SEMESTER: IV\nBRANCH: BT   SESSION: SP/2020\n\nSUBJECT: EE255 SIGNAL AND SYSTEM\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates may attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) What is the different classification of system? [2]\nQ1 (b) Explain the mathematical condition for a linear system. [3]\n\nQ2 (a) What is the transfer function? [2]\nQ2 (b) Determine the Laplace transform of  f(t)= 7cosωt+5sineωt. [3]\n\nQ3 (a) What is the difference between causal system and non -causal system? [2]\nQ3 (b) Determine the Laplace transform of the wave shown in the fig1\n\nFig 1\n[3]\n\nQ4 (a) Find  the  transfer  function  of  a  system  represented  by  the  differential  equation\nd\n2\ny/dt\n2\n+3dy/dt+4y=2d\n2\nx/dt\n2\n+6x.\n[2]\nQ4 (b) Determine the transfer function of the electrical network shown in the fig 2\n\nFig 2\n[3]\n\nQ5 (a) What is the characteristic equation? [2]\nQ5 (b) Determine the mathematical model of the system shown in fig 3\n\nFig 3\n[3]\n\n:::: 28/02/2020E ::::::"
+    }
+  ]
+}

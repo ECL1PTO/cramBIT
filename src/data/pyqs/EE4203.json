@@ -1,0 +1,13 @@
+{
+  "courseCode": "EE4203",
+  "courseName": "ELECTRICAL MACHINES - I",
+  "historical_papers": [
+    {
+      "session": "SP19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: IV\nBRANCH: EEE   SESSION : SP/2019\n\nSUBJECT : EE4203 ELECTRICAL MACHINES - I\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) With suitable example of electrical machine, explain how the flux links with conductors. [2]\n (b) Discuss the concept of Blu and Bli. Explain the practical use of these two concepts. [3]\n\nQ2 (a) Explain statically and dynamically induced emf and discuss its application. [2]\n (b) Describe different types of electrical rotating machine. [3]\n\nQ3 (a) In every electromagnetic conversion device, both generator and motor action take place\nsimultaneously. Explain.\n[2]\n (b) Draw the lap winding diagram in developed form for a 4-pole 12 slot armature with two\ncoil sides/slot. Assume single turn coils.\n[3]\n\nQ4 (a) Explain the different parts of dc machine with suitable diagram. [2]\n (b) What is commutation? What causes sparking on  commutator surface?  How  can it be\navoided?\n[3]\n\nQ5 (a) Explain retrogressive winding, simplex winding, front pitch and back pitch. [2]\n (b) A 4-pole simplex lap wound armature contains 16 slots and has two coil sides per slot.\nDevelop winding table, ring winding diagram with brush position and parallel path.\n[3]\n\nQ6 (a) What is commutation? What causes sparking on commutator surface? Explain one method\nto improve commutation.\n[2]\n (b) An  8  pole wave  wound  dc  generator  has  480  conductors.  The  armature  current  is\n200A.Findarmature reaction de magnetizing and cross magnetizing ampere turn per pole\nif (i) brushes are on GNA (ii) brushes are shifted 6 degree electrical from GNA.\n[3]\n\n\n\n :::: 05/03/2019 ::::::E"
+    }
+  ]
+}

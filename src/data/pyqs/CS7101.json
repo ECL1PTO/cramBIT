@@ -1,0 +1,20 @@
+{
+  "courseCode": "CS7101",
+  "courseName": "PRINCIPLES OF PROGRAMMING LANGUAGES",
+  "historical_papers": [
+    {
+      "session": "MO19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VII\nBRANCH: CSE   SESSION : MO/2019\n\n                               SUBJECT : CS7101 PRINCIPLES OF PROGRAMMING LANGUAGES\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) What are the principles of programming language? [2]\n (b) Explain the six different paradigms of programming with suitable examples. [3]\n\n\nQ2 (a) What is package? [2]\n (b) How does ADA language implement package with encapsulation? [3]\n\n\nQ3 (a) Explain the necessary conditions of Deadlock. [2]\n (b) State the various problems with concurrency. [3]\n\n\nQ4 (a) What is semaphore. [2]\n (b) Explain the various advantages and disadvantages of semaphore. [3]\n\n\nQ5 (a) What is Escapes sequencer? [2]\n (b) Explain context dependent and context independent overloading. [3]\n\n\nQ6 (a) What are the merits of sub range types? [2]\n (b) Write  a  program  in  C++  language  to  find  the  minimum  of  two  numbers  using  class\ntemplate.\n[3]\n\n\n\n:::: 20/09/2019M ::::::"
+    },
+    {
+      "session": "MO18",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VII/ADD\nBRANCH: CSE   SESSION: MO/2018\n\nSUBJECT: CS7101 PRINCIPLES OF PROGRAMMING LANGUAGES\n\nTIME: 1.5 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) What do you mean by “High level language”? [2]\n (b) Explain the six different paradigms of programming with suitable examples. [3]\n\n\nQ2 (a) What is package? [2]\n (b) How does ADA language implement package with encapsulation? [3]\n\n\nQ3 (a) What do you mean by “Competing processes”? [2]\n (b) State the various problems with concurrency. [3]\n\n\nQ4 (a) What is semaphore? [2]\n (b) How does semaphore help to resolve the shared buffer problem? [3]\n\n\nQ5 (a) What is coercion? [2]\n (b) Explain context dependent and context independent overloading. [3]\n\n\nQ6 (a) Explain Haskell polymorphic function with a suitable example. [2]\n (b) Write a program in C++ language to find the minimum of two numbers using class template. [3]\n\n\n\n:::: 13/09/2018 M ::::::"
+    }
+  ]
+}

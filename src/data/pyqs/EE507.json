@@ -1,0 +1,13 @@
+{
+  "courseCode": "EE507",
+  "courseName": "ADVANCED POWER ELECTRONICS",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH   SEMESTER: VII\nBRANCH: EEE   SESSION: MO/2022\n\nSUBJECT: EE507 ADVANCED POWER ELECTRONICS\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n    CO BL\nQ1 (a) Draw the different modes of an ideal switch. [2] CO1 BL2\nQ1 (b) Define turn-on and turn-off times of the power BJT with characteristics. [3] CO1 BL1\n\n\nQ2 (a) Draw the Basic Structure of n-channel Power MOSFET. [2] CO1 BL2\nQ2 (b) Analyze the switching characteristics of power MOSFET. [3] CO1 BL4\n\n\nQ3 (a) What do you mean by volt second balance and ampere second balance? [2] CO2 BL1\nQ3 (b) Develop heat transfer model using conduction mechanism.  [3] CO2 BL5\n\n\nQ4 (a) What do you meant by core flux resetting and What are the various methods of\nachieving core flux resetting?\n[2] CO3 BL3\nQ4 (b) Design forward converter with demagnetizing winding. [3] CO5 BL6\n\n\nQ5 (a) How is flux walking problem solved in half bridge and full-bridge converters? [2] CO3 BL5\nQ5 (b) Design half bridge converter and discuss appropriate modes of operations. [3] CO5 BL6\n\n\n\n\n :::::: 26/09/2022 ::::::M"
+    }
+  ]
+}

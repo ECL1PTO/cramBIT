@@ -1,0 +1,20 @@
+{
+  "courseCode": "AR6309",
+  "courseName": "STEEL STRUCURES",
+  "historical_papers": [
+    {
+      "session": "SP20",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.ARCH   SEMESTER: VI\nBRANCH: ARCHITECTURE   SESSION: SP/2020\n\nSUBJECT: AR6309 STEEL STRUCURES\n\nTIME: 1.5 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1 The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n6. IS 800 & Steel Tables allowed in Examination Hall.\n7. All answers should be accompanied by neat labelled figures.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1  Determine the shape factor for a rectangular beam of width b and depth d about the\nmajor axis.\n[5]\n\n\nQ2  Determine the collapse load of a fixed beam of span L with a concentrated load W at mid\nspan.\n[5]\n\n\nQ3  Two plates of thickness 14 mm and 12 mm are to be joined by groove weld. The joint is\nsubjected to a factored tensile load of 350 kN. Assuming an effective length of 150 mm\nand shop welding, check the safety of the joint if (i) Single V groove weld is provided and\n(ii) Double V groove weld is provided.\n[5]\n\n\nQ4  A tie member of a truss consisting of ISA 65x65x6 is welded to 8 mm gusset plate. Design\nweld to transmit load equal to full strength of the member using shop welding.\n[5]\n\n\nQ5  Design a lap joint between two plates of 12 mm and 20 mm thickness to transmit a\nfactored load of 70 kN using M16 bolts.\n[5]\n\n\nQ6  A single bolted double cover butt joint is used to cover two plates 6mm thick each.\nAssuming M20 bolts at 60 mm pitch calculate the efficiency of the joint.\n[5]\n\n\n\n\n\n :::: 28/02/2020M ::::::"
+    },
+    {
+      "session": "SP19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.ARCH   SEMESTER: VI\nBRANCH: ARCHITECTURE   SESSION : SP/2019\n\nSUBJECT : AR6309 STEEL STRUCTURES\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) Determine the plastic section modulus about the major axis (z\npz\n) for ISMB 225 @ 306.07\nN/m.\n[5]\n (b) Determine the collapse/ultimate load for a simply supported beam of span L, carrying a\nconcentrated load W at mid span using (i) static & (ii) kinematic method.\n[5]\n\nQ2  A double bolted double cover butt joint is used to connect two plates which are 8 mm\nthick. Assume 16 mm diameter bolts of grade 4.6 & cover plates to be 6 mm thick.\nCalculate strength & efficiency of the joint, if four bolts are provided in two lines with\ntwo bolts in each line at a pitch of 45 mm. Draw the plan & sectional elevation of the\njoint showing all details.\n[10]\n\nQ3 (a) A plate 210 mm x 8 mm is used as a tension member in a lattice girder. It is connected\nto a 10 mm thick gusset plate by M16 bolts of grade 4.6. Calculate effective net area of\nthe member if 12 bolts are connected in chain bolting with 4 bolts in each line. Draw\nrelevant labeled figures.\n[5]\n (b) Determine the effective net area of ISA 100 mm x 75 mm x 10 mm with both its leg\nconnected to a gusset plate with fillet welds. Draw relevant labeled figures.\n[5]\n\n\n\n :::: 05/03/2019 ::::::E"
+    }
+  ]
+}

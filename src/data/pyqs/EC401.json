@@ -1,0 +1,13 @@
+{
+  "courseCode": "EC401",
+  "courseName": "INDUSTRIAL ELECTRONICS",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH   SEMESTER: VII\nBRANCH: ECE   SESSION: MO/2022\n\nSUBJECT: EC401 INDUSTRIAL ELECTRONICS\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a) Draw a two-transistor representation of the SCR and describe the condition for\nits conduction.\n[2]  01 01\nQ1 (b) Explain the V-I characteristics and application of UJT. [3] 01 02\n\n\nQ2 (a) Appraise the role of the Flywheel diode. [2] 02 05\nQ2 (b) Explain  the  working  principle  of a Single-phase full-wave (bridge  type)\nrectifier circuit with RL load. Also, elaborate on  the rectifying mode  as well\nas inversion mode.\n[3] 02 02\n\n\nQ3 (a) Justify why Germanium is not used to make SCR. [2] 01 05\nQ3 (b)\nFor an SCR, the gate cathode characteristic  is given by   .  Gate\nsource  voltage  is  a  rectangular  pulse  of  15  V  with  20  μs  duration.  For  an\naverage Gate power dissipation of 0.3 watts and a peak gate drive power of 5\nwatts, compute\na.) The resistance is to be connected in series with the SCR gate.\nb.) The duty cycle of the triggering pulse.\n\n[3] 02 03\n\n\nQ4 (a) Define commutation and its various types. [2] 03 01\nQ4 (b) What is a snubber circuit? Explain the way to calculate the various parameters\nof its.\n[3] 01 03\n\n\nQ5 (a) Distinguish   between   Controlled   rectification/rectifier and   uncontrolled\nrectification/rectifier.\n[2] 02 04\nQ5 (b) Explain the working principle of three phases half-wave rectifier circuit. Obtain\naverage dc voltage and RMS voltage for resistive load.\n[3] 02 03\n\n\n:::::: 27/09/2022 M ::::::"
+    }
+  ]
+}

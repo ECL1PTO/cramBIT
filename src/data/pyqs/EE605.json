@@ -1,0 +1,13 @@
+{
+  "courseCode": "EE605",
+  "courseName": "MICROGRID OPERATION AND CONTROL",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH.   SEMESTER: VII\nBRANCH: EEE   SESSION: MO/2022\n\nSUBJECT: EE605 MICROGRID OPERATION AND CONTROL\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates must attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n    CO BL\nQ1 (a) What is the  role  of energy  manager  and  microgrid central controller  in\nmicrogrid operation?\n[2] A 2\nQ1 (b) Enumerate different technologies for distributed generation and mention their\ntypical available size range.\n[3] A 1\n\n\nQ2 (a) What is point of common coupling (PCC) in a microgrid? [2] B 2\nQ2 (b) Draw the microgrid layout as proposed by CERTS and explain its working. [3] A 1\n\n\nQ3 (a) Mention different technical challenges while operating a microgrid in isolated\nmode of operation.\n[2] A 2\nQ3 (b) Draw the line diagram for AC, DC and AC/DC hybrid microgrid and enumerate\ntheir characteristics in brief.\n[3] A 2\n\n\nQ4 (a) What are the power quality standards in terms of voltage harmonics mentioned\nby IEEE 1547-2018 standard?\n[2] B 1\nQ4 (b) Draw  the  table  showing reactive power  injection  and absorption capabilities\nfor DERs as set by IEEE 1547-2018 standard.\n[3] B 1\n\nQ5  Consider  an  interconnected  50-Hz  power  system  that  contains  four  turbine-\ngenerator units rated 750 MW, 500  MW, 220 MW and 110 MW. The regulating\nconstant  of  each  unit  is  0.05  per  unit  based  on  its  own  rating.  Each  unit  is\noperating on 75% of its own rating when the load is suddenly dropped by 250\nMW.  Choose  a  common  base  of  500  MW  and  calculate  the  overall  rise  in\nfrequency and drop in the mechanical power output of each unit.\n[5] B 4\n\n\n\n :::::: 26/09/2022 ::::::M"
+    }
+  ]
+}

@@ -3,102 +3,11 @@
   "courseName": "DATABASE MODELLING",
   "historical_papers": [
     {
-      "session": "SP2023",
+      "session": "SP23",
       "examType": "MID",
-      "maxMarks": 25,
-      "durationHrs": 2,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Explain Logical design of database life cycle with suitable example.",
-              "marks": 3,
-              "topic": "Logical design"
-            },
-            {
-              "label": "b",
-              "text": "In a classroom, there are many students. Among them one student may be the class monitor. Draw an ER diagram for the given statements mentioning connectivity, existence and degree of the relationship.",
-              "marks": 2,
-              "topic": "ER diagram"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "The flight database stores details about an airline’s fleet, flights, and seat bookings. Consider the given requirements and draw an ER diagram using crow’s‑foot approach.",
-              "marks": 3,
-              "topic": "Flight database ER diagram"
-            },
-            {
-              "label": "b",
-              "text": "Differentiate Generalization and Aggregation with suitable examples.",
-              "marks": 2,
-              "topic": "Generalization vs Aggregation"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Convert the following schema into tables.",
-              "marks": 3,
-              "topic": "Schema conversion"
-            },
-            {
-              "label": "b",
-              "text": "Write the SQL commands for creating the tables of the above Figure.",
-              "marks": 2,
-              "topic": "SQL table creation"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Elaborate the steps for conceptual schema integration with proper examples.",
-              "marks": 4,
-              "topic": "Conceptual schema integration"
-            },
-            {
-              "label": "b",
-              "text": "Define entity integrity and Referential integrity.",
-              "marks": 1,
-              "topic": "Entity and Referential integrity"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Draw an activity diagram to resolve an issue in a software design as described.",
-              "marks": 4,
-              "topic": "Activity diagram"
-            },
-            {
-              "label": "b",
-              "text": "State the difference between join and merge in an activity diagram.",
-              "marks": 1,
-              "topic": "Join vs Merge"
-            }
-          ]
-        }
-      ]
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS:  IMSc   SEMESTER :\nBRANCH: IMH   SESSION : SP2023\n\nSUBJECT: CS325 DATABASE MODELLING\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) Explain Logical design of database life cycle with suitable example. [3] 1 2\nQ.1(b) In  a  classroom,  there  are  many  students.  Among  them one  student  may  be  the  class\nmonitor.  Draw  an  ER  diagram  for  the  given  statements  mentioning  connectivity,\nexistence and degree of the relationship.\n[2] 1 4\n\nQ.2(a) The flight database stores details about an airline’s fleet, flights, and seat bookings.\nConsider the following requirements list:\ni. The airline has one or more airplanes.\nii. An airplane has a model number, a unique registration number, and the capacity to\ntake one or more passengers.\niii. An airplane flight has a unique flight number, a departure airport, a destination\nairport, a departure date and time, and an arrival date and time.\niv. Each flight is carried out by a single airplane.\nv. A passenger has given names, a surname, and a unique email address.\nvi. A passenger can book a seat on a flight.\nDraw an ER diagram using crow’s-foot approach for the above details.\n[3] 1 4\nQ.2(b) Differentiate Generalization and Aggregation with suitable examples. [2] 1 2\n\nQ.3(a) Convert the following schema into tables.\n\n\n[3] 2 5\nQ.3(b) Write the SQL commands for creating the tables of the above Figure.  [2] 2 3\n\n\n\n    PTO\n\n\n\n\n\nQ.4(a) Elaborate the steps for conceptual schema integration with proper examples. [4] 3 3\nQ.4(b) Define entity integrity and Referential integrity. [1] 2 1\n\n\nQ.5(a) Draw an activity diagram to resolve an issue in a software design.\nThe issue may be resolved in the following way: After ticket is created by some\nauthority and the issue is reproduced, issue is identified and then the resolution is\ndetermined. After that, issue is fixed and verified, and ticket is closed, if issue was\nresolved.\n[4] 3 6\nQ.5(b) State the difference between join and merge in an activity diagram.  [1] 3 1\n\n\n\n::::::22/02/2023::::::M"
     }
   ]
 }

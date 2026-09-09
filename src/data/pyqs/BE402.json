@@ -1,0 +1,13 @@
+{
+  "courseCode": "BE402",
+  "courseName": "BIOREACTOR AND BIOPROCESS DESIGN",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH   SEMESTER: 7\nth\n\nBRANCH: BIOTECH   SESSION: MO/2022\n\nSUBJECT: BE402 BIOREACTOR AND BIOPROCESS DESIGN\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n    CO BL\nQ1 (a) With diagram describe the behavior of ANY ONE non-Newtonian fluid.   [2] CO1 BL1\nQ1 (b) Prove that in a chemostat, at steady state and for sterile feed, μ = D. [3] CO2 BL3\n\n\nQ2 (a) Name the components of a typical bioreactor (CSTR) [2] CO1 BL1\nQ2 (b) In an exponentially growing batch culture of Saccharomyces cerevisiae, the cell\ndensity is 20 g/L (DCW), the specific growth rate (μ) is 0.4 h\n-1\n and substrate\nuptake rate is 16 g/L.h. Calculate the cell yield coefficient Yx/s.\n[3] CO2 BL3\n\n\nQ3  It is desired to produce 100 kg fructose per day in a batch reactor by enzymatic\nreaction. Initial glucose concentration is 100 g/L. Conversion efficiency is 40%.\nIf, K\nm\n = 5×10\n-4\n kg/m\n3\n, V\nmax\n = 1.5×10\n-2\n kg/m\n3\n.sec. Down time is 6 h. Calculate the\nvolume of the batch reactor, PFR and MFR.\n[5] CO2 BL5\n\n\nQ4 (a) Differentiate between packed bed and fluidized bed reactor.  [2] CO2 BL2\nQ4 (b) Describe  the  gassing  out  methods  of  determination  of  K\nL\na  for  aerobic\nfermentation.\n[3] CO1 BL3\n\n\nQ5 (a) Which reactor you will prefer when:\ni) Product inhibits the process; ii) Substrate inhibits the process\n[2] CO1 BL1\nQ5 (b) A fed batch culture is operating with intermittent addition of glucose solution.\nThe values of following parameters are given at t = 2 hours. Considering the\nsystem is at quasi steady state, calculate V\n0\n, S and X for the system. Given: V =\n1000 mL; S\n0\n = 100 g/L; Ks = 0.1 g/L; X\n0\n = 30 g; F = 200 ml/h; μ\nmax\n= 0.3 h\n-1\n; Yx/s\n= 0.5 g/g.\n[3] CO2 BL5\n\n\n\n\n :::::: 28/09/2022 ::::::M"
+    }
+  ]
+}

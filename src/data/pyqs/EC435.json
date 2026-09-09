@@ -1,0 +1,13 @@
+{
+  "courseCode": "EC435",
+  "courseName": "ASIC DESIGN",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH   SEMESTER: VII\nBRANCH: ECE   SESSION: MO/2022\n\nSUBJECT: EC435 ASIC DESIGN\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n    CO BL\nQ1 (a) Give the brief history of VHDL. [2] CO1,CO2 L1\nQ1 (b) Explain the basic terminologies of VHDL with the help of examples. [3] CO1,CO2 L1\n\n\nQ2 (a) Write the VHDL code for a 4x1 MUX.  [2] CO1,CO2 L3\nQ2 (b) Compare the three modelling styles in VHDL. [3] CO1,CO2 L4\n\n\nQ3 (a) How  are  sequential  statements  different  from  the concurrent\nstatements?\n[2] CO1,CO2 L4\nQ3 (b) Explain the differences between the following:\n1)  signal and variable                      2) sensitivity list  and WAIT\nstatement\n[3] CO1,CO2 L1\n\n\nQ4 (a) Compare FOR loop and WHILE loop. [2] CO1,CO2 L4\nQ4 (b) Discuss all the predefined data types in VHDL. [3] CO1,CO2 L1\n\n\nQ5 (a) Differentiate between array types and record types. [2] CO1,CO2 L2\nQ5 (b) Write VHDL code for half and full adder by making use of sequential\nstatements.\n[3] CO1,CO2 L3\n\n\n\n\n :::::: 26/09/2022 ::::::M"
+    }
+  ]
+}

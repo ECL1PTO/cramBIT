@@ -1,0 +1,13 @@
+{
+  "courseCode": "EC4201",
+  "courseName": "VLSI DESIGN",
+  "historical_papers": [
+    {
+      "session": "SP19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: IV\nBRANCH: ECE   SESSION : SP/2019\n\nSUBJECT : EC4201 VLSI DESIGN\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) Explain the Orientation of VHDL & Verilog. [2]\n (b) Define Y- chart with physical, behavioral and structural domain.  [3]\n\nQ2 (a) Explain the Structural architecture with suitable examples. [2]\n (b) Derived  the  Expression  for  Drain  Current  of  NMOS Transistor  and  draw  the  I\nD\n-V\nD\nCharacteristics\nI\nD\n= μ\nn\n C\nox\n( W/L) [ (V\nGS\n-V\nTn\n\n)\n\n V\nDS\n- V\n2\nDS\n/2]\n[3]\n\nQ3 (a) Explain the CMOS n-well process. [2]\n (b) Design 4bit fulladder using VHDL and Verilog with structural architecture technique. [3]\n\nQ4 (a) Explain the difference between SOI and P-well process. [2]\n (b) Define (i) EAROM &  (ii) Thin film transistor [3]\n\nQ5 (a) Describe the layer representation. [2]\n (b) Build a 2-input CMOS OR gate using a minimum number of transistors. [3]\n\nQ6 (a) Explain the latch up and latchup Triggering. [2]\n (b) Design 2- input NAND gate using MOS logic & write the switching action of the transistors.\nDesign the layout of 2-input NOR gate with showing the correct aspect ratio.\n[3]\n\n\n\n :::: 05/03/2019 ::::::E"
+    }
+  ]
+}

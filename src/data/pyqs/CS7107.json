@@ -1,0 +1,13 @@
+{
+  "courseCode": "CS7107",
+  "courseName": "DIGITAL IMAGE PROCESSING",
+  "historical_papers": [
+    {
+      "session": "MO18",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VII\nBRANCH: ECE   SESSION: MO/2018\n\nSUBJECT: CS7107 DIGITAL IMAGE PROCESSING\n\nTIME: 1.5 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) What is a digital image? What are the different ways to capture it?  [2]\n (b) Explain the various different application areas of digital image processing in brief. [3]\n\n\nQ2 (a) Explain the reason of false contouring in an image. [2]\n (b) Explain the concept of Brightness Discrimination and its measurement using weber ratio.  [3]\n\n\nQ3 (a) Explain the concept of histogram equalization for contrast stretching. [2]\n (b) Explain the Euclidean, City Block and Chessboard distance measures.  [3]\n\n\nQ4 (a) Explain the working operation of first order derivation based filter in image sharpening.   [2]\n (b) Explain the Bit-Plane slicing method in piecewise linear transformation to enhance an\nimage quality. Give a suitable example also.\n[3]\n\n\nQ5 (a) Explain the log transform of an image with suitable example. [2]\n (b) Explain the sampling theorem in frequency domain of Image processing.  [3]\n\n\nQ6 (a) Explain the Rotational property of fourier transform with suitable sketch.                          [2]\n (b) Explain working of Butterworth low-pass filter with suitable example.             [3]\n\n\n\n:::: 13/09/2018 M ::::::"
+    }
+  ]
+}

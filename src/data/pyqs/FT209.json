@@ -1,0 +1,20 @@
+{
+  "courseCode": "FT209",
+  "courseName": "FOOD ANALYSIS",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS:  IMSc   SEMESTER : IV\nBRANCH: FT   SESSION : SP2023\n\nSUBJECT: FT209 FOOD ANALYSIS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Compare Accuracy and Precision? Explain them with examples [2] 1 I/VIII\nQ.1(b) Define standard deviation? Explain its relationship with Coefficient of variation? [3] 1 IX/I\n\n\nQ.2(a) Describe the different sources of errors such as Systematic error and Random errors? [2] 2 I\nQ.2(b) Explain  the  necessity  of  Calibration  and  standardization  of  instrument  before  doing\nexperiment?\n[3] 1 I\n\n\nQ.3(a) Describe the precautions are to be taken during sampling? [2] 1 I\nQ.3(b) Describe Lambert and Beer's Law [3] 2 I\n\n\nQ.4(a) Describe the advantages and disadvantages of Titrimetric Method [2] 2 I\nQ.4(b) Write three important applications of Gravimetric method in food analysis. [3] 2 IX\n\n\nQ.5(a) Describe  the  use  FTIR spectroscopy  to  detect  the  functional  groups  present  in  Food\nsample?\n[2] 2 V\nQ.5(b) Describe  the  limitations  of  optical  microscopic  technique?  Describe  the  SEM/TEM\ntechniques in food analysis?\n[3] 1 V\n\n\n\n::::::20/02/2023::::::M"
+    },
+    {
+      "session": "SP20",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BPHARM   SEMESTER: VIII\nBRANCH: PHARMACY   SESSION : SP/2020\n\nSUBJECT: PS8403 DRUG DELIVERY SYSTEM\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n6. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) Discuss the rationale for sustained and controlled release systems. [2]\n (b) Write the differences between a conventional, Sustained and controlled release system\nwith the help of diagrammatic representation.\n[3]\n\n\nQ2 (a) Discuss the advantages of Polymer controlled drug delivery systems. [2]\n (b) What is a reservoir system? Explain with Diagram and graphs [3]\n\n\nQ3 (a) What is a matrix system? Explain with Diagram and graphs [2]\n (b) Discuss the rationale for site specific drug delivery systems. [3]\n\n\nQ4 (a) Discuss the parameters governing the drug kinetics. [2]\n (b) Calculate  the  peak  time  Tp of  Paracetamol,  when  administered,  the  absorption  rate\nconstant ka and elimination rate constant ke are 2.0hr\n-1\n and 0.97hr\n-1\n respectively.\n[3]\n\n\nQ5 (a) Calculate the bioavailbility factor F, when AUC oral as well as AUV I.V are 100mg.hr/Lit\nand 200mg.hr/Lit respectively.\n[2]\n (b) Discuss the physicochemical parameters as well as the pharmacokinetic parameters for\na drug to be utilized for sustained dosage form.\n[3]\n\n\nQ6 (a) Discuss  the  osmotic  pressure  activated  system  for  Liquid  formulations  along  with\nequations governing the system.\n[2]\n (b) Write short notes on the following:\ni. Swelling and Expansion systems.\nii. Ion exchange resins\n[3]\n\n\n\n ::::::26/02/2020::::::E"
+    }
+  ]
+}

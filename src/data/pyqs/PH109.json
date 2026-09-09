@@ -1,0 +1,20 @@
+{
+  "courseCode": "PH109",
+  "courseName": "PHYSICS-I",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS:  IMSc   SEMESTER : II\nBRANCH:  MATHS & COMPUTING  SESSION : SP2023\n\nSUBJECT: PH109 PHYSICS-I\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) Define electrostatic potential. How is it related to the Electric Field ? [2] 1 1\nQ.1(b) Determine the expression for the capacitance of a parallel plate capacitor. What are\nthe various ways to increase its capacitance ?\n[3] 1 5\n\n\nQ.2(a)\nDefine electric dipole moment  . What happens when an electric dipole is placed in\na uniform, external electric field   ?\n[2] 1 1\nQ.2(b) Evaluate the expression for the electric field due to an electric dipole at a distance r\nfrom it as shown in this figure.\n\n[3] 1 5\n\n\nQ.3(a) Define inductance of a steady current carrying circuit. What is the difference between\n“self-inductance” and “mutual inductance” ?\n[2] 1 1\nQ.3(b) Estimate the magnetic field a distance z above the center of a circular loop of radius\nR, which carries a steady current I (See Fig).\n\n[3] 1 6\n    PTO\n\n\n\n\n\n\n\n\nQ.4(a) List all the  Maxwell’s  equations  in  free  space.  What  does each  equation  physically\nsignify ?\n[2] 1 1\nQ.4(b) Show that Maxwell’s equations in vacuum predict that electric and magnetic fields\nsatisfy the wave equation. What is the velocity of those electromagnetic waves ?\n[3] 1 2\n\nQ.5(a)\nDefine Poynting vector  .  What does it physically represent ?\n[2] 1\nQ.5(b) An Electromagnetic wave travels in free space with electric field component:\n                                    = 100 e\ni(0.866y + 0.5z)\n   Volts/meter\nDetermine the following:\n(i) Angular frequency (  ) and wavelength (  )\n(ii) Magnetic Field ( )\n(iii) Energy flux density\n(iv) Energy and momentum density\n[3] 1\n\n::::::31/05/2023::::::M"
+    },
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: I.M.Sc.   SEMESTER: I\nBRANCH: CHEMISTRY   SESSION: MO/2022\n\nSUBJECT: PH109 PHYSICS-I\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n   CO BL\nQ.1(a) Illustrate the Differential form of Gauss Law. [2] 1,2 2\nQ.1(b) Apply the Gauss Law to find the electric field due to a uniformly charged infinite\nsheet.\n[3] 1,2 3\n\n\nQ.2(a) Explain the polarization of dielectrics with the help of figure. [2] 1,2 2\nQ.2(b) Show that electric field is a conservative field.  [3] 1,2 2\n\n\nQ.3(a) What is Ampere Circuit law? [2] 1,2 1\nQ.3(b) Find the energy density of magnetic field. [3] 1,2 1\n\n\nQ.4(a) What do you understand by Poynting Vector? [2] 1,2 1\nQ.4(b) Plane y = 1 carries current K = 50az mA/m. Find H at (a) (0,0,0)  (b) (1,5,-3) [3] 1,2 1\n\n\nQ.5(a) Estimate the B.E. of a neutron in the\n3\nLi\n7\n nucleus. Given:\n3\nLi\n7\n=7.016004,\n3\nLi\n6\n=6.015125,\n0\nn\n1\n= 1.008665\n[2] 3 5\nQ.5(b) What are the different classifications of nucleus? Discuss with examples. [3] 3 1\n\n\n\n\n :::::: 18/01/2023 ::::::M"
+    }
+  ]
+}

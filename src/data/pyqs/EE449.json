@@ -1,0 +1,13 @@
+{
+  "courseCode": "EE449",
+  "courseName": "ARTIFICIAL INTELLIGENCE FOR ELECTRICAL ENGINEERING",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH   SEMESTER: V\nBRANCH: EEE   SESSION: MO/2022\n\nSUBJECT: EE449 ARTIFICIAL INTELLIGENCE FOR ELECTRICAL ENGINEERING\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n    CO BL\nQ1 (a) Compare biological neural network and artificial neural network. Explain basic\nmodels of ANN.\n[3] CO1 L1\n (b) Explain an adaptive system? Differentiate between fixed, adaptive and intelligent\nsystem.\n[2] CO1 L2\n\n\nQ2 (a) Explain linearly  and  non-linearly  separable  problems.  Write  MATLAB  codes  to\nimplement AND function using single layer neural network.\n[3] CO2 L3\n (b) Explain Single layer, multi-layer and functional link artificial neural network with\nsuitable diagram.\n[2] CO3 L3\n\n\nQ3 (a) Write short notes on (i) Unsupervised learning (ii) Activation function. [2] CO1 L1\n (b) Define the basic terminology used in multiobjective optimization. Explain the\nprocedure to solve any multiobjective optimization problem.\n[3] CO2 L2\n\n\nQ4 (a) With suitable block diagram and example explain noise cancellation and system\nidentification.\n[3] CO4 L4\n\n (b) Write MATLAB code for prediction of any time series data.  [2] CO4 L$\n\n\nQ5 (a) With suitable example differentiate between crisp set and fuzzy set.  [2] CO3 L2\n\n\n(b) Explain (i) linguistic variable and linguistic value. (ii) crossover point. (iii) Fuzzy\nsingle tone.\n[3] CO3 L3\n\n\n\n\n :::::: 01/10/2022 ::::::M"
+    }
+  ]
+}

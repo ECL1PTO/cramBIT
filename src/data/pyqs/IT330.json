@@ -3,102 +3,11 @@
   "courseName": "CRYPTOGRAPHY AND NETWORK SECURITY",
   "historical_papers": [
     {
-      "session": "MO/2022",
+      "session": "MO22",
       "examType": "MID",
-      "maxMarks": 25,
-      "durationHrs": 2,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Differentiate between symmetric cryptography and asymmetric cryptography.",
-              "marks": 2,
-              "topic": "symmetric vs asymmetric cryptography"
-            },
-            {
-              "label": "b",
-              "text": "Explain the security requirement CIA (Confidentiality, Integrity and Availability) triad in details.",
-              "marks": 3,
-              "topic": "CIA triad"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Differentiate between stream cipher and block cipher.",
-              "marks": 2,
-              "topic": "stream vs block cipher"
-            },
-            {
-              "label": "b",
-              "text": "Consider Plaintext=”Algorithm” and Key=”Playfair”. Using Playfair Cryptographic Algorithm, compute Cyphertext.",
-              "marks": 3,
-              "topic": "Playfair cipher"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Explain Euclidean Algorithm with the help of an example.",
-              "marks": 2,
-              "topic": "Euclidean algorithm"
-            },
-            {
-              "label": "b",
-              "text": "With the help of a diagram explain DES encryption algorithm.",
-              "marks": 3,
-              "topic": "DES encryption"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "For GF(5^2) find finite field Z_5^2.",
-              "marks": 2,
-              "topic": "finite fields GF(5^2)"
-            },
-            {
-              "label": "b",
-              "text": "Find out additive inverse and multiplicative inverse for GF(2^3).",
-              "marks": 3,
-              "topic": "inverse in GF(2^3)"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Define Euler’s Totient Function and Euler’s Theorem.",
-              "marks": 2,
-              "topic": "Euler's Totient function"
-            },
-            {
-              "label": "b",
-              "text": "Find out the public key and private key using RSA algorithm for the following problem: Two prime numbers are p=11 and q=13. Select other values suitably, if required.",
-              "marks": 3,
-              "topic": "RSA key generation"
-            }
-          ]
-        }
-      ]
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH.   SEMESTER: V\nBRANCH: CSE/IT   SESSION: MO/2022\n\nSUBJECT: IT330 CRYPTOGRAPHY AND NETWORK SECURITY\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n    CO BL\nQ1 (a) Differentiate between symmetric cryptography and asymmetric cryptography. [2] CO1 2\nQ1 (b) Explain the security requirement CIA (Confidentiality, Integrity and\nAvailability) triad in details.\n[3] CO1 1\n\n\nQ2 (a) Differentiate between stream cipher and block cipher. [2] CO2 2\nQ2 (b) Consider Plaintext=”Algorithm” and Key=”Playfair”. Using Playfair\nCryptographic Algorithm, compute Cyphertext.\n[3] CO3 3\n\n\nQ3 (a) Explain Euclidean Algorithm with the help of an example. [2] CO2 2\nQ3 (b) With the help of a diagram explain DES encryption algorithm  [3] CO3 2\n\n\nQ4 (a) For GF(5\n2\n) find finite field Z\n5\n2\n. [2] CO3 3\nQ4 (b) Find out additive inverse and multiplicative inverse for GF(2\n3\n). [3] CO3 3\n\n\nQ5 (a) Define Euler’s Totient Function and Euler’s Theorem. [2] CO2 1\nQ5 (b) Find out the public key and private key using RSA algorithm for the following\nproblem: Two prime numbers are p=11 and q=13. Select other values suitably,\nif required.\n[3] CO4 4\n\n\n\n\n :::::: 01/10/2022 ::::::M"
     }
   ]
 }

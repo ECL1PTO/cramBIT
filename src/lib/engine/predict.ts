@@ -55,7 +55,7 @@ export function resolve(courseInput: string, pastedSyllabus: string): Resolved {
     name: course?.name ?? code.slice(0, 40),
     syllabus,
     needsSyllabus: !syllabus || syllabus.length < 40,
-    borrowedFrom: neighbours.map((n) => `${n.code} — ${n.name}`),
+    borrowedFrom: neighbours.map((n) => `${n.code}${n.name ? " — " + n.name : ""}`),
   };
 }
 
@@ -71,7 +71,7 @@ function gatherEvidence(r: Resolved): {
   const borrowedFiles = borrowedPyqs(neighbours.map((n) => n.code));
   const borrowed = neighbours.map((n, i) => ({
     code: n.code,
-    name: n.name,
+    name: n.name ?? n.code,
     papers: borrowedFiles[i]?.historical_papers ?? [],
   }));
   return {

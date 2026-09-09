@@ -1,0 +1,13 @@
+{
+  "courseCode": "CL3001",
+  "courseName": "FLUID MECHANICS",
+  "historical_papers": [
+    {
+      "session": "MO18",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: III\nBRANCH: CE/C&P   SESSION : MO/2018\n\nSUBJECT : CL3001 FLUID MECHANICS\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) Derive the fundamental equation of fluid statics. [2]\n (b) Derive an expression for centre of pressure and total pressure for an inclined surface\nsubmerged in a fluid.\n[3]\n\n\nQ2 (a) Write down the definitions of gauge pressure and absolute pressure. [2]\n (b) Describe working of following pressure measuring devices: (i) Well type manometer (ii)\nDiaphragm gauge.\n[3]\n\n\nQ3 (a) State any one dimensionless number related to fluid flow and explains their significance. [2]\n (b) Derive Bernoulli’s equation for flow through a straight pipe. Explain the significance of\neach term in above equation. Write the assumptions made while deriving the Bernoulli’s\nequation.\n[3]\n\n\nQ4 (a) Sketch  stress  versus  strain  diagram  for  Newtonian  and  Non-Newtonian  fluid  with\nexamples.\n[2]\n (b) A garden hose attached with a nozzle is used to fill a 10-gal bucket. The inner diameter\nof the hose is 2 cm, and it reduces to 0.8 cm at the nozzle exit. If it takes 50 s to fill the\nbucket with water, determine (a) the volume and mass flow rates of water through the\nhose, and (b) the average velocity of water at the nozzle exit.\n[3]\n\n\nQ5 (a) Explain  the  concept  of  fluid-continuum.  What  is  the  advantage  of  assuming  fluid-\ncontinuum concept?\n[2]\n (b)\nProve that the loss of head for the viscous flow through a circular pipe is given by h\n୤\n=\n\nଷଶ ஜ ୴ ୐\nஓୢ\nమ\n , where , v,  are viscosity, density, specific weight of fluid and L, d are length,\ndiameter of circular pipe.\n[3]\n\n\nQ6 (a) What is substantial derivative? [2]\n (b) Water leaves the 25 mm diameter nozzle of a fire hose at a velocity of 25 m/s. What will\nbe the reaction force at the nozzle which the fireman will need to counterbalance?\n[3]\n\n\n\n :::: 13/09/2018 E ::::::"
+    }
+  ]
+}

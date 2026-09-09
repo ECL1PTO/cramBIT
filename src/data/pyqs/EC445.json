@@ -1,0 +1,13 @@
+{
+  "courseCode": "EC445",
+  "courseName": "INTRO_ TO SIGNAL PROCESSING",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH   SEMESTER: VII\nBRANCH: ECE   SESSION: MO/2022\n\nSUBJECT: EC445 INTRO. TO SIGNAL PROCESSING\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n    CO BL\nQ1 (a) What  is  a  ‘Signal’.  Define  continuous  and  discrete  signals  along  with  the\ngraphical representations.\n[2] CO1 1\nQ1 (b) A continuous-time signal x(t) is shown in Fig. 1. Sketch and label each of the\nfollowing signals: (a) ; (b) ; (c) ; (d)\n.\n\nFig. 1.\n[3] CO1 3\n\n\nQ2 (a) Explain  energy  and  power  signals  along  with  the expressions  for  the  signal\nenergy and signal power.\n[2] CO1 2\nQ2 (b) Determine whether the following signals are energy signals, power signals, or\nneither.\n(a)\n(b)\n[3] CO1 3\n\n\nQ3 (a) Define the following signals:\n(a) Unit impulse signal\n(b) Unit step signal\n(c) Unit ramp signal\n[2] CO1 1\nQ3 (b) Explain the relationships between the above three signals. [3] CO1 2\n\n\nQ4 (a) Let  and  be  periodic signals  with  fundamental  periods  and ,\nrespectively. Under what conditions is the sum periodic.\n[2] CO1 4\nQ4 (b) Assuming  the  condition  in  part  (a)  for  periodicity  is  satisfied,  what  is  the\nfundamental period of ?\n[3] CO1 3\n\n\n\n\n\n     PTO\n\n\n\n\n\n\n\nQ5 (a)\nLet be the unit step signal. Show that\n[2] CO1 2\nQ5 (b) A continuous-time signal is shown in Fig. 2. Sketch and label the following\nsignals:\n\n\nFig. 2\n[3] CO1 3\n\n\n:::::: 30/09/2022 ::::::M"
+    }
+  ]
+}

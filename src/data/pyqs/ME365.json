@@ -1,0 +1,13 @@
+{
+  "courseCode": "ME365",
+  "courseName": "DESIGN OF MECHANISMS",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS: B TECH   SEMESTER : VI\nBRANCH: MECHANICAL   SESSION :  SP/2023\n\nSUBJECT: ME365 DESIGN OF MECHANISMS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1 Explain any two inversions of slider-crank mechanism with neat diagram. [5] 1 2\n\n\nQ.2 Find the number of degrees of freedom in the mechanism shown in Figure.\n\n[5] 1 3\n\n\nQ.3 Explain Watt I and Watt II six bar linkages with neat diagrams [5] 1 2\n\n\nQ.4 Explain motion generation and path generation tasks in kinematic synthesis with examples. [5] 2 2\n\n\nQ.5 Explain and sketch the complete procedure to synthesize a four-bar mechanism for three\nposition motion generation task.\n[5] 2 3\n\n\n\n::::::23/02/2023::::::M"
+    }
+  ]
+}

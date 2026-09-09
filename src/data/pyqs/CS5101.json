@@ -1,0 +1,20 @@
+{
+  "courseCode": "CS5101",
+  "courseName": "FORMAL LANGUAGES AND AUTOMATA THEORY",
+  "historical_papers": [
+    {
+      "session": "MO19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: V\nBRANCH: CSE   SESSION : MO/2019\n\nSUBJECT : CS5101 FORMAL LANGUAGES AND AUTOMATA THEORY\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) Design a finite automata that accepts the null set.     [1]\n (b) Design a DFA that accepts those binary strings whose equivalent integer is divisible by 5 [4]\n\n\nQ2 (a) What is the language accepted by the automata given in Figure 1?  [1]\n (b) Convert it into equivalent DFA.\n\n[4]\n\n\nQ3 (a) Find regular expression to represent the language that contains all strings that do not\ncontain ‘01’\n[2]\n (b) Find regular expression to represent the language that contains the set of all strings of\n0's and 1's not containing ‘101’ as a substring.\n[3]\n\n\nQ4   Convert the following automata into RE using either state elimination or R\nij\n(k)\n\ninduction. (formal and detailed step-by-step procedure should be followed)\n\n\n[5]\n\nQ5  State pumping lemma for regular languages. Then check whether L={ww|wЄ{a,b}*} is\nregular language or not.\n[5]\n\n\nQ6 (a) Verify: (L + M)* = (L*M*)*. [2]\n (b) Intersection of two regular languages is always regular: prove or disprove. [3]\n\n\n\n :::::: 20/09/2019::::::E\n\nЄ"
+    },
+    {
+      "session": "MO18",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\nCLASS: BE   SEMESTER: V\nBRANCH: CSE   SESSION : MO/2018\n\nSUBJECT : CS5101-FORMAL LANGUAGES AND AUTOMATA THEORY\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) Explain  role  of  transition  function  in  Finite  Automata  (FA)?  How  does  it  effect  the\nfunctioning of FA?\n[2]\n (b) Design a DFA to recognize string ends with 010 or 012 over Σ= {0,1,2} [3]\n\n\nQ2 (a) Write the Epsilon NFA for the regular expression ab(a+b)*. [2]\n (b) Convert following NFA into its equivalent DFA:\n\n[3]\n\n\nQ3 (a) Design a DFA to recognize strings that contain 11 as substring over Σ= {0,1} [2]\n (b) From the DFA designed for Q3 a, derive the corresponding regular expression. [3]\n\n\nQ4 (a) The length of the shortest string NOT in the language (over ∑={a,b}) of the following\nRegular Expression  a*b*(ba)*a* is ............\n[2]\n (b) Find a Regular Expression for the set {a\nn\nb\nm\n | (n+m) is even}.  [3]\n\n\nQ5 (a) Can a DFA be designed for recognizing language abaa\nn\n : n>=1.  [2]\n (b) Justify properly your answer for Q5 a. [3]\n\n\nQ6 (a) Explain Chomsky Hierarchy, in details. [2]\n (b) Construct Minimal DFA’s for the following language:\nL= { a\nl\nb\nm\nc\nn\n  | l, m,n>=1}\n[3]\n\n\n\n :::::: 11/09/2018 ::::::E"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "courseCode": "ME205",
+  "courseName": "STRENGTH OF MATERIALS",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH   SEMESTER: III\nBRANCH: MECHANICAL/PRODUCTION  SESSION: MO/2022\n\nSUBJECT: ME205 STRENGTH OF MATERIALS\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\nQ1\nAt a certain point in a material 흈\n풙\n=푺,흈\n풚\n=푺/ퟐ and 흉\n풙풚\n=\n푺\nퟒ\n . If the maximum shear stress\nis not to exceed ퟏퟐퟎ 푴푵/풎\nퟐ\n determine S. Determine the corresponding values of the\nprincipal stresses.\n[5]\n\n\nQ2  For Figure 1 shows a rigid bar ABC hinged at A and suspended at two points B and C by two\nbars BD and CE made of aluminium and steel respectively. The bar ABC carries a load of 20\nkN midway between B and C. The cross-sectional area of the aluminium bar BD is 3 mm²\nand that of the steel bar is CE is 2 mm². Determine the load taken up by the two bars BD\nand CE. What are the respective stresses developed in each bar? Modulus of elasticity of\naluminuim 퐸\n஺௟\n= 70 kN/mm\n2\n. Modulus of elasticity of Steel 퐸\n௦\n= 200 kN/mm\n2\n.\n\nFigure 1\n[5]\n\n\nQ3  Draw the shear force and bending moment diagrams for the simply supported beam shown\nloaded  in  Figure  2.  Clearly  mark  the  position  of  the  maximum  bending  moment  and\ndetermine its value.\n\nFigure 2\n\n[5]\n\n\nQ4  Derive the complete expression for the Bending stresses in the Beam [5]\n\n\nQ5  Determine the distribution of shear stress of a rectangular beam having width B and\nHeight H taking F as Shear force.\n[5]\n\n\n:::::: 28/09/2022 ::::::M"
+    }
+  ]
+}

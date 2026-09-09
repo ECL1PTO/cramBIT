@@ -1,0 +1,13 @@
+{
+  "courseCode": "CL204",
+  "courseName": "CHEMICAL PROCESS CALCULATION",
+  "historical_papers": [
+    {
+      "session": "MO19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: III\nBRANCH: CHEM. ENGG. / CEP&P  SESSION : MO/2019\n\nSUBJECT : CL204 CHEMICAL PROCESS CALCULATION\n\nTIME: 2:00  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates may attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1  The heat capacity of sulfuric acid has the units J/(gmole)(\no\nC), and is given by the relation\nHeat capacity = 139.1 + 1.56 x 10\n-1\nT\nWhere T is expressed in\no\nC. Modify the formula so that the resulting expression has the\nassociated unit of Btu/(Ib mol)(\no\nR) and T is in\no\nR\n[5]\n\n\nQ2  A producer gas has the following composition by volume CO-23%, CO\n2\n-4.4%, O\n2\n-2.6% and\nRest is N\n2\n(70%).\nDetermine the cubic ft of gas at 70\no\nF and 750 mm of Hg pressure per Ib of carbon present.\n[5]\n\n\nQ3  An evaporator is fed with 15000 Kg/hr of a solution containing 10% sodium chloride, 15%\nNaOH. In operation water is evaporated and NaCl is precipitated as crystal. The thick\nliquor leaving the evaporator containing 45% NaOH, 2% NaCl and rest is H\n2\nO .\nDetermine:\n(a) Kg/hr water evaporated.\n(b) Kg/hr salt precipitated.\n(c) Kg/hr thick liquid.\n[5]\n\n\nQ4  What is the boiling point of water at a place where the atmospheric pressure is 600 mm?\n(l\nv\n= 540 Cal/gm)\n[5]\n\n\nQ5  Soyabean seed are extracted with hexane in batch Extracter. The flaked seed contain\n18.6% oil, 69.0% solid and 12.4 % moisture. At the end of the process, cake of milk is\nseparated from the hexane oil mixture. The cake analysis yield 0.8% oil, 87.7% solid and\n11% moisture. Find the % recovery of oil. All % are by wt only.\n[5]\n\n\n\n :::::: 24/09/2019 ::::::E"
+    }
+  ]
+}

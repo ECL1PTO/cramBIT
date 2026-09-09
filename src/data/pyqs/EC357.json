@@ -1,0 +1,13 @@
+{
+  "courseCode": "EC357",
+  "courseName": "INTRO_ TO INDUSTRIAL INSTRUMENTATION",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2023)\nCLASS: BTECH   SEMESTER : VI\nBRANCH: ECE   SESSION : SP/2023\n\nSUBJECT: EC357 INTRO. TO INDUSTRIAL INSTRUMENTATION\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Differentiate between Transducer and Actuator by giving suitable examples. [2] 1,2 5\nQ.1(b) Discuss different techniques to measure flow in process industry?\nHow solid flow is measured? Explain with suitable diagram.\n[3] 1,2 2\n\n\nQ.2(a) What do you mean by an intelligent sensor? Explain by giving suitable example. [2] 1,2 2\nQ.2(b) List  the  advantages  of  fiber  optic  transducer?  Explain  the  working  of  fiber  optic\ndisplacement transducer by giving suitable diagram.\n[3] 1,2 1,2\n\n\nQ.3(a) Describe biosensors and their applications? [2] 1,2 2\nQ.3(b) Explain the working of Geiger Muller tube for detecting radiation. [3] 2,2 2\n\n\nQ.4(a) Differentiate between DAS and DATA logger. [2] 1,2 5\nQ.4(b) Schematize the block diagram of a microprocessor based 8 channel data logger system\nand write down the steps for data logging by the system.\n[3] 2,2 3\n\n\nQ.5(a) Examine the role signal conditioners in a DAS? Explain the principles of signal conditioning? [2] 1,2 4,2\nQ.5(b) A humidity sensor resistance  varies linearly from 250 Kohms  to 120 Kohms  as humidity\nvaries  from  0%  to  100%.  Power  dissipation  in  the  sensor  must  be  kept  below  100\nmicrowatts. Design analog signal conditioning to provide a voltage of 0.00 to 1.00 V as the\nhumidity varies from 0% to 100%.\n[3] 1,2 6\n\n\n\n::::::24/02/2023::::::M"
+    }
+  ]
+}

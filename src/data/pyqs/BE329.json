@@ -1,0 +1,13 @@
+{
+  "courseCode": "BE329",
+  "courseName": "PERL & BIO PERL PROGRAMMING",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2023)\nCLASS: BTECH   SEMESTER : VI\nBRANCH:   BIOTECHNOLOGY\nSESSION :\nSP/2023\n\nSUBJECT: BE329 PERL & BIO PERL PROGRAMMING\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) What is OS? [2] CO2\nQ.1(b) Describe the Unix architecture. [3] CO3\n\n\nQ.2(a) What do you mean by root and directory? [2] CO2\nQ.2(b) What the following command mean: mkdir, grep, cp [3] CO4\n\n\nQ.3(a) What is the difference between push and shift function? [2] CO2\nQ.3(b) How foreach loop is helpful for printing key of a hash table? [3] CO3\n\n\nQ.4(a) How to reverse a list and print it? [2] CO2\nQ.4(b) Create a table to submit 5 gene names and its corresponding sequence. [3] CO4\n\n\nQ.5(a) What is global and local variable? [2] CO3\nQ.5(b) What do you mean by ‘passing arguments’? describe with example. [3] CO5\n\n\n::::::27/02/2023::::::M"
+    }
+  ]
+}

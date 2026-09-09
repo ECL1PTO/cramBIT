@@ -1,0 +1,20 @@
+{
+  "courseCode": "FT212",
+  "courseName": "FLUID MECHANICS AND MECHANICAL OPERATIONS",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS: IMSc   SEMESTER : IV\nBRANCH: FOOD TECH   SESSION : SP2023\n\nSUBJECT: FT212 FLUID MECHANICS AND MECHANICAL OPERATIONS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1 A 30 cm diameter pipe, conveying water, branches into two pipes of diameters 20 cm\nand 15 cm respectively. If the average velocity in the 30 cm diameter pipe is 2.5 m/s,\nfind  the  discharge  in  this  pipe.  Also  determine  the  velocity  in  15  cm  pipe  if  the\naverage velocity in 20 cm diameter pipe is 2 m/s.\n[5] CO1 BL5\n\n\nQ.2 Define the following fluid properties:\n(i) Density (ii) Specific Weight     (iii) Specific volume   (iv) Specific gravity (v) Viscosity\nof a fluid\n[5x1] CO1 BL1\n\n\nQ.3(a) What do you understand by the term Major and Minor loss, if a fluid is flowing through\na pipe?\n[2] CO1 BL2\nQ.3(b) Discuss the various flow patterns in agitated vessel? [3] CO2 BL2\n\n\nQ.4 Describe the principle and working of a reciprocating pump with a neat sketch? [5] CO2 BL2\n\n\nQ.5 Discuss  U-tube  manometer  and  derive  an  expression  for  the  measurement  of\npressure.\n[5] CO2 BL5\n\n\n\n::::::22/02/2023::::::M"
+    },
+    {
+      "session": "SP20",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: IMSC   SEMESTER: IV\nBRANCH: FOOD TECHNOLOGY  SESSION: SP/2020\n\nSUBJECT: FT212 FLUID MECHANICS AND MECHANICAL OPERATIONS\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates may attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a) What is the difference between mass density and weight density? [2] 1 1\nQ1 (b) Explain the major and minor losses in detail. [3] 2 2\n\n\nQ2 (a) What will be the value of Reynolds number for an ideal fluid? [2] 1 1\nQ2 (b) Briefly explain Moody’s diagram for pipe friction. [3] 2 2\n\n\nQ3 (a) What is mass flow rate and volume flow rate? Write its units. [2] 1 1\nQ3 (b) Derive the Mechanical energy balance equation. Write the Bernoulli’s equation\napplied between two sections with losses. Explain each term.\n[3] 2 3\n\n\nQ4 (a) What is an orifice meter? [2] 1 2\nQ4 (b) Explain the working principle of centrifugal pump with a neat sketch. [3] 2 2\n\n\nQ5 (a) Why is the angle of downstream small in venturimeter? [2] 1 3\nQ5 (b) Describe head capacity, power & efficiency curve of a centrifugal pump. [3] 1 2\n\n\n  :::: 02/03/2020E ::::::"
+    }
+  ]
+}

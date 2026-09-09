@@ -1,0 +1,13 @@
+{
+  "courseCode": "EC355",
+  "courseName": "FIBER OPTIC COMMUNICATION",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2023)\nCLASS: BTECH   SEMESTER : VI\nBRANCH:  ECE   SESSION : SP/2023\n\nSUBJECT: EC355 FIBER OPTIC COMMUNICATION\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Define: (i) Axial ray (ii) Skew ray (iii) Leaky modes (iv) Cladding mode                  [2] 1 1\nQ.1(b) Draw a schematic  representation of light path propagation in single-mode step-index\nfiber, multi-mode step-index and multi-mode graded-index fiber with their dimensions\nof core and cladding regions.\n[3] 1 1\n\n\nQ.2(a)\nThe speed of light in the core of a SI fiber is 2×10\n଼\n푚/푠. When the fiber is placed in\nthe air, the critical angle at the core-cladding interface is 75\no\n. Calculate the numerical\naperture of the fiber\n[2] 1 3\nQ.2(b) Explain MCVD method for fiber Preform fabrication with diagram.  [3] 1 2\n\n\nQ.3(a) Illustrate  graphically  how  LP\n11\n modes  are  derived  from  exact  modes?  Explain  fiber\nBirefringence.\n[2] 1 2\nQ.3(b) A  multimode  step  index  fiber  with  a  core  diameter  of  80  μm  and  a  relative  index\ndifference of 1.5% is operating at a wavelength of 0.85 μm. If the core refractive index\nis 1.48, calculate: (a) the normalized frequency for the fiber; (b) the number of guided\nmodes.\n[3] 1 3\n\n\nQ.4(a) Why are direct band gap materials preferred over indirect band gap materials for optical\nsource?\n[2] 2 2\nQ.4(b) Derive an expression for material dispersion in a single mode fiber. Explain how it can\nbe minimized.\n[3] 1 2\n\n\nQ.5(a) Explain  absorption,  spontaneous  emission,  stimulated  emission,  and  population\ninversion involved in laser action.\n[2] 2 2\nQ.5(b) Define internal quantum efficiency of an LED. Formulate an expression for the optical\npower generated internally to the LED.\n[3] 2 1,6\n\n\n::::::24/02/2023::::::M"
+    }
+  ]
+}

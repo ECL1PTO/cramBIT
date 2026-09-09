@@ -3,108 +3,11 @@
   "courseName": "FORMAL LANGUAGES AND AUTOMATA THEORY",
   "historical_papers": [
     {
-      "session": "MO/2022",
+      "session": "MO22",
       "examType": "MID",
-      "maxMarks": 25,
-      "durationHrs": 2,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Construct minimal DFA for the language of strings of 0’s and 1’s whose integer equivalent is congruent to 2 (mod 3).",
-              "marks": 2,
-              "topic": "DFA construction"
-            },
-            {
-              "label": "b",
-              "text": "Construct minimal DFA for the language of strings of 0’s and 1’s whose length is divisible by 2 and not divisible by 3.",
-              "marks": 4,
-              "topic": "DFA construction"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Construct the Mealy machine that takes strings of a’s and b’s as input and produces a 1 on appearance of “baa” in the string. Convert the Mealy machine to the corresponding Moore machine.",
-              "marks": null,
-              "topic": "Mealy and Moore machines"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Minimize the given DFA with proper explanation.",
-              "marks": 3,
-              "topic": "DFA minimization"
-            },
-            {
-              "label": "b",
-              "text": "Derive the corresponding regular expression from the minimal DFA.",
-              "marks": 2,
-              "topic": "Regular expression derivation"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What do you mean by regular expression? Construct the regular expression for the language consisting of all strings of a’s and b’s where the length of the string is at most 3.",
-              "marks": null,
-              "topic": "Regular expressions"
-            },
-            {
-              "label": "b",
-              "text": "Construct the regular expression for the language where the length of the string is congruent to 2 (mod 5).",
-              "marks": null,
-              "topic": "Regular expressions"
-            },
-            {
-              "label": "c",
-              "text": "Construct the regular expression for the language where the number of a’s is at most 2.",
-              "marks": null,
-              "topic": "Regular expressions"
-            },
-            {
-              "label": "d",
-              "text": "Construct the regular expression for the language containing at least one a and at least one b.",
-              "marks": null,
-              "topic": "Regular expressions"
-            },
-            {
-              "label": "e",
-              "text": "Construct the regular expression for L = { aⁿ bᵐ | n+m is even }.",
-              "marks": null,
-              "topic": "Regular expressions"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Write a regular expression for strings that end with “011” and convert it to the corresponding DFA.",
-              "marks": null,
-              "topic": "Regular expression to DFA conversion"
-            }
-          ]
-        }
-      ]
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH/IMSC   SEMESTER: V\nBRANCH: CSE/IT/MATHS   SESSION: MO/2022\n\nSUBJECT: CS310 FORMAL LANGUAGES AND AUTOMATA THEORY\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1  Construct minimal DFA for the following languages that consist of strings of 0’s\nand 1’s where\n[5] 2 4\n (a) Integer equivalent of the string is congruent to 2(mod 3)\n (b) Length of the string is divisible by 2 and not divisible by 3\n\nQ2  Construct  the  Mealy  machine  that  takes  strings  of  a’s  and  b’s  as  input  and\nproduces a 1on appearance of “baa” in the string. Convert the Mealy machine\nto the corresponding Moore machine\n[5] 2 4\n\nQ3 (a) Minimize the following DFA with proper explanation\n\n\n[3] 2 5\nQ3 (b) Derive the corresponding regular expression from the minimal DFA  [2] 1,2 3\n\nQ4  What do you mean by regular expression? Construct the regular expression for\nthe languages consist of all string of a’s and b’s where\na. The length of the string is at most 3.\nb. The length of string is congruent to (2 mod 5)\nc. Number of a’s is at most 2\nd. At least one a and one b\ne. L={a\nn\nb\nm\n | n+m is even}\n\n[5] 1 2\nQ5  Write  regular  expression  for  string  ends  with  “011”  and  convert  it  to\ncorresponding DFA\n[5] 1,2 3\n\n:::::: 27/09/2022 M ::::::"
     }
   ]
 }

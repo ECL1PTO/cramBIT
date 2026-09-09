@@ -1,0 +1,13 @@
+{
+  "courseCode": "ME253",
+  "courseName": "COMPOSITE MATERIALS",
+  "historical_papers": [
+    {
+      "session": "SP20",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B. TECH   SEMESTER: IV\nBRANCH: MECHANICAL   SESSION : SP/2020\n\nSUBJECT: ME253 COMPOSITE MATERIALS\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates may attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a) Classify various composite materials. [2] 1 L\nQ1 (b) Explain  the  difference  between  thermosetting  and  thermoplastic  matrix\nmaterials with relevant examples.\n[3] 1 L\n\n\nQ2 (a) Discuss the role of a matrix material with the help of suitable examples. [2] 1 L\nQ2 (b) Differentiate  composite  from  metal.  Discuss  its  application  to  different\nindustries.\n[3] 1 L\n\n\nQ3  For a sheet molding compound composite designated as SMC-R65 E-Glass Fibre\nin thermosetting polyester matrix has the following data: Glass Fibre E = 68.9\nGPa; Density =2.54 Kg/mm\n2\n; Length of Fibre = 25 mm; Diameter = 2.5 mm;\nPolyester (matrix material) E = 3.45 GPa; Density = 1.1 Kg/mm\n2\n. Determine\nthe tensile modulus, shear modulus and Possion's ratio.\n[5] 2 M\n\n\nQ4 (a) Develop  the  expression  to  determine  the  longitudinal  modulus  of  the\ncomposite using law of mixtures.\n[2] 2 M\nQ4 (b) Discuss  the,  failure  mechanism  of  composite  materials  in  the  Following\nconditions;\n1) Fatigue loading; 2) Tensile loading.\n[3] 2 L\n\n\nQ5  Determine the ultimate tensile strength of a Glass / Epoxy Laminate with a\n70%  fibre  volume  fraction.  The  properties  of  unidirectional  glass  /  epoxy\nlaminate are E\nf\n = 85GPA, E\nm\n = 3.4 , Poisson’s ratio v\nm\n = 0.3 and v\nf\n = 0.25,\n(σ\nf\n)\nult\n = 1550 MPa and (σ\nm\n)\nult\n = 72 MPa.\n[5] 2 M\n\n\n\n :::::: 04/03/2020 ::::::E"
+    }
+  ]
+}

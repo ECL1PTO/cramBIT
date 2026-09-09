@@ -1,0 +1,13 @@
+{
+  "courseCode": "FT309",
+  "courseName": "MASS TRANSFER IN FOOD PROCESSING",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS:  IMSc   SEMESTER : VI\nBRANCH: FOOD TECHNOLOGY  SESSION : SP2023\n\nSUBJECT: FT309 MASS TRANSFER IN FOOD PROCESSING\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 From  the  first  principle derive  on  equation  to  determine  the  molar  flux.  Apply  this\nequation to determine molar flux for steady diffusion A through non diffusing B.\n[5] CO-1 L2\n\n\n\nQ2 Methane diffuses at steady state through a tube containing helium. At point 1, the partial\npressure of methane is P\nA1\n = 55 kPa and at point 2, 0.03 m apart P\nA2\n = 15 kPa. The total\npressure is 101.32 kPa and the temperature is 298 K. At this pressure and temperature,\nthe value of diffusivity is 6.75 x 10\n-5\n m\n2\n/sec. Calculate the flux of CH\n4\n at steady state for\nequimolal counter-diffusion.\n[5] CO-1 L2\n\n\nQ3 A sphere of naphthalene having a radius of 2.0 mm is suspended in a large volume of still\nair at 318K and 1.01325X10\n5\nPa (1 atm). The surface temperature of the naphthalene can\nbe assumed to be at 318K and its vapor pressure at 318K is 0.555 mm of Hg. The D\nAB\n of\nnaphthalene  in  air  at  318K  is  6.92X10\n-6\n  m\n2\n/s.  Calculate  the  rate  of  evaporation  of\nnaphthalene from the surface.\n[5] CO-1 L2\n\n\nQ4 Discuss application of azeotropic and extractive distillation. Give Flow sheet to explain\nthe processes.\n[5] CO-2 L1\n\n\nQ5 Soyabean seed are extracted with hexane in batch Extracter. The flaked seed contain\n18.6% oil, 69.0% solid and 12.4 % moisture. At the end of the process, cake of milk is\nseparated from the hexane oil mixture. The cake analysis yield 0.8% oil, 87.7% solid and\n11% moisture. Find the % recovery of oil. All % are by wt only.\n[5] CO-3 L2\n\n\n::::::20/02/2023::::::M"
+    }
+  ]
+}

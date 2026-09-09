@@ -1,0 +1,13 @@
+{
+  "courseCode": "CL318",
+  "courseName": "TRANSPORT PHENOMENA",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS: BTECH   SEMESTER : VI\nBRANCH: CHEM    SESSION : SP2023\n\nSUBJECT: CL318 TRANSPORT PHENOMENA\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ1 Briefly describe the following terms\nGradient.\nDivergence.\nTensors.\n[5] CO-1 BL1\n\n\nQ2 Write short note on:\nPartial time derivative.\nTotal time derivative.\nSubstantial time derivative.\n[5] CO-1 BL1\n\n\nQ3 For a layer of liquid flowing in laminar flow in the z direction down a vertical plate or\nsurface, derive the velocity profile. Where δ is the thickness of the layer, x is the\ndistance from the free surface of the liquid toward the plate and v\nz\n is the velocity at a\ndistance x from the free surface.\n(i) What is the maximum velocity v\nz\n,max ?\n(ii) Derive the expression for the average velocity v\nz av\n and also\nrelate it to v\nz,max\n.\n[5] CO3 BL2\n\n\nQ4 A fluid of constant density is flowing in laminar flow at steady state in the horizontal x\ndirection between two flat and parallel plates. The distance between the two plates in\nthe vertical y direction is 2y\n0\n . Derive the equation for the velocity profile within this\nfluid and the maximum velocity for a distance L m in the x direction.\n[5] CO-3 BL2\n\n\nQ5 Using Navier –Stoke’s equation, determine the velocity distribution in\nsteady, laminar flow of an incompressible and viscosity fluid between two parallel\nplates placed horizontally while the upper plate moves steadily in a direction parallel\nwith the other plate kept fixed.\n[5]\n\n\n\nCO-3\n\n\n\nBL2\n\n\n\n\n\n::::::22/02/2023::::::M"
+    }
+  ]
+}

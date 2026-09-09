@@ -1,0 +1,20 @@
+{
+  "courseCode": "PH113",
+  "courseName": "PHYSICS",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS: BTECH   SEMESTER : II\nBRANCH: CSE/AI&ML/ECE/EEE  SESSION : SP/2023\n\nSUBJECT: PH113 PHYSICS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Distinguish between interference and diffraction. [2] 1 IV\nQ.1(b) Show that the diameters of Newton’s dark rings are proportional to the square roots\nof natural numbers (BTII)(CO1)\n[3] 1 II\n\n\nQ.2(a) Show that the separation between two consecutive dark fringes in wedge shaped film\nis independent of thickness t\n[2] 1 II\nQ.2(b) Explain  the  phenomenon  of  Fraunhofer  diffraction  due  to  double  slit.  Obtain  the\ncondition for maxima and minima.\n[3] 1 V\n\n\nQ.3(a) Show that electrostatic field is conservative in nature. [2] 2 II\nQ.3(b) State and define Gauss law in integral and differential form. [3] 2 I\n\n\nQ.4(a) Find the electric field at a point P outside a uniformly charged sphere. [2] 2 I\nQ.4(b) Show how polarization relates the electric field E and electric displacement D.  [3] 2 II\n\n\nQ.5(a) Distinguish  between  inertial  and  non-inertial  frame  of  reference  with  suitable\nexample.\n[2] 3 IV\nQ.5(b) Develop Lorentz transformation equations of space and time. [3] 3 VI\n\n\n\n::::::25/05/2023::::::M"
+    },
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH/IMSC.   SEMESTER: I\nBRANCH: BT/CHEMICAL/CIVIL/MECH/PROD/FT  SESSION: MO/2022\n\nSUBJECT: PH113 PHYSICS\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n   CO BL\nQ.1(a) Explain polarization of light.  [2] 1 II\nQ.1(b) Develop the condition for maxima and minima due to interference in thin parallel film.\n(Oblique incidence)\n[3] 1 III\n\n\nQ.2(a) Explain why Newton’s rings are circular in nature. [2] 1 II\nQ.2(b) Formulate  the  expression  for  intensity  distribution  due  to  double  slit  Fraunhofer\ndiffraction pattern.\n[3] 1 VI\n\n\nQ.3(a) Define Gauss’s law. Develop the differential form of Gauss’s law from its integral form.  [2] 2 I\nQ.3(b) Formulate the relation between E and V in differential form. Show that electrostatic\nfield is conservative in nature.\n[3] 2 VI\n\n\nQ.4(a) Explain equation of continuity. Define displacement current. [2] 2 V\nQ.4(b) Develop the boundary condition between B & H in magnetostatics across an interface\nseparating two media having different permeabilities.\n[3] 2 III\n\n\nQ.5(a) Define postulates of special theory of relativity. [2] 3 I\nQ.5(b) Construct Lorentz transformation equations of space and time coordinates. [3] 3 VI\n\n\n\n\n :::::: 17/01/2023 ::::::M"
+    }
+  ]
+}

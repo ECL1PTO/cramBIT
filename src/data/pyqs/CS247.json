@@ -3,114 +3,11 @@
   "courseName": "DATABASE MANAGEMENT SYSTEM",
   "historical_papers": [
     {
-      "session": "SP2023",
+      "session": "SP23",
       "examType": "MID",
-      "maxMarks": 25,
-      "durationHrs": 2,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Give two functions of a DBA.",
-              "marks": 2,
-              "topic": "DBA functions"
-            },
-            {
-              "label": "b",
-              "text": "Give 1 example each where a DBMS is better and where a traditional file system is better. Justify your answer.",
-              "marks": 3,
-              "topic": "DBMS vs file system"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Define super keys, candidate keys, primary keys and a discriminator.",
-              "marks": 2,
-              "topic": "keys definition"
-            },
-            {
-              "label": "b",
-              "text": "Illustrate the roles of a buffer manager and a transaction control manager.",
-              "marks": 3,
-              "topic": "buffer manager"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Construct an ER diagram (including important attributes) for a car insurance database that includes data about customers (car owners), cars, accidents, and injured drivers. Show at least one generalization and at least one use of ternary or n-ary relationship.",
-              "marks": 3,
-              "topic": "ER diagram car insurance"
-            },
-            {
-              "label": "b",
-              "text": "Draw two separate ER diagrams where the concept “accident” is an entity and a relationship respectively. One of the two ER diagrams may be satisfied with the first diagram with attributes.",
-              "marks": 2,
-              "topic": "ER diagram accident"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Find employee names and their departments whose age is better than some employee named ‘X’.",
-              "marks": 2,
-              "topic": "relational algebra"
-            },
-            {
-              "label": "b",
-              "text": "Find the employee id’s of employees certified for supervisor job in some project.",
-              "marks": 1,
-              "topic": "relational algebra"
-            },
-            {
-              "label": "c",
-              "text": "Find the names of employees who can work in projects with a budget greater than 3,000 but do not belong to grade 'X'.",
-              "marks": 2,
-              "topic": "relational algebra"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Find the age of the oldest student who is either a History major or enrolled in a course taught by I. Teach.",
-              "marks": 1,
-              "topic": "SQL queries"
-            },
-            {
-              "label": "b",
-              "text": "Find the names of all students who are enrolled in two classes that meet at the same time.",
-              "marks": 2,
-              "topic": "SQL queries"
-            },
-            {
-              "label": "c",
-              "text": "Find the names of faculty members for whom the combined enrollment of the courses that they teach is less than five.",
-              "marks": 2,
-              "topic": "SQL queries"
-            }
-          ]
-        }
-      ]
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS:  BTECH    SEMESTER : IV\nBRANCH: IT   SESSION : SP2023\n\nSUBJECT: CS247 DATABASE MANAGEMENT SYSTEM\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) Give two functions of a DBA. [2] 1 1,2\nQ.1(b) Give 1 example each where a DBMS is better and where a traditional file system is\nbetter. Justify your answer.\n[3] 1 2,3\n\nQ.2(a) Define super keys, candidate keys, primary keys and a discriminator. [2] 1 1\nQ.2(b) Illustrate the roles of a buffer manager and a transaction control manager. [3] 1 1,2\n\nQ.3(a) Construct  an  ER  diagram  (including  important  attributes)  for  a  car  insurance\ndatabase that includes data about customers (car owners), cars, accidents, and\ninjured drivers. Note that any customer can insure many cars, each car may have\ndifferent drivers at different times and accidents typically involve one or more\ncars. For this problem, show at least one generalization and at least one use of\nternary or n-ary relationship.\n[3] 2 3,5,6\nQ.3(b) Draw two separate ER diagrams where the concept “accident” is an entity and a\nrelationship respectively. One of the two ER diagrams may be satisfied with the\nfirst diagram with attributes.\n[2] 2 3,5,6\n\nQ.4 Consider the following schema:\nEmp(eid, ename, age, salary)\nWorks(eid, did, in_time, job)\nDept(did, dname, budget, managerid)\nWrite Queries in Relational Algebra:\n1. Find employee names and their departments whose age is better than\nsome employee named ‘X”\n2. Find the employee id’s of employees certified for supervisor job in some\nproject.\n3. Find the names of employees who can work in projects with a budget\ngreater than 3,000 but do not belong to grade 'X'.\n[2+1+2] 3 3,4,6\n\nQ.5(a) Student(snum: integer, sname: string, major: string, level: string, age: integer)\nClass(name: string, meets at: string, room: string, fid: integer) Enrolled(snum:\ninteger, cname: string) Faculty(fid: integer, fname: string, deptid: integer)\nWrite queries in SQL for the following:\n1. Find the age of the oldest student who is either a History major or enrolled\nin a course taught by I. Teach.\n2. Find the names of all students who are enrolled in two classes that meet\nat the same time.\n3. Find the names of faculty members for whom the combined enrollment of\nthe courses that they teach is less than five.\n[1+2+2] 3 3,4,6\n\n\n::::::23/02/2023::::::M"
     }
   ]
 }

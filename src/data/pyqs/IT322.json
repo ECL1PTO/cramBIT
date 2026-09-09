@@ -3,102 +3,11 @@
   "courseName": "CLOUD COMPUTING",
   "historical_papers": [
     {
-      "session": "MO/2022",
+      "session": "MO22",
       "examType": "MID",
-      "maxMarks": 25,
-      "durationHrs": 2,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Define Cloud Computing and summarize the core features of cloud computing.",
-              "marks": 2,
-              "topic": "definition"
-            },
-            {
-              "label": "b",
-              "text": "Give a brief discussion on the evolution of cloud computing and also enlist the advantages of cloud computing.",
-              "marks": 3,
-              "topic": "evolution"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "With the use of an appropriate illustration, briefly describe the cloud computing reference model.",
-              "marks": 2,
-              "topic": "reference model"
-            },
-            {
-              "label": "b",
-              "text": "Demonstrate what do you understand by service-oriented computing framework? How does it support cloud computing?",
-              "marks": 3,
-              "topic": "service-oriented framework"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Discuss the benefits of parallel processing that make it a relevant computing solution.",
-              "marks": 2,
-              "topic": "parallel processing benefits"
-            },
-            {
-              "label": "b",
-              "text": "Identify the key differences between distributed and parallel computing. Enumerate the different programming approaches to achieve parallelism.",
-              "marks": 3,
-              "topic": "distributed vs parallel"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Enlist the most important software architectural styles for distributed computing.",
-              "marks": 2,
-              "topic": "architectural styles"
-            },
-            {
-              "label": "b",
-              "text": "Demonstrate the different inter process communication models used for distributed systems?",
-              "marks": 3,
-              "topic": "inter process communication"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Enlist the different models for message-based communication.",
-              "marks": 2,
-              "topic": "message-based communication"
-            },
-            {
-              "label": "b",
-              "text": "Explain virtualization in terms of cloud computing. Discuss briefly how virtual machine instances are different from container instances.",
-              "marks": 3,
-              "topic": "virtualization"
-            }
-          ]
-        }
-      ]
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B. TECH   SEMESTER: V\nBRANCH: CSE & IT   SESSION: MO/2022\n\nSUBJECT: IT322 CLOUD COMPUTING\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a) Define  Cloud  Computing  and  summarize  the  core  features  of  cloud\ncomputing.\n[2] CO1 BL1,\nBL2\nQ1 (b)\nGive a brief discussion on the evolution of cloud computing and also enlist\nthe advantages of cloud computing.\n[3] CO1 BL1,\nBL2\n\n\nQ2 (a) With  the  use  of  an  appropriate  illustration,  briefly  describe  the  cloud\ncomputing reference model.\n[2] CO1 BL1,\nBL3\nQ2 (b) Demonstrate  what  do  you  understand  by  service-oriented  computing\nframework? How does it support cloud computing?\n[3] CO1,\nCO2\nBL2\n\n\nQ3 (a) Discuss  the  benefits  of  parallel  processing  that  make  it  a  relevant\ncomputing solution.\n[2] CO1 BL2\nQ3 (b) Identify the key differences between distributed and parallel computing.\nEnumerate the different programming approaches to achieve parallelism.\n[3] CO1 BL2\n\n\nQ4 (a) Enlist  the  most  important software  architectural  styles  for  distributed\ncomputing.\n[2] CO1,\nCO2\nBL1\nQ4 (b) Demonstrate  the  different  inter  process  communication  models  used  for\ndistributed systems?\n[3] CO1,\nCO2\nBL3\n\n\nQ5 (a) Enlist the different models for message-based communication. [2] CO1 BL1\nQ5 (b) Explain  virtualization  in  terms  of  cloud  computing.  Discuss  briefly  how\nvirtual machine instances are different from container instances.\n[3] CO1,\nCO2\nBL4,\nBL2\n\n\n\n\n :::::: 01/10/2022 ::::::M"
     }
   ]
 }

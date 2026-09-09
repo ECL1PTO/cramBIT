@@ -1,0 +1,20 @@
+{
+  "courseCode": "PH320",
+  "courseName": "ATMOSPHERIC PHYSICS",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS:  IMSc   SEMESTER : VI\nBRANCH: PHYSICS   SESSION : SP2023\n\nSUBJECT: PH320 ATMOSPHERIC PHYSICS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) What is lapse rate? Is it positive or negative in the troposphere? [2] 1 1\nQ.1(b) What do you understand by Elnino, Lanina and southern oscillation [3] 1 1\n\n\nQ.2(a) What is greenhouse effect? Name the main greenhouse gases. [2] 1 1\nQ.2(b) What do you understand by the virtual temperature? If the ambient temperature is 303K\nand mixing ratio is 20 g/Kg, then what will be the value of virtual temperature\n[3] 1 1\n\n\nQ.3(a) What is the significance of scale analysis? [2] 2 1\nQ.3(b) What is the pressure gradient force? If pressure between Kanpur to Delhi falls from 998hPa\nto 960hPa, what will be the pressure gradient force, assuming the distance between these\nsites is approximately 400 Km.\n[3] 2 1\n\n\nQ.4(a) What are the fundamental forces? [2] 2 1\nQ.4(b) What is conservation of mass? Develop the expression. [3] 2 1,3\n\n\nQ.5(a) If between wavelength λ and λ+dλ, e\nλ\n and a\nλ\n be emissive and absorptive powers of a body\nand E\nλ\n be the emissive power of the perfect blackbody, then what is the relationship\nbetween e\nλ\n, a\nλ\n and E\nλ\n.\n[2] 3 1\nQ.5(b) Write the definition and value of the solar constant. How its value change from top of\natmosphere to the earth surface.\n[3] 3 1\n\n\n\n::::::22/02/2023::::::M"
+    },
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2023)\nCLASS:  BTECH   SEMESTER : VI\nBRANCH:  BT/CHEMICAL/MECH/EEE/ECE SESSION : SP/2023\n\nSUBJECT: PH320 ATMOSPHERIC PHYSICS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) In dry and moist adiabatic lapse rate which one have lower value and why? [2] 1 1\nQ.1(b) What are the different components of planetary boundary layer, explain each component\nbriefly.\n[3] 1 1\n\n\nQ.2(a) Why sea breeze flow from ocean to land, explain with proper diagram. [2] 1 1\nQ.2(b) What do you understand by the potential temperature? If an air parcel is at a pressure\nlevel  of  900hPa  where  the  air  temperature  is  300K,  then  what  will  be  the  value  of\npotential temperature?\n[3] 1 1\n\n\nQ.3(a) What is the scale analysis? [2] 2 1\nQ.3(b) What centrifugal and Coriolis forces are called apparent forces? If the air parcel moves\nfrom  east  to  west,  in  what  direction  Coriolis  force  will  be  acting,  explain  in  both\nhemispheres.\n[3] 2 1\n\n\nQ.4(a) What do you understand by surface and body forces? [2] 2 1\nQ.4(b) Develop the expression for continuity equation. [3] 2 3\n\n\nQ.5(a) What is a blackbody and in what manner wavelength of emitted radiation shifts with the\ntemperature change?\n[2] 3 1\nQ.5(b) State and prove the Kirchhoff’s law of radiation. [3] 3 5\n\n\n\n::::::27/02/2023::::::M"
+    }
+  ]
+}

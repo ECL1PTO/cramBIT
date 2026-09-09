@@ -12,16 +12,18 @@ BIT Mesra (Noida campus) MID-SEMESTER format — non-negotiable:
 
 const clip = (s: string, n: number) => (s.length > n ? s.slice(0, n) + "…" : s);
 
-function renderPapers(papers: PastPaper[], budgetChars = 5200): string {
-  const rendered = papers.slice(0, 6).map((p) => {
-    const body =
-      p.questions
-        .map(
-          (q) =>
-            `${q.number}. ` +
-            q.parts.map((x) => `(${x.label}) [${x.marks ?? "?"}m] ${x.text}`).join("  "),
-        )
-        .join("\n") || clip(p.rawText?.trim() ?? "", 1500);
+function renderPapers(papers: PastPaper[], budgetChars = 6000): string {
+  const list = papers.slice(0, 5);
+  const per = Math.floor(budgetChars / Math.max(1, list.length));
+  const rendered = list.map((p) => {
+    const structured = p.questions
+      .map(
+        (q) =>
+          `${q.number}. ` +
+          q.parts.map((x) => `(${x.label}) [${x.marks ?? "?"}m] ${x.text}`).join("  "),
+      )
+      .join("\n");
+    const body = structured || clip(p.rawText?.trim() ?? "", per);
     return `### ${p.session} — ${p.examType} (max ${p.maxMarks ?? "?"})\n${body}`;
   });
   return clip(rendered.join("\n\n"), budgetChars);

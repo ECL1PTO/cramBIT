@@ -1,86 +1,20 @@
 {
   "courseCode": "CS211",
-  "courseName": "OPERATING SYSTEM",
+  "courseName": "OPERATING SYSTEM_M",
   "historical_papers": [
     {
-      "session": "MO/2022",
+      "session": "MO22",
       "examType": "MID",
-      "maxMarks": 25,
-      "durationHrs": 2,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Explain the major functionalities of operating system.",
-              "marks": 2,
-              "topic": "Operating System"
-            },
-            {
-              "label": "b",
-              "text": "Describe Spooling with proper figure.",
-              "marks": 3,
-              "topic": "Spooling"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "State the differences between user level thread and kernel level thread.",
-              "marks": 2,
-              "topic": "Threads"
-            },
-            {
-              "label": "b",
-              "text": "Calculate the number of times hello is printed and the number of child processes created in the given code.",
-              "marks": 3,
-              "topic": "Process creation"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Explain process life cycle in operating system with proper figure where processes may pre‑empt depending on timer or priority.",
-              "marks": 5,
-              "topic": "Process lifecycle"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Calculate the turn‑around time of each job and the average waiting time for Shortest Remaining Time First CPU scheduling algorithm given the arrival and burst times.",
-              "marks": 5,
-              "topic": "Shortest Remaining Time First"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "For the given set of processes, calculate the average waiting time and average turn‑around time using Round Robin with time quantum = 3.",
-              "marks": 5,
-              "topic": "Round Robin"
-            }
-          ]
-        }
-      ]
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH (MINOR)   SEMESTER: VII\nBRANCH: CSE   SESSION: MO/2022\n\nSUBJECT: CS211 OPERATING SYSTEM\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n    CO BL\nQ1 (a) Explain the major functionalities of operating system. [2] 1 1\nQ1 (b) Describe Spooling with proper figure. [3] 1 2\n\nQ2 (a) State the differences between user level thread and kernel level thread. [2] 2 2\nQ2 (b) Calculate the number of times “hello” is printed and the number of child\nprocesses created in the following code.\n            #include <stdio.h>\n           #include <sys/types.h>\n           int main()\n         {\n             fork();\n             fork();\n             fork();\n             printf(\"hello\\n\");\n             return 0;\n        }\n[3] 2 3\n\nQ3  Explain process life cycle in operating system with proper figure where processes\nmay pre-empt depending on timer or priority.\n[5] 2 2\n\nQ4  Assume that, there are six jobs, P1, P2, P3, P4, P5 and P6. The arrival time and\nburst  time  are  given  in the  following  table.  Calculate  the  turn  around  time  of\neach  job and the  average waiting time  for Shortest Remaining Time First CPU\nscheduling algorithm.\nProcesses Arrival Time Burst Time\nP1 0 8\nP2 1 4\nP3 2 2\nP4 3 1\nP5 4 3\nP6 5 2\n\n[5] 2 6\n\nQ5  Consider the set of 6 processes whose arrival time and burst time are given below-\nProcesses Arrival Time Burst Time\nP1 5 5\nP2 4 6\nP3 3 7\nP4 1 9\nP5 2 2\nP6 6 3\nIf the CPU scheduling policy is Round Robin with time quantum = 3, calculate the\naverage waiting time and average turn around time.\n[5] 2 6\n\n:::::: 15/10/2022 ::::::M"
+    },
+    {
+      "session": "SP20",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH   SEMESTER: IV\nBRANCH: CSE / IT   SESSION : SP/2020\n\nSUBJECT: CS211 OPERATING SYSTEM\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates may attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a) How to define Operating System and what is the objectives and function of\nan Operating System?\n[2] 1 2\nQ1 (b) Describe  the  difference  between  simple  batched, Multiprogramming  and\nTime-sharing operating system.\n[3] 1, 4 2,3\n\n\nQ2 (a) What is the difference between process, program and thread? [2] 1,2 3\nQ2 (b) What are the components of the process environment? Briefly discuss the\nfundamental state transitions for a process.\n[3] 1,2,5 3,4\n\n\nQ3 (a) What is the difference between multithreading and multitasking? [2] 2,3 3\nQ3 (b) Describe the difference between kernel level threads and user level threads. [3] 2,3,5 4,5\n\n\nQ4 (a) What  do  you  mean  by  scheduler?  What  is  the  basic  difference  between\npreemptive and non-preemptive?\n[2] 2,3 3\nQ4 (b) Consider the following set of processes\nProcesses Priority Arrival Time Burst Time\n(processing\nTime)\nP1 3 0 8\nP2 4 1 2\nP3 4 3 4\nP4 5 4 1\nP5 2 5 6\nP6 6 6 5\nP7 1 10 1\nUse  Non-preemptive  and  Preemptive  priority  scheduling  algorithm,  find\nCompletion Time, Response Time, Waiting Time and Average turnaround time\nfor a given set of processes.\n[3] 2,3,4 4,5\n\n\nQ5 (a) What are the requirements for mutual exclusion? [2] 3,5 3\nQ5 (b) What operations can be performed on a semaphore? What is the difference\nbetween binary and general semaphores?\n[3] 2,3,5 3,4\n\n\n\n :::::: 04/03/2020 ::::::E"
     }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "courseCode": "CH215",
+  "courseName": "PHYSICAL CHEMISTRY-III",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: IMSC   SEMESTER: III\nBRANCH: CHEMISTRY   SESSION: MO/2022\n\nSUBJECT: CH215 PHYSICAL CHEMISTRY-III\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n    CO BL\nQ1 (a) What  is  the  significance  of  Heisenberg  uncertainty  principle  in  quantum\nmechanics?\n[2] CO1 1\nQ1 (b) What is the de Broglie wavelength associated with (a) an electron moving with\nspeed of 5.4 x 10\n6\n m/s, and (b) a ball of mass 150 g travelling at 30.0 m/s?\n[Given: mass of an electron= 9.1 x 10\n-31\n kg]\n[3] CO1 2\n\n\nQ2 (a) Verify that the wave function Ψ(x) = x e\n-ax2\n is an eigenfunction of the operator\nd\n2\n/dx\n2\n – 4a\n2\nx\n2\n. What is the corresponding eigenvalue?\n[2] CO1 2\nQ2 (b) Write down the time-independent Schrodinger equation for three dimensions.\nWhat is Hamiltonian operator?\n[3] CO1 3\n\n\nQ3 (a) Indicate which of the following functions are acceptable as wave functions:\nΨ=sinx and Ψ=e\n-x\n\n[2] CO1 2\nQ3 (b) Show that spacing between two lines in rotational spectrum is 2B. [3] CO4 1\n\n\nQ4 (a) Why  does  microwave spectrum  appear  as  line  whereas  infra-red  spectrum\nappears as band?\n[2] CO4 2\nQ4 (b) The lowest energy transitions in the rotational spectrum of HF are 41.105 and\n82.211 cm\n-1\n. Calculate the equilibrium bond length of HF.\n[3] CO4 2\n\n\nQ5 (a) Which of the following molecules give pure-rotational absorption spectra? N\n2\n,\nO\n2\n, NO, CO, CO\n2\n, N\n2\nO, SO\n2\n, C\n2\nH\n4\n, CH\n4\n, and H\n2\nC=O\n[2] CO4 2\nQ5 (b) Explain  the  origin  of  P,  Q  and  R  branch  in  vibration-rotational  spectrum  of\ndiatomic molecules.\n[3] CO4 1\n\n\n\n\n :::::: 28/09/2022 ::::::M"
+    }
+  ]
+}

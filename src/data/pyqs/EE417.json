@@ -1,0 +1,13 @@
+{
+  "courseCode": "EE417",
+  "courseName": "FUNDAMENTAL OF COMMUNICATION SYSTEM",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH   SEMESTER: V\nBRANCH: EEE   SESSION: MO/2022\n\nSUBJECT: EE417 FUNDAMENTAL OF COMMUNICATION SYSTEM\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a) State that Fourier Transform?  [2] CO 1 BL-1\nQ1 (b) How many types of basic property of the Fourier transform?  [3] CO-1 BL-1\n\n\nQ2 (a) Prove the parseval’s theorem of the Fourier Transform. [2] CO 1 BL-2\nQ2 (b) State & Explain single energy of spectral density.  [3] CO-1 BL-2\n\n\nQ3 (a) Why need of modulation? [2] CO-2 BL-2\nQ3 (b) The total power content of an AM signal is 1000 W. Determine the power being\ntransmitted at the carrier frequency and at each of the side bands when the %\nmodulation is 100%.\n[3] CO-2 BL-3\n\n\nQ4 (a) Explain the Amplitude Modulation and its types? [2] CO-2 BL-2\nQ4 (b)\nSuppose that the modulating signal\ntfatm\nm\n2cos)(\nwhere,\ncm\nff\n\nDetermine the DSB-SC Amplitude Modulation signal and its upper & Lower side\nbands?\n[3] CO-2 BL-4\n\n\nQ5 (a) What are the Envelope Detector & coherent modulator?  [2] CO-2 BL-1\nQ5 (b) State and explain Square-Law Modulator of AM? [3] CO-2 BL-2\n\n\n\n\n :::::: 01/10/2022 ::::::M"
+    }
+  ]
+}

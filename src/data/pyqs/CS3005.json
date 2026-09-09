@@ -1,0 +1,13 @@
+{
+  "courseCode": "CS3005",
+  "courseName": "OBJECT ORIENTED PROG_ USING JAVA",
+  "historical_papers": [
+    {
+      "session": "MO18",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: III\nBRANCH: CSE   SESSION : MO/2018\n\nSUBJECT : CS3005 OBJECT ORIENTED PROG. USING JAVA\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) What is polymorphism? [2]\n (b) Differentiate  between  compile  time  polymorphism  and  runtime  polymorphism  with\nexample.\n[3]\n\nQ2 (a) What the keyword ‘super’ refers to? [2]\n (b) How is ‘super’ used with constructors? Give any one example. [3]\n\nQ3 (a) What is a java package? How it's used? [2]\n (b) Differentiate between equals() and == using examples. [3]\n\nQ4 (a) Can a method inside an interface be declared as final? Why? [2]\n (b) How java achieves multiple inheritance? Give example. [3]\n\nQ5 (a) What does it mean that a method or class is abstract? [2]\n (b) State the significance of public, private, protected and default modifiers. [3]\n\nQ6 (a) Differentiate between checked and unchecked exceptions. Give examples [2]\n (b) Define  a  class  Bank  with  methods  create_account(),  deposit()  and  withdraw()  for\nimplementing the basic transactions. If the customer tries to withdraw some amount\ngreater than the available balance then your program should generate one exception\nnamed Insufficient Fund Exception. Give sample outputs to your program.\n[3]\n\n\n\n :::::: 13/09/2018 ::::::E"
+    }
+  ]
+}

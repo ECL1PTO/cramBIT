@@ -1,0 +1,13 @@
+{
+  "courseCode": "PE216",
+  "courseName": "FOUNDRY, FORMING & WELDING TECHNOLOGIES",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS:  BTECH   SEMESTER : IV\nBRANCH: PIE   SESSION : SP2023\n\nSUBJECT: PE216 FOUNDRY, FORMING & WELDING TECHNOLOGIES\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) Enumerates  the merits and demerits of the casting processes over other methods  of\nmanufacturing.\n[3] CO1 BL2\nQ.1(b) For the product shown in Fig 1, what type of pattern will you select for sand casting?\nJustify\n\nFig 1: A large cast wheel.\n[2] CO1 BL5\n\nQ.2(a) Design a pattern for the part shown in Fig 2 using the following allowances: Machining\nallowance: 2 mm for the circular hole and 3 mm for all other dimensions, Shrinkage\nallowance: 4% for the circular hole, and 3% for all other dimensions.\n\nFig 2: Cast component\n[3] CO1 BL6\nQ.2(b) ‘Metal in the riser should remain the molten condition for a longer time than in the\nmould cavity’. Analyze & explain why and how this is achieved.\n[2] CO1 BL4\n\nQ.3(a) How can you tell whether cavities in a casting are due to porosity or to shrinkage? [2] CO1 BL5\nQ.3(b) A riser in the shape of a sphere is to be designed for a sand-casting mould. The casting\nis a rectangular plate, with length = 200 mm, width = 100 mm, and thickness = 18 mm.\nIf the total solidification time of the casting itself is known to be 3.5 min, design the\nriser so that it will take 25% longer for the riser to solidify.\n[3] CO1 BL6\n\nQ.4(a) Compare and contrast investment casting and lost foam casting.  [3] CO2 BL4\nQ.4(b) Differentiate between hot chamber die casting and cold chamber die casting. [2] CO2 BL4\n\nQ.5(a) What  are  the  different  types  of  electrodes  used  in  arc  welding?  Cite  examples  of\nprocesses in which they are used.\n[3] CO3 BL2\nQ.5(b) When will you use direct current reverse polarity (DCRP)? [2] CO3 BL4\n\n\n::::::21/02/2023::::::M"
+    }
+  ]
+}

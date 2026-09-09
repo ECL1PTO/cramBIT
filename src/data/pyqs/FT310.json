@@ -1,0 +1,13 @@
+{
+  "courseCode": "FT310",
+  "courseName": "THERMODYNAMICS & REFRIGERATION",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS: IM.Sc.   SEMESTER : VI\nBRANCH: FOOD TECH   SESSION : SP2023\n\nSUBJECT: FT310 THERMODYNAMICS & REFRIGERATION\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) State the first law for a closed system undergoing a cycle. [2] CO1 1\nQ.1(b) If  a  gas  of  volume  6000  cm\n3\nand  at  pressure  of  100kPa  is  compressed  quasistatically\naccording  to  pV\n2\n=  constant  until  the  volume  becomes  2000  cm\n3\n,  determine  the  final\npressure and the work transfer.\n[3] CO3 4\n\n\nQ.2(a) Define the specific heats at constant volume and constant pressure. [2] CO1 1\nQ.2(b) What is a steady flow process? Derive the differential form of the steady flow energy\nequation.\n[3] CO2 2\n\n\nQ.3 State and proof Carnot’s Theorem [5] CO2 2\n\n\nQ.4(a) Define COP of a refrigerator. [2] CO1 1\nQ.4(b) Draw and explain P-h and T-s diagram of ideal vapor compression cycle. [3] CO2 2\n\n\nQ.5 Explain the working of reciprocating compressor used in refrigeration system [5] CO2 2\n\n\n\n::::::22/02/2023::::::M"
+    }
+  ]
+}

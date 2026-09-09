@@ -1,62 +1,70 @@
-// Build src/data/index.json (per-course pattern stats + global similarity corpus)
-// and refresh grounding / pyqCount on src/data/courses.json.
+// Build src/data/index.json — per-course keyword frequency + a global
+// similarity corpus, straight from the raw PYQ text. No LLM.
 //
 //   node scripts/build-index.mjs
 import fs from "node:fs";
 import path from "node:path";
 import { ROOT, writeJson, readJson } from "./lib.mjs";
 
+const STOP = new Set(
+  ("the a an and or of to in for on with as by is are be at from that this it which "
+    + "marks question questions answer all attempt each following give explain define write "
+    + "state discuss describe what how why hours max semester examination mid birla institute "
+    + "technology mesra noida time paper course code section part any two three four five").split(
+    /\s+/,
+  ),
+);
+
+function keywords(text, n = 40) {
+  const freq = {};
+  for (const w of text.toLowerCase().replace(/[^a-z\s-]/g, " ").split(/\s+/)) {
+    if (w.length < 4 || STOP.has(w)) continue;
+    freq[w] = (freq[w] || 0) + 1;
+  }
+  return Object.entries(freq)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, n);
+}
+
 const courses = readJson("src/data/courses.json", {}) ?? {};
 const rawCorpus = readJson("src/data/pyq_corpus.json", []) ?? [];
 
-// Collapse corpus entries to one row per course.
-const corpusByCode = {};
+// similarity corpus: one row per course
+const byCode = {};
 for (const c of rawCorpus) {
-  if (!c.code || c.empty || c.error) continue;
-  const row = (corpusByCode[c.code] ??= {
-    code: c.code,
-    name: c.name || "",
-    dept: c.dept,
-    topics: new Set(),
-    sessions: 0,
-  });
-  (c.topics || []).forEach((t) => row.topics.add(String(t).toLowerCase()));
-  row.sessions += c.sessions || 0;
+  const row = (byCode[c.code] ??= { code: c.code, dept: c.dept, sessions: 0, text: "" });
+  row.sessions++;
+  row.text += " " + c.text;
 }
-const corpus = Object.values(corpusByCode).map((r) => ({
-  ...r,
-  topics: [...r.topics],
+const corpus = Object.values(byCode).map((r) => ({
+  code: r.code,
+  dept: r.dept,
+  sessions: r.sessions,
+  topics: keywords(r.text, 30).map(([w]) => w),
 }));
 
-// Per-course topic frequency from the actual pyqs/<CODE>.json files.
+// per-course stats + refresh grounding on courses.json
 const perCourse = {};
 const pyqDir = path.join(ROOT, "src", "data", "pyqs");
 for (const file of fs.existsSync(pyqDir) ? fs.readdirSync(pyqDir) : []) {
   if (!file.endsWith(".json")) continue;
   const data = readJson(`src/data/pyqs/${file}`, null);
-  if (!data?.historical_papers?.length) continue;
+  const papers = data?.historical_papers ?? [];
+  if (!papers.length) continue;
   const code = data.courseCode;
-  const freq = {};
-  const stems = new Set();
-  let sessions = 0;
-  for (const paper of data.historical_papers) {
-    sessions++;
-    for (const q of paper.questions || []) {
-      for (const p of q.parts || []) {
-        if (p.topic) freq[p.topic.toLowerCase()] = (freq[p.topic.toLowerCase()] || 0) + 1;
-        const stem = (p.text || "").split(/[.?]/)[0]?.trim().slice(0, 80);
-        if (stem) stems.add(stem);
-      }
-    }
-  }
-  perCourse[code] = { topicFreq: freq, stems: [...stems].slice(0, 40) };
-
+  const all = papers.map((p) => p.rawText || "").join(" ");
+  perCourse[code] = {
+    topicFreq: Object.fromEntries(keywords(all, 30)),
+    sessions: papers.length,
+  };
   if (courses[code]) {
-    courses[code].pyqCount = sessions;
-    courses[code].grounding = sessions >= 2 ? "full" : sessions === 1 ? "partial" : "none";
+    courses[code].pyqCount = papers.length;
+    courses[code].grounding = papers.length >= 2 ? "full" : "partial";
   }
 }
 
 writeJson("src/data/index.json", { courses: perCourse, corpus });
 writeJson("src/data/courses.json", courses);
-console.log(`index: ${Object.keys(perCourse).length} grounded courses, ${corpus.length} corpus rows`);
+console.log(
+  `index: ${Object.keys(perCourse).length} grounded courses, ${corpus.length} corpus rows`,
+);

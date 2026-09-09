@@ -1,0 +1,13 @@
+{
+  "courseCode": "PH321",
+  "courseName": "ADVANCED EXPERIMENTAL TECHNIQUES",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS:  IMSc   SEMESTER : VI\nBRANCH: PHYSICS   SESSION : SP2023\n\nSUBJECT: PH321 ADVANCED EXPERIMENTAL TECHNIQUES (AET)\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) How are X-rays produced? Briefly explain with a suitable diagram. [2] 1 2\nQ.1(b)\nDetermine the lattice parameter of Al from the following Cu K x-ray diffraction data\n2theta (degree)- 38.43, 44.67, 65.02, 78.13, 82.33\nIntensity (a.u)- 100, 46.9, 26.4, 27.9, 7.8\n[3] 1 3\n\n\nQ.2(a) Why do we observe peaks of different heights in the XRD pattern? [2] 1 2\nQ.2(b) Explain an experimental procedure for finding the XRD pattern. [3] 1 2\n\n\nQ.3(a) Discuss  major  advantages  and  drawbacks  of  optical  microscopes  compared  to  electron\nmicroscopes.\n[2] 2 2\nQ.3(b) Briefly discuss two methods to generate electrons from an electron gun used in electron\nmicroscope.\n[3] 2 2\n\n\nQ.4(a) Schematically show different processes that occur when an electron beam interacts with\nmatter.\n[3] 2 3\nQ.4(b) Briefly describe two of them. [2] 2 2\n\n\nQ.5(a) Show different components of a scanning electron microscope. [3] 2 2\nQ.5(b) Briefly describe the working mechanism of SEM. [2] 2 2\n\n\n\n::::::22/02/2023::::::M"
+    }
+  ]
+}

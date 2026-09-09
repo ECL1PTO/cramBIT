@@ -1,0 +1,13 @@
+{
+  "courseCode": "PE319",
+  "courseName": "MATERIAL DEFORMATION PROCESSES",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2023)\nCLASS:  B. TECH   SEMESTER : VI\nBRANCH: PRODUCTION ENGINEERING SESSION : SP/2023\n\nSUBJECT: PE319 MATERIAL DEFORMATION PROCESSES\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) With neat sketch draw the state of stress at deformation zone for bulk forming processes? [2] 1 2\nQ.1(b) Discuss the emerging forming process which is a combination of conventional forging and\ncasting process?\n[3] 4 2\n\n\nQ.2(a) State the dies used in hydrodynamic wire drawing along with its characteristics? [2] 2 2\nQ.2(b) What are the roles of water and advantages of hydro-forming process? Elaborate the steps\nof tube hydro-forming process.\n[3] 3 2\n\n\nQ.3(a) Derive the equations of motion for a solid body under static equilibrium. [3] 2 3\nQ.3(b) State  the  conditions  for  which  the equations  of  motion  are  reduced  to  the  equilibrium\nequations\n[2] 2 2\n\n\nQ.4(a) Define uniform strain. Prove that if a strain-hardening metal obeys Hollomon true stress–\nstrain relation, then uniform strain equals to the strain hardening exponent (n)\n[2] 2 3\nQ.4(b) The state of stress at a point given by the stress tensor is\n൥\n1065\n6128\n5  8 6\n൩\n\nCalculate  the  normal  and  shear  stress  components  on  a  plane  having  direction  cosines\n1\n√\n2\n⁄\n,1\n√\n2\n⁄\n and 0\n[3] 2 4\n\n\nQ.5(a) Derive the relationship between engineering stress and true stress. [2] 2 3\nQ.5(b)\nThe displacement 푢\nଵ\n, 푢\nଶ\n and 푢\nଷ\n are given as: 푢\nଵ\n=\n൫\n2푥\nଵ\nଶ\n+6푥\nଵ\n+9푥\nଶ\nଷ\n൯\n×10\nି଺\n m,\n푢\nଶ\n=\n൫\n9/푥\nଵ\n+5푥\nଶ\n+2푥\nଵ\nଶ\n푥\nଶ\n൯\n×10\nି଺\n m and 푢\nଷ\n=0,\nEvaluate the strains  휀\nଵଵ\n, 휀\nଶଶ\n and 훾\nଵଶ\n  at the point (5,3)?\n[3] 2 4\n\n\n::::::24/02/2023::::::M"
+    }
+  ]
+}

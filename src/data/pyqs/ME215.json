@@ -1,0 +1,13 @@
+{
+  "courseCode": "ME215",
+  "courseName": "COMPOSITE MATERIAL",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION MO/SP20**)\nCLASS: BTECH   SEMESTER: IV\nBRANCH: MECHANICAL   SESSION: SP/2023\n\nSUBJECT: ME215 COMPOSITE MATERIAL\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Explain the difference between thermosetting and thermoplastic matrix materials. [2] 1 L\nQ.1(b) Provide  the  applications  of  various  composites  in  Aviation,  Automotive  and  Telecom\nindustries.\n[3] 1 M\n\n\nQ.2(a) List the structural applications of composites and briefly explain any two of them. [2] 1 L\nQ.2(b) List the advantages and disadvantages of PMC’s. [3] 1 L\n\n\nQ.3 Derive the expression to compute the elastic constants for a unidirectional composite\nunder the following condition:\n 2 M\n (a) ISO strain [2]\n (b) ISO stress [3]\n\nQ.4 A thermoplastic matrix contains 40 wt % glass fibre. If the density of the matrix is 1.1\ng/cc while that of the glass fibre is 2.5 g/cc, what is the density of the composite?\nAssuming:\n 2 M\n (a) No voids [2]\n (b) 0.1% Void. [3]\n\nQ.5(a) Describe the experimental methods to determine any mechanical property of a composite\nmaterial according to ASTM Standard.\n[2] 5 M\nQ.5(b) What is creep and fatigue? Discuss briefly the tests for the determination of the same. [3] 5 M\n\n::::::23/02/2023::::::M"
+    }
+  ]
+}

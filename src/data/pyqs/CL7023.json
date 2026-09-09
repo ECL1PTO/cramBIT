@@ -1,0 +1,13 @@
+{
+  "courseCode": "CL7023",
+  "courseName": "INTRODUCTION TO PETROLEUM RESERVIOR ENGG_",
+  "historical_papers": [
+    {
+      "session": "MO18",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VII\nBRANCH: CHEM. ENGG / CEP&P  SESSION: MO/2018\n\nSUBJECT: CL7023 INTRODUCTION TO PETROLEUM RESERVIOR ENGG.\n\nTIME: 1.5 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1  Why effective porosity is more important than absolute porosity to a reservoir engineering?\nDefine the term “Permeability” of a reservoir rock.\n[5]\n\n\nQ2  Starting from Kozeny-Carman equation derive an expression from volumetric flowrate q,\nThrough the porous medium for the following cases (i) Linear flow (ii) Radial flow.\n[5]\n\n\nQ3\n\n[5]\n\n\nQ4  Discuss in brief the different type of forces which contribute to the expulsion of oil from\nreservoirs.\n[5]\n\n\nQ5  What is retrograde condensation? With a net Pressure- Temperature diagram show the\nregion of retrograde condensation. Define to the following terms: (i) Critical Point. (ii)\nCricondenbar. (iii) Cricondentherm.\n[5]\n\n\nQ6  Following information on a close gas reservoir is available reservoir temp 175\no\nF, original\nreservoir pressure 3000psia. Sp. Gravity of gas 0.6 after producing 4X10\n8\nscf of gas reservoir\npressure is 2000psia.\nDetermine (i) Amount of gas originally in placed(G). (ii) Amount of gas which will have\nbeen  produce  after  the  pressure  has  been  reduce  to  1000  psia.  (iii)  Cumulative  gas\nrecovery if abundant pressure 300psia. (iv) Recovery efficiency.\nGiven: Z\n3000\n=0.88, Z\n1000\n=0.92, Z\n2000\n=0.89, Z\n300\n=0.97\n[5]\n\n:::: 13/09/2018 M ::::::\n\nStarting from the equation\n푞=\n2휋퐾ℎ∆푃\n휇푙푛\n푟\n푒\n푟\n푤\n\nshow that the field relative permeability is given by\n퐾\n푔\n퐾\n표\n=(R-R\ns\n)\n휇\n푔퐵\n푔\n휇\n표\n퐵\n표\n\nWhere the term has usual significance."
+    }
+  ]
+}

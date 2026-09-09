@@ -1,0 +1,13 @@
+{
+  "courseCode": "ME337",
+  "courseName": "NON-DESTRUCTIVE TESTING",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH   SEMESTER: V\nBRANCH: MECHANICAL   SESSION: MO/2022\n\nSUBJECT: ME337 NON-DESTRUCTIVE TESTING\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n    CO BL\nQ1 (a) Explain the factors that affect reliability of a Non-Destructive testing method. [2] 1 2\nQ1 (b) Outline the stages of support provided by Non-Destructive testing in case of any\nmechanical component.\n[3] 1 4\n\n\nQ2 (a) Describe the role of a penetrant along with its desirable properties. [2] 1 2\nQ2 (b) Outline  the  steps  for evaluation of  a surface flaw  in a weld joint by liquid\npenetrant inspection method.\n[3] 1 4\n\n\nQ3 (a) Explain  the  magnetization  methodology  using  a  threading  bar  in  case  of\nmagnetic particle inspection.\n[2] 2 2\nQ3 (b) Summarize the factors that influence sensitivity of magnetic particle inspection. [3] 2 4\n\n\nQ4 (a) Explain the underlying principle of eddy current technique with a neat sketch. [2] 2 2\nQ4 (b) Demonstrate the use of a twin coil bobbin arrangement for examination of heat\nexchanger or condenser tubes.\n[3] 2 3\n\n\nQ5 (a) Discuss  the  importance  of  direction  of  magnetic  field  with  respect  to  flaw\ndetectability in magnetic particle inspection.\n[2] 2 2\nQ5 (b) Explain skin effects in eddy current testing. [3] 2 3\n\n\n\n\n :::::: 01/10/2022 ::::::M"
+    }
+  ]
+}

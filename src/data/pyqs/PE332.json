@@ -1,0 +1,13 @@
+{
+  "courseCode": "PE332",
+  "courseName": "OPERATIONS RESEARCH WITH PYTHON_OE",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID-SEMESTER EXAMINATION SP/2023)\n CLASS:      B.TECH/BARCH   SEMESTER: VI\nBRANCH:  BT/CHEMICAL/MECH/CSE/IT/BARCH SESSION: SP/23\n\nSUBJECT: PE332 OPERATIONS RESEARCH WITH PYTHON\nTIME:  02 Hours\nFULL MARKS:\n25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions, each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\n Q.1 What  are  the  advantages and  limitations  of  python  compared  to  other  programming\nlanguages?\n[5] 1 2\n\n\nQ.2(a) What is Pulp w.r.t python? Write the code to import pulp in a python program. [2] 1 3\nQ.2(b) Write a python program to check whether an input number is a prime number or not. [3] 1 3\n\n\n Q.3 Anita Electric Company produces two products, P1 and P2. Products are produced and sold\non a weekly basis. The weekly production cannot exceed 25 for product P1 and 35 for\nproduct P2 because of limited available facilities. The company employs a total of 60\nworkers. Product P1 requires 2 man-weeks of labor, while P2 requires one man-week labor.\nThe profit margin on P1 is Rs. 60, and on P2 is Rs. 40. Formulate this problem as an LP\nproblem and solve that using the graphical method.\n[5] 2 3\n\n\nQ.4 A company manufactures two products, X and Y, whose profit contributions are Rs. 10 and\nRs. 20, respectively. Product X requires 5 hours on machine I, 3 hours on machine II, and 2\nhours on machine III. The requirement for product Y is 3 hours on machine I, 6 hours on\nmachine II and 5 hours on machine III. The available capacities for the planning period for\nmachine I, II, and III are 30, 36, and 20 hours respectively. Determine the optimal product\nmix using the simplex method.\n[5] 2 3\n\n\nQ.5\nDetermine the initial basic feasible solution to the following transportation problem using:\ni) North-west corner method,\nii) Vogel’s approximation method.\n  Distribution Centers\n\n D\n1\n     D\n2\n     D\n3\n     D\n4\n\nSupply\n(Availability)\nPlants\nS\n1\n 19 30 50 10 7\nS\n2\n 70 30 40 60 9\nS\n3\n 40 8 70 20 18\n Demand\n(Requirement)\n5 8 7 14\n\n[5] 3 3\n\n::::::27/02/2023::::::M"
+    }
+  ]
+}

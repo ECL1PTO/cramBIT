@@ -3,200 +3,32 @@
   "courseName": "DESIGN AND ANALYSIS OF ALGORITHM",
   "historical_papers": [
     {
-      "session": "SP 2023",
+      "session": "SP23",
       "examType": "MID",
-      "maxMarks": 25,
-      "durationHrs": 2,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "How do you measure the efficiency of an Algorithm?",
-              "marks": 2,
-              "topic": "Efficiency of Algorithm"
-            },
-            {
-              "label": "b",
-              "text": "Determine the best and worst conditions for the insertion sort algorithm's complexity?",
-              "marks": 3,
-              "topic": "Insertion Sort Complexity"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Define recurrence relation?",
-              "marks": 2,
-              "topic": "Recurrence Relation"
-            },
-            {
-              "label": "b",
-              "text": "Solve the recurrence relation using back substitution method",
-              "marks": 3,
-              "topic": "Recurrence Relation"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Solve using master theorem: T(n) = 4T(n/2) + n^2 log_2 n",
-              "marks": 2,
-              "topic": "Master Theorem"
-            },
-            {
-              "label": "b",
-              "text": "Explain quicksort with an example?",
-              "marks": 3,
-              "topic": "Quicksort"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What do you know about the divide-and-conquer algorithm?",
-              "marks": 2,
-              "topic": "Divide-and-Conquer"
-            },
-            {
-              "label": "b",
-              "text": "Briefly describe the maximum subarray problem using the divide-and-conquer method.",
-              "marks": 3,
-              "topic": "Maximum Subarray Problem"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What is the main idea of Transform and Conquer?",
-              "marks": 2,
-              "topic": "Transform and Conquer"
-            },
-            {
-              "label": "b",
-              "text": "Construct an AVL tree having the following elements: H, I, J, B, A, E, C, F, D, G, K, L",
-              "marks": 3,
-              "topic": "AVL Tree Construction"
-            }
-          ]
-        }
-      ]
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS:  BTECH   SEMESTER: VI\nBRANCH: CP&P/MECH/PROD/ECE SESSION: SP/2023\n\nSUBJECT: CS206 DESIGN AND ANALYSIS OF ALGORITHM\nTIME:  02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) How do you measure the efficiency of an Algorithm? [2] CO-1 CO-5 BT-4\nQ.1(b) Determine  the  best  and  worst  conditions  for  the  insertion  sort  algorithm's\ncomplexity?\n[3] CO-1 CO-3 BT-3\n\n\nQ.2(a) Define recurrence relation? [2] CO-1 BT-3\nQ.2(b) Solve the recurrence relation using back substitution method\n\n[3] CO-1 CO-3 BT-4\n\n\nQ.3(a) Solve using master theorem: T(n) = 4T(n/2) + n\n2\nlog\n2\nn [2] CO-1 BT-2\nQ.3(b) Explain quicksort with an example? [3] CO-2 BT-5\n\n\nQ.4(a) What do you know about the divide-and-conquer algorithm?  [2] CO-2 BT-2\nQ.4(b) Briefly describe the maximum subarray problem using the divide-and-conquer\nmethod.\n[3] CO-2 CO-4 BT-3\n\n\nQ.5(a) What is the main idea of Transform and Conquer?  [2] CO-3 BT-3\nQ.5(b) Construct an AVL tree having the following elements:\nH, I, J, B, A, E, C, F, D, G, K, L\n[3] CO-2 CO-4 BT-5\n\n\n::::::28/02/2023::::::M"
     },
     {
-      "session": "MO/2022",
+      "session": "MO22",
       "examType": "MID",
-      "maxMarks": 25,
-      "durationHrs": 2,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Describe different asymptotic notations.",
-              "marks": 2,
-              "topic": "asymptotic notations"
-            },
-            {
-              "label": "b",
-              "text": "Find the best and worst case time complexity of Insertion Sort.",
-              "marks": 3,
-              "topic": "Insertion Sort complexity"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Discuss the ‘Divide and conquer’ paradigm of problem solving.",
-              "marks": 2,
-              "topic": "Divide and conquer"
-            },
-            {
-              "label": "b",
-              "text": "Find the Time Complexity of Binary Search and Merge Sort algorithms.",
-              "marks": 3,
-              "topic": "Binary Search and Merge Sort complexity"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Illustrate the AVL Tree.",
-              "marks": 2,
-              "topic": "AVL Tree"
-            },
-            {
-              "label": "b",
-              "text": "Explain the Recursion Tree and Master Theorem.",
-              "marks": 3,
-              "topic": "Recursion Tree and Master Theorem"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Write any algorithm to find the ‘All-pair Shortest Path’.",
-              "marks": 2,
-              "topic": "All-pair Shortest Path algorithm"
-            },
-            {
-              "label": "b",
-              "text": "How you can solve efficiently the ‘Travelling Salesperson Problem’?",
-              "marks": 3,
-              "topic": "Travelling Salesperson Problem"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What is optimal BST?",
-              "marks": 2,
-              "topic": "Optimal BST"
-            },
-            {
-              "label": "b",
-              "text": "Define ‘Transform and conquer’ paradigm with suitable example.",
-              "marks": 3,
-              "topic": "Transform and conquer"
-            }
-          ]
-        }
-      ]
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH   SEMESTER: VII\nBRANCH: MECH,EC,EEE   SESSION: MO/2022\n\nSUBJECT: CS206 DESIGN AND ANALYSIS OF ALGORITHM\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a) Describe different asymptotic notations. [2] 2 BL-1 and\nBL-2\nQ1 (b)\nFind the best and worst case time complexity of Insertion Sort.\n[3] 1 BL-2 and\nBL-3\n\n\nQ2 (a) Discuss the ‘Divide and conquer’ paradigm of problem solving. [2] 2 BL-1\nQ2 (b) Find the Time Complexity of Binary Search and Merge Sort algorithms. [3] 3 BL-4\n\n\nQ3 (a) Illustrate the AVL Tree. [2] 2 BL-1 and\nBL-2\nQ3 (b)\nExplain the Recursion Tree and Master Theorem.\n[3] 3 BL-2 and\nBL-3\n\n\nQ4 (a) Write any algorithm to find the ‘All-pair Shortest Path’. [2] 4 BL-1, BL-\n2, and BL-\n3\nQ4 (b) How you can solve efficiently the ‘Travelling Salesperson Problem’? [3] 4\n\n\nQ5 (a) What is optimal BST? [2] 3,4 BL-1 and\nBL-2\nQ5 (b)\nDefine ‘Transform and conquer’ paradigm with suitable example.\n[3] 3,4 BL-2 and\nBL-3\n\n\n:::::: 15/10/2022 E ::::::"
+    },
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: IMSC   SEMESTER: V\nBRANCH: MATHS & COMP.   SESSION: MO/2022\n\nSUBJECT: CS206 DESIGN AND ANALYSIS OF ALGORITHMS\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n    CO BL\nQ1 (a) Define time complexity and space complexity. [2] 1 1\nQ1 (b) Compare the orders of growth of n! and 2\nn\n in terms of asymptotic notations. [3] 1 2\n\n\nQ2 (a) Discuss the relevance of Average Case Complexity analysis. [2] 1 2\nQ2 (b) Solve the recurrence: T(n) = 3T(n/4) + O(n\n2\n) using recursion tree method.\nThe various terms have their usual meanings. The base condition may be\nassumed suitably.\n[3] 1 3\n\n\nQ3 (a) Derive best case time complexity of standard quick sort algorithm. Specify the\ntype of instance over which this case is applicable.\n[2] 1 2\nQ3 (b) Quicksort is a sorting algorithm whose worst-case running time is O(n\n2\n) on an\ninput  array  of n  numbers.  In  spite  of  this  slow  worst-case  running  time,\nquicksort is often the best practical choice for sorting. Justify.\n[3] 3 2\n\n\nQ4 (a) Specify recurrence relation and hence derive average case time complexity of\nstandard merge sort algorithm,\n[2] 1 2\nQ4 (b) Discuss an in-place version of merge sort algorithm. Discuss time complexity\nof your algorithm.\n[3] 4,\n5\n6\n\n\nQ5 (a) Design an algorithm to convert a binary number to a decimal integer. Mention\nthe design strategy followed.\n[2] 4 6\nQ5 (b) V Pan has discovered a divide-and-conquer matrix multiplication algorithm\nthat  is  based  on  multiplying  two  70-by-70  matrices  using  143,640\nmultiplications.  Find  the  asymptotic  efficiency  of  Pan’s  algorithm  and\ncompare it with that of Strassen’s algorithm.\n[3] 5 5\n\n\n\n\n :::::: 01/10/2022 ::::::M"
+    },
+    {
+      "session": "SP20",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH   SEMESTER: IV\nBRANCH: CSE/IT   SESSION: SP/2020\n\nSUBJECT: CS206 DESIGN AND ANALYSIS OF ALGORITHM\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates may attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n    CO BL\nQ1 (a)\nFor any two functions F(n) and g(n), show that if f(n)=Ѳ(g(n) then f(n)= O(g(n))\nand f(n)= o(g(n)) and vice versa.\n[2] 1 3\nQ1 (b) Show that the sequence {(1+(1/n))\n n\n} is increasing and bounded by 4. [3] 1 3\n\n\nQ2 (a) Solve the Recurrence T(n)= T(9n/10) + n [2] 2 6\nQ2 (b)\nShow that lg n! = Ѳ (n lgn)\n[3] 2 5\n\n\nQ3 (a) Professor BIT proposes the following version of binary search\nbsearch(L,i,j,key) {\nif(i>j)\n return -1\nk=(i+j)/2\nif( key==L[k])\n  return k\nif( key<L[k])\n   return bsearch(L,i,k,key)\nelse\n   return bsearch(L,k+1,j,key) }\nIs the Professor’s version correct? Justify your answer and find it’s time\ncomplexity accordingly?\n[2] 3 3\nQ3 (b) What is a selection problem? Design the selection problem. Hint: How machine\nwill take the input and provide output. Which conventional design strategy you\nfollow for this design.\n[3] 3 6\n\n\nQ4 (a) An n element array contains only the numbers 0,1,2. Write an O(n)\nalgorithm/procedure/program to sort the numbers.\n[2] 4 6\nQ4 (b) Write an algorithm for Quicksort and analysis it’s time complexity. Explain with\nan example.\n[3] 4 6\n\n\nQ5 (a) Show how Strassen’s’ algorithm computes\n.\n[2] 5 4\nQ5 (b) Write a non-recursive version of merge sort. Make your algorithm as efficient as\nyou can.\n[3] 5 6\n\n  :::: 02/03/2020E ::::::"
     }
   ]
 }

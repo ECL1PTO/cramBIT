@@ -12,17 +12,20 @@ const courses = coursesJson as Record<string, Course>;
 
 interface CorpusEntry {
   code: string;
-  name: string;
+  name?: string;
   dept?: string;
   program?: string;
   topics: string[];
   sessions: number;
 }
 interface IndexFile {
-  courses: Record<string, { topicFreq?: Record<string, number>; stems?: string[] }>;
+  courses: Record<
+    string,
+    { topicFreq?: Record<string, number>; stems?: string[]; sessions?: number }
+  >;
   corpus: CorpusEntry[];
 }
-const index = indexJson as IndexFile;
+const index = indexJson as unknown as IndexFile;
 
 export function normalizeCode(input: string): string {
   return input.trim().toUpperCase().replace(/\s+/g, "");

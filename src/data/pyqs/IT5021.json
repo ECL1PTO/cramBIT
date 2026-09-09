@@ -1,0 +1,20 @@
+{
+  "courseCode": "IT5021",
+  "courseName": "DATA COMMUNICATIONS",
+  "historical_papers": [
+    {
+      "session": "MO19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: V\nBRANCH: IT   SESSION : MO/2019\n\nSUBJECT : IT5021 DATA COMMUNICATION\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) Define the protocol. [2]\n (b) Write the similarities between OSI and TCP/IP models. [3]\n\n\nQ2 (a) Define the PDU. [2]\n (b) Explain the exchange of information using the OSI model through a suitable diagram. [3]\n\n\nQ3 (a) How we can reduce the thermal noise, delay distortion? [2]\n (b) The bandwidth of a channel is 2 MHz and its signal to noise ratio is 63. Calculate the\nappropriate bit rate and signal level.\n[3]\n\n\nQ4 (a) What is the difference between wired media and wireless media? [2]\n (b) Explain the different types of twisted-pair cables. [3]\n\n\nQ5 (a) What is baseline wander? [2]\n (b) Explain the NRZ, NRZI, Manchester encoding using an example for bits 0010111101000010. [3]\n\n\nQ6 (a) Define the data rate and modulation rate. [2]\n (b) What factors determine how successful the receiver will be in interpreting the incoming\nsignal?\n[3]\n\n\n\n:::::: 19/09/2019 ::::::E"
+    },
+    {
+      "session": "MO18",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: V\nBRANCH: IT  SESSION : MO/2018\n\nSUBJECT : IT5021 DATA COMMUNICATIONS\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) Define the protocol with its key features? [2]\n (b) Distinguish between TCP/IP and OSI reference models. [3]\n\n\nQ2 (a) What are the key elements for a communication model? [2]\n (b) Explain the working of Transport and Session layer of OSI model. [3]\n\n\nQ3 (a) What is the difference between analog and digital transmission? [2]\n (b) Explain the most significant impairments for communication. [3]\n\n\nQ4 (a) Perform the comparison between different wired media. [2]\n (b) A Channel has a bandwidth of 5 kHz and a signal to noise power ratio is 63. If the S/N\npower ration is also reduced to 31. What will be the signal power required if the channel\nbandwidth is reduced to 3 kHz.\n[3]\n\n\nQ5 (a) What is the difference between unipolar signal and polar signaling? [2]\n (b) Draw the Differential Manchester, Manchester, NRZI, NRZ encoding for data 01001100011. [3]\n\n\nQ6 (a) What is the modulation rate? [2]\n (b) Explain the amplitude shift keying. [3]\n\n\n\n :::: 10/09/2018 E ::::::"
+    }
+  ]
+}

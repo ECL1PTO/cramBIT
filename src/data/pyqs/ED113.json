@@ -1,0 +1,13 @@
+{
+  "courseCode": "ED113",
+  "courseName": "STATISTICAL METHODS II",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS: IMSc.   SEMESTER : II\nBRANCH: CQEDS   SESSION : SP2023\n\nSUBJECT: ED113 STATISTICAL METHODS II\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\nQ.1(a)\nOne  observation  is  taken  on  a  discrete  random  variable  with  PMF 푓(푥;휃);  where 휃 ∈ [1,2,3].\nFind maximum likelihood estimate (MLE) of 휃. 푓(푥;휃) is give below:\n\nx 0 1 2 3 4\n푓(푥;1)\n1/3 1/3 0 1/6 1/6\n푓(푥;2)\n1/4 1/4 1/4 1/4 0\n푓(푥;3)\n0 0 1/4 1/2 1/4\n\n[2]\nQ.1(b)\nFor a given random sample of size n from 푈푛푖푓표푟푚(휃−\nଵ\nଶ\n,휃+\nଵ\nଶ\n), obtain the maximum likelihood\nestimate (MLE) of 휃.\n[3]\n\nQ.2(a)\nFind minimum variance bound (MVB) estimator for the parameter 휃 of the distribution with PDF\n                                  푓(푥;휃) =\n௘\nషഇ\nఏ\nೣ\n௫!\n ; 푥=0,1,2,....\n[2]\nQ.2(b) State and prove Cramer Rao Inequality. [3]\n\nQ.3(a)\nLet 푋\nଵ\n,푋\nଶ\n,& 푋\nଷ\n be  a  random  sample  from 퐵(1,푝).  Prove/disprove  that 푇=푋\nଵ\n+2푋\nଶ\n+푋\nଷ\n is\nsufficient for 푝.\n[2]\nQ.3(b)\nLet 푋\n1\n,푋\n2\n,...,푋\n푛\n be IID random variables having discrete uniform distribution on {1,2,3,...,푁},\nwhere 푁 is unknown. Show that 푀푎푥(푋\nଵ\n,푋\nଶ\n,...,푋\n௡\n) is sufficient for 푁.\n[3]\n\nQ.4(a)\nFor Poisson distribution with parameter 휃, find a consistent estimator for\nଵ\nఏ\n.\n[2]\nQ.4(b)\nLet 푋\n1\n,푋\n2\n,푋\n3\n &  푋\n4\n be independent  random variables such that 퐸(푋\n௜\n)=휇 and 푉푎푟(푋\n௜\n)=휎\nଶ\n\nfor 푖=1,2,3 & 4. Consider 푌=\n௑\nభ\nା ௑\nమ\nା ௑\nయ\n ା  ௑\nర\nସ\n; 푇=\n௑\nభ\nା ଶ௑\nమ\nା ௑\nయ\n ି  ௑\nర\nସ\n and 푍=\n௑\nభ\nା ଶ௑\nమ\nା ௑\nయ\n ା  ௑\nర\nହ\n.\nExamine  whether 푌, 푇 and 푍 are  unbiased  estimator  for 휇.  Find  the  most  efficient  estimator\namong three of them.\n[3]\n\nQ.5\nLet 푋\n1\n,푋\n2\n,...,푋\n푛\n be a random sample from uniform distribution with PDF\n                           푓(푥,휃)=\nଵ\nఏ\n;       0<푥<휃       ∀       휃 ∈ 훩.\nFind\n\nQ.5(a)\nSufficient estimator for 휃\n[2]\nQ.5(b)\nUnbiased estimator for 휃\n[3]\n\n\n::::::25/05/2023::::::M"
+    }
+  ]
+}

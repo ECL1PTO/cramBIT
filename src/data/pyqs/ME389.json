@@ -1,0 +1,13 @@
+{
+  "courseCode": "ME389",
+  "courseName": "MECHATRONICS AND ITS APPLICATIONS_OE",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH   SEMESTER: VII\nBRANCH: ALL (Except Mechanical)  SESSION: MO/2022\n\nSUBJECT: ME389 MECHATRONICS AND ITS APPLICATIONS\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a) What is Mechatronics? Mention its applications? [2]\nQ1 (b) Discuss advantages and disadvantages of Mechatronics? [3]\n\n\nQ2 (a) Explain with the help of line and block diagram components of a Mechatronics\nSystem.\n[2]\nQ2 (b) How are Control System classified? Explain. [3]\n\n\nQ3 (a) Define Logic gates and its applications? [2]\nQ3 (b) Explain briefly K map minimization. [3]\n\n\nQ4 (a) Explain different classification of sensors. [2]\nQ4 (b) Distinguish between\n(i) Active and Passive Transducer\n(ii) Digital and Analog transducers.\n[3]\n\n\nQ5 (a) Distinguish between Microprocessor and microcontrollers? [2]\nQ5 (b) Explain PLC's programming,Relays,Filters [3]\n\n\n:::::: 30/09/2022 ::::::M"
+    }
+  ]
+}

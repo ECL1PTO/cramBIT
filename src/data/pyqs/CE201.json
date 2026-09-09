@@ -1,0 +1,13 @@
+{
+  "courseCode": "CE201",
+  "courseName": "SOLID MECHANICS",
+  "historical_papers": [
+    {
+      "session": "MO19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH   SEMESTER: III\nBRANCH: CIVIL   SESSION : MO/2019\n\nSUBJECT : CE201 SOLID MECHANICS\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates may attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) What is Saint Venant’s Principle? [2]\nQ1 (b) What is the difference between Engineering stress strain curve and True stress strain\ncurve?\n[3]\n\n\nQ2 (a) What do you mean by Proof stress? [2]\nQ2 (b) Derive the general expression for thermal stress for a partially restricted bar\nsubjected to increase in temperature.\n[3]\n\n\nQ3  Draw the Bending Moment diagram for the cantilever beam subjected to uniformly\nvarying load as shown in Figure: 1\n\n\n\nFigure: 1\n[5]\n\n\nQ4  Consider the cantilever beam from Figure: 01 with a square cross section of area 40000\nsqmm and show the shear stress variations throughout the cross section of the beam at\nthe fixed support.\n[5]\n\n\nQ5  Derive the general Torsional Equation for a circular shaft subjected to torsion on one\nend and fixed on the other end.\n[5]\n\n\n\n :::::: 23/09/2019 ::::::E"
+    }
+  ]
+}

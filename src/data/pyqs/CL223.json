@@ -1,0 +1,13 @@
+{
+  "courseCode": "CL223",
+  "courseName": "CHEMICAL REACTION ENGINEERING - I",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS: B.TECH   SEMESTER : IV\nBRANCH: CHEMICAL ENGG   SESSION : SP2023\n\nSUBJECT: CL223 CHEMICAL REACTION ENGINEERING - I\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) Differentiate between elementary and non-elementary reactions.  [2] CO1 2\nQ.1(b) Define the following terms:\n(i) molecularity\n(ii) order of reaction\n(iii) heterogeneous non catalytic reactions with example\n[3] CO1 1\n\nQ.2(a) Derive the following expression for a series reaction.\n\n\n\n[3] CO1 3\nQ.2(b) What are the factors on which rate constant depends? [2] CO1 2\n\nQ.3 Pure gaseous reactant A (C\nAO\n = 100 millimole/liter) is fed at a steady rate into a mixed\nflow reactor (V = 0.1 liter) where it dimerizes (2A → R). For different gas feed rates, the\nfollowing data are obtained:\n\nRun number 1 2 3 4\nvo, liter/hr 30.0 9.0 3.6 1.5\nCAf,\nmillimole/liter\n85.7 66.7 50 33.4\n\nFind a rate equation for this reaction.\n[5] CO3 3\n\nQ.4(a) Derive the expression of Half-life for a n-th order irreversible reaction [2] CO3 2\nQ.4(b)\nFor the reaction RA, second-order kinetics and\nlitremolC\nA\n/1\n0\n\n, 50% conversion\nachieved after 1 hour in a batch reactor. What will be the conversion and concentration\nof A after 1hour if\nlitremolC\nA\n/10\n0\n\n.\n[3] CO3 5\n\nQ.5(a) Reactant A decomposes to products B and C in the presence of an enzyme in a well-\nstirred batch reactor. The kinetic rate expression is given by\n)min..(\n01.005.0\n01.0\n11\n\nLmol\nC\nC\nr\nA\nA\nA\n\nIf the initial concentration of A is 0.02 mol/litre, find the time taken to achieve 50%\nconversion of A.\n[2] CO2 5\nQ.5(b) Gaseous reactant A decomposes as follows:\nRA3\n,\nAA\nCr)min6.0(\n1\n\n. Find the conversion of A in a 50%- 50% inert feed (\nmin/180litrev\no\n\n,\nlitremmolC\nA\n/300\n0\n\n), to a one\n3\nm\nmixed flow reactor.\n[3] CO2 5\n\n\n::::::22/02/2023::::::M"
+    }
+  ]
+}

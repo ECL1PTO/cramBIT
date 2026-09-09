@@ -1,0 +1,13 @@
+{
+  "courseCode": "CE301",
+  "courseName": "STRUCTURAL DESIGN I",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH/BARCH   SEMESTER:\nBRANCH: CIVIL/ARCH   SESSION: MO/2022\n\nSUBJECT: CE301 STRUCTURAL DESIGN I\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n6. IS 456:2000 is allowed in the Examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n    CO BL\nQ1 (a) Name two types of cement which can be used for making concrete. [2] 1 1\nQ1 (b) Write advantages of concrete for construction of reinforced cement concrete\nstructures.\n[3] 1 2\n\n\nQ2 (a) What do you mean by design load or factored load? [2] 1 2\nQ2 (b) Write  the  limit  state  conditions  to  be  satisfied in  design by  limit  state\nmethod.\n[3] 1 2\n\n\nQ3 (a) A rectangular beam has width of 300 mm, effective depth of 545 mm with area\nof tension steel of 1473 mm\n2\n. Check whether the section is under-reinforced or\nover-reinforced. Assume f\nck\n = 20 N/mm\n2\n and f\ny\n = 415 N/mm\n2\n.\n[2] 2 4\nQ3 (b) Determine the ultimate moment carrying capacity of the beam mentioned in\nQ3(a).\n[3] 2 4\n\n\nQ4 (a) Calculate the development length of 20 mm diameter steel reinforcement bar\nof Fe415 grade of steel under tension. Assume M20 grade of concrete.\n[2] 2 3\nQ4 (b) A  rectangular  beam  of  size  230  mm  width  and  450  mm  effective  depth  is\nreinforced  with  four  bars  of  20  mm  diameter.  Determine  the  vertical  shear\nreinforcement  to  resist  the  factored  shear  force  of  250  kN.  Consider  M25\nconcrete and Fe415 steel.\n[3] 2 4\n\n\nQ5 (a) A T-beam with 1500 mm width of flange, 115 mm depth of web and 250 mm\nwidth  of  web  and  500  mm  effective  depth  is  carrying  a  factored  bending\nmoment of 625 kN-m. Check the location of neutral axis. Assume M20 grade of\nconcrete and Fe415 steel.\n[2] 2 3\nQ5 (b) Calculate  the  area  of  tension  steel  required  for  the  beam  as  mentioned  in\nQ5(a)\n[3] 2 4\n\n\n\n\n :::::: 26/09/2022 ::::::M"
+    }
+  ]
+}

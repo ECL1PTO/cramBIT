@@ -1,0 +1,13 @@
+{
+  "courseCode": "ED107",
+  "courseName": "PROBABILITY - I",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: IMSc   SEMESTER: I\nBRANCH: QEDS   SESSION: MO/2022\n\nSUBJECT: ED107 PROBABILITY - I\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n   CO BL\nQ.1 A picnic is arranged to be held on a particular day. The weather forecast says that\nthere is 80% chance of rain on that day. If it rains the probability of a good picnic is\n0.3 and if it does not the probability is 0.9. What is the probability that the picnic will\nbe good?\n[5]  1\n\n\nQ.2(a) If A and B are two events, prove that P(A|B) ≥ 1 – P(A\nc\n)/P(B). [2] 1\nQ.2(b) Also, prove that P(A|B) = 1 – P(A\nc\n|B). [3] 1\n\n\nQ.3 If the events E\n1,\nE\n2,\n..., E\nn\nare independent and such that P(E\ni\nc\n) = i/(i+1); i=1..., n, then\nfind the probability that at least one of the n events occurs.\n[5] 1\n\n\nQ.4 Compute the skewness and kurtosis measures for the Poisson distribution and then\ncomment on their types.\n[5] 2\n\n\nQ.5(a) Find the moment generating function of a Geometric distribution with probability of\nsuccess being p.\n[3] 2\nQ.5(b) Hence, compute the mean and variance of the distribution. [2] 2\n\n\n\n\n ::::::19/01/2023 ::::::M"
+    }
+  ]
+}

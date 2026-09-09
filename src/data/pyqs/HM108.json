@@ -1,0 +1,20 @@
+{
+  "courseCode": "HM108",
+  "courseName": "BUSINESS COMPUTING",
+  "historical_papers": [
+    {
+      "session": "SP20",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BHMCT   SEMESTER: II\nBRANCH: BHMCT   SESSION : SP/2020\n\nSUBJECT : HM108 BUSINESS COMPUTING\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates may attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a) Describe major components of computer system. [2] 1 2\n (b) Classify different types of processor. [3] 1 3\n\n\nQ2 (a) Distinguish between RAM and ROM. [2] 1 4\n (b) Outline the names of different keys in keyboard. [3] 1 4\n\n\nQ3 (a) Define watermark? Enlist the steps of inserting watermark in word\ndocument.\n[2] 2 1\n (b) Describing the steps of inserting and formatting table in MS word. [3] 2 2\n\n\nQ4 (a) State non-printing formatting marks. [2] 2 1\n (b) Explain different views and the process of changing it in word document. [3] 2 2\n\n\nQ5 (a) Distinguish between worksheet and cells. [2] 3 4\n (b) Describe the steps of changing the width of the column in excel worksheet. [3] 3 2\n\n\n\n :::::: 26/02/2020 ::::::M"
+    },
+    {
+      "session": "SP19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: HMCT   SEMESTER: II\nBRANCH: BHMCT   SESSION: SP/2019\n\nSUBJECT: HM108 BUSINESS COMPUTING\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates may attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) List different parts of computer and segregate I/O devices. [2]\n (b) Describe the role of computer. [3]\n\n\nQ2 (a) Distinguish between main memory and secondary storage. [2]\n (b) Describe the major components of a computer system. [3]\n\n\nQ3 (a) State the different views of word document and how it can be changed?  [2]\n (b) List the steps of inserting and formatting table in MS word. [3]\n\n\nQ4 (a) Define word wrap. [2]\n (b) State the steps of inserting page number in MS word. [3]\n\n\nQ5 (a) Distinguish between worksheet and cells. [2]\n (b) State the steps of entering data in cell. [3]\n\n\n\n :::: 01/03/2019 ::::::M"
+    }
+  ]
+}

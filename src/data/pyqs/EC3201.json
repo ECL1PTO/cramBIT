@@ -1,0 +1,13 @@
+{
+  "courseCode": "EC3201",
+  "courseName": "DIGITAL ELECTRONICS",
+  "historical_papers": [
+    {
+      "session": "MO18",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: III\nBRANCH: EEE/ECE/CSE/IT   SESSION : MO/2018\n\nSUBJECT : EC3201 DIGITAL ELECTRONICS\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) Simplify the following Boolean function to a minimum number of literals :\n푌=(퐵+퐵퐶)(퐵+퐵\nത\n퐶)(퐵+퐷)\n[2]\n (b)\nExplain the term universal gate. Construct the logic circuit for the function 풀=\n푩\n(\n푨+푪푫\n)\n+푨푪\nഥ\n using 2-input NOR gates only.\n[3]\n\nQ2 (a)\nFormulate the Boolean function 푭=푨\nഥ\n푩+푪\nഥ\n into a Canonical SOP form.\n[2]\n (b) Simplify the following Boolean function and obtain the minimal-POS expression by\nKarnaugh map:\n퐹=\nෑ\n(0,4,5,7,10,12)\nෑ\n(2,8,13,15)\nௗ\n\n[3]\n\nQ3 (a) Show how a full adder circuit is implemented using a decoder and logic gates.  [2]\n (b) Perform the BCD-addition of 75 with 58. Construct the logic circuit for this BCD\naddition using 4-bit binary adders and logic gates.\n[3]\n\nQ4 (a) Develop a 4-to-2 priority encoder which has highest priority for highest order input. [2]\n (b) Construct a multiplexer for the implementation of the following Boolean function:\n푌\n(\n퐴,퐵,퐶,퐷\n)\n=\n෍\n(1,2,3,6,8,10,12,14)\nwhere the variable ‘A’ is used as input for the multiplexer.\n[3]\n\nQ5 (a) Distinguish between level triggering and edge triggering. [2]\n (b) Construct the excitation table for J-Kflip-flop and D flip-flop. Using the excitation\ntable, convert a J-K flip-flop into a D flip-flop.\n[3]\n\nQ6 (a) Design a 4-bit parallel-input-parallel-output shift register and explain its working.   [2]\n (b) A synchronous down counter is required to count the following sequence:\n3-1-0-3... Design the counter with J-K flip-flop.\n[3]\n\n\n\n :::::: 12/90/2018 ::::::E"
+    }
+  ]
+}

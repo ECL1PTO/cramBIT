@@ -2334,8 +2334,8 @@
     "credits": 3,
     "syllabus": "",
     "campus": "Noida",
-    "grounding": "none",
-    "pyqCount": 0
+    "grounding": "partial",
+    "pyqCount": 1
   },
   "MT418": {
     "code": "MT418",
@@ -2347,8 +2347,8 @@
     "credits": 3,
     "syllabus": "",
     "campus": "Noida",
-    "grounding": "none",
-    "pyqCount": 0
+    "grounding": "partial",
+    "pyqCount": 1
   },
   "MT419": {
     "code": "MT419",
@@ -3231,8 +3231,8 @@
     "credits": 2,
     "syllabus": "",
     "campus": "Noida",
-    "grounding": "none",
-    "pyqCount": 0
+    "grounding": "full",
+    "pyqCount": 2
   },
   "CA406": {
     "code": "CA406",
@@ -3491,8 +3491,8 @@
     "credits": 3,
     "syllabus": "",
     "campus": "Noida",
-    "grounding": "none",
-    "pyqCount": 0
+    "grounding": "full",
+    "pyqCount": 2
   },
   "CA435": {
     "code": "CA435",
@@ -3712,8 +3712,8 @@
     "credits": 3,
     "syllabus": "",
     "campus": "Noida",
-    "grounding": "none",
-    "pyqCount": 0
+    "grounding": "partial",
+    "pyqCount": 1
   },
   "MA428": {
     "code": "MA428",
@@ -3725,8 +3725,8 @@
     "credits": 3,
     "syllabus": "",
     "campus": "Noida",
-    "grounding": "none",
-    "pyqCount": 0
+    "grounding": "full",
+    "pyqCount": 2
   },
   "CA401": {
     "code": "CA401",
@@ -3842,8 +3842,8 @@
     "credits": 3,
     "syllabus": "",
     "campus": "Noida",
-    "grounding": "none",
-    "pyqCount": 0
+    "grounding": "partial",
+    "pyqCount": 1
   },
   "CA456": {
     "code": "CA456",

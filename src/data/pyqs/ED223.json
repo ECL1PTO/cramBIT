@@ -1,0 +1,13 @@
+{
+  "courseCode": "ED223",
+  "courseName": "SAMPLING TECHNIQUES & DESIGN OF EXPERIMENTS",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2023)\nCLASS: IMSc   SEMESTER : IV\nBRANCH: QEDS   SESSION : SP/2023\n\nSUBJECT: ED223 SAMPLING TECHNIQUES & DESIGN OF EXPERIMENTS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1 Consider the following population:\ni 1 2 3 4 5\ny 1.2 1.5 0.9 0.7 1.4\nWrite down the sampling design when the samples, each of size 3, are drawn without\nreplacement from this population, and each sample has the same probability of being\nselected. Find the probability unit 2 is selected in the sample, unit 5 is selected in the\nsample, and units 2 and 5 occur together in the sample.\n[5] 1\n\n\nQ.2 In the above problem, by considering all the samples, verify that the sample mean is\nunbiased estimator of the population mean and  that the sample  variance  is  unbiased\nestimator of population variance.\n[5] 1\n\n\nQ.3 Suppose it is required to estimate the average value of a output of a group of 5000 factories\nin a region so that the sample estimate lies within 10% of the true value with a confidence\ncoefficient  of  95%.  Determine  the  minimum  sample  size  required.  The  population\ncoefficient of variation is known to be 60%.\n[5] 2\n\n\nQ.4\nIn an SRSWOR (N,n) consider the class of estimators of 푌\nത\n, 푌\nᇱ\nഥ\n=\n∑\n푎\n௥\n௡\n௥ୀଵ\n푦\n௥\n, where  a\nr\nis a\nconstant depending on the rth draw. Show that 푌\nᇱ\nഥ\n is unbiased estimator of  푌\nത\n iff\n∑\n푎\n௥\n௡\n௥ୀଵ\n=\n1. Also find V(푌\nᇱ\nഥ\n).\n[5] 2\n\n\nQ.5(a)\nIn the above problem, subject to the condition\n∑\n푎\n௥\n௡\n௥ୀଵ\n=1 find the choice of a\nr\nfor which\nV(푌\nᇱ\nഥ\n) is minimum.\n[3] 2\nQ.5(b)\nHence, propose the minimum variance unbiased estimator of 푌\nത\n in the above class.\n[2] 2\n\n\n::::::27/02/2023::::::M"
+    }
+  ]
+}

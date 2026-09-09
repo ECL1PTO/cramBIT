@@ -1,0 +1,13 @@
+{
+  "courseCode": "PH302",
+  "courseName": "SOLID STATE PHYSICS",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: IMSC   SEMESTER: V\nBRANCH: PHYSICS   SESSION: MO/2022\n\nSUBJECT: PH302: SOLID STATE PHYSICS\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a) What  are  Bravais  lattices?  Why  the  end-centered  tetragonal  lattice  is  not  a\ndistinct Bravais lattice?\n[2] A 02\nQ1 (b) Define  Miller  indices.  Determine  the  Miller  indices  of  a  plane  that  makes\nintercepts of 1, 2, and 3 Å on the crystallographic axes of an orthorhombic\ncrystal with a : b : c = 3 : 2 : 1\n[3] A 04\n\n\nQ2 (a) Find the linear density of atoms along the body diagonal of an fcc unit cell of\nlength a.\n[2] A 03\nQ2 (b) Calculate the angles which [111] direction of a cubic lattice makes with [100]\nand [110] directions.\n[3] A 04\n\n\nQ3 (a) What are Brillouin zones? Draw the first Brillouin zone of a rectangular lattice.  [2] A 01\nQ3 (b) Prove Bragg’s Diffraction law in reciprocal space. [3] A\n\n\nQ4 (a) What are phonons? [2] B 02\nQ4 (b) Explain the Einstein model of molar heat capacity for metals. [3] B\n\n\nQ5  Derive  dispersion  relationship  for  a  one-dimensional  chain  of  diatoms  having\nmass M and m such that (M > m). Explain the nature of acoustical and optical\nmodes.\n[5] B 04\n\n\n:::::: 27/09/2022 M ::::::"
+    }
+  ]
+}

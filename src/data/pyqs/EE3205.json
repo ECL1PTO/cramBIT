@@ -1,0 +1,13 @@
+{
+  "courseCode": "EE3205",
+  "courseName": "NETWORK THEORY",
+  "historical_papers": [
+    {
+      "session": "MO18",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: III\nBRANCH: EEE / ECE   SESSION : MO/2018\n\nSUBJECT : EE3205 NETWORK THEORY\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) State substitution theorem. Substitute a branch with a voltage generator E\n/\n in series with\nan impedance of j 0.4  using Substitution theorem in which the terminal conditions are\ngiven as 1A and 1V. Find E\n/\n.\n[2]\n (b) State Tellegen’s theorem. Write three implications of this theorem. [3]\n\nQ2 (a) Explain V-shift and I-shift. [2]\n (b) Consider the linear graph to define incidence matrix, cut-set and tie-set matrix and for\nthe following circuit.\n\n[3]\n\nQ3 (a) Apply Laplace Transform to represent a transformer in Laplace domain.  [2]\n (b) Write the mesh equations for the network.\n\n[3]\n\nQ4 (a) Develop the two-port equivalent circuit with one controlled voltage source to represent\nthe z-parameters.\n[2]\n (b) Verify  reciprocity  theorem  for  the  following  network  using  a  current  source  and  a\nvoltmeter.\n\n[3]\n\nQ5 (a) Derive the relation for z-parameters of two port networks in terms of ABCD-parameters. [2]\n (b) Evaluate the parameters V\n2\n/V\n1,\nI\n2\n/I\n1\n,Z\n21\n=V\n2\n/I\n1\nfor the following network in s-domain.\n\n[3]\n\nQ6 (a) Illustrate driving point impedance function and transfer function for a two-port network. [2]\n (b) Give the concept of poles and zeros. What is open circuit natural frequency (OCNF) and\nshort circuit natural frequency (SCNF) for an admittance function?\n[3]\n\n :::::: 11/09/2018 ::::::E"
+    }
+  ]
+}

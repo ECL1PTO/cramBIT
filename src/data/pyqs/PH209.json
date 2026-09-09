@@ -1,0 +1,13 @@
+{
+  "courseCode": "PH209",
+  "courseName": "ANALOG SYSTEMS AND APPLICATIONS",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS: IMSc   SEMESTER : IV\nBRANCH: PHYSICS   SESSION : SP2023\n\nSUBJECT: PH209 ANALOG SYSTEMS AND APPLICATIONS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n    CO BL\nQ1 (a) Draw energy level diagram of p-type and n-type semiconductor and\nexplain.\n[2] CO1 Knowledge\nQ1 (b) Define mobility and drift velocity. Derive the relation for total\ncurrent density in p-n junction diode.\n[3] CO1 Comprehensive\n\nQ2 (a) What is rectifier? What do you mean by efficiency of rectification? [2] CO1 Knowledge\nQ2 (b) What is full wave rectifier? Derive an expression for total ac output\nfor the case of full wave rectifier and find the efficiency.\n[3] CO1 Evaluation\n\nQ3 (a) Define ripple factor. What is the ripple factor for half wave and full\nwave rectifier?\n[2] CO1 Knowledge\nQ3 (b) Write down the principle of (i) LED, (ii) Photodiode and (iii) Solar cell\nand explain?\n[3] CO1 Applications\n\nQ4 (a) Draw the symbol and construction of n-p-n and p-n-p transistor and\nexplain each knob.\n[2] CO2 Knowledge\nQ4 (b)\nDefine the terms α, β and  used in the case of transistor. Derive the\nrelationship between α and β.\n[3] CO2 Applications\n\nQ5 (a) What is the load line and how it is important? [2] CO2 Applications\nQ5 (b) What is the importance of h-parameter? What are the symbols used\nfor CE amplifier using Hybrid Model? Explain meaning of each symbol.\n[3] CO2 Knowledge\n\n\n\n::::::22/02/2023::::::M"
+    }
+  ]
+}

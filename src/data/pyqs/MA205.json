@@ -1,0 +1,20 @@
+{
+  "courseCode": "MA205",
+  "courseName": "DISCRETE MATHEMATICS",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2023)\nCLASS: BTECH   SEMESTER : VII\nBRANCH: IT   SESSION : SP/2023\n\nSUBJECT: MA205 DISCRETE MATHEMATICS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Define well ordering Principle. [2] 1 1\nQ.1(b)\nShow that ∀푥\n൫\n푃\n(\n푥\n)\n∧푄\n(\n푥\n)\n൯\n 푎푛푑 ∀푥푃(푥)⋀∀푄(푥) are logically equivalent.\n[3] 2 3\n\n\nQ.2(a)\nUsing Tautologies prove that\n൫\n~\n(\n푝∧∼푞\n)\n∧\n(\n∼푞∨푟\n)\n∧\n(\n∼푟\n)\n൯\n→∼푝.\n[2] 1 2\nQ.2(b) Use the Principle of Mathematical Induction to verify that for any positive integer n,\n6\n௡\n−1 is divisible by n.\n[3] 2 4\n\n\nQ.3(a)\nFind the generating function for the given recurrence relation             푎\n௥\n−8푎\n௥ିଵ\n+\n15푎\n௥ିଶ\n=0 with the initial condition 푎\n଴\n=0 푎푛푑 푎\nଵ\n=3.\n[2] 2 3\nQ.3(b)\nSolve the recurrence relation 푎\n௥\n−2푎\n௥ିଵ\n−15푎\n௥ିଶ\n=푟\nଶ\n.\n[3] 2 3\n\n\nQ.4(a)\nFind the generating function for the sequence 0\nଶ\n,1\nଶ\n,2\nଶ\n,3\nଶ\n,4\nଶ\n,5\nଶ\n...\n[2] 2 1\nQ.4(b)\nFind the generating function for the given recurrence relation             푎\n௥\n=−2푎\n௥ିଶ\n+\n3푎\n௥ିଵ\n;푟≥2 with the initial condition 푎\n଴\n=2 푎푛푑 푎\nଵ\n=3.\n[3] 3 3\n\n\nQ.5(a) Define equivalence relation with example. [2] 3 1\nQ.5(b)\nUsing Warshall’s algorithm compute transitive closure of the relation푅=\n{(\n1,1\n)\n,\n(\n1,4\n)\n,\n(\n2,1\n)\n,(2,2) (3,4)(4,4)\n}\n defined over non empty set  퐴={1,2.3.4}.\n[3] 2 4\n\n\n\n::::::24/02/2023::::::M"
+    },
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH   SEMESTER: III\nBRANCH: CS/IT   SESSION: MO/2022\n\nSUBJECT:MA205 DISCRETE MATHEMATICS\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a)\nShow that\nqqpp))((~\n is a tautology\n[2] CO1 BT4\nQ1 (b) Find the least n for which the statement is true and then using mathematical\ninduction prove that\nn\nn2)1(\n2\n\n\n[3] CO1 BT1\n\n\nQ2 (a)\nFind whether\nqqp)(\n and\nqqp)(\n is logically equivalent or not.\n[2] CO1 BT1\nQ2 (b)\nProve or disprove.\nRx\n,\n23\nxx\n.\n[3] CO1 BT5\n\n\nQ3 (a)\nSolve\n0\n11\n\nrrr\naaCosa\n\n[2] CO1 BT3\nQ3 (b)\nFind the solution of the following recurrence relation\n2\n1\nraa\nrr\n\n\n\n[3] CO1 BT1\n\n\nQ4 (a)\nSolve the recurrence relation\nr\nrrr\naaa22\n21\n\n\n;\n2r\n by the method\nof generating function satisfying the boundary conditions 1,2\n10\naa\n[2] CO1 BT3\nQ4 (b)\nSolve the recurrence relation 016\n13\n\nrr\naa\n[3] CO1 BT3\n\n\nQ5 (a) Let A = {1, 2, 3, 4, 5 } and R be the relation defined by a R b if and only if a <\nb. Compute\n2\nR\n and\n3\nR\n\n[2] CO2 BT3\nQ5 (b) Determine  whether  the  relation  S on  the  set  A  is symmetric,  antisymmetric\nand  transitive.  Set    A  = ℝ\n2\n\\(0,0) .  The  relation  S  is  defined  as\n),(),(\n2211\nyxSyx\n  if only if\n1221\n..yxyx\n\n[3] CO2 BT4\n\n\n\n:::::: 30/09/2022 ::::::M"
+    }
+  ]
+}

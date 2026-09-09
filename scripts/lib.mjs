@@ -24,7 +24,6 @@ export function readEnvLocal() {
 
 const ENV = { ...readEnvLocal(), ...process.env };
 const GROQ_KEY = ENV.GROQ_API_KEY;
-if (!GROQ_KEY) throw new Error("GROQ_API_KEY missing (env or .env.local)");
 
 export const MODEL = "openai/gpt-oss-120b";
 
@@ -33,6 +32,7 @@ export function sleep(ms) {
 }
 
 export async function groqJson(system, prompt) {
+  if (!GROQ_KEY) throw new Error("GROQ_API_KEY missing (env or .env.local)");
   for (let attempt = 0; ; attempt++) {
     try {
       const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {

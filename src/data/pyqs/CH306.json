@@ -1,0 +1,13 @@
+{
+  "courseCode": "CH306",
+  "courseName": "MOLECULAR MODELLING & DRUG DESIGN",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: IMSc   SEMESTER: V\nBRANCH: CHEMISTRY   SESSION: MO/2022\n\nSUBJECT: CH306 MOLECULAR MODELLING & DRUG DESIGN\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n    CO BL\nQ1 (a) Describe the role of structural coordinate systems in Molecular Modeling. [2] 1 1\nQ1 (b) What is geometrical optimization or energy minimization? [3] 4 2\n\n\nQ2 (a) Briefly discuss about the major methods used in Computational Chemistry and\nMolecular Modeling.\n[2] 4 2\nQ2 (b) Explain the potential energy surface with an example of water molecules.  [3] 2 3\n\n\nQ3 (a) Define the Ergodic Hypothesis. [2] 2 2\nQ3 (b) What is the difference between ensemble average and dynamic average? [3] 4 3\n\n\nQ4 (a) Describe the minimum image convention (as used in MD simulations). [2] 3 3\nQ4 (b) Describe the Velocity-Verlet algorithm [3] 3 3\n\n\nQ5 (a) Describe the concept of time reversibility. [2] 4 3\nQ5 (b) Describe the Predictor-Corrector algorithm. [3] 5 3\n\n\n\n\n :::::: 29/09/2022 ::::::M"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "courseCode": "EC413",
+  "courseName": "REAL TIME EMBEDDED SYSTEM",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH   SEMESTER: VII\nBRANCH: ECE   SESSION: MO/2022\n\nSUBJECT: EC413 REAL TIME EMBEDDED SYSTEM\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n    CO BL\nQ1 (a) Describe the importance of real time embedded system.  [2] 1 1\nQ1 (b) Explain the 5 differences between embedded system and computer.  [3] 2 4\n\n\nQ2 (a) Design the 1-bit full circuit and write the Verilog@ HDL code [2] 3 6\nQ2 (b) Design  &  write  the  VHDL  code  for  Mux16-1  using  structural  architecture\nmethod.\n[3] 3 4\n\n\nQ3 (a) Explain the functionality of Lighting Emitting Diode Displays.  [2] 1 2\nQ3 (b) Design the Buzzer Control Circuit and explain its applications. [3] 2 4\n\n\nQ4 (a) Design the Liquid Crystal Display Interfacing and explore its uses. [2] 3 5\nQ4 (b) Draw the basic diagrams & explains the Basics of Signal Conditioning for Sensor\nInterfacing.\n[3] 2 3\n\n\nQ5 (a) An  R/2R  ladder  DAC  circuit,  feedback  is  designed  with  1-K  Ohm  (connected\nbetween  an  inverting  terminal and  ground)  and  7K  Ohm  (connected  between\ninverting terminal & output [Vo] of an operational amplifier) resistors. A four-\nstage R/2R ladder circuit is connected to the noninverting terminal.  Find the\nVo when the binary input is “1010”.\n[2] 4 3\nQ5 (b) Explain  the  principles  of  Sensor  Interfacing  and  measurement  techniques.\nExplain the pressure & temperature measurement process.\n[3] 2 4\n\n\n\n\n :::::: 28/09/2022 ::::::M"
+    }
+  ]
+}

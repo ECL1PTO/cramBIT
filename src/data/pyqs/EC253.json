@@ -1,0 +1,13 @@
+{
+  "courseCode": "EC253",
+  "courseName": "ANALOG CIRCUITS",
+  "historical_papers": [
+    {
+      "session": "SP20",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH   SEMESTER: IV\nBRANCH: ECE   SESSION: SP/2020\n\nSUBJECT: EC253 ANALOG CIRCUITS\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates may attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a) Draw schematics of common-collector (CC) amplifier configuration. [2] 1 1\nQ1 (b) Compare its voltage gain (A\nv\n), input resistance (R\ni\n) and output resistance (R\no\n)\nwith those of common-emitter (CE) configuration.\n[3] 1 5\n\n\nQ2 (a) Briefly explain why emitter follower is called a buffer stage? [2] 1 2, 3, 4\nQ2 (b) If R\nL\n = 10 kΩ and R\nS\n = 1 k Ω, estimate A\nI\n, R\ni\n, A\nV\n, R\nO\n of the emitter follower.\nThe h parameters for the configuration are given as h\nic\n= 1100 Ω, h\nrc\n ~1, h\nfc\n\n= −51, h\noc\n = 25 μA/V.\n[3] 1 2, 4, 5\n\n\nQ3 (a) Draw circuit diagram of a BJT-based RC coupled two-stage amplifier. [2] 2 1\nQ3 (b) Draw low-frequency model of an RC-coupled two-stage BJT-based amplifier\nand briefly explain its each element referring to the circuit of an RC-coupled\ntwo-stage BJT-based amplifier.\n[3] 2 1, 2,\n3, 4\n\n\nQ4 (a)\nDraw the high-frequency hybrid-휋, or Giacoletto, model for a transistor in the\nCE configuration.\n[2] 2 1\nQ4 (b)\nBriefly  explain  each  circuit component  in  the  high-frequency hybrid-휋,  or\nGiacoletto, model for a transistor in the CE configuration.\n[3] 2 2, 3, 4\n\n\nQ5 (a) Classify amplifiers into categories based on the magnitudes of the input and\noutput  impedances  of  an  amplifier  relative  to  the  source  and  load\nimpedances.\n[2] 3 2, 4\nQ5 (b) Explain the characteristics of voltage amplifier with the help of Thevenin's\nequivalent circuit.\n[3] 3 2, 3, 4\n\n\n\n\n:::: 28/02/2020E ::::::"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "courseCode": "EE457",
+  "courseName": "FUNDAMENTALS OF POWER SYSTEM",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2023)\nCLASS: BTECH   SEMESTER : VI\nBRANCH: EEE   SESSION : SP/23\n\nSUBJECT: EE457 FUNDAMENTALS OF POWER SYSTEM\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Differentiate between transmission line and distribution line. [2] A 2\nQ.1(b) Draw  the  single  line  diagram  of  a  conventional  power  system  structure  showing\ngeneration, transmission and distribution components.\n[3] A 1\n\n\nQ.2(a) Draw the schematic diagram of a thermal power plant showing its main components. [2] A 1\nQ.2(b) Enumerate  different  conventional  and  non-conventional  methods  of  power  generation.\nDraw the basic diagram of a solar PV based power plant.\n[3] A 2\n\n\nQ.3(a) What do you mean by zone of protection? [2] B 3\nQ.3(b) Write down the definition of (a) Demand factor (b) load factor (c) diversity factor. [3] B 1\n\n\nQ.4(a) What is the average demand if the maximum demand of generation of power is 50 MW\nand the load factor of the plant is 60%?\n[2] B 3\nQ.4(b) Differentiate between flat rate tariff and block rate tariff.  [3] B 1\n\n\nQ.5(a)\nThe electricity tariff is Rs.3.00 per unit. Calculate the cost of running an 80W fan for\n10h a day for the month of June.\n[2] B 2\nQ.5(b) Differentiate between load curve and load duration curve. [3] B 1\n\n\n::::::27/02/2023::::::M"
+    }
+  ]
+}

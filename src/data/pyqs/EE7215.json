@@ -1,0 +1,20 @@
+{
+  "courseCode": "EE7215",
+  "courseName": "BIO-ELECTRONICS INSTRUMENTATION",
+  "historical_papers": [
+    {
+      "session": "MO19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VII/ADD\nBRANCH: EEE   SESSION : MO/2019\n\nSUBJECT : EE7215 BIO-ELECTRONICS INSTRUMENTATION\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) Write the names and functions of cardiac valves. [2]\n (b) Correlate the hemodynamic and electrophysiological functions of heart. [3]\n\n\nQ2 (a) Draw and label the structure of the functional unit of respiratory system. [2]\n (b) Explain the gaseous exchange and transport physiology of respiratory system. [3]\n\n\nQ3 (a) What is the meaning of depolarization and repolarization of large muscle fiber? [2]\n (b) How the resting potential of a cell or tissue is calculated? Explain. [3]\n\n\nQ4 (a) Write the amplitude and frequency bandwidth of ECG, EOG, pulse and EEG signals. [2]\n (b) Draw the basic blocks of a system for recording of ECG signals and explain the function\nof the machine.\n[3]\n\n\nQ5 (a) What are the meanings of man-machine interaction system? [2]\n (b) Illustrate the electromagnetic system of measurement of blood flow. [3]\n\n\nQ6 (a) Draw the components of special junctional tissues of heart. [2]\n (b) What  is   the   meaning   of   10  electrode   12   lead   recording   system   for   vector\nelectrocardiography?\n[3]\n\n\n\n:::: 20/09/2019M ::::::"
+    },
+    {
+      "session": "MO18",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VII\nBRANCH: EEE   SESSION : MO/2018\n\nSUBJECT : EE7215 BIOELECTRONICS INSTRUMENTATION\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) Draw and label the anatomical structure of respiratory system. [2]\n (b) Explain the physiology of heart in brief. [3]\n\n\nQ2 (a) Write a short note on control of respiration. [2]\n (b) In a spirogram, show different volumes and capacities of lung. [3]\n\n\nQ3 (a) Draw the structure of special junctional tissues of heart. [2]\n (b) Explain, how heart muscles maintain their rhythmicity involuntarily?  [3]\n\n\nQ4 (a) What do you mean by depolarization and repolarization of a cell?  [2]\n (b) How action potential is generated in large nerve or muscle fiber? Explain. [3]\n\n\nQ5 (a) Draw the structure of needle electrodes used for the recording of EMG. [2]\n (b) Illustrate the electronic analogy of electrode-electrolyte-skin interface. [3]\n\n\nQ6 (a) Differentiate active and passive transducers. [2]\n (b) Explain the monopolar and bipolar arrangements for biopotential recording. [3]\n\n\n\n :::: 11/09/2018 M ::::::"
+    }
+  ]
+}

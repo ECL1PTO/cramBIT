@@ -1,0 +1,13 @@
+{
+  "courseCode": "CE7005",
+  "courseName": "FINITE ELEMENT APPLICATIONS IN CIVIL ENGINEERING",
+  "historical_papers": [
+    {
+      "session": "MO19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VII\nBRANCH: CIVIL   SESSION : MO/2019\n\n                         SUBJECT : CE7005 FINITE ELEMENT APPLICATIONS IN CIVIL ENGINEERING\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) Explain the modelling error and its remedies in FEM with proper example? [2]\n (b) What do you mean by convergence in Finite Element Method? What are the convergence\ncriteria for an assumed displacement function in FEM?\n[3]\n\n\nQ2 (a) State plane strain and plane stress problem in elasticity with examples? [3]\n (b) With the help of generalized Hooke's law derive the linear constitutive matrix [D] for a\n2D elastic body?\n[2]\n\n\nQ3 (a) What do you mean by shape function in finite element analysis? [1]\n (b) Derive the stiffness matrix of a two nodded bar element? [4]\n\n\nQ4 (a) Derive the shape function of a two nodded beam element? [3]\n (b) Using the global stiffness matrix of a truss element compute the stiffness matrix for\nelement (1) of the truss shown below: [Note: Area of each member is A= 20sq.cm and E\n= 200 GPa.]\n\n[2]\n\nQ5 (a) State the advantage of deriving the shape function based on Lagrangian formulation? [2]\n (b) Derive the shape function for a 3-nodded bar element by Lagrangian formulation? [3]\n\n\nQ6 (a) What  is  the  difference  in  the  Pascal’s  triangle  for  the 9-nodded  and  8-nodded\nrectangular element?\n[2]\n (b) Derive  the  shape  function  for  a  4-nodded  rectangular  element  by  Serendipity\nformulation?\n[3]\n\n\n\n:::: 23/09/2019M ::::::"
+    }
+  ]
+}

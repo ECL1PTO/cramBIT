@@ -3,102 +3,11 @@
   "courseName": "SOFT COMPUTING",
   "historical_papers": [
     {
-      "session": "MO/2022",
+      "session": "MO22",
       "examType": "MID",
-      "maxMarks": 25,
-      "durationHrs": 2,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "How soft computing is differed from conventional computing? What are the major building blocks of soft Computing?",
-              "marks": 2,
-              "topic": "soft computing"
-            },
-            {
-              "label": "b",
-              "text": "The fuzzy sets A and B are defined as universe, x = [0,1,2,3] with the following membership fractions: Define the intervals along the x-axis corresponding to the α‑cut sets for each fuzzy set A and B for α = 0.2 and α = 0.6?",
-              "marks": 3,
-              "topic": "fuzzy sets"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Using your own intuition develop fuzzy membership functions on the real line for the fuzzy number 4, using the following function shapes: symmetric triangle, Trapezoid and Gaussian function.",
-              "marks": 2,
-              "topic": "membership functions"
-            },
-            {
-              "label": "b",
-              "text": "Suppose we have a universe of integers Y={1,2,3,4,5}, we define the following linguistic terms as a mapping into Y: “small” = [1/1+0.7/2+0.6/3+0.4/4+0.2/5} “large” = {0.2/1+0.4/2+0.6/3+0.9/4+1/5} Find (i) “very small” (ii) “~ very small and ~very very large” (iii) “intensely small”.",
-              "marks": 3,
-              "topic": "linguistic variables"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "For speed control of DC motor, the membership functions of series resistance, armature current and speed are given as follows: Compute relation T for relating series resistance to motor speed i.e. R → N. Perform max‑min composition only.",
-              "marks": 2,
-              "topic": "max-min composition"
-            },
-            {
-              "label": "b",
-              "text": "Show that the fuzzy rule “if x is A or y is B then z is C” is equivalent to the union of two fuzzy rules “if x is A then z is C” and “if y is B then z is C” under max‑min composition.",
-              "marks": 3,
-              "topic": "fuzzy rule"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Explain the compositional rule of Inference.",
-              "marks": 2,
-              "topic": "compositional inference"
-            },
-            {
-              "label": "b",
-              "text": "Discuss the Fuzzy expert system with suitable diagram.",
-              "marks": 3,
-              "topic": "fuzzy expert system"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What is Fuzzification and defuzzification. Why defuzzification required?",
-              "marks": 2,
-              "topic": "fuzzification"
-            },
-            {
-              "label": "b",
-              "text": "Write the FIS for Controlling the water level and temperature in the boiler using Mamdani model. Assume your own linguistic variables.",
-              "marks": 3,
-              "topic": "Mamdani model"
-            }
-          ]
-        }
-      ]
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.E.   SEMESTER: V\nBRANCH: CSE/IT   SESSION: MO/2022\n\nSUBJECT: CS321 SOFT COMPUTING\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n-------------------------------------------------------------------------------------------------------------------------------\n\n    CO BL\nQ1 (a) How soft computing is differed from conventional computing? What are the major\nbuilding blocks of soft Computing?\n[2] CO1 L1\nQ1 (b) The fuzzy sets A and B are defined as universe, x = [0,1,2,3] with the following\nmembership fractions:\n\nDefine the  intervals  along  the  x-axis  corresponding  to  the 훼-cut  sets  for each\nfuzzy set A and B for 훼 = 0.2 and 훼 = 0.6?\n[3] CO1 L1\n\nQ2 (a) Using your own intuition develop fuzzy membership functions on the real line for\nthe  fuzzy  number  4,  using  the  following  function  shapes:  symmetric  triangle,\nTrapezoid and Gaussian function.\n[2] CO1 L2\nQ2 (b) Suppose we have a universe of integers Y={1,2,3,4,5}, we define the following\nlinguistic terms as a mapping into Y:\n“small” = [1/1+0.7/2+0.6/3+0.4/4+0.2/5}\n“large” = {0.2/1+0.4/2+0.6/3+0.9/4+1/5}\nFind (i) “very small” (ii) “~ very small and ~very very large” (iii) “intensely small”\n[3] CO1 L1\n\nQ3 (a) For speed control of DC motor, the membership functions of series resistance,\narmature current and speed are given as follows:\n\nCompute relation T for relating series resistance to motor speed ie  푅\n௦௘\n to 푁.\nPerform max-min composition only.\n[2] CO1 L4\nQ3 (b) Show that the fuzzy rule “if x is A or y is B then then z is C” is the equivalent to\nthe union of two fuzzy rules “if x is A then z is C” and ‘if y is B then z is C” under\nmax-min composition.\n[3] CO1 L3\n\nQ4 (a) Explain the compositional rule of Inference. [2] CO2 L4\nQ4 (b) Discuss the Fuzzy expert system with suitable diagram. [3] CO2 L5\n\nQ5 (a) What is Fuzzification and defuzzification. Why defuzzification required? [2] CO2 L4\nQ5 (b) Write the FIS for Controlling the water level and temperature in the boiler using\nMamdani model. Assume your own linguistic variables.\n[3] CO2 L6\n\n\n\n :::::: 01/10/2022 ::::::M"
     }
   ]
 }

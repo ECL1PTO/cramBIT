@@ -1,0 +1,111 @@
+{
+  "courseCode": "IT404",
+  "courseName": "INTELLECTUAL PROPERTY RIGHTS AND CYBER LAWS",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH.    SEMESTER: VII\nBRANCH: CSE   SESSION: MO/2022\n\n                                          SUBJECT: IT404 INTELLECTUAL PROPERTY RIGHTS AND CYBER LAWS.\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates smay attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a) What is intellectual property. Define its nature.  [2] 1 1\nQ1 (b) What are the major forms of Intellectual property? Explain briefly.  [3] 1 1\n\n\nQ2 (a) What do you understand by justification of Intellectual property? [2] 1 1\nQ2 (b) What are TRIPS? Discuss the role of TRIPS for developing economies in the post\nliberalized era.\n[3] 2 3\n\n\nQ3 (a) Discuss the concept and uniqueness of copyright.  [2] 2 2\nQ3 (b) Rationally bring out the historical development of copyright in detail.  [3] 2 4\n\n\nQ4 (a)  Define patent with the help of an example. What are its attributes.  [2] 2 1\nQ4 (b) Discuss the rights of a patentee. What is the term of patent in India? [3] 2 2\n\n\nQ5 (a) What is a trade mark? What are its specialties.  [2] 3 2\nQ5 (b) Interpret and discuss s the concept of distinctiveness in trademark.  [3] 3 4\n\n\n\n\n :::::: 29/09/2022 ::::::M"
+    },
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is intellectual property. Define its nature.",
+              "marks": 2,
+              "topic": "definition"
+            },
+            {
+              "label": "b",
+              "text": "What are the major forms of Intellectual property? Explain briefly.",
+              "marks": 3,
+              "topic": "forms"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What do you understand by justification of Intellectual property?",
+              "marks": 2,
+              "topic": "justification"
+            },
+            {
+              "label": "b",
+              "text": "What are TRIPS? Discuss the role of TRIPS for developing economies in the post liberalized era.",
+              "marks": 3,
+              "topic": "TRIPS"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Discuss the concept and uniqueness of copyright.",
+              "marks": 2,
+              "topic": "copyright concept"
+            },
+            {
+              "label": "b",
+              "text": "Rationally bring out the historical development of copyright in detail.",
+              "marks": 3,
+              "topic": "copyright history"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define patent with the help of an example. What are its attributes.",
+              "marks": 2,
+              "topic": "patent definition"
+            },
+            {
+              "label": "b",
+              "text": "Discuss the rights of a patentee. What is the term of patent in India?",
+              "marks": 3,
+              "topic": "patent rights"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is a trade mark? What are its specialties.",
+              "marks": 2,
+              "topic": "trademark definition"
+            },
+            {
+              "label": "b",
+              "text": "Interpret and discuss s the concept of distinctiveness in trademark.",
+              "marks": 3,
+              "topic": "trademark distinctiveness"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

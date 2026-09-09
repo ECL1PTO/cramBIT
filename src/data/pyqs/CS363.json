@@ -1,104 +1,13 @@
 {
   "courseCode": "CS363",
-  "courseName": "ARTIFICIAL INTELLIGENCE FUNDAMENTALS",
+  "courseName": "ARTIFICIAL INTELLIGENCE FUNDAMENTALS_OE",
   "historical_papers": [
     {
-      "session": "SP/2023",
+      "session": "SP23",
       "examType": "MID",
-      "maxMarks": 25,
-      "durationHrs": 2,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Define Artificial Intelligence. Explain nature of problems that are referred as AI problems.",
-              "marks": 2,
-              "topic": "AI definition"
-            },
-            {
-              "label": "b",
-              "text": "Elaborate Tic-Tac-Toe problem.",
-              "marks": 3,
-              "topic": "Game problem"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Describe an agent. How does it interact with environment?",
-              "marks": 2,
-              "topic": "Agent"
-            },
-            {
-              "label": "b",
-              "text": "What are basic kinds of agent? Elaborate any two.",
-              "marks": 3,
-              "topic": "Agent types"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Write down the steps of problem solving by searching.",
-              "marks": 2,
-              "topic": "Search steps"
-            },
-            {
-              "label": "b",
-              "text": "What are different components of problems stated in Artificial Intelligence? Explain with examples.",
-              "marks": 3,
-              "topic": "Problem components"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Differentiate between Brute force search and Greedy search.",
-              "marks": 2,
-              "topic": "Search comparison"
-            },
-            {
-              "label": "b",
-              "text": "Elaborate the methodology for measuring any search techniques.",
-              "marks": 3,
-              "topic": "Search evaluation"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": 5,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Illustrate the working of Breadth First Search.",
-              "marks": 2,
-              "topic": "BFS"
-            },
-            {
-              "label": "b",
-              "text": "Evaluate between A* and AO* search techniques.",
-              "marks": 3,
-              "topic": "A* vs AO*"
-            }
-          ]
-        }
-      ]
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION MO/SP20**)\nCLASS: BTECH/BARCH   SEMESTER : VI\nBRANCH: BT/CHEMICAL/MECH/EEE/BARCH SESSION : SP/2023\n\nSUBJECT: CS363 ARTIFICIAL INTELLIGENCE FUNDAMENTALS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Define Artificial  Intelligence.  Explain  nature  of  problems  that  are  referred  as  AI\nproblems.\n[2] CO1 BL1\nQ.1(b) Elaborate Tic-Tac-Toe problem. [3] CO2 BL1\n\n\nQ.2(a) Describe an agent. How does it interact with environment? [2] CO1 BL4\nQ.2(b) What are basic kinds of agent? Elaborate any two. [3] CO1 BL1\n\n\nQ.3(a) Write down the steps of problem solving by searching.  [2] CO1 BL7\nQ.3(b) What  are  different  components  of  problems  stated  in  Artificial  Intelligence?  Explain\nwith examples.\n[3] CO2 BL1\n\n\nQ.4(a) Differentiate between Brute force search and Greedy search. [2] CO2 BL1\nQ.4(b) Elaborate the methodology for measuring any search techniques. [3] CO2 BL8\n\n\nQ.5(a) Illustrate the working of Breadth First Search. [2] CO2 BL4\nQ.5(b) Evaluate between A* and AO* search techniques. [3] CO2 BL9\n\n\n::::::27/02/2023::::::M"
     }
   ]
 }

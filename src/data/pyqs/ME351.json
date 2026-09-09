@@ -1,0 +1,13 @@
+{
+  "courseCode": "ME351",
+  "courseName": "FINITE ELEMENT METHODS",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS:  BTECH   SEMESTER : V\nBRANCH: MECHANICAL   SESSION : SP2023\n\nSUBJECT: ME351 FINITE ELEMENT METHODS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) Explain the difference between FEM And FVM. [2] 1 2\nQ.1(b) Obtain  an  approximate  displacement  equation  by  Galerkin’s method  for  the  simply\nsupported beam shown in Figure using the trial solution y(x)=Asin(πx/H).The governing\ndifferential equation is\n[3] 1 4\n\n퐸퐼\n푑\nଶ\n푦\n푑푥\nଶ\n−\n푀\n௢\n푥\n퐻\n=0\n\n\n\n\nQ.2(a) What are the rules for the placement of nodes? [2] 1 1\nQ.2(b) Explain the various steps of FEM [3] 1 2\n\n\nQ.3(a) What are the properties of the shape function? [2] 2 1\nQ.3(b) Check whether the below shape function satisfy all the properties of shape function [3] 2 3\n\n푁\n푖\n=\n2\n퐿\n2\n൫\n푥−푋\n푗\n൯\n(\n푥−푋\n푘\n)\n\n푁\n௝\n=−\n4\n퐿\nଶ\n(\n푥−푋\n௜\n)(\n푥−푋\n௞\n)\n\n푁\n푘\n=\n2\n퐿\n2\n൫\n푥−푋\n푗\n൯\n(\n푥−푋\n푖\n)\n\n\n\nQ.4(a) Derive the Galerkin’s Formulation of nodal residue integrals for the given one dimensional\ndifferential Equation\n퐷\n푑\nଶ\n휑\n푑푥\nଶ\n+푄=0\nBoundary conditions φ(0)= 휑\n଴\n and φ(H)= 휑\nு\n\n[2] 2 3\nQ.4(b) Evaluate the Galerkin’s integrals using linear elements [3] 2 4\n\n\n\n\n    PTO\n\n\n\n\n\n\n\n\n\n\nQ.5(a) Obtain the nodal displacement for the beam shown below. The governing eq. is\n퐸퐼\n푑\nଶ\n푦\n푑푥\nଶ\n−푀(푥)=0\n\nwhere all elements lengths are equal and EI=2(10\n10\n) N.cm\n2\n\n\n[2] 3 4\nQ.5(b) Derive the global stiffness matrix of the above problem by direct formulation method [3] 3 1\n\n\n\n::::::22/02/2023::::::M"
+    }
+  ]
+}

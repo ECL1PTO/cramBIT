@@ -3,102 +3,11 @@
   "courseName": "CYBER LAW AND SECURITY",
   "historical_papers": [
     {
-      "session": "MO/2022",
+      "session": "MO22",
       "examType": "MID",
-      "maxMarks": 25,
-      "durationHrs": 2,
-      "questions": [
-        {
-          "number": "Q1",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "“Like citizens, netizens have certain rights and duties.” Comment. Explain who are netizens.",
-              "marks": 2,
-              "topic": "Netizens rights"
-            },
-            {
-              "label": "b",
-              "text": "Explain the various threats to Network Security? Differentiate between Active and Passive threats.",
-              "marks": 3,
-              "topic": "Network security threats"
-            }
-          ]
-        },
-        {
-          "number": "Q2",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "What is cyberspace? Explain some of its features.",
-              "marks": 2,
-              "topic": "Cyberspace"
-            },
-            {
-              "label": "b",
-              "text": "What is cyber law? Explain its component.",
-              "marks": 3,
-              "topic": "Cyber law"
-            }
-          ]
-        },
-        {
-          "number": "Q3",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Write a detailed note and analyze some of the key issues addressed by IT Act, 2000.",
-              "marks": 2,
-              "topic": "IT Act issues"
-            },
-            {
-              "label": "b",
-              "text": "Many people have the opinion that “The right to Internet access, must be a fundamental human right so that they can exercise and enjoy their rights to freedom of expression and opinion and other fundamental human rights” – evaluate and justify.",
-              "marks": 3,
-              "topic": "Internet access as human right"
-            }
-          ]
-        },
-        {
-          "number": "Q4",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Briefly explain the National and International law(s) regarding Online freedom of speech and expression.",
-              "marks": 2,
-              "topic": "Online freedom of speech"
-            },
-            {
-              "label": "b",
-              "text": "Discuss the Right to Privacy in the Online environment and mention some of the efforts and laws made by India and International community.",
-              "marks": 3,
-              "topic": "Online privacy"
-            }
-          ]
-        },
-        {
-          "number": "Q5",
-          "marks": null,
-          "parts": [
-            {
-              "label": "a",
-              "text": "Discuss some of the legal issues faced in electronic commerce environment.",
-              "marks": 2,
-              "topic": "E-commerce legal issues"
-            },
-            {
-              "label": "b",
-              "text": "Define the term 'cybercrime'. Classify and differentiate between different types of cybercrimes.",
-              "marks": 3,
-              "topic": "Cybercrime types"
-            }
-          ]
-        }
-      ]
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH.   SEMESTER: V\nBRANCH: ECE & EEE   SESSION: MO/2022\n\nSUBJECT: CS276 CYBER LAW AND SECURITY\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data handbook/Graph paper etc. to be supplied to the candidates in the examination hall.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a) “Like citizens, netizens have certain rights and duties.” Comment. Explain who\nare netizens.\n[2] 3 2\nQ1 (b) Explain the various threats to Network Security? Differentiate between Active\nand Passive threats.\n[3] 3 4\n\n\nQ2 (a) What is cyberspace? Explain some of its features. [2] 1 2\nQ2 (b) What is cyber law? Explain its component. [3] 1 2\n\n\nQ3 (a) Write a detailed note and analyze some of the key issues addressed by IT Act,\n2000.\n[2] 2 4\nQ3 (b) Many  people  have  the  opinion  that  “The  right  to  Internet  access,  must  be  a\nfundamental  human right  so  that  they  can exercise and  enjoy their  rights to\nfreedom  of  expression  and  opinion  and  other  fundamental  human  rights  “–\nevaluate and justify.\n[3] 2 5\n\n\nQ4 (a) Briefly explain the National and International law(s) regarding Online freedom of\nspeech and expression.\n[2] 2 2\nQ4 (b) Discuss the Right to Privacy in the Online environment and mention some of the\nefforts and laws made by India and International community.\n[3] 2 3\n\n\nQ5 (a) Discuss some of the legal issues faced in electronic commerce environment.  [2] 3 3\nQ5 (b) Define the term 'cybercrime'. Classify and differentiate between different types\nof cybercrimes.\n[3] 4 4\n\n\n\n\n :::::: 30/09/2022 ::::::M"
     }
   ]
 }

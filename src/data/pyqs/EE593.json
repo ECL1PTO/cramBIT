@@ -1,0 +1,13 @@
+{
+  "courseCode": "EE593",
+  "courseName": "HIGH VOLTAGE ENGINEERING",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: B.TECH.   SEMESTER: VII\nBRANCH: EEE   SESSION : MO/2022\n\nSUBJECT : EE593 HIGH VOLTAGE ENGINEERING\n\nTIME: 02 Hrs.   FULL MARKS: 25\n\nINSTRUCTIONS:\n1 The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n    CO BL\nQ1 (a) What  are  the  different  types  of  voltages  occurring  in  high  voltage\npractice?\n[2] 1 1\n (b) Explain the two essential conditions to be satisfied for a collision of an\nelectron with an atom to be an ionizing one.\n[3] 1 2\n\n\nQ2  Explain the processes of breakdown in electronegative gases. [5] 3 4\n\n\nQ3  In an experiment in a certain gas, the steady state current is 5.5 x 10\n-8\nA\nat  8kV  at  a  distance  of  0.4  cm  between  the  plane  electrodes.  Keeping\nthe field constant and reducing the distance to 0.1cm result in a current\nof 5.5x10\n-9\nA. Calculate Townsend’s primary ionization coefficient. If the\nbreakdown  occurred  when  the  gap  distance  was  increased  to  0.9cm,\nwhat is the value of Townsend’s secondary ionization coefficient?\n[5] 1, 3 4\n\n\nQ4 (a) What is Paschen’s law? [2] 3,4 1\n (b)\nWhat  is  meant  by  the  withstand strength  of  an  insulation?  Are  the\nwithstand  strength  and  breakdown  strength  constant  for  an  insulating\nmaterial?\n[3] 1,2,4 2\n\n\nQ5  What  is a vacuum?  How  is  it  categorized?  What  is  the  usual  range  of\nvacuum  used in  high  voltage  apparatus?  What are  the factors  affecting\nthe breakdown voltage of a vacuum gap?\n[5] 1, 3 2\n\n\n\n\n :::::: 26/09/2022 ::::::M"
+    }
+  ]
+}

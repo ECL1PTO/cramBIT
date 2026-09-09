@@ -1,0 +1,13 @@
+{
+  "courseCode": "IT401",
+  "courseName": "DATA ANALYSIS AND INTERPRETATION",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION-2022)\n\nCLASS: B.TECH.   SEMESTER: VII\nBRANCH: CSE   SESSION: MO/2022\n\nSUBJECT: IT401 DATA ANALYSIS AND INTERPRETATION\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a) Explain the role of descriptive statistics in data analysis. [2] 1 1\nQ1 (b) Explain  the standard  normal  distribution  of  data  with  suitable  sketch.  Also\nmentions the various properties of standard normal distribution. How can we\nconvert a normally distributed data into standard normally distributed data?\n[3] 2 2\n\n\nQ2 (a) When the permutation & randomization test is carried out? Explain with suitable\nexample.\n[2] 2 2\nQ2 (b) Explain the steps of two tails based Hypothesis testing with suitable example.  [3] 2 3\n\nQ3 (a) Explain the situation in which one way ANOVA technique is used with suitable\nexample.\n[2] 2 2\nQ3 (b) Abdul Hassan, president of Floor Coverings Unlimited, has asked you to study\nthe relationship between market price and the tons of rugs supplied by his\ncompetitor, Best Floor, Inc. He supplies you with the following observations of\nprice per ton and number of tons, obtained from his secret files:\n(2, 5), (4, 10), (3, 8), (6, 18), (3, 6),  (5, 15),  (6, 20), (2, 4)\nThe first number for each observation is price and the second is quantity.\na. Prepare a scatter plot manually on answer sheet paper\nb. Determine the regression coefficients, a0 and a1.\n[3] 3 4\n\nQ4 (a) Discuss the Ridge regression technique for regularization of regression. [2] 2 2\nQ4 (b) With  suitable  sketch, explain  the  K  nearest  neighborhood  classification\ntechnique.\n[3] 3 3\n\nQ5 (a) Explain the bias-variance dichotomy in machine learning context. [2] 2 2\nQ5 (b) Explain the logistic regression with suitable example. Also explain the limitation\nof logistic regression.\n[3] 3 3\n\n\n:::::: 15/10/2022 E ::::::"
+    }
+  ]
+}

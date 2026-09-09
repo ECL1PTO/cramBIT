@@ -1,0 +1,13 @@
+{
+  "courseCode": "PH301",
+  "courseName": "QUANTUM MECHANICS AND APPLICATIONS",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: IMSC   SEMESTER: V\nBRANCH: PHYSICS   SESSION: MO/2022\n\nSUBJECT: PH301 QUANTUM MECHANICS AND APPLICATIONS\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n    CO BL\nQ1 (a) Discuss the physical significance of the wave function\n\n?  [2] 1 1\nQ1 (b) Establish the time dependent Schrodinger equation\n2\n2\n2\nh\nVih\nmt\n\n\n\n\n    \n\n\n\n\n[3] 1,2 2\n\n\nQ2 (a) Discuss the conditions to be satisfied by an acceptable wave-function?  [2] 1 1\nQ2 (b)\nA wave function\n2\n( )\nn\nn  x\nxA Sin\nL\n\n\n in the region\n0x    L  \n. Find the value\nof\nn\nA\nusing normalization condition?\n[3] 1,2 3\n\n\nQ3 (a) Explain what do you understand by the expectation value of a dynamical\nvariable?\n[2] 1 1,2\nQ3 (b) Calculate the expectation value of p\n2\n for the wave function\n1/2\n2\n( )    sin\nx\nx\nLL\n\n\n     \n\n     \n     \n in the region\n0x    L  \n\nand\n( ) 0xfor  xL\n\n[3] 2,3 3\n\n\nQ4 (a) What do you understand by zero-point energy of a harmonic oscillator?  [2] 3 2\nQ4 (b)\nFor a potential step, show that there must be some reflection even if\no\nEV\n?\n[3] 2,3 3\n\n\nQ5 (a) Explain the phenomenon of tunneling effect?  [2] 3 2\nQ5 (b) For an alpha particle having E= 1 eV subjected to a thick rectangular potential\nbarrier of height 2 eV calculate the probability of transmission? The expression\nfor transmission coefficient for E< V\no\n is given by\n2  2    2\n1  22\n2   2 2    22  2\n1   221  2\n4   sec (  / )\n(    ) tanh (  / ) 4\np  ph   ip a   h\nT\nppip a   hp  p\n\n\n\n\n(Use expression for a thick barrier\n2\nip ah\n)\n[3] 2,3 4,6\n\n\n\n\n :::::: 26/09/2022 ::::::M"
+    }
+  ]
+}

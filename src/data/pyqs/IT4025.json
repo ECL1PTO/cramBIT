@@ -1,0 +1,13 @@
+{
+  "courseCode": "IT4025",
+  "courseName": "-THEORY OF COMPUTATIONS",
+  "historical_papers": [
+    {
+      "session": "SP19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: IV\nBRANCH: IT   SESSION : SP/2019\n\nSUBJECT : IT4025-THEORY OF COMPUTATIONS\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) Define Function mathematically. [2]\n (b) What do you mean by Automaton? Give one example. [3]\n\n\nQ2 (a) Draw and describe shortly the block diagram of Finite Automata. [2]\n (b) Design a DFA to recognize strings that start or ends with 201 over Σ = {0,1,2}. [3]\n\n\nQ3 (a) What is transducer?  [2]\n (b) How mealy and Moore machines are equivalent to each other? Discuss. [3]\n\n\nQ4 (a) Design a NFA to recognize strings {“ab”,”ba”} over Σ = {a, b}. [2]\n (b) Convert the NFA designed for Q4-a into corresponding DFA. [3]\n\n\nQ5 (a) Define regular expressions(re). How they are formed recursively using fundamental re\ns\n? [2]\n (b) State and explain Pumping lemma. [3]\n\n\nQ6 (a) Give mathematical definition of Grammar. [2]\n (b) Design  a grammar  to  generate  variable  declaration  statements  of  C  programming\nlanguage.\n[3]\n\n\n\n :::: 05/03/2019 ::::::E"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "courseCode": "PH102",
+  "courseName": "ELECTRICITY AND MAGNETISM",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS: IMSc   SEMESTER : II\nBRANCH: PHYSICS   SESSION : SP/2023\n\nSUBJECT: PH102 ELECTRICITY AND MAGNETISM\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) State and prove the differential form of Gauss’s law in electrostatics. [2] I V\nQ.1(b) Apply this law to calculate the electric field due to a uniformly charged sphere. [3] I III\n\n\nQ.2(a) Show that the vector field F= (x+3y)Î + (y-3z)ĵ + (x-2z) Ќ is solenoidal. [2] I I\nQ.2(b) Explain uniqueness theorem. [3] I II\n\n\nQ.3(a) What do you mean by bound charges? [2] II I\nQ.3(b) Discuss dielectric polarization and electric displacement. [3] II VI\n\n\nQ.4(a) What do you mean by energy density in electrostatic field? [2] II I\nQ.4(b) Estimate  the  maximum amount  of  electrostatic  energy  that  can  be  stored  in  1m\n3\n\nvolume of air. Given the dielectric strength of air 3×10\n6\n V/m.\n[3] II VI\n\n\nQ.5(a) Define Biot-Savart law in vector form. [2] III I\nQ.5(b) Starting from Biot-Savart law show that magnetic field is non divergent.  [3] III II\n\n\n::::::24/05/2023::::::M"
+    }
+  ]
+}

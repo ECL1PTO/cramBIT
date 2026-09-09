@@ -1,0 +1,13 @@
+{
+  "courseCode": "EE357",
+  "courseName": "ELECTRONIC DEVICES AND ANALOG CIRCUITS",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH   SEMESTER: V\nBRANCH: EEE   SESSION: MO/2022\n\nSUBJECT: EE357 ELECTRONIC DEVICES AND ANALOG CIRCUITS\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a) What is diffusion capacitance? [2] CO1,CO2 L1\nQ1 (b) Prove that transition capacitance C\nT\n= εA/W [3] CO1,CO2 L2\n\n\nQ2 (a) Find out the ripple factor of half wave rectifier. [2] CO1,CO2 L2\nQ2 (b)\nGiven  that:  R1-220  ohm,  V\nZ\n=20V,\nI\nZM\n=60mA, R\nL\n=1.2kohm, Find the range of Vin.\n[3] CO1,CO2 L3\n\n\nQ3 (a) What are the advantages and disadvantages of LED. [2] CO1,CO2 L2\nQ3 (b) In a half wave rectifier diode resistance= 10 ohm load resistance= 100ohm,\nsecondary of transformer supply 50V(rms). Find (a) the peak current (b) the\ntotal input ac power (c) the DC voltage.\n[3] CO1,CO2 L3\n\n\nQ4 (a) What are the different modes of BJT. [2] CO1,CO2 L2\nQ4 (b) Draw the input and output characteristics of CE configuration, also explain\nin brief.\n[3] CO1,CO2 L2\n\n\nQ5 (a) Draw the transductance curve of a JFET, also write the current equation\nId.\n[2] CO1,CO2 L2\nQ5 (b) What is IGBT? Explain its characteristics. [3] CO1,CO2 L2\n\n\n\n :::::: 01/10/2022 ::::::M"
+    }
+  ]
+}

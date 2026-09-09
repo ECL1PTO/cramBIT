@@ -1,0 +1,13 @@
+{
+  "courseCode": "BE001",
+  "courseName": "FOUNDATION TO ENGINEERING MATHEMATICS",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION MO2022)\nCLASS: BTECH   SEMESTER : I\nBRANCH: BIOTECHNOLOGY   SESSION : MO/2022\n\nSUBJECT: BE001 FOUNDATION TO ENGINEERING MATHEMATICS\nTIME: 02 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Find the determinant of matrix A\n\n[2] CO2,\nCO3\n5\nQ.1(b) Find the eigen values of the matrix\n\n[3] CO2,\nCO4\n4\n\nQ.2(a) Compare the equations of a circle, parabola, ellipse, and hyperbola. [2] CO2,\nCO1\n3\nQ.2(b)\ni. Simplify,\n\nii. Calculate the exact value of sin15°\n[3] CO4,\nCO5\n5\n\nQ.3(a) Find  the  equation  of  a  straight  line  that  passes  through  the  point  (-2,  3)  and\nperpendicular to the straight line 2x + 4y + 7 = 0.\n[2] CO2,\nCO3\n4\nQ.3(b)\nFind the cross product of two vectors, A=3i+2j−4k and B=2i−3j−6k\nAlso find the magnitude of A×B\n\n[3] CO4,\nCO5\n4\n\nQ.4(a) Differentiate:  y = 1 – 5x\n2\n + x\n3\n [2] CO2,\nCO4,\n3\nQ.4(b) Find the equation of Normal to the curve: y (x – 2) (x – 3) – x +1 = 0; at y = 0 [3] CO2,\nCO4\n4\n\nQ.5(a)\nCalculate\n\n[2] CO3,\nCO5\n4\nQ.5(b) Calculate maxima and minima of  3x\n4\n–2x\n3\n–6x\n2\n+6x+1 within 0 and 2 [3] CO4,\nCO1\n5\n\n\n:::::21/01/2023 M:::::"
+    }
+  ]
+}

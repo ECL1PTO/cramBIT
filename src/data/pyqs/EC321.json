@@ -1,0 +1,13 @@
+{
+  "courseCode": "EC321",
+  "courseName": "INTRO_ TO COMMUNICATION SYSTEM",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH   SEMESTER: V\nBRANCH: CSE   SESSION: MO/2022\n\nSUBJECT: EC321 INTRO. TO COMMUNICATION SYSTEM\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n    CO BL\nQ1 (a) Define the following terms:Amplitude Sensitivity ‘ka’, Modulation Index ‘ma’ [2] CO\nQ1 (b) Give the expressions for the power contents of side bands and carrier in the\nAM-wave.\n[3]  BL\n\n\nQ2 (a) Distinguish PM and FM waves from an AM wave. Illustrate these differences by\nplotting AM, PM, and FM waves for each case of sinusoidal modulation.\n[2] CO\nQ2 (b) Consider  an  angle-modulated  signal x(t)=  3cos[2π10\n6\nt+  2sin(2π10\n3\nt)], Find its\n(a)  instantaneous  frequency  at  time  (i)  t=0.25ms  and  (ii)  t=0.5ms,  (b)\nmaximum phase deviation and (c) maximum frequency deviation.\n[3]  BL\n\n\nQ3 (a) Briefly describe Superheterodyne AM receiver giving a block diagram for it and\nexplain its characteristics.\n[2] CO\nQ3 (b) Show the effect of phase error in coherent detection of DSB-SC signal. How to\novercome the quadrature null effect of DSB signals.\n[3]  BL\n\n\nQ4 (a) Explain  the  terms  synchronous  detection, envelope  detection,  coherent\ndetection, and non-coherent detection.\n[2] CO\nQ4 (b) What  are  the  advantages of  Time  division  multiplexing.  Discuss  the  block\ndiagram of the FDM. Mention the required number of voice channels for Jambo\nGroup.\n[3]  BL\n\n\nQ5 (a) Discuss the over sampling, perfect sampling and under sampling methods using\nseparate diagram. How can sampling theorem prevent aliasing?\n[2] CO\nQ5 (b) A speech signal has a total duration of 10s. It is sampled at the rate of 8 kHz\nand then encoded. The signal-to-(quantization) noise ratio is required to be 40\ndB.  Calculate  the  minimum  storage  capacity  needed  to  accommodate  this\ndigitized speech signal.\n[3]  BL\n\n\n\n\n :::::: 30/09/2022 ::::::M"
+    }
+  ]
+}
