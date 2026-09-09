@@ -13,51 +13,45 @@ export default function LandingPage() {
   return (
     <main className="min-h-screen bg-onyx">
       {/* nav */}
-      <Container className="flex items-center justify-between py-6">
+      <Container className="flex items-center justify-between py-5 sm:py-6">
         <span className="font-mono text-body-sm font-medium tracking-tight text-ivory">
-          cramBIT
+          cramBIT<span className="text-cobalt">_</span>
         </span>
-        <div className="flex items-center gap-2">
-          <Link
-            href="/login"
-            className="rounded-pill px-4 py-2 text-body-sm text-ash transition-colors hover:text-ivory"
-          >
-            Log in
-          </Link>
-          <ButtonLink href="/login" variant="ghost">
-            Get started
-          </ButtonLink>
-        </div>
+        <ButtonLink href="/login" variant="ghost" className="px-4 py-2">
+          Log in
+        </ButtonLink>
       </Container>
 
       {/* hero */}
-      <Container className="py-section">
+      <Container className="pt-12 pb-section sm:pt-16">
         <div className="max-w-3xl">
           <Badge className="rise rise-1">BIT Mesra · Noida campus</Badge>
-          <h1 className="rise rise-2 mt-6 text-h1 font-normal leading-[1.1] tracking-tight text-ivory md:text-display">
+          <h1 className="rise rise-2 mt-6 text-[2.35rem] font-normal leading-[1.08] tracking-tight text-ivory sm:text-h1 md:text-[3.5rem] lg:text-display">
             Walk into your mid-sem having already{" "}
             <span className="font-serif italic text-ash">seen the paper.</span>
           </h1>
-          <p className="rise rise-3 mt-6 max-w-xl text-lead leading-relaxed text-ash">
+          <p className="rise rise-3 mt-6 max-w-xl text-body leading-relaxed text-ash sm:text-lead">
             cramBIT reads the real past mid-sem papers for your course, cross-references
-            your syllabus, and writes the 25-mark question papers most likely to come up.
-            Three to four full sets, per subject.
+            your syllabus, and writes the 25-mark question papers most likely to come up —
+            three to four full sets, per subject.
           </p>
-          <div className="rise rise-3 mt-8 flex flex-wrap items-center gap-3">
-            <ButtonLink href="/login">Predict my first paper — free</ButtonLink>
+          <div className="rise rise-3 mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+            <ButtonLink href="/login" className="justify-center">
+              Predict my first paper — free
+            </ButtonLink>
             <Link
               href="#how"
-              className="px-4 py-2 text-body-sm text-ash transition-colors hover:text-ivory"
+              className="px-4 py-2 text-center text-body-sm text-ash transition-colors hover:text-ivory"
             >
               How it works
             </Link>
           </div>
-          <p className="mt-4 text-caption text-faint">{DISCLAIMER_SHORT}</p>
+          <p className="mt-5 text-caption text-faint">{DISCLAIMER_SHORT}</p>
         </div>
       </Container>
 
       {/* how it works */}
-      <Container id="how" className="py-section">
+      <Container id="how" className="scroll-mt-8 py-16 sm:py-section">
         <SectionHeading
           eyebrow="How it works"
           title="Past papers do the talking."
@@ -77,13 +71,13 @@ export default function LandingPage() {
           <Step
             n="03"
             title="Get the papers"
-            body="A frequency blueprint of topics and question styles, then 3–4 distinct 25-mark papers. Download as PDF, or ask the tutor to solve any question."
+            body="A frequency blueprint of topics and question styles, then three distinct 25-mark papers. Download as PDF, or ask the tutor to solve any question."
           />
         </div>
       </Container>
 
       {/* honesty */}
-      <Container className="py-section">
+      <Container className="py-16 sm:py-section">
         <div className="grid gap-10 md:grid-cols-[1.1fr_1fr] md:items-start">
           <SectionHeading
             eyebrow="How accurate is this?"
@@ -103,7 +97,7 @@ export default function LandingPage() {
       </Container>
 
       {/* pricing */}
-      <Container className="py-section">
+      <Container className="py-16 sm:py-section">
         <SectionHeading eyebrow="Pricing" title="Your first subject is free." />
         <div className="mt-10 grid gap-4 md:grid-cols-3">
           <PriceCard

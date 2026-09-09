@@ -10,6 +10,11 @@ const manifest = readJson("project_reference/pyq_manifest.json", {}) ?? {};
 const corpus = readJson("src/data/pyq_corpus.json", []) ?? [];
 const seen = new Set(corpus.map((c) => c.key));
 
+// Optional: restrict to certain departments (Noida-relevant first).
+//   node scripts/extract-pyqs.mjs CSE Management Mathematics
+const onlyDepts = process.argv.slice(2);
+const wanted = (dept) => onlyDepts.length === 0 || onlyDepts.includes(dept);
+
 const SYSTEM = "You transcribe university exam papers into structured JSON. JSON only.";
 const prompt = (text) => `Extract this exam question paper. Return JSON:
 { "courseCode": "<code>", "courseName": "<title>", "session": "<e.g. Monsoon 2022>",
@@ -25,7 +30,7 @@ ${text.slice(0, 24000)}`;
 const scanned = [];
 
 for (const [key, m] of Object.entries(manifest)) {
-  if (!m.downloaded || m.examType === "OTHER" || seen.has(key)) continue;
+  if (!m.downloaded || m.examType !== "MID" || seen.has(key) || !wanted(m.dept)) continue;
   const abs = path.join(ROOT, "project_reference", "pyq_pdfs", m.dept, m.name);
   console.log("→", key);
   try {

@@ -17,7 +17,10 @@ export function Container({
   ...props
 }: HTMLAttributes<HTMLDivElement>) {
   return (
-    <div className={clsx("mx-auto w-full max-w-[1120px] px-6", className)} {...props}>
+    <div
+      className={clsx("mx-auto w-full max-w-[1120px] px-5 sm:px-6", className)}
+      {...props}
+    >
       {children}
     </div>
   );
@@ -98,13 +101,7 @@ export function Card({
   ...props
 }: HTMLAttributes<HTMLDivElement>) {
   return (
-    <div
-      className={clsx(
-        "rounded-card bg-graphite p-8",
-        className,
-      )}
-      {...props}
-    >
+    <div className={clsx("rounded-card bg-graphite p-6 sm:p-8", className)} {...props}>
       {children}
     </div>
   );

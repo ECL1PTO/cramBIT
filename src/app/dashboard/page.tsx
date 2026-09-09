@@ -281,7 +281,7 @@ export default function Dashboard() {
                 </button>
               </div>
 
-              <article className="print-sheet rounded-sheet border border-hairline bg-graphite p-8 font-mono text-body-sm leading-relaxed text-ivory [&_h1]:text-h3 [&_hr]:my-4 [&_hr]:border-hairline [&_p]:my-2">
+              <article className="print-sheet overflow-x-auto rounded-sheet border border-hairline bg-graphite p-5 font-mono text-body-sm leading-relaxed text-ivory sm:p-8 [&_h1]:text-h3 [&_hr]:my-4 [&_hr]:border-hairline [&_img]:hidden [&_p]:my-2 [&_table]:block [&_table]:overflow-x-auto">
                 <Markdown>{sets[activeSet] ?? ""}</Markdown>
               </article>
             </div>
