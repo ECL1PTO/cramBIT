@@ -1,13 +1,13 @@
-// Crawl archive.bitmesra.ac.in question-paper archive across ALL departments.
+// Crawl the BIT Mesra question-paper archive across ALL departments.
 // Downloads MID + END semester PDFs and writes a manifest. Resumable.
-//
 //   node scripts/scrape-archive.mjs
 import fs from "node:fs";
 import path from "node:path";
 import * as cheerio from "cheerio";
 import { ROOT, sleep, writeJson, readJson } from "./lib.mjs";
 
-const BASE = "https://archive.bitmesra.ac.in";
+const LIST_BASE = "https://archive.bitmesra.ac.in";
+const FILE_BASE = "https://www.bitmesra.ac.in"; // PDFs 301 → bitmesra.ac.in
 const DEPTS = {
   Architecture: 376, BioEngg: 375, Chemical: 378, Chemistry: 379, Civil: 445,
   CSE: 446, CQEDS: 447, EEE: 448, ECE: 449, HMCT: 450, Management: 439,
@@ -19,56 +19,65 @@ const OUT_DIR = path.join(ROOT, "project_reference", "pyq_pdfs");
 const MANIFEST = "project_reference/pyq_manifest.json";
 const manifest = readJson(MANIFEST, {}) ?? {};
 
-async function get(url) {
-  const res = await fetch(url, { headers: { "User-Agent": "crambit-datasync" } });
-  if (!res.ok) throw new Error(`${res.status} ${url}`);
-  return res.text();
-}
+const get = (url) =>
+  fetch(url, { headers: { "User-Agent": "crambit-datasync" } }).then((r) => {
+    if (!r.ok) throw new Error(`${r.status}`);
+    return r.text();
+  });
 
 for (const [dept, pid] of Object.entries(DEPTS)) {
-  const url = `${BASE}/Visit_Other_Department_9910?cid=1&deptid=258&pid=${pid}`;
-  console.log("\n==", dept);
+  console.log(`\n== ${dept}`);
   let html;
   try {
-    html = await get(url);
+    html = await get(`${LIST_BASE}/Visit_Other_Department_9910?cid=1&deptid=258&pid=${pid}`);
   } catch (e) {
-    console.error(" dept failed:", e.message);
+    console.error(" dept page failed:", e.message);
     continue;
   }
   const $ = cheerio.load(html);
   const links = new Set();
-  $("a[href$='.pdf']").each((_, a) => {
-    const href = $(a).attr("href");
-    if (href) links.add(href.startsWith("http") ? href : BASE + href);
+  $("a[href]").each((_, a) => {
+    const href = $(a).attr("href") ?? "";
+    // Only real exam-paper documents.
+    if (/\/UploadedDocuments\/adminexam\/files\/.+\.pdf$/i.test(href)) {
+      links.add(href.startsWith("http") ? href : FILE_BASE + href);
+    }
   });
+  console.log(` ${links.size} question-paper PDFs`);
 
-  console.log(` ${links.size} PDF links`);
+  let ok = 0;
   for (const link of links) {
     const name = decodeURIComponent(link.split("/").pop());
-    const isMid = /MID|MSE/i.test(name);
-    const examType = isMid ? "MID" : /END|ESE/i.test(name) ? "END" : "OTHER";
-    const codeMatch = name.match(/\b([A-Z]{2}\d{3,6})\b/);
-    const code = codeMatch ? codeMatch[1] : "UNKNOWN";
-
+    const examType = /\(MID|_MID|MSE/i.test(name)
+      ? "MID"
+      : /\(END|_END|ESE/i.test(name)
+        ? "END"
+        : "OTHER";
+    const code = (name.match(/\b([A-Z]{2}\d{3,6})\b/) ?? [])[1] ?? "UNKNOWN";
     const key = `${dept}/${name}`;
-    if (manifest[key]?.downloaded) continue;
+    if (manifest[key]?.downloaded) {
+      ok++;
+      continue;
+    }
 
-    const destDir = path.join(OUT_DIR, dept);
-    fs.mkdirSync(destDir, { recursive: true });
-    const dest = path.join(destDir, name);
+    const dir = path.join(OUT_DIR, dept);
+    fs.mkdirSync(dir, { recursive: true });
     try {
-      const res = await fetch(link);
+      const res = await fetch(link, { redirect: "follow" });
       if (!res.ok) throw new Error(String(res.status));
       const buf = Buffer.from(await res.arrayBuffer());
-      fs.writeFileSync(dest, buf);
+      fs.writeFileSync(path.join(dir, name), buf);
       manifest[key] = { dept, name, code, examType, url: link, downloaded: true, bytes: buf.length };
+      ok++;
     } catch (e) {
       manifest[key] = { dept, name, code, examType, url: link, downloaded: false, error: e.message };
     }
-    await sleep(300);
+    await sleep(250);
   }
   writeJson(MANIFEST, manifest);
+  console.log(` ${ok}/${links.size} downloaded`);
 }
 
 const total = Object.values(manifest).filter((m) => m.downloaded).length;
-console.log(`\ndone — ${total} PDFs downloaded`);
+const mid = Object.values(manifest).filter((m) => m.downloaded && m.examType === "MID").length;
+console.log(`\ndone — ${total} PDFs (${mid} MID)`);
