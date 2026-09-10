@@ -6,8 +6,10 @@ import { useSearchParams } from "next/navigation";
 import { Button, Card, Container, Field } from "@/components/ui";
 import { PRICING } from "@/data/pricing";
 import { PAYMENT_NOTE } from "@/data/legal";
+import { RazorpayButton } from "@/components/razorpay-button";
 
 const VPA = process.env.NEXT_PUBLIC_UPI_VPA ?? "";
+const RAZORPAY = Boolean(process.env.NEXT_PUBLIC_RAZORPAY_KEY_ID);
 
 function PayInner() {
   const params = useSearchParams();
@@ -42,6 +44,8 @@ function PayInner() {
     setState("done");
   }
 
+  const title = plan === "bundle" ? "Season bundle" : `Unlock ${subject}`;
+
   return (
     <main className="flex min-h-screen items-center">
       <Container className="max-w-md">
@@ -66,46 +70,60 @@ function PayInner() {
             </>
           ) : (
             <>
-              <h1 className="text-h3 font-normal text-text">
-                {plan === "bundle" ? "Season bundle" : `Unlock ${subject}`}
-              </h1>
+              <h1 className="text-h3 font-normal text-text">{title}</h1>
               <p className="mt-1 font-mono text-h3 text-text">₹{amount}</p>
 
-              <ol className="mt-6 space-y-3 text-body-sm text-muted">
-                <li>
-                  1. Pay ₹{amount} to{" "}
-                  {VPA ? (
-                    <span className="font-mono text-text">{VPA}</span>
-                  ) : (
-                    <span className="text-faint">(UPI ID not configured)</span>
-                  )}
-                  {VPA && (
-                    <>
-                      {" "}
-                      —{" "}
-                      <a href={upiLink} className="text-accent hover:underline">
-                        open UPI app
-                      </a>
-                    </>
-                  )}
-                </li>
-                <li>2. Copy the 12-digit UPI reference / UTR from your payment receipt.</li>
-                <li>3. Paste it below.</li>
-              </ol>
+              {RAZORPAY ? (
+                <div className="mt-6">
+                  <RazorpayButton
+                    plan={plan}
+                    subjectCode={subject}
+                    label={`Pay ₹${amount}`}
+                  />
+                  <p className="mt-3 text-body-sm text-muted">
+                    UPI, cards, or net banking. Unlocks automatically the moment payment
+                    clears — no reference number to copy.
+                  </p>
+                </div>
+              ) : (
+                <>
+                  <ol className="mt-6 space-y-3 text-body-sm text-muted">
+                    <li>
+                      1. Pay ₹{amount} to{" "}
+                      {VPA ? (
+                        <span className="font-mono text-text">{VPA}</span>
+                      ) : (
+                        <span className="text-faint">(UPI ID not configured)</span>
+                      )}
+                      {VPA && (
+                        <>
+                          {" "}
+                          —{" "}
+                          <a href={upiLink} className="text-accent hover:underline">
+                            open UPI app
+                          </a>
+                        </>
+                      )}
+                    </li>
+                    <li>2. Copy the 12-digit UPI reference / UTR from your payment receipt.</li>
+                    <li>3. Paste it below.</li>
+                  </ol>
 
-              <form onSubmit={submit} className="mt-6 space-y-4">
-                <Field
-                  label="UPI reference / UTR"
-                  value={utr}
-                  onChange={(e) => setUtr(e.target.value.trim())}
-                  placeholder="123456789012"
-                  required
-                  error={error ?? undefined}
-                />
-                <Button type="submit" className="w-full" disabled={state === "sending"}>
-                  {state === "sending" ? "Submitting…" : "I’ve paid — submit"}
-                </Button>
-              </form>
+                  <form onSubmit={submit} className="mt-6 space-y-4">
+                    <Field
+                      label="UPI reference / UTR"
+                      value={utr}
+                      onChange={(e) => setUtr(e.target.value.trim())}
+                      placeholder="123456789012"
+                      required
+                      error={error ?? undefined}
+                    />
+                    <Button type="submit" className="w-full" disabled={state === "sending"}>
+                      {state === "sending" ? "Submitting…" : "I’ve paid — submit"}
+                    </Button>
+                  </form>
+                </>
+              )}
 
               <p className="mt-4 text-caption text-faint">{PAYMENT_NOTE}</p>
             </>

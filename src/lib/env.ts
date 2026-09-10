@@ -30,6 +30,13 @@ const schema = z.object({
   TELEGRAM_ADMIN_CHAT_ID: z.string().optional(),
   TELEGRAM_WEBHOOK_SECRET: z.string().optional(),
 
+  // Razorpay — when all three are set, checkout + the payment.captured webhook
+  // replace the manual UPI/UTR flow and unlock instantly.
+  RAZORPAY_KEY_ID: z.string().optional(),
+  RAZORPAY_KEY_SECRET: z.string().optional(),
+  RAZORPAY_WEBHOOK_SECRET: z.string().optional(),
+  NEXT_PUBLIC_RAZORPAY_KEY_ID: z.string().optional(), // same value, exposed to checkout
+
   // Transactional email (payment activation). SMTP is preferred — one config
   // that also powers Supabase Auth's magic-link mail. Resend API is a fallback.
   SMTP_HOST: z.string().optional(),
@@ -55,9 +62,16 @@ if (!parsed.success) {
 
 export const env = parsed.data;
 
-export const paymentsConfigured = Boolean(
+export const razorpayConfigured = Boolean(
+  env.RAZORPAY_KEY_ID && env.RAZORPAY_KEY_SECRET && env.RAZORPAY_WEBHOOK_SECRET,
+);
+
+export const upiFlowConfigured = Boolean(
   env.NEXT_PUBLIC_UPI_VPA &&
     env.TELEGRAM_BOT_TOKEN &&
     env.TELEGRAM_ADMIN_CHAT_ID &&
     env.TELEGRAM_WEBHOOK_SECRET,
 );
+
+/** Some paid path is available (Razorpay preferred, manual UPI as fallback). */
+export const paymentsConfigured = razorpayConfigured || upiFlowConfigured;
