@@ -15,6 +15,116 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VII/ADD\nBRANCH: CSE  SESSION : MO/2018\n\nSUBJECT : CS5105 SOFT COMPUTING\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) Why we need fuzzy set theory? Elaborate. [2]\n (b) Explain why the law of contradiction and law of excluded middle are violated in fuzzy\nset theory under the standard fuzzy set operations. What is the significance of this?\n[3]\n\n\nQ2 (a) What is convexity? Explain with example when fuzzy set is convex? [2]\n (b) Explain the following\n1. Level set\n2. Degree of subsethood\n3. Hamming distance\n[3]\n\n\nQ3 (a) Let A and B be two fuzzy set defined as\n A = .2/x\n1\n + .4/x\n2\n + .5/x\n3\n+ .8/x\n4\n  + 1/x\n5\n\n[5]\n\n  B = .5/x\n1\n+ .8/x\n2\n+ .9/x\n3\n+ 1/x\n4\n  + 1/x\n5\n\nFind   (a) A∩B  , (b) A – B,  (c) A∪B (d) S(A,B)  (e)\n.5\n(│A│)\n\n\nQ4 (a) Let A and B be two fuzzy numbers defined as\n\nA(x) =     0                  for x≤ -1 and x > 3\n[5]\n                (x+ 1) / 2     for -1 < x ≤ 1\n              (3 – x) / 2    for 1 < x  ≤ 3\n\n\nB(x) =     0                   for x ≤ 1 and x > 5\n\n                 (x – 1)/2        for  1 < x ≤ 3\n               (5 – x)/2        for 3 < x ≤ 5\n\n\n    Find (A)   (A + B) (x),     (B) (A . B) (x)\n\n\n\nQ5  What are different types of fuzzy propositions? Explain them with examples. [5]\n\n\nQ6 (a) What is defuzzification? Explain. [2]\n (b) What is Mamdani inference system model? Explain.  [3]\n\n\n\n :::: 10/09/2018 M ::::::"
+    },
+    {
+      "session": "MO/2019",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is fuzziness? Explain with example.",
+              "marks": 2,
+              "topic": "fuzziness"
+            },
+            {
+              "label": "b",
+              "text": "Define fuzzy set. Elaborate the importance of membership values.",
+              "marks": 3,
+              "topic": "fuzzy set"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Let A and B be fuzzy sets defined on a universal set X. Prove that |A| + |B| = |A \\cup B| + |A \\cap B|.",
+              "marks": 2,
+              "topic": "set operations"
+            },
+            {
+              "label": "b",
+              "text": "Let A and B be two fuzzy sets defined as A = .7/x1 + .5/x2 + .7/x3 + .9/x4 + 1/x5, and B = .8/x1 + .9/x2 + 1/x3 + .9/x4 + .2/x5. Find (a) A-B (b) A \\cup B (c) .5 + (A \\cap B).",
+              "marks": 3,
+              "topic": "fuzzy sets"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Given fuzzy number A(x) defined piecewise (0 for x ≤ -1 and x > 3; (x+1)/2 for -1 < x ≤ 1; (3‑x)/2 for 1 < x ≤ 3) and fuzzy number B(x) defined piecewise (0 for x ≤ 1 and x > 5; (x‑1)/2 for 1 < x ≤ 3; (5‑x)/2 for 3 < x ≤ 5), find (A‑B)(x).",
+              "marks": 2,
+              "topic": "fuzzy numbers"
+            },
+            {
+              "label": "b",
+              "text": "Using the same A(x) and B(x), find (A * B)(x).",
+              "marks": 3,
+              "topic": "fuzzy numbers"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What are different fuzzy quantifiers? Explain with examples.",
+              "marks": 2,
+              "topic": "fuzzy quantifiers"
+            },
+            {
+              "label": "b",
+              "text": "What are different fuzzy propositions? Elaborate them.",
+              "marks": 3,
+              "topic": "fuzzy propositions"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Given temperature set X and rotation set Y with fuzzy sets H, VH, QS, S as defined, apply the Fuzzy Modus Ponens Rule to deduce “Rotation is quite slow” given (i) If the temperature is high then the rotation is slow. (ii) The temperature is very high.",
+              "marks": 5,
+              "topic": "fuzzy modus ponens"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the Mamdani fuzzy model with examples.",
+              "marks": null,
+              "topic": "Mamdani"
+            },
+            {
+              "label": "b",
+              "text": "Explain the Sugeno fuzzy model with examples.",
+              "marks": null,
+              "topic": "Sugeno"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

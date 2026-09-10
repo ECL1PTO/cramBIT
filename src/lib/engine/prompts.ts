@@ -12,7 +12,7 @@ BIT Mesra (Noida campus) MID-SEMESTER format — non-negotiable:
 
 const clip = (s: string, n: number) => (s.length > n ? s.slice(0, n) + "…" : s);
 
-function renderPapers(papers: PastPaper[], budgetChars = 4000): string {
+function renderPapers(papers: PastPaper[], budgetChars = 3000): string {
   const list = papers.slice(0, 3);
   const per = Math.floor(budgetChars / Math.max(1, list.length));
   const rendered = list.map((p) => {

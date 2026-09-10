@@ -1620,5 +1620,25 @@
       "intersection closure"
     ],
     "sessions": 1
+  },
+  {
+    "key": "CSE/CS5105 SOFT COMPUTING (MID_MO19).pdf",
+    "code": "CS5105",
+    "name": "SOFT COMPUTING",
+    "dept": "CSE",
+    "topics": [
+      "fuzziness",
+      "fuzzy set",
+      "membership values",
+      "set operations",
+      "fuzzy sets",
+      "fuzzy numbers",
+      "fuzzy quantifiers",
+      "fuzzy propositions",
+      "fuzzy modus ponens",
+      "Mamdani",
+      "Sugeno"
+    ],
+    "sessions": 1
   }
 ]
