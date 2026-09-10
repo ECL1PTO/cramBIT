@@ -8,6 +8,92 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS: IMSc.   SEMESTER: II\nBRANCH: QEDS   SESSION: SP 2023\n\nSUBJECT: ED111 INTERMEDIATE ANALYSIS\nTIME: 02 Hours   FULL MARKS: 25\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n5. All the notations used in the question paper have usual meanings.\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO\nQ.1(a)\nShow that the sequence of functions {푓\n௡\n(푥)}, where 푓\n௡\n(\n푥\n)\n=푛푥푒\nି௡௫\nమ\n,푥≥0 is pointwise\nconvergent but NOT uniformly convergent on\n[\n0,푘\n]\n,푘>0.\n\n[3]\n\nCO1\nQ.1(b)\nTest the uniform convergency for the series of functions\n∑\nୱ୧୬(௫\nమ\nା௡\nమ\n௫)\n௡(௡ାଵ)\nஶ\n௡ୀଵ\n by Weierstrass M-\ntest.\n\n[2]\n\nCO1\n\n\nQ.2\nShow that the series\n∑\n௫\n௡\n೛\nା௫\nమ\n௡\n೜\nஶ\n௡ୀଵ\n converges uniformly over any finite interval [푎,푏]\nfor\n(\n푖\n)\n.푝>1,푞≥0  and\n(\n푖푖\n)\n.0<푝≤1,푝+푞>2.\n\n[5]\n\nCO1\n\n\nQ.3(a) Determine the radius of convergence of the power series\n1+\n훼.훽\n1.훾\n푥+\n훼\n(\n훼+1\n)\n훽\n(\n훽+1\n)\n1.2.훾\n(\n훾+1\n)\n푥\nଶ\n+⋯\n\n\n[2]\n\n\nCO2\nQ.3(b) Identify the exact interval of convergence of the following power series.\n෍\n(\n푛!\n)\nଶ\n(\n2푛\n)\n!\n푥\nଶ௡\n.\nஶ\n௡ୀଵ\n\n\n\n[3]\n\n\nCO2\n\n\nQ.4\nRepresent the periodic function 푓\n(\n푥\n)\n=푥−푥\nଶ\n in form of Fourier series in −휋 to 휋.\n[5] CO2\n\n\nQ.5(a) Define refinement of a partition of a given interval\n[\n푎,푏\n]\n. [1] CO3\nQ.5(b)\nSuppose that 푃,푄∈ℙ, where ℙ is the set of all the partitions of\n[\n푎,푏\n]\n, and 푄 is a refinement\nof 푃. Let 푓:\n[\n푎,푏\n]\n→ℝ be  a  bounded  function  and 훼:\n[\n푎,푏\n]\n→ℝ be  a  monotonic  increasing\nfunction. Then prove that\n푈\n(\n푃,푓,훼\n)\n≥푈\n(\n푄,푓,훼\n)\n and  퐿\n(\n푃,푓,훼\n)\n≤퐿(푄,푓,훼.)\n\n[4]\n\nCO3\n\n\n::::::24/05/2023::::::M"
+    },
+    {
+      "session": "SP 2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Show that the sequence of functions f_n(x)=n x e^{-n x}, x\\ge0 is pointwise convergent but NOT uniformly convergent on [0,k], k>0.",
+              "marks": 3,
+              "topic": "uniform convergence"
+            },
+            {
+              "label": "b",
+              "text": "Test the uniform convergence for the series of functions \\sum ... by Weierstrass M-test.",
+              "marks": 2,
+              "topic": "Weierstrass M-test"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Show that the series \\sum ... converges uniformly over any finite interval [a,b] for (i) p>1, q\\ge0 and (ii) 0<p\\le1, p+q>2.",
+              "marks": 5,
+              "topic": "uniform convergence"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Determine the radius of convergence of the given power series.",
+              "marks": 2,
+              "topic": "radius of convergence"
+            },
+            {
+              "label": "b",
+              "text": "Identify the exact interval of convergence of the given power series.",
+              "marks": 3,
+              "topic": "interval of convergence"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Represent the periodic function f(x)=x - x (fractional part) in Fourier series on [-\\pi,\\pi].",
+              "marks": 5,
+              "topic": "Fourier series"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define refinement of a partition of a given interval [a,b].",
+              "marks": 1,
+              "topic": "partition refinement"
+            },
+            {
+              "label": "b",
+              "text": "Prove that for partitions P\\subset Q, the upper sum U(P,f,\\alpha)\\ge U(Q,f,\\alpha) and lower sum L(P,f,\\alpha)\\le L(Q,f,\\alpha).",
+              "marks": 4,
+              "topic": "upper sum lower sum"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

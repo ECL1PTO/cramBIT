@@ -3145,5 +3145,22 @@
       "Relational Algebra"
     ],
     "sessions": 1
+  },
+  {
+    "key": "CQEDS/ED111 INTERMEDIATE ANALYSIS (MID_SP23).pdf",
+    "code": "ED111",
+    "name": "INTERMEDIATE ANALYSIS",
+    "dept": "CQEDS",
+    "topics": [
+      "uniform convergence",
+      "Weierstrass M-test",
+      "radius of convergence",
+      "interval of convergence",
+      "Fourier series",
+      "partition refinement",
+      "upper sum",
+      "lower sum"
+    ],
+    "sessions": 1
   }
 ]

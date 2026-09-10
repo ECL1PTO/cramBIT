@@ -51,8 +51,11 @@ export function analysisPrompt(args: {
         .join(", ")
     : "";
 
-  return `You are cramBIT's exam-pattern analyst. Think carefully and thoroughly about how the
-mid-sem for "${args.courseName}" is actually set, based on real evidence.
+  return `You are cramBIT's exam-pattern analyst, analysing how the mid-sem for
+"${args.courseName}" is actually set, based on real evidence.
+
+Output rules: reply with ONE JSON object and nothing else — no reasoning, no
+explanation, no markdown code fences. Do your thinking silently.
 
 SYLLABUS (the only allowed scope):
 ${clip(args.syllabus, 3400)}
@@ -73,7 +76,8 @@ Analyse:
 - Which modules were NOT asked in the most recent session (i.e. "due").
 - Which module pairs tend to appear together in one paper.
 
-Return JSON only:
+Cover EVERY syllabus module. Base everything on the evidence above, not generic
+guessing. Reply with exactly this JSON object and nothing before or after it:
 {
   "modules": [
     { "title": "<module>", "frequency": "very-high|high|medium|low",
@@ -83,8 +87,7 @@ Return JSON only:
   "coOccurring": [["<moduleA>","<moduleB>"]],
   "repeats": ["<near-verbatim recurring questions>"],
   "notes": "<2-3 sentences on the overall setting pattern>"
-}
-Cover EVERY syllabus module. Base everything on the evidence above, not generic guessing.`;
+}`;
 }
 
 /* ------------------------------------------------------------------ pass 2 */
@@ -96,7 +99,10 @@ export function candidatePoolPrompt(args: {
   pastPapers: PastPaper[];
 }): string {
   return `You are predicting the ACTUAL questions likely to appear on the next mid-sem of
-"${args.courseName}". Reason step by step, then output the pool.
+"${args.courseName}".
+
+Output rules: reply with ONE JSON object and nothing else — no reasoning, no
+explanation, no markdown code fences. Do your thinking silently.
 
 SYLLABUS:
 ${clip(args.syllabus, 2800)}
@@ -114,10 +120,10 @@ Build a pool of the most probable individual sub-questions. For each:
 - Give a one-line rationale citing the pattern/years.
 
 Produce at least 16 candidates spanning all high- and medium-frequency modules (more 3-mark
-than 2-mark). Return JSON only:
+than 2-mark). Every question must be strictly inside the syllabus. Reply with exactly this
+JSON object and nothing before or after it:
 { "candidates": [ { "module": "<module>", "marks": 2|3, "text": "<exact question>",
-                    "probability": <0-1>, "rationale": "<why>" } ] }
-Every question must be strictly inside the syllabus.`;
+                    "probability": <0-1>, "rationale": "<why>" } ] }`;
 }
 
 /* ------------------------------------------------------------------ pass 3 */

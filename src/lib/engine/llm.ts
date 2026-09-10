@@ -123,9 +123,10 @@ async function callOpenAICompatible(
   return text;
 }
 
-// Stop trying new providers once we're this close to the serverless limit —
-// better a clean "at capacity" than a raw 504.
-const CHAIN_DEADLINE_MS = 52_000;
+// Each generation phase (plan / pool / write) is its own 60s serverless call,
+// so the chain has almost the full budget. Stop before the hard limit so we
+// return a clean "at capacity" instead of a raw 504.
+const CHAIN_DEADLINE_MS = 55_000;
 
 /** Plain text — first provider that answers wins. */
 export async function chat(o: ChatOpts): Promise<string> {
@@ -157,6 +158,11 @@ export async function chat(o: ChatOpts): Promise<string> {
  * JSON with validation — walks the provider chain until one returns output that
  * both parses AND passes `validate`. Bad JSON from a free model just moves on.
  */
+const JSON_SYSTEM =
+  "You output only a single raw JSON value. No prose, no reasoning, no <think> blocks, " +
+  "no markdown code fences — the response must start with { or [ and end with the matching " +
+  "bracket. Think silently.";
+
 export async function chatJson<T>(
   o: ChatOpts,
   validate: (v: unknown) => T,
@@ -164,33 +170,50 @@ export async function chatJson<T>(
   const errors: string[] = [];
   const started = Date.now();
   const attempts = [...chainFor(o.tier), null];
+  // Free models are stochastic about honouring "JSON only" — give each provider a
+  // couple of tries before burning the fallback chain.
+  const TRIES_PER_PROVIDER = 2;
+  const jo: ChatOpts = {
+    ...o,
+    json: true,
+    system: o.system ? `${JSON_SYSTEM}\n\n${o.system}` : JSON_SYSTEM,
+    maxTokens: Math.max(o.maxTokens ?? 0, 2000),
+  };
+
   for (const a of attempts) {
-    const left = CHAIN_DEADLINE_MS - (Date.now() - started);
-    if (left < 4000) break;
-    try {
-      let raw: string;
-      if (a) {
-        if (!a.key) continue;
-        raw = await callOpenAICompatible(a, { ...o, json: true }, left);
-      } else {
-        raw = await geminiGenerate({
-          model: o.tier === "reason" ? "gemini-flash-latest" : "gemini-flash-lite-latest",
-          system: o.system,
-          prompt: o.prompt,
-          json: true,
-          maxOutputTokens: o.maxTokens,
-        });
+    if (a && !a.key) continue;
+    for (let t = 0; t < (a ? TRIES_PER_PROVIDER : 1); t++) {
+      const left = CHAIN_DEADLINE_MS - (Date.now() - started);
+      if (left < 8000) break; // not enough time for another call — fall through
+      try {
+        const raw = a
+          ? await callOpenAICompatible(a, jo, left)
+          : await geminiGenerate({
+              model: o.tier === "reason" ? "gemini-flash-latest" : "gemini-flash-lite-latest",
+              system: jo.system,
+              prompt: o.prompt,
+              json: true,
+              maxOutputTokens: jo.maxTokens,
+            });
+        return validate(parseJson<unknown>(raw));
+      } catch (err) {
+        errors.push(
+          `${a ? a.provider + "/" + a.model : "gemini"}#${t}: ${err instanceof Error ? err.message : err}`,
+        );
       }
-      return validate(parseJson<unknown>(raw));
-    } catch (err) {
-      errors.push(`${a ? a.provider + "/" + a.model : "gemini"}: ${err instanceof Error ? err.message : err}`);
     }
   }
   throw new Error(`capacity — no provider produced valid JSON: ${errors.join(" | ")}`);
 }
 
 export function parseJson<T>(raw: string): T {
-  const s = raw.trim().replace(/^```(?:json)?/i, "").replace(/```\s*$/, "").trim();
+  const s = raw
+    .replace(/<think>[\s\S]*?<\/think>/gi, "") // reasoning-model scratchpad
+    .replace(/<\|[^|]*\|>/g, "") // chat control tokens
+    .trim()
+    .replace(/^```(?:json)?/i, "")
+    .replace(/```\s*$/, "")
+    .trim();
   try {
     return JSON.parse(s) as T;
   } catch {
