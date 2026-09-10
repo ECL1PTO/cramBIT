@@ -113,6 +113,104 @@
           ]
         }
       ]
+    },
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Discuss the different issues in Data Mining.",
+              "marks": 2,
+              "topic": "Data Mining Issues"
+            },
+            {
+              "label": "b",
+              "text": "What is the difference between discrimination and classification, between characterization and clustering, between classification and prediction? For each of these pairs of tasks, how are they similar?",
+              "marks": 3,
+              "topic": "Data Mining Tasks Comparison"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Briefly describe the following database system: Temporal, Spatial, and Time-Series databases.",
+              "marks": 2,
+              "topic": "Database Types"
+            },
+            {
+              "label": "b",
+              "text": "Discuss (shortly) whether each of the following activities is a data mining task or not: (i) Dividing the customers of a company according to their profitability (ii) Predicting the outcomes of tossing a (fair) pair of dice. (iii) Predicting the future stock price of a company using historical records. (iv) Monitoring the heart rate of a patient for abnormalities. (v) Extracting the frequencies of a sound wave. (vi) Social Impacts on Smart Phone.",
+              "marks": 3,
+              "topic": "Data Mining Task Identification"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Discuss the different issues to be consider during data integration.",
+              "marks": 2,
+              "topic": "Data Integration Issues"
+            },
+            {
+              "label": "b",
+              "text": "Given the following measurements for the variable age: 18; 22; 25; 42; 28; 43; 33; 35; 56; 28; Standardize the variable by the following: (i) Compute the mean absolute deviation of age. (ii) Compute the z-score for the first four measurements.",
+              "marks": 3,
+              "topic": "Data Standardization"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the different OLAP operations on multidimensional data with suitable example.",
+              "marks": 2,
+              "topic": "OLAP Operations"
+            },
+            {
+              "label": "b",
+              "text": "Explain the architectural elements of the Data Warehouse with a suitable diagram.",
+              "marks": 3,
+              "topic": "Data Warehouse Architecture"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain how the bitmap indexing method implement in Data Warehouse with suitable diagram.",
+              "marks": 2,
+              "topic": "Bitmap Indexing"
+            },
+            {
+              "label": "b",
+              "text": "What are the different schemas for multidimensional databases and implement any one schema for “Sales” that connected with Item, Time, Locations, and Branch.",
+              "marks": 3,
+              "topic": "Multidimensional Schemas"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

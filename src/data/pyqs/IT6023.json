@@ -15,6 +15,122 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VI\nBRANCH: IT   SESSION : SP/2019\n\nSUBJECT : IT6023 COMPUTER NETWORKS AND SECURITY\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) Explain the key principles of security? What are the security approaches to implement\nin security model?\n[2]\n (b) List and briefly define categories of passive and active security attacks with example. [3]\n\nQ2 (a) Distinguish between Stream Cipher & Block Cipher? Give examples. [2]\n (b) Using the Vigenere cipher, encrypt the word “cryptography” using the key house. Also\nperform decryption.\n[3]\n\nQ3 (a) What is the life cycle of a key? [2]\n (b)\nEncrypt the message “good morning” using the Hill cipher with key k=\nቂ\nퟔퟒ\nퟓퟕ\nቃ\n.\n[3]\n\nQ4 (a) Define algorithm modes. Explain Cipher feedback with suitable example. [2]\n (b) With suitable block diagram explain the working of DES Algorithm.  [3]\n\nQ5 (a) Differentiate between Symmetric and Asymmetric Cryptography with suitable example. [2]\n (b) Given two prime numbers P=47, Q=71, find out n,e and d in the RSA encryption process. [3]\n\nQ6  Write short notes on:\ni) Affine Cipher\nii) Diffie –Hellman key exchange\n\n   [2.5*2]\n\n\n:::: 06/03//2019 E::::::"
+    },
+    {
+      "session": "SP/2020",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What are the different types of classical encryption techniques?",
+              "marks": 2,
+              "topic": "classical encryption techniques"
+            },
+            {
+              "label": "b",
+              "text": "Discuss the different types of Modes of Operation using a suitable block diagram.",
+              "marks": 3,
+              "topic": "modes of operation"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Compare the symmetric-key and asymmetric-key cryptography.",
+              "marks": 2,
+              "topic": "symmetric-key cryptography"
+            },
+            {
+              "label": "b",
+              "text": "Given the key ‘GYBNQKURP’, apply the Hill cipher to the plaintext ‘ACT’. Prove the authenticity of the message.",
+              "marks": 3,
+              "topic": "Hill cipher"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Why we are using XOR operation in the Feistel cipher?",
+              "marks": 2,
+              "topic": "XOR operation"
+            },
+            {
+              "label": "b",
+              "text": "Discuss the different types of transformation involved for decryption in AES cipher.",
+              "marks": 3,
+              "topic": "AES transformation"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write the steps to produce ciphertext C from plain text p using triple DES with two keys.",
+              "marks": 2,
+              "topic": "triple DES"
+            },
+            {
+              "label": "b",
+              "text": "Explain the meet-in-the-middle attack.",
+              "marks": 3,
+              "topic": "meet-in-the-middle attack"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define the discrete logarithmic problems.",
+              "marks": 2,
+              "topic": "discrete logarithm problem"
+            },
+            {
+              "label": "b",
+              "text": "How sender can send a message securely to receiver by using RSA algorithm. Explain the different steps involved in this during encryption, and decryption.",
+              "marks": 3,
+              "topic": "RSA encryption"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define the different possible attacks on RSA.",
+              "marks": 2,
+              "topic": "RSA attacks"
+            },
+            {
+              "label": "b",
+              "text": "What are the steps for key calculation by sender, receiver and attacker in the man-in-the-middle attack?",
+              "marks": 3,
+              "topic": "man-in-the-middle attack"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

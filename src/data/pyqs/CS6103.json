@@ -15,6 +15,122 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VI\nBRANCH: CSE   SESSION : SP/2019\n\nSUBJECT : CS6103 SYSTEM PROGRAMMING\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\nQ1 (a) Explain any one CISC machine architecture. [2]\n (b) State the target address and value loaded in register A for the following Hex code for\nSIC(XE)  architecture.  Let  assume  (B)=006000,  (PC)=003000  and  (X)=000090.Hex\ncode=022030 and 03C300.\nMemory Status:\nAddress       Contents\n\n\n003600\n\n\n103000\n\n00C303\n\n003030\n\n\n\n\n[3]\n\nQ2 (a) Briefly describe the SIC/XE instruction formats. [2]\n (b) Suppose ALPHA and BETA are the two arrays of 100 words. Another array of GAMMA stores\nthe  smaller  elements  by  comparing  the  corresponding  elements  of  ALPHA  and  BETA.\nWrite SIC(XE) program to implement GAMMA.\n[3]\n\nQ3 (a) “Control section can be loaded and relocated independently”. Justify. [2]\n (b) Explain in detail machine independent assembler features. [3]\n\nQ4  Write the object program for the following SIC/XE code, assuming that it is to be loaded\nin memory from address 0058H. The operation codes for the instructions are LDT=74,\nLDA=00, ADDR=90, SUB=1C, STA=0C and the addresses for registers A and T are 0 and 5\nrespectively.\n[5]\n\n     LDT    NUM\n   LDA    ALPHA\nADDR  T, A\n   SUB    #8\n   STA    SUM1\n   LDA    GAMMA\nADDR  T, A\n   SUB    #12\n   STA    SUM2\n\n   ALPHA   RESW   1\n   SUM1     RESW   1\nGAMMA  RESW   1\n   SUM2     RESW   1\nNUM      RESW   1\n\n   PTO\n3030\n3600\n6390\nC303\n\n\n\n\n\n\nQ5 (a)  Suppose  that  an  instruction  involving  a  forward  reference  is  to  be  assembled  using\nProgram  Counter  Relative  addressing.  How  might  this  be  handled  by  a  One  Pass\nAssembler?\n[2]\n (b) Write Pass 2 of two pass assembler in algorithmic form or step by step operations. [3]\n\n\n\nQ6 (a) Explain the working of Multi-pass Assembler. [2]\n (b) Write short notes on MASM assembler. [3]\n\n\n\n :::: 05/03/2019 ::::::E"
+    },
+    {
+      "session": "SP/2020",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Name and define the various Systems Software that are involved in converting a high‑level language program (e.g. test.c) into a final executable (e.g. test.exe). Give the proper sequence.",
+              "marks": 2,
+              "topic": "Systems Software"
+            },
+            {
+              "label": "b",
+              "text": "The variables ALPHA, BETA and GAMMA are arrays of 100 words each. Write a subroutine in SIC/XE to add together the corresponding elements of ALPHA and BETA and store the results in the elements of GAMMA.",
+              "marks": 3,
+              "topic": "SIC/XE Subroutine"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Differentiate between RISC and CISC systems.",
+              "marks": 2,
+              "topic": "RISC vs CISC"
+            },
+            {
+              "label": "b",
+              "text": "Discuss the SIC(XE) instruction formats and significance of each bits.",
+              "marks": 3,
+              "topic": "SIC/XE Instruction Formats"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Design the algorithm for Pass 2 in two pass assembler.",
+              "marks": 2,
+              "topic": "Pass 2 Algorithm"
+            },
+            {
+              "label": "b",
+              "text": "Enhance and comment on your design to deal with the issues of modification of records.",
+              "marks": 3,
+              "topic": "Modification Records"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "“Control section can be loaded and relocated independently”. Justify.",
+              "marks": 2,
+              "topic": "Control Section Relocation"
+            },
+            {
+              "label": "b",
+              "text": "Write the object program for the given SIC/XE code (START 0058 ... NUM RESW 1).",
+              "marks": 3,
+              "topic": "Object Program Generation"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "State and explain machine independent assembler features.",
+              "marks": 2,
+              "topic": "Assembler Features"
+            },
+            {
+              "label": "b",
+              "text": "What data structure should be mandatory to write a dis‑assembler? Explain in brief.",
+              "marks": 3,
+              "topic": "Dis‑assembler Data Structure"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Discuss how two pass assembler works in pass 1 using suitable example. Show the intermediate tables created after Pass1.",
+              "marks": 2,
+              "topic": "Pass 1 Assembler"
+            },
+            {
+              "label": "b",
+              "text": "Write short notes on SPARC Assembler.",
+              "marks": 3,
+              "topic": "SPARC Assembler"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -15,6 +15,116 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER:  VI\nBRANCH: CSE   SESSION : SP/2019\n\nSUBJECT : CS6105 COMPILER DESIGN\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) Write tasks performed by two cousins of Compilers. Explain with example how they\ndiffer from simple compiler?\n[2]\n (b) Explain the various phases of a compiler for the given program:\n\nProgram\nvar I,j: integer;\nvar r :real;\nbegin\nr=i+j*10;\nend.\n[3]\n\nQ2 (a) Discuss the challenges in compiler design and its applications. [2]\n (b) Write a LEX specification file to identify the tokens of the language C. [3]\n\nQ3 (a) Which of the following expressions have l-values and / or R-values.\n     (i)   A[I+1]     (ii)  * A     (iii) & A     (iv)  &( * A)     (v)   *( & A)\n     (vi)  * (&(&A))\n\n[2]\n (b) Consider the following grammar:\nStmt -> if cond then stmt else stmt\n           | if cond then stmt\nShow this grammar is ambiguous\nConstruct an equivalent unambiguous grammar\n\n[3]\n\nQ4 (a) Write  an  algorithm  for  eliminating  left  recursion.  Verify  your  algorithm  with  the\nfollowing grammar\nS->Aa\nA->Sb|c\n[2]\n (b) Write an algorithm for Recursive Descent Calculator of the following grammar\nE->E+T|T\nT->T*F|F\nF->(E)|id\n[3]\n\nQ5 (a) Show that the given grammar is not in LL(1)\nS A|B,     AcA+b|a,   BcB+a|b\n[2]\n (b) Consider the grammar\nE BA\nA&BA|€\nBtrue|false\nShow that the grammar is LL(1) and construct the predictive parsing table.\n[3]\n\n\n\n   PTO\n\n\n\n\n\n\n\nQ6  Consider the following grammar:\nNon-terminals {S, A}\nTerminals {c, b}\nProduction rules:\n{         S AA,\n          AcA,\n          Ab            }\nStarting symbol is ‘S’.\nConstruct SLR parsing table for this grammar. List out all conflicts which are present in\nthe designed SLR parsing table?\nFor removal of above conflicts (if they are present), what will be done? Explain in detail.\n[5]\n\n\n\n :::: 01/03/2019 ::::::E"
+    },
+    {
+      "session": "SP/2020",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Why programming is not preferred in low-level language? Differentiate between compiler and interpreter.",
+              "marks": 2,
+              "topic": "low-level language vs high-level, compiler vs interpreter"
+            },
+            {
+              "label": "b",
+              "text": "Highlight some important features of any standard compiler. What are the challenges in designing compiler?",
+              "marks": 3,
+              "topic": "compiler features, compiler design challenges"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the need of dividing the compilation process into various phases and discuss each of the phases.",
+              "marks": 3,
+              "topic": "compilation phases"
+            },
+            {
+              "label": "b",
+              "text": "Can lexical analysis phase be preferably separated from parsing? Give the reason. What issues are faced to design lexical analyzer and how these are resolved? Discuss with suitable examples.",
+              "marks": 2,
+              "topic": "lexical analysis separation, lexer design issues"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain why a system may have several compilers but normally has a single linker.",
+              "marks": 2,
+              "topic": "multiple compilers vs single linker"
+            },
+            {
+              "label": "b",
+              "text": "Define parser. Can a C-complier detect any error for the following statement at Lexical analysis phase? Justify your answer. int   13x, *p;",
+              "marks": 3,
+              "topic": "parser definition, lexical error detection"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "List the demerits of top down parser with examples.",
+              "marks": 2,
+              "topic": "top-down parser demerits"
+            },
+            {
+              "label": "b",
+              "text": "Explain the importance of finding FIRST and FOLLOW sets for constructing LL(k) parser; k≥1.",
+              "marks": 3,
+              "topic": "FIRST and FOLLOW sets, LL(k) parser"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": null,
+              "text": "Design LL(1) parser (table construction is essential) for the grammar (G) given below (without removing immediate left-recursion). E→E+T, E→T, T→id. Is the grammar LL(1)? Draw conclusion about the grammar G from the designed LL(1) table. Discuss how to detect and recover errors by LL(1) parser.",
+              "marks": 5,
+              "topic": "LL(1) parser construction, grammar analysis, error detection and recovery"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Discuss the secondary tasks of lexical analyzer Give the Lex specification for removing multi-line comment used in C-program.",
+              "marks": 3,
+              "topic": "lexical analyzer secondary tasks, multi-line comment removal"
+            },
+            {
+              "label": "b",
+              "text": "Explain briefly various conflicts that occur during shift-reduce parsing.",
+              "marks": 2,
+              "topic": "shift-reduce conflicts"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

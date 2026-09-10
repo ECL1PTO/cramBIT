@@ -15,6 +15,104 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\nEND SEMESTER EXAMINATION\nCLASS: MCA   SEMESTER :II\nBRANCH: MCA   SESSION :SP/22\nSUBJECT: CA433 Intrusion Detection System\nTIME: 2:00hrs   FULL MARKS: 50\nINSTRUCTIONS:\n1. The question paper contains 5theory questions, with options, each of 10 marks and total of 50\nmarks\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\nQ.1 Explain Intrusion Prevention System and Intrusion Detection system. Which are three\nmain types of intrusion detection system?\n\n[10]\n\nor What is a firewall? How does a VPN work? Which VPN protocols are there?\n\nQ.2 What do you understand by denial of service? What are the categories of denials of\nservice?\n[10]\nor Explain about the attacks on network layers. What do you mean by code injection?\nGive suitable example.\n\n\nQ.3 Explain Statistical anomaly based intrusion detection system. What is Snort?\n\n[10]\n\nor What do you understand by Anomaly Based Intrusion detection system? Explain snort\nrules.\n\n\n\nQ.4\nHow does obfuscation work? How the success of obfuscation methods can be\nmeasured?\n[10]\nor What are attack tree? Explain the components of a polymorphic malware.\n\n\nQ.5 Explain threat issues .How insider threat issues can be detected? [10]\n\nor Write notes on Email security issues and IM security issues.\n\n /* 6\nth\n May 2022*/"
+    },
+    {
+      "session": "SP/22",
+      "examType": "END",
+      "maxMarks": 50,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 10,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain Intrusion Prevention System and Intrusion Detection system. Which are three main types of intrusion detection system?",
+              "marks": 10,
+              "topic": "Intrusion Detection"
+            },
+            {
+              "label": "b",
+              "text": "What is a firewall? How does a VPN work? Which VPN protocols are there?",
+              "marks": 10,
+              "topic": "Firewall"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 10,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What do you understand by denial of service? What are the categories of denials of service?",
+              "marks": 10,
+              "topic": "Denial of Service"
+            },
+            {
+              "label": "b",
+              "text": "Explain about the attacks on network layers. What do you mean by code injection? Give suitable example.",
+              "marks": 10,
+              "topic": "Network Attacks"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 10,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain Statistical anomaly based intrusion detection system. What is Snort?",
+              "marks": 10,
+              "topic": "Anomaly Detection"
+            },
+            {
+              "label": "b",
+              "text": "What do you understand by Anomaly Based Intrusion detection system? Explain snort rules.",
+              "marks": 10,
+              "topic": "Snort"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 10,
+          "parts": [
+            {
+              "label": "a",
+              "text": "How does obfuscation work? How the success of obfuscation methods can be measured?",
+              "marks": 10,
+              "topic": "Obfuscation"
+            },
+            {
+              "label": "b",
+              "text": "What are attack tree? Explain the components of a polymorphic malware.",
+              "marks": 10,
+              "topic": "Attack Tree"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 10,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain threat issues .How insider threat issues can be detected?",
+              "marks": 10,
+              "topic": "Insider Threat"
+            },
+            {
+              "label": "b",
+              "text": "Write notes on Email security issues and IM security issues.",
+              "marks": 10,
+              "topic": "Email Security"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

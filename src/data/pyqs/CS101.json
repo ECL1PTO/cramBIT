@@ -43,6 +43,104 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH / IMSC   SEMESTER: I\nBRANCH: CEP&P/BT/CHEM.ENGG/CIVIL/MECH/PROD/FOOD TECH. SESSION: MO/2018\n\nSUBJECT: CS101 PROGRAMMING FOR PROBLEM SOLVING\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates may attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) List the functions of ALU? [2]\nQ1 (b) Outline the need of cache memory in a computer. [3]\n\n\nQ2 (a) Describe what do you mean by an Algorithm? [2]\nQ2 (b) Design a flowchart for GCD of given numbers? [3]\n\n\nQ3 (a) Distinguish between typecasting and type conversion with examples in C. [2]\nQ3 (b) Write a C program to print the prime factors of a number. [3]\n\n\nQ4 (a) Illustrate with examples what do you mean by decision control statements in C. [2]\nQ4 (b) Write  a  C  program  that  displays  all  the  numbers  between  a  user  input  range  that  are\ndivisible by 2 as well as by 3.\n[3]\n\n\nQ5 (a) Write a C program to read an array and display the array of n numbers. [2]\nQ5 (b) Develop a C program to find the product of two matrix and display it’s result. [3]\n\n\n :::::: 12/10/2018 M ::::::"
+    },
+    {
+      "session": "SP/2020",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What was the processing speed of first generation computers in seconds?",
+              "marks": 2,
+              "topic": "Computer History"
+            },
+            {
+              "label": "b",
+              "text": "Differentiate between minicomputers and mainframe computers?",
+              "marks": 3,
+              "topic": "Computer Types"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What are the different types of memory?",
+              "marks": 2,
+              "topic": "Memory Types"
+            },
+            {
+              "label": "b",
+              "text": "Write the algorithm to compute area of a circle.",
+              "marks": 3,
+              "topic": "Algorithm Design"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What are the rules for naming a variable?",
+              "marks": 2,
+              "topic": "Variable Naming Rules"
+            },
+            {
+              "label": "b",
+              "text": "Draw a flowchart to find largest of three numbers.",
+              "marks": 3,
+              "topic": "Flowchart"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write the difference between compiler and interpreter?",
+              "marks": 2,
+              "topic": "Compiler vs Interpreter"
+            },
+            {
+              "label": "b",
+              "text": "Write a C program to reverse an array.",
+              "marks": 3,
+              "topic": "C Programming - Array Reversal"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Predict output of the following program: int main(){int a[][] = {{1,2},{3,4}};int i, j;for (i = 0; i < 2; i++) for (j = 0; j < 2; j++) printf(\"%d \", a[i][j]);return 0; }",
+              "marks": 2,
+              "topic": "Program Output"
+            },
+            {
+              "label": "b",
+              "text": "Write a C program to find the number of duplicate elements in any one-dimensional array of finite size.",
+              "marks": 3,
+              "topic": "C Programming - Duplicate Elements"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -22,6 +22,104 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH   SEMESTER: IV\nBRANCH: CSE/IT   SESSION : SP/2020\n\nSUBJECT : CS203 COMPUTER ORGANIZATION ARCHITECTURE\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates may attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO\nQ1 (a) Differentiate between Computer Organization and Architecture. [2] CO1\nQ1 (b) Explain the functioning of IR, MAR, MDR registers present in CPU. [3] CO1\n\n\nQ2 (a) Define  ranges  of  ‘n’  bit  binary  numbers  in  Unsigned,  Sighed-Magnitude,  1’s\nComplement and 2’s complement representation of numbers.\n[2] CO3\nQ2 (b) i)  Perform following  operations  in  2’s  complement  representation  of  binary\nnumbers: (+7) + (-3) and (-3) – (-7)\nii) Convert number (712)\n8\n to (  )\n6\n[3] CO3\n\n\nQ3 (a) Write algorithm for multiplication of positive binary numbers with example. [2] CO2\nQ3 (b) Draw and explain the sequential circuit of binary multiplier. [3] CO4\n\n\nQ4 (a) What do you mean by immediate addressing mode? Explain with example [2] CO2\nQ4 (b) An instruction is stored at the location 300 with its address field at location 301.\nThe address field has the value 400. A processor register R1 contains the number\n200. Evaluate the effective address if the addressing mode of the instruction is (i)\nDirect, (ii) Immediate and (iii) Relative\n[3] CO3\n\n\nQ5 (a) What do you mean by zero and one addressing formats of codes? [2] CO2\nQ5 (b) Write code in zero and one addressing format for the expression\nx = (a+b)/(c*t)\n[3] CO3\n\n\n\n :::::: 27/02/2020 ::::::E"
+    },
+    {
+      "session": "SP/2020",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Differentiate between Computer Organization and Architecture.",
+              "marks": 2,
+              "topic": "Computer Organization vs Architecture"
+            },
+            {
+              "label": "b",
+              "text": "Explain the functioning of IR, MAR, MDR registers present in CPU.",
+              "marks": 3,
+              "topic": "CPU Registers"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define ranges of ‘n’ bit binary numbers in Unsigned, Signed-Magnitude, 1’s Complement and 2’s complement representation of numbers.",
+              "marks": 2,
+              "topic": "Number Representations"
+            },
+            {
+              "label": "b",
+              "text": "i) Perform following operations in 2’s complement representation of binary numbers: (+7) + (-3) and (-3) – (-7). ii) Convert number (712)₈ to ( )₆.",
+              "marks": 3,
+              "topic": "2’s Complement Operations"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write algorithm for multiplication of positive binary numbers with example.",
+              "marks": 2,
+              "topic": "Binary Multiplication Algorithm"
+            },
+            {
+              "label": "b",
+              "text": "Draw and explain the sequential circuit of binary multiplier.",
+              "marks": 3,
+              "topic": "Sequential Multiplier Circuit"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What do you mean by immediate addressing mode? Explain with example.",
+              "marks": 2,
+              "topic": "Addressing Modes"
+            },
+            {
+              "label": "b",
+              "text": "An instruction is stored at the location 300 with its address field at location 301. The address field has the value 400. A processor register R1 contains the number 200. Evaluate the effective address if the addressing mode of the instruction is (i) Direct, (ii) Immediate and (iii) Relative.",
+              "marks": 3,
+              "topic": "Effective Address Calculation"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What do you mean by zero and one addressing formats of codes?",
+              "marks": 2,
+              "topic": "Zero and One Addressing Formats"
+            },
+            {
+              "label": "b",
+              "text": "Write code in zero and one addressing format for the expression x = (a+b)/(c*t).",
+              "marks": 3,
+              "topic": "Code Generation"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

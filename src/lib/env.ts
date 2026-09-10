@@ -11,8 +11,16 @@ const schema = z.object({
   SUPABASE_SERVICE_ROLE_KEY: z.string().min(1),
   GEMINI_API_KEY: z.string().min(1), // last-resort fallback + PDF pipeline
   GROQ_API_KEY: z.string().optional(),
-  OPENROUTER_API_KEY: z.string().optional(), // free DeepSeek etc.; $10 credit → 1000/day
+  OPENROUTER_API_KEY: z.string().optional(),
   CEREBRAS_API_KEY: z.string().optional(),
+
+  // Optional OpenAI-compatible gateway (OmniRoute / LiteLLM / a paid OpenRouter
+  // model). When set, the engine sends everything here and skips the built-in
+  // free-provider chain.
+  LLM_GATEWAY_URL: z.string().url().optional(),
+  LLM_GATEWAY_KEY: z.string().optional(),
+  LLM_GATEWAY_MODEL: z.string().default("auto"),
+  LLM_GATEWAY_MODEL_FAST: z.string().optional(),
 
   NEXT_PUBLIC_SITE_URL: z.string().url().default("http://localhost:3000"),
   NEXT_PUBLIC_UPI_VPA: z.string().min(3).optional(),

@@ -15,6 +15,122 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VI\nBRANCH: IT   SESSION : SP/2019\n\nSUBJECT : IT6021 COMMUNICATION THEORY\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) Draw the block diagram of communication system and briefly explain the function of\neach block.\n[2]\n (b) State  and  prove  the  modulation  theorem  property  of  Fourier  transform  and  find  the\nFourier transform of the delta function and sketch its spectrum.\n[3]\n\nQ2 (a) Obtain Fourier transform of a rectangular pulse g (t) of duration T and amplitude A and\ndraw its spectrum.          g (t) = rect (t/T) =  A   for –T/2 ≤ t ≤ T/2\n                                                                    0  elsewhere\n[2]\n (b) Define energy spectral density and state and prove Rayleigh energy theorem. [3]\n\nQ3 (a) Derive  the  expression  for  total  transmitted  power  in  terms  of  carrier  power  and\nmodulation index for single tone AM.\n[2]\n (b) Discuss  the coherent detector used  for  DSB-SC demodulation also  discuss the  various\ncases of frequency and phase errors.\n[3]\n\nQ4 (a) Explain the operation of envelope detector with neat diagram and mention the conditions\nof charging and discharging time constants.\n[2]\n (b) Explain  the  phase  discriminator  method  of  SSB  generation.  List  its  advantages  and\ndisadvantages with respect to other methods.\n[3]\n\nQ5 (a) Explain the difference between narrowband FM and wideband FM. [2]\n (b) A 25 MHz carrier is modulated by a 400 Hz audio signal. If the carrier voltage is 4 volts\npeak and the maximum frequency deviation equals to 75 KHz, Obtain the equation of FM\nwave. Is it NBFM or WBFM?\n[3]\n\nQ6 (a) Explain  the  term  frequency  deviation  and phase  deviation  for  an  angle  modulation\nsystem.\n[2]\n (b) Compare Amplitude modulation and Frequency modulation. Why FM is more immune to\nthe effect of noise.\n[3]\n\n\n\n:::: 01/03/2019 ::::::E"
+    },
+    {
+      "session": "SP/2020",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What are the sufficient conditions for signal to be Fourier transformable?",
+              "marks": 2,
+              "topic": "Fourier Transform conditions"
+            },
+            {
+              "label": "b",
+              "text": "Define energy and power of a signal. Evaluate the energy of an exponential pulse X(t)=e^{-at} u(t).",
+              "marks": 3,
+              "topic": "Signal Energy"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define unit impulse function and find its Fourier transform.",
+              "marks": 2,
+              "topic": "Unit Impulse Fourier Transform"
+            },
+            {
+              "label": "b",
+              "text": "Apply the property of Fourier transform to obtain the spectrum of RF pulse and plot it.",
+              "marks": 3,
+              "topic": "RF Pulse Spectrum"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Find the expression for single tone amplitude modulated signal and draw its time domain and frequency domain waveforms.",
+              "marks": 2,
+              "topic": "AM Signal Expression"
+            },
+            {
+              "label": "b",
+              "text": "Derive the relationship between carrier power and total power for AM wave. Prove that in AM, maximum average power transmitted by an antenna is 1.5 times the carrier power.",
+              "marks": 3,
+              "topic": "AM Power Relationship"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Describe Costas receiver for demodulating DSBSC signal and explain how phase control is provided in this.",
+              "marks": 2,
+              "topic": "Costas Receiver"
+            },
+            {
+              "label": "b",
+              "text": "How the SSB signal is demodulated by using a Coherent demodulator. Determine the effect of error on demodulation. What will be the effect of this error if the input is DSB‑SC in place of SSB?",
+              "marks": 3,
+              "topic": "SSB Coherent Demodulation"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Give Carlson’s rule to determine the transmission bandwidth of FM wave.",
+              "marks": 2,
+              "topic": "Carlson's Rule FM Bandwidth"
+            },
+            {
+              "label": "b",
+              "text": "Derive an expression for single tone narrowband frequency modulated wave and draw NBFM modulator.",
+              "marks": 3,
+              "topic": "NBFM Expression"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "When the modulating frequency in an FM system is 400 Hz and the modulating voltage is 2.4 V, the modulation index is 60. Calculate the maximum deviation. What is the modulation index when modulating frequency is reduced to 250 Hz and the modulating voltage is simultaneously raised to 3.2 V.",
+              "marks": 2,
+              "topic": "FM Modulation Index"
+            },
+            {
+              "label": "b",
+              "text": "Compare Amplitude Modulation and Angle Modulation with their applications.",
+              "marks": 3,
+              "topic": "AM vs Angle Modulation Comparison"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

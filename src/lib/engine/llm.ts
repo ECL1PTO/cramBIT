@@ -23,7 +23,22 @@ interface Attempt {
   extraHeaders?: Record<string, string>;
 }
 
+function gatewayAttempt(tier: Tier): Attempt | null {
+  if (!env.LLM_GATEWAY_URL || !env.LLM_GATEWAY_KEY) return null;
+  return {
+    provider: "openrouter",
+    base: env.LLM_GATEWAY_URL.replace(/\/+$/, ""),
+    key: env.LLM_GATEWAY_KEY,
+    model:
+      tier === "fast"
+        ? env.LLM_GATEWAY_MODEL_FAST ?? env.LLM_GATEWAY_MODEL
+        : env.LLM_GATEWAY_MODEL,
+  };
+}
+
 function chainFor(tier: Tier): Attempt[] {
+  const gw = gatewayAttempt(tier);
+  if (gw) return [gw]; // gateway does its own multi-provider routing
   const or = (model: string): Attempt => ({
     provider: "openrouter",
     base: "https://openrouter.ai/api/v1",

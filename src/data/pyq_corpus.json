@@ -1047,5 +1047,502 @@
       "data warehouse design"
     ],
     "sessions": 1
+  },
+  {
+    "key": "CSE/IT426 DATA MINING CONCEPTS & TECHNIQUES_OE (MID_MO22).pdf",
+    "code": "IT426",
+    "name": "DATA MINING CONCEPTS & TECHNIQUES",
+    "dept": "CSE",
+    "topics": [
+      "Data Mining Issues",
+      "Data Mining Tasks Comparison",
+      "Database Types",
+      "Data Mining Task Identification",
+      "Data Integration Issues",
+      "Data Standardization",
+      "OLAP Operations",
+      "Data Warehouse Architecture",
+      "Bitmap Indexing",
+      "Multidimensional Schemas"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/IT428 INFORMATION RETRIEVAL (MID_MO22).pdf",
+    "code": "IT428",
+    "name": "INFORMATION RETRIEVAL",
+    "dept": "CSE",
+    "topics": [
+      "definition of IR",
+      "indexing phase components",
+      "web crawlers",
+      "freshness checking",
+      "Levenshtein distance",
+      "permuterm method",
+      "incidence matrix size",
+      "conjunctive merge query",
+      "vocabulary size estimation",
+      "logarithmic merging"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/IT436 SOFTWARE TESTING (MID_MO22).pdf",
+    "code": "IT436",
+    "name": "SOFTWARE TESTING",
+    "dept": "CSE",
+    "topics": [
+      "quality fundamentals",
+      "software quality management",
+      "configuration management",
+      "testing approaches",
+      "testing methodologies",
+      "defect management",
+      "verification and validation",
+      "test planning",
+      "testing levels",
+      "acceptance testing"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS201 DATA STRUCTURES_IMSC (MID_MO22).pdf",
+    "code": "CS201",
+    "name": "DATA STRUCTURES",
+    "dept": "CSE",
+    "topics": [
+      "array limitations",
+      "string length algorithm",
+      "address calculation in 2D array",
+      "sorted array insertion",
+      "infix to prefix conversion",
+      "postfix evaluation",
+      "queue demerits",
+      "circular queue operations",
+      "linked list merits",
+      "linked list reversal"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS206 DESIGN AND ANALYSIS OF ALGORITHMS (MID_MO22).pdf",
+    "code": "CS206",
+    "name": "DESIGN AND ANALYSIS OF ALGORITHMS",
+    "dept": "CSE",
+    "topics": [
+      "time complexity",
+      "asymptotic notation",
+      "average case complexity",
+      "recurrence solving",
+      "quicksort best case",
+      "quicksort practical",
+      "merge sort average case",
+      "in-place merge sort",
+      "binary to decimal conversion",
+      "matrix multiplication algorithms"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CA433 INTRUSION DETECTION SYSTEM (MID_SP22).pdf",
+    "code": "CA433",
+    "name": "Intrusion Detection System",
+    "dept": "CSE",
+    "topics": [
+      "Intrusion Detection",
+      "Firewall",
+      "Denial of Service",
+      "Network Attacks",
+      "Anomaly Detection",
+      "Snort",
+      "Obfuscation",
+      "Attack Tree",
+      "Insider Threat",
+      "Email Security"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CA201 OBJECT ORIENTED PROGRAMMING USING JAVA (MID_SP20).pdf",
+    "code": "CA201",
+    "name": "OBJECT ORIENTED PROGRAMMING USING JAVA",
+    "dept": "CSE",
+    "topics": [
+      "OOP",
+      "Java program structure",
+      "Java main method",
+      "Switch statement",
+      "Variables",
+      "Compilation",
+      "Method definition",
+      "Arrays",
+      "Loops",
+      "Conditional statements"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS101 PROGRAMMING FOR PROBLEM SOLVING (MID_SP20).pdf",
+    "code": "CS101",
+    "name": "Programming for Problem Solving",
+    "dept": "CSE",
+    "topics": [
+      "Computer History",
+      "Computer Types",
+      "Memory Types",
+      "Algorithm Design",
+      "Variable Naming Rules",
+      "Flowchart",
+      "Compiler vs Interpreter",
+      "C Programming - Array Reversal",
+      "Program Output",
+      "C Programming - Duplicate Elements"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS203 COMPUTER ORGANIZATION ARCHITECTURE (MID_SP20).pdf",
+    "code": "CS203",
+    "name": "COMPUTER ORGANIZATION ARCHITECTURE",
+    "dept": "CSE",
+    "topics": [
+      "Computer Organization vs Architecture",
+      "CPU Registers",
+      "Number Representations",
+      "2’s Complement Operations",
+      "Binary Multiplication Algorithm",
+      "Sequential Multiplier Circuit",
+      "Addressing Modes",
+      "Effective Address Calculation",
+      "Zero and One Addressing Formats",
+      "Code Generation"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS204 OBJECT ORIENTED PROGRAMMING AND DESIGN PATTERNS (MID_SP20).pdf",
+    "code": "CS204",
+    "name": "OBJECT ORIENTED PROGRAMMING AND DESIGN PATTERNS",
+    "dept": "CSE",
+    "topics": [
+      "memory management",
+      "Java fundamentals",
+      "argument promotion",
+      "static vs instance",
+      "polymorphism",
+      "this keyword",
+      "interfaces abstraction",
+      "abstract classes vs interfaces",
+      "getters setters",
+      "inheritance components"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS206 DESIGN AND ANALYSIS OF ALGORITHM (MID_SP20).pdf",
+    "code": "CS206",
+    "name": "DESIGN AND ANALYSIS OF ALGORITHM",
+    "dept": "CSE",
+    "topics": [
+      "asymptotic notation",
+      "sequences",
+      "recurrence solving",
+      "factorial asymptotics",
+      "binary search",
+      "selection problem",
+      "counting sort",
+      "quicksort",
+      "Strassen algorithm",
+      "merge sort"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS211 OPERATING SYSTEM (MID_SP20).pdf",
+    "code": "CS211",
+    "name": "OPERATING SYSTEM",
+    "dept": "CSE",
+    "topics": [
+      "Operating System",
+      "Operating System Types",
+      "Process",
+      "Process Environment",
+      "Multithreading",
+      "Thread Levels",
+      "Scheduler",
+      "Priority Scheduling",
+      "Mutual Exclusion",
+      "Semaphores"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS6011 COMPUTER GRAPHICS & MULTIMEDIA (MID_SP20).pdf",
+    "code": "CS6011",
+    "name": "COMPUTER GRAPHICS & MULTIMEDIA",
+    "dept": "CSE",
+    "topics": [
+      "resolution",
+      "color model",
+      "bitmap",
+      "flat panel displays",
+      "DDA algorithm",
+      "Bresenham algorithm",
+      "midpoint circle algorithm",
+      "ellipse algorithm",
+      "homogeneous coordinates",
+      "translation",
+      "viewing pipeline",
+      "scaling transformation"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS6103 SYSTEM PROGRAMMING (MID_SP20).pdf",
+    "code": "CS6103",
+    "name": "SYSTEM PROGRAMMING",
+    "dept": "CSE",
+    "topics": [
+      "Systems Software",
+      "SIC/XE Subroutine",
+      "RISC vs CISC",
+      "SIC/XE Instruction Formats",
+      "Pass 2 Algorithm",
+      "Modification Records",
+      "Control Section Relocation",
+      "Object Program Generation",
+      "Assembler Features",
+      "Dis‑assembler Data Structure",
+      "Pass 1 Assembler",
+      "SPARC Assembler"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS6105 COMPILER DESIGN (MID_SP20).pdf",
+    "code": "CS6105",
+    "name": "COMPILER DESIGN",
+    "dept": "CSE",
+    "topics": [
+      "low-level language vs high-level",
+      "compiler vs interpreter",
+      "compiler features",
+      "compiler design challenges",
+      "compilation phases",
+      "lexical analysis separation",
+      "lexer design issues",
+      "multiple compilers vs single linker",
+      "parser definition",
+      "lexical error detection",
+      "top-down parser demerits",
+      "FIRST and FOLLOW sets",
+      "LL(k) parser",
+      "LL(1) parser construction",
+      "grammar analysis",
+      "error detection and recovery",
+      "lexical analyzer secondary tasks",
+      "multi-line comment removal",
+      "shift-reduce conflicts"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS6109 SOFTWARE ENGINEERING (MID_SP20).pdf",
+    "code": "CS6109",
+    "name": "SOFTWARE ENGINEERING",
+    "dept": "CSE",
+    "topics": [
+      "software engineering definition",
+      "professional software distinction",
+      "incremental development assessment",
+      "project planning definition",
+      "project planning iteration",
+      "risk exposure",
+      "risk management process",
+      "functional vs non-functional",
+      "user requirements analysis",
+      "SRS quality",
+      "requirement engineering process"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS7127 SOFTWARE PROJECT MANAGEMENT (MID_SP20).pdf",
+    "code": "CS7127",
+    "name": "SOFTWARE PROJECT MANAGEMENT",
+    "dept": "CSE",
+    "topics": [
+      "process capability",
+      "Capability Maturity Model",
+      "BOK system",
+      "planning infrastructure",
+      "process tailoring",
+      "change management",
+      "Use Case Points",
+      "schedule estimation",
+      "defect density",
+      "defect prevention",
+      "risk exposure",
+      "risk assessment"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/IT201 BASICS OF INTELLIGENT COMPUTING (MID_SP20).pdf",
+    "code": "IT201",
+    "name": "BASICS OF INTELLIGENT COMPUTING",
+    "dept": "CSE",
+    "topics": [
+      "intelligent computing",
+      "PEAS for washing machine",
+      "fact representation",
+      "soft computing",
+      "fuzzy logic vs probability",
+      "fuzzy set operations",
+      "fuzzy inference system",
+      "genetic algorithm steps",
+      "optimization limitations",
+      "genetic operators"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/IT6021 COMMUNICATION THEORY (MID_SP20).pdf",
+    "code": "IT6021",
+    "name": "COMMUNICATION THEORY",
+    "dept": "CSE",
+    "topics": [
+      "Fourier Transform conditions",
+      "Signal Energy",
+      "Unit Impulse Fourier Transform",
+      "RF Pulse Spectrum",
+      "AM Signal Expression",
+      "AM Power Relationship",
+      "Costas Receiver",
+      "SSB Coherent Demodulation",
+      "Carlson's Rule FM Bandwidth",
+      "NBFM Expression",
+      "FM Modulation Index",
+      "AM vs Angle Modulation Comparison"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/IT6023 COMPUTER NETWORK AND SECURITY (MID_SP20).pdf",
+    "code": "IT6023",
+    "name": "COMPUTER NETWORK AND SECURITY",
+    "dept": "CSE",
+    "topics": [
+      "classical encryption techniques",
+      "modes of operation",
+      "symmetric-key cryptography",
+      "asymmetric-key cryptography",
+      "Hill cipher",
+      "XOR operation",
+      "Feistel cipher",
+      "AES transformation",
+      "triple DES",
+      "meet-in-the-middle attack",
+      "discrete logarithm problem",
+      "RSA encryption",
+      "RSA attacks",
+      "man-in-the-middle attack"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/IT6025 INFORMATION & CODING THEORY (MID_SP20).pdf",
+    "code": "IT6025",
+    "name": "INFORMATION & CODING THEORY",
+    "dept": "CSE",
+    "topics": [
+      "entropy",
+      "binary symmetric channel",
+      "prefix code",
+      "Huffman coding",
+      "channel encoding",
+      "channel capacity",
+      "Lempel‑Ziv",
+      "run‑length encoding",
+      "compression",
+      "JPEG",
+      "Shannon capacity",
+      "Shannon theorem"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/IT6027-OPTIMIZATION TECHNIQUES (MID_SP20).pdf",
+    "code": "IT6027",
+    "name": "OPTIMIZATION TECHNIQUES",
+    "dept": "CSE",
+    "topics": [
+      "linear programming",
+      "graphical method",
+      "standard form",
+      "simplex method",
+      "simplex vs revised simplex",
+      "revised simplex",
+      "duality",
+      "dual",
+      "dual simplex",
+      "maximum flow",
+      "network flow",
+      "augmented path algorithm"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS270 FUNDAMENTAL OF COMPUTER SCIENCE (MID_SP20).pdf",
+    "code": "CS270",
+    "name": "FUNDAMENTAL OF COMPUTER SCIENCE",
+    "dept": "CSE",
+    "topics": [
+      "ASCII",
+      "binary conversion",
+      "octal",
+      "decimal",
+      "hexadecimal",
+      "binary addition",
+      "10's complement",
+      "2's complement",
+      "email",
+      "World Wide Web",
+      "EBCDIC",
+      "text editing",
+      "programming",
+      "switch case",
+      "conditional operator",
+      "GCD",
+      "iteration",
+      "array merging",
+      "Insertion sort",
+      "time complexity",
+      "Binary search",
+      "stack operations",
+      "infix to postfix"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS4107 OPERATING SYSTEM_IMSC (MID_SP20).pdf",
+    "code": "CS4107",
+    "name": "OPERATING SYSTEM",
+    "dept": "CSE",
+    "topics": [
+      "Operating System Goals",
+      "Resource Allocation",
+      "CPU Utilization Techniques",
+      "OS Service Interface",
+      "Performance Metrics",
+      "Free Space Management",
+      "File Access Methods",
+      "File Allocation Methods",
+      "Scheduling Metrics",
+      "Scheduler Types",
+      "Little's Formula",
+      "Scheduling Algorithm Behavior"
+    ],
+    "sessions": 1
   }
 ]
