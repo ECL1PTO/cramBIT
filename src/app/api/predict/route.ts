@@ -133,19 +133,22 @@ export async function POST(req: Request) {
     });
   } catch (err) {
     console.error("predict error:", err);
-    const msg = err instanceof Error ? err.message : "";
+    const msg = err instanceof Error ? err.message : String(err);
+    // `detail` carries the raw provider/model errors — safe to expose (no secrets)
+    // and it's the only way to debug the free-provider chain from the client.
     if (/exhausted|429|rate.?limit|quota|capacity/i.test(msg)) {
       return NextResponse.json(
         {
           error: "capacity",
           message:
             "cramBIT is at capacity right now — the AI's free daily limit is used up. It resets within a few hours. Your tries aren't spent; come back and generate then.",
+          detail: msg.slice(0, 1200),
         },
         { status: 503 },
       );
     }
     return NextResponse.json(
-      { error: "The engine hit a snag. Please try again." },
+      { error: "The engine hit a snag. Please try again.", detail: msg.slice(0, 1200) },
       { status: 502 },
     );
   }

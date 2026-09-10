@@ -39,6 +39,12 @@ export default function Dashboard() {
 
   const [phase, setPhase] = useState<Phase>("idle");
   const [error, setError] = useState<string | null>(null);
+  const [errDetail, setErrDetail] = useState<string | null>(null);
+  const fail = (res: Response, body: { message?: string; error?: string; detail?: string }, fallback: string) => {
+    setPhase("idle");
+    setErrDetail(body.detail ?? null);
+    setError(res.status === 503 ? (body.message ?? body.error ?? fallback) : (body.error ?? fallback));
+  };
   const [coverage, setCoverage] = useState<string | null>(null);
   const [borrowedFrom, setBorrowedFrom] = useState<string[]>([]);
   const [sets, setSets] = useState<string[]>([]);
@@ -104,6 +110,7 @@ export default function Dashboard() {
 
   const run = useCallback(async () => {
     setError(null);
+    setErrDetail(null);
     if (!courseInput.trim()) return setError("Enter your course code.");
     if (!ackedAt) return setNeedAck(true);
 
@@ -145,10 +152,7 @@ export default function Dashboard() {
         setNeedAck(true);
         return;
       }
-      if (!planRes.ok) {
-        setPhase("idle");
-        return setError(planRes.status === 503 ? (plan.message ?? plan.error) : (plan.error ?? "Could not start."));
-      }
+      if (!planRes.ok) return fail(planRes, plan, "Could not start.");
 
       setCoverage(plan.coverage);
       setBorrowedFrom(plan.borrowedFrom ?? []);
@@ -166,10 +170,7 @@ export default function Dashboard() {
       const t1 = Date.now();
       const poolRes = await post({ phase: "pool", blueprint: plan.blueprint });
       const pool = await poolRes.json();
-      if (!poolRes.ok) {
-        setPhase("idle");
-        return setError(poolRes.status === 503 ? (pool.message ?? pool.error) : (pool.error ?? "Could not rank questions."));
-      }
+      if (!poolRes.ok) return fail(poolRes, pool, "Could not rank questions.");
       await hold(t1, 1800);
 
       setPhase("writing");
@@ -188,7 +189,7 @@ export default function Dashboard() {
             reason: written.error,
           });
         if (writeRes.status === 428) return setNeedAck(true);
-        return setError(writeRes.status === 503 ? (written.message ?? written.error) : (written.error ?? "Generation failed."));
+        return fail(writeRes, written, "Generation failed.");
       }
       setSets(written.sets ?? []);
       setIsPaid(Boolean(written.isPaid));
@@ -247,6 +248,11 @@ export default function Dashboard() {
               <a href="/support" className="ml-2 underline hover:no-underline">
                 Report it
               </a>
+              {errDetail && (
+                <pre className="mt-2 max-h-40 overflow-auto whitespace-pre-wrap break-words rounded bg-danger/10 p-2 text-caption text-danger/80">
+                  {errDetail}
+                </pre>
+              )}
             </div>
           )}
 
