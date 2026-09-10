@@ -276,6 +276,29 @@ main {
   border-color: var(--color-accent-soft);
 }
 
+/* ---- Generated paper sheet: left-aligned body, centred masthead ---- */
+.print-sheet,
+.print-sheet p,
+.print-sheet li,
+.print-sheet ul,
+.print-sheet ol,
+.print-sheet table,
+.print-sheet td,
+.print-sheet th,
+.print-sheet div,
+.print-sheet center,
+.print-sheet section {
+  text-align: left !important;
+}
+.print-sheet h1,
+.print-sheet h2,
+.print-sheet h3 {
+  text-align: center !important;
+}
+.print-sheet [align] {
+  text-align: left !important;
+}
+
 /* ---- Print: clean paper ---- */
 @media print {
   body { background: #fff; color: #000; background-image: none; }
