@@ -21,7 +21,7 @@ interface Suggestion {
 }
 
 const STEP_COPY: Record<"planning" | "pooling" | "writing", string> = {
-  planning: "Reading previous papers, building the topic blueprint…",
+  planning: "Reading PYQs, building the topic blueprint…",
   pooling: "Ranking the most probable questions…",
   writing: "Drafting and checking the papers…",
 };
