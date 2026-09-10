@@ -285,6 +285,9 @@ main {
     color: var(--color-paper-ink) !important;
     border: none !important;
     font-family: var(--font-paper);
+    text-align: left;
   }
   .print-sheet * { color: var(--color-paper-ink) !important; }
+  .print-sheet h1, .print-sheet h2 { text-align: center; }
+  .print-sheet p, .print-sheet li { text-align: left; }
 }

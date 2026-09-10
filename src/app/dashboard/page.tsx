@@ -20,6 +20,18 @@ interface Suggestion {
   grounding: string;
 }
 
+/** The engine asks for clean Markdown, but models still slip in HTML wrappers
+ *  (<div align="center">, <center>, <br>) that drag the whole paper off-axis. */
+function cleanPaper(md: string): string {
+  return md
+    .replace(/<\/?(?:div|center|span|font|section|article)[^>]*>/gi, "")
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/\salign\s*=\s*"[^"]*"/gi, "")
+    .replace(/```[a-z]*\n?/gi, "")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+
 const STEP_COPY: Record<"planning" | "pooling" | "writing", string> = {
   planning: "Reading PYQs, building the topic blueprint…",
   pooling: "Ranking the most probable questions…",
@@ -421,8 +433,8 @@ export default function Dashboard() {
                 </button>
               </div>
 
-              <article className="print-sheet overflow-x-auto rounded-sheet border border-border bg-surface p-6 font-paper text-[1.02rem] leading-[1.7] text-text sm:p-10 [&_b]:font-semibold [&_div]:text-center [&_h1]:text-h3 [&_hr]:my-5 [&_hr]:border-border [&_img]:hidden [&_p]:my-2.5 [&_strong]:font-semibold [&_table]:block [&_table]:overflow-x-auto">
-                <Markdown>{sets[activeSet] ?? ""}</Markdown>
+              <article className="print-sheet overflow-x-auto rounded-sheet border border-border bg-surface p-6 text-left font-paper text-[1.02rem] leading-[1.7] text-text sm:p-10 [&_b]:font-semibold [&_h1]:mb-1 [&_h1]:text-center [&_h1]:text-h3 [&_h1]:font-semibold [&_h2]:mb-3 [&_h2]:text-center [&_h2]:text-body [&_h2]:font-semibold [&_hr]:my-5 [&_hr]:border-border [&_img]:hidden [&_p]:my-2 [&_strong]:font-semibold [&_table]:my-3 [&_table]:block [&_table]:w-full [&_table]:overflow-x-auto [&_td]:py-0.5 [&_td]:pr-6 [&_th]:pr-6 [&_th]:text-left">
+                <Markdown>{cleanPaper(sets[activeSet] ?? "")}</Markdown>
               </article>
               <div className="mt-5">
                 <FeedbackBar subjectCode={courseCode ?? courseInput} />

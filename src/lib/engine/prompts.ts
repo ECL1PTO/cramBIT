@@ -158,15 +158,14 @@ RULES:
 - You may lightly rephrase a candidate for fit, but not change its topic or difficulty.
 - If the pool lacks a needed part, write one that matches the blueprint and syllabus.
 
-OUTPUT: plain GitHub-flavoured Markdown. Separate the ${args.setCount} papers with a line
-containing exactly ===SET_SPLIT=== and nothing else. No JSON, no code fences.
+OUTPUT: plain GitHub-flavoured Markdown, left-aligned. Do NOT use any HTML tags,
+<div>, align attributes, blockquotes, or code fences. Separate the ${args.setCount}
+papers with a line containing exactly ===SET_SPLIT=== and nothing else.
 
-Format EACH paper EXACTLY like this:
+Format EACH paper EXACTLY like this (headings with #, everything else plain text):
 
-<div align="center">
-<b>BIRLA INSTITUTE OF TECHNOLOGY, MESRA — NOIDA CAMPUS</b><br/>
-<b>MID-SEMESTER EXAMINATION (PREDICTED)</b>
-</div>
+# BIRLA INSTITUTE OF TECHNOLOGY, MESRA — NOIDA CAMPUS
+## MID-SEMESTER EXAMINATION (PREDICTED)
 
 **Course:** ${args.courseCode} — ${args.courseName}
 **Time:** 1.5 Hours  |  **Max Marks:** 25
@@ -176,15 +175,11 @@ Format EACH paper EXACTLY like this:
 **Attempt all 5 questions. Each question carries 5 marks.**
 
 **Q1.**
-
 **(a)** <question> _(2 Marks)_
-
 **(b)** <question> _(3 Marks)_
 
 **Q2.**
-
 **(a)** <question> _(2 Marks)_
-
 **(b)** <question> _(3 Marks)_
 
 (Q3, Q4, Q5 the same — always exactly 5 questions, each with a 2-mark (a) and a 3-mark (b).)
