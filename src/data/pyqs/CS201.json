@@ -120,6 +120,104 @@
           ]
         }
       ]
+    },
+    {
+      "session": "MO/2019",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the criteria that you will keep in mind while choosing an appropriate algorithm to solve a particular problem. Give examples.",
+              "marks": 2,
+              "topic": "algorithm selection"
+            },
+            {
+              "label": "b",
+              "text": "Write a Non-Recursive function as well as recursive function for the same problem. Analyze their time complexity in detail. In general, Recursive algorithm is better than Non recursive algorithm with respect to time and space. Justify.",
+              "marks": 3,
+              "topic": "recursion vs iteration"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Distinguish between the row major order and column major ordering of an array.",
+              "marks": 2,
+              "topic": "array storage order"
+            },
+            {
+              "label": "b",
+              "text": "Write a procedure to evaluate the POSTFIX expression E. Explain with example.",
+              "marks": 3,
+              "topic": "postfix evaluation"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Convert the infix expression E= 2+3/1-6*2+9-3+5-6*2/1+4 to prefix expression.",
+              "marks": 2,
+              "topic": "infix to prefix conversion"
+            },
+            {
+              "label": "b",
+              "text": "Write a procedure to maintain a list of items as a circular Queue which is implemented using an array. Write the procedure for insertion and deletion and explain with example.",
+              "marks": 3,
+              "topic": "circular queue implementation"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Differentiate between array and stack.",
+              "marks": 2,
+              "topic": "array vs stack"
+            },
+            {
+              "label": "b",
+              "text": "Write a procedure/algorithm to perform addition and subtraction on two polynomials using link list.",
+              "marks": 3,
+              "topic": "polynomial linked list operations"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write an algorithm/procedure to delete every second element/node from the List.",
+              "marks": 2,
+              "topic": "node deletion"
+            },
+            {
+              "label": "b",
+              "text": "What is Sparse matrix? Explain the linked representation of Sparse matrix with example.",
+              "marks": 3,
+              "topic": "sparse matrix representation"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

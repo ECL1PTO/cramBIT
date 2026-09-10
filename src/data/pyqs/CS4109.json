@@ -22,6 +22,122 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: IMSC   SEMESTER:VI/ADD\nBRANCH: MATHS & COMP.  SESSION : SP/2019\n\nSUBJECT : CS4109 COMPUTER SYSTEM ARCHITECTURE\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n----------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) Define the term computer system architecture. [2]\n (b) State the parameters which affect the performance of a computer.  [3]\n\n\nQ2 (a) What are the different levels of system design? [2]\n (b) Give behavioural VHDL description of a half adder. Develop the truth table for the\nsame.\n[3]\n\n\nQ3 (a) Differentiate between RISC & CISC processors. [2]\n (b) Explain the functions of CPU & draw its functional flow chart. [3]\n\n\nQ4 (a) Explain the basic instruction cycle with state transition diagram. [2]\n (b) Represent (-1.75)\n10\n in IEEE754 floating point format. [3]\n\n\nQ5 (a) Explain the various instruction types & formats. [2]\n (b) What are smallest and largest integers representable in 8-bit values using\n(i) Unsigned binary representation.\n(ii) Signed-magnitude binary representation.\n(iii) Two’s complement representation.\n[3]\n\n\nQ6 (a) How the data path is designed?                                                                                               [2]\n (b) Explain the working of Booth’s Algorithm for 7*3. [3]\n\n\n\n\n\n :::: 02/03//2019 E::::::"
+    },
+    {
+      "session": "SP/2020",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "How design procedure & performance of the computer changes with time?",
+              "marks": 2,
+              "topic": "computer evolution"
+            },
+            {
+              "label": "b",
+              "text": "Suppose we have two implementations of the same instruction set architecture. Computer A has a clock cycle time of 250 ps & a CPI of 2.0 for some program, and computer B has a clock cycle time of 500 ps & a CPI of 1.2 for the same program. Which computer is faster for this program & by how much?",
+              "marks": 3,
+              "topic": "performance comparison"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Why have been computer designed to use the binary number system?",
+              "marks": 2,
+              "topic": "binary number system"
+            },
+            {
+              "label": "b",
+              "text": "Carry out the following conversions: (1011011)₂ → ( )₁₀ → ( )₈ → ( )₁₆",
+              "marks": 3,
+              "topic": "number conversion"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Give behavioral description of a full adder. Also draw the truth table.",
+              "marks": 2,
+              "topic": "full adder"
+            },
+            {
+              "label": "b",
+              "text": "Define an encoder. Explain Octal to Binary Encoder.",
+              "marks": 3,
+              "topic": "encoder"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What are the important elements of bus design?",
+              "marks": 2,
+              "topic": "bus design"
+            },
+            {
+              "label": "b",
+              "text": "What is an interrupt? How is it executed? Show the program flow with interrupts.",
+              "marks": 3,
+              "topic": "interrupt handling"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Differentiate between combinational and sequential circuits.",
+              "marks": 2,
+              "topic": "combinational vs sequential"
+            },
+            {
+              "label": "b",
+              "text": "Perform (11011)₂ – (10011)₂",
+              "marks": 3,
+              "topic": "binary subtraction"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Draw the flowchart for floating point addition of 2 numbers.",
+              "marks": 2,
+              "topic": "floating point addition"
+            },
+            {
+              "label": "b",
+              "text": "What decimal number is represented by this single precision float: 11000000101000000000000000000000",
+              "marks": 3,
+              "topic": "single precision float representation"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

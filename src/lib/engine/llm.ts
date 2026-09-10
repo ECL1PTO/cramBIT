@@ -90,10 +90,14 @@ interface ChatOpts {
   maxTokens?: number;
 }
 
-async function callOpenAICompatible(a: Attempt, o: ChatOpts): Promise<string> {
+async function callOpenAICompatible(
+  a: Attempt,
+  o: ChatOpts,
+  timeoutMs = 45_000,
+): Promise<string> {
   const res = await fetch(`${a.base}/chat/completions`, {
     method: "POST",
-    signal: AbortSignal.timeout(45_000),
+    signal: AbortSignal.timeout(timeoutMs),
     headers: {
       Authorization: `Bearer ${a.key}`,
       "Content-Type": "application/json",
@@ -119,14 +123,21 @@ async function callOpenAICompatible(a: Attempt, o: ChatOpts): Promise<string> {
   return text;
 }
 
+// Stop trying new providers once we're this close to the serverless limit —
+// better a clean "at capacity" than a raw 504.
+const CHAIN_DEADLINE_MS = 52_000;
+
 /** Plain text — first provider that answers wins. */
 export async function chat(o: ChatOpts): Promise<string> {
   const errors: string[] = [];
+  const started = Date.now();
   for (const a of [...chainFor(o.tier), null]) {
+    const left = CHAIN_DEADLINE_MS - (Date.now() - started);
+    if (left < 4000) break;
     try {
       if (a) {
         if (!a.key) continue;
-        return await callOpenAICompatible(a, o);
+        return await callOpenAICompatible(a, o, left);
       }
       return await geminiGenerate({
         model: o.tier === "reason" ? "gemini-flash-latest" : "gemini-flash-lite-latest",
@@ -151,13 +162,16 @@ export async function chatJson<T>(
   validate: (v: unknown) => T,
 ): Promise<T> {
   const errors: string[] = [];
+  const started = Date.now();
   const attempts = [...chainFor(o.tier), null];
   for (const a of attempts) {
+    const left = CHAIN_DEADLINE_MS - (Date.now() - started);
+    if (left < 4000) break;
     try {
       let raw: string;
       if (a) {
         if (!a.key) continue;
-        raw = await callOpenAICompatible(a, { ...o, json: true });
+        raw = await callOpenAICompatible(a, { ...o, json: true }, left);
       } else {
         raw = await geminiGenerate({
           model: o.tier === "reason" ? "gemini-flash-latest" : "gemini-flash-lite-latest",
@@ -172,7 +186,7 @@ export async function chatJson<T>(
       errors.push(`${a ? a.provider + "/" + a.model : "gemini"}: ${err instanceof Error ? err.message : err}`);
     }
   }
-  throw new Error(`No provider produced valid JSON: ${errors.join(" | ")}`);
+  throw new Error(`capacity — no provider produced valid JSON: ${errors.join(" | ")}`);
 }
 
 export function parseJson<T>(raw: string): T {

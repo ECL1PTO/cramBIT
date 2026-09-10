@@ -1544,5 +1544,81 @@
       "Scheduling Algorithm Behavior"
     ],
     "sessions": 1
+  },
+  {
+    "key": "CSE/CS4109 COMPUTER SYSTEM ARCHITECTURE (MID_SP20).pdf",
+    "code": "CS4109",
+    "name": "COMPUTER SYSTEM ARCHITECTURE",
+    "dept": "CSE",
+    "topics": [
+      "computer evolution",
+      "performance comparison",
+      "binary number system",
+      "number conversion",
+      "full adder",
+      "encoder",
+      "bus design",
+      "interrupt handling",
+      "combinational vs sequential",
+      "binary subtraction",
+      "floating point addition",
+      "single precision float representation"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS101 PROGRAMMING FOR PROBLEM SOLVING (MID_MO19).pdf",
+    "code": "CS101",
+    "name": "PROGRAMMING FOR PROBLEM SOLVING",
+    "dept": "CSE",
+    "topics": [
+      "computer components",
+      "flowchart",
+      "algorithm",
+      "data types",
+      "conditional operators",
+      "loops",
+      "pattern printing",
+      "factorial",
+      "array mean",
+      "duplicate detection"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS201 DATA STRUCTURES (MID_MO19).pdf",
+    "code": "CS201",
+    "name": "Data Structures",
+    "dept": "CSE",
+    "topics": [
+      "algorithm selection",
+      "recursion vs iteration",
+      "array storage order",
+      "postfix evaluation",
+      "infix to prefix conversion",
+      "circular queue implementation",
+      "array vs stack",
+      "polynomial linked list operations",
+      "node deletion",
+      "sparse matrix representation"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS5101 FORMAL LANGUAGES AND AUTOMATA THEORY (MID_MO19).pdf",
+    "code": "CS5101",
+    "name": "FORMAL LANGUAGES AND AUTOMATA THEORY",
+    "dept": "CSE",
+    "topics": [
+      "finite automata",
+      "DFA",
+      "language identification",
+      "regular expression",
+      "state elimination",
+      "pumping lemma",
+      "regular expression identities",
+      "intersection closure"
+    ],
+    "sessions": 1
   }
 ]

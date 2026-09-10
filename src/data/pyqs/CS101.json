@@ -141,6 +141,104 @@
           ]
         }
       ]
+    },
+    {
+      "session": "MO/2019",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Give a detail discussion on different components of a computer system.",
+              "marks": 2,
+              "topic": "computer components"
+            },
+            {
+              "label": "b",
+              "text": "Develop a flowchart to multiply two given positive integers by the method of successive addition.",
+              "marks": 3,
+              "topic": "flowchart"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Describe what do you mean by an Algorithm.",
+              "marks": 2,
+              "topic": "algorithm"
+            },
+            {
+              "label": "b",
+              "text": "Write a short note on basic data types that the C language supports.",
+              "marks": 3,
+              "topic": "data types"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write a program to input three numbers and then find largest of them using && operator.",
+              "marks": 2,
+              "topic": "conditional operators"
+            },
+            {
+              "label": "b",
+              "text": "Write a program using do-while loop to display the square and cube of first n natural numbers.",
+              "marks": 3,
+              "topic": "loops"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write a program to print the following pattern.\n1\n2  4\n3  6   9\n4  8  12 16",
+              "marks": 2,
+              "topic": "pattern printing"
+            },
+            {
+              "label": "b",
+              "text": "Write a program using for loop to calculate factorial of a number.",
+              "marks": 3,
+              "topic": "factorial"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write a program to find the mean of n numbers using arrays.",
+              "marks": 2,
+              "topic": "array mean"
+            },
+            {
+              "label": "b",
+              "text": "Write a program to find whether the array of integers contain a duplicate number.",
+              "marks": 3,
+              "topic": "duplicate detection"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
