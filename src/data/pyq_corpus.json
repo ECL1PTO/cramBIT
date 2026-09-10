@@ -3100,5 +3100,50 @@
       "Implementation"
     ],
     "sessions": 1
+  },
+  {
+    "key": "CSE/CS3101- JAVA PROGRAMMING & WEB TECHNOLOGY (MID_MO18).pdf",
+    "code": "CS3101",
+    "name": "JAVA PROGRAMMING & WEB TECHNOLOGY",
+    "dept": "CSE",
+    "topics": [
+      "String methods",
+      "Method overloading",
+      "Access modifiers",
+      "instanceof operator",
+      "final class",
+      "Interface rules",
+      "String creation",
+      "Passing objects to methods",
+      "java.lang classes",
+      "Primitive datatypes",
+      "Data types for account number",
+      "Multiple inheritance via interface"
+    ],
+    "sessions": 1
+  },
+  {
+    "key": "CSE/CS4105 DATABASE MANAGEMENT SYSTEM (MID_MO18).pdf",
+    "code": "CS4105",
+    "name": "DATABASE MANAGEMENT SYSTEM",
+    "dept": "CSE",
+    "topics": [
+      "Database Architecture",
+      "Database Advantages",
+      "Three Schema Architecture",
+      "Entity Types",
+      "Relationship Instances",
+      "Participation Constraints",
+      "Data Model",
+      "Foreign Key",
+      "University Schema",
+      "Specialization",
+      "Generalization",
+      "Outer Join",
+      "SQL DDL",
+      "SQL Queries",
+      "Relational Algebra"
+    ],
+    "sessions": 1
   }
 ]

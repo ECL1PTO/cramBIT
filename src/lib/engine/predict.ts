@@ -90,16 +90,20 @@ function gatherEvidence(r: Resolved): {
 
 /* ---------------------------------------------------------- pass 1: blueprint */
 
+/** Cache key — blueprint and pool are both a pure function of these. */
+function planKey(r: Resolved) {
+  return { subject_key: r.code ?? `new:${hash(r.syllabus)}`, syllabus_hash: hash(r.syllabus) };
+}
+
 export async function buildBlueprint(r: Resolved): Promise<Blueprint> {
-  const subjectKey = r.code ?? `new:${hash(r.syllabus)}`;
-  const syllabus_hash = hash(r.syllabus);
+  const key = planKey(r);
   const db = createServiceClient();
 
   const { data } = await db
     .from("blueprints")
     .select("blueprint")
-    .eq("subject_key", subjectKey)
-    .eq("syllabus_hash", syllabus_hash)
+    .eq("subject_key", key.subject_key)
+    .eq("syllabus_hash", key.syllabus_hash)
     .maybeSingle();
   if (data?.blueprint) {
     const cached = BlueprintSchema.safeParse(data.blueprint);
@@ -110,7 +114,7 @@ export async function buildBlueprint(r: Resolved): Promise<Blueprint> {
   const blueprint = await chatJson(
     {
       tier: "reason",
-      maxTokens: 2200,
+      maxTokens: 1900,
       prompt: analysisPrompt({
         courseName: r.name,
         syllabus: r.syllabus,
@@ -125,10 +129,7 @@ export async function buildBlueprint(r: Resolved): Promise<Blueprint> {
 
   await db
     .from("blueprints")
-    .upsert(
-      { subject_key: subjectKey, syllabus_hash, blueprint },
-      { onConflict: "subject_key,syllabus_hash" },
-    );
+    .upsert({ ...key, blueprint }, { onConflict: "subject_key,syllabus_hash" });
   return blueprint;
 }
 
@@ -138,11 +139,28 @@ export async function buildCandidatePool(
   r: Resolved,
   blueprint: Blueprint,
 ): Promise<Candidate[]> {
+  const key = planKey(r);
+  const db = createServiceClient();
+
+  // Same key as the blueprint — a regeneration with an unchanged syllabus reuses
+  // the pool and only pays for the assembly pass.
+  const { data: cachedRow } = await db
+    .from("blueprints")
+    .select("pool")
+    .eq("subject_key", key.subject_key)
+    .eq("syllabus_hash", key.syllabus_hash)
+    .maybeSingle();
+  if (cachedRow?.pool) {
+    const parsed = CandidatePoolSchema.safeParse(cachedRow.pool);
+    if (parsed.success && parsed.data.candidates.length)
+      return parsed.data.candidates.sort((a, b) => b.probability - a.probability);
+  }
+
   const ev = gatherEvidence(r);
   const pool = await chatJson(
     {
       tier: "reason",
-      maxTokens: 2600,
+      maxTokens: 2200,
       prompt: candidatePoolPrompt({
         courseName: r.name,
         syllabus: r.syllabus,
@@ -152,6 +170,13 @@ export async function buildCandidatePool(
     },
     (v) => CandidatePoolSchema.parse(v),
   );
+
+  await db
+    .from("blueprints")
+    .update({ pool })
+    .eq("subject_key", key.subject_key)
+    .eq("syllabus_hash", key.syllabus_hash);
+
   return pool.candidates.sort((a, b) => b.probability - a.probability);
 }
 
@@ -174,7 +199,7 @@ export async function assembleBatch(
     chat({
       tier: "reason",
       json: false,
-      maxTokens: 4000,
+      maxTokens: 900 + n * 850,
       prompt: assemblyPrompt({
         courseCode: codeLabel,
         courseName: r.name,

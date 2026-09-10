@@ -99,12 +99,12 @@ export function candidatePoolPrompt(args: {
 "${args.courseName}". Reason step by step, then output the pool.
 
 SYLLABUS:
-${clip(args.syllabus, 3400)}
+${clip(args.syllabus, 2800)}
 
 BLUEPRINT (from evidence analysis):
 ${JSON.stringify(args.blueprint)}
 
-${args.pastPapers.length ? `PAST PAPERS:\n${renderPapers(args.pastPapers)}` : ""}
+${args.pastPapers.length ? `PAST PAPERS (for near-verbatim repeats):\n${renderPapers(args.pastPapers, 2200)}` : ""}
 
 Build a pool of the most probable individual sub-questions. For each:
 - Decide it is a 2-mark part (short/definitional) or a 3-mark part (derivation/algorithm/

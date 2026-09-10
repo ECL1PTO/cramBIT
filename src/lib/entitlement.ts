@@ -36,6 +36,14 @@ export async function checkEntitlement(
   subjectCode: string | null,
   courseKey: string,
 ): Promise<EntitlementCheck> {
+  // Admins (the operator) get unlimited, unrestricted access to every course.
+  const { data: prof } = await db
+    .from("profiles")
+    .select("is_admin")
+    .eq("id", userId)
+    .maybeSingle();
+  if (prof?.is_admin) return { allowed: true, isPaid: true };
+
   const { data: ents } = await db
     .from("entitlements")
     .select("scope, subject_code")
@@ -95,6 +103,13 @@ export async function rateLimit(
   userId: string,
   bucket: keyof typeof LIMITS,
 ): Promise<boolean> {
+  const { data: prof } = await db
+    .from("profiles")
+    .select("is_admin")
+    .eq("id", userId)
+    .maybeSingle();
+  if (prof?.is_admin) return true;
+
   const cfg = LIMITS[bucket];
   const now = Date.now();
 

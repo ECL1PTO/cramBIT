@@ -48,6 +48,7 @@ export default function Dashboard() {
   const [triesLeft, setTriesLeft] = useState<number | null>(null);
   const [papersRead, setPapersRead] = useState(0);
   const [scanned, setScanned] = useState(0);
+  const [copied, setCopied] = useState(false);
 
   const [paywall, setPaywall] = useState<
     null | { code: string | null; locked?: string | null; reason?: string }
@@ -393,8 +394,22 @@ export default function Dashboard() {
                   </button>
                 ))}
                 <button
-                  onClick={() => window.print()}
+                  onClick={async () => {
+                    try {
+                      await navigator.clipboard.writeText(sets[activeSet] ?? "");
+                      setCopied(true);
+                      setTimeout(() => setCopied(false), 1800);
+                    } catch {
+                      /* clipboard blocked — user can still select the text */
+                    }
+                  }}
                   className="ml-auto rounded-pill border border-border px-4 py-1.5 text-body-sm text-muted hover:text-text"
+                >
+                  {copied ? "Copied ✓" : "Copy this set"}
+                </button>
+                <button
+                  onClick={() => window.print()}
+                  className="rounded-pill border border-border px-4 py-1.5 text-body-sm text-muted hover:text-text"
                 >
                   Download PDF
                 </button>
