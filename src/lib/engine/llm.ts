@@ -3,7 +3,7 @@ import { env } from "@/lib/env";
 import { generate as geminiGenerate } from "./gemini";
 
 /**
- * Text-reasoning LLM for the engine and tutor.
+ * Text-reasoning LLM for the prediction engine.
  *
  * Free-tier LLMs each have a small daily budget, so we chain across several
  * providers/models — each has its own quota, so total capacity multiplies.

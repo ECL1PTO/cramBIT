@@ -1,0 +1,13 @@
+{
+  "courseCode": "CA203",
+  "courseName": "DATABASE MANAGEMENT SYSTEMS_BCA_MID_MO23",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION MO/2023)\nCLASS: BCA   SEMESTER : III\nBRANCH: BCA   SESSION : MO/2023\n\nSUBJECT: CA203 DATABASE MANAGEMENT SYSTEMS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n  Marks CO BL\nQ.1(a) What is Database Management System? [2] 1 1\nQ.1(b) What are the responsibilities of DBA? [3] 1 2\n\n\nQ.2(a) Differentiate logical data independence and physical data independence? [2] 1 1\nQ.2(b) What are the purpose of Database Management System? [3] 1 2\n\n\nQ.3(a) Define primary key and foreign key? [2] 2 1\nQ.3(b) Draw an ER- Diagram of a Company database. [3] 2 3\n\n\nQ.4(a) What are the different types of relationship? Explain. [2] 2 1\nQ.4(b) Write a formal definition of Tuple Relational Calculus. [3] 2 2\n\n\nQ.5(a) Define full functional dependency. [2] 3 1\nQ.5(b) What are pitfalls in database design? [3] 3 2\n\n\n\n:::::19/09/2023 E:::::"
+    }
+  ]
+}

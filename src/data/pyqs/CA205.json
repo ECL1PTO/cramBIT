@@ -1,0 +1,13 @@
+{
+  "courseCode": "CA205",
+  "courseName": "JAVA PROGRAMMING_BCA_MID_MO23",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION MO/2023)\nCLASS:  BCA   SEMESTER: III\nBRANCH: BCA   SESSION: MO/2023\n\nSUBJECT: CA205 JAVA PROGRAMMING\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Briefly explain the features of JAVA. [2] 2 2\nQ.1(b) What is Object Oriented Programming? How it is different from Procedure oriented\nProgramming?\n[3] 3 3\n\n\nQ.2(a) Briefly explain Java Virtual Machine. [2] 3 3\nQ.2(b) Describe the structure of Java Program with suitable example. [3] 3 3\n\n\nQ.3(a) What is the scope of a variable? [2] 2 2\nQ.3(b) Write about control flow statements in Java? [3] 2 2\n\n\nQ.4(a) What is Type casting? Why is it required in programming? [2] 3 3\nQ.4(b) Write a program in Java to find the LCM of two numbers? [3] 3 3\n\n\nQ.5(a) How is a Method Defined? [2] 1 1\nQ.5(b) Explain Method overloading with suitable example? [3] 3 3\n\n\n\n:::::20/09/2023 E:::::"
+    }
+  ]
+}

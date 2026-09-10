@@ -67,22 +67,49 @@ export function getPyqs(code: string): PyqFile | null {
   }
 }
 
-export function indexedPaperCount(): number {
-  const fromIndex = index.corpus.reduce((n, c) => n + (c.sessions ?? 0), 0);
-  if (fromIndex > 0) return fromIndex;
-  // Fall back to counting the extracted PYQ files directly.
+let _stats: { papers: number; questions: number } | null = null;
+
+/** Papers + questions across every extracted previous-paper bank. Computed once. */
+function corpusStats(): { papers: number; questions: number } {
+  if (_stats) return _stats;
+  let papers = 0;
+  let questions = 0;
   try {
     const dir = path.join(DATA_DIR, "pyqs");
-    let n = 0;
     for (const f of fs.readdirSync(dir)) {
       if (!f.endsWith(".json")) continue;
       const j = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")) as PyqFile;
-      n += j.historical_papers?.length ?? 0;
+      for (const p of j.historical_papers ?? []) {
+        papers += 1;
+        const structured = (p.questions ?? []).reduce(
+          (n, q) => n + (Array.isArray(q.parts) && q.parts.length ? q.parts.length : 1),
+          0,
+        );
+        if (structured > 0) {
+          questions += structured;
+        } else if (p.rawText) {
+          // No structured parse — count the question-number markers in the text,
+          // capped so an odd layout can't inflate the figure.
+          const marks = p.rawText.match(/(?:^|\n)\s*(?:Q\.?\s*)?(?:\d{1,2}[.)]|[ivx]+[.)])/gim);
+          questions += Math.min(marks?.length ?? 0, 15);
+        }
+      }
     }
-    return n;
   } catch {
-    return 0;
+    /* fall through to whatever we counted */
   }
+  _stats = { papers, questions };
+  return _stats;
+}
+
+/** Number of distinct previous papers on record. */
+export function indexedPaperCount(): number {
+  return corpusStats().papers;
+}
+
+/** Approx. number of individual questions across all previous papers. */
+export function questionCount(): number {
+  return corpusStats().questions;
 }
 
 export function topicFreqFor(code: string): Record<string, number> | undefined {

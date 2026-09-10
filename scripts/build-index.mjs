@@ -10,7 +10,13 @@ const STOP = new Set(
   ("the a an and or of to in for on with as by is are be at from that this it which "
     + "marks question questions answer all attempt each following give explain define write "
     + "state discuss describe what how why hours max semester examination mid birla institute "
-    + "technology mesra noida time paper course code section part any two three four five").split(
+    + "technology mesra noida ranchi time paper papers course code section part any two three "
+    + "four five class branch session subject full instructions contains total missing assumed "
+    + "suitably tables handbook graph applicable will shall supplied candidates draw various "
+    + "suitable roll duration note figures right indicate standard data assume year years "
+    + "student students university department programme program degree bachelor master "
+    + "spring monsoon autumn winter maximum minimum below above given also using use used "
+    + "following unless otherwise stated required carry equal weightage compulsory").split(
     /\s+/,
   ),
 );

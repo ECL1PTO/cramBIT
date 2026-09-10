@@ -1,0 +1,13 @@
+{
+  "courseCode": "CN123",
+  "courseName": "BASICS OF DIGITAL COMPUTER AND LOGIC DESIGN_MID",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2025)\nCLASS: BCA   SEMESTER : II\nBRANCH: BCA   SESSION : SP/2025\n\nSUBJECT: CN123 BASICS OF DIGITAL COMPUTER AND LOGIC DESIGN\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n--------------------------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) What do mean by digital computer? Explain it with suitable diagram. [2] 1 1\nQ.1(b) Convert the following numbers from the given base to the bases indicated:\n(i) decimal 125.125 to binary, octal, and hexadecimal.\n(ii) binary 1101010.001 to decimal, octal, hexadecimal.\n(iii) Hexadecimal 2AC5.D to decimal, octal, and binary.\n[3] 1 5\n\n\nQ.2(a) Explain all the digital gates with their graphical symbol, algebraic function and also\ntruth table.\n[2] 1 1\nQ.2(b) Simplify the following Boolean functions to a minimum number of literals.\n(i) xy + x’z + yz           (ii) xy + xz + yz’\n[3] 2 3\n\n\nQ.3(a) What  is  K-map. How  do  you  construct  a  K-Map  for a  given  Boolean  function  of 4\nvariables?\n[2] 3 1\nQ.3(b) Simplify the Boolean function:  F (A, B, C) = ∑ (0, 2, 4, 5, 6) and design a circuit\ndiagram for the simplified function.\n[3] 3 3\n\n\nQ.4(a) Obtain  the simplified expression in sum of product  for following Boolean function\nusing k-map.\nABD +A’C’D’ +A’B +A’CD’ +AB’D’\n[2] 3 5\nQ.4(b) Simplify the Boolean function F together with the don’t care conditions d in\n(i) sun-of-product form and          (ii) product-of-sum form\n\nF(w, x, y, z) = ∑ (0, 1, 3, 7, 8, 10)\nd(w, x, y, z) =∑ (5, 6, 11, 15)\n[3] 3 5\n\n\nQ.5(a) Define Combinational circuit with block diagram. [2] 1 1\nQ.5(b) Design a full adder combinational circuit with two half adder circuit and an OR gate. [3] 4 4\n\n\n::::::25/02/2025::::::M"
+    }
+  ]
+}

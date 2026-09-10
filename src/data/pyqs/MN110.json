@@ -1,0 +1,13 @@
+{
+  "courseCode": "MN110",
+  "courseName": "WEB APPLICATION OF BUSINESS_MID",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2025)\nCLASS:  BBA/IMBA   SEMESTER : II\nBRANCH: BBA/IMBA   SESSION : SP/2025\n\nSUBJECT: MN110 WEB APPLICATION OF BUSINESS\nTIME 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n--------------------------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) Differentiate between the Internet and the World Wide Web (WWW). [2] 1 1\nQ.1(b) Define the Internet. How does it enable communication between devices globally? [3] 1 1\n\n\nQ.2(a) State one key difference between E-commerce and EDI. [2] 1 1\nQ.2(b) Define the term EDI (Electronic Data Interchange), and how it benefits businesses. [3] 1 1\n\n\nQ.3(a) Write the HTML code for creating a webpage with a heading and a paragraph. [2] 2 2\nQ.3(b) Write the HTML code to create a table with three rows and three columns [3] 2 3\n\n\nQ.4(a) Write the HTML code to create a simple unordered list with three items. [2] 2 3\nQ.4(b) Write HTML code for the following listing:\n1. Fruits\na. Apple\nb. Banana\nc. Grapes\n2. Coffee\ni. Normal\nii. cold\n           iii.         Hot\n[3] 2 3\n\n\nQ.5(a) What is CSS? Explain its importance in web development. [2] 3 1\nQ.5(b) List and briefly describe the three types of CSS. [3] 3 2\n\n\n::::::25/02/2025::::::M"
+    }
+  ]
+}

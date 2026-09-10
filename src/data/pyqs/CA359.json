@@ -1,0 +1,13 @@
+{
+  "courseCode": "CA359",
+  "courseName": "INTERNET OF THINGS_MID",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2025)\nCLASS: BCA   SEMESTER : VI\nBRANCH: BCA   SESSION : SP/2025\n\nSUBJECT: CA359 INTERNET OF THINGS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) Differentiate the term IoT with respect to Digitization  [2] 1 1\nQ.1(b) Explain the evolutionary phases of the internet. [3] 2 2\n\n\nQ.2(a) List and explain the requirements driving specific architectural Changes for IoT. [2] 2 1,3\nQ.2(b) Explain oneM2M IoT Standardized Architecture with a neat diagram. [3] 2 3\n\n\nQ.3(a) What is smart object? Explain its characteristics. [2] 1,3 1,2\nQ.3(b) List and explain different categories of sensors. [3] 3 2\n\n\nQ.4(a) Explain the following key factors that contribute in connecting smart objects:1)\nRange 2) Frequency Bands.\n[2] 2 2\nQ.4(b) What is  ZigBee  protocol stack? Explain 802.15.4  physical layer, MAC layer, and\nsecurity.\n[3] 3 2,3\n\n\nQ.5(a) List the advantages of Internet Protocol. [2] 1 1\nQ.5(b) What  are  the  differences  between  adaptation  and  adoption  of  the  Internet\nProtocol?\n[3] 2 2\n\n\n::::::27/02/2025::::::E"
+    }
+  ]
+}

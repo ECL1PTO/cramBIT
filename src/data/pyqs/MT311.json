@@ -1,0 +1,20 @@
+{
+  "courseCode": "MT311",
+  "courseName": "COMPUTER NETWORK_MID",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATIONSP/2025)\nCLASS: BBA    SEMESTER : VI\nBRANCH: BBA    SESSION : SP/2025\n\nSUBJECT: MT311 – COMPUTER NETWORK\nTIME: 02 Hours    FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Explain the following :\ni. Network Criteria\nii. Protocol & Standard\n[2] 1 2\nQ.1(b) Give a brief comparative account of business and home application of computer and\nmobile and its impact on social issues.\n[3] 2 2\n\n\nQ.2(a) With diagram give a comparative account of network topology. As a ICT in-charge which\ntopology  you  will  implement  in  your  organization  –  educational  or  geographically\nseparated office (main and branch in different cities).\n[2] 1 2\nQ.2(b) Give a brief account of channels of guided and wireless media with diagram. [3] 1 1\n\n\nQ.3(a) With diagram sketch the working of Email when you wish to send a mail to your friend in\nUSA.\n[2] 2 2\nQ.3(b) Sketch the evolution of LAN & WAN with the devices required for each. [3] 2 2\n\n\nQ.4(a) Differentiate among HUB, SWITCH & ROUTER in terms of data transfer. [2] 1 2\nQ.4(b) “Evolution of TCP/IP was the turning point in the Web- Technology & Internet” – Justify\nand compare with OSI model.\n[3] 2 3\n\n\nQ.5(a) The period of a signal is 100 ms. What is its frequency in kilohertz?\n\n[2] 2 2\nQ.5(b) Explain bit rate, frequency and bandwidth with example & example. [3] 2 2\n\n\n\n:::::27/02/2025 E:::::"
+    },
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION MO/2023)\nCLASS:  BBA   SEMESTER : Fifth\nBRANCH: BBA   SESSION : MO/2023\n\n                                                      SUBJECT: MT311 COMPUTER NETWORKS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) What is computer network? Give advantages of computer network. [2] 1 3\nQ.1(b) What are the various network control devices? Explain in detail.  [3] 2 3\n\n\nQ.2(a) Distinguish between LAN and WAN. [2] 2 3\nQ.2(b) What is network topology? Explain the different network topologies. [3] 2 2\n\n\nQ.3(a) Explain the applications of computer networks. [2] 1 2\nQ.3(b) Identify the layers in OSI reference model and illustrate their functions. [3] 2 4\n\n\nQ.4(a) Explain about the Guided transmission media in computer network? [2] 2 3\nQ.4(b) Describe the role of network layer and transport layer in TCP/IP model. [3] 3 4\n\n\nQ.5(a) What do you mean by digital transmission? [2] 1 2\nQ.5(b) What are the different types of digital to digital to digital conversion? [3] 2 3\n\n\n:::::30/09/2023 E:::::"
+    }
+  ]
+}

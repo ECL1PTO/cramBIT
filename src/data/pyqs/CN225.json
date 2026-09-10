@@ -1,0 +1,13 @@
+{
+  "courseCode": "CN225",
+  "courseName": "COMPUTER NETWORKS _MID",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2025)\nCLASS:  BCA   SEMESTER : IV\nBRANCH: BCA   SESSION : SP/2025\n\nSUBJECT: CN225 COMPUTER NETWORKS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1 What  do  you  mean  by  network  topology?  Describe  the  various  topologies.\nAdditionally calculate the number of cable links required to connect N devices\nusing both mesh and star topologies.\n[5] 1 1,2,3\n\n\nQ.2 How  do  the  layers  of  the  Internet  Model  correlate  to  the  layers  of  the  OSI\nreference model? Give some advantages of combining the session, presentation,\nand  application  layer  in  the  OSI  model  into  a  single  application  layer  in  the\nInternet model\n[5] 1 1,2\n\n\nQ.3 How guided media differ from unguided? Additionally, describe the roles of the\ncore and cladding in fiber optic cables.\n[5] 2 1,2\n\n\nQ.4 Define multiplexing and describe its objectives. Distinguish between FDM and TDM  [5] 2 1,3\n\n\nQ.5(a) Discuss the basic functions of the data link layer. [2] 3 2\nQ.5(b) What do you mean by error in data transmission? Briefly explain the single-Bit\nerror and Burst error with examples.\n[3] 3 2,3\n\n\n::::::27/02/2025::::::E"
+    }
+  ]
+}

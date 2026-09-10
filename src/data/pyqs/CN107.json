@@ -1,0 +1,13 @@
+{
+  "courseCode": "CN107",
+  "courseName": "FUNDAMENTALS OF COMPUTER SCIENCE_MID_MO23",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION MO/2023)\nCLASS:  BCA   SEMESTER : I\nBRANCH: BCA   SESSION : MO/2023\n\nSUBJECT: CN107 FUNDAMENTALS OF COMPUTER SCIENCE\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Explain different components of a computer system with suitable diagram. [2] 1 1\nQ.1(b) Discuss the main characteristics of Computer system. [3] 1 2\n\n\nQ.2(a) What are the different types of computer software. Briefly explain any two of them. [2] 1 2\nQ.2(b) Explain the relationship between Software and Hardware of a computer system. [3] 1 2\n\n\nQ.3(a) Define modern operating System. [2] 2 1\nQ.3(b) List different functions of operating system. Briefly explain any three of them. [3] 2 1\n\n\nQ.4(a) Differentiate between algorithm and flowchart. [2] 2 4\nQ.4(b) Create an algorithm and a flowchart that will output the factorial of a given number. [3] 2 3\n\n\nQ.5(a) Perform the following operations:\n(a) 111000110 + 111100001     (b) 100000111- 011111001\n[2] 3 5\nQ.5(b) Convert the decimal number 5213 in:\n(a) Binary number   (b) Octal number    (c) Hexadecimal number\n[3] 3 5\n\n\n\n:::::21/09/2023 M:::::"
+    }
+  ]
+}

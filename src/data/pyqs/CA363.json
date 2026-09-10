@@ -1,0 +1,13 @@
+{
+  "courseCode": "CA363",
+  "courseName": "DECISION SUPPORT SYSTEM _MID",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATIONSP/2025)\nCLASS: BCA   SEMESTER : VI\nBRANCH: BCA   SESSION : SP/2025\n\nSUBJECT: CA363 DECISION SUPPORT SYSTEM\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1 Discuss some common characteristics of most Decision Support Systems. Why does a DSS\nneed a DBMS, a Model Management System and a User Interface?\n[5] 1 2\n\n\nQ.2 Compare a custom made DSS with a Readymade DSS.? Discuss the broad classes of DSS\nusers.?\n[5] 1 2\n\n\nQ.3 Discuss the steps of Decision Making Procedure.? Why it Is important to focus on the\neffectiveness of a Decision, Not necessarily the Efficiency of decision making?\n[5] 2 2\n\n\nQ.4 Why do managers seldom make purely rational decisions.? Briefly describe simon’s model\nof decision making?\n[5] 2 2\n\n\nQ.5 Define GDSS and List its benefits.? What are the factors that have led to increased use of\ngroup decision making.?\n[5] 3 2\n\n\n::::::28/02/2025::::::E"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "courseCode": "MN414",
+  "courseName": "COMPUTER NETWORKS_MID",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\nCLASS: BBA  SEMESTER : 5\nth\n\nBRANCH: BBA  SESSION : MO/2025\n\nSUBJECT: MN414 COMPUTER NETWORKS\nTIME: 02 Hours  FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Explain the applications of networks in business, education and health. [2] 1 Understand\nQ.1(b) Differentiate between LAN, MAN and WAN. [3] 1 Analyse\n\n\nQ.2(a) State the advantages of wireless network over wired network. [2] 4 Remember\nQ.2(b) Describe the utilities of different network softwares. [3] 1 Understand\n\n\nQ.3(a) Differentiate between point-to-point and multipoint connection. [2] 2 Analyse\nQ.3(b) Write the advantages and disadvantages of all the network topologies.  [3] 2 Evaluate\n\n\nQ.4(a) Explain different types of transmission media. [2] 4 Understand\nQ.4(b) Describe the following network devices-\ni. NIC\nii. Routers\niii. Gateway\n[3] 2 Understand\n\n\nQ.5(a) Differentiate between port and socket. [2] 2 Analyse\nQ.5(b) Explain the functions of all the layers of OSI model. [3] 3 Understand\n\n\n\n:::::19/09/2025 :::::M"
+    }
+  ]
+}

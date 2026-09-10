@@ -1,0 +1,13 @@
+{
+  "courseCode": "CA303",
+  "courseName": "COMPUTER NETWORKS_BCA_MID_MO23",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION MO/2023)\nCLASS:  BCA   SEMESTER: V\nBRANCH:  BCA   SESSION: MO/2023\n\nSUBJECT: CA303 COMPUTER NETWORKS\nTIME:  02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) What are the components of computer network? [2] CO1 1\nQ.1(b) Discuss briefly about Network software. [3] CO1 2\n\n\nQ.2(a) Explain the concept of hybrid star bus network topology. [2] CO2 4\nQ.2(b) Write down the advantages of ring topology and mesh topology. [3] CO1 3\n\n\nQ.3(a) Write about the service primitives in the layered architecture of computer network. [2] CO1 1\nQ.3(b) Write a short note on the Internet layer of TCP/IP layered architecture. [3] CO3 2\n\n\nQ.4(a) What is User Datagram Protocol (UDP)? [2] CO1 2\nQ.4(b) Write briefly about the twisted pair cable transmission medium. [3] CO2 4\n\n\nQ.5(a) What are the Physical Layer services in computer network? [2] CO1 2\nQ.5(b) Differentiate between Data Terminal Equipment (DTE) and Data Circuit-Terminating\nEquipment (DCE) interface.\n[3] CO2 3\n\n:::::20/09/2023 M:::::"
+    }
+  ]
+}

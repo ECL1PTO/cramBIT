@@ -8,20 +8,31 @@ import { ROOT, sleep, writeJson, readJson } from "./lib.mjs";
 
 const LIST_BASE = "https://archive.bitmesra.ac.in";
 const FILE_BASE = "https://www.bitmesra.ac.in"; // PDFs 301 → bitmesra.ac.in
+const SITE_BASE = "https://bitmesra.ac.in";
 
-// The archive.bitmesra.ac.in mirror lists 18 engineering-department folders.
-// The live site (www) additionally has BBA / BCA / BAM / MAD / BMLT / B.Com /
-// HSS folders — re-run with those pids once the live index page is reachable
-// (it 500s intermittently). Add "Name: pid" pairs here as you find them.
+// Old archive mirror — 18 engineering-department folders, listed via
+// /Visit_Other_Department_9910?...pid=<pid>
 const DEPTS = {
   Architecture: 376, BioEngg: 375, Chemical: 378, Chemistry: 379, Civil: 445,
   CSE: 446, CQEDS: 447, EEE: 448, ECE: 449, HMCT: 450, Management: 439,
   Mathematics: 451, Mechanical: 452, Pharmacy: 438, Physics: 453,
   Production: 380, RemoteSensing: 454, SER: 455,
-  // BBA: ?, BCA: ?, BAM: ?, BCom: ?, HSS: ?, MAD: ?, BMLT: ?
 };
 
-// Try to discover every folder pid from the live archive index.
+// Noida-campus programme folders — only on the live site, listed via the newer
+// /Other-Department-Pages/content/1/258/<pid> route. These carry the MN / CA
+// (BCA) / AM / HS course codes the picker actually uses, so they're required.
+const PROGRAMS = {
+  BBA: 616, BCA: 617, BAM: 618, MAD: 619, BCom: 774, HSS: 775, MBA: 439,
+};
+
+const deptPageUrl = (pid) =>
+  `${LIST_BASE}/Visit_Other_Department_9910?cid=1&deptid=258&pid=${pid}`;
+const programPageUrl = (pid) =>
+  `${SITE_BASE}/Other-Department-Pages/content/1/258/${pid}`;
+
+// Try to discover every engineering folder pid from the live archive index;
+// fall back to the hard-coded map. Programme folders are always the PROGRAMS map.
 async function discoverDepts() {
   for (const host of [FILE_BASE, LIST_BASE]) {
     try {
@@ -55,14 +66,18 @@ const get = (url) =>
     return r.text();
   });
 
-const folders = await discoverDepts();
-console.log(`${Object.keys(folders).length} folders:`, Object.keys(folders).join(", "));
+const engineering = await discoverDepts();
+const folders = [
+  ...Object.entries(engineering).map(([dept, pid]) => ({ dept, url: deptPageUrl(pid) })),
+  ...Object.entries(PROGRAMS).map(([dept, pid]) => ({ dept, url: programPageUrl(pid) })),
+];
+console.log(`${folders.length} folders:`, folders.map((f) => f.dept).join(", "));
 
-for (const [dept, pid] of Object.entries(folders)) {
+for (const { dept, url } of folders) {
   console.log(`\n== ${dept}`);
   let html;
   try {
-    html = await get(`${LIST_BASE}/Visit_Other_Department_9910?cid=1&deptid=258&pid=${pid}`);
+    html = await get(url);
   } catch (e) {
     console.error(" dept page failed:", e.message);
     continue;

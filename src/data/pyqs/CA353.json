@@ -1,0 +1,13 @@
+{
+  "courseCode": "CA353",
+  "courseName": "DATA MINING & WAREHOUSING_MID",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2025)\nCLASS:  BCA   SEMESTER : VI\nBRANCH: BCA   SESSION : SP/2025\n\nSUBJECT: CA353 DATA MINING & WAREHOUSING\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) Differentiate predictive and descriptive data mining. [2] 1 1\nQ.1(b) What are the phases of KDD process?  [3] 2 2\n\n\nQ.2 (a) Differentiate between noise and outlier. [2] 1 1\nQ.2(b) Calculate similarity and distance measures for the following data:\na) x=(2, -1, 0, 2, 0, -3), y=(-1, 1, -1, 0, 0, -1), (Cosine, Correlation)\nb) x=(0, 1, 0, 1), y=(1, 0, 1, 0)  (Euclidean, Jaccard)\n[3] 3 3\n\n\nQ.3(a) Define: support, and confidence measures of association rule. [2] 1 1\nQ.3(b) What are the different data mining tasks? [3] 2 2\n\n\nQ.4(a) State Apriori property for the association rule. [2] 1 1\nQ.4(b) Given the following transactional database:\n\nTID Items\nT1 C     B     H\n\nT2      B      F     S\n\nT3 A     F    G\n\nT4 C     B     H\n\nT5 B     F     G\n\nT6 B     E     O\n\n\n[3] 3 3\n Find all Large itemsets using Apriori algorithm (Take Minimum support 30%).\n\nQ.5(a) What is cluster analysis? [2] 1 1\nQ.5(b) Describe any two types of clustering methods.  [3] 2 2\n\n\n:::::25/02/2025:::::E"
+    }
+  ]
+}

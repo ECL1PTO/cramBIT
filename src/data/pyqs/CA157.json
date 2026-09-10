@@ -1,0 +1,13 @@
+{
+  "courseCode": "CA157",
+  "courseName": "DISCRETE STRUCTURES_BCA_MID_MO23",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION MO/2023)\nCLASS:  BCA   SEMESTER : IV\nBRANCH: BCA   SESSION : MO/2023\n\nSUBJECT: CA157 DISCRETE STRUCTURES\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Define Difference, Symmetric Difference of sets. [2] 3 1\nQ.1(b) Let U={a, b, c, d, e, f, g, h, k}, A={a, b, c, g}, B={d, e, f, g}, C={a, c, f} and D={f, h, k}.\nCompute (i)A B   (ii)\n\nA B C  \n\n[3] 4 2\n\n\nQ.2(a) Define Converse and Inverse of an implication. [2] 3 1\nQ.2(b)\nShow that\n\np q  r  s  p r   q s              \n\nis tautology.\n[3] 4 2\n\n\nQ.3(a) What are conditional statements? Explain. [2] 3 1\nQ.3(b) Prove the statement is true by using mathematical induction\n3\n)12()12(\n)12(531\n2222\n\n\nnnn\nn\n\n[3] 5 3\n\n\nQ.4(a) Define Invertible Function with example. [2] 3 1\nQ.4(b)\nIf f: A  B , g : B  C and h: C  D, then show that h o (g o f) = (h o g) o f.\n[3] 2 5\n\n\nQ.5(a) Define different types of relations. [2] 3 1\nQ.5(b) Let A= {1,2,3,4} and R = {(1,1), (1,3), (2, 4), (3, 3), (4, 3)} be a relation defined on a\nset A. Using Warshall’s algorithm to find the transitive closure of R.\n[3] 2 5\n\n\n\n:::::22/09/2023 M:::::"
+    }
+  ]
+}

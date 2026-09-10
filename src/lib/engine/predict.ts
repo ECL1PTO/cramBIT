@@ -43,7 +43,7 @@ export function resolve(courseInput: string, pastedSyllabus: string): Resolved {
   const pyqs = course ? getPyqs(code) : null;
 
   let coverage: Coverage;
-  if (course && pyqs && pyqs.historical_papers.length >= 2) coverage = "full";
+  if (course && pyqs && pyqs.historical_papers.length >= 1) coverage = "full";
   else if (course) coverage = "syllabus-only";
   else coverage = "new-course";
 
@@ -73,7 +73,8 @@ function gatherEvidence(r: Resolved): {
 } {
   const ownPyqs = r.code ? getPyqs(r.code) : null;
   const own = ownPyqs?.historical_papers ?? [];
-  const neighbours = own.length ? [] : similarCourses(r.syllabus, 4);
+  // Supplement with similar-course papers when this course has thin history.
+  const neighbours = own.length >= 3 ? [] : similarCourses(r.syllabus, own.length ? 2 : 4);
   const borrowedFiles = borrowedPyqs(neighbours.map((n) => n.code));
   const borrowed = neighbours.map((n, i) => ({
     code: n.code,

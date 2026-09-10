@@ -8,7 +8,6 @@ import { Button, Card, Container, MonoChip, TextArea } from "@/components/ui";
 import { DISCLAIMER_ACK } from "@/data/legal";
 import { pickHype } from "@/data/hype";
 import { PaywallModal } from "@/components/paywall-modal";
-import { AITutor } from "@/components/ai-tutor";
 import { FeedbackBar } from "@/components/feedback-bar";
 import { Wordmark } from "@/components/logo";
 import { ThemeToggle } from "@/components/theme-toggle";
@@ -22,7 +21,7 @@ interface Suggestion {
 }
 
 const STEP_COPY: Record<"planning" | "pooling" | "writing", string> = {
-  planning: "Reading PYQs, building the topic blueprint…",
+  planning: "Reading previous papers, building the topic blueprint…",
   pooling: "Ranking the most probable questions…",
   writing: "Drafting and checking the papers…",
 };
@@ -401,19 +400,6 @@ export default function Dashboard() {
           )}
         </div>
       </Container>
-
-      {sets.length > 0 && isPaid && (
-        <AITutor courseCode={courseCode ?? courseInput} paperContent={sets[activeSet] ?? ""} />
-      )}
-
-      {sets.length > 0 && !isPaid && (
-        <button
-          onClick={() => setPaywall({ code: courseCode })}
-          className="fixed bottom-5 right-5 z-40 rounded-pill border border-border px-5 py-3 text-body-sm text-muted hover:text-text no-print"
-        >
-          Unlock the AI tutor
-        </button>
-      )}
 
       {paywall && (
         <PaywallModal

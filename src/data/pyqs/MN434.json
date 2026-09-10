@@ -1,0 +1,13 @@
+{
+  "courseCode": "MN434",
+  "courseName": "DATA VISUALIZATION FOR MANAGER_MID",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\nCLASS: BBA  SEMESTER : V\nBRANCH: BBA  SESSION : MO/2025\n\nSUBJECT: MN434 DATA VISUALIZATION FOR MANAGER\nTIME:02 Hours  FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Define data visualization. Why is it important in data science? [2] 1 1\nQ.1(b) Compare bar charts, line charts, and scatter plots in terms of their appropriate usage. [3] 1 1\n\n\nQ.2(a) What is visual mapping? Give one example. [2] 1 1\nQ.2(b) Explain Gestalt principles of effective data visualization in detail. [3] 2 2\n\n\nQ.3(a) What are the “Do’s” and two “Don’ts” while designing charts and graphs? [2] 2 1\nQ.3(b) Discuss the process of selecting an appropriate visual display for business data. [3] 2 1\n\n\nQ.4(a) What do you mean by “visualization as exploration”? [2] 3 1\nQ.4(b) Design a visualization plan for representing monthly sales data of a company over the\nlast 3 years. Suggest which chart you would use and justify your choice.\n[3] 3 3\n\n\nQ.5(a) Differentiate between visualizing categorical data and time series data. [2] 2 2\nQ.5(b) Given a dataset of customer feedback categorized as Positive, Neutral, and Negative,\nsuggest a suitable visualization method. Explain why your choice is appropriate.\n[3] 3 3\n\n\n\n:::::22/09/2025:::::M"
+    }
+  ]
+}

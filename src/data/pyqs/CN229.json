@@ -1,0 +1,13 @@
+{
+  "courseCode": "CN229",
+  "courseName": "INTRODUCTION TO ARTIFICIAL INTELLIGENCE _MID",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2025)\nCLASS: BCA   SEMESTER : IV\nBRANCH: BCA   SESSION : SP/2025\n\nSubject: CN229 INTRODUCTION TO ARTIFICIAL INTELLIGENCE\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) What is Artificial Intelligence? Explain Role of Turing Test in AI. [2] 1 2\nQ.1(b) Explain model-based agent software. [3] 1 3\n\n\nQ.2(a) What is problem space? List important components of problem space.  [2] 2 1\nQ.2(b) Differentiate between informed and uninformed search. [3] 2 2\n\n\nQ.3(a) Explain Greedy best first search with example. [2] 2 2\nQ.3(b) List advantages of Greedy best first search and justify with example.  [3] 2 3\n\n\nQ.4(a) How does the Breadth First Search work? Explain with example. [2] 2 3\nQ.4(b) What is A* search algorithm? [3] 2 3\n\n\nQ.5(a) Explain Knowledge representation in predicate logic. [2] 3 2\nQ.5(b) Explain Hill climbing search. [3] 2 2\n\n\n\n:::::03/03/2025 E:::::"
+    }
+  ]
+}

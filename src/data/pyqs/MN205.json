@@ -1,0 +1,13 @@
+{
+  "courseCode": "MN205",
+  "courseName": "INTRODUCTION TO BUSINESS ANALYTICS_MID",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\nCLASS: BBA/IMBA  SEMESTER : III\nBRANCH: BBA/IMBA  SESSION : MO/2025\n\nSUBJECT: MN205 INTRODUCTION TO BUSINESS ANALYTICS\nTIME: 02 Hours  FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) What do understand by Business Analytics. Explain with example. [2] 1 1\nQ.1(b) What are different analytics processes? Explain any one of them.  [3] 1 2\n\n\nQ.2(a) Differentiate between Data and Information. [2] 2 1\nQ.2(b) What are different varieties of data? Highlight the attributes of any one of them.  [3] 2 2\n\n\nQ.3(a) What are the components to define a problem? Explain them.  [2] 1,2 2\nQ.3(b) How do we analyze business problems using data. [3] 2 2\n\n\nQ.4 What are different components of Analytics Ecosystem? Elaborate them [5] 2 3\n\n\nQ.5\nWhat is optimization. With the help of Genetic Algorithm optimize the randomly\nselected ted 5 data, where data allowed to vary from 0 to 31 and fitness function is x\n2\n .\n[5] 3 3\n\n\n:::::23/09/2025 :::::E"
+    }
+  ]
+}

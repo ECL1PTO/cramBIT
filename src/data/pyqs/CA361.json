@@ -1,0 +1,13 @@
+{
+  "courseCode": "CA361",
+  "courseName": "SYSTEM PROGRAMMING_MID",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATIONSP/2025)\nCLASS:  BCA   SEMESTER : VI\nBRANCH: BCA   SESSION : SP/2025\n\nSUBJECT: CA361 SYSTEM PROGRAMMING\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) Briefly discuss compiler and loader with examples. [2] 1 2\nQ.1(b) What is machine language? Explain it with examples [3] 2 3,4\n\n\nQ.2(a) Define different components of programming system. [2] 1 1\nQ.2(b) Write the role of Macros in any programming language with examples [3] 2 2\n\n\nQ.3(a) Write the features of operating system with examples [2] 2 2\nQ.3(b) What do you mean by evaluation of Operating System? Explain it. [3] 3 3,4\n\n\nQ.4(a) Briefly discuss role of BIOS boot process with steps [2] 3 3\nQ.4(b) Write the working procedure of stack with a suitable diagram [3] 4 4\n\n\nQ.5(a) How does Assembly language work? Explain it [2] 3 4\nQ.5(b) Write features of  Assembly language [3] 2 1\n\n::::::28/02/2025::::::E"
+    }
+  ]
+}

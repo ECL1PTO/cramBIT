@@ -1,0 +1,13 @@
+{
+  "courseCode": "MN437",
+  "courseName": "DATA SCIENCE USING R_MID",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\nCLASS: BBA  SEMESTER : V\nBRANCH: BBA  SESSION : MO/2025\n\nSUBJECT: MN437 DATA SCIENCE USING R\nTIME: 02 Hours  FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Explain the steps to install R in Windows OS [2] 1 1\nQ.1(b) List the basic data types available in R. [3] 1 1\n\n\nQ.2(a) What are control structures? Why are they important in programming? [2] 2 1\nQ.2(b) List any five built-in mathematical functions in R. [3] 2 1\n\n\nQ.3(a) Write the R commands for calculating mean, median and mode of a dataset. [2] 2 3\nQ.3(b) Calculate the mean, median and mode of the following dataset :                      21 62\n66 66 79 28 63 48 59 94 19\n[3] 2 4\n\n\nQ.4(a) Describe Kurtosis with appropriate diagram.  [2] 2 3\nQ.4(b) What is skewness? Explain different types of skewness. [3] 2 3\n\n\nQ.5(a) How will you draw a pie chart in R. Describe with example. [2] 3 4\nQ.5(b) Draw a box plot with the following dataset:\n{9,8, 10, 12,15, 14, 17,22,24, 23, 42}\n[3] 3 5\n\n\n\n:::::19/09/2025 :::::M"
+    }
+  ]
+}

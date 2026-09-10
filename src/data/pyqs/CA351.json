@@ -1,0 +1,13 @@
+{
+  "courseCode": "CA351",
+  "courseName": "INTRODUCTION TO DISTRIBUTED COMPUTING_MID",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2025)\nCLASS:  BCA   SEMESTER : VI\nBRANCH: BCA   SESSION : SP/2025\n\nSUBJECT: CA351 INTRODUCTION TO DISTRIBUTED COMPUTING\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n--------------------------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) What is meant by distributed computing? [2] 1 1\nQ.1(b) Describe the strengths & weaknesses of distributed computing. [3] 2 2\n\n\nQ.2(a) What is deadlock? [2] 2 3\nQ.2(b) Write about the following:\na) Data marshalling b) Event diagram\n[3] 3 4\n\n\nQ.3(a) Brief write about Message Passing Paradigm. [2] 1 1\nQ.3(b) Explain in detail The Peer-to-Peer Paradigm for distributed applications. [3] 2 2\n\n\nQ.4(a) Explain the Remote Method Invocation (RMI) paradigm. [2] 3 3\nQ.4(b) Explain in detail The Network Services Paradigm. [3] 3 3\n\n\nQ.5(a) Differentiate between Connection-oriented & connectionless datagram socket. [2] 3 3\nQ.5(b) Explain in detail Datagram socket API. [3] 4 4\n\n\n::::::24/02/2025::::::E"
+    }
+  ]
+}

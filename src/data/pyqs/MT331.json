@@ -1,0 +1,13 @@
+{
+  "courseCode": "MT331",
+  "courseName": "DATA VISUALIZATION FOR MANAGERS_MID",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2025)\nCLASS: BBA   SEMESTER : VI\nBRANCH: MANAGEMENT   SESSION : SP/2025\n\nSUBJECT: MT331 DATA VISUALIZATION FOR MANAGERS\n\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) Explain Data Visualization. [2] 1 2\nQ.1(b) Demonstrate the relevance of Data Visualization in decision making. [3] 3 3\n\n\nQ.2(a) Outline the evolution of Data Visualization. [2] 1 4\nQ.2(b) Present any three design principles of Data Visualization. [3] 2 3\n\n\nQ.3(a) Analyze the role of treemaps in data representation. [2] 4 4\nQ.3(b) Examine the best practices of line charts. [3] 3 4\n\n\nQ.4(a) Discuss about any two steps for choosing the right chart or graphs. [2] 4 2\nQ.4(b) Illustrate the process of creating visualizations. [3] 4 2\n\n\nQ.5(a) Explain visualization as exploration. [2] 4 2\nQ.5(b) Outline an example of Data Visualization which helps in strategic decision. [3] 5 4\n\n\n::::::03/03/2025::::::E"
+    }
+  ]
+}

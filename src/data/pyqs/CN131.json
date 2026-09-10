@@ -1,0 +1,13 @@
+{
+  "courseCode": "CN131",
+  "courseName": "MATHEMATICS FOR COMPUTING 1_MID",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2025)\nCLASS: BCA   SEMESTER : II/ADD\nBRANCH: BCA   SESSION : SP/2025\n\nSUBJECT: CN131 MATHEMATICS FOR COMPUTING 1\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------------------\n---\n\n   CO BL\nQ.1(a) i) Find the set A – B, for the given sets A = {x | x is an integer, 1 ≤ x ≤ 6} and B = {x |\nx is an even integer, 2 ≤ x ≤ 8}\nii) If set M = {x | x is a prime number less than 20} and set N = {x | x is an odd\nnumber less than 10}, what is M ∩ N?\n[2] CO3 2\nQ.1(b)\nVerify (A∩B)\nc\n = A\nc\n ∩ B\nc\n for the given sets A = {11, 12, 13}, B = {7, 8} and the universal\nset\nU = {7, 8, 9, 10, 11, 12, 13 }.\n\n[3] CO3 3\n\n\nQ.2(a) Determine whether the following relations are function or not.\ni)R={(0,0),(1,1),(2,2),(3,3)}\nii) R={(1,2),(2,3),(7,4),(1,5)}\n[2] CO3 2\nQ.2(b) i) Find floor and ceiling function of 6.47.\nii)Find the value of ⌈0.6667⌉ + ⌊6.6⌋\niii)Draw the graph of floor function and ceiling function.\n[3] CO3 2\n\n\nQ.3(a) Define Symmetric and transitive closure. [2] CO3 1\nQ.3(b) Verify the given relation R= {(1, 3), (2, 4), (3, 1), (4, 2), (5, 4),(1,1),(2,2)} defined on\na set  A= {1, 2, 3, 4, 5}   is an equivalence relation or not.\n[3] CO3 2\n\n\nQ.4(a) Define Partial order relation. [2] CO3 1\nQ.4(b) Find the composition of the following relations ROS and SOR.\n R = {(4, a), (4, b), (5, c), (6, a), (6, c)}\nS = {(a, l), (a, n), (b, l), (b, m), (c, l), (c, m), (c, n)}\n[3] CO3 3\n\n\nQ.5(a)\nIf  푛\n௣\nళ\n= 푛\n௣\nల\n find the value of n.\n[2] CO2 3\nQ.5(b) Find the number of four-letter words with or without meaning, which can be made out\nof letters of the word ROSE, where the repetition of letters is not allowed.\n[3] CO2 3\n\n\n::::::27/02/2025::::::M"
+    }
+  ]
+}

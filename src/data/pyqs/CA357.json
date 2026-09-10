@@ -1,0 +1,13 @@
+{
+  "courseCode": "CA357",
+  "courseName": "INTRODUCTION TO CLOUD COMPUTING _MID",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2025)\nCLASS: BCA   SEMESTER : VI\nBRANCH: BCA   SESSION : SP/2025\n\nSUBJECT: CA357 INTRODUCTION TO CLOUD COMPUTING\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) Define Cloud and list its benefits. [2] 1 1\nQ.1(b) Explain the key characteristics of cloud computing. [3] 1 2\n\n\nQ.2(a) Write a short note on Distributed Systems. [2] 1 1\nQ.2(b) How does Web 2.0 contribute to the growth and adoption of cloud computing? [3] 1 4\n\n\nQ.3(a) Differentiate between Type 1 and Type 2 Hypervisors. [2] 2 2\nQ.3(b) Describe the key components of the Infrastructure as a Service (IaaS) layer. [3] 2 2\n\n\nQ.4(a) Explain the advantages of the Software as a Service (SaaS) model. [2] 2 2\nQ.4(b) Differentiate between Public and Private Clouds. [3] 2 4\n\n\nQ.5(a) List the different type of services provided by AWS. [2] 3 1\nQ.5(b) Describe key features of Amazon EC2. [3] 3 2\n\n\n::::::27/02/2025::::::E"
+    }
+  ]
+}

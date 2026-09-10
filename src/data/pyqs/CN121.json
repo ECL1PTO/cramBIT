@@ -1,0 +1,13 @@
+{
+  "courseCode": "CN121",
+  "courseName": "INTRODUCTION TO DATA STRUCTURES_MID",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2025)\nCLASS:  BCA   SEMESTER : II\nBRANCH: BCA   SESSION : SP/2025\n\nSUBJECT: CN121 INTRODUCTION TO DATA STRUCTURES\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) Define data structure and classify its types. [2] 1 1\nQ.1(b) Explain  the  concepts  of  time  complexity  and  space  complexity  with  a  suitable\nexample\n[3] 1 3\n\n\nQ.2(a) A 2D array A[6][6] is stored in row-major order with the base address 1000. If each\nelement occupies 2 bytes, find the address of the element A[3][4].\n[2] 2 3\nQ.2(b) Define a Stack Data Structure. Write an algorithm for performing the Push and Pop\noperations in a stack.\n[3] 2 3\n\n\nQ.3(a) Define a linked list and explain its advantages over arrays. [2] 1 2\nQ.3(b) Write the steps to insert a node at the end of a singly linked list. [3] 2 3\n\n\nQ.4(a) Differentiate between singly, doubly, and circular linked lists. [2] 1 2\nQ.4(b) Write an algorithm or code to delete a node from the beginning of a doubly linked\nlist.\n[3] 2 3\n\n\nQ.5(a) Define a tree data structure. Explain any two types of trees. [2] 1 2\nQ.5(b) Define  a  Binary  Search  Tree. Construct  a  Binary  Search  Tree  for  the  following\nsequence of numbers:  24, 12, 34, 5, 1, 20, 38, 36, 29.\n[3] 3 3\n\n\n::::::24/02/2025::::::M"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "courseCode": "CN221",
+  "courseName": "SOFTWARE ENGINEERING_MID",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2025)\nCLASS: BCA   SEMESTER: IV\nBRANCH: BCA   SESSION: SP/2025\n\nSUBJECT: CN221 SOFTWARE ENGINEERING\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n--------------------------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) Explain the concepts of software, software engineering, and software engineer.  [2] 1 2\nQ.1(b) Compare and contrast the classical Waterfall Model and the Iterative Waterfall Model\nbased on their flexibility, feedback mechanisms, and suitability for different types of\nprojects.\n[3] 2 4\n\n\nQ.2(a) What are the key differences between Programs and Software Products? Explain with\nexamples.\n[2] 1 2\nQ.2(b) Describe the key characteristics of the Spiral Model and explain how it manages risks\ncompared to other software life cycle models.\n[3] 2 4\n\n\nQ.3(a) What  are  the  key  responsibilities  of  a  software  project  manager  in  software\ndevelopment?\n[2] 5 2\nQ.3(b) A software project is estimated to have 50,000 Lines of Code. The development team\nfollows the Basic COCOMO Model for estimation. Calculate the estimated effort and\ndetermine the estimated development time based on the calculated effort, where a\n= 2.4, b = 1.05, c = 2.5, d = 0.38.\n[3] 5 3\n\n\nQ.4(a) What is the purpose of requirement gathering and analysis in software development? [2] 3 2\nQ.4(b) Describe the key components of a software requirements specification document. [3] 3 2\n\n\nQ.5(a) Explain the key characteristics of a good software design and how it contributes to\nsoftware maintainability and scalability.\n[2] 4 4\nQ.5(b) Differentiate  between  cohesion  and  coupling  in  software  design.  Why  is  high\ncohesion and low coupling preferred?\n[3] 4 2,4\n\n ::::::24/02/2025::::::E"
+    }
+  ]
+}

@@ -146,7 +146,7 @@ export async function sendActivationEmail(to: string, scope: string): Promise<vo
       `Open ${env.NEXT_PUBLIC_SITE_URL}/dashboard and generate away.\n\n— cramBIT`,
     html: shell(
       "Your access is active",
-      `We've confirmed your payment. Your <b>${scope}</b> is unlocked — predicted papers and the AI tutor are ready.`,
+      `We've confirmed your payment. Your <b>${scope}</b> is unlocked — your predicted papers are ready.`,
       { href: `${env.NEXT_PUBLIC_SITE_URL}/dashboard`, label: "Open cramBIT →" },
     ),
   });

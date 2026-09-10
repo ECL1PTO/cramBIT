@@ -1,0 +1,13 @@
+{
+  "courseCode": "CN227",
+  "courseName": "INTRODUCTION TO DATA SCIENCE_MID",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATIONSP/2025)\nCLASS: BCA   SEMESTER : IV\nBRANCH: BCA   SESSION : SP/2025\n\n                                     SUBJECT: CN227 INTRODUCTION TO DATA SCIENCE\nTIME:  02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) Define the role of data science in Healthcare and search engine. [2] I V\nQ.1(b) Explain facets of data in brief. [3] I II\n\n\nQ.2(a) Differentiate big data and data science. [2] I IV\nQ.2(b) Explain the data science process in brief. [3] I II\n\n\nQ.3(a) Define time series data with example. [2] I V\nQ.3(b) Explain different types of data used in data science. [3] I II\n\n\nQ.4(a) Define spatial data with example. [2] II V\nQ.4(b) Explain different steps of data pre-processing in brief. [3] II II\n\n\nQ.5(a) Define descriptive statistics and its types. [2] III V\nQ.5(b) Calculate the standard deviation of continuous grouped data as shown below:\nClass 0 – 10 10 - 20 20 - 30 30 - 40\nFrequency(f\ni\n) 2 4 2 2\n\n[3] III III\n\n\n\n::::::03/03/2025::::::E"
+    }
+  ]
+}

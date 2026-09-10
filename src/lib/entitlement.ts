@@ -13,10 +13,14 @@ import type { SupabaseClient } from "@supabase/supabase-js";
  *
  * The course identity is the resolved subject code, or (for unknown courses)
  * the normalised typed string — stored in generated_papers.course_input.
+ *
+ * Caps are deliberately tight: every generation is a 4-5 call multi-pass job
+ * against a shared free-tier LLM budget, so a free user gets a small number of
+ * real attempts, not an unlimited re-roll.
  */
 
-export const FREE_REGEN_CAP = 10;
-export const SUBJECT_REGEN_CAP = 12;
+export const FREE_REGEN_CAP = 4;
+export const SUBJECT_REGEN_CAP = 6;
 
 export interface EntitlementCheck {
   allowed: boolean;

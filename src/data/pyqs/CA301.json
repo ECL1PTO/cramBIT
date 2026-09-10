@@ -1,0 +1,13 @@
+{
+  "courseCode": "CA301",
+  "courseName": "COMPUTER GRAPHICS AND MULTIMEDIA_BCA_MID_MO23",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID-SEMESTER EXAMINATION MO/2023)\nCLASS:  BCA   SEMESTER: V\nBRANCH: BCA   SESSION: MO/2023\n\nSUBJECT: CA301 COMPUTER GRAPHICS AND MULTIMEDIA\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Define the term\ni. Persistence.\nii. Aspect Ratio.\n[2] 1 1\nQ.1(b) Explain the functioning of CRT with a proper diagram. [3] 1 4\n\n\nQ.2(a) Calculate the size of the frame buffer in KB for a 640 x 480 raster system with a\n32-bit per pixel.\n[2] 1 5\nQ.2(b) Differentiate between the Random and Raster Scan Display System. [3] 1 2\n\n\nQ.3(a) Write the steps of the DDA Line algorithm.  [2] 2 3\nQ.3(b) Consider the line from (2, 4) to (11 9). Use Bresenham's algorithm to rasterize this\nline.\n[3] 2 3\n\n\nQ.4(a) Define polygon. List various polygon filling algorithms. [2] 2 1\nQ.4(b) Explain the mid-point circle algorithm to generate an origin-centered circle with a\nradius ‘r’.\n[3] 2 2,3\n\n\nQ.5(a) Translate a square with the coordinates A(0,0), B(3,0), C(3,3), and D(0,3) by 2 units\nin the x and y directions.\n[2] 3 3\nQ.5(b) Explain the basic 2D geometric transformations with examples. [3] 3 1,3\n\n\n\n:::::19/09/2023 M:::::"
+    }
+  ]
+}

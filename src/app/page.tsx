@@ -10,13 +10,17 @@ import { Wordmark } from "@/components/logo";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { SupportForm } from "@/components/support-form";
 import { HeroVisual } from "@/components/hero-visual";
-import { courseCount, indexedPaperCount } from "@/lib/engine/data";
+import { courseCount, indexedPaperCount, questionCount } from "@/lib/engine/data";
 import { PRICING } from "@/data/pricing";
 import { DISCLAIMER_SHORT, NOT_AFFILIATED } from "@/data/legal";
+
+const compact = (n: number) =>
+  n >= 1000 ? `${(n / 1000).toFixed(n >= 10000 ? 0 : 1)}k` : String(n);
 
 export default function LandingPage() {
   const courses = courseCount();
   const papers = indexedPaperCount();
+  const questions = questionCount();
 
   return (
     <main className="min-h-screen">
@@ -40,7 +44,7 @@ export default function LandingPage() {
             <span className="shimmer font-serif italic">seen the paper.</span>
           </h1>
           <p className="rise rise-3 mt-6 max-w-xl text-lead leading-relaxed text-text/90 sm:text-[1.3rem]">
-            cramBIT reads every <a href="#how" className="underline decoration-dotted decoration-accent underline-offset-4 hover:text-text">PYQ</a> for your course, cross-references your syllabus, and writes the{" "}
+            cramBIT reads every <a href="#how" className="underline decoration-dotted decoration-accent underline-offset-4 hover:text-text">previous paper</a> for your course, cross-references your syllabus, and writes the{" "}
             <span className="mark text-text">25-mark question papers</span> most likely to
             come up. Three full sets, per subject.
           </p>
@@ -62,9 +66,9 @@ export default function LandingPage() {
 
           {/* stat strip */}
           <div className="rise rise-4 mt-12 grid max-w-md grid-cols-3 gap-4 border-t border-border pt-6">
+            <Stat value={`${compact(papers)}`} label="previous papers" />
+            <Stat value={`${compact(questions)}`} label="questions analysed" />
             <Stat value={courses.toLocaleString()} label="Noida courses" />
-            <Stat value={`${papers}+`} label="PYQs read" />
-            <Stat value="3" label="sets per subject" />
           </div>
         </div>
 
@@ -79,21 +83,21 @@ export default function LandingPage() {
           eyebrow="How it works"
           title={
             <>
-              <span className="gradient-text">PYQs</span> do the talking.
+              <span className="gradient-text">Previous papers</span> do the talking.
             </>
           }
           lead="Not a generic AI guess. Every predicted question is anchored to what your course has actually asked before and what your syllabus actually covers."
         />
         <div className="mt-12 grid gap-4 md:grid-cols-3">
           <Step n="01" title="Pick your subject">
-            Type the course code. cramBIT loads every PYQ (previous-year paper) on record for it.
+            Type the course code. cramBIT loads every previous paper on record for it.
           </Step>
           <Step n="02" title="Paste the syllabus">
             Your section&apos;s syllabus becomes the hard boundary — nothing outside it is asked.
           </Step>
           <Step n="03" title="Get the papers">
             A topic blueprint, a ranked pool of the most probable questions, then three
-            distinct 25-mark papers. Download as PDF, or ask the AI tutor to solve any of them.
+            distinct 25-mark papers. Download any set as a PDF.
           </Step>
         </div>
       </Container>
@@ -104,8 +108,8 @@ export default function LandingPage() {
           <div className="flex flex-col gap-5 md:flex-row md:items-center">
             <MonoChip className="self-start">new course?</MonoChip>
             <p className="text-lead leading-relaxed text-text/90">
-              Brand-new subject with no PYQs on record? cramBIT still predicts your
-              paper — from <span className="text-text">your syllabus</span> plus the PYQs of subjects with a <span className="mark text-text">similar syllabus</span>, then flags it so
+              Brand-new subject with no previous papers on record? cramBIT still predicts your
+              paper — from <span className="text-text">your syllabus</span> plus the previous papers of subjects with a <span className="mark text-text">similar syllabus</span>, then flags it so
               you know it&apos;s a softer prediction.
             </p>
           </div>
@@ -137,34 +141,6 @@ export default function LandingPage() {
         </div>
       </Container>
 
-      {/* AI tutor */}
-      <Container className="py-16 sm:py-section">
-        <div className="grid gap-10 md:grid-cols-[1fr_1.05fr] md:items-center">
-          <div className="order-last md:order-first">
-            <Card className="lift glow-accent border border-border font-mono text-body-sm">
-              <p className="text-faint">student:</p>
-              <p className="mt-1 text-text">how do I solve Q2(b)?</p>
-              <p className="mt-4 text-faint">cramBIT tutor:</p>
-              <p className="mt-1 text-muted">
-                Start from the recurrence T(n) = 2T(n/2) + n. Draw the tree, sum each
-                level (n per level, log n levels)…
-              </p>
-              <span className="cursor-blink text-accent">▍</span>
-            </Card>
-          </div>
-          <SectionHeading
-            eyebrow="AI tutor · paid plans"
-            title={
-              <>
-                Don&apos;t just get the paper —{" "}
-                <span className="gradient-text">learn to answer it</span>.
-              </>
-            }
-            lead="Every predicted paper comes with a tutor that already knows the questions. Ask it to solve any one, walk you through a derivation, explain a concept, or check your working. It's built into every paid subject."
-          />
-        </div>
-      </Container>
-
       {/* pricing */}
       <Container className="py-16 sm:py-section">
         <SectionHeading
@@ -186,7 +162,7 @@ export default function LandingPage() {
           <PriceCard
             name="Per subject"
             price={`₹${PRICING.perSubject}`}
-            note="Unlock any one more subject — all its predicted papers and the AI tutor."
+            note="Unlock any one more subject and all its predicted papers."
           />
           <PriceCard
             name="Season bundle"
