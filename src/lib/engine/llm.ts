@@ -111,6 +111,10 @@ async function callOpenAICompatible(
       ],
       temperature: o.json ? 0.35 : 0.8,
       max_tokens: o.maxTokens ?? 6000,
+      // gpt-oss / reasoning models spend hidden "reasoning" tokens out of the
+      // completion budget before the answer — keep that cheap so the JSON or
+      // paper actually fits. OpenAI-compatible servers ignore unknown fields.
+      reasoning_effort: "low",
       ...(o.json ? { response_format: { type: "json_object" } } : {}),
     }),
   });
@@ -177,7 +181,8 @@ export async function chatJson<T>(
     ...o,
     json: true,
     system: o.system ? `${JSON_SYSTEM}\n\n${o.system}` : JSON_SYSTEM,
-    maxTokens: Math.max(o.maxTokens ?? 0, 2000),
+    // Headroom for low-effort reasoning tokens that count against completion.
+    maxTokens: Math.max(o.maxTokens ?? 0, 3200),
   };
 
   for (const a of attempts) {
