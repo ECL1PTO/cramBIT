@@ -15,6 +15,122 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VII/ADD\nBRANCH: IT   SESSION : MO/2018\n\nSUBJECT : IT8039 COMPUTER GRAPHICS AND MULTIMEDIA\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) What is aspect ratio? Why it is required? [2]\n (b) Provide a classification of different display devices. [3]\n\n\nQ2 (a) How many color combinations are possible for 8 bit encoding of each principle\ncomponents in RGB color model system.\n[2]\n (b) Describe working of CRT display. [3]\n\n\nQ3 (a) What is scan conversion?  [2]\n (b) Describe DDA line drawing algorithm. [3]\n\n\nQ4 (a) What are the features of circle drawing algorithm? [2]\n (b) Describe boundary fill algorithm. [3]\n\n\nQ5 (a) What are the benefits of homogenous coordinate system? [2]\n (b) Scale the quadrilateral given by the points (1,2), (3,1), (4,3), (2,4) by factors 2 along x\naxis and 3 along y axis respectively using homogenous coordinate system.\n[3]\n\n\nQ6 (a) Write down the transformation matrix for x axis shear in homogenous coordinate\nsystem.\n[2]\n (b) Show window to viewport transformation in terms of basic transformations.  [3]\n\n\n\n :::: 18/09/2018 M ::::::"
+    },
+    {
+      "session": "MO/2018",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is aspect ratio? Why it is required?",
+              "marks": 2,
+              "topic": "aspect ratio"
+            },
+            {
+              "label": "b",
+              "text": "Provide a classification of different display devices.",
+              "marks": 3,
+              "topic": "display devices"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "How many color combinations are possible for 8 bit encoding of each principle components in RGB color model system.",
+              "marks": 2,
+              "topic": "color encoding"
+            },
+            {
+              "label": "b",
+              "text": "Describe working of CRT display.",
+              "marks": 3,
+              "topic": "CRT display"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is scan conversion?",
+              "marks": 2,
+              "topic": "scan conversion"
+            },
+            {
+              "label": "b",
+              "text": "Describe DDA line drawing algorithm.",
+              "marks": 3,
+              "topic": "DDA algorithm"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What are the features of circle drawing algorithm?",
+              "marks": 2,
+              "topic": "circle algorithm"
+            },
+            {
+              "label": "b",
+              "text": "Describe boundary fill algorithm.",
+              "marks": 3,
+              "topic": "boundary fill"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What are the benefits of homogenous coordinate system?",
+              "marks": 2,
+              "topic": "homogeneous coordinates"
+            },
+            {
+              "label": "b",
+              "text": "Scale the quadrilateral given by the points (1,2), (3,1), (4,3), (2,4) by factors 2 along x axis and 3 along y axis respectively using homogenous coordinate system.",
+              "marks": 3,
+              "topic": "scaling"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write down the transformation matrix for x axis shear in homogenous coordinate system.",
+              "marks": 2,
+              "topic": "shear"
+            },
+            {
+              "label": "b",
+              "text": "Show window to viewport transformation in terms of basic transformations.",
+              "marks": 3,
+              "topic": "window viewport"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

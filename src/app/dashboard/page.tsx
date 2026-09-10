@@ -82,13 +82,23 @@ export default function Dashboard() {
     return () => clearTimeout(t);
   }, [courseInput]);
 
+  const [acking, setAcking] = useState(false);
   async function ackDisclaimer() {
-    const { data } = await supabase.auth.getUser();
-    if (!data.user) return;
-    const now = new Date().toISOString();
-    await supabase.from("profiles").update({ disclaimer_ack_at: now }).eq("id", data.user.id);
-    setAckedAt(now);
-    setNeedAck(false);
+    if (acking) return;
+    setAcking(true);
+    try {
+      const res = await fetch("/api/disclaimer", { method: "POST" });
+      const body = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        setError(body.error ?? "Could not save your acknowledgement. Try again.");
+        return;
+      }
+      setAckedAt(body.ackedAt ?? new Date().toISOString());
+      setNeedAck(false);
+      setError(null);
+    } finally {
+      setAcking(false);
+    }
   }
 
   const run = useCallback(async () => {
@@ -415,8 +425,10 @@ export default function Dashboard() {
           <Card className="max-w-md">
             <h2 className="text-h3 font-normal text-text">Before we start</h2>
             <p className="mt-3 text-body-sm leading-relaxed text-muted">{DISCLAIMER_ACK}</p>
-            <div className="mt-6 flex gap-3">
-              <Button onClick={ackDisclaimer}>I understand</Button>
+            <div className="mt-6 flex items-center gap-3">
+              <Button onClick={ackDisclaimer} disabled={acking}>
+                {acking ? "Saving…" : "I understand"}
+              </Button>
               <button
                 onClick={() => setNeedAck(false)}
                 className="text-body-sm text-muted hover:text-text"
