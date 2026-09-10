@@ -239,6 +239,202 @@
           ]
         }
       ]
+    },
+    {
+      "session": "SP/2019",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Describe static and dynamic ways of linking and loading of program into memory.",
+              "marks": 2,
+              "topic": "linking"
+            },
+            {
+              "label": "b",
+              "text": "Define Compiler. Differentiate between object code and executable code.",
+              "marks": 3,
+              "topic": "compiler"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define BIOS.",
+              "marks": 2,
+              "topic": "BIOS"
+            },
+            {
+              "label": "b",
+              "text": "Design a flow chart to find the roots of a given quadratic equation.",
+              "marks": 3,
+              "topic": "flowchart"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the difference between declaration and definition in C program",
+              "marks": 2,
+              "topic": "declaration"
+            },
+            {
+              "label": "b",
+              "text": "Write a C program for multiplication table of 12 using bitwise shift operator.",
+              "marks": 3,
+              "topic": "bitwise"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write a C program which will take two integer numbers as an input from user and print the sum without using any arithmetic operator.",
+              "marks": 2,
+              "topic": "arithmetic-free addition"
+            },
+            {
+              "label": "b",
+              "text": "Write a C program to print asterisks in a pyramid structure.",
+              "marks": 3,
+              "topic": "pyramid"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write a C program to calculate the number of duplicate entries in the array.",
+              "marks": 2,
+              "topic": "duplicate entries"
+            },
+            {
+              "label": "b",
+              "text": "Write a C program that reads/input any square matrix and replace value zero on the diagonals, 1 on the upper triangle and -1 on lower triangle of the matrix as an output.",
+              "marks": 3,
+              "topic": "matrix transformation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "session": "MO/2018",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "List the functions of ALU?",
+              "marks": 2,
+              "topic": "Computer Architecture"
+            },
+            {
+              "label": "b",
+              "text": "Outline the need of cache memory in a computer.",
+              "marks": 3,
+              "topic": "Memory Hierarchy"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Describe what do you mean by an Algorithm?",
+              "marks": 2,
+              "topic": "Algorithms"
+            },
+            {
+              "label": "b",
+              "text": "Design a flowchart for GCD of given numbers?",
+              "marks": 3,
+              "topic": "Algorithms"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Distinguish between typecasting and type conversion with examples in C.",
+              "marks": 2,
+              "topic": "C Programming"
+            },
+            {
+              "label": "b",
+              "text": "Write a C program to print the prime factors of a number.",
+              "marks": 3,
+              "topic": "C Programming"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Illustrate with examples what do you mean by decision control statements in C.",
+              "marks": 2,
+              "topic": "C Programming"
+            },
+            {
+              "label": "b",
+              "text": "Write a C program that displays all the numbers between a user input range that are divisible by 2 as well as by 3.",
+              "marks": 3,
+              "topic": "C Programming"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write a C program to read an array and display the array of n numbers.",
+              "marks": 2,
+              "topic": "C Programming"
+            },
+            {
+              "label": "b",
+              "text": "Develop a C program to find the product of two matrix and display it’s result.",
+              "marks": 3,
+              "topic": "C Programming"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -131,6 +131,116 @@
           ]
         }
       ]
+    },
+    {
+      "session": "SP/2019",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain any one CISC machine architecture.",
+              "marks": 2,
+              "topic": "CISC architecture"
+            },
+            {
+              "label": "b",
+              "text": "State the target address and value loaded in register A for the following Hex code for SIC(XE) architecture. Let assume (B)=006000, (PC)=003000 and (X)=000090. Hex code=022030 and 03C300. Memory Status: Address Contents 003600 103000 00C303 003030.",
+              "marks": 3,
+              "topic": "SIC/XE addressing"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Briefly describe the SIC/XE instruction formats.",
+              "marks": 2,
+              "topic": "Instruction formats"
+            },
+            {
+              "label": "b",
+              "text": "Suppose ALPHA and BETA are the two arrays of 100 words. Another array of GAMMA stores the smaller elements by comparing the corresponding elements of ALPHA and BETA. Write SIC(XE) program to implement GAMMA.",
+              "marks": 3,
+              "topic": "SIC/XE programming"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "“Control section can be loaded and relocated independently”. Justify.",
+              "marks": 2,
+              "topic": "Relocation"
+            },
+            {
+              "label": "b",
+              "text": "Explain in detail machine independent assembler features.",
+              "marks": 3,
+              "topic": "Assembler features"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write the object program for the following SIC/XE code, assuming that it is to be loaded in memory from address 0058H. The operation codes for the instructions are LDT=74, LDA=00, ADDR=90, SUB=1C, STA=0C and the addresses for registers A and T are 0 and 5 respectively.\nLDT    NUM\nLDA    ALPHA\nADDR  T, A\nSUB    #8\nSTA    SUM1\nLDA    GAMMA\nADDR  T, A\nSUB    #12\nSTA    SUM2\nALPHA   RESW   1\nSUM1     RESW   1\nGAMMA  RESW   1\nSUM2     RESW   1\nNUM      RESW   1\nPTO\n3030\n3600\n6390\nC303",
+              "marks": 5,
+              "topic": "Object program"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Suppose that an instruction involving a forward reference is to be assembled using Program Counter Relative addressing. How might this be handled by a One Pass Assembler?",
+              "marks": 2,
+              "topic": "One-pass assembler"
+            },
+            {
+              "label": "b",
+              "text": "Write Pass 2 of two pass assembler in algorithmic form or step by step operations.",
+              "marks": 3,
+              "topic": "Two-pass assembler"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the working of Multi-pass Assembler.",
+              "marks": 2,
+              "topic": "Multi-pass assembler"
+            },
+            {
+              "label": "b",
+              "text": "Write short notes on MASM assembler.",
+              "marks": 3,
+              "topic": "MASM"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

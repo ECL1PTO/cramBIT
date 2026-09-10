@@ -197,6 +197,104 @@
           ]
         }
       ]
+    },
+    {
+      "session": "SP/2019",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Differentiate different generation of Computer with respect to software development.",
+              "marks": null,
+              "topic": "Computer generations"
+            },
+            {
+              "label": "b",
+              "text": "Explain, how data transfer takes place using E-mail.",
+              "marks": null,
+              "topic": "Email"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain with a block diagram of a computer and explain the functions of each Block.",
+              "marks": null,
+              "topic": "Computer architecture"
+            },
+            {
+              "label": "b",
+              "text": "Evaluate : (i) (111.011)_2 + (111.011)_8 + (111.011)_16 + (111.011)_10 – (111.11)_2 = ( )_2 (ii) Using 2’s complement (12)_10 – (91.11)_10 = ( )_2",
+              "marks": null,
+              "topic": "Number systems"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain execution cycle for Pipelining Computer.",
+              "marks": null,
+              "topic": "Pipelining"
+            },
+            {
+              "label": "b",
+              "text": "Outline with the help of a diagram, how Serial Access Memory working.",
+              "marks": null,
+              "topic": "Serial Access Memory"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Distinguish between ROM, RAM and EEPROM.",
+              "marks": null,
+              "topic": "Memory types"
+            },
+            {
+              "label": "b",
+              "text": "Outline the role of interrupts.",
+              "marks": null,
+              "topic": "Interrupts"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Differentiate between Top-Down approach and Bottom-Up approach.",
+              "marks": null,
+              "topic": "Software design approaches"
+            },
+            {
+              "label": "b",
+              "text": "Write an algorithm for Bubble Sort.",
+              "marks": null,
+              "topic": "Sorting algorithms"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

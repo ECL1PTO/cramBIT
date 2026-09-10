@@ -125,6 +125,116 @@
           ]
         }
       ]
+    },
+    {
+      "session": "SP/2019",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write tasks performed by two cousins of Compilers. Explain with example how they differ from simple compiler?",
+              "marks": 2,
+              "topic": "Compiler cousins"
+            },
+            {
+              "label": "b",
+              "text": "Explain the various phases of a compiler for the given program: var I,j: integer; var r :real; begin r=i+j*10; end.",
+              "marks": 3,
+              "topic": "Compiler phases"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Discuss the challenges in compiler design and its applications.",
+              "marks": 2,
+              "topic": "Compiler challenges"
+            },
+            {
+              "label": "b",
+              "text": "Write a LEX specification file to identify the tokens of the language C.",
+              "marks": 3,
+              "topic": "Lex specification"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Which of the following expressions have l-values and / or R-values. (i) A[I+1] (ii) * A (iii) & A (iv) &( * A) (v) *( & A) (vi) * (&(&A))",
+              "marks": 2,
+              "topic": "L-values and R-values"
+            },
+            {
+              "label": "b",
+              "text": "Consider the grammar: Stmt -> if cond then stmt else stmt | if cond then stmt. Show this grammar is ambiguous and construct an equivalent unambiguous grammar.",
+              "marks": 3,
+              "topic": "Ambiguous grammar"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write an algorithm for eliminating left recursion. Verify your algorithm with the following grammar S->Aa A->Sb|c.",
+              "marks": 2,
+              "topic": "Left recursion"
+            },
+            {
+              "label": "b",
+              "text": "Write an algorithm for Recursive Descent Calculator of the following grammar E->E+T|T T->T*F|F F->(E)|id.",
+              "marks": 3,
+              "topic": "Recursive descent"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Show that the given grammar is not in LL(1): S→A|B, A→cA+b|a, B→cB+a|b.",
+              "marks": 2,
+              "topic": "LL(1) grammar"
+            },
+            {
+              "label": "b",
+              "text": "Consider the grammar E→BA A→&BA|ε B→true|false. Show that the grammar is LL(1) and construct the predictive parsing table.",
+              "marks": 3,
+              "topic": "LL(1) grammar"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Consider the grammar with Non-terminals {S, A}, Terminals {c, b}, productions S→AA, A→cA, A→b (start symbol S). Construct SLR parsing table, list all conflicts, and explain how to resolve them.",
+              "marks": 5,
+              "topic": "SLR parsing"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

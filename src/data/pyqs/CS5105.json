@@ -125,6 +125,134 @@
           ]
         }
       ]
+    },
+    {
+      "session": "MO/2018",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Why we need fuzzy set theory? Elaborate.",
+              "marks": 2,
+              "topic": "fuzzy set theory"
+            },
+            {
+              "label": "b",
+              "text": "Explain why the law of contradiction and law of excluded middle are violated in fuzzy set theory under the standard fuzzy set operations. What is the significance of this?",
+              "marks": 3,
+              "topic": "fuzzy set theory"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is convexity? Explain with example when fuzzy set is convex?",
+              "marks": 2,
+              "topic": "convexity"
+            },
+            {
+              "label": "b",
+              "text": "Explain the following: 1. Level set 2. Degree of subsethood 3. Hamming distance",
+              "marks": 3,
+              "topic": "fuzzy set concepts"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Find A∩B",
+              "marks": null,
+              "topic": "fuzzy set operations"
+            },
+            {
+              "label": "b",
+              "text": "Find A – B",
+              "marks": null,
+              "topic": "fuzzy set operations"
+            },
+            {
+              "label": "c",
+              "text": "Find A∪B",
+              "marks": null,
+              "topic": "fuzzy set operations"
+            },
+            {
+              "label": "d",
+              "text": "Find S(A,B)",
+              "marks": null,
+              "topic": "fuzzy set operations"
+            },
+            {
+              "label": "e",
+              "text": "Find .5(|A|)",
+              "marks": null,
+              "topic": "fuzzy set operations"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Find (A) (A + B)(x)",
+              "marks": null,
+              "topic": "fuzzy numbers"
+            },
+            {
+              "label": "b",
+              "text": "Find (B) (A . B)(x)",
+              "marks": null,
+              "topic": "fuzzy numbers"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": null,
+              "text": "What are different types of fuzzy propositions? Explain them with examples.",
+              "marks": null,
+              "topic": "fuzzy propositions"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is defuzzification? Explain.",
+              "marks": 2,
+              "topic": "defuzzification"
+            },
+            {
+              "label": "b",
+              "text": "What is Mamdani inference system model? Explain.",
+              "marks": 3,
+              "topic": "Mamdani inference system"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

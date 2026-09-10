@@ -131,6 +131,122 @@
           ]
         }
       ]
+    },
+    {
+      "session": "SP/2019",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the key principles of security? What are the security approaches to implement in security model?",
+              "marks": 2,
+              "topic": "Security principles"
+            },
+            {
+              "label": "b",
+              "text": "List and briefly define categories of passive and active security attacks with example.",
+              "marks": 3,
+              "topic": "Security attacks"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Distinguish between Stream Cipher & Block Cipher? Give examples.",
+              "marks": 2,
+              "topic": "Cipher types"
+            },
+            {
+              "label": "b",
+              "text": "Using the Vigenere cipher, encrypt the word “cryptography” using the key house. Also perform decryption.",
+              "marks": 3,
+              "topic": "Vigenere cipher"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the life cycle of a key?",
+              "marks": 2,
+              "topic": "Key lifecycle"
+            },
+            {
+              "label": "b",
+              "text": "Encrypt the message “good morning” using the Hill cipher with key k= ...",
+              "marks": 3,
+              "topic": "Hill cipher"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define algorithm modes. Explain Cipher feedback with suitable example.",
+              "marks": 2,
+              "topic": "Algorithm modes"
+            },
+            {
+              "label": "b",
+              "text": "With suitable block diagram explain the working of DES Algorithm.",
+              "marks": 3,
+              "topic": "DES algorithm"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Differentiate between Symmetric and Asymmetric Cryptography with suitable example.",
+              "marks": 2,
+              "topic": "Symmetric vs Asymmetric"
+            },
+            {
+              "label": "b",
+              "text": "Given two prime numbers P=47, Q=71, find out n,e and d in the RSA encryption process.",
+              "marks": 3,
+              "topic": "RSA"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "i",
+              "text": "Affine Cipher",
+              "marks": 2.5,
+              "topic": "Affine cipher"
+            },
+            {
+              "label": "ii",
+              "text": "Diffie–Hellman key exchange",
+              "marks": 2.5,
+              "topic": "Diffie-Hellman key exchange"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

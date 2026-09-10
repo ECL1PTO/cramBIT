@@ -8,6 +8,122 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: IV\nBRANCH: IT   SESSION : SP/2019\n\nSUBJECT : IT4021 DATABASE SYSTEM CONCEPTS\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) Why is data isolation difficult in file processing systems? [2]\n (b) What are concurrent access anomalies in file processing systems? Explain with example. [3]\n\nQ2 (a) Which data model permits the specification of data where individual data items of the\nsame type may have different set of attributes?\n[2]\n (b) What is referential integrity? [3]\n\nQ3 (a) What are descriptive attributes? [2]\n (b) Explain mapping cardinality. [3]\n\nQ4 (a) How is a weak entity set reduced into relational schema? [2]\n (b) What are the different constraints on generalization? Explain. [3]\n\nQ5 (a) What is a relation a subset of? [2]\n (b) What are the different types of keys? Explain. [3]\n\nQ6 (a) If there is a relation called parttimeemployees and it has attributes ename. salary and\nbranchname, then how do we find the sum of salary at each branchname and maximum\nsalary at each branchname in a relational algebra statement?\n[2]\n (b) If  there  is  a  relation  account(accountnumber,branchname,  balance),  then  how  do  we\nwrite the query of updation of accounts with balances over 10000 increased by 6% and\nall other balances by 5% in relational algebra.\n[3]\n\n\n\n :::: 01/03/2019 ::::::E"
+    },
+    {
+      "session": "SP/2019",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Why is data isolation difficult in file processing systems?",
+              "marks": 2,
+              "topic": "data isolation"
+            },
+            {
+              "label": "b",
+              "text": "What are concurrent access anomalies in file processing systems? Explain with example.",
+              "marks": 3,
+              "topic": "concurrent access anomalies"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Which data model permits the specification of data where individual data items of the same type may have different set of attributes?",
+              "marks": 2,
+              "topic": "data model attributes"
+            },
+            {
+              "label": "b",
+              "text": "What is referential integrity?",
+              "marks": 3,
+              "topic": "referential integrity"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What are descriptive attributes?",
+              "marks": 2,
+              "topic": "descriptive attributes"
+            },
+            {
+              "label": "b",
+              "text": "Explain mapping cardinality.",
+              "marks": 3,
+              "topic": "mapping cardinality"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "How is a weak entity set reduced into relational schema?",
+              "marks": 2,
+              "topic": "weak entity reduction"
+            },
+            {
+              "label": "b",
+              "text": "What are the different constraints on generalization? Explain.",
+              "marks": 3,
+              "topic": "generalization constraints"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is a relation a subset of?",
+              "marks": 2,
+              "topic": "relation subset"
+            },
+            {
+              "label": "b",
+              "text": "What are the different types of keys? Explain.",
+              "marks": 3,
+              "topic": "key types"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "If there is a relation called parttimeemployees and it has attributes ename, salary and branchname, then how do we find the sum of salary at each branchname and maximum salary at each branchname in a relational algebra statement?",
+              "marks": 2,
+              "topic": "relational algebra aggregation"
+            },
+            {
+              "label": "b",
+              "text": "If there is a relation account(accountnumber,branchname, balance), then how do we write the query of updation of accounts with balances over 10000 increased by 6% and all other balances by 5% in relational algebra.",
+              "marks": 3,
+              "topic": "relational algebra update"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

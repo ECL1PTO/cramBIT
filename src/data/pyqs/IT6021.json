@@ -131,6 +131,122 @@
           ]
         }
       ]
+    },
+    {
+      "session": "SP/2019",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Draw the block diagram of communication system and briefly explain the function of each block.",
+              "marks": 2,
+              "topic": "communication system"
+            },
+            {
+              "label": "b",
+              "text": "State and prove the modulation theorem property of Fourier transform and find the Fourier transform of the delta function and sketch its spectrum.",
+              "marks": 3,
+              "topic": "modulation theorem"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Obtain Fourier transform of a rectangular pulse g(t) of duration T and amplitude A and draw its spectrum. g(t)=rect(t/T)=A for –T/2 ≤ t ≤ T/2, 0 elsewhere.",
+              "marks": 2,
+              "topic": "rectangular pulse"
+            },
+            {
+              "label": "b",
+              "text": "Define energy spectral density and state and prove Rayleigh energy theorem.",
+              "marks": 3,
+              "topic": "energy spectral density"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Derive the expression for total transmitted power in terms of carrier power and modulation index for single tone AM.",
+              "marks": 2,
+              "topic": "AM power"
+            },
+            {
+              "label": "b",
+              "text": "Discuss the coherent detector used for DSB-SC demodulation also discuss the various cases of frequency and phase errors.",
+              "marks": 3,
+              "topic": "DSB-SC demodulation"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the operation of envelope detector with neat diagram and mention the conditions of charging and discharging time constants.",
+              "marks": 2,
+              "topic": "envelope detector"
+            },
+            {
+              "label": "b",
+              "text": "Explain the phase discriminator method of SSB generation. List its advantages and disadvantages with respect to other methods.",
+              "marks": 3,
+              "topic": "phase discriminator"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the difference between narrowband FM and wideband FM.",
+              "marks": 2,
+              "topic": "narrowband FM"
+            },
+            {
+              "label": "b",
+              "text": "A 25 MHz carrier is modulated by a 400 Hz audio signal. If the carrier voltage is 4 V peak and the maximum frequency deviation equals 75 kHz, obtain the equation of FM wave. Is it NBFM or WBFM?",
+              "marks": 3,
+              "topic": "wideband FM"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the term frequency deviation and phase deviation for an angle modulation system.",
+              "marks": 2,
+              "topic": "frequency deviation"
+            },
+            {
+              "label": "b",
+              "text": "Compare Amplitude modulation and Frequency modulation. Why FM is more immune to the effect of noise.",
+              "marks": 3,
+              "topic": "AM vs FM comparison"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -15,6 +15,122 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: IMSC   SEMESTER: V\nBRANCH: MATHS & COMP.  SESSION : MO/2018\n\nSUBJECT : CS4105 DATABASE MANAGEMENT SYSTEM\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) Draw a diagram to show a simplified database system environment. [2]\n (b) What  are  the  advantages  of  using  Database  approach  over  file  approach.  Also write  the\nsituation in which using database approach is not appropriate.\n[3]\n\n\nQ2 (a) What is The Three Schema Architecture? Explain using diagram. [2]\n (b) Explain the   following using proper examples:\n(i) Entity Types   ii) Relationship Instances iii) Participation constraints\n[3]\n\n\nQ3 (a) Discuss the following: i)  Data Model  ii) Foreign key  [2]\n (b) Draw a schema diagram for University Database. [3]\n\n\nQ4 (a) What  do  you  mean  by  Specialization  and  Generalization  in  E-R model?  Explain  using\nexample.\n[2]\n (b) Explain various Outer Join operations in relational algebra using suitable relations. [3]\n\n\nQ5 (a) Write  appropriate  sql  to  create  the  following  with  constraints  (Choose  suitable  foreign\nkeys):\nemployee(person_name,street,city)\nworks(person_name,company_name, salary)\ncompany(company_name, city)\nmanages(person_name,manager_name)\n[2]\n (b) Write SQL for the following queries based on the above schemas:\ni) Find the names of all employees who do not work for ‘xyz’company.\nii) Find  the  names  of  all  employees  who  earn  more  than  every  employee  of  ’xyz’\ncompany.\n[3]\n\n\nQ6 (a) Books(isbn,title,authors,publisher)\nMember(memb_no,name,dob)\nBorrowed(memb_no,isbn, date)\nConsider  the  above    relational  schema  to  write  relational  algebraic  expressions  for  the\nfollowing queries:\ni)Find the names of the members who have borrowed any book published by ‘McGraw-Hill’\nii)Find the names of members who have borrowed all books published by ‘McGraw-Hill’\n[2]\n (b) Write  the  relational algebraic  expression  for  the  following  queries  based  on  the  above\nschemas:\ni) Find the names and member number of members who have borrowed more than\nfive books published by ‘McGraw-Hill’\nii) For  each  publisher  ,  find  name  and  membership  number  of  members  who  have\nborrowed more than five books of that publisher.\n[3]\n\n :::: 10/09/2018 E ::::::"
+    },
+    {
+      "session": "MO/2019",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Why is maintaining integrity difficult in file processing systems?",
+              "marks": 2,
+              "topic": "Integrity"
+            },
+            {
+              "label": "b",
+              "text": "What are the jobs of a database administrator? Describe.",
+              "marks": 3,
+              "topic": "Database Administration"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "How many times are canned transactions executed by parametric users?",
+              "marks": 2,
+              "topic": "Transactions"
+            },
+            {
+              "label": "b",
+              "text": "Describe the classification of DBMS.",
+              "marks": 3,
+              "topic": "DBMS Classification"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the meaning of Null valued attributes with examples.",
+              "marks": 2,
+              "topic": "Null Values"
+            },
+            {
+              "label": "b",
+              "text": "How is a relationship set made and how are their primary keys selected in E-R model?",
+              "marks": 3,
+              "topic": "ER Modeling"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Discuss the following: i) Primary key   ii) identifying relationship",
+              "marks": 2,
+              "topic": "Keys"
+            },
+            {
+              "label": "b",
+              "text": "What are weak entity sets? How are they reduced to relational schemas?",
+              "marks": 3,
+              "topic": "Weak Entities"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the relevance of “order in which the tuples appear in a relation”?",
+              "marks": 2,
+              "topic": "Tuple Order"
+            },
+            {
+              "label": "b",
+              "text": "Use relational algebra to solve the following questions: i) Find all customers who have an account at all the branches located in Brooklyn. ii) Find all customer names of the city Harrison.",
+              "marks": 3,
+              "topic": "Relational Algebra"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write SQL queries for: I. Display the first 50% records from Student table assuming students roll numbers are in a sequence from 1, 2 ,3 and so on and stored in the table in ascending order. II. Display the states from where less than 50 students belong.",
+              "marks": 2,
+              "topic": "SQL Queries"
+            },
+            {
+              "label": "b",
+              "text": "Write SQL queries for: I. Show one row twice from student table. II. Display roll number, name, city, state of the students who scored more than 50% in subject name “Database Management System”. (Midsem holds 40 marks and end sem holds 60 marks.)",
+              "marks": 3,
+              "topic": "SQL Queries"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -138,6 +138,238 @@
           ]
         }
       ]
+    },
+    {
+      "session": "SP/2019",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the difference between structure and behavior in the digital system design context.",
+              "marks": 2,
+              "topic": "digital system design"
+            },
+            {
+              "label": "b",
+              "text": "What is HDL? Write an HDL program for 8-bit binary multiplication.",
+              "marks": 3,
+              "topic": "HDL"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What are the major component types at register level design?",
+              "marks": 2,
+              "topic": "register level design"
+            },
+            {
+              "label": "b",
+              "text": "Explain the operation and design of 4-bit magnitude comparator.",
+              "marks": 3,
+              "topic": "magnitude comparator"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Definite between CISC and RISC based computer system.",
+              "marks": 2,
+              "topic": "CISC vs RISC"
+            },
+            {
+              "label": "b",
+              "text": "What is PLDs? Sketch the ROM implementation of full adder.",
+              "marks": 3,
+              "topic": "PLDs"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the single bit error detection and correction methods with diagram.",
+              "marks": 2,
+              "topic": "error detection"
+            },
+            {
+              "label": "b",
+              "text": "How the fixed-point numbers represented in the computer system?",
+              "marks": 3,
+              "topic": "fixed-point representation"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is relative addressing? What are its advantages and disadvantages of this addressing mode?",
+              "marks": 2,
+              "topic": "relative addressing"
+            },
+            {
+              "label": "b",
+              "text": "Discuss the queueing models considering single-queue and single-server and analyses its performance.",
+              "marks": 3,
+              "topic": "queueing models"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Draw and explain the structure of sequential arithmetic-logic unit (ALU).",
+              "marks": 2,
+              "topic": "ALU"
+            },
+            {
+              "label": "b",
+              "text": "Explain the Booth’s multiplication with the help of flow-chart and circuit by considering two numbers -9 and -13.",
+              "marks": 3,
+              "topic": "Booth multiplication"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "session": "SP/2019",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define the term computer system architecture.",
+              "marks": 2,
+              "topic": "computer system architecture"
+            },
+            {
+              "label": "b",
+              "text": "State the parameters which affect the performance of a computer.",
+              "marks": 3,
+              "topic": "performance parameters"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What are the different levels of system design?",
+              "marks": 2,
+              "topic": "system design levels"
+            },
+            {
+              "label": "b",
+              "text": "Give behavioural VHDL description of a half adder. Develop the truth table for the same.",
+              "marks": 3,
+              "topic": "VHDL half adder"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Differentiate between RISC & CISC processors.",
+              "marks": 2,
+              "topic": "RISC CISC comparison"
+            },
+            {
+              "label": "b",
+              "text": "Explain the functions of CPU & draw its functional flow chart.",
+              "marks": 3,
+              "topic": "CPU functions"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the basic instruction cycle with state transition diagram.",
+              "marks": 2,
+              "topic": "instruction cycle"
+            },
+            {
+              "label": "b",
+              "text": "Represent (-1.75)10 in IEEE754 floating point format.",
+              "marks": 3,
+              "topic": "IEEE754 floating point"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the various instruction types & formats.",
+              "marks": 2,
+              "topic": "instruction types formats"
+            },
+            {
+              "label": "b",
+              "text": "What are smallest and largest integers representable in 8-bit values using (i) Unsigned binary representation. (ii) Signed-magnitude binary representation. (iii) Two’s complement representation.",
+              "marks": 3,
+              "topic": "integer representation"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "How the data path is designed?",
+              "marks": 2,
+              "topic": "data path design"
+            },
+            {
+              "label": "b",
+              "text": "Explain the working of Booth’s Algorithm for 7*3.",
+              "marks": 3,
+              "topic": "Booth's algorithm"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

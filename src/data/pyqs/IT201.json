@@ -113,6 +113,104 @@
           ]
         }
       ]
+    },
+    {
+      "session": "MO/2019",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain what do mean by artificial intelligence? Identify the capabilities of an AI based system for solving complex problems.",
+              "marks": 2,
+              "topic": "Artificial Intelligence fundamentals"
+            },
+            {
+              "label": "b",
+              "text": "Considering a suitable example prepare the desired performance, environment, actuators and sensors (PEAS) measures for any one AI based system for problem solving.",
+              "marks": 3,
+              "topic": "PEAS framework for AI systems"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define an AI agent and appraise when we can say an agent to be rational.",
+              "marks": 2,
+              "topic": "AI agents and rationality"
+            },
+            {
+              "label": "b",
+              "text": "Define soft computing and identify the different paradigms of soft computing mentioning their problem solving capabilities.",
+              "marks": 3,
+              "topic": "Soft computing paradigms"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Differentiate between fuzzy and crisp set. Defend the following statement: “Partial membership is allowed in fuzzy sets”?",
+              "marks": 2,
+              "topic": "Fuzzy vs crisp sets"
+            },
+            {
+              "label": "b",
+              "text": "Consider two given fuzzy sets A={(2,1), (4,0.3), (6,0.5), (8,0.2)} B={(2,0.5), (4,0.4), (6,0.1), (8,1)} Evaluate union, intersection, difference, complement, algebraic sum and algebraic product over fuzzy sets A and B.",
+              "marks": 3,
+              "topic": "Operations on fuzzy sets"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "With a neat flowchart, illustrate the steps of a simple genetic algorithm.",
+              "marks": 2,
+              "topic": "Genetic algorithm workflow"
+            },
+            {
+              "label": "b",
+              "text": "Distinguish between crossover and mutation operation in genetic algorithm.",
+              "marks": 3,
+              "topic": "Genetic algorithm operators"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "With a neat sketch, explain the working of Mc-Culloh Pitts neuron model.",
+              "marks": 2,
+              "topic": "McCulloch-Pitts neuron model"
+            },
+            {
+              "label": "b",
+              "text": "Explain the salient features of artificial learning? Indicate an overview on different types of learning.",
+              "marks": 3,
+              "topic": "Artificial learning types"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

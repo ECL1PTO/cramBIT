@@ -15,6 +15,238 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: V\nBRANCH: CSE   SESSION : MO/2018\n\nSUBJECT : CS6107  COMPUTER NETWORKS\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) Differentiate between the communication and transmission. [2]\n (b) Why it is necessary to have layering in a network? [3]\n\nQ2 (a) How network performance is measured? [2]\n (b) Draw and explain TCP/IP reference model. [3]\n\nQ3 (a) Differentiate between bit rate and baud rate. [2]\n (b) Draw the signal waveform for the bit stream 110000000010001 using different\nScrambling techniques.\n[3]\n\nQ4 (a) Imagine a communication link that that is experiencing interference so every 18\nth\n bit is\nchanged from 0 to1 or 1 to 0. Does a parity check detect all the errors?\n[2]\n (b) Explain CRC. Generate CRC code for the data word 1010001011 using the divisor 11101. [3]\n\nQ5 (a) Consider a channel with a 1MHz bandwidth. The SNR for this channel is 63; What is the\nappropriate bit rate and signal level?\n[2]\n (b) Discuss the mechanism of stop and wait flow control technique. Derive the relation\nU=1/1+2a\n[3]\n\nQ6 (a) What is ring wrapping in FDDI? [2]\n (b) With the help of flow diagram explain CSMA/CD? How is it different from CSMA/CA? [3]\n\n\n\n :::::: 12/90/2018 ::::::E"
+    },
+    {
+      "session": "MO/2019",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define the Protocol.",
+              "marks": 2,
+              "topic": "protocol definition"
+            },
+            {
+              "label": "b",
+              "text": "How much time will it take to send a packet of size L bits from A to B in given setup (A---R1---R2---B). If Bandwidth is R bps, propagation speed is t meter/sec and distance b/w any two points are d meters (ignore processing and queuing delay)?",
+              "marks": 3,
+              "topic": "transmission delay calculation"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the advantage of using layered architecture in communication?",
+              "marks": 2,
+              "topic": "layered architecture advantage"
+            },
+            {
+              "label": "b",
+              "text": "How the encapsulation is performed in the OSI reference model? Explain with an example.",
+              "marks": 3,
+              "topic": "OSI encapsulation"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "How the sliding window protocol can provide the service to preserve the order in which frames are transmitted.",
+              "marks": 2,
+              "topic": "sliding window ordering"
+            },
+            {
+              "label": "b",
+              "text": "A series of 8-bit message blocks(frames) is to be transmitted across a data link using a CRC for error detection. A generator polynomial of 11001 is to be used. Use an example to illustrate the CRC checking process.",
+              "marks": 3,
+              "topic": "CRC error detection"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "A bit string 0111101111101111110, needs to be transmitted at the data link layer. What is the string actually transmitted after bit stuffing?",
+              "marks": 2,
+              "topic": "bit stuffing"
+            },
+            {
+              "label": "b",
+              "text": "Two neighboring nodes A and B uses sliding window protocol with a 3-bit sequence number. As the ARQ mechanism, GO-Back-N is used with window size of 4. Assume A is transmitting and B is receiving Show window position for the following events: 1. Before A sends any frame. 2. After A send frame 0,1,2 and receive ACK( acknowledgement) from B for 0,1.",
+              "marks": 3,
+              "topic": "Go-Back-N window"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is exponential backoff?",
+              "marks": 2,
+              "topic": "exponential backoff"
+            },
+            {
+              "label": "b",
+              "text": "Explain the Ethernet frame format.",
+              "marks": 3,
+              "topic": "Ethernet frame format"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What do you mean by collision?",
+              "marks": 2,
+              "topic": "collision"
+            },
+            {
+              "label": "b",
+              "text": "Perform a comparison between prominent wireless technologies.",
+              "marks": 3,
+              "topic": "wireless technologies comparison"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "session": "MO/2018",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Differentiate between the communication and transmission.",
+              "marks": 2,
+              "topic": "communication"
+            },
+            {
+              "label": "b",
+              "text": "Why it is necessary to have layering in a network?",
+              "marks": 3,
+              "topic": "layering"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "How network performance is measured?",
+              "marks": 2,
+              "topic": "performance measurement"
+            },
+            {
+              "label": "b",
+              "text": "Draw and explain TCP/IP reference model.",
+              "marks": 3,
+              "topic": "TCP/IP model"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Differentiate between bit rate and baud rate.",
+              "marks": 2,
+              "topic": "bit rate vs baud rate"
+            },
+            {
+              "label": "b",
+              "text": "Draw the signal waveform for the bit stream 110000000010001 using different Scrambling techniques.",
+              "marks": 3,
+              "topic": "scrambling techniques"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Imagine a communication link that is experiencing interference so every 18th bit is changed from 0 to 1 or 1 to 0. Does a parity check detect all the errors?",
+              "marks": 2,
+              "topic": "parity check"
+            },
+            {
+              "label": "b",
+              "text": "Explain CRC. Generate CRC code for the data word 1010001011 using the divisor 11101.",
+              "marks": 3,
+              "topic": "CRC"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Consider a channel with a 1MHz bandwidth. The SNR for this channel is 63; What is the appropriate bit rate and signal level?",
+              "marks": 2,
+              "topic": "channel capacity"
+            },
+            {
+              "label": "b",
+              "text": "Discuss the mechanism of stop and wait flow control technique. Derive the relation U=1/1+2a.",
+              "marks": 3,
+              "topic": "stop-and-wait flow control"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is ring wrapping in FDDI?",
+              "marks": 2,
+              "topic": "ring wrapping"
+            },
+            {
+              "label": "b",
+              "text": "With the help of flow diagram explain CSMA/CD? How is it different from CSMA/CA?",
+              "marks": 3,
+              "topic": "CSMA/CD vs CSMA/CA"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

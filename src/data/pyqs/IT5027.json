@@ -15,6 +15,238 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VII\nBRANCH: IT   SESSION : MO/2018\n\nSUBJECT : IT5027 DESIGN OF COMPUTER ALGORITHMS\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) What is an algorithm? [2]\n (b) Discuss in detail the different asymptotic notations. [3]\n\nQ2 (a) How to analyze the time efficiency of non-recursive algorithms? Explain. [2]\n (b) Given a sorted array of distinct integers, some of which may be negative, give an\nalgorithm to find an index i such that 1≤i≤n And A[i]=i provided such an index exists. If\nthere are many such indices, the algorithm can return any one of them\n\n[3]\n\nQ3 (a) Write pseudo code for binary search.  [2]\n (b) Explain the working of quick sort algorithm with example. [3]\n\nQ4 (a) Solve the following recurrence relations using back substitution method :\nT(n) = 2T(n/2)+ nlogn\n[2]\n (b) Decide whether these statements are True or False. You must briefly justify all your\nanswers\nIf f(n) = Θ(g(n)) and g(n) = Θ(h(n)), then h(n) = Θ(f(n))\nIf f(n) = O(g(n)) and g(n) = O(f(n)) then f(n) = g(n)\n[3]\n\nQ5 (a) Construct a max-heap with following values 3,13,6,15,18,20,25,30 with explanation. [2]\n (b) Write a psudo code for divide and conquer algorithm for merging two sorted array into\na single sorted arrey. Explain with an example.\n[3]\n\nQ6 (a) Differentiate between BFS (Bredth First Search) and DFS (Depth First Search). [2]\n (b) The convex hull of the set of points is the smallest convex polygon that contain all the\npoints of it. Write an algorithm to find a convex hull of given points.\n[3]\n\n\n\n :::::: 13/09/2018 ::::::E"
+    },
+    {
+      "session": "MO/2019",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What do you know about Big Oh, Big Theta and Big Omega notations?",
+              "marks": 2,
+              "topic": "Complexity Notations"
+            },
+            {
+              "label": "b",
+              "text": "Explain how to write and analyze algorithms.",
+              "marks": 3,
+              "topic": "Algorithm Analysis"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the difference between priori analysis and posteriori testing?",
+              "marks": 2,
+              "topic": "Algorithm Analysis"
+            },
+            {
+              "label": "b",
+              "text": "Briefly explain how to analyze recursive algorithms.",
+              "marks": 3,
+              "topic": "Recursive Algorithms"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the importance of divide and conquer approach?",
+              "marks": 2,
+              "topic": "Divide and Conquer"
+            },
+            {
+              "label": "b",
+              "text": "Explain 2-way merge sort with an example.",
+              "marks": 3,
+              "topic": "Sorting Algorithms"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the difference between DFS and BFS? Illustrate with a simple example?",
+              "marks": 2,
+              "topic": "Graph Traversal"
+            },
+            {
+              "label": "b",
+              "text": "Solve the recurrence relation by using back substitution and recursion tree method: T(n)= 2T(n/2) + n ; n>1 ; 1 ; n=1",
+              "marks": 3,
+              "topic": "Recurrence Relations"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Illustrate Horner’s rule using factorization method.",
+              "marks": 2,
+              "topic": "Horner's Rule"
+            },
+            {
+              "label": "b",
+              "text": "Briefly explain presorting technique with an example.",
+              "marks": 3,
+              "topic": "Presorting Techniques"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What do you know about transform and conquer?",
+              "marks": 2,
+              "topic": "Transform and Conquer"
+            },
+            {
+              "label": "b",
+              "text": "How knuth morris pratt (KMP) algorithm improves input enhancement in string matching? Briefly explain.",
+              "marks": 3,
+              "topic": "String Matching"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "session": "MO/2018",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is an algorithm?",
+              "marks": 2,
+              "topic": "algorithm definition"
+            },
+            {
+              "label": "b",
+              "text": "Discuss in detail the different asymptotic notations.",
+              "marks": 3,
+              "topic": "asymptotic notation"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "How to analyze the time efficiency of non-recursive algorithms? Explain.",
+              "marks": 2,
+              "topic": "time efficiency"
+            },
+            {
+              "label": "b",
+              "text": "Given a sorted array of distinct integers, some of which may be negative, give an algorithm to find an index i such that 1≤i≤n and A[i]=i provided such an index exists. If there are many such indices, the algorithm can return any one of them.",
+              "marks": 3,
+              "topic": "fixed point search"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write pseudo code for binary search.",
+              "marks": 2,
+              "topic": "binary search"
+            },
+            {
+              "label": "b",
+              "text": "Explain the working of quick sort algorithm with example.",
+              "marks": 3,
+              "topic": "quick sort"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Solve the following recurrence relations using back substitution method: T(n) = 2T(n/2)+ nlogn",
+              "marks": 2,
+              "topic": "recurrence solving"
+            },
+            {
+              "label": "b",
+              "text": "Decide whether these statements are True or False. You must briefly justify all your answers: If f(n) = Θ(g(n)) and g(n) = Θ(h(n)), then h(n) = Θ(f(n)); If f(n) = O(g(n)) and g(n) = O(f(n)) then f(n) = g(n).",
+              "marks": 3,
+              "topic": "asymptotic relations"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Construct a max-heap with following values 3,13,6,15,18,20,25,30 with explanation.",
+              "marks": 2,
+              "topic": "max-heap"
+            },
+            {
+              "label": "b",
+              "text": "Write a pseudo code for divide and conquer algorithm for merging two sorted array into a single sorted array. Explain with an example.",
+              "marks": 3,
+              "topic": "merge algorithm"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Differentiate between BFS (Breadth First Search) and DFS (Depth First Search).",
+              "marks": 2,
+              "topic": "graph traversal"
+            },
+            {
+              "label": "b",
+              "text": "The convex hull of the set of points is the smallest convex polygon that contain all the points of it. Write an algorithm to find a convex hull of given points.",
+              "marks": 3,
+              "topic": "convex hull"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

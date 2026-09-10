@@ -119,6 +119,122 @@
           ]
         }
       ]
+    },
+    {
+      "session": "MO/2018",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain role of transition function in Finite Automata (FA)? How does it affect the functioning of FA?",
+              "marks": 2,
+              "topic": "transition function"
+            },
+            {
+              "label": "b",
+              "text": "Design a DFA to recognize strings that end with 010 or 012 over Σ = {0,1,2}.",
+              "marks": 3,
+              "topic": "DFA design"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write the ε‑NFA for the regular expression ab(a+b)*.",
+              "marks": 2,
+              "topic": "epsilon NFA"
+            },
+            {
+              "label": "b",
+              "text": "Convert the given NFA into its equivalent DFA.",
+              "marks": 3,
+              "topic": "NFA to DFA conversion"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Design a DFA to recognize strings that contain 11 as a substring over Σ = {0,1}.",
+              "marks": 2,
+              "topic": "substring detection"
+            },
+            {
+              "label": "b",
+              "text": "From the DFA designed for Q3 a, derive the corresponding regular expression.",
+              "marks": 3,
+              "topic": "regular expression derivation"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "The length of the shortest string NOT in the language (over Σ={a,b}) of the regular expression a*b*(ba)*a* is ............",
+              "marks": 2,
+              "topic": "shortest non-member string"
+            },
+            {
+              "label": "b",
+              "text": "Find a regular expression for the set { aⁿ bᵐ | (n+m) is even }.",
+              "marks": 3,
+              "topic": "regular expression parity"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Can a DFA be designed for recognizing language abaaⁿ : n≥1.",
+              "marks": 2,
+              "topic": "DFA recognizability"
+            },
+            {
+              "label": "b",
+              "text": "Justify properly your answer for Q5 a.",
+              "marks": 3,
+              "topic": "DFA recognizability"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain Chomsky Hierarchy, in details.",
+              "marks": 2,
+              "topic": "Chomsky hierarchy"
+            },
+            {
+              "label": "b",
+              "text": "Construct minimal DFA’s for the language L = { aˡ bᵐ cⁿ | l,m,n ≥ 1 }.",
+              "marks": 3,
+              "topic": "minimal DFA construction"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

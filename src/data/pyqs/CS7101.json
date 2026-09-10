@@ -15,6 +15,238 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VII/ADD\nBRANCH: CSE   SESSION: MO/2018\n\nSUBJECT: CS7101 PRINCIPLES OF PROGRAMMING LANGUAGES\n\nTIME: 1.5 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) What do you mean by “High level language”? [2]\n (b) Explain the six different paradigms of programming with suitable examples. [3]\n\n\nQ2 (a) What is package? [2]\n (b) How does ADA language implement package with encapsulation? [3]\n\n\nQ3 (a) What do you mean by “Competing processes”? [2]\n (b) State the various problems with concurrency. [3]\n\n\nQ4 (a) What is semaphore? [2]\n (b) How does semaphore help to resolve the shared buffer problem? [3]\n\n\nQ5 (a) What is coercion? [2]\n (b) Explain context dependent and context independent overloading. [3]\n\n\nQ6 (a) Explain Haskell polymorphic function with a suitable example. [2]\n (b) Write a program in C++ language to find the minimum of two numbers using class template. [3]\n\n\n\n:::: 13/09/2018 M ::::::"
+    },
+    {
+      "session": "MO/2019",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What are the principles of programming language?",
+              "marks": 2,
+              "topic": "principles"
+            },
+            {
+              "label": "b",
+              "text": "Explain the six different paradigms of programming with suitable examples.",
+              "marks": 3,
+              "topic": "paradigms"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is package?",
+              "marks": 2,
+              "topic": "package"
+            },
+            {
+              "label": "b",
+              "text": "How does ADA language implement package with encapsulation?",
+              "marks": 3,
+              "topic": "ADA"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the necessary conditions of Deadlock.",
+              "marks": 2,
+              "topic": "deadlock"
+            },
+            {
+              "label": "b",
+              "text": "State the various problems with concurrency.",
+              "marks": 3,
+              "topic": "concurrency"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is semaphore.",
+              "marks": 2,
+              "topic": "semaphore"
+            },
+            {
+              "label": "b",
+              "text": "Explain the various advantages and disadvantages of semaphore.",
+              "marks": 3,
+              "topic": "semaphore"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is Escapes sequencer?",
+              "marks": 2,
+              "topic": "escapes sequencer"
+            },
+            {
+              "label": "b",
+              "text": "Explain context dependent and context independent overloading.",
+              "marks": 3,
+              "topic": "overloading"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What are the merits of sub range types?",
+              "marks": 2,
+              "topic": "subrange types"
+            },
+            {
+              "label": "b",
+              "text": "Write a program in C++ language to find the minimum of two numbers using class template.",
+              "marks": 3,
+              "topic": "templates"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "session": "MO/2018",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What do you mean by “High level language”?",
+              "marks": 2,
+              "topic": "High level language"
+            },
+            {
+              "label": "b",
+              "text": "Explain the six different paradigms of programming with suitable examples.",
+              "marks": 3,
+              "topic": "Programming paradigms"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is package?",
+              "marks": 2,
+              "topic": "Package"
+            },
+            {
+              "label": "b",
+              "text": "How does ADA language implement package with encapsulation?",
+              "marks": 3,
+              "topic": "ADA encapsulation"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What do you mean by “Competing processes”?",
+              "marks": 2,
+              "topic": "Competing processes"
+            },
+            {
+              "label": "b",
+              "text": "State the various problems with concurrency.",
+              "marks": 3,
+              "topic": "Concurrency problems"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is semaphore?",
+              "marks": 2,
+              "topic": "Semaphore"
+            },
+            {
+              "label": "b",
+              "text": "How does semaphore help to resolve the shared buffer problem?",
+              "marks": 3,
+              "topic": "Shared buffer problem"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is coercion?",
+              "marks": 2,
+              "topic": "Coercion"
+            },
+            {
+              "label": "b",
+              "text": "Explain context dependent and context independent overloading.",
+              "marks": 3,
+              "topic": "Overloading"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain Haskell polymorphic function with a suitable example.",
+              "marks": 2,
+              "topic": "Haskell polymorphic functions"
+            },
+            {
+              "label": "b",
+              "text": "Write a program in C++ language to find the minimum of two numbers using class template.",
+              "marks": 3,
+              "topic": "C++ class templates"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

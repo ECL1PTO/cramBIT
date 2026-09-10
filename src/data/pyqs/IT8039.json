@@ -15,6 +15,122 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VII/ADD\nBRANCH: IT   SESSION : MO/2018\n\nSUBJECT : IT8039 COMPUTER GRAPHICS AND MULTIMEDIA\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) What is aspect ratio? Why it is required? [2]\n (b) Provide a classification of different display devices. [3]\n\n\nQ2 (a) How many color combinations are possible for 8 bit encoding of each principle\ncomponents in RGB color model system.\n[2]\n (b) Describe working of CRT display. [3]\n\n\nQ3 (a) What is scan conversion?  [2]\n (b) Describe DDA line drawing algorithm. [3]\n\n\nQ4 (a) What are the features of circle drawing algorithm? [2]\n (b) Describe boundary fill algorithm. [3]\n\n\nQ5 (a) What are the benefits of homogenous coordinate system? [2]\n (b) Scale the quadrilateral given by the points (1,2), (3,1), (4,3), (2,4) by factors 2 along x\naxis and 3 along y axis respectively using homogenous coordinate system.\n[3]\n\n\nQ6 (a) Write down the transformation matrix for x axis shear in homogenous coordinate\nsystem.\n[2]\n (b) Show window to viewport transformation in terms of basic transformations.  [3]\n\n\n\n :::: 18/09/2018 M ::::::"
+    },
+    {
+      "session": "MO/2019",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What property of the liquid crystals allows or stops the light to pass through them in a Liquid Crystal Display?",
+              "marks": 2,
+              "topic": "liquid crystals"
+            },
+            {
+              "label": "b",
+              "text": "Explain the process of Scan Line polygon filling for the following polygon",
+              "marks": 3,
+              "topic": "scan line polygon filling"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the anti aliasing steps useful for dealing with unequal brightness of straight and oblique lines.",
+              "marks": 2,
+              "topic": "anti aliasing"
+            },
+            {
+              "label": "b",
+              "text": "Perform a 45° rotation of a triangle A (0,0), B(1,1), C(5,2) about the origin and about the point P(-1, -1).",
+              "marks": 3,
+              "topic": "rotation"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the difference between a Raster Scan and a Random Scan display?",
+              "marks": 2,
+              "topic": "raster scan vs random scan"
+            },
+            {
+              "label": "b",
+              "text": "Explain the working of Sutherland Hodgman algorithm for polygon clipping.",
+              "marks": 3,
+              "topic": "Sutherland Hodgman algorithm"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the picket fence problem caused due to scan conversion?",
+              "marks": 2,
+              "topic": "picket fence problem"
+            },
+            {
+              "label": "b",
+              "text": "Super sampling is applied on an image by subdividing each pixel into 3X3 sub pixels. The fraction of sub pixels that are inside the objects area is given below. Assuming that the object is yellow in color and the background is blue; find the intensity values of each pixel in the grid after applying anti aliasing. 0    5/9   6/9 4/9 1    8/9 1    7/9   0",
+              "marks": 3,
+              "topic": "super sampling"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the advantage of using homogeneous coordinate system when performing object transformations?",
+              "marks": 2,
+              "topic": "homogeneous coordinates"
+            },
+            {
+              "label": "b",
+              "text": "Let there be the rectangular clipping window whose lower left corner is at L (-4, -3) and upper right corner at R (-2, 0). Compute the portion of the line with endpoints A (-5, -3), B (2, 4) within the clipping window using Liang Barsky algorithm.",
+              "marks": 3,
+              "topic": "Liang Barsky algorithm"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the role of a video controller?",
+              "marks": 2,
+              "topic": "video controller"
+            },
+            {
+              "label": "b",
+              "text": "Find the normalization transformation that maps a circular window centered at (2, 2) having radius r=7 to a circular viewport centered at (-1, -2) and having radius R= 5.",
+              "marks": 3,
+              "topic": "normalization transformation"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

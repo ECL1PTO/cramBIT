@@ -15,6 +15,238 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VII\nBRANCH: CSE   SESSION: MO/2018\n\nSUBJECT: CS7121 CRYPTOGRAPHY AND NETWORK SECURITY\n\nTIME: 1.5 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) What are the following values in DES?\n1. Block size\n2. Cipher key size\n3. Round key size\n4. Number of rounds (do not count IP, IP\n-1\n and Swapper in number of rounds)\n[2]\n (b) Briefly explain the key generation procedure in DES with Diagram. [3]\n\n\nQ2 (a) List all 4 types of cryptanalysis attacks? A security system asking for 4 digit hexadecimal\nPIN (Personnel Identification Number) to access the system. Maximum, how many trials\nan attacker have to perform to get access the system?\n[2]\n (b) Explain different security services in network security given by ITU-T. [3]\n\n\nQ3 (a) Hill cipher is block cipher or stream cipher, justify your answer with example. [2]\n (b) Given a=161, and b= 28, find GCD(a,b) and the values of s and t such that\na x s + b x t  = GCD(a,b).\n[3]\n\n\nQ4 (a) Generate the elements of the field GF(2\n3\n) using the irreducible polynomial f(x)= x\n3\n+x+1.  [2]\n (b) Use the extended Euclidean algorithm to find the inverse of polynomial x\n2\n+x+1 using the\nmodulus x\n3\n+x+1.\n[3]\n\n\nQ5 (a) Encrypt the message “Enemy attacks tonight” using the transposition key\n3 1 4 5 2\n1   2   3   4   5\n\n[2]\n (b) Use affine cipher to Decrypt the message “ZEBBW” with the key pair (K\n1\n= 17, K\n2\n= 5) in\nmodulus 26.\n[3]\n\n\nQ6 (a) Write an algorithm for pseudorandom number generation. [2]\n (b) What are the modifications you can do to make DES even more complex and secure?\nJustify your answer.\n[3]\n\n\n\n:::: 13/09/2018 M ::::::"
+    },
+    {
+      "session": "MO/2019",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Identify the challenges associated with achieving security on a shared computer.",
+              "marks": 2,
+              "topic": "security challenges"
+            },
+            {
+              "label": "b",
+              "text": "Describe the CIA triad in computer security.",
+              "marks": 3,
+              "topic": "CIA triad"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Identify the cipher technique in which frequency analysis is difficult for a cryptanalyst. Also, mention how feature analysis becomes difficult.",
+              "marks": 2,
+              "topic": "cipher resistance to frequency analysis"
+            },
+            {
+              "label": "b",
+              "text": "Explain Caesar Cipher. Use it to decrypt HQFUBSWHG WHAW using key as 3.",
+              "marks": 3,
+              "topic": "Caesar Cipher"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the use of the expansion permutation in DES.",
+              "marks": 2,
+              "topic": "DES expansion permutation"
+            },
+            {
+              "label": "b",
+              "text": "Comment on the security and vulnerabilities of the DES technique.",
+              "marks": 3,
+              "topic": "DES security"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Identify the parameter choices essential for designing a Feistel cipher technique.",
+              "marks": 2,
+              "topic": "Feistel cipher parameters"
+            },
+            {
+              "label": "b",
+              "text": "Highlight the difference between confusion and diffusion in cryptography giving emphasis on the use of each.",
+              "marks": 3,
+              "topic": "confusion vs diffusion"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Find the multiplicative inverse of 23 in Z100 using the Euclidean algorithm.",
+              "marks": 2,
+              "topic": "multiplicative inverse"
+            },
+            {
+              "label": "b",
+              "text": "Explain a real scenario where the End to End encryption placement technique would be preferred. Also comment of the scope of this encryption technique in terms of the OSI layered architecture.",
+              "marks": 3,
+              "topic": "End-to-End encryption"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain what pseudorandom numbers are and how can they be generated?",
+              "marks": 2,
+              "topic": "pseudorandom numbers"
+            },
+            {
+              "label": "b",
+              "text": "Find the inverse of (x^2 + 1) modulo (x^4 + x + 1) in GF(2^4).",
+              "marks": 3,
+              "topic": "polynomial inverse GF(2^4)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "session": "MO/2018",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 1.5,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What are the following values in DES? 1. Block size 2. Cipher key size 3. Round key size 4. Number of rounds (do not count IP, IP-1 and Swapper in number of rounds)",
+              "marks": 2,
+              "topic": "DES"
+            },
+            {
+              "label": "b",
+              "text": "Briefly explain the key generation procedure in DES with Diagram.",
+              "marks": 3,
+              "topic": "DES Key Generation"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "List all 4 types of cryptanalysis attacks? A security system asking for 4 digit hexadecimal PIN (Personnel Identification Number) to access the system. Maximum, how many trials an attacker have to perform to get access the system?",
+              "marks": 2,
+              "topic": "Cryptanalysis"
+            },
+            {
+              "label": "b",
+              "text": "Explain different security services in network security given by ITU-T.",
+              "marks": 3,
+              "topic": "Network Security Services"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Hill cipher is block cipher or stream cipher, justify your answer with example.",
+              "marks": 2,
+              "topic": "Hill Cipher"
+            },
+            {
+              "label": "b",
+              "text": "Given a=161, and b=28, find GCD(a,b) and the values of s and t such that a x s + b x t = GCD(a,b).",
+              "marks": 3,
+              "topic": "GCD"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Generate the elements of the field GF(2^3) using the irreducible polynomial f(x)= x^3+x+1.",
+              "marks": 2,
+              "topic": "Finite Field"
+            },
+            {
+              "label": "b",
+              "text": "Use the extended Euclidean algorithm to find the inverse of polynomial x^2+x+1 using the modulus x^3+x+1.",
+              "marks": 3,
+              "topic": "Polynomial Inverse"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Encrypt the message “Enemy attacks tonight” using the transposition key 3 1 4 5 2 1   2   3   4   5.",
+              "marks": 2,
+              "topic": "Transposition Cipher"
+            },
+            {
+              "label": "b",
+              "text": "Use affine cipher to Decrypt the message “ZEBBW” with the key pair (K1=17, K2=5) in modulus 26.",
+              "marks": 3,
+              "topic": "Affine Cipher"
+            }
+          ]
+        },
+        {
+          "number": "Q6",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write an algorithm for pseudorandom number generation.",
+              "marks": 2,
+              "topic": "Pseudorandom Number Generation"
+            },
+            {
+              "label": "b",
+              "text": "What are the modifications you can do to make DES even more complex and secure? Justify your answer.",
+              "marks": 3,
+              "topic": "DES Modifications"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
