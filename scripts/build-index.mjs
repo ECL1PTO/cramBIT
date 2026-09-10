@@ -51,6 +51,12 @@ const corpus = Object.values(byCode).map((r) => ({
 
 // per-course stats + refresh grounding on courses.json
 const perCourse = {};
+// Reset every course first so a course that lost its PYQ file doesn't keep a
+// stale "full" grounding.
+for (const c of Object.values(courses)) {
+  c.grounding = "none";
+  c.pyqCount = 0;
+}
 const pyqDir = path.join(ROOT, "src", "data", "pyqs");
 for (const file of fs.existsSync(pyqDir) ? fs.readdirSync(pyqDir) : []) {
   if (!file.endsWith(".json")) continue;

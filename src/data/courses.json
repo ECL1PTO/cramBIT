@@ -1384,8 +1384,8 @@
     "credits": 3,
     "syllabus": "",
     "campus": "Noida",
-    "grounding": "full",
-    "pyqCount": 2
+    "grounding": "none",
+    "pyqCount": 0
   },
   "CA25215": {
     "code": "CA25215",

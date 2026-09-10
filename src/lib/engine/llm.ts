@@ -142,7 +142,8 @@ export async function chat(o: ChatOpts): Promise<string> {
     try {
       if (a) {
         if (!a.key) continue;
-        return await callOpenAICompatible(a, o, left);
+        // Cap a single call so a slow provider still leaves room for a fallback.
+        return await callOpenAICompatible(a, o, Math.min(left, 42_000));
       }
       return await geminiGenerate({
         model: o.tier === "reason" ? "gemini-flash-latest" : "gemini-flash-lite-latest",
@@ -192,7 +193,7 @@ export async function chatJson<T>(
       if (left < 8000) break; // not enough time for another call — fall through
       try {
         const raw = a
-          ? await callOpenAICompatible(a, jo, left)
+          ? await callOpenAICompatible(a, jo, Math.min(left, 40_000))
           : await geminiGenerate({
               model: o.tier === "reason" ? "gemini-flash-latest" : "gemini-flash-lite-latest",
               system: jo.system,

@@ -194,12 +194,13 @@ export async function assembleBatch(
   count: number,
 ): Promise<string[]> {
   const codeLabel = r.code ?? r.name.toUpperCase();
+  const started = Date.now();
 
   const assemble = (n: number) =>
     chat({
       tier: "reason",
       json: false,
-      maxTokens: 1400 + n * 1100,
+      maxTokens: 900 + n * 750,
       prompt: assemblyPrompt({
         courseCode: codeLabel,
         courseName: r.name,
@@ -217,8 +218,9 @@ export async function assembleBatch(
   const sets = (await assemble(count)).slice(0, count);
   const valid = sets.filter((s) => validatePaper(s).ok);
 
-  // Only pay for a second round if the first was largely unusable.
-  if (valid.length >= Math.min(2, count)) return sets;
+  // Only retry if the first pass was largely unusable AND there's serverless
+  // budget left — a second full call on a slow fallback provider blows the 60s.
+  if (valid.length >= Math.min(2, count) || Date.now() - started > 32_000) return sets;
   try {
     const retry = (await assemble(count)).slice(0, count);
     const retryValid = retry.filter((s) => validatePaper(s).ok);

@@ -43,3 +43,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# build intermediate — the shipped artifact is src/data/index.json
+src/data/pyq_corpus.json
