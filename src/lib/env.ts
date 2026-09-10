@@ -40,7 +40,13 @@ const schema = z.object({
   RESEND_API_KEY: z.string().optional(),
 });
 
-const parsed = schema.safeParse(process.env);
+// Hosts (Vercel, etc.) often materialise blank env-var rows as "" — treat those
+// as "not set" so empty optionals don't fail validation.
+const cleaned = Object.fromEntries(
+  Object.entries(process.env).map(([k, v]) => [k, v === "" ? undefined : v]),
+);
+
+const parsed = schema.safeParse(cleaned);
 
 if (!parsed.success) {
   console.error("Invalid environment:", parsed.error.flatten().fieldErrors);
