@@ -113,8 +113,12 @@ async function callOpenAICompatible(
       max_tokens: o.maxTokens ?? 6000,
       // gpt-oss / reasoning models spend hidden "reasoning" tokens out of the
       // completion budget before the answer — keep that cheap so the JSON or
-      // paper actually fits. OpenAI-compatible servers ignore unknown fields.
+      // paper actually fits, and cap it explicitly wherever a provider honours
+      // a hard token limit rather than just an effort label. Unrecognised
+      // fields are ignored by OpenAI-compatible servers, so this is free to
+      // send everywhere — providers that don't support one form use the other.
       reasoning_effort: "low",
+      reasoning: { effort: "low", max_tokens: 350, exclude: true },
       ...(o.json ? { response_format: { type: "json_object" } } : {}),
     }),
   });
