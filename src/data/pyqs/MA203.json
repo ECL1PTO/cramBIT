@@ -101,6 +101,104 @@
           ]
         }
       ]
+    },
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the accuracy of the following numbers? (i) 96.453 (ii) 0.002345 (iii) 4300.00 (iv) 88",
+              "marks": 2,
+              "topic": "accuracy"
+            },
+            {
+              "label": "b",
+              "text": "Given  and    .  The relative error in the values of x and y is 0.05%. calculate the relative error in .",
+              "marks": 3,
+              "topic": "relative error"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Find a real root of the equation  on the interval (0, 1) using bisection method with four iterations.",
+              "marks": 2,
+              "topic": "bisection method"
+            },
+            {
+              "label": "b",
+              "text": "Using iteration method find the real root of the equation  on the interval  with an accuracy of",
+              "marks": 3,
+              "topic": "iteration method"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Find the range of values of such that Gauss-Jacobi’s iteration method for the set of equations converges with any choice of initial approximation of the solution.",
+              "marks": 2,
+              "topic": "Gauss-Jacobi"
+            },
+            {
+              "label": "b",
+              "text": "Find an approximate value of  using given data. x 1 2 3 4 f(x) 1.6 2.2 3.1 4.3",
+              "marks": 3,
+              "topic": "interpolation"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Decompose the given coefficient matrix of the system of linear equations into Lower triangular matrix L and upper triangular matrix U.",
+              "marks": 2,
+              "topic": "LU decomposition"
+            },
+            {
+              "label": "b",
+              "text": "Obtain the solution of the above system with the help of L-U triangular matrix obtained above.",
+              "marks": 3,
+              "topic": "LU solution"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Obtain the solution of the system of equations with initial approximation correct to 4 decimal place using Gauss Seidel method.",
+              "marks": 2,
+              "topic": "Gauss-Seidel"
+            },
+            {
+              "label": "b",
+              "text": "What are the eigen value of the least magnitude and corresponding eigen vector (correct up to 2 decimal places) of matrix A obtained till third iteration using Power method where",
+              "marks": 3,
+              "topic": "Power method"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

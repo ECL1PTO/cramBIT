@@ -131,10 +131,12 @@ async function callOpenAICompatible(
   return text;
 }
 
-// Each generation phase (plan / pool / write) is its own 60s serverless call,
-// so the chain has almost the full budget. Stop before the hard limit so we
-// return a clean "at capacity" instead of a raw 504.
-const CHAIN_DEADLINE_MS = 55_000;
+// Each generation phase (plan / pool / write) is its own 60s serverless call.
+// Vercel's hard kill returns an HTML page, not our JSON — the client used to
+// show a scary generic "Network error" for that. Leave real headroom for
+// cold starts, DB round trips (entitlement/rate-limit checks) and response
+// serialization so we hit our own clean "at capacity" well before that.
+const CHAIN_DEADLINE_MS = 46_000;
 
 /** Plain text — first provider that answers wins. */
 export async function chat(o: ChatOpts): Promise<string> {

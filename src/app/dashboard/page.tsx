@@ -148,10 +148,25 @@ export default function Dashboard() {
     setScanned(0);
 
     const wait = (ms: number) => new Promise<void>((res) => setTimeout(res, ms));
+    // Vercel's own hard 60s function timeout (502/504) returns an HTML error
+    // page, not our JSON — retry those exactly like our own 503 "capacity"
+    // reply, since from the user's side it's the same story either way.
+    const RETRY_STATUSES = new Set([502, 503, 504]);
+    // A safe .json() — a Vercel-level timeout page isn't JSON at all, so a raw
+    // res.json() throws and used to surface as a scary generic "Network
+    // error." Parse failures now read as the same friendly capacity message.
+    const safeJson = async (res: Response) => {
+      try {
+        return await res.json();
+      } catch {
+        return { error: "capacity", message: undefined };
+      }
+    };
 
-    // A 503 "capacity" reply is one gateway attempt having a bad moment, not a
-    // real outage — retrying is a brand-new serverless call with a fresh 55s
-    // shot at the gateway, so most transient failures never reach the user.
+    // A 503/504 "capacity" reply is one gateway attempt (or the serverless
+    // function itself) having a bad moment, not a real outage — retrying is a
+    // brand-new serverless call with a fresh 55s shot at the gateway, so most
+    // transient failures never reach the user.
     const CAPACITY_RETRIES = 3;
     const postRetrying = async (body: object): Promise<Response> => {
       let res = await fetch("/api/predict", {
@@ -160,7 +175,7 @@ export default function Dashboard() {
         body: JSON.stringify(body),
         signal,
       });
-      for (let i = 0; i < CAPACITY_RETRIES && res.status === 503 && !signal.aborted; i++) {
+      for (let i = 0; i < CAPACITY_RETRIES && RETRY_STATUSES.has(res.status) && !signal.aborted; i++) {
         await wait(1500);
         if (signal.aborted) break;
         res = await fetch("/api/predict", {
@@ -176,7 +191,7 @@ export default function Dashboard() {
     try {
       const planRes = await postRetrying({ phase: "plan", courseInput, syllabus });
       if (signal.aborted) return;
-      const plan = await planRes.json();
+      const plan = await safeJson(planRes);
       if (planRes.ok && plan.papersRead) {
         setPapersRead(plan.papersRead);
       }
@@ -209,7 +224,7 @@ export default function Dashboard() {
       setPhase("pooling");
       const poolRes = await post({ phase: "pool", blueprint: plan.blueprint });
       if (signal.aborted) return;
-      const pool = await poolRes.json();
+      const pool = await safeJson(poolRes);
       if (!poolRes.ok) return fail(poolRes, pool, "Could not rank questions.");
 
       if (signal.aborted) return;
@@ -220,7 +235,7 @@ export default function Dashboard() {
         candidates: pool.candidates,
       });
       if (signal.aborted) return;
-      const written = await writeRes.json();
+      const written = await safeJson(writeRes);
       if (!writeRes.ok) {
         setPhase("idle");
         if (writeRes.status === 402)
