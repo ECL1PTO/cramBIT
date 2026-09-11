@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import Markdown from "markdown-to-jsx";
 import { createClient } from "@/utils/supabase/client";
@@ -120,11 +120,25 @@ export default function Dashboard() {
     }
   }
 
+  const abortRef = useRef<AbortController | null>(null);
+
+  const stop = useCallback(() => {
+    abortRef.current?.abort();
+    abortRef.current = null;
+    setPhase("idle");
+    setError(null);
+    setErrDetail(null);
+  }, []);
+
   const run = useCallback(async () => {
     setError(null);
     setErrDetail(null);
     if (!courseInput.trim()) return setError("Enter your course code.");
     if (!ackedAt) return setNeedAck(true);
+
+    const ac = new AbortController();
+    abortRef.current = ac;
+    const { signal } = ac;
 
     setPhase("planning");
     setSets([]);
@@ -143,7 +157,9 @@ export default function Dashboard() {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ phase: "plan", courseInput, syllabus }),
+        signal,
       });
+      if (signal.aborted) return;
       const plan = await planRes.json();
       if (planRes.ok && plan.papersRead) {
         setPapersRead(plan.papersRead);
@@ -176,21 +192,26 @@ export default function Dashboard() {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ courseInput, syllabus, ...payload }),
+          signal,
         });
 
+      if (signal.aborted) return;
       setPhase("pooling");
       const t1 = Date.now();
       const poolRes = await post({ phase: "pool", blueprint: plan.blueprint });
+      if (signal.aborted) return;
       const pool = await poolRes.json();
       if (!poolRes.ok) return fail(poolRes, pool, "Could not rank questions.");
       await hold(t1, 1800);
 
+      if (signal.aborted) return;
       setPhase("writing");
       const writeRes = await post({
         phase: "write",
         blueprint: plan.blueprint,
         candidates: pool.candidates,
       });
+      if (signal.aborted) return;
       const written = await writeRes.json();
       if (!writeRes.ok) {
         setPhase("idle");
@@ -207,8 +228,13 @@ export default function Dashboard() {
       setIsPaid(Boolean(written.isPaid));
       setTriesLeft(written.triesLeft ?? null);
       setPhase("done");
-    } catch {
+      abortRef.current = null;
+    } catch (err) {
       setPhase("idle");
+      abortRef.current = null;
+      // A user-triggered abort is not an error.
+      if (err instanceof DOMException && err.name === "AbortError") return;
+      if (signal.aborted) return;
       setError("Network error. Try again.");
     }
   }, [courseInput, syllabus, ackedAt]);
@@ -304,13 +330,19 @@ export default function Dashboard() {
             hint="Used as the hard boundary — nothing outside it will be asked."
           />
 
-          <Button onClick={run} disabled={busy} className="w-full py-3">
-            {busy
-              ? STEP_COPY[phase as "planning" | "pooling" | "writing"]
-              : sets.length
-                ? "Regenerate"
-                : "Generate papers"}
-          </Button>
+          {busy ? (
+            <button
+              onClick={stop}
+              className="w-full rounded-pill border border-danger/50 py-3 text-body-sm font-medium text-danger transition-colors hover:bg-danger/10"
+            >
+              {STEP_COPY[phase as "planning" | "pooling" | "writing"]}
+              <span className="ml-2 opacity-70">— tap to stop</span>
+            </button>
+          ) : (
+            <Button onClick={run} className="w-full py-3">
+              {sets.length ? "Regenerate" : "Generate papers"}
+            </Button>
+          )}
 
           {coverage && <CoverageNote coverage={coverage} borrowedFrom={borrowedFrom} />}
 
