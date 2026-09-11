@@ -52,10 +52,10 @@ export const PRIVACY_SECTIONS: { heading: string; body: string }[] = [
   },
   {
     heading: "How we use it",
-    body: "To run the prediction engine, show you your past papers, and process access. Syllabus text you paste is sent to Google's Gemini API to generate papers. We do not sell data or run advertising.",
+    body: "To run the prediction engine, show you your past papers, and process access. Syllabus text you paste and the relevant past-paper text are sent to third-party AI providers (routed through our infrastructure, which may include Google Gemini, Groq, and other model providers) to generate papers. We do not sell data or run advertising.",
   },
   {
     heading: "Deletion",
-    body: "Email the operator to have your account and associated data deleted.",
+    body: "Email crambit.study@gmail.com to have your account and associated data deleted.",
   },
 ];
