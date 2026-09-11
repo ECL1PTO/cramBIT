@@ -17,6 +17,7 @@ export function PaywallModal({
   onClose: () => void;
 }) {
   const capReached = reason === "regen-cap";
+  const bundleFull = reason === "bundle-full";
   return (
     <div
       className="fixed inset-0 z-50 flex items-center justify-center bg-canvas/70 backdrop-blur-sm p-6 no-print"
@@ -27,14 +28,21 @@ export function PaywallModal({
         onClick={(e) => e.stopPropagation()}
       >
         <h2 className="text-h3 font-normal text-text">
-          {capReached
-            ? "You've used all your tries for this subject"
-            : locked
-              ? "Your plan is locked to another subject"
-              : "You've used your free subject"}
+          {bundleFull
+            ? "You've used all 5 bundle subjects"
+            : capReached
+              ? "You've used all your tries for this subject"
+              : locked
+                ? "Your plan is locked to another subject"
+                : "You've used your free subject"}
         </h2>
         <p className="mt-2 text-body-sm leading-relaxed text-muted">
-          {locked && !capReached ? (
+          {bundleFull ? (
+            <>
+              Your season bundle covers 5 subjects and you&apos;ve used all 5. Message support
+              if you need a 6th — otherwise you&apos;re set for the season.
+            </>
+          ) : locked && !capReached ? (
             <>
               Free predictions are tied to{" "}
               <span className="font-mono text-text">{locked}</span> — the first course you
@@ -50,21 +58,32 @@ export function PaywallModal({
           )}
         </p>
 
-        <div className="mt-6 space-y-3">
-          {courseCode && (
+        {!bundleFull && (
+          <div className="mt-6 space-y-3">
+            {courseCode && (
+              <PlanRow
+                title={`Unlock ${courseCode}`}
+                price={`₹${PRICING.perSubject}`}
+                href={`/pay?plan=subject&subject=${encodeURIComponent(courseCode)}`}
+              />
+            )}
             <PlanRow
-              title={`Unlock ${courseCode}`}
-              price={`₹${PRICING.perSubject}`}
-              href={`/pay?plan=subject&subject=${encodeURIComponent(courseCode)}`}
+              title="All 5 subjects — season bundle"
+              price={`₹${PRICING.bundle}`}
+              href="/pay?plan=bundle"
+              highlight
             />
-          )}
-          <PlanRow
-            title="All 5 subjects — season bundle"
-            price={`₹${PRICING.bundle}`}
-            href="/pay?plan=bundle"
-            highlight
-          />
-        </div>
+          </div>
+        )}
+
+        {bundleFull && (
+          <Link
+            href="/support"
+            className="mt-6 block rounded-input border border-border px-4 py-3 text-center text-body-sm text-text hover:border-accent/50"
+          >
+            Contact support
+          </Link>
+        )}
 
         <p className="mt-5 text-caption text-faint">{PAYMENT_NOTE}</p>
         <button onClick={onClose} className="mt-4 text-body-sm text-muted hover:text-text">

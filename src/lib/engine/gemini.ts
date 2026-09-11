@@ -10,7 +10,7 @@ const client = new GoogleGenerativeAI(env.GEMINI_API_KEY);
 // key ever gets paid billing.
 export const MODELS = {
   reason: "gemini-flash-latest", // analysis + prediction passes
-  fast: "gemini-flash-lite-latest", // validation, tutor
+  fast: "gemini-flash-lite-latest", // validation pass
 } as const;
 
 interface GenOpts {

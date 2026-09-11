@@ -20,7 +20,7 @@ export default async function AdminPage() {
 
   const { data: claims } = await db
     .from("payment_claims")
-    .select("id, plan, subject_code, amount, upi_utr, status, created_at, user_id")
+    .select("id, plan, subject_code, amount, upi_utr, provider, status, created_at, user_id")
     .order("created_at", { ascending: false })
     .limit(50);
 
@@ -40,7 +40,9 @@ export default async function AdminPage() {
                   {c.subject_code ? ` · ${c.subject_code}` : ""} · ₹{c.amount}
                 </p>
                 <p className="text-caption text-faint">
-                  UTR {c.upi_utr} · {new Date(c.created_at).toLocaleString()}
+                  {c.provider === "razorpay" ? `Razorpay ${c.upi_utr ?? ""}` : `UTR ${c.upi_utr ?? "—"}`}
+                  {" · "}
+                  {new Date(c.created_at).toLocaleString()}
                 </p>
               </div>
               {c.status === "pending" ? (

@@ -3,7 +3,7 @@
 //   node scripts/scrape-courses.mjs
 import fs from "node:fs";
 import path from "node:path";
-import { ROOT, groqJson, pdfText, writeJson, readJson, sleep } from "./lib.mjs";
+import { ROOT, groqJson, pdfText, writeJson, sleep } from "./lib.mjs";
 
 const SRC_DIR = path.join(ROOT, "project_reference", "syllabus_pdfs");
 

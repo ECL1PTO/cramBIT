@@ -163,8 +163,8 @@ export default function LandingPage() {
           <PriceCard
             name="Per subject"
             price={`₹${PRICING.perSubject}`}
-            note="Unlock any one extra subject and all its predicted papers."
-            cta={{ label: "Get started", href: "/login" }}
+            note="Unlock any one extra subject and all its predicted papers. Pick which one after you log in."
+            cta={{ label: "Log in to unlock", href: "/login" }}
           />
           <PriceCard
             name="Season bundle"

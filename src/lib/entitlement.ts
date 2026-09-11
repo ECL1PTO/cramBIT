@@ -1,5 +1,6 @@
 import "server-only";
 import type { SupabaseClient } from "@supabase/supabase-js";
+import { BUNDLE_SUBJECT_CAP } from "@/data/pricing";
 
 /**
  * Anti-abuse model (college students will do anything to avoid paying):
@@ -25,7 +26,7 @@ export const SUBJECT_REGEN_CAP = 6;
 export interface EntitlementCheck {
   allowed: boolean;
   isPaid: boolean;
-  reason?: "needs-payment" | "regen-cap";
+  reason?: "needs-payment" | "regen-cap" | "bundle-full";
   lockedCourse?: string; // the course the free/paid plan is bound to
   triesLeft?: number;
 }
@@ -55,7 +56,20 @@ export async function checkEntitlement(
     subjectCode != null &&
     (ents?.some((e) => e.scope === "subject" && e.subject_code === subjectCode) ?? false);
 
-  if (hasBundle) return { allowed: true, isPaid: true };
+  if (hasBundle) {
+    const { data: paidRows } = await db
+      .from("generated_papers")
+      .select("subject_code, course_input")
+      .eq("user_id", userId)
+      .eq("is_paid", true);
+    const distinctSubjects = new Set(
+      (paidRows ?? []).map((r) => r.subject_code ?? r.course_input),
+    );
+    if (!distinctSubjects.has(courseKey) && distinctSubjects.size >= BUNDLE_SUBJECT_CAP) {
+      return { allowed: false, isPaid: true, reason: "bundle-full" };
+    }
+    return { allowed: true, isPaid: true };
+  }
 
   if (hasSubject) {
     const { count } = await db

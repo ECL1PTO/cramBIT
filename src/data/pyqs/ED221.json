@@ -8,6 +8,92 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2023)\nCLASS:  IMSc   SEMESTER: IV\nBRANCH:   QEDS   SESSION: SP/2023\n\nSUBJECT: ED221 INTRODUCTION TO PSYCHOLOGY\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ.1(a) What is psychology? [2]\nQ.1(b) Who is known as the father of psychology? What is the contribution of Sigmund Freud? [3]\n\n\nQ.2(a) What is the behaviorist perspective of psychology? [2]\nQ.2(b) Describe Abraham Maslow’s hierarchy of needs. [3]\n\n\nQ.3(a) Why is human vision called as sensitive as is physically possible? [2]\nQ.3(b) What is hit rate and false alarm rate in signal detection theory? [3]\n\n\nQ.4 Explain  the difference  between  absolute  threshold  and  just  noticeable  difference  of  sensory\nmodalities.\n[5]\n\n\nQ.5 Explain the five functions of perception. [5]\n\n\n\n::::::24/02/2023::::::M"
+    },
+    {
+      "session": "SP/2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is psychology?",
+              "marks": 2,
+              "topic": "definition of psychology"
+            },
+            {
+              "label": "b",
+              "text": "Who is known as the father of psychology? What is the contribution of Sigmund Freud?",
+              "marks": 3,
+              "topic": "father of psychology; Sigmund Freud"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is the behaviorist perspective of psychology?",
+              "marks": 2,
+              "topic": "behaviorist perspective"
+            },
+            {
+              "label": "b",
+              "text": "Describe Abraham Maslow’s hierarchy of needs.",
+              "marks": 3,
+              "topic": "Maslow hierarchy of needs"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Why is human vision called as sensitive as is physically possible?",
+              "marks": 2,
+              "topic": "human vision sensitivity"
+            },
+            {
+              "label": "b",
+              "text": "What is hit rate and false alarm rate in signal detection theory?",
+              "marks": 3,
+              "topic": "signal detection theory"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the difference between absolute threshold and just noticeable difference of sensory modalities.",
+              "marks": 5,
+              "topic": "absolute threshold; just noticeable difference"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the five functions of perception.",
+              "marks": 5,
+              "topic": "functions of perception"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
