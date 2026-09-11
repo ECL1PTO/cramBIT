@@ -116,7 +116,11 @@ export async function buildBlueprint(r: Resolved): Promise<Blueprint> {
   const blueprint = await chatJson(
     {
       tier: "reason",
-      maxTokens: 2600,
+      // Worst case (8 modules x 8 stems + 20 repeats + notes) is ~2200 tokens
+      // of real JSON content on a rich, well-documented course — leave real
+      // headroom above that plus reasoning, or the richest courses are the
+      // ones most likely to get silently truncated.
+      maxTokens: 3200,
       prompt: analysisPrompt({
         courseName: r.name,
         syllabus: r.syllabus,
