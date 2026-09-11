@@ -37,8 +37,18 @@ function gatewayAttempt(tier: Tier): Attempt | null {
 }
 
 function chainFor(tier: Tier): Attempt[] {
+  // Direct providers first — no extra hop, so they're faster whenever they
+  // have quota. The gateway (a self-hosted VM, geographically an extra
+  // round trip) is a deep fallback for when direct capacity runs dry, not
+  // the default path — it used to fully replace direct providers, which
+  // meant paying its latency on every single request even with quota to
+  // spare elsewhere.
+  const direct = directChainFor(tier);
   const gw = gatewayAttempt(tier);
-  if (gw) return [gw]; // gateway does its own multi-provider routing
+  return gw ? [...direct, gw] : direct;
+}
+
+function directChainFor(tier: Tier): Attempt[] {
   const or = (model: string): Attempt => ({
     provider: "openrouter",
     base: "https://openrouter.ai/api/v1",
