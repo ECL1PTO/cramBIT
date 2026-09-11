@@ -15,6 +15,104 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH   SEMESTER: III\nBRANCH: CS/IT   SESSION: MO/2022\n\nSUBJECT:MA205 DISCRETE MATHEMATICS\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a)\nShow that\nqqpp))((~\n is a tautology\n[2] CO1 BT4\nQ1 (b) Find the least n for which the statement is true and then using mathematical\ninduction prove that\nn\nn2)1(\n2\n\n\n[3] CO1 BT1\n\n\nQ2 (a)\nFind whether\nqqp)(\n and\nqqp)(\n is logically equivalent or not.\n[2] CO1 BT1\nQ2 (b)\nProve or disprove.\nRx\n,\n23\nxx\n.\n[3] CO1 BT5\n\n\nQ3 (a)\nSolve\n0\n11\n\nrrr\naaCosa\n\n[2] CO1 BT3\nQ3 (b)\nFind the solution of the following recurrence relation\n2\n1\nraa\nrr\n\n\n\n[3] CO1 BT1\n\n\nQ4 (a)\nSolve the recurrence relation\nr\nrrr\naaa22\n21\n\n\n;\n2r\n by the method\nof generating function satisfying the boundary conditions 1,2\n10\naa\n[2] CO1 BT3\nQ4 (b)\nSolve the recurrence relation 016\n13\n\nrr\naa\n[3] CO1 BT3\n\n\nQ5 (a) Let A = {1, 2, 3, 4, 5 } and R be the relation defined by a R b if and only if a <\nb. Compute\n2\nR\n and\n3\nR\n\n[2] CO2 BT3\nQ5 (b) Determine  whether  the  relation  S on  the  set  A  is symmetric,  antisymmetric\nand  transitive.  Set    A  = ℝ\n2\n\\(0,0) .  The  relation  S  is  defined  as\n),(),(\n2211\nyxSyx\n  if only if\n1221\n..yxyx\n\n[3] CO2 BT4\n\n\n\n:::::: 30/09/2022 ::::::M"
+    },
+    {
+      "session": "SP/2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define well ordering Principle.",
+              "marks": 2,
+              "topic": "well ordering principle"
+            },
+            {
+              "label": "b",
+              "text": "Show that ∀x P(x) ∧ Q(x) and ∀x P(x) ∧ ∀x Q(x) are logically equivalent.",
+              "marks": 3,
+              "topic": "logical equivalence"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Using Tautologies prove that ~(p∧~q) ∧ (~q∨r) ∧ (~r) → ~p.",
+              "marks": 2,
+              "topic": "tautologies"
+            },
+            {
+              "label": "b",
+              "text": "Use the Principle of Mathematical Induction to verify that for any positive integer n, 6^n−1 is divisible by n.",
+              "marks": 3,
+              "topic": "mathematical induction"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Find the generating function for the recurrence a_n−8a_{n-1}+15a_{n-2}=0 with a_0=0 and a_1=3.",
+              "marks": 2,
+              "topic": "generating function"
+            },
+            {
+              "label": "b",
+              "text": "Solve the recurrence relation a_n−2a_{n-1}−15a_{n-2}=r_n.",
+              "marks": 3,
+              "topic": "recurrence relation solving"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Find the generating function for the sequence 0,1,2,3,4,5,...",
+              "marks": 2,
+              "topic": "generating function"
+            },
+            {
+              "label": "b",
+              "text": "Find the generating function for the recurrence a_n=−2a_{n-1}+3a_{n-2} (n≥2) with a_0=2 and a_1=3.",
+              "marks": 3,
+              "topic": "generating function"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define equivalence relation with example.",
+              "marks": 2,
+              "topic": "equivalence relation"
+            },
+            {
+              "label": "b",
+              "text": "Using Warshall’s algorithm compute the transitive closure of R={(1,1),(1,4),(2,1),(2,2),(3,4),(4,4)} over A={1,2,3,4}.",
+              "marks": 3,
+              "topic": "Warshall algorithm"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

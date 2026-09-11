@@ -15,6 +15,104 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2023)\nCLASS:  BTECH   SEMESTER : VI\nBRANCH:  BT/MECH/PROD/CSE/ECE SESSION : SP/23\n\nSUBJECT: MT120 INTRODUCTION TO MARKETING MANAGEMENT\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Define the concept of marketing through managerial and societal point of view. [2] 1 1\nQ.1(b) Explain the importance of segmentation with examples. [3] 2 2\n\n\nQ.2(a) Explain the components of macro and micro environment. [2] 2 1\nQ.2(b) Analyze how Market  targeting would  differ  for  a  product  and  service  company  with\nexample.\n[3] 2 4\n\n\nQ.3(a) Discuss in brief about market competition. [2] 2 2\nQ.3(b) Analyze the different types of positioning strategies for a service company under crisis. [3] 2 4\n\n\nQ.4(a) Explain the basis of segmenting the consumer markets. [2] 2 2\nQ.4(b) Write a business plan for an automobile company who has newly launched a family car. [3] 2 4\n\n\nQ.5(a) Discuss the importance of Entrepreneurship with example. [2] 2 2\nQ.5(b) Analyze the strategies  to  deal with market  competition as  a marketing manager of an\nIT startup.\n[3] 1,2 4\n\n\n\n::::::02/03/2023::::::M"
+    },
+    {
+      "session": "SP/23",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define the concept of marketing through managerial and societal point of view.",
+              "marks": 2,
+              "topic": "marketing concept"
+            },
+            {
+              "label": "b",
+              "text": "Explain the importance of segmentation with examples.",
+              "marks": 3,
+              "topic": "segmentation"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the components of macro and micro environment.",
+              "marks": 2,
+              "topic": "macro and micro environment"
+            },
+            {
+              "label": "b",
+              "text": "Analyze how Market targeting would differ for a product and service company with example.",
+              "marks": 3,
+              "topic": "market targeting"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Discuss in brief about market competition.",
+              "marks": 2,
+              "topic": "market competition"
+            },
+            {
+              "label": "b",
+              "text": "Analyze the different types of positioning strategies for a service company under crisis.",
+              "marks": 3,
+              "topic": "positioning strategies"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the basis of segmenting the consumer markets.",
+              "marks": 2,
+              "topic": "consumer market segmentation"
+            },
+            {
+              "label": "b",
+              "text": "Write a business plan for an automobile company who has newly launched a family car.",
+              "marks": 3,
+              "topic": "business plan"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Discuss the importance of Entrepreneurship with example.",
+              "marks": 2,
+              "topic": "entrepreneurship"
+            },
+            {
+              "label": "b",
+              "text": "Analyze the strategies to deal with market competition as a marketing manager of an IT startup.",
+              "marks": 3,
+              "topic": "competition strategies"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

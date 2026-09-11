@@ -15,6 +15,104 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2023)\nCLASS: BTECH/BARCH/BHMCT   SEMESTER : IV/VI\nBRANCH:   All\nSESSION :\nSP/2023\n\nSUBJECT: MT417 FRENCH\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) Présentez-vous.\nJe m’(appeler) _____ J’(avoir) _____ ans. Je (être) ______ étudiant(e). J’(habiter)\n______  à  _____ J’(étudier)  _____  le  français.  En  vacances,  j’(adorer)  _____  la\n(mer/montagne). J’(aimer bien) _____ parler avec les habitants étrangers.\n[2] 1 express\nQ.1(b) Complétez avec Être - s'appeler - connaitre - chanter - habiter\nTu ____ anglaise ? - Non, je ____ américaine.\nVous ____ la   place Monge ? - Oui, j'____ à Paris, rue Mouffetard.\nII ____ à I ‘Olympia, jeudi 2 avril – II ____ Nicolas Legrand.\n[3] 2 relate\n\n\nQ.2(a) Choisissez la bonne réponse.\ni). Elles _______ français.                   (habitent / parlent / ont)\nii). Tu ______ rue de la liberté.           (as / parles / habites)\niii). Je _______ Anne.                         (parle / s’appelle / m’appelle)\niv). Nous ______ espagnol.                  (parlons / sommes / avons)\n[2] 2 select\nQ.2(b) Remettez les mots dans l’ordre.\ni). travaille------ne-------pas---------Stefano.\nii) écoute--------Karim-------pas-------disques-----de----n’.\niii) pas-------Anjali-------connait------ne------Stefano.\n[3] 2 order\n\n\nQ.3(a) Écrivez l’infinitif des verbes suivants\ni). Nous sommes dans la classe. __________\nii). Il s’appelle André. ____________\niii). Tu apprends le français ?  ___________\niv). Ils connaissent Paris. _________\n[2] 1 identify\nQ.3(b) Complétez les questions avec quel / quelle / quels / quelles.\ni). _____ âge vous avez ?\nii). _____ film préférez-vous ?\niii). _____ heure est-il ?\niv). _____ ville habitez-vous ?\nv). ______ disques écoutez-vous ?\nvi). ______ actrices aimez-vous ?\n[3] 2 choose\n\n\nQ.4(a) Traduisez en anglais\nPaul  Gomez  est  français.  Il  habite  à  Paris,  9,  boulevard  des  Italiens  et  il  est\nprofesseur d’espagnol. Il connait l’Espagne.\n[2] 1 translate\nQ.4(b) Complétez avec en----au ou aux.\ni). Rosa Rodriguez habite _________ Espagne.\nii). Margaret Brown Habite ________ Angleterre.\niii). Yoko Ozawa habite ___________ Japon.\n[3] 2 complete\n\n    PTO\n\n\n\n\n\n\n\n\n\n\nQ.5(a) Complétez le dialogue.\nUne Française parle à un touriste américain.\nVous avez des amis à Paris ?\nNon, ...........................\nVous rencontrez des Américains ?\nNon, ....................\nVous avez une voiture ?\nNon, ............................\nVous avez un appartement ?\nNon, ......................\n[2] 2 solve\nQ.5(b) Écrivez dans le bon ordre.\ni). un------Ram----------frère-------petit-------a.\nii). de------La-----Sita------appelle--------mère--------Ramesh-----s’.\niii). est-----Mon--------dentiste-------père.\n[3] 2 order\n\n\n\n::::::27/02/2023::::::M"
+    },
+    {
+      "session": "SP/2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Présentez-vous. Je m’(appeler) _____ J’(avoir) _____ ans. Je (être) ______ étudiant(e). J’(habiter) ______ à _____ J’(étudier) _____ le français. En vacances, j’(adorer) _____ la (mer/montagne). J’(aimer bien) _____ parler avec les habitants étrangers.",
+              "marks": 2,
+              "topic": "self-introduction"
+            },
+            {
+              "label": "b",
+              "text": "Complétez avec Être - s'appeler - connaitre - chanter - habiter Tu ____ anglaise ? - Non, je ____ américaine. Vous ____ la place Monge ? - Oui, j'____ à Paris, rue Mouffetard. II ____ à I ‘Olympia, jeudi 2 avril – II ____ Nicolas Legrand.",
+              "marks": 3,
+              "topic": "verb conjugation"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Choisissez la bonne réponse. i). Elles _______ français. (habitent / parlent / ont) ii). Tu ______ rue de la liberté. (as / parles / habites) iii). Je _______ Anne. (parle / s’appelle / m’appelle) iv). Nous ______ espagnol. (parlons / sommes / avons)",
+              "marks": 2,
+              "topic": "multiple choice"
+            },
+            {
+              "label": "b",
+              "text": "Remettez les mots dans l’ordre. i). travaille------ne-------pas---------Stefano. ii) écoute--------Karim-------pas-------disques-----de----n’. iii) pas-------Anjali-------connait------ne------Stefano.",
+              "marks": 3,
+              "topic": "sentence ordering"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Écrivez l’infinitif des verbes suivants i). Nous sommes dans la classe. __________ ii). Il s’appelle André. ____________ iii). Tu apprends le français ?  ___________ iv). Ils connaissent Paris. _________",
+              "marks": 2,
+              "topic": "infinitive"
+            },
+            {
+              "label": "b",
+              "text": "Complétez les questions avec quel / quelle / quels / quelles. i). _____ âge vous avez ? ii). _____ film préférez-vous ? iii). _____ heure est-il ? iv). _____ ville habitez-vous ? v). ______ disques écoutez-vous ? vi). ______ actrices aimez-vous ?",
+              "marks": 3,
+              "topic": "question words"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Traduisez en anglais Paul Gomez est français. Il habite à Paris, 9, boulevard des Italiens et il est professeur d’espagnol. Il connait l’Espagne.",
+              "marks": 2,
+              "topic": "translation"
+            },
+            {
+              "label": "b",
+              "text": "Complétez avec en----au ou aux. i). Rosa Rodriguez habite _________ Espagne. ii). Margaret Brown Habite ________ Angleterre. iii). Yoko Ozawa habite ___________ Japon.",
+              "marks": 3,
+              "topic": "prepositions"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Complétez le dialogue. Une Française parle à un touriste américain. Vous avez des amis à Paris ? Non, ........................... Vous rencontrez des Américains ? Non, .................... Vous avez une voiture ? Non, ............................ Vous avez un appartement ? Non, ......................",
+              "marks": 2,
+              "topic": "dialogue completion"
+            },
+            {
+              "label": "b",
+              "text": "Écrivez dans le bon ordre. i). un------Ram----------frère-------petit-------a. ii). de------La-----Sita------appelle--------mère--------Ramesh-----s’. iii). est-----Mon--------dentiste-------père.",
+              "marks": 3,
+              "topic": "sentence ordering"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

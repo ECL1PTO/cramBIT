@@ -1,0 +1,104 @@
+{
+  "courseCode": "MA207R1",
+  "courseName": "MATHEMATICS - IV",
+  "historical_papers": [
+    {
+      "session": "SP2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Check whether the functions f(x)=x^2 and g(x)=e^{log x} are linearly independent or not for x>0. Support your answer with proper reasoning.",
+              "marks": 2,
+              "topic": "linear independence"
+            },
+            {
+              "label": "b",
+              "text": "Construct the general solution of the differential equation x y'' + 3y' - 4y = 0 where D ≡ d/dx.",
+              "marks": 3,
+              "topic": "differential equations"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Using proper substitution, transform the Cauchy‑Euler differential equation x^2 y'' - x y' + 2 y = 0 (x>0) into the form d^2 y/dt^2 + p dy/dt + q y = 0 with t as the independent variable, where p and q are constants. Determine the values of p and q.",
+              "marks": 2,
+              "topic": "Cauchy‑Euler"
+            },
+            {
+              "label": "b",
+              "text": "Develop the general solution of the differential equation y'' - 3y' + 96 e^{x} y = 0 using the method of variation of parameters.",
+              "marks": 3,
+              "topic": "variation of parameters"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Identify and classify the singular point(s) of the differential equation y'' + (1/x) y' + (2/x) y = 0 on the x‑axis.",
+              "marks": 2,
+              "topic": "singular points"
+            },
+            {
+              "label": "b",
+              "text": "For the differential equation y'' + (2/x) y' + (2/x^2) y = 0 determine its general solution in the form y = Σ_{n=0}^{∞} a_n x^{n} + Σ_{n=0}^{∞} b_n x^{n+1} where a_0 and b_0 are arbitrary constants.",
+              "marks": 3,
+              "topic": "power series"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "For the Legendre polynomial P_n(x) of order n prove that (i) P_n(1)=1 and (ii) (1−x^2) P'_n(x) = n [P_{n-1}(x) - x P_n(x)].",
+              "marks": 2,
+              "topic": "Legendre polynomials"
+            },
+            {
+              "label": "b",
+              "text": "Define the expression of the Bessel function J_n(x) in terms of the gamma function. Hence, derive d/dx [x^{−n} J_n(x)] = -x^{−n} J_{n+1}(x).",
+              "marks": 3,
+              "topic": "Bessel functions"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "State the definition to find the Laplace transform of any function f(t) for t≥0. Hence, apply it to compute the Laplace transform of f(t)=2t e^{t}.",
+              "marks": 2,
+              "topic": "Laplace transform"
+            },
+            {
+              "label": "b",
+              "text": "Using properties, determine the Laplace transform of the function F(t)= (2t) e^{t} - 1.",
+              "marks": 3,
+              "topic": "Laplace transform"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

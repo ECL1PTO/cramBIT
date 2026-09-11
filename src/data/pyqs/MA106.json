@@ -8,6 +8,86 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS:  IMSc   SEMESTER : II\nBRANCH: MATHEMATICS   SESSION : SP/2023\n\nSUBJECT: MA106 ORDINARY DIFFERENTIAL EQUATIONS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Find a one parameter family of solution of the Clairaut equation\n푦=푝푥+푝\nଷ\n,푝≡푑/푑푥\n[2] CO1 BT1\nQ.1(b)\nDetermine if the given equation is exact and hence solve:\n(\n2푥푦+1\n)\n푑푥+\n(\n푥\nଶ\n+4푦\n)\n푑푦=0.\n[3] CO2 BT4\n\n\nQ.2(a) Find the orthogonal trajectories of the family of curves\n 푦=푐푥\nଷ\n\n[2] CO1 BT1\nQ.2(b)\nSolve the given differential equation:\nௗ௬\nௗ௫\n+3\n௬\n௫\n=6푥\nଶ\n.\n[3] CO1 BT3\n\n\nQ.3 Solve the Cauchy-Euler equation\n 푥\nଶ\nௗ\nమ\n௬\nௗ௫\nమ\n−5푥\nௗ௬\nௗ௫\n+8푦=2푥\nଷ\n.\n[5] CO1 BT3\n\n\nQ.4 Find the general solution of the non-homogeneous differential equation by the\nmethod of undetermined coefficients:\nௗ\nమ\n௬\nௗ௫\nమ\n−3\nௗ௬\nௗ௫\n+2푦=4푥\nଶ\n.\n[5] CO1 BT1\n\n\nQ.5(a)\nSolve the simultaneous differential equation\nௗ௫\nௗ௧\n=6푥−3푦;\nௗ௬\nௗ௧\n=2푥+푦.\n[5] CO1 BT3\n\n\n::::::25/05/2023::::::M"
+    },
+    {
+      "session": "SP/2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Find a one parameter family of solution of the Clairaut equation y = p x + p^2, p ≡ dy/dx",
+              "marks": 2,
+              "topic": "Clairaut equation"
+            },
+            {
+              "label": "b",
+              "text": "Determine if the given equation is exact and hence solve: (2xy+1) dx + (x^2 +4y) dy = 0",
+              "marks": 3,
+              "topic": "Exact differential equation"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Find the orthogonal trajectories of the family of curves y = c x",
+              "marks": 2,
+              "topic": "Orthogonal trajectories"
+            },
+            {
+              "label": "b",
+              "text": "Solve the given differential equation: ... = 6x",
+              "marks": 3,
+              "topic": "Differential equation"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": null,
+              "text": "Solve the Cauchy-Euler equation x^2 y'' -5x y' +8y = 2x",
+              "marks": 5,
+              "topic": "Cauchy-Euler"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": null,
+              "text": "Find the general solution of the non-homogeneous differential equation by the method of undetermined coefficients: y'' -3y' +2y = 4x",
+              "marks": 5,
+              "topic": "Undetermined coefficients"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Solve the simultaneous differential equation y' = 6x - 3y; x' = 2x + y",
+              "marks": 5,
+              "topic": "Simultaneous differential equations"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

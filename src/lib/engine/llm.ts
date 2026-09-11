@@ -136,14 +136,17 @@ const CHAIN_DEADLINE_MS = 55_000;
 export async function chat(o: ChatOpts): Promise<string> {
   const errors: string[] = [];
   const started = Date.now();
+  // A gateway attempt cascades through providers internally — don't cut it
+  // off early, let it use most of the deadline. A direct provider is fast,
+  // so cap it to leave room for the next one in the chain.
+  const isGateway = Boolean(env.LLM_GATEWAY_URL && env.LLM_GATEWAY_KEY);
   for (const a of [...chainFor(o.tier), null]) {
     const left = CHAIN_DEADLINE_MS - (Date.now() - started);
     if (left < 4000) break;
     try {
       if (a) {
         if (!a.key) continue;
-        // Cap a single call so a slow provider still leaves room for a fallback.
-        return await callOpenAICompatible(a, o, Math.min(left, 42_000));
+        return await callOpenAICompatible(a, o, Math.min(left, isGateway ? 50_000 : 42_000));
       }
       return await geminiGenerate({
         model: o.tier === "reason" ? "gemini-flash-latest" : "gemini-flash-lite-latest",
@@ -175,9 +178,14 @@ export async function chatJson<T>(
   const errors: string[] = [];
   const started = Date.now();
   const attempts = [...chainFor(o.tier), null];
-  // Free models are stochastic about honouring "JSON only" — give each provider a
-  // couple of tries before burning the fallback chain.
-  const TRIES_PER_PROVIDER = 2;
+  // A gateway attempt already does its own multi-provider cascade internally
+  // (that's the whole point of OmniRoute) — cutting it off early to "retry"
+  // just interrupts it mid-cascade and wastes the interruption on a second,
+  // even-shorter attempt. Give it one try with almost the whole deadline.
+  // A direct provider is fast but stochastic about honouring "JSON only", so
+  // a quick second try there is worth it.
+  const isGateway = Boolean(env.LLM_GATEWAY_URL && env.LLM_GATEWAY_KEY);
+  const TRIES_PER_PROVIDER = isGateway ? 1 : 2;
   const jo: ChatOpts = {
     ...o,
     json: true,
@@ -193,7 +201,7 @@ export async function chatJson<T>(
       if (left < 8000) break; // not enough time for another call — fall through
       try {
         const raw = a
-          ? await callOpenAICompatible(a, jo, Math.min(left, 40_000))
+          ? await callOpenAICompatible(a, jo, Math.min(left, isGateway ? 50_000 : 40_000))
           : await geminiGenerate({
               model: o.tier === "reason" ? "gemini-flash-latest" : "gemini-flash-lite-latest",
               system: jo.system,

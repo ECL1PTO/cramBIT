@@ -15,6 +15,104 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS:  BTECH & BARCH   SEMESTER: IV & VI\nBRANCH: ALL   SESSION: SP2023\n\nSUBJECT: MT418 GERMAN\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates.\n5. Write the questions and highlight the answers in case of fill in the blank questions.\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) Was sind Sie von Beruf? Ordnen Sie die Antworten zu.\nA. Was sind Sie von Beruf? 1. Am Wochenende\nB. Wann arbeiten Sie?  2. An der Uni in Berlin.\nC. Wo arbeiten Sie? 3. Von Montag bis Freitag.\nD. Wann haben Sie frei? 4. Professorin.\n\n[2] CO1 1\nQ.1(b) Fragen und Antworten. Ordnen Sie zu.\ni. Wie heißen Sie? a) Aus Irland. Und Sie ?\nii. Wo wohnst du? b) Englisch und Deutsch.\niii. Woher kommen Sie? c) Emilia.\niv. Welche Sprachen sprechen Sie? d) Mein Name ist Kunze.\nv. Wer bist du? e) In Stuttgart. Und Sie?\nvi. Wo wohnen Sie? f) In Berlin. Und du?\n\n[3] CO2 1\n\n\nQ.2(a) Wie - Wer - Wo - Woher? Ergänzen Sie.\ni. Ich bin Emma Reiter. Und ________ sind Sie?\nii. Ich wohne in Salzburg. ________ wohnen Sie?\niii. Ich bin Peter. ________ heißt du?\niv. _________ kommst du?\n[2] CO1 &2 2\n\n\nQ.2(b) Ergänzen Sie die Tabelle.\n antworten sein heißen sammeln lesen* sprechen*\nIch\nDu\nEr/es/sie\nWir\nIhr\nSie/sie\n\n[3] CO1 3\n\n\nQ.3(a) Schreiben Sie die Sätze.\ni. in Berlin / wohnen / ich\nii. Sie/ heißen /wie/?\niii. sein / wer/ du / ?\niv. Eva/ sehr gern / fotografieren / .\n[2]  1\nQ.3(b) Ergänzen Sie Land und/oder Sprache.\nLand Sprache\n? Deutsch\nRussland ?\n? Spanisch\nJapan ?\nFrankreich ?\n Italienisch\nChina ?\n\n[3] CO5 2\n    PTO\n\n\n\n\n\n\nQ.4(a) Schreiben  Sie  den  bestimmten Artikel  und  den  Plural  von  diesen  Nomen\n(Substantiven).\n\nBestimmter Artikel Singular Plural\n Autobahn\n Frühstück\n\nEntschụldigung\n\n Name\n\n[2] CO2 1\nQ.4(b) Schreiben Sie Ja-/Nein-fragen.\ni. du/ ins Museum/ am Sonntag / gehen.\nii. Studenten /ihr/ sein.\niii. lesen / gern/ Julia.\niv. ihr/ am Mittwoch / ins Kino / gehen.\nv. du / am Donnerstag / ins Theater/ gehen.\nvi. Katja und Tom /sehr gern/ Musik/ hören.\n[3] CO3 3\n\n\nQ.5(a) Antworten Sie die folgenden Fragen mit kompletten Sätzen.\ni. Wie heißen Sie?\nii. Wo wohnen Sie?\niii. Wo arbeiten Sie?\niv. Was machen Sie gern?\n[2] CO2 3\nQ.5(b) Berichten Sie über Silke Jonas.\nIch bin Studentin. Ich bin von Montag bit Donnerstag an der Uni. Ich lerne am\nFreitag und am Sonntag. Am Samstag habe ich frei. Ich studierte Architektur in\nKöln. Es gibt 670 Architekturstudenten heir.\n[3] CO3 &4 3\n\n\n::::::27/02/2023::::::M"
+    },
+    {
+      "session": "SP2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Was sind Sie von Beruf? Ordnen Sie die Antworten zu.",
+              "marks": null,
+              "topic": "Beruf"
+            },
+            {
+              "label": "b",
+              "text": "Fragen und Antworten. Ordnen Sie zu.",
+              "marks": null,
+              "topic": "Fragewörter"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Wie - Wer - Wo - Woher? Ergänzen Sie.\ni. Ich bin Emma Reiter. Und ________ sind Sie?\nii. Ich wohne in Salzburg. ________ wohnen Sie?\niii. Ich bin Peter. ________ heißt du?\niv. _________ kommst du?",
+              "marks": null,
+              "topic": "Pronouns"
+            },
+            {
+              "label": "b",
+              "text": "Ergänzen Sie die Tabelle.\nantworten sein heißen sammeln lesen* sprechen*\nIch\nDu\nEr/es/sie\nWir\nIhr\nSie/sie",
+              "marks": null,
+              "topic": "Verb conjugation"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Schreiben Sie die Sätze.\ni. in Berlin / wohnen / ich\nii. Sie/ heißen /wie/?\niii. sein / wer/ du / ?\niv. Eva/ sehr gern / fotografieren / .",
+              "marks": null,
+              "topic": "Sentence construction"
+            },
+            {
+              "label": "b",
+              "text": "Ergänzen Sie Land und/oder Sprache.\nLand Sprache\n? Deutsch\nRussland ?\n? Spanisch\nJapan ?\nFrankreich ?\nItalienisch\nChina ?",
+              "marks": null,
+              "topic": "Countries & languages"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Schreiben Sie den bestimmten Artikel und den Plural von diesen Nomen (Substantiven).\nBestimmter Artikel Singular Plural\nAutobahn\nFrühstück\nEntschüldigung\nName",
+              "marks": null,
+              "topic": "Articles & plural nouns"
+            },
+            {
+              "label": "b",
+              "text": "Schreiben Sie Ja-/Nein-fragen.\ni. du/ ins Museum/ am Sonntag / gehen.\nii. Studenten /ihr/ sein.\niii. lesen / gern/ Julia.\niv. ihr/ am Mittwoch / ins Kino / gehen.\nv. du / am Donnerstag / ins Theater/ gehen.\nvi. Katja und Tom /sehr gern/ Musik/ hören.",
+              "marks": null,
+              "topic": "Yes/No questions"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Antworten Sie die folgenden Fragen mit kompletten Sätzen.\ni. Wie heißen Sie?\nii. Wo wohnen Sie?\niii. Wo arbeiten Sie?\niv. Was machen Sie gern?",
+              "marks": null,
+              "topic": "Answering questions"
+            },
+            {
+              "label": "b",
+              "text": "Berichten Sie über Silke Jonas.\nIch bin Studentin. Ich bin von Montag bit Donnerstag an der Uni. Ich lerne am Freitag und am Sonntag. Am Samstag habe ich frei. Ich studierte Architektur in Köln. Es gibt 670 Architekturstudenten heir.",
+              "marks": null,
+              "topic": "Biography"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

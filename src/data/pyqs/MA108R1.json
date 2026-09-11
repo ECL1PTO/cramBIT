@@ -1,0 +1,104 @@
+{
+  "courseCode": "MA108R1",
+  "courseName": "MATHEMATICS III",
+  "historical_papers": [
+    {
+      "session": "SP 2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Determine whether the sequence a_n = 4 + (3/4)^n is monotonic, bounded and convergent.",
+              "marks": 2,
+              "topic": "Sequences"
+            },
+            {
+              "label": "b",
+              "text": "Test the behaviour of the infinite series: ∑ ( ... ).",
+              "marks": 3,
+              "topic": "Series Convergence"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Apply integral test to test the convergence of the series ∑ ( ... ).",
+              "marks": 2,
+              "topic": "Integral Test"
+            },
+            {
+              "label": "b",
+              "text": "Discuss the convergence of the series .0........., !3 3 !2 2 !1 1 3322 > + + + + x xxx.",
+              "marks": 3,
+              "topic": "Series Convergence"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Is it possible to find two 2×2 matrices A and B such that 2 I B A A B = -? Justify.",
+              "marks": 2,
+              "topic": "Matrix Theory"
+            },
+            {
+              "label": "b",
+              "text": "Determine the values of b for which the rank of the matrix [[ ... ]] is 2.",
+              "marks": 3,
+              "topic": "Rank"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Apply Cayley‑Hamilton theorem to find the inverse of the matrix [[ ... ]].",
+              "marks": 3,
+              "topic": "Cayley-Hamilton"
+            },
+            {
+              "label": "b",
+              "text": "Check the diagonalizability of the matrix [[ ... ]].",
+              "marks": 2,
+              "topic": "Diagonalizability"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Evaluate whether the following limit exists or not: lim_{(x,y)→(0,0)} ( yx / (xy + yx) ).",
+              "marks": 2,
+              "topic": "Limits"
+            },
+            {
+              "label": "b",
+              "text": "Suppose for a two‑variable function f(x,y) both partial derivatives ∂f/∂x and ∂f/∂y exist. Is the function always continuous? Explain with an example.",
+              "marks": 3,
+              "topic": "Continuity"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
