@@ -150,15 +150,35 @@ export default function Dashboard() {
     // working through the papers, not faking it.
     const hold = (start: number, ms: number) =>
       new Promise<void>((res) => setTimeout(res, Math.max(0, ms - (Date.now() - start))));
+    const wait = (ms: number) => new Promise<void>((res) => setTimeout(res, ms));
+
+    // A 503 "capacity" reply is one gateway attempt having a bad moment, not a
+    // real outage — retrying is a brand-new serverless call with a fresh 55s
+    // shot at the gateway, so most transient failures never reach the user.
+    const CAPACITY_RETRIES = 3;
+    const postRetrying = async (body: object): Promise<Response> => {
+      let res = await fetch("/api/predict", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(body),
+        signal,
+      });
+      for (let i = 0; i < CAPACITY_RETRIES && res.status === 503 && !signal.aborted; i++) {
+        await wait(1500);
+        if (signal.aborted) break;
+        res = await fetch("/api/predict", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(body),
+          signal,
+        });
+      }
+      return res;
+    };
 
     try {
       const t0 = Date.now();
-      const planRes = await fetch("/api/predict", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ phase: "plan", courseInput, syllabus }),
-        signal,
-      });
+      const planRes = await postRetrying({ phase: "plan", courseInput, syllabus });
       if (signal.aborted) return;
       const plan = await planRes.json();
       if (planRes.ok && plan.papersRead) {
@@ -188,12 +208,7 @@ export default function Dashboard() {
       setTriesLeft(plan.triesLeft ?? null);
 
       const post = (payload: object) =>
-        fetch("/api/predict", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ courseInput, syllabus, ...payload }),
-          signal,
-        });
+        postRetrying({ courseInput, syllabus, ...payload });
 
       if (signal.aborted) return;
       setPhase("pooling");
