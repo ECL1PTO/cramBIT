@@ -11,6 +11,7 @@ import { PaywallModal } from "@/components/paywall-modal";
 import { FeedbackBar } from "@/components/feedback-bar";
 import { Wordmark } from "@/components/logo";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { ShareButton } from "@/components/share-button";
 
 type Phase = "idle" | "planning" | "pooling" | "writing" | "done";
 interface Suggestion {
@@ -264,6 +265,12 @@ export default function Dashboard() {
         <Wordmark size="md" />
         <div className="flex items-center gap-3 text-body-sm text-muted">
           <span className="hidden max-w-[180px] truncate sm:inline">{email}</span>
+          <ShareButton
+            compact
+            label="Share"
+            text="I'm using cramBIT to predict my mid-sem papers from real past papers + my syllabus. First subject's free."
+            className="hidden sm:flex"
+          />
           <ThemeToggle />
           <button
             onClick={async () => {
@@ -477,6 +484,11 @@ export default function Dashboard() {
                 >
                   Download PDF
                 </button>
+                <ShareButton
+                  compact
+                  label="Share with classmates"
+                  text={`Just generated a predicted ${courseCode ?? courseInput} mid-sem paper on cramBIT — real past-paper patterns + syllabus. First subject's free.`}
+                />
               </div>
 
               <article className="print-sheet overflow-x-auto rounded-sheet border border-border bg-surface p-6 text-left font-paper text-[1.02rem] leading-[1.7] text-text sm:p-10 [&_b]:font-semibold [&_h1]:mb-1 [&_h1]:text-center [&_h1]:text-h3 [&_h1]:font-semibold [&_h2]:mb-3 [&_h2]:text-center [&_h2]:text-body [&_h2]:font-semibold [&_hr]:my-5 [&_hr]:border-border [&_img]:hidden [&_p]:my-2 [&_strong]:font-semibold [&_table]:my-3 [&_table]:block [&_table]:w-full [&_table]:overflow-x-auto [&_td]:py-0.5 [&_td]:pr-6 [&_th]:pr-6 [&_th]:text-left">

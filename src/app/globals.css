@@ -132,6 +132,22 @@ body {
   text-rendering: optimizeLegibility;
   overflow-x: hidden;
   transition: color 0.3s var(--ease-glide);
+  /* Mobile taps: kill the default grey flash + the old double-tap-zoom delay
+     so buttons feel like they actually registered the tap immediately. */
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+/* :hover doesn't fire reliably on touch (and can "stick" after a tap), so
+   every clickable control needs its own :active press-state as the real
+   mobile feedback signal. */
+button, a, [role="button"] {
+  -webkit-tap-highlight-color: transparent;
+}
+button:active, a:active, [role="button"]:active {
+  transition: transform 0.1s var(--ease-glide), opacity 0.1s var(--ease-glide);
+  transform: scale(0.97);
+  opacity: 0.85;
 }
 
 /* page content always sits above the fixed background layers */

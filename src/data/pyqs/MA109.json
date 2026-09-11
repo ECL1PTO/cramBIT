@@ -8,6 +8,86 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: IMSc   SEMESTER: I\nBRANCH: MATHEMATICS AND COMPUTING  SESSION: MO/2022\n\nSUBJECT: MA109 MATRIX THEORY\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n   CO BL\nQ.1(a) Show that the determinant of an orthogonal matrix equals ±1. [2] CO1 BT4\n\nQ.1(b)\nFind the value of 푥 so that the matrix\n11푥\n1푥푥\n푥푥푥\n\n    is invertible.\n\n[3]\n\nCO1\n\nBT1\n\n\nQ.2(a)\nDetermine whether the following set {\n(\n1,–1,1\n)\n,\n(\n1,0,1\n)\n,\n(\n2,1,2\n)\n}\n is linearly independent.\n[2] CO2 BT4\n\nQ.2(b)\nFind the rank of the matrix\n112\n2−13\n3−1−1\n\n\n[3]\n\nCO1\n\nBT1\n\n\n\nQ.3\nFind the reduced row echelon form of the matrix\n−5−22\n31−1\n22−1\n\n\n[5]\n\nCO1\n\nBT1\n\n\nQ.4 Show that the diagonal entries of a skew Hermitian matrix are either zero or purely\nimaginary.\n[5] CO1 BT4\n\n\nQ.5 Solve the following system of linear equations by Gauss Elimination method:\n2푥+3푦+푧 = –1\n 3푥+3푦+푧 = 1\n 2푥+4푦+푧 = –2\n[5] CO1 BT3\n\n\n\n\n ::::::19/01/2023 ::::::M"
+    },
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Show that the determinant of an orthogonal matrix equals ±1.",
+              "marks": 2,
+              "topic": "orthogonal matrix determinant"
+            },
+            {
+              "label": "b",
+              "text": "Find the value of x so that the matrix [[1,1,x],[1,x,x],[x,x,x]] is invertible.",
+              "marks": 3,
+              "topic": "matrix invertibility"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Determine whether the set {(1,–1,1),(1,0,1),(2,1,2)} is linearly independent.",
+              "marks": 2,
+              "topic": "linear independence"
+            },
+            {
+              "label": "b",
+              "text": "Find the rank of the matrix [[1,1,2],[2,−1,3],[3,−1,−1]].",
+              "marks": 3,
+              "topic": "matrix rank"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "",
+              "text": "Find the reduced row echelon form of the matrix [[−5,−2,2],[3,1,−1],[2,2,−1]].",
+              "marks": 5,
+              "topic": "reduced row echelon form"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "",
+              "text": "Show that the diagonal entries of a skew Hermitian matrix are either zero or purely imaginary.",
+              "marks": 5,
+              "topic": "skew Hermitian matrix diagonal"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "",
+              "text": "Solve the system of linear equations by Gauss Elimination method: 2x+3y+z = –1, 3x+3y+z = 1, 2x+4y+z = –2.",
+              "marks": 5,
+              "topic": "Gauss elimination"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

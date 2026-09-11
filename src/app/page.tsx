@@ -10,6 +10,7 @@ import { Wordmark } from "@/components/logo";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { SupportForm } from "@/components/support-form";
 import { HeroVisual } from "@/components/hero-visual";
+import { ShareButton } from "@/components/share-button";
 import { courseCount, indexedPaperCount, questionCount } from "@/lib/engine/data";
 import { PRICING } from "@/data/pricing";
 import { DISCLAIMER_SHORT, NOT_AFFILIATED } from "@/data/legal";
@@ -28,6 +29,12 @@ export default function LandingPage() {
       <Container className="flex items-center justify-between py-5 sm:py-6">
         <Wordmark size="md" />
         <div className="flex items-center gap-2.5">
+          <ShareButton
+            compact
+            label="Share"
+            text="cramBIT predicts your mid-sem paper from real past papers + your syllabus. First subject free."
+            className="hidden sm:flex"
+          />
           <ThemeToggle />
           <ButtonLink href="/login" variant="ghost" className="px-4 py-2">
             Log in
@@ -200,7 +207,7 @@ export default function LandingPage() {
       {/* footer */}
       <Container className="flex flex-col items-center gap-4 border-t border-border py-10 text-center text-caption text-faint md:flex-row md:flex-wrap md:items-center md:justify-between md:text-left">
         <span>© {new Date().getFullYear()} cramBIT</span>
-        <div className="flex items-center gap-5">
+        <div className="flex flex-wrap items-center justify-center gap-5">
           <Link href="/support" className="hover:text-muted">
             Support
           </Link>
@@ -210,6 +217,12 @@ export default function LandingPage() {
           <Link href="/privacy" className="hover:text-muted">
             Privacy
           </Link>
+          <ShareButton
+            compact
+            label="Share cramBIT"
+            text="cramBIT predicts your mid-sem paper from real past papers + your syllabus. First subject free."
+            className="[&_button]:border-none [&_button]:p-0 [&_button]:text-caption [&_button]:text-faint [&_button]:hover:text-muted"
+          />
         </div>
         <span className="w-full text-faint md:w-auto">{NOT_AFFILIATED}</span>
       </Container>
