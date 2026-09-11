@@ -49,7 +49,7 @@ function PayInner() {
   return (
     <main className="flex min-h-screen items-center">
       <Container className="max-w-md">
-        <Link href="/dashboard" className="font-mono text-body-sm text-muted hover:text-text">
+        <Link href="/dashboard" className="font-mono text-body text-muted hover:text-text">
           ← dashboard
         </Link>
 

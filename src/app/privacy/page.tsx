@@ -9,7 +9,7 @@ export default function PrivacyPage() {
   return (
     <main className="min-h-screen">
       <Container className="py-section">
-        <Link href="/" className="font-mono text-body-sm text-muted hover:text-text">
+        <Link href="/" className="font-mono text-body text-muted hover:text-text">
           ← cramBIT
         </Link>
         <h1 className="mt-8 text-h1 font-normal tracking-tight text-text">Privacy</h1>
