@@ -3,9 +3,6 @@
 import { useState } from "react";
 import { Button, Field } from "@/components/ui";
 
-const SUPPORT_EMAIL =
-  process.env.NEXT_PUBLIC_SUPPORT_EMAIL ?? "redacted@example.com";
-
 export function SupportForm({ defaultEmail = "" }: { defaultEmail?: string }) {
   const [email, setEmail] = useState(defaultEmail);
   const [message, setMessage] = useState("");
@@ -64,13 +61,6 @@ export function SupportForm({ defaultEmail = "" }: { defaultEmail?: string }) {
       <Button type="submit" disabled={state === "sending"}>
         {state === "sending" ? "Sending…" : "Send message"}
       </Button>
-      <p className="text-caption text-faint">
-        Prefer email? Write to{" "}
-        <a href={`mailto:${SUPPORT_EMAIL}`} className="text-accent hover:underline">
-          {SUPPORT_EMAIL}
-        </a>{" "}
-        — you&apos;ll get an auto-reply, then a real one.
-      </p>
     </form>
   );
 }
