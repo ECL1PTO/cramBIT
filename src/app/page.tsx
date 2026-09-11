@@ -37,18 +37,18 @@ export default function LandingPage() {
 
       {/* hero */}
       <Container className="relative grid items-center gap-14 pt-14 pb-16 sm:pt-20 sm:pb-section lg:grid-cols-[1.05fr_0.95fr]">
-        <div className="max-w-2xl">
+        <div className="mx-auto max-w-2xl text-center lg:mx-0 lg:text-left">
           <h1 className="rise rise-1 text-[2.7rem] font-medium leading-[1.03] tracking-tight text-text sm:text-[3.4rem] md:text-[4.2rem] lg:text-[4.75rem]">
             Walk into your mid-sem
             <br className="hidden sm:block" /> having already{" "}
             <span className="shimmer font-serif italic">seen the paper.</span>
           </h1>
-          <p className="rise rise-3 mt-6 max-w-xl text-lead leading-relaxed text-text/90 sm:text-[1.3rem]">
+          <p className="rise rise-3 mx-auto mt-6 max-w-xl text-lead leading-relaxed text-text/90 sm:text-[1.3rem] lg:mx-0">
             cramBIT reads every <a href="#how" className="underline decoration-dotted decoration-accent underline-offset-4 hover:text-text">PYQ</a> for your course, cross-references your syllabus, and writes the{" "}
             <span className="mark text-text">25-mark question papers</span> most likely to
             come up. Three full sets, per subject.
           </p>
-          <div className="rise rise-4 mt-9 flex flex-col gap-3 sm:flex-row sm:items-center">
+          <div className="rise rise-4 mt-9 flex flex-col items-center gap-3 sm:flex-row sm:justify-center lg:justify-start lg:items-center">
             <ButtonLink
               href="/login"
               className="justify-center px-7 py-3.5 text-lead font-semibold"
@@ -65,7 +65,7 @@ export default function LandingPage() {
           <p className="rise rise-4 mt-5 text-body-sm text-muted">{DISCLAIMER_SHORT}</p>
 
           {/* stat strip */}
-          <div className="rise rise-4 mt-12 grid max-w-md grid-cols-3 gap-4 border-t border-border pt-6">
+          <div className="rise rise-4 mx-auto mt-12 grid max-w-md grid-cols-3 gap-4 border-t border-border pt-6 lg:mx-0">
             <Stat value={`${compact(papers)}`} label="previous papers" />
             <Stat value={`${compact(questions)}`} label="questions analysed" />
             <Stat value={courses.toLocaleString()} label="BIT Noida courses" />
