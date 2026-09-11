@@ -53,7 +53,7 @@ export default function LandingPage() {
           <p className="rise rise-3 mx-auto mt-6 max-w-xl text-lead leading-relaxed text-text/90 sm:text-[1.3rem] lg:mx-0">
             cramBIT reads every <a href="#how" className="underline decoration-dotted decoration-accent underline-offset-4 hover:text-text">PYQ</a> for your course, cross-references your syllabus, and writes the{" "}
             <span className="mark text-text">25-mark question papers</span> most likely to
-            come up. Three full sets, per subject.
+            come up. Two full sets, per subject.
           </p>
           <div className="rise rise-4 mt-9 flex flex-col items-center gap-3 sm:flex-row sm:justify-center lg:justify-start lg:items-center">
             <ButtonLink
@@ -104,7 +104,7 @@ export default function LandingPage() {
             Your section&apos;s syllabus becomes the hard boundary — nothing outside it is asked.
           </Step>
           <Step n="03" title="Get the papers">
-            A topic blueprint, a ranked pool of the most probable questions, then three
+            A topic blueprint, a ranked pool of the most probable questions, then two
             distinct 25-mark papers. Download any set as a PDF.
           </Step>
         </div>

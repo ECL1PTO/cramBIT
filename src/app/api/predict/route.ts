@@ -16,7 +16,7 @@ import { PRICING } from "@/data/pricing";
 export const runtime = "nodejs";
 export const maxDuration = 60;
 
-const SET_COUNT = 3;
+const SET_COUNT = 2;
 
 const Body = z.object({
   phase: z.enum(["plan", "pool", "write"]),

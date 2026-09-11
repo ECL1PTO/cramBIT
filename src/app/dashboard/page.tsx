@@ -449,7 +449,7 @@ export default function Dashboard() {
             <Card className="flex min-h-[420px] flex-col items-center justify-center gap-2 text-center">
               <p className="font-serif text-h3 italic text-muted">{pickHype("empty")}</p>
               <p className="max-w-xs text-body-sm text-faint">
-                Your three predicted 25-mark papers will show up here.
+                Your two predicted 25-mark papers will show up here.
               </p>
             </Card>
           )}

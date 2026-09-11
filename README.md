@@ -24,7 +24,7 @@
 **cramBIT** predicts your mid-semester question paper. Type a course code, paste
 your syllabus, and a multi-pass AI engine reads that course's real past
 mid-sem papers, cross-references them against your syllabus, and hands back
-three distinct, structurally-correct 25-mark predicted papers — ranked by
+two distinct, structurally-correct 25-mark predicted papers — ranked by
 what's actually likely to be asked, not a generic guess.
 
 Built for **BIT Mesra's Noida campus** — BBA, BCA, B.Com, MCA, MBA, and the

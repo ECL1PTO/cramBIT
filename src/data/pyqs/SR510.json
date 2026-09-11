@@ -8,6 +8,92 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH / BARCH   SEMESTER: V\nBRANCH: ALL / ARCH   SESSION: MO/2022\n\nSUBJECT: SR510 FUNDAMENTALS OF AEROSPACE ENGINEERING\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n    CO BL\nQ1 (a) Define an aerodynamics? Explain with an example how aerodynamic studies are\napplied in practical application?\n[2] CO1,\nCO2\nL3\nQ1 (b)  Differentiate  between  an  internal  and  external  aerodynamics?  Give  an\nexample of each of them.\n[3] CO1,\nCO2\nL3\n\n\nQ2 (a) Define a streamline? What is its usefulness from the aerodynamic point of view? [2] CO1,\nCO2\nL2\nQ2 (b) Drive an equation for shear stress that acts in a moving fluid. [3] CO1 L4\n\n\nQ3 (a) Derive  an  equation  of  total normal  and  axial  force  acting  over a unit  span of\nthe wing.\n[5] CO1,\nCO2\nL4\n\n\nQ4 (a) Explain how a flow similarity studies is linked with the wind tunnel?  [2] CO1,\nCO2\nL2\nQ4 (b) Derive  stalling  velocity  of  an  airplane  with  respect  to  the  lift  coefficient  for\nthe steady level flight.\n[3] CO1 L3\n\n\nQ5 (a) How drag of an aircraft is linked with flight velocity and the angle  of attack?\nExplain it with suitable sketches.\n[5] CO1,\nCO2\nL4\n\n\n\n\n :::::: 30/09/2022 ::::::M"
+    },
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define an aerodynamics? Explain with an example how aerodynamic studies are applied in practical application?",
+              "marks": 2,
+              "topic": "Aerodynamics"
+            },
+            {
+              "label": "b",
+              "text": "Differentiate between an internal and external aerodynamics? Give an example of each of them.",
+              "marks": 3,
+              "topic": "Internal/External Aerodynamics"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define a streamline? What is its usefulness from the aerodynamic point of view?",
+              "marks": 2,
+              "topic": "Streamline"
+            },
+            {
+              "label": "b",
+              "text": "Drive an equation for shear stress that acts in a moving fluid.",
+              "marks": 3,
+              "topic": "Shear stress"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Derive an equation of total normal and axial force acting over a unit span of the wing.",
+              "marks": 5,
+              "topic": "Force on wing"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain how a flow similarity studies is linked with the wind tunnel?",
+              "marks": 2,
+              "topic": "Flow similarity"
+            },
+            {
+              "label": "b",
+              "text": "Derive stalling velocity of an airplane with respect to the lift coefficient for the steady level flight.",
+              "marks": 3,
+              "topic": "Stalling velocity"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "How drag of an aircraft is linked with flight velocity and the angle of attack? Explain it with suitable sketches.",
+              "marks": 5,
+              "topic": "Drag"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
