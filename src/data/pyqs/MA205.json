@@ -113,6 +113,104 @@
           ]
         }
       ]
+    },
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Show that qqpp))((~ is a tautology",
+              "marks": 2,
+              "topic": "tautology"
+            },
+            {
+              "label": "b",
+              "text": "Find the least n for which the statement is true and then using mathematical induction prove that n n2)1( 2 < +",
+              "marks": 3,
+              "topic": "mathematical induction"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Find whether qqp)( and qqp)( is logically equivalent or not",
+              "marks": 2,
+              "topic": "logical equivalence"
+            },
+            {
+              "label": "b",
+              "text": "Prove or disprove. Rx∈∀ , 23 xx> .",
+              "marks": 3,
+              "topic": "predicate logic"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Solve 0 11 = + - - + rrr aaCosaα",
+              "marks": 2,
+              "topic": "trigonometry"
+            },
+            {
+              "label": "b",
+              "text": "Find the solution of the following recurrence relation 2 1 raa rr = - +",
+              "marks": 3,
+              "topic": "recurrence relation"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Solve the recurrence relation r rr r aaa22 21 = + - - - ; 2≥r by the method of generating function satisfying the boundary conditions 1,2 10 = =aa",
+              "marks": 2,
+              "topic": "generating function"
+            },
+            {
+              "label": "b",
+              "text": "Solve the recurrence relation 016 13 = + - + rr aa",
+              "marks": 3,
+              "topic": "recurrence relation"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Let A = {1,2,3,4,5} and R be the relation defined by a R b iff a < b. Compute 2R and 3R",
+              "marks": 2,
+              "topic": "relation powers"
+            },
+            {
+              "label": "b",
+              "text": "Determine whether the relation S on the set A is symmetric, antisymmetric and transitive. Set A = ℝ^2 \\ {(0,0)}. The relation S is defined as yxSyx if and only if ...",
+              "marks": 3,
+              "topic": "relation properties"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

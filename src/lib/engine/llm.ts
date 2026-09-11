@@ -133,10 +133,13 @@ async function callOpenAICompatible(
 
 // Each generation phase (plan / pool / write) is its own 60s serverless call.
 // Vercel's hard kill returns an HTML page, not our JSON — the client used to
-// show a scary generic "Network error" for that. Leave real headroom for
-// cold starts, DB round trips (entitlement/rate-limit checks) and response
-// serialization so we hit our own clean "at capacity" well before that.
-const CHAIN_DEADLINE_MS = 46_000;
+// show a scary generic "Network error" for that. This deadline only counts
+// time spent inside this file, NOT the Supabase round trips (entitlement
+// checks, blueprint cache reads, rate-limit writes) that happen before and
+// after it in the route handler — so it has to be conservative enough to
+// leave real headroom for that unmeasured overhead too, not just cut it
+// close against the 60s wall.
+const CHAIN_DEADLINE_MS = 38_000;
 
 /** Plain text — first provider that answers wins. */
 export async function chat(o: ChatOpts): Promise<string> {
