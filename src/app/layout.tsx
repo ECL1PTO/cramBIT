@@ -34,14 +34,14 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://crambit.app";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "cramBIT — predicted mid-sem papers for BIT Noida",
+    default: "cramBIT — predicted mid-sem papers for BIT Mesra",
     template: "%s · cramBIT",
   },
   description:
-    "cramBIT reads your course's real past mid-sem papers and syllabus, then generates the most probable 25-mark question papers. BIT Mesra, Noida campus.",
+    "cramBIT reads your course's real past mid-sem papers and syllabus, then generates the most probable 25-mark question papers. Built for BIT Mesra students.",
   applicationName: "cramBIT",
   openGraph: {
-    title: "cramBIT — predicted mid-sem papers for BIT Noida",
+    title: "cramBIT — predicted mid-sem papers for BIT Mesra",
     description:
       "Real past-paper patterns + your syllabus → the most probable mid-sem question papers.",
     url: SITE_URL,

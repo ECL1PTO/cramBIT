@@ -2,7 +2,7 @@ import type { Blueprint, Candidate, Coverage, PastPaper } from "./types";
 import { PAPER_FOOTER } from "@/data/legal";
 
 const EXAM_RULES = `
-BIT Mesra (Noida campus) MID-SEMESTER format — non-negotiable:
+BIT Mesra MID-SEMESTER format — non-negotiable:
 - Max Marks: exactly 25. Time: 1.5 hours.
 - Exactly 5 questions. "Attempt all 5 questions. Each question carries 5 marks."
 - Every question has two parts: (a) worth 2 marks, (b) worth 3 marks. 2 + 3 = 5.
@@ -164,7 +164,7 @@ papers with a line containing exactly ===SET_SPLIT=== and nothing else.
 
 Format EACH paper EXACTLY like this (headings with #, everything else plain text):
 
-# BIRLA INSTITUTE OF TECHNOLOGY, MESRA — NOIDA CAMPUS
+# BIRLA INSTITUTE OF TECHNOLOGY, MESRA
 ## MID-SEMESTER EXAMINATION (PREDICTED)
 
 **Course:** ${args.courseCode} — ${args.courseName}

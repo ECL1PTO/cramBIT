@@ -81,7 +81,7 @@ function LoginInner() {
             <>
               <h1 className="text-h3 font-normal text-text">Sign in</h1>
               <p className="mt-2 text-body-sm text-muted">
-                Restricted to BIT Mesra, Noida students.
+                Restricted to BIT Mesra students.
               </p>
               <form onSubmit={sendLink} className="mt-6 space-y-4">
                 <Field

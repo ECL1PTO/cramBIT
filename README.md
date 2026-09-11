@@ -27,7 +27,7 @@ mid-sem papers, cross-references them against your syllabus, and hands back
 two distinct, structurally-correct 25-mark predicted papers — ranked by
 what's actually likely to be asked, not a generic guess.
 
-Built for **BIT Mesra's Noida campus** — BBA, BCA, B.Com, MCA, MBA, and the
+Built for **BIT Mesra** — every campus — BBA, BCA, B.Com, MCA, MBA, engineering, and the
 B.Sc programmes — off a self-scraped corpus of ~1,400 real past papers across
 840 courses. First subject is free. It runs on entirely free-tier
 infrastructure and turns a profit at ₹49/subject.
@@ -84,7 +84,7 @@ system is a ~2% payment-processor fee on money the product actually earns.
 `src/data/` ships a self-scraped, offline-processed corpus — no third-party
 dataset, no scraping at request time:
 
-- `courses.json` — the Noida programme catalogue (course code → name,
+- `courses.json` — the BIT Mesra programme catalogue, every campus (course code → name,
   programme, semester, syllabus)
 - `pyqs/<CODE>.json` — real extracted mid-semester papers per course
 - `index.json` — a keyword-frequency similarity index, so a brand-new or
