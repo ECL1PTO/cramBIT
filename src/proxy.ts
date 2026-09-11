@@ -35,13 +35,18 @@ export async function proxy(request: NextRequest) {
 
   if (protectedPath && !user) {
     const url = request.nextUrl.clone();
+    const dest = pathname + request.nextUrl.search;
     url.pathname = "/login";
+    url.search = "";
+    if (dest !== "/dashboard") url.searchParams.set("next", dest);
     return NextResponse.redirect(url);
   }
 
   if (pathname === "/login" && user) {
     const url = request.nextUrl.clone();
-    url.pathname = "/dashboard";
+    const next = request.nextUrl.searchParams.get("next");
+    url.pathname = next && next.startsWith("/") ? next.split("?")[0] : "/dashboard";
+    url.search = next && next.includes("?") ? "?" + next.split("?")[1] : "";
     return NextResponse.redirect(url);
   }
 

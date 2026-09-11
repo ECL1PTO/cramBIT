@@ -158,16 +158,19 @@ export default function LandingPage() {
             name="First subject"
             price="Free"
             note="One full prediction, any course. No card."
+            cta={{ label: "Start free", href: "/login" }}
           />
           <PriceCard
             name="Per subject"
             price={`₹${PRICING.perSubject}`}
-            note="Unlock any one more subject and all its predicted papers."
+            note="Unlock any one extra subject and all its predicted papers."
+            cta={{ label: "Get started", href: "/login" }}
           />
           <PriceCard
             name="Season bundle"
             price={`₹${PRICING.bundle}`}
-            note="Up to 5 subjects for the whole mid-sem season. The obvious pick if you have 4+."
+            note="Every subject you take this mid-sem season — up to 5. The obvious pick if you have 3 or more."
+            cta={{ label: "Unlock 5 subjects", href: "/pay?plan=bundle" }}
             highlight
           />
         </div>
@@ -242,23 +245,37 @@ function PriceCard({
   price,
   note,
   highlight,
+  cta,
 }: {
   name: string;
   price: string;
   note: string;
   highlight?: boolean;
+  cta?: { label: string; href: string };
 }) {
   return (
     <Card
       className={
         highlight
-          ? "lift glow-accent border border-accent bg-accent-soft"
-          : "lift border border-border"
+          ? "lift glow-accent flex flex-col border border-accent bg-accent-soft"
+          : "lift flex flex-col border border-border"
       }
     >
       <p className="text-body-sm text-muted">{name}</p>
       <p className="mt-2 font-serif text-h1 text-text">{price}</p>
       <p className="mt-3 text-body-sm leading-relaxed text-muted">{note}</p>
+      {cta && (
+        <Link
+          href={cta.href}
+          className={`mt-5 inline-block rounded-pill px-4 py-2 text-center text-body-sm font-medium transition-colors ${
+            highlight
+              ? "bg-accent text-white hover:bg-accent-hover"
+              : "border border-border text-text hover:border-accent/50"
+          }`}
+        >
+          {cta.label}
+        </Link>
+      )}
     </Card>
   );
 }

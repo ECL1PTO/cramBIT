@@ -36,9 +36,12 @@ function LoginInner() {
       return;
     }
     setStatus("sending");
+    const next = params.get("next");
+    const cb = new URL(`${window.location.origin}/auth/callback`);
+    if (next && next.startsWith("/")) cb.searchParams.set("next", next);
     const { error: authError } = await supabase.auth.signInWithOtp({
       email,
-      options: { emailRedirectTo: `${window.location.origin}/auth/callback` },
+      options: { emailRedirectTo: cb.toString() },
     });
     if (authError) {
       setError(authError.message);
