@@ -47,7 +47,7 @@ export function ShareButton({
     <div className={`flex items-center gap-2 ${className ?? ""}`}>
       <button
         onClick={share}
-        className="rounded-pill border border-border px-4 py-1.5 text-body-sm text-muted transition-colors hover:border-accent/50 hover:text-text"
+        className="rounded-pill border border-border px-4 py-1.5 text-body-sm text-muted transition-[color,border-color,transform,opacity] duration-150 hover:border-accent/50 hover:text-text active:scale-[0.96] active:opacity-80"
       >
         {label}
       </button>
@@ -55,7 +55,7 @@ export function ShareButton({
         <button
           onClick={copyLink}
           title="Copy link"
-          className="rounded-pill border border-border px-3 py-1.5 text-body-sm text-muted transition-colors hover:border-accent/50 hover:text-text"
+          className="rounded-pill border border-border px-3 py-1.5 text-body-sm text-muted transition-[color,border-color,transform,opacity] duration-150 hover:border-accent/50 hover:text-text active:scale-[0.96] active:opacity-80"
         >
           {copied ? "Copied ✓" : "Copy link"}
         </button>

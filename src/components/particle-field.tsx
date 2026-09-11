@@ -22,13 +22,18 @@ export function ParticleField() {
     const ctx: CanvasRenderingContext2D = context;
 
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    // No real cursor on touch devices, so the hover-glow/nearest-neighbour-line
+    // work (the most expensive part of every frame) is both invisible and
+    // wasted there — skip it, and thin out the grid + comets too, so this
+    // background decoration doesn't compete with the UI thread on weaker phones.
+    const isTouch = window.matchMedia("(pointer: coarse)").matches || window.innerWidth < 768;
     const cssVar = (v: string, fb: string) =>
       getComputedStyle(document.documentElement).getPropertyValue(v).trim() || fb;
 
     let w = 0;
     let h = 0;
     let dpr = 1;
-    const GAP = 42;
+    const GAP = isTouch ? 64 : 42;
     let cols = 0;
     let rows = 0;
 
@@ -57,7 +62,7 @@ export function ParticleField() {
     type Comet = { x: number; y: number; vx: number; vy: number };
     let comets: Comet[] = [];
     function seedComets() {
-      const n = Math.round(Math.min(18, (w * h) / 90000));
+      const n = Math.round(Math.min(isTouch ? 8 : 18, (w * h) / 90000));
       comets = Array.from({ length: n }, () => ({
         x: Math.random() * w,
         y: Math.random() * h,

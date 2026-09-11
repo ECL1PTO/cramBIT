@@ -277,7 +277,7 @@ export default function Dashboard() {
               await supabase.auth.signOut();
               router.push("/login");
             }}
-            className="rounded-pill border border-text/25 px-3 py-1.5 transition-colors hover:border-text/50 hover:text-text"
+            className="rounded-pill border border-text/25 px-3 py-1.5 transition-[color,border-color,transform,opacity] duration-150 hover:border-text/50 hover:text-text active:scale-[0.96] active:opacity-80"
           >
             Sign out
           </button>
@@ -354,7 +354,7 @@ export default function Dashboard() {
           {busy ? (
             <button
               onClick={stop}
-              className="w-full rounded-pill border border-danger/50 py-3 text-body-sm font-medium text-danger transition-colors hover:bg-danger/10"
+              className="w-full rounded-pill border border-danger/50 py-3 text-body-sm font-medium text-danger transition-[color,background-color,transform,opacity] duration-150 hover:bg-danger/10 active:scale-[0.98] active:opacity-80"
             >
               {STEP_COPY[phase as "planning" | "pooling" | "writing"]}
               <span className="ml-2 opacity-70">— tap to stop</span>
@@ -455,7 +455,7 @@ export default function Dashboard() {
                   <button
                     key={i}
                     onClick={() => setActiveSet(i)}
-                    className={`rounded-pill px-4 py-1.5 text-body-sm transition-colors ${
+                    className={`rounded-pill px-4 py-1.5 text-body-sm transition-[color,background-color,border-color,transform,opacity] duration-150 active:scale-[0.96] active:opacity-80 ${
                       i === activeSet
                         ? "bg-accent text-white"
                         : "border border-border text-muted hover:text-text"
@@ -474,13 +474,13 @@ export default function Dashboard() {
                       /* clipboard blocked — user can still select the text */
                     }
                   }}
-                  className="ml-auto rounded-pill border border-border px-4 py-1.5 text-body-sm text-muted hover:text-text"
+                  className="ml-auto rounded-pill border border-border px-4 py-1.5 text-body-sm text-muted transition-[color,border-color,transform,opacity] duration-150 hover:text-text active:scale-[0.96] active:opacity-80"
                 >
                   {copied ? "Copied ✓" : "Copy this set"}
                 </button>
                 <button
                   onClick={() => window.print()}
-                  className="rounded-pill border border-border px-4 py-1.5 text-body-sm text-muted hover:text-text"
+                  className="rounded-pill border border-border px-4 py-1.5 text-body-sm text-muted transition-[color,border-color,transform,opacity] duration-150 hover:text-text active:scale-[0.96] active:opacity-80"
                 >
                   Download PDF
                 </button>
