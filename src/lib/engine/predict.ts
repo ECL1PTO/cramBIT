@@ -48,7 +48,7 @@ export function resolve(courseInput: string, pastedSyllabus: string): Resolved {
   else coverage = "new-course";
 
   const syllabus = (course?.syllabus?.trim() || pastedSyllabus.trim()).slice(0, SYLLABUS_CAP);
-  const neighbours = pyqs ? [] : similarCourses(syllabus, 4);
+  const neighbours = pyqs ? [] : similarCourses(syllabus, 2);
   const borrowedCount = borrowedPyqs(neighbours.map((n) => n.code)).reduce(
     (n, f) => n + f.historical_papers.length,
     0,
@@ -73,8 +73,10 @@ function gatherEvidence(r: Resolved): {
 } {
   const ownPyqs = r.code ? getPyqs(r.code) : null;
   const own = ownPyqs?.historical_papers ?? [];
-  // Supplement with similar-course papers when this course has thin history.
-  const neighbours = own.length >= 3 ? [] : similarCourses(r.syllabus, own.length ? 2 : 4);
+  // Supplement with similar-course papers when this course has thin history —
+  // kept small since borrowed evidence is already a softer signal, and more
+  // of it just costs tokens without adding much confidence.
+  const neighbours = own.length >= 3 ? [] : similarCourses(r.syllabus, own.length ? 1 : 2);
   const borrowedFiles = borrowedPyqs(neighbours.map((n) => n.code));
   const borrowed = neighbours.map((n, i) => ({
     code: n.code,

@@ -8,6 +8,104 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: IMSC   SEMESTER: V\nBRANCH: MATHEMATICS   SESSION: MO/2022\n\nSUBJECT: MA303 FUZZY LOGIC\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n-----------------------------------------------------------------------------------------------------------------------------\n\nQ1(a) Restricting the universal set to [0,10] determine which fuzzy sets are convex\n,A(x)=  ,B(x)=2\n-x\n, C(x)=\n[2] CO1 BL2,6\nQ1(b) Explain why the law of contradiction and law of excluded middle are violated\nin fuzzy set theory under the standard fuzzy sets operations.\n[3] CO1 BL3,6\n\nQ2(a) Explain why the standard complement is not cut-worthy and strong cut-\nworthy.\n[2] CO1 BL3,5,6\nQ2(b) Consider fuzzy sets A and B whose membership functions are defined by\n  A(x) =  , B(x)=1-  for all x ɛ{0,1,2,...,10}.Calculate cardinality and fuzzy\ncardinality of A and B.\n[3] CO1 BL6\n\nQ3(a) Let\nX=NXN,={(1,.6),(2,.8),(3,1),(4,.6)};={(0,.5),(1,.7),(2,.9),(3,1),(4,.4)};f:N\nXN→N  be  defined by  f(x,y)=z,xɛ,yɛ.Determine  the image  f(X) by\nthe extension principle.\n[2] CO2 BL6\nQ3(b)\nLet the two fuzzy sets  and be defined as\n={(0,.2),(1,.3),(2,.4),(3,.5)};  ={(0,.5),(1,.4),(2,.3),(3,0.0)}.Is the following\nset I a fuzzy relation  on & where I={(0,0),.2),(0,2),.3),(2,0),.2)}\n[3] CO2 BL6\n\nQ4(a) Discuss the reflexivity properties of the following fuzzy relation:\n\nx1 x2 x3\nx1 1 .7 .3\nx2 .4 .5 .8\nx3 .7 .5 1\n\n[2] CO2 BL5\nQ4(b) Assume that the fuzzy numbers X and Y are:\nX X 1 2 3 4 5 6\n μ\nX\n(x) .1 .4 1.0 .8 .2 0.0\nY y 1 2 3 4 5 6 7\n μ\nY\n(y) 0.0 0.1 0.7 1.0 0.8 0.5 0.0\nFind μ\nZ\n(z=5).\n[3] CO3 BL4,BL6\n\nQ5(a) Calculate α-cut interval of triangular fuzzy number A=(-1,0,6) [2] CO3 BL6\nQ5(b) Determine which fuzzy sets defined by the following functions are fuzzy\nnumbers:\n              a. A(x)=          b. B(x)=\n\n                c. C(x)=\n[3] CO3 BL3\n\n :::::: 26/09/2022 ::::::M"
+    },
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Restricting the universal set to [0,10] determine which fuzzy sets are convex, A(x)= ,B(x)=2 -x , C(x)= ",
+              "marks": 2,
+              "topic": "convex fuzzy sets"
+            },
+            {
+              "label": "b",
+              "text": "Explain why the law of contradiction and law of excluded middle are violated in fuzzy set theory under the standard fuzzy sets operations.",
+              "marks": 3,
+              "topic": "law of contradiction"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain why the standard complement is not cut-worthy and strong cut-worthy.",
+              "marks": 2,
+              "topic": "standard complement"
+            },
+            {
+              "label": "b",
+              "text": "Consider fuzzy sets A and B whose membership functions are defined by A(x) = , B(x)=1-  for all x ɛ{0,1,2,...,10}.Calculate cardinality and fuzzy cardinality of A and B.",
+              "marks": 3,
+              "topic": "cardinality"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Let X=NXN,={(1,.6),(2,.8),(3,1),(4,.6)};={(0,.5),(1,.7),(2,.9),(3,1),(4,.4)};f:N XN→N be defined by f(x,y)=z,xɛ,yɛ.Determine the image f(X) by the extension principle.",
+              "marks": 2,
+              "topic": "extension principle"
+            },
+            {
+              "label": "b",
+              "text": "Let the two fuzzy sets  and be defined as ={(0,.2),(1,.3),(2,.4),(3,.5)};  ={(0,.5),(1,.4),(2,.3),(3,0.0)}.Is the following set I a fuzzy relation  on & where I={(0,0),.2),(0,2),.3),(2,0),.2)}",
+              "marks": 3,
+              "topic": "fuzzy relation"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Discuss the reflexivity properties of the following fuzzy relation: x1 x2 x3 x1 1 .7 .3 x2 .4 .5 .8 x3 .7 .5 1",
+              "marks": 2,
+              "topic": "reflexivity"
+            },
+            {
+              "label": "b",
+              "text": "Assume that the fuzzy numbers X and Y are: X X 1 2 3 4 5 6 μX(x) .1 .4 1.0 .8 .2 0.0 Y y 1 2 3 4 5 6 7 μY(y) 0.0 0.1 0.7 1.0 0.8 0.5 0.0 Find μZ(z=5).",
+              "marks": 3,
+              "topic": "fuzzy numbers"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Calculate α-cut interval of triangular fuzzy number A=(-1,0,6)",
+              "marks": 2,
+              "topic": "α-cut"
+            },
+            {
+              "label": "b",
+              "text": "Determine which fuzzy sets defined by the following functions are fuzzy numbers: a. A(x)=          b. B(x)=       c. C(x)= ",
+              "marks": 3,
+              "topic": "fuzzy number identification"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

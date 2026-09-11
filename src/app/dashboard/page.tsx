@@ -4,7 +4,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import Markdown from "markdown-to-jsx";
 import { createClient } from "@/utils/supabase/client";
-import { Button, Card, Container, MonoChip, TextArea } from "@/components/ui";
+import { Button, Card, Container, TextArea } from "@/components/ui";
 import { DISCLAIMER_ACK } from "@/data/legal";
 import { pickHype } from "@/data/hype";
 import { PaywallModal } from "@/components/paywall-modal";
@@ -58,8 +58,6 @@ export default function Dashboard() {
     setErrDetail(body.detail ?? null);
     setError(res.status === 503 ? (body.message ?? body.error ?? fallback) : (body.error ?? fallback));
   };
-  const [coverage, setCoverage] = useState<string | null>(null);
-  const [borrowedFrom, setBorrowedFrom] = useState<string[]>([]);
   const [sets, setSets] = useState<string[]>([]);
   const [activeSet, setActiveSet] = useState(0);
   const [courseCode, setCourseCode] = useState<string | null>(null);
@@ -212,8 +210,6 @@ export default function Dashboard() {
       }
       if (!planRes.ok) return fail(planRes, plan, "Could not start.");
 
-      setCoverage(plan.coverage);
-      setBorrowedFrom(plan.borrowedFrom ?? []);
       setCourseCode(plan.courseCode ?? null);
       setTriesLeft(plan.triesLeft ?? null);
 
@@ -379,8 +375,6 @@ export default function Dashboard() {
               {sets.length ? "Regenerate" : "Generate papers"}
             </Button>
           )}
-
-          {coverage && <CoverageNote coverage={coverage} borrowedFrom={borrowedFrom} />}
 
           {triesLeft != null && sets.length > 0 && (
             <p className="fade-in text-caption text-faint">
@@ -549,34 +543,3 @@ export default function Dashboard() {
   );
 }
 
-function CoverageNote({
-  coverage,
-  borrowedFrom,
-}: {
-  coverage: string;
-  borrowedFrom: string[];
-}) {
-  if (coverage === "full") {
-    return (
-      <p className="fade-in flex flex-wrap items-center gap-x-1.5 gap-y-1 text-caption text-muted">
-        <MonoChip>grounded</MonoChip> Predicted from this course&apos;s real past mid-sem papers.
-      </p>
-    );
-  }
-  return (
-    <div className="fade-in space-y-2 text-caption text-muted">
-      <p>
-        <MonoChip>softer prediction</MonoChip>{" "}
-        {coverage === "new-course"
-          ? "This course isn't in cramBIT's database yet."
-          : "No PYQs on record for this course."}{" "}
-        It&apos;s predicted from your syllabus
-        {borrowedFrom.length ? " plus past papers of subjects with a similar syllabus" : ""}.
-        Use at your own risk.
-      </p>
-      {borrowedFrom.length > 0 && (
-        <p className="text-faint">Similar subjects used: {borrowedFrom.join(", ")}</p>
-      )}
-    </div>
-  );
-}
