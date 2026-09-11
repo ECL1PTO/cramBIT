@@ -8,6 +8,104 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BTECH   SEMESTER: V\nBRANCH: ALL   SESSION: MO/2022\n\nSUBJECT: MA407 SURVEY SAMPLING\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data handbook/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1(a) Explain the law of statistical regularity and the law of inertia of large numbers\npointing out their importance in sample survey.\n[2] 1 1.11\nQ1(b) Distinguish between sampling and non-sampling errors. [3] 2 1.23\n\n\nQ2(a) Show that, irrespective of whether sampling is done with replacement or without\nreplacement, sample mean is an unbiased estimator of population mean.\n[2] 4 1.25\nQ2(b) Let X\n1\n, X\n2\n and X\n3\nbe a random sample of size 3 from a population with mean μ and\nvariance unity. Define two estimators U and V as follows:\n         U =   X\n1\n + X\n2\n - X\n3\nand V = 2X\n1\n +3X\n2\n - 4X\n3\n .\nVerify  whether  U  and  V  are  unbiased  estimators  for  estimating  the  population\nmean and also find which one of the two is more efficient.\n[3] 4 1.20\n\n\nQ3(a) Define simple random sampling (SRS). For what population is it recommended? [2] 3 1.10\nQ3(b) Show that in simple random sampling without replacement, the probability of any\npopulation unit to be selected in the sample at any draw equals the probability\nthat it is selected in the first draw.\n[3] 3 1.32\n\n\nQ4(a) Write expressions of variance of sample mean for simple random sampling with\nand without replacement. Hence compare the efficiencies of these two sampling\nschemes.\n[2] 4 1.31\nQ4(b) In a simple random sample without replacement of size 200 taken from a certain\ntown having 2000 persons,  112 were found to be employed. Estimate the total\nnumber of employed persons in the town and also find the standard error of the\nestimate.\n[3] 3 1.25\n\n\nQ5(a) Which two factors are crucial in determining the sample size? [2] 1 1.12\nQ5(b) A study of sampling methods was conducted in a population having 400 sampling\nunits.  By  total  count  it  was  obtained  that  the  population  mean  =  39  and\npopulation mean square = 46. In simple random sampling without replacement,\nhow many sampling units should be chosen to estimate the population mean with\na permissible marginal error of 10% and confidence level 95%?\n[3] 2 1.25\n\n\n\n :::::: 30/09/2022 ::::::M"
+    },
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the law of statistical regularity and the law of inertia of large numbers pointing out their importance in sample survey.",
+              "marks": 2,
+              "topic": "law of large numbers"
+            },
+            {
+              "label": "b",
+              "text": "Distinguish between sampling and non-sampling errors.",
+              "marks": 3,
+              "topic": "sampling errors"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Show that, irrespective of whether sampling is done with replacement or without replacement, sample mean is an unbiased estimator of population mean.",
+              "marks": 2,
+              "topic": "unbiased estimator"
+            },
+            {
+              "label": "b",
+              "text": "Let X1, X2 and X3 be a random sample of size 3 from a population with mean μ and variance unity. Define two estimators U and V as follows: U = X1 + X2 - X3 and V = 2X1 +3X2 - 4X3. Verify whether U and V are unbiased estimators for estimating the population mean and also find which one of the two is more efficient.",
+              "marks": 3,
+              "topic": "efficiency of estimators"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define simple random sampling (SRS). For what population is it recommended?",
+              "marks": 2,
+              "topic": "simple random sampling"
+            },
+            {
+              "label": "b",
+              "text": "Show that in simple random sampling without replacement, the probability of any population unit to be selected in the sample at any draw equals the probability that it is selected in the first draw.",
+              "marks": 3,
+              "topic": "sampling probability"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Write expressions of variance of sample mean for simple random sampling with and without replacement. Hence compare the efficiencies of these two sampling schemes.",
+              "marks": 2,
+              "topic": "variance of sample mean"
+            },
+            {
+              "label": "b",
+              "text": "In a simple random sample without replacement of size 200 taken from a certain town having 2000 persons, 112 were found to be employed. Estimate the total number of employed persons in the town and also find the standard error of the estimate.",
+              "marks": 3,
+              "topic": "employment estimation"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": null,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Which two factors are crucial in determining the sample size?",
+              "marks": 2,
+              "topic": "sample size determination"
+            },
+            {
+              "label": "b",
+              "text": "A study of sampling methods was conducted in a population having 400 sampling units. By total count it was obtained that the population mean = 39 and population mean square = 46. In simple random sampling without replacement, how many sampling units should be chosen to estimate the population mean with a permissible marginal error of 10% and confidence level 95%?",
+              "marks": 3,
+              "topic": "sample size calculation"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

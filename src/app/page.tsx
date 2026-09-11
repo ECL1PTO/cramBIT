@@ -32,7 +32,7 @@ export default function LandingPage() {
           <ShareButton
             compact
             label="Share"
-            text="cramBIT predicts your mid-sem paper from real past papers + your syllabus. First subject free."
+            text="yo found this — cramBIT reads your course's actual past papers + your syllabus and predicts your mid-sem questions before you even open a textbook. first subject's free"
             className="hidden sm:flex"
           />
           <ThemeToggle />
@@ -220,7 +220,7 @@ export default function LandingPage() {
           <ShareButton
             compact
             label="Share cramBIT"
-            text="cramBIT predicts your mid-sem paper from real past papers + your syllabus. First subject free."
+            text="yo found this — cramBIT reads your course's actual past papers + your syllabus and predicts your mid-sem questions before you even open a textbook. first subject's free"
             className="[&_button]:border-none [&_button]:p-0 [&_button]:text-caption [&_button]:text-faint [&_button]:hover:text-muted"
           />
         </div>

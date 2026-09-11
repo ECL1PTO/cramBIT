@@ -21,7 +21,10 @@ export function ShareButton({
   async function share() {
     if (typeof navigator !== "undefined" && navigator.share) {
       try {
-        await navigator.share({ text, url: SITE_URL });
+        // Everything in one `text` field, nothing in a separate `url` —
+        // WhatsApp's Android share target sometimes drops the accompanying
+        // text and shows only the url when they're passed separately.
+        await navigator.share({ text: fullText });
         return;
       } catch {
         // user cancelled the native sheet — fall through to nothing further

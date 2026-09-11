@@ -279,7 +279,7 @@ export default function Dashboard() {
           <ShareButton
             compact
             label="Share"
-            text="I'm using cramBIT to predict my mid-sem papers from real past papers + my syllabus. First subject's free."
+            text="using cramBIT rn to predict my mid-sem papers off real past papers + my syllabus, kinda scary how accurate it is. first subject's free, you should try it"
             className="hidden sm:flex"
           />
           <ThemeToggle />
@@ -496,7 +496,7 @@ export default function Dashboard() {
                 <ShareButton
                   compact
                   label="Share with classmates"
-                  text={`Just generated a predicted ${courseCode ?? courseInput} mid-sem paper on cramBIT — real past-paper patterns + syllabus. First subject's free.`}
+                  text={`just generated my predicted ${courseCode ?? courseInput} mid-sem paper on cramBIT and ngl it's scary accurate 💀 real past papers + my syllabus → 3 full sets. try it before your mid-sem, first subject's free`}
                 />
               </div>
 
