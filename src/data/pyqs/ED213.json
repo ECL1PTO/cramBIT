@@ -8,6 +8,92 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP2023)\nCLASS:  IMSc.   SEMESTER : IV\nBRANCH: QEDS   SESSION : SP2023\n\nSUBJECT: ED213 OPTIMIZATION TECHNIQUES\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) A factory is  engaged in  manufacturing two products A and B  which involve  lathe work,\ngrinding and assembling. The cutting, grinding, and assembling times required for one unit\nof  A  are  2,  1  and  1  hours  respectively,  and  for  one  unit  of  B  are  3,  1  and  3  hours\nrespectively. The profits on each unit of A and B are ₹ 2.00 and ₹ 3.00 respectively. If 300\nhours  of  lathe  time,  300  hours  of  grinding  time  and  240  hours  of  assembling  time  are\navailable, construct a linear programming model in terms of maximizing the profit on the\nitems to be manufactured.\n[3] CO1\nQ.1(b) Solve the Linear programming problem, constructed in Q1(a) using graphical method [2]\n\nQ.2(a) Using  appropriate  slack/surplus/artificial  variables  reduce  the  following  problem  in  its\nstandard form with non-negative variables.\nmax 3푥\nଵ\n+2푥\nଶ\n+5푥\nଷ\n; sub to 2x\nଵ\n−3푥\nଶ\n≤3,4푥\nଵ\n+2푥\nଶ\n−4푥\nଷ\n≥5,\n2푥\nଵ\n+3푥\nଷ\n≤2;푥\nଵ\n,푥\nଶ\n≥0 and 푥\nଷ\nis unrestricted in sign.\n\n[3] CO1\nQ.2(b) Set up the initial simplex table to solve the problem in Q2(a) using Big-M method. [2]\n\nQ.3(a) State complementary slackness principle related to optimal solution of linear primal and\nits dual optimization problems.\n[2] CO2\nQ.3(b) By solving dual of the following problem find the optimal solution of both the primal and\ndual problems.\nmax푧=2푥\nଵ\n+3푥\nଶ\n;sub to −푥\nଵ\n+2푥\nଶ\n≤4,푥\nଵ\n+푥\nଶ\n≤6,푥\nଵ\n+3푥\nଶ\n≤9;푥\nଵ\n,푥\nଶ\n≥0\n[3]\n\nQ.4 For the following minimization type unbalanced transportation problem, obtain the initial\nbasic feasible solution by Vogel’s approximation method.\n\n\n푊\nଵ\n 푊\nଶ\n 푊\nଷ\n 푊\nସ\n 푎\n௜\n\n푃\nଵ\n\n3 8 7 4 30\n푃\nଶ\n\n5 2 9 5 50\n푃\nଷ\n\n4 3 6 2 80\n푏\n௝\n\n20 60 55 40\n\n[5] CO2\n\nQ.5 A  transportation  company  has  the  following  problem. The  supply  (in  truckloads),  the\ndemand (also in truckloads) and the unit transportation cost (in hundreds of rupees) per\ntruckload  on  the  different  routes  are  summarized  below.  The  company  has  an  initial\nshipping schedule: 푥\nଵଵ\n=5,푥\nଵସ\n=2,푥\nଶଷ\n=7,푥\nଶସ\n=2,푥\nଷଶ\n=8 and 푥\nଷସ\n=10. Find the optimal\nshipping  schedule  between  the  silos  and  mills,  and  minimum  transportation  cost  by\nSteppingstone algorithm.\n\n\n\nSilos\nMills\n I II III IV Supply\nA 19 30 50 10 7\nB 70 30 40 60 9\nC 40 8 70 20 18\nDemands 5 8 7 14\n\n[5] CO2\n\n\n::::::20/02/2023::::::M"
+    },
+    {
+      "session": "SP2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "A factory is engaged in manufacturing two products A and B which involve lathe work, grinding and assembling. The cutting, grinding, and assembling times required for one unit of A are 2, 1 and 1 hours respectively, and for one unit of B are 3, 1 and 3 hours respectively. The profits on each unit of A and B are ₹ 2.00 and ₹ 3.00 respectively. If 300 hours of lathe time, 300 hours of grinding time and 240 hours of assembling time are available, construct a linear programming model in terms of maximizing the profit on the items to be manufactured.",
+              "marks": 3,
+              "topic": "Linear Programming"
+            },
+            {
+              "label": "b",
+              "text": "Solve the Linear programming problem, constructed in Q1(a) using graphical method.",
+              "marks": 2,
+              "topic": "Graphical Method"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Using appropriate slack/surplus/artificial variables reduce the following problem in its standard form with non‑negative variables. max 3x1 + 2x2 + 5x3; subject to 2x1 − 3x2 ≤ 3, 4x1 + 2x2 − 4x3 ≥ 5, 2x1 + 3x3 ≤ 2; x1, x2 ≥ 0 and x3 is unrestricted in sign.",
+              "marks": 3,
+              "topic": "Standard Form Conversion"
+            },
+            {
+              "label": "b",
+              "text": "Set up the initial simplex table to solve the problem in Q2(a) using Big‑M method.",
+              "marks": 2,
+              "topic": "Big-M Method"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "State complementary slackness principle related to optimal solution of linear primal and its dual optimization problems.",
+              "marks": 2,
+              "topic": "Complementary Slackness"
+            },
+            {
+              "label": "b",
+              "text": "By solving dual of the following problem find the optimal solution of both the primal and dual problems. max z = 2x1 + 3x2; subject to −x1 + 2x2 ≤ 4, x1 + x2 ≤ 6, x1 + 3x2 ≤ 9; x1, x2 ≥ 0.",
+              "marks": 3,
+              "topic": "Dual Problem"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "For the following minimization type unbalanced transportation problem, obtain the initial basic feasible solution by Vogel’s approximation method.",
+              "marks": 5,
+              "topic": "Transportation - VAM"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "A transportation company has the following problem. The supply (in truckloads), the demand (also in truckloads) and the unit transportation cost (in hundreds of rupees) per truckload on the different routes are summarized below. The company has an initial shipping schedule: x_AA=5, x_AS=2, x_BB=7, x_BS=2, x_CC=8 and x_CS=10. Find the optimal shipping schedule between the silos and mills, and minimum transportation cost by Steppingstone algorithm.",
+              "marks": 5,
+              "topic": "Transportation - Steppingstone"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

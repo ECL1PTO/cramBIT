@@ -10,6 +10,16 @@ import { DISCLAIMER_SHORT } from "@/data/legal";
 import { pickHype } from "@/data/hype";
 
 const ALLOWED_DOMAIN = "@bitmesra.ac.in";
+// Comma-separated extra addresses allowed to sign in (test accounts, staff).
+const EXTRA = (process.env.NEXT_PUBLIC_EXTRA_LOGIN_EMAILS ?? "")
+  .split(",")
+  .map((s) => s.trim().toLowerCase())
+  .filter(Boolean);
+
+function emailAllowed(email: string): boolean {
+  const e = email.toLowerCase();
+  return e.endsWith(ALLOWED_DOMAIN) || EXTRA.includes(e);
+}
 
 function LoginInner() {
   const supabase = createClient();
@@ -21,7 +31,7 @@ function LoginInner() {
   async function sendLink(e: React.FormEvent) {
     e.preventDefault();
     setError(null);
-    if (!email.toLowerCase().endsWith(ALLOWED_DOMAIN)) {
+    if (!emailAllowed(email)) {
       setError(`Use your college email (${ALLOWED_DOMAIN}).`);
       return;
     }
