@@ -68,7 +68,7 @@ export default function LandingPage() {
           <div className="rise rise-4 mt-12 grid max-w-md grid-cols-3 gap-4 border-t border-border pt-6">
             <Stat value={`${compact(papers)}`} label="previous papers" />
             <Stat value={`${compact(questions)}`} label="questions analysed" />
-            <Stat value={courses.toLocaleString()} label="Noida courses" />
+            <Stat value={courses.toLocaleString()} label="noida courses" />
           </div>
         </div>
 
