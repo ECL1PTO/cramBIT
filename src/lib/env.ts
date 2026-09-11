@@ -36,6 +36,8 @@ const schema = z.object({
   RAZORPAY_KEY_SECRET: z.string().optional(),
   RAZORPAY_WEBHOOK_SECRET: z.string().optional(),
   NEXT_PUBLIC_RAZORPAY_KEY_ID: z.string().optional(), // same value, exposed to checkout
+  // Set to "1" (rupees) only for a live end-to-end payment test. Remove after.
+  PAYMENT_TEST_AMOUNT: z.coerce.number().positive().optional(),
 
   // Transactional email (payment activation). SMTP is preferred — one config
   // that also powers Supabase Auth's magic-link mail. Resend API is a fallback.

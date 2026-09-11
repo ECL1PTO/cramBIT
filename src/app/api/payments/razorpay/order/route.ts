@@ -33,7 +33,7 @@ export async function POST(req: Request) {
     if (!course) return NextResponse.json({ error: "Unknown subject." }, { status: 400 });
     code = course.code;
   }
-  const amount = amountForPlan(plan);
+  const amount = env.PAYMENT_TEST_AMOUNT ?? amountForPlan(plan);
 
   const db = createServiceClient();
 
