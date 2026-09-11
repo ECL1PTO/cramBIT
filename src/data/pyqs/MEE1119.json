@@ -1,0 +1,20 @@
+{
+  "courseCode": "MEE1119",
+  "courseName": "MEE1119 CONTROL SYSTEM DESIGN",
+  "historical_papers": [
+    {
+      "session": "MO19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VII/ADD\nBRANCH: EEE   SESSION : MO/2019\n\n                                        SUBJECT : MEE1119 CONTROL SYSTEM DESIGN\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) How can feedback configuration affect robustness of any system? [2]\n (b) What  are  time  domain  and  frequency domain  specifications  used  in  control  system\ndesign?\n[3]\n\n\nQ2 (a) DC Tachometers can be used in many ways in control systems. Mention at least two. [2]\n (b) Draw block diagram of any 2DOF controller configuration. [3]\n\n\nQ3 (a) How does the derivative term modify the error in time response of a system? [2]\n (b) Discuss op-amp realization of a PI controller and find the transfer function.\n\n[3]\n\n\nQ4 (a) From the point of view of filtering how can PI, PD and PID controllers be classified? [2]\n (b) Explain the tuning rule given by Ziegler and Nichols. [3]\n\n\nQ5 (a) Why is a multi stage phase lead controller used? [2]\n (b) Enumerate the steps to design a phase lead controller for any system. [3]\n\n\nQ6  The open loop transfer function of a unity feedback system is given by\n     G(s) = K / s(s+2)\nIt is desired to have a velocity error constant K\nv\n ≥ 10 and a Φm ≥ 60\n0\n.    Design a phase\nlag compensator to meet the required specification.\n[5]\n\n\n\n\n:::: 20/09/2019M ::::::"
+    },
+    {
+      "session": "MO18",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VII\nBRANCH: EEE   SESSION :MO/2018\n\nSUBJECT : MEE1119 CONTROL SYSTEM DESIGN\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) State some performance characteristics of time domain approach. [2]\n (b) A disturbance signal D(s) enters into a process control setup. Show it by a labeled block\ndiagram, discuss its effects on output and means to eradicate it.\n[3]\n\n\nQ2 (a) What should be the choice of damping ratio, ξ in control system? [2]\n (b) What are the general guidelines for design principles in time and frequency domain? [3]\n\n\nQ3 (a) Why are DC Motors preferred over AC motors in control system? [2]\n (b) Discuss op-amp realization of a PI controller and find the transfer function. [3]\n\n\nQ4 (a) Inserting a PID controller changes the order of the overall system. Justify with transfer\nfunction example.\n[2]\n (b) What are the limitations of a single stage phase lead controller? How can it be solved? [3]\n\n\nQ5 (a) State some characteristics of derivative and integral control. [2]\n (b) Enumerate steps for designing a phase lag controller. [3]\n\n\nQ6  For a unity feedback type-1 system having open loop transfer function [5]\n  G(s) = K/s(s+1)(s+4)\nDesign a compensated system to meet following specifications:\nK\nv\n = 5, M\np\n = 25% and T\ns\n = 10sec\n\n\n\n\n\n\n ::::13/09/2018 M ::::::"
+    }
+  ]
+}

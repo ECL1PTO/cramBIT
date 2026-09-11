@@ -1,0 +1,13 @@
+{
+  "courseCode": "BMT413",
+  "courseName": "BMT413 INTRODUCTION TO MICROPROCESSOR_MID",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2025)\nCLASS:  BMLT   SEMESTER : IV\nBRANCH: BMLT   SESSION : SP/2025\n\nSUBJECT: BMT413 INTRODUCTION TO MICROPROCESSOR\n\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) Explain the architecture of the 8085 microprocessors. [2] 1 2\nQ.1(b) Compare the memory interfacing techniques of 8085 and 8086. [3] 1 4\n\n\nQ.2(a) List different addressing modes of the 8086 microprocessors. [2] 1 1\nQ.2(b) Write an assembly language program to add two 8-bit numbers using 8085 [3] 1 3\n\n\nQ.3(a) Define looping and explain its significance in assembly language programming. [2] 2 2\nQ.3(b) Write a short program in 8086 to implement a counter using a loop. [3] 2 3\n\n\nQ.4(a) Differentiate between stack and subroutine in 8086. [2] 2 2\nQ.4(b) Explain the working of CALL and RET instructions with an example. [3] 2 3\n\n\nQ.5(a) What are vectored interrupts in 8085? Give examples. [2] 3 1\nQ.5(b) Describe the interrupt handling mechanism in 8086 with a block diagram. [3] 3 4\n\n\n::::::03/03/2025::::::E"
+    }
+  ]
+}

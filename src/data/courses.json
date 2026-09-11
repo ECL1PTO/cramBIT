@@ -13866,7 +13866,7 @@
     "syllabus": "",
     "campus": "Mesra",
     "grounding": "full",
-    "pyqCount": 109
+    "pyqCount": 31
   },
   "MN103": {
     "code": "MN103",
@@ -15966,6 +15966,838 @@
     "name": "FUNDAMENTALS OF FUELS AND COMBUSTION",
     "programs": [
       "SER"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "BER101": {
+    "code": "BER101",
+    "name": "BE101 BER101 BIOLOGICAL SCIENCE FOR ENGINEERS",
+    "programs": [
+      "BioEngg"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "BMT201": {
+    "code": "BMT201",
+    "name": "HUMAN ANATOMY AND PHYSIOLOGY II",
+    "programs": [
+      "BMLT"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "BMT203": {
+    "code": "BMT203",
+    "name": "HEMATOLOGY I",
+    "programs": [
+      "BMLT"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "BMT205": {
+    "code": "BMT205",
+    "name": "CLINICAL CHEMISTRY I",
+    "programs": [
+      "BMLT"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "BMT207": {
+    "code": "BMT207",
+    "name": "IT SKILLS",
+    "programs": [
+      "BMLT"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "BMT209": {
+    "code": "BMT209",
+    "name": "HISTOLOGY",
+    "programs": [
+      "BMLT"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "BMT401": {
+    "code": "BMT401",
+    "name": "MICROBIOLOGY II",
+    "programs": [
+      "BMLT"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "BMT403": {
+    "code": "BMT403",
+    "name": "HEMATOLOGY II",
+    "programs": [
+      "BMLT"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "BMT405": {
+    "code": "BMT405",
+    "name": "HISTOPATHOLOGY AND HISTOTECHNIQUES",
+    "programs": [
+      "BMLT"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "BMT407": {
+    "code": "BMT407",
+    "name": "PARASITOLOGY& CYTOLOGY",
+    "programs": [
+      "BMLT"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "BMT409": {
+    "code": "BMT409",
+    "name": "IMMUNOPATHOLOGY",
+    "programs": [
+      "BMLT"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "BMT411": {
+    "code": "BMT411",
+    "name": "BIO SIGNAL ACQUISITION SYSTEM",
+    "programs": [
+      "BMLT"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "BMT413": {
+    "code": "BMT413",
+    "name": "INTRODUCTION TO MICROPROCESSOR",
+    "programs": [
+      "BMLT"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "BMT415": {
+    "code": "BMT415",
+    "name": "ESSENCE OF INDIAN KNOWLEDGE AND TRADITION",
+    "programs": [
+      "BMLT"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "BMT417": {
+    "code": "BMT417",
+    "name": "INDIAN CONSTITUTIONS",
+    "programs": [
+      "BMLT"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "BOE405": {
+    "code": "BOE405",
+    "name": "INSTRUMENTAL METHOD OF ANALYSIS",
+    "programs": [
+      "BMLT"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "IMC3001": {
+    "code": "IMC3001",
+    "name": "CHEMISTRY III",
+    "programs": [
+      "Chemistry"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "IMC4001": {
+    "code": "IMC4001",
+    "name": "CHEMISTRY IV (MID SP19)(1)",
+    "programs": [
+      "Chemistry"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "IMC5001": {
+    "code": "IMC5001",
+    "name": "PHYSICAL CHEMISTRY I",
+    "programs": [
+      "Chemistry"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "IMC5003": {
+    "code": "IMC5003",
+    "name": "ORGANIC CHEMISTRY – I",
+    "programs": [
+      "Chemistry"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "IMC5005": {
+    "code": "IMC5005",
+    "name": "ORGANIC CHEMISTRY – II",
+    "programs": [
+      "Chemistry"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "IMC5007": {
+    "code": "IMC5007",
+    "name": "INORGANIC CHEMISTRY I",
+    "programs": [
+      "Chemistry"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "IMC5009": {
+    "code": "IMC5009",
+    "name": "INORGANIC CHEMISTRY II",
+    "programs": [
+      "Chemistry"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "IMC6001": {
+    "code": "IMC6001",
+    "name": "PHYSICAL CHEMISTRY II",
+    "programs": [
+      "Chemistry"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "IMC6003": {
+    "code": "IMC6003",
+    "name": "PHYSICAL CHEMISTRY III",
+    "programs": [
+      "Chemistry"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "IMC6005": {
+    "code": "IMC6005",
+    "name": "ORGANIC CHEMISTRY II",
+    "programs": [
+      "Chemistry"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "IMC6007": {
+    "code": "IMC6007",
+    "name": "INORGANIC CHEMISTRY III",
+    "programs": [
+      "Chemistry"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "IMF3001": {
+    "code": "IMF3001",
+    "name": "FOOD COMPOSITION & CHEM",
+    "programs": [
+      "Chemical"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "IMF3003": {
+    "code": "IMF3003",
+    "name": "FOOD BIO CHEMISTRY & HUMAN NUTRITION",
+    "programs": [
+      "Chemical"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "IMF3005": {
+    "code": "IMF3005",
+    "name": "BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+    "programs": [
+      "Chemical"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "IMF3007": {
+    "code": "IMF3007",
+    "name": "FOOD MICROBIOLOGY AND SAFETY",
+    "programs": [
+      "Chemical"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "IMF4001": {
+    "code": "IMF4001",
+    "name": "FOOD ENGG I FLUID FLOW & MECHANICAL OPERATIONS",
+    "programs": [
+      "Chemical"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "IMF4003": {
+    "code": "IMF4003",
+    "name": "PRINCIPLES OF FOOD PROCESSING & PRESERVATION",
+    "programs": [
+      "Chemical"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "IMF4005": {
+    "code": "IMF4005",
+    "name": "FOOD ANALYSIS",
+    "programs": [
+      "Chemical"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "IMF4007": {
+    "code": "IMF4007",
+    "name": "FRUITS & VEGETABLES PROCESSING",
+    "programs": [
+      "Chemical"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "IMF5001": {
+    "code": "IMF5001",
+    "name": "FOOD PACKAGING TECHNOLOGY",
+    "programs": [
+      "Chemical"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "IMF5003": {
+    "code": "IMF5003",
+    "name": "AGRICULTURE PRACTICES",
+    "programs": [
+      "Chemical"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "IMF5005": {
+    "code": "IMF5005",
+    "name": "CEREAL TECHNOLOGY",
+    "programs": [
+      "Chemical"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "IMF5007": {
+    "code": "IMF5007",
+    "name": "FERMENTATION FOOD PRODUCTS",
+    "programs": [
+      "Chemical"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "IMF5009": {
+    "code": "IMF5009",
+    "name": "FOOD ENGG II",
+    "programs": [
+      "Chemical"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "IMF6001": {
+    "code": "IMF6001",
+    "name": "DAIRY TECHNOLOGY",
+    "programs": [
+      "Chemical"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "IMF6003": {
+    "code": "IMF6003",
+    "name": "FOOD ENGINEERING III",
+    "programs": [
+      "Chemical"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "IMF6005": {
+    "code": "IMF6005",
+    "name": "AGRICULTURAL AND RURAL ECONOMICS",
+    "programs": [
+      "Chemical"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "IMF6007": {
+    "code": "IMF6007",
+    "name": "FOOD ADDITIVES AND INGREDIENTS",
+    "programs": [
+      "Chemical"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "IMF6009": {
+    "code": "IMF6009",
+    "name": "FOOD INDUSTRY WASTE MANAGEMENT",
+    "programs": [
+      "Chemical"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "MEC1011": {
+    "code": "MEC1011",
+    "name": "PROBABILITY MODELS AND STOCHASTIC PROCESSES",
+    "programs": [
+      "ECE"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "MEC1019": {
+    "code": "MEC1019",
+    "name": "MICROELECTRONIC DEVICES AND CIRCUITS",
+    "programs": [
+      "ECE"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "MEC1047": {
+    "code": "MEC1047",
+    "name": "SENSOR AND TRANSDUCER",
+    "programs": [
+      "ECE"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "MEC1125": {
+    "code": "MEC1125",
+    "name": "INFORMATION THEORY & CODING",
+    "programs": [
+      "ECE"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "MEC2011": {
+    "code": "MEC2011",
+    "name": "DIGITAL IMAGE PROCESSING TECHNIQUES",
+    "programs": [
+      "ECE"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "MEC2019": {
+    "code": "MEC2019",
+    "name": "MICRO ELECTRO MECHANICAL SYSTEMS",
+    "programs": [
+      "ECE"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "MEC2067": {
+    "code": "MEC2067",
+    "name": "VHDL & VERILOG",
+    "programs": [
+      "ECE"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "MEC2137": {
+    "code": "MEC2137",
+    "name": "WIRELESS NETWORKS",
+    "programs": [
+      "ECE"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "MEC2163": {
+    "code": "MEC2163",
+    "name": "SPEECH PROCESSING & RECOGNITION",
+    "programs": [
+      "ECE"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "MEE1119": {
+    "code": "MEE1119",
+    "name": "CONTROL SYSTEM DESIGN",
+    "programs": [
+      "EEE"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "MEE1151": {
+    "code": "MEE1151",
+    "name": "ADVANCED POWER ELECTRONICS",
+    "programs": [
+      "EEE"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "MEE2101": {
+    "code": "MEE2101",
+    "name": "SOFT COMPUTING TECHNIQUES",
+    "programs": [
+      "EEE"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "MEE2157": {
+    "code": "MEE2157",
+    "name": "RENEWABLE SOURCES OF ELECTRICAL ENERGY",
+    "programs": [
+      "EEE"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "MUP2101": {
+    "code": "MUP2101",
+    "name": "URBAN ECOLOGY AND ENVIRONMENTAL PLANNING",
+    "programs": [
+      "Architecture"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "MUP3109": {
+    "code": "MUP3109",
+    "name": "CITY & METROPOLITAN PLANNING",
+    "programs": [
+      "Architecture"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "full",
+    "pyqCount": 2
+  },
+  "SEC303": {
+    "code": "SEC303",
+    "name": "COMPUTATIONAL SKILLS",
+    "programs": [
+      "Physics"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "SEC307": {
+    "code": "SEC307",
+    "name": "RENEWABLE ENERGY AND ENERGY HARVESTING",
+    "programs": [
+      "Physics"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "SEC407": {
+    "code": "SEC407",
+    "name": "BASIC INSTRUMENTATION SKILLS",
+    "programs": [
+      "Physics"
+    ],
+    "semester": null,
+    "credits": null,
+    "syllabus": "",
+    "campus": "Mesra",
+    "grounding": "partial",
+    "pyqCount": 1
+  },
+  "SGI1001": {
+    "code": "SGI1001",
+    "name": "PRINCIPLES OF REMOTE SENSING",
+    "programs": [
+      "RemoteSensing"
     ],
     "semester": null,
     "credits": null,

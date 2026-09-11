@@ -1,0 +1,13 @@
+{
+  "courseCode": "MEC2137",
+  "courseName": "MEC2137 WIRELESS NETWORKS",
+  "historical_papers": [
+    {
+      "session": "MO19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VII\nBRANCH: ECE   SESSION : MO/2019\n\nSUBJECT : MEC2137 WIRELESS NETWORKS\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) What is Scatternet? Explain various power saving modes used in IEEE 802.15.1. [2]\n (b) Explain the proposal of ‘Dual band Impulse radio spread spectrum approach’ for IEEE\n802.15.3.\n[3]\n\n\nQ2 (a) What is the difference between Authenticity and Autherization for IEEE 802.15.1? [2]\n (b) Explain the arrangement of DSSS PHY PPDU frame for IEEE 802.11 PHY layer [3]\n\n\nQ3 (a) Explain step by step process of formation of Cluster Tree topology by Cluster head for\nIEEE 802.15.4.\n[2]\n (b) Discuss  the  significance  of  HCI  layer  for  IEEE  802.15.1.  Explain  the  functionality  of\nRFCOMM and OBEX protocol.\n[3]\n\n\nQ4 (a) Derive an expression to evaluate SNR experienced by a IEEE 802.11 DSSS user equipment\nfrom IEEE 802.15.1 transmitter\n[2]\n (b) Define Inter frame Spaces and discuss the four inter frame spaces used in IEEE 802.11. [3]\n\n\nQ5 (a) Compare the Architecture of GSM and GPRS.  [2]\n (b) Discuss the significance of ‘Node B’. What is UTRAN? [3]\n\n\nQ6 (a) Compare CDMA2000 and WCDMA.  [2]\n (b) Why CSMA/CD is not suitable for WLAN? Justify that small packets are preferred in WLAN\nenvironment.\n[3]\n\n\n\n:::: 24/09/2019M ::::::"
+    }
+  ]
+}

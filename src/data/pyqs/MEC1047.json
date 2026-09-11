@@ -1,0 +1,20 @@
+{
+  "courseCode": "MEC1047",
+  "courseName": "MEC1047 SENSOR AND TRANSDUCER",
+  "historical_papers": [
+    {
+      "session": "MO19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VII\nBRANCH: EEE/ECE/MECH/PROD   SESSION : MO/2019\n\nSUBJECT : MEC1047 SENSOR AND TRANSDUCER\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\nQ1 (a) Differentiate between Sensor, Actuator, Switches and Transducer with suitable example. [2]\n (b) Discuss and explain classifications of transducer by giving examples in each class.   [3]\n\n\nQ2 (a) What are the different characteristics on which transducers are characterized?  [2]\n (b) Explain about the characteristics of sensor observed in laboratory testing. [3]\n\n\nQ3 (a) Explain the types of potentiometer transducer. [2]\n (b) What is Guage factor? Also explain different types of Strain Guage.  [3]\n\n\nQ4 (a) Explain the working principle of Electrostatic Transducer.   [2]\n (b) Explain  the  material  properties  related  to  piezoelectric  sensor  and  its  deformation\nmodes.\n[3]\n\n\nQ5 (a) Explain temperature measurement technique using Pulse-echo transit time difference. [2]\n (b) What is thermoemf sensor? Explain different types of TC and its construction.  [3]\n\n\nQ6 (a) Explain the working of radiation thermometer with suitable diagram. [2]\n (b) Discuss the uses of nuclear radiation and details of Geiger counter.  [3]\n\n\n\n :::::: 30/09/2019 ::::::M"
+    },
+    {
+      "session": "MO18",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VII/ADD\nBRANCH: ALL   SESSION : MO/2018\n\nSUBJECT : MEC1047 SENSOR AND TRANSDUCER\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) Explain the different characteristics of sensor observed in laboratory testing. [2]\n (b) Differentiate between Sensor, Transducer, Detector, Switches and Convertor with\nappropriate examples.\n[3]\n\nQ2 (a) Explain the different criteria on which Sensors are classified. [2]\n (b) Define the most usable parameter for the development of different types of sensor.\nGive suitable examples.\n[3]\n\nQ3 (a) What is potentiometer and how it is used to sense physical parameter? Mention its\ndifferent types.\n[2]\n (b) Explain the principle of Hall Effect Sensor and its application to Displacement\nmeasurement.\n[3]\n\nQ4 (a) Explain Quartz resonator for the measurement Force/Stress. [2]\n (b) Explain working of Eddy current type tachometer. [3]\n\nQ5 (a) Explain working of Acoustic temperature sensor. [2]\n (b) Explain the types of metal resistance thermometric sensor. [3]\n\nQ6 (a) Define the laws on which radiation thermometers are developed and their main\ncomponents.\n[2]\n (b) Explain the working of Photoemissive cell and the Photomultiplier.  [3]\n\n\n\n :::::: 18/09/2018 ::::::M"
+    }
+  ]
+}

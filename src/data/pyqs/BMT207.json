@@ -1,0 +1,13 @@
+{
+  "courseCode": "BMT207",
+  "courseName": "BMT207 IT SKILLS_MID",
+  "historical_papers": [
+    {
+      "session": "unknown",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATIONSP/2025)\nCLASS:  BSc. (MLT)   SEMESTER :  II\nBRANCH: BMLT   SESSION : SP/2025\n\nSUBJECT: BMT207 IT SKILLS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------------------\n\n   CO BL\nQ.1(a) Differentiate between First and Fifth generation computers. [2] CO1 III\nQ.1(b) Draw the block diagram of a computer and explain the function of the Input and\nOutput device with suitable examples\n[3] CO1 IV\n\n\nQ.2(a) Briefly explain the functions of the Control Unit (CU), Arithmetic and Logic Unit\n(ALU), and Memory Unit (MU) in a computer system\n[2] CO1 II\nQ.2(b) Differentiate between the followings:\nPrimary memory and Secondary memory                           RAM and ROM\n[3] CO1 III\n\n\nQ.3(a) Convert the following Decimal no. into Binary no.\n252,                   242,                15,               39\n[2] CO2 III\nQ.3(b) Convert the following Binary no. into Decimal no.\n110111001,                          1101110001,                     10101011\n[3] CO2 III\n\n\nQ.4(a) Convert the following Fractional Decimal no. into Binary no.\n12.225,                     15.75,                        10.625,           0.325\n[2] CO2 III\nQ.4(b) Convert the following Decimal no.  into Octal no. [3] CO2 III\n 242,                         473,                                       127\n\nQ.5(a) Explain  the  different  types  of  computer  networks  based  on  their  geographical\ncoverage.\n[2] CO3 II\nQ.5(b) Briefly describe the following network components.\nNIC ,                           Switch,                                 Hub\n[3] CO3 II\n\n\n::::::28/02/2025::::::M"
+    }
+  ]
+}

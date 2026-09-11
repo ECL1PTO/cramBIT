@@ -1,0 +1,13 @@
+{
+  "courseCode": "MEC2163",
+  "courseName": "MEC2163 SPEECH PROCESSING & RECOGNITION",
+  "historical_papers": [
+    {
+      "session": "MO19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VII\nBRANCH: ECE   SESSION : MO/2019\n\n                                     SUBJECT : MEC2163 SPEECH PROCESSING & RECOGNITION\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) What is the importance of the vocal cords in human vocal apparatus? [2]\n (b) Explain briefly the three regions of the time domain representation of speech signal. [3]\n\n\nQ2 (a) What are the different articulators in human vocal apparatus?  [2]\n (b) Explain  briefly  the  pattern  recognition  approach  for  speech  recognition  using  block\ndiagram.\n[3]\n\n\nQ3 (a) What is the effect of window length on the frequency resolution of STFT? [2]\n (b) Explain briefly the LPC model for spectral analysis of speech signal? [3]\n\n\nQ4 (a) Define the short time Fourier transform (STFT) for any speech sequence s(n).  [2]\n (b) Show the tree structure realization of non-uniform filter bank using a diagram. [3]\n\n\nQ5 (a) Briefly explain breath noise in speech signal using log energy contour. [2]\n (b) Briefly explain the explicit approach for speech end point detection. [3]\n\n\nQ6 (a) Briefly explain mouth click artefact in speech signal using log energy contour. [2]\n (b) Briefly explain the implicit approach for speech end point detection. [3]\n\n\n\n:::: 24/09/2019M ::::::"
+    }
+  ]
+}

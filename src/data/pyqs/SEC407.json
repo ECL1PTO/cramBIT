@@ -1,0 +1,13 @@
+{
+  "courseCode": "SEC407",
+  "courseName": "SEC407 BASIC INSTRUMENTATION SKILLS",
+  "historical_papers": [
+    {
+      "session": "SP23",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION SP/2023)\nCLASS: IM.Sc.   SEMESTER : IV\nBRANCH: PHYSICS   SESSION : SP/2023\n\nSUBJECT: SEC407 BASIC INSTRUMENTATION SKILLS\nTIME: 02 Hours   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n-----------------------------------------------------------------------------------------------------------------------------\n\n\n   CO BL\nQ.1(a) Define precision and sensitivity of a measuring instrument. [2] 1 1\nQ.1(b) Explain the working principle and construction of a moving coil galvanometer. [3] 1 2\n\n\nQ.2(a) The internal resistance and least count of\nthe   voltmeter   shown   in   circuit   are\n100 kΩ and 0.01V, respectively. Compare\nthe measured voltage, and actual voltage\nacross 20 kΩ resistance when voltmeter is\ndisconnected.\n\n[2] 1 2\nQ.2(b) A  moving coil  galvanometer  can  be  converted  into  an  ammeter  of  10  mA  range  by\nconnecting a shunt resistance of 2.01Ω. The same galvanometer can be converted into\na voltmeter of 1V range by connecting a series resistance of 19.6 kΩ. Determine the\ninternal resistance and full scale deflection current of the galvanometer.\n[3] 1 5\n\n\nQ.3(a) What are the advantages of electronic voltmeter over a conventional voltmeter? [2] 1 1\nQ.3(b) Show  block  diagram of an amplifier-rectifier  type  ac millivoltmeter  and  explain  the\nsignificance of its specifications.\n[3] 1 5\n\n\nQ.4(a) List the front panel controls of a typical dual-channel cathode ray oscilloscope. [2] 2 1\nQ.4(b) Explain the construction and working of cathode ray tube. [3] 2 2\n\n\nQ.5(a) Illustrate the function of trigger in an oscilloscope by sketching the typical waveforms\nwith and without trigger.\n[2] 2 2\nQ.5(b) Explain how two waveforms are simultaneously displayed in a cathode ray oscilloscope.  [3] 2 2\n\n\n::::::24/02/2023::::::M"
+    }
+  ]
+}

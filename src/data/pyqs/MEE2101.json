@@ -1,0 +1,13 @@
+{
+  "courseCode": "MEE2101",
+  "courseName": "MEE2101 SOFT COMPUTING TECHNIQUES",
+  "historical_papers": [
+    {
+      "session": "MO19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VII\nBRANCH: EEE   SESSION : MO/2019\n\nSUBJECT : MEE2101 SOFT COMPUTING TECHNIQUES\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) What  do  you  mean  by  soft  computing technique? How  it  is  different  from  hard\ncomputing?\n[2]\n (b) Compare biological and artificial neural network (ANN).  [3]\n\n\nQ2 (a) Explain different network architectures of ANN.                                   [2]\n (b) Write MATLAB codes to implement XOR gate using multilayer artificial neural network.                                         [3]\n\n\nQ3  With a neat flowchart, explain the training process of perceptron network. Explain\ndifferent activation function used in perceptron network.\n[5]\n\n\nQ4 (a) What is the concept of α-Cuts? How is it different from a strong α-Cuts?                                                                                                             [2]\n (b) Explain the following operations on Fuzzy Sets (i) Fuzzy Concentration (ii) Fuzzy Dilation\n(iii) Fuzzy Intensification with suitable MFs.\n[3]\n\n\nQ5 (a) Use the MFs of old and small to generate the MFs for the following terms:\n(a) not very young and not very old\n(b) very young or very old.\nPlot the MFs for these two linguistic values.\n[2]\n (b) With suitable example explain the max-product composition of fuzzy relation. [3]\n\n\nQ6 (a) Illustrate graphically fuzzy reasoning considering single fuzzy if-then rules with multiple\nantecedents.\n[2]\n (b) Describe various defuzzification procedures.                                                                                                              [3]\n\n\n\n\n:::: 23/09/2019M ::::::"
+    }
+  ]
+}

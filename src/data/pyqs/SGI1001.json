@@ -1,0 +1,13 @@
+{
+  "courseCode": "SGI1001",
+  "courseName": "SGI1001 PRINCIPLES OF REMOTE SENSING",
+  "historical_papers": [
+    {
+      "session": "MO19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: IMSC   SEMESTER:  V\nBRANCH: MATHS & COMP.  SESSION : MO/2019\n\nSUBJECT : SGI1001 PRINCIPLES OF REMOTE SENSING\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) What is the science of Remote Sensing?  [2]\n (b) What are the advantages and disadvantages of Remote Sensing? [3]\n\n\nQ2 (a) What is the effect of scattering on the remote sensing data? [2]\n (b) What do you understand by Rayleigh Scatter? Explain [3]\n\n\nQ3 (a) Name the different types of platforms used to acquire Remote sensing data. [2]\n (b) Draw a labeled diagram of an Aerial camera. [3]\n\n\nQ4 (a) What do you understand by Active sensor? [2]\n (b) Give a detailed classification of the Active sensor. [3]\n\n\nQ5 (a) Explain spatial resolution of a satellite image [2]\n (b) List few uses of Coarse, Medium and High resolution satellite images giving examples of\nsatellites. If spatial resolution increases what will be the effect on image size and cost?\n[3]\n\n\nQ6 (a) Distinguish  between  multispectral  and  hyperspectral  satellite  data  and  write  few\napplications of both of these data sets.\n[2]\n (b) Write specifications of IRS ID LISS III satellite data. [3]\n\n\n\n::::::25/09/2019 ::::::E"
+    }
+  ]
+}

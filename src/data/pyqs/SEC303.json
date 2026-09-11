@@ -1,0 +1,13 @@
+{
+  "courseCode": "SEC303",
+  "courseName": "SEC303 COMPUTATIONAL SKILLS",
+  "historical_papers": [
+    {
+      "session": "MO22",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: IMSc   SEMESTER: III\nBRANCH: PHYSICS   SESSION: MO/2022\n\nSUBJECT: SEC303 COMPUTATIONAL SKILLS\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 25.\n2. Candidates attempt for all 25 marks.\n3. Before attempting the question paper, be sure that you have got the correct question paper.\n4. The missing data, if any, may be assumed suitably.\n5. Tables/Data hand book/Graph paper etc. to be supplied to the candidates in the examination hall.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n    CO BL\nQ1 (a) Explain the different symbols used in preparing a flowchart. [2] 1 1\nQ1 (b) Draw a flowchart for finding the factorial of an arbitrary positive integer. [3] 1 3\n\n\nQ2 (a) Write an algorithm to plot sin(x) vs cos(x). [2] 1 3\nQ2 (b)\nWrite an algorithm to find the area under y=sin(x) curve from x=0 to x=兀/2.\n[3] 1 3\n\n\nQ3 (a) Mention any two differences between fortran 77 and fortran 90. [2] 2 1\nQ3 (b) Discuss how the different variable types are declared in fortran. [3] 2 2\n\n\nQ4 (a) Mention one difficulty of using real numbers for iterations in a do loop. [2] 3 2\nQ4 (b) Write a fortran code for the velocity vs. time curve of a ball of an arbitrarily\nchosen mass dropped from an arbitrarily chosen height.\n[3] 3 3\n\n\nQ5 (a) What is an allocatable array and how is it declared in fortran? [2] 3 2\nQ5 (b) Write a fortran code for storing the data of tan(x) in an array, for x ranging\nfrom 0 to 10.\n[3] 3 3\n\n\n\n\n :::::: 30/09/2022 ::::::M"
+    }
+  ]
+}

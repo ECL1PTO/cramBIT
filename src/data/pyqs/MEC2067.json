@@ -1,0 +1,13 @@
+{
+  "courseCode": "MEC2067",
+  "courseName": "MEC2067 VHDL & VERILOG",
+  "historical_papers": [
+    {
+      "session": "MO19",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: BE   SEMESTER: VII\nBRANCH: ECE   SESSION : MO/2019\n\nSUBJECT : MEC2067 VHDL & VERILOG\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) Give the brief history of VHDL. [2]\n (b) Explain the basic terminologies of VHDL with the help of examples. [3]\n\n\nQ2 (a) Discuss the different delay models in VHDL with examples. [2]\n (b) Write the VHDL code for a 4x1 MUX. [3]\n\n\nQ3 (a) How are sequential statements different from the concurrent statements? [2]\n (b) Explain the differences between the following:\n1) signal and variable                     2) sensitivity list and WAIT statement\n[3]\n\n\nQ4 (a)  Explain different types of WAIT statements. [2]\n (b) Compare FOR loop and WHILE loop. [3]\n\n\nQ5 (a) Explain different object types in VHDL. [2]\n (b) Write a note on composite types in VHDL. [3]\n\n\nQ6 (a) Classify the user defined data types in VHDL. [2]\n (b) Explain integer types and real types with examples. [3]\n\n\n:::: 24/09/2019M ::::::"
+    }
+  ]
+}

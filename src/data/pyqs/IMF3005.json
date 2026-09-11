@@ -1,0 +1,13 @@
+{
+  "courseCode": "IMF3005",
+  "courseName": "IMF3005 BASIC ELECTRICAL AND ELECTRONICS ENGINEERING",
+  "historical_papers": [
+    {
+      "session": "MO18",
+      "examType": "MID",
+      "maxMarks": null,
+      "questions": [],
+      "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: IMSc   SEMESTER: III\nBRANCH: FT   SESSION : MO/2018\n\nSUBJECT : IMF3005 BASIC ELECTRICAL AND ELECTRONICS ENGINEERING\n\nTIME: 1.5  HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The total marks of the questions are 30.\n2. Candidates may attempt for all 30 marks.\n3. In those cases where the marks obtained exceed 25 marks, the excess will be ignored.\n4. Before attempting the question paper, be sure that you have got the correct question paper.\n5. The missing data, if any, may be assumed suitably.\n-------------------------------------------------------------------------------------------------------------------------------\n\n\nQ1 (a) Define resistance and inductance.  [2]\n (b) What is the difference between an ideal voltage source and a practical voltage source. [3]\n\nQ2 (a) Explain: voltage dependent voltage source (VDVS), current dependent voltage source\n(CDVS)\n[2]\n (b) Show that a capacitor is a linear circuit element. [3]\n\nQ3 (a) Define and explain KCL and KVL. [2]\n (b) Use KCL and KVL to find the voltage V1 across the 6 Ω resistance in the circuit shown in\nFigure 1.\n[3]\n\n\nFIG.1\n\n\nQ4 (a) Explain the algorithm (process) of mesh analysis using a simple circuit. [2]\n (b) Find the current in the 2 Ω resistance in the circuit shown in Figure 2. using nodal\nanalysis.\n[3]\n\n\nFIG.2\n\n\nQ5 (a) Write electronic configuration of SODIUM and SILICON. [2]\n (b) Write explanatory notes on CONDUCTION MECHANISM OF SOLID. [3]\n\nQ6 (a) Define TRANSFER CHARACTERISTICS. [2]\n (b) Simplest diode circuit acts as half wave rectifier. Show graphically from first principle. [3]\n\n:::::: 12/90/2018 ::::::E"
+    }
+  ]
+}

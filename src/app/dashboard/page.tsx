@@ -358,8 +358,8 @@ export default function Dashboard() {
             label="Syllabus"
             value={syllabus}
             onChange={(e) => setSyllabus(e.target.value)}
-            placeholder="Paste the module-wise syllabus for your section…"
-            hint="Used as the hard boundary — nothing outside it will be asked."
+            placeholder="Paste only the module-wise syllabus for your section…"
+            hint="Only paste the portion actually covered in the mid-sem — usually 2 to 2.5 modules, not the full-semester syllabus. It's used as the hard boundary: nothing outside it will be asked."
           />
 
           {busy ? (
@@ -496,7 +496,7 @@ export default function Dashboard() {
                 <ShareButton
                   compact
                   label="Share with classmates"
-                  text={`just generated my predicted ${courseCode ?? courseInput} mid-sem paper on cramBIT and ngl it's scary accurate 💀 real past papers + my syllabus → 3 full sets. try it before your mid-sem, first subject's free`}
+                  text={`just generated my predicted ${courseCode ?? courseInput} mid-sem paper on cramBIT and ngl it's scary accurate 💀 real past papers + my syllabus → 2 full sets. try it before your mid-sem, first subject's free`}
                 />
               </div>
 

@@ -23,7 +23,7 @@ const DEPTS = {
 // /Other-Department-Pages/content/1/258/<pid> route. These carry the MN / CA
 // (BCA) / AM / HS course codes the picker actually uses, so they're required.
 const PROGRAMS = {
-  BBA: 616, BCA: 617, BAM: 618, MAD: 619, BCom: 774, HSS: 775, MBA: 439,
+  BBA: 616, BCA: 617, BAM: 618, MAD: 619, BMLT: 620, BCom: 774, HSS: 775, MBA: 439,
 };
 
 const deptPageUrl = (pid) =>
@@ -101,7 +101,7 @@ for (const { dept, url } of folders) {
       : /\(END|_END|ESE/i.test(name)
         ? "END"
         : "OTHER";
-    const code = (name.match(/\b([A-Z]{2}\d{3,6})\b/) ?? [])[1] ?? "UNKNOWN";
+    const code = (name.match(/\b([A-Z]{2,3}\d{3,6})\b/) ?? [])[1] ?? "UNKNOWN";
     const key = `${dept}/${name}`;
     if (manifest[key]?.downloaded) {
       ok++;
