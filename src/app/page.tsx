@@ -80,6 +80,7 @@ export default function LandingPage() {
       {/* how it works */}
       <Container id="how" className="scroll-mt-8 py-16 sm:py-section">
         <SectionHeading
+          className="mx-auto text-center md:mx-0 md:text-left"
           eyebrow="How it works"
           title={
             <>
@@ -105,8 +106,8 @@ export default function LandingPage() {
       {/* new course */}
       <Container className="py-16 sm:py-section">
         <Card className="lift glow-accent border border-border">
-          <div className="flex flex-col gap-5 md:flex-row md:items-center">
-            <MonoChip className="self-start">new course?</MonoChip>
+          <div className="flex flex-col items-center gap-5 text-center md:flex-row md:items-center md:text-left">
+            <MonoChip className="self-center md:self-start">new course?</MonoChip>
             <p className="text-lead leading-relaxed text-text/90">
               Brand-new subject with no PYQs on record? cramBIT still predicts your
               paper — from <span className="text-text">your syllabus</span> plus the PYQs of subjects with a <span className="mark text-text">similar syllabus</span>, then flags it so
@@ -120,6 +121,7 @@ export default function LandingPage() {
       <Container className="py-16 sm:py-section">
         <div className="grid gap-10 md:grid-cols-[1.1fr_1fr] md:items-start">
           <SectionHeading
+            className="mx-auto text-center md:mx-0 md:text-left"
             eyebrow="How accurate is this?"
             title="It's a prediction, not a leak."
             lead="cramBIT estimates what is probable from history and syllabus weightage. Some predicted questions land close to the real paper; some don't. There is no guarantee any specific question appears, and cramBIT takes no responsibility for your result — use it to focus your revision, not to replace it."
@@ -144,6 +146,7 @@ export default function LandingPage() {
       {/* pricing */}
       <Container className="py-16 sm:py-section">
         <SectionHeading
+          className="mx-auto text-center md:mx-0 md:text-left"
           eyebrow="Pricing"
           title={
             <>
@@ -174,7 +177,7 @@ export default function LandingPage() {
             highlight
           />
         </div>
-        <p className="mt-4 text-caption text-faint">
+        <p className="mt-4 text-center text-caption text-faint md:text-left">
           Payment unlocks the tool, not a result. No refunds on prediction accuracy.
         </p>
       </Container>
@@ -183,6 +186,7 @@ export default function LandingPage() {
       <Container className="py-16 sm:py-section">
         <div className="grid gap-10 md:grid-cols-[1fr_1.1fr] md:items-start">
           <SectionHeading
+            className="mx-auto text-center md:mx-0 md:text-left"
             eyebrow="Feedback & support"
             title="Prediction way off? Something broke? Just have thoughts?"
             lead="Tell us anything — a prediction that missed, a bug, a feature you want. You'll get an instant confirmation, then a real reply. After your exam, there's a one-tap 'how close was it?' on every generated paper too."
@@ -194,7 +198,7 @@ export default function LandingPage() {
       </Container>
 
       {/* footer */}
-      <Container className="flex flex-wrap items-center justify-between gap-4 border-t border-border py-10 text-caption text-faint">
+      <Container className="flex flex-col items-center gap-4 border-t border-border py-10 text-center text-caption text-faint md:flex-row md:flex-wrap md:items-center md:justify-between md:text-left">
         <span>© {new Date().getFullYear()} cramBIT</span>
         <div className="flex items-center gap-5">
           <Link href="/support" className="hover:text-muted">
@@ -232,7 +236,7 @@ function Step({
   children: React.ReactNode;
 }) {
   return (
-    <Card className="lift border border-border">
+    <Card className="lift flex flex-col items-center border border-border text-center md:items-start md:text-left">
       <MonoChip>{n}</MonoChip>
       <h3 className="mt-4 text-h3 font-medium tracking-tight text-text">{title}</h3>
       <p className="mt-2 text-body leading-relaxed text-muted">{children}</p>
@@ -257,8 +261,8 @@ function PriceCard({
     <Card
       className={
         highlight
-          ? "lift glow-accent flex flex-col border border-accent bg-accent-soft"
-          : "lift flex flex-col border border-border"
+          ? "lift glow-accent flex flex-col items-center border border-accent bg-accent-soft text-center md:items-start md:text-left"
+          : "lift flex flex-col items-center border border-border text-center md:items-start md:text-left"
       }
     >
       <p className="text-body-sm text-muted">{name}</p>
