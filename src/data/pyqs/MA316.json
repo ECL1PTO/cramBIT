@@ -8,6 +8,104 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: IMSC   SEMESTER: VI\nBRANCH: MATHS   SESSION: SP/2023\n\nSUBJECT: MA316 STATISTICAL QUALITY CONTROL AND RELIABILITY\n\nTIME: 2 HOURS   FULL MARKS: 25\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates\n----------------------------------------------------------------------------------------------------------------------------------\n\n    CO BL\nQ1 (a) Mention two differences between chance and assignable causes of variation. [2] 1 1.23\nQ1 (b) Define quality and explain the four M’s to be considered for it.   [3] 1 1.12\n\n\nQ2 (a) Explain the role of Chebyshev’s inequality in statistical quality control. [2] 1 1.12\nQ2 (b) How is process control different from product control? [3] 1 1.23\n\n\nQ3 (a) What is a control chart? Mention any two features of a control chart. [2] 1 1.12\nQ3 (b) Suppose you have joined an industry which has just started. You want to propose\nto your manager that it is worth having a statistical quality control unit. Mention\nthree strong points to justify your proposal.\n[3] 1 1.20\n\n\nQ4 (a) Why is Mean chart useful? Obtain the control limits for Mean chart when (i)\nstandard is specified  (ii) standard is not specified.\n[2] 2 1.24\nQ4 (b) From the following data obtain the control limits for Mean chart and comment on\nthe state of control (given lot size =5; d\n2\n=2.326).\nLot no: 1    2    3    4    5    6    7    8    9    10\nMean:  48  49   37  44  45   37  51  46   43  47\nRange:  5    6    5    7    7    4    8   6     4    6\n\n[3] 2 1.25\n\n\nQ5 (a)  How is process dispersion controlled? [2] 2 1.24\nQ5 (b) From the following data on fuses, can we say the process dispersion is under\ncontrol? Justify your answer through a suitable control chart (given for lot size\n=5, D\n3\n=0; D\n4\n=2.11).\nLot 1:  42    65    75    78     87\nLot 2:  42    45    68    72     90\nLot 3:  19    24    80    81     81\nLot 4:  36    54    69    77     84\n[3] 2 1.25\n\n\n::::::24/02/2023::::::M"
+    },
+    {
+      "session": "SP/2023",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Mention two differences between chance and assignable causes of variation.",
+              "marks": 2,
+              "topic": "variation"
+            },
+            {
+              "label": "b",
+              "text": "Define quality and explain the four M’s to be considered for it.",
+              "marks": 3,
+              "topic": "quality"
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Explain the role of Chebyshev’s inequality in statistical quality control.",
+              "marks": 2,
+              "topic": "Chebyshev"
+            },
+            {
+              "label": "b",
+              "text": "How is process control different from product control?",
+              "marks": 3,
+              "topic": "process control"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "What is a control chart? Mention any two features of a control chart.",
+              "marks": 2,
+              "topic": "control chart"
+            },
+            {
+              "label": "b",
+              "text": "Suppose you have joined an industry which has just started. You want to propose to your manager that it is worth having a statistical quality control unit. Mention three strong points to justify your proposal.",
+              "marks": 3,
+              "topic": "proposal"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Why is Mean chart useful? Obtain the control limits for Mean chart when (i) standard is specified (ii) standard is not specified.",
+              "marks": 2,
+              "topic": "Mean chart"
+            },
+            {
+              "label": "b",
+              "text": "From the following data obtain the control limits for Mean chart and comment on the state of control (given lot size =5; d2=2.326). Lot no: 1 2 3 4 5 6 7 8 9 10 Mean: 48 49 37 44 45 37 51 46 43 47 Range: 5 6 5 7 7 4 8 6 4 6",
+              "marks": 3,
+              "topic": "Mean chart"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "How is process dispersion controlled?",
+              "marks": 2,
+              "topic": "process dispersion"
+            },
+            {
+              "label": "b",
+              "text": "From the following data on fuses, can we say the process dispersion is under control? Justify your answer through a suitable control chart (given for lot size =5, D3=0; D4=2.11). Lot 1: 42 65 75 78 87 Lot 2: 42 45 68 72 90 Lot 3: 19 24 80 81 81 Lot 4: 36 54 69 77 84",
+              "marks": 3,
+              "topic": "process dispersion"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

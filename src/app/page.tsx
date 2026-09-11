@@ -160,19 +160,19 @@ export default function LandingPage() {
           <PriceCard
             name="First subject"
             price="Free"
-            note="One full prediction, any course. No card."
+            note="Any course, up to 4 generations for it. No card."
             cta={{ label: "Start free", href: "/login" }}
           />
           <PriceCard
             name="Per subject"
             price={`₹${PRICING.perSubject}`}
-            note="Unlock any one extra subject and all its predicted papers. Pick which one after you log in."
+            note="Unlock one extra subject — up to 4 generations for it. Pick which one after you log in."
             cta={{ label: "Log in to unlock", href: "/login" }}
           />
           <PriceCard
             name="Season bundle"
             price={`₹${PRICING.bundle}`}
-            note="Every subject you take this mid-sem season — up to 5. The obvious pick if you have 3 or more."
+            note="Up to 5 subjects this mid-sem season, 4 generations each. The obvious pick if you have 3 or more."
             cta={{ label: "Unlock 5 subjects", href: "/pay?plan=bundle" }}
             highlight
           />

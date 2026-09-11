@@ -5209,5 +5209,18 @@
     "campus": "Noida",
     "grounding": "none",
     "pyqCount": 0
+  },
+  "SC25209": {
+    "code": "SC25209",
+    "name": "Complex Variables & Linear Algebra",
+    "programs": [
+      "BSc-CS"
+    ],
+    "semester": null,
+    "credits": 3,
+    "syllabus": "",
+    "campus": "Noida",
+    "grounding": "none",
+    "pyqCount": 0
   }
 }

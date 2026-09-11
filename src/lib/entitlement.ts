@@ -8,9 +8,9 @@ import { BUNDLE_SUBJECT_CAP } from "@/data/pricing";
  * - FREE plan: the first generation binds the user to ONE course. They may
  *   re-generate for that same course (tweaking the syllabus) up to
  *   FREE_REGEN_CAP times. Switching to any other course requires payment.
- * - PER-SUBJECT (₹49): unlocks exactly that subject, also capped at
- *   SUBJECT_REGEN_CAP re-generations so it can't become a de-facto bundle.
- * - BUNDLE (₹199): every subject, capped only by the daily rate limit.
+ * - PER-SUBJECT (₹49) and BUNDLE (₹199): every subject — including each
+ *   subject inside a bundle — is capped at SUBJECT_REGEN_CAP re-generations,
+ *   so no single subject becomes an unlimited re-roll.
  *
  * The course identity is the resolved subject code, or (for unknown courses)
  * the normalised typed string — stored in generated_papers.course_input.
@@ -21,7 +21,7 @@ import { BUNDLE_SUBJECT_CAP } from "@/data/pricing";
  */
 
 export const FREE_REGEN_CAP = 4;
-export const SUBJECT_REGEN_CAP = 6;
+export const SUBJECT_REGEN_CAP = 4;
 
 export interface EntitlementCheck {
   allowed: boolean;
@@ -62,13 +62,16 @@ export async function checkEntitlement(
       .select("subject_code, course_input")
       .eq("user_id", userId)
       .eq("is_paid", true);
-    const distinctSubjects = new Set(
-      (paidRows ?? []).map((r) => r.subject_code ?? r.course_input),
-    );
+    const rows = paidRows ?? [];
+    const distinctSubjects = new Set(rows.map((r) => r.subject_code ?? r.course_input));
     if (!distinctSubjects.has(courseKey) && distinctSubjects.size >= BUNDLE_SUBJECT_CAP) {
       return { allowed: false, isPaid: true, reason: "bundle-full" };
     }
-    return { allowed: true, isPaid: true };
+    const used = rows.filter((r) => (r.subject_code ?? r.course_input) === courseKey).length;
+    if (used >= SUBJECT_REGEN_CAP) {
+      return { allowed: false, isPaid: true, reason: "regen-cap", lockedCourse: courseKey };
+    }
+    return { allowed: true, isPaid: true, triesLeft: SUBJECT_REGEN_CAP - used };
   }
 
   if (hasSubject) {

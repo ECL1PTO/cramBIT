@@ -146,10 +146,6 @@ export default function Dashboard() {
     setPapersRead(0);
     setScanned(0);
 
-    // A minimum visible duration per phase so it's clear the engine is actually
-    // working through the papers, not faking it.
-    const hold = (start: number, ms: number) =>
-      new Promise<void>((res) => setTimeout(res, Math.max(0, ms - (Date.now() - start))));
     const wait = (ms: number) => new Promise<void>((res) => setTimeout(res, ms));
 
     // A 503 "capacity" reply is one gateway attempt having a bad moment, not a
@@ -177,13 +173,11 @@ export default function Dashboard() {
     };
 
     try {
-      const t0 = Date.now();
       const planRes = await postRetrying({ phase: "plan", courseInput, syllabus });
       if (signal.aborted) return;
       const plan = await planRes.json();
       if (planRes.ok && plan.papersRead) {
         setPapersRead(plan.papersRead);
-        await hold(t0, Math.min(4500, 1600 + plan.papersRead * 150));
       }
 
       if (planRes.status === 402) {
@@ -212,12 +206,10 @@ export default function Dashboard() {
 
       if (signal.aborted) return;
       setPhase("pooling");
-      const t1 = Date.now();
       const poolRes = await post({ phase: "pool", blueprint: plan.blueprint });
       if (signal.aborted) return;
       const pool = await poolRes.json();
       if (!poolRes.ok) return fail(poolRes, pool, "Could not rank questions.");
-      await hold(t1, 1800);
 
       if (signal.aborted) return;
       setPhase("writing");
@@ -336,6 +328,13 @@ export default function Dashboard() {
               </ul>
             )}
           </div>
+          <p className="text-caption text-faint">
+            Course not showing up? Paste its syllabus below and generate anyway — and{" "}
+            <a href="/support" className="text-accent hover:underline">
+              send us the code + syllabus
+            </a>{" "}
+            so we add it properly for everyone.
+          </p>
 
           <TextArea
             label="Syllabus"

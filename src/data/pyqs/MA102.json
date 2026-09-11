@@ -8,6 +8,104 @@
       "maxMarks": null,
       "questions": [],
       "rawText": "BIRLA INSTITUTE OF TECHNOLOGY, MESRA, RANCHI\n(MID SEMESTER EXAMINATION)\n\nCLASS: IMSc   SEMESTER: I\nBRANCH: MATHEMATICS & COMPUTING  SESSION: MO/2022\n\nSUBJECT: MA102 REAL ANALYSIS\n\nTIME: 2 HOURS   FULL MARKS: 25\n\nINSTRUCTIONS:\n1. The question paper contains 5 questions each of 5 marks and total 25 marks.\n2. Attempt all questions.\n3. The missing data, if any, may be assumed suitably.\n4. Tables/Data handbook/Graph paper etc., if applicable, will be supplied to the candidates.\n----------------------------------------------------------------------------------------------------------------------------------\n\n\n\n   CO Bl\nQ.1(a)\nDefine supremum and infimum of a non-empty subset of ℝ.\n[2] 1 1\nQ.1(b) [3] 2 3\n\n\nQ.2(a) Construct examples of a closed set and an open set which are not intervals. [2] 1 3\nQ.2(b)\nLet  퐺⊆ℝ be an open set and 퐹⊆ℝ be a closed set. Explain the nature of the set 퐺∩\n퐹\n௖\n?\n[3] 2 2\n\n\nQ.3(a) [2] 1 3\nQ.3(b)\nExamine the convergence or divergence of the sequence\nቄ\n௡!\n௡\n೙\nቅ\n.\n[3] 3 4\n\n\nQ.4(a) [2] 1 4\nQ.4(b) Show that every Cauchy sequence is bounded. [3] 2 4\n\n\nQ.5(a) [2] 3 3\nQ.5(b) [3] 3 4\n\n\n\n\n :::::: 17/01/2023 ::::::M\n\nCalculate the supremum and the infimum of the set\nቄ\n푛+\n(\n−1\n)\n2푛\n푛\n,푛∈ℕ\nቅ\n.\nFind the formula for the nth term of the sequence\n100\n2\n,\n−(100)\n2\n6\n,\n(100)\n3\n24\n,\n−(100)\n4\n120\n,....\nExamine the monotonicity of the sequence\nቄ\n4\n푛+1\n+ 3\n푛\n4\n푛\nቅ\n.\nFind the limit of the sequence\n൜\n1+\n√\n2\n2\n+\n√\n3\n3\n+⋯\n√\n푛\n푛\n푛\nൠ\n.\nExamine convergence or divergence of the series\n∑\n1\n푛\n∞\n푛=1\n."
+    },
+    {
+      "session": "MO/2022",
+      "examType": "MID",
+      "maxMarks": 25,
+      "durationHrs": 2,
+      "questions": [
+        {
+          "number": "Q1",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Define supremum and infimum of a non-empty subset of ℝ.",
+              "marks": 2,
+              "topic": "supremum/infimum"
+            },
+            {
+              "label": "b",
+              "text": "",
+              "marks": 3,
+              "topic": null
+            }
+          ]
+        },
+        {
+          "number": "Q2",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "Construct examples of a closed set and an open set which are not intervals.",
+              "marks": 2,
+              "topic": "closed set/open set examples"
+            },
+            {
+              "label": "b",
+              "text": "Let G⊆ℝ be an open set and F⊆ℝ be a closed set. Explain the nature of the set G∩F ?",
+              "marks": 3,
+              "topic": "intersection of open and closed sets"
+            }
+          ]
+        },
+        {
+          "number": "Q3",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "",
+              "marks": 2,
+              "topic": null
+            },
+            {
+              "label": "b",
+              "text": "Examine the convergence or divergence of the sequence \nቄ\n௡!\n௡\n೙\nቅ .",
+              "marks": 3,
+              "topic": "sequence convergence"
+            }
+          ]
+        },
+        {
+          "number": "Q4",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "",
+              "marks": 2,
+              "topic": null
+            },
+            {
+              "label": "b",
+              "text": "Show that every Cauchy sequence is bounded.",
+              "marks": 3,
+              "topic": "Cauchy sequence boundedness"
+            }
+          ]
+        },
+        {
+          "number": "Q5",
+          "marks": 5,
+          "parts": [
+            {
+              "label": "a",
+              "text": "",
+              "marks": 2,
+              "topic": null
+            },
+            {
+              "label": "b",
+              "text": "",
+              "marks": 3,
+              "topic": null
+            }
+          ]
+        }
+      ]
     }
   ]
 }

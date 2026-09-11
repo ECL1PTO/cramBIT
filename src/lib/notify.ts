@@ -10,6 +10,19 @@ interface ClaimNotice {
   utr: string;
 }
 
+/** Fire-and-forget ping when a student completes a magic-link sign-in. */
+export async function notifyAdminOfLogin(email: string): Promise<void> {
+  if (!env.TELEGRAM_BOT_TOKEN || !env.TELEGRAM_ADMIN_CHAT_ID) return;
+  await fetch(`https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/sendMessage`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      chat_id: env.TELEGRAM_ADMIN_CHAT_ID,
+      text: `👤 Login: ${email}`,
+    }),
+  }).catch(() => {});
+}
+
 /** Sends the admin a Telegram message with inline Approve / Reject buttons. */
 export async function notifyAdminOfClaim(c: ClaimNotice): Promise<void> {
   if (!env.TELEGRAM_BOT_TOKEN || !env.TELEGRAM_ADMIN_CHAT_ID) return;
