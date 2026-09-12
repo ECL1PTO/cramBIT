@@ -12,11 +12,9 @@ import { SupportForm } from "@/components/support-form";
 import { HeroVisual } from "@/components/hero-visual";
 import { ShareButton } from "@/components/share-button";
 import { Reveal } from "@/components/reveal";
+import { Stat } from "@/components/stat";
 import { courseCount, indexedPaperCount, questionCount } from "@/lib/engine/data";
 import { DISCLAIMER_SHORT, NOT_AFFILIATED } from "@/data/legal";
-
-const compact = (n: number) =>
-  n >= 1000 ? `${(n / 1000).toFixed(n >= 10000 ? 0 : 1)}k` : String(n);
 
 const SHARE_TEXT =
   "found this thing called cramBIT, it reads your course's actual past papers and your syllabus and predicts your mid-sem questions before you even open a textbook. completely free too, no card, no catch. worth trying before your exam";
@@ -80,9 +78,9 @@ export default function LandingPage() {
 
           {/* stat strip */}
           <div className="rise rise-4 mx-auto mt-12 grid max-w-md grid-cols-3 gap-4 border-t border-border pt-6 lg:mx-0">
-            <Stat value={`${compact(papers)}`} label="previous papers" />
-            <Stat value={`${compact(questions)}`} label="questions analysed" />
-            <Stat value={courses.toLocaleString()} label="BIT Mesra courses" />
+            <Stat n={papers} kind="compact" label="previous papers" />
+            <Stat n={questions} kind="compact" label="questions analysed" />
+            <Stat n={courses} kind="plain" label="BIT Mesra courses" />
           </div>
         </div>
 
@@ -284,15 +282,6 @@ export default function LandingPage() {
         <span className="w-full text-faint md:w-auto">{NOT_AFFILIATED}</span>
       </Container>
     </main>
-  );
-}
-
-function Stat({ value, label }: { value: string; label: string }) {
-  return (
-    <div>
-      <p className="font-serif text-h1 leading-none text-text">{value}</p>
-      <p className="mt-2 text-body-sm text-muted">{label}</p>
-    </div>
   );
 }
 

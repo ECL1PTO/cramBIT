@@ -377,7 +377,7 @@ export default function Dashboard() {
         {/* output */}
         <div>
           {busy && (
-            <Card className="flex min-h-[420px] flex-col justify-center gap-5">
+            <Card className="fade-in flex min-h-[420px] flex-col justify-center gap-5">
               {(["planning", "pooling", "writing"] as const).map((p, i) => {
                 const order = { planning: 0, pooling: 1, writing: 2 }[phase as
                   | "planning"
@@ -387,9 +387,9 @@ export default function Dashboard() {
                 return (
                   <div key={p} className="flex items-center gap-3">
                     <span
-                      className={`grid h-6 w-6 shrink-0 place-items-center rounded-pill border text-caption ${
+                      className={`grid h-6 w-6 shrink-0 place-items-center rounded-pill border text-caption transition-colors duration-300 ${
                         state === "done"
-                          ? "border-accent bg-accent text-white"
+                          ? "pop border-accent bg-accent text-white"
                           : state === "active"
                             ? "border-accent text-accent"
                             : "border-border text-faint"
@@ -433,7 +433,7 @@ export default function Dashboard() {
           )}
 
           {!busy && sets.length === 0 && (
-            <Card className="flex min-h-[420px] flex-col items-center justify-center gap-2 text-center">
+            <Card className="fade-in flex min-h-[420px] flex-col items-center justify-center gap-2 text-center">
               <p className="font-serif text-h3 italic text-muted">{pickHype("empty")}</p>
               <p className="max-w-xs text-body-sm text-faint">
                 Your two predicted 25-mark papers will show up here.
@@ -442,7 +442,7 @@ export default function Dashboard() {
           )}
 
           {!busy && sets.length > 0 && (
-            <div>
+            <div className="fade-in">
               <p className="mb-4 font-serif text-lead italic text-muted no-print">
                 {pickHype("done", activeSet)}
               </p>
@@ -487,7 +487,10 @@ export default function Dashboard() {
                 />
               </div>
 
-              <article className="print-sheet overflow-x-auto rounded-sheet border border-border bg-surface p-6 text-left font-paper text-[1.02rem] leading-[1.7] text-text sm:p-10 [&_b]:font-semibold [&_h1]:mb-1 [&_h1]:text-center [&_h1]:text-h3 [&_h1]:font-semibold [&_h2]:mb-3 [&_h2]:text-center [&_h2]:text-body [&_h2]:font-semibold [&_hr]:my-5 [&_hr]:border-border [&_img]:hidden [&_p]:my-2 [&_strong]:font-semibold [&_table]:my-3 [&_table]:block [&_table]:w-full [&_table]:overflow-x-auto [&_td]:py-0.5 [&_td]:pr-6 [&_th]:pr-6 [&_th]:text-left">
+              <article
+                key={activeSet}
+                className="fade-in print-sheet overflow-x-auto rounded-sheet border border-border bg-surface p-6 text-left font-paper text-[1.02rem] leading-[1.7] text-text sm:p-10 [&_b]:font-semibold [&_h1]:mb-1 [&_h1]:text-center [&_h1]:text-h3 [&_h1]:font-semibold [&_h2]:mb-3 [&_h2]:text-center [&_h2]:text-body [&_h2]:font-semibold [&_hr]:my-5 [&_hr]:border-border [&_img]:hidden [&_p]:my-2 [&_strong]:font-semibold [&_table]:my-3 [&_table]:block [&_table]:w-full [&_table]:overflow-x-auto [&_td]:py-0.5 [&_td]:pr-6 [&_th]:pr-6 [&_th]:text-left"
+              >
                 <Markdown>{cleanPaper(sets[activeSet] ?? "")}</Markdown>
               </article>
               <div className="mt-5">

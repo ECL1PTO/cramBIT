@@ -230,12 +230,18 @@ main {
   85%  { opacity: 1; }
   100% { transform: translateY(950%); opacity: 0; }
 }
+@keyframes pop {
+  0%   { transform: scale(0.6); }
+  60%  { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
 
 .rise { animation: rise 0.7s var(--ease-glide) both; }
 .rise-1 { animation-delay: 0.05s; }
 .rise-2 { animation-delay: 0.13s; }
 .rise-3 { animation-delay: 0.21s; }
 .rise-4 { animation-delay: 0.29s; }
+.pop { animation: pop 0.35s var(--ease-glide) both; }
 .fade-in { animation: fade 0.5s ease both; }
 .cursor-blink { animation: blink 1.2s step-end infinite; }
 
