@@ -42,6 +42,13 @@ export const BlueprintSchema = z.object({
       typicalMarks: z.number(),
       questionStems: z.array(z.string()).max(8),
       difficulty: z.enum(["recall", "apply", "analyse"]),
+      // Some subjects (Personality Development, Management, HR, ...) set almost
+      // every question as a short scenario/case ("Company X is facing Y, how
+      // would you...") rather than a direct/abstract prompt. Missing this made
+      // the engine flatten real case-study papers into generic definitional
+      // questions — this is the format signal that fixes that.
+      questionFormat: z.enum(["direct", "case-study", "mixed"]).default("direct"),
+      caseStudyExamples: z.array(z.string()).max(4).default([]),
       lastAskedSession: z.string().default(""),
     }),
   ),

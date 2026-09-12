@@ -75,6 +75,19 @@ Analyse:
 - Recurring question phrasings/verbs per module.
 - Which modules were NOT asked in the most recent session (i.e. "due").
 - Which module pairs tend to appear together in one paper.
+- The FORMAT each module is actually examined in. Some subjects (Personality
+  Development, Management, HR, and similar applied/soft-skill courses) set
+  almost every question as a short realistic scenario or case ("A project is
+  missing deadlines because of unclear ownership, how would you fix this at a
+  team level?", "Do a SWOT analysis of X") rather than a direct/abstract prompt
+  ("Define X", "List the types of Y"). Read the actual past questions closely —
+  if they read like a mini case/scenario followed by an application ask, tag
+  that module "case-study"; if they're direct/abstract, tag it "direct"; if the
+  evidence shows a real mix, tag it "mixed". Do not default to "direct" just
+  because a module could theoretically be asked either way — go by what the
+  real papers actually show. For "case-study"/"mixed" modules, pull 1-2 short
+  example scenarios from the evidence (paraphrase, don't copy verbatim) into
+  "caseStudyExamples" so the next pass has a concrete style to match.
 
 Cover EVERY syllabus module. Base everything on the evidence above, not generic
 guessing. Reply with exactly this JSON object and nothing before or after it:
@@ -82,7 +95,10 @@ guessing. Reply with exactly this JSON object and nothing before or after it:
   "modules": [
     { "title": "<module>", "frequency": "very-high|high|medium|low",
       "typicalMarks": <number>, "questionStems": ["<recurring phrasings>"],
-      "difficulty": "recall|apply|analyse", "lastAskedSession": "<session or empty>" }
+      "difficulty": "recall|apply|analyse",
+      "questionFormat": "direct|case-study|mixed",
+      "caseStudyExamples": ["<short paraphrased example scenario, if any>"],
+      "lastAskedSession": "<session or empty>" }
   ],
   "coOccurring": [["<moduleA>","<moduleB>"]],
   "repeats": ["<near-verbatim recurring questions>"],
@@ -115,13 +131,21 @@ ${args.pastPapers.length ? `PAST PAPERS (for near-verbatim repeats):\n${renderPa
 Build a pool of the most probable individual sub-questions. For each:
 - Decide it is a 2-mark part (short/definitional) or a 3-mark part (derivation/algorithm/
   comparison/numerical).
+- Check the module's "questionFormat" in the blueprint. If it's "case-study" or "mixed",
+  that question must read like the real papers do: a short realistic scenario (a
+  workplace situation, a named-but-generic company, a decision someone has to make)
+  followed by the actual ask, not a bare abstract prompt. Use "caseStudyExamples" as
+  your style reference, but write a fresh scenario, never copy one verbatim. Modules
+  tagged "direct" should stay direct — don't invent a scenario where the real papers
+  don't use one.
 - Assign a probability (0-1) that a question of this kind appears on the next paper, based on
   frequency, recency ("due" topics score higher), and near-verbatim repeats (score highest).
 - Give a one-line rationale citing the pattern/years.
 
 Produce at least 16 candidates spanning all high- and medium-frequency modules (more 3-mark
-than 2-mark). Every question must be strictly inside the syllabus. Reply with exactly this
-JSON object and nothing before or after it:
+than 2-mark). For every module tagged "case-study" or "mixed", most of its candidates must
+carry that scenario framing, not just one token example. Every question must be strictly
+inside the syllabus. Reply with exactly this JSON object and nothing before or after it:
 { "candidates": [ { "module": "<module>", "marks": 2|3, "text": "<exact question>",
                     "probability": <0-1>, "rationale": "<why>" } ] }`;
 }
@@ -155,7 +179,9 @@ RULES:
   high-probability modules.
 - Rotate the lower-probability candidates so the ${args.setCount} papers are genuinely
   different, not reworded copies.
-- You may lightly rephrase a candidate for fit, but not change its topic or difficulty.
+- You may lightly rephrase a candidate for fit, but not change its topic or difficulty, and
+  not strip out a scenario/case-study framing if the candidate has one. A question written as
+  a short scenario must stay a scenario; don't flatten it into an abstract one-liner.
 - If the pool lacks a needed part, write one that matches the blueprint and syllabus.
 
 OUTPUT: plain GitHub-flavoured Markdown, left-aligned. Do NOT use any HTML tags,

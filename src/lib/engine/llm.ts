@@ -100,38 +100,63 @@ interface ChatOpts {
   maxTokens?: number;
 }
 
+function chatBody(a: Attempt, o: ChatOpts, includeReasoning: boolean) {
+  return {
+    model: a.model,
+    messages: [
+      ...(o.system ? [{ role: "system", content: o.system }] : []),
+      { role: "user", content: o.prompt },
+    ],
+    temperature: o.json ? 0.35 : 0.8,
+    max_tokens: o.maxTokens ?? 6000,
+    // gpt-oss / reasoning models spend hidden "reasoning" tokens out of the
+    // completion budget before the answer — keep that cheap so the JSON or
+    // paper actually fits, and cap it explicitly wherever a provider honours
+    // a hard token limit rather than just an effort label. This used to be
+    // sent unconditionally on the assumption that unrecognised fields are
+    // ignored — that's no longer true, Groq and OpenRouter both now 400 on
+    // it for some models ("property 'reasoning' is unsupported" / "only one
+    // of reasoning.effort and reasoning.max_tokens"), so callOpenAICompatible
+    // retries without this block on that specific error instead of failing.
+    ...(includeReasoning
+      ? { reasoning_effort: "low", reasoning: { effort: "low", max_tokens: 350, exclude: true } }
+      : {}),
+    ...(o.json ? { response_format: { type: "json_object" } } : {}),
+  };
+}
+
+const REASONING_REJECTED = /reasoning/i;
+
 async function callOpenAICompatible(
   a: Attempt,
   o: ChatOpts,
   timeoutMs = 45_000,
 ): Promise<string> {
-  const res = await fetch(`${a.base}/chat/completions`, {
-    method: "POST",
-    signal: AbortSignal.timeout(timeoutMs),
-    headers: {
-      Authorization: `Bearer ${a.key}`,
-      "Content-Type": "application/json",
-      ...a.extraHeaders,
-    },
-    body: JSON.stringify({
-      model: a.model,
-      messages: [
-        ...(o.system ? [{ role: "system", content: o.system }] : []),
-        { role: "user", content: o.prompt },
-      ],
-      temperature: o.json ? 0.35 : 0.8,
-      max_tokens: o.maxTokens ?? 6000,
-      // gpt-oss / reasoning models spend hidden "reasoning" tokens out of the
-      // completion budget before the answer — keep that cheap so the JSON or
-      // paper actually fits, and cap it explicitly wherever a provider honours
-      // a hard token limit rather than just an effort label. Unrecognised
-      // fields are ignored by OpenAI-compatible servers, so this is free to
-      // send everywhere — providers that don't support one form use the other.
-      reasoning_effort: "low",
-      reasoning: { effort: "low", max_tokens: 350, exclude: true },
-      ...(o.json ? { response_format: { type: "json_object" } } : {}),
-    }),
-  });
+  const post = (body: unknown) =>
+    fetch(`${a.base}/chat/completions`, {
+      method: "POST",
+      signal: AbortSignal.timeout(timeoutMs),
+      headers: {
+        Authorization: `Bearer ${a.key}`,
+        "Content-Type": "application/json",
+        ...a.extraHeaders,
+      },
+      body: JSON.stringify(body),
+    });
+
+  let res = await post(chatBody(a, o, true));
+  if (!res.ok && res.status === 400) {
+    const errText = await res.text();
+    if (REASONING_REJECTED.test(errText)) {
+      // This provider/model rejects the reasoning block outright rather than
+      // ignoring it — retry once without it instead of burning this whole
+      // attempt (and cascading to the next provider) over a field that was
+      // only ever a token-cost optimisation, not a requirement.
+      res = await post(chatBody(a, o, false));
+    } else {
+      throw new Error(`${a.provider}/${a.model} 400: ${errText.slice(0, 200)}`);
+    }
+  }
   if (!res.ok) {
     throw new Error(`${a.provider}/${a.model} ${res.status}: ${(await res.text()).slice(0, 200)}`);
   }

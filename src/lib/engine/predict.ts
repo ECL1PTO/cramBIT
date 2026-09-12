@@ -116,11 +116,12 @@ export async function buildBlueprint(r: Resolved): Promise<Blueprint> {
   const blueprint = await chatJson(
     {
       tier: "reason",
-      // Worst case (8 modules x 8 stems + 20 repeats + notes) is ~2200 tokens
-      // of real JSON content on a rich, well-documented course — leave real
-      // headroom above that plus reasoning, or the richest courses are the
-      // ones most likely to get silently truncated.
-      maxTokens: 3200,
+      // Worst case (8 modules x 8 stems + up to 4 case-study examples each +
+      // 20 repeats + notes) is meaningfully more JSON now that questionFormat/
+      // caseStudyExamples exist per module — leave real headroom above that
+      // plus reasoning, or the richest courses are the ones most likely to
+      // get silently truncated.
+      maxTokens: 3800,
       prompt: analysisPrompt({
         courseName: r.name,
         syllabus: r.syllabus,
@@ -206,7 +207,11 @@ export async function assembleBatch(
     chat({
       tier: "reason",
       json: false,
-      maxTokens: 900 + n * 750,
+      // Case-study/scenario questions (Personality Development, Management,
+      // HR-style subjects) run noticeably longer per sub-question than plain
+      // "Define X" prompts — the old 900 + n*750 budget was sized before that
+      // format existed and was truncating the later paper(s) mid-question.
+      maxTokens: 1100 + n * 1100,
       prompt: assemblyPrompt({
         courseCode: codeLabel,
         courseName: r.name,
