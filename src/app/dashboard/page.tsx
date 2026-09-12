@@ -267,7 +267,7 @@ export default function Dashboard() {
           <ShareButton
             compact
             label="Share"
-            text="using cramBIT rn to predict my mid-sem papers off real past papers + my syllabus, kinda scary how accurate it is. first subject's free, you should try it"
+            text="using cramBIT rn to predict my mid-sem papers off real past papers and my syllabus, kinda scary how accurate it is, and it's completely free, you should try it"
             className="hidden sm:flex"
           />
           <ThemeToggle />
@@ -335,9 +335,9 @@ export default function Dashboard() {
             )}
           </div>
           <p className="text-caption text-faint">
-            Course not showing up? Paste its syllabus below and generate anyway — and{" "}
+            Course not showing up? Paste its syllabus below and generate anyway, and{" "}
             <a href="/support" className="text-accent hover:underline">
-              send us the code + syllabus
+              send us the code and syllabus
             </a>{" "}
             so we add it properly for everyone.
           </p>
@@ -347,7 +347,7 @@ export default function Dashboard() {
             value={syllabus}
             onChange={(e) => setSyllabus(e.target.value)}
             placeholder="Paste only the module-wise syllabus for your section…"
-            hint="Only paste the portion actually covered in the mid-sem — usually 2 to 2.5 modules, not the full-semester syllabus. It's used as the hard boundary: nothing outside it will be asked."
+            hint="Only paste the portion actually covered in the mid-sem, usually 2 to 2.5 modules, not the full-semester syllabus. It's used as the hard boundary. Nothing outside it will be asked."
           />
 
           {busy ? (
@@ -356,11 +356,11 @@ export default function Dashboard() {
               className="w-full rounded-pill border border-danger/50 py-3 text-body-sm font-medium text-danger transition-[color,background-color,transform,opacity] duration-150 hover:bg-danger/10 active:scale-[0.98] active:opacity-80"
             >
               {STEP_COPY[phase as "planning" | "pooling" | "writing"]}
-              <span className="ml-2 opacity-70">— tap to stop</span>
+              <span className="ml-2 opacity-70">(tap to stop)</span>
             </button>
           ) : (
             <Button onClick={run} className="w-full py-3">
-              {sets.length ? "Regenerate" : "Generate papers"}
+              {sets.length ? "Regenerate" : "Generate papers, it's free"}
             </Button>
           )}
 
@@ -368,8 +368,8 @@ export default function Dashboard() {
             <p className="fade-in text-caption text-faint">
               {triesLeft} regeneration{triesLeft === 1 ? "" : "s"} left for{" "}
               <span className="font-mono text-muted">{courseCode ?? courseInput}</span>.
-              Wrong syllabus? Fix it above and regenerate — everything&apos;s free, just capped
-              so it holds up for everyone.
+              Wrong syllabus? Fix it above and regenerate. Everything&apos;s free, the cap is
+              just there so it holds up for everyone.
             </p>
           )}
         </div>
@@ -483,7 +483,7 @@ export default function Dashboard() {
                 <ShareButton
                   compact
                   label="Share with classmates"
-                  text={`just generated my predicted ${courseCode ?? courseInput} mid-sem paper on cramBIT and ngl it's scary accurate 💀 real past papers + my syllabus → 2 full sets. try it before your mid-sem, first subject's free`}
+                  text={`just generated my predicted ${courseCode ?? courseInput} mid-sem paper on cramBIT and ngl it's scary accurate 💀 real past papers and my syllabus, 2 full sets. completely free too, try it before your mid-sem`}
                 />
               </div>
 

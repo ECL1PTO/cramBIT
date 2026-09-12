@@ -10,13 +10,13 @@ export const NOT_AFFILIATED =
   "cramBIT is an independent student tool. Not affiliated with, endorsed by, or connected to Birla Institute of Technology, Mesra.";
 
 export const PAPER_FOOTER =
-  "Predicted paper — AI-generated estimate from past papers and syllabus. No accuracy guarantee. cramBIT accepts no liability for exam outcomes.";
+  "Predicted paper. An AI-generated estimate from past papers and syllabus, not a guarantee. cramBIT accepts no liability for exam outcomes.";
 
 export const DISCLAIMER_ACK =
   "I understand these are predictions with no guarantee of accuracy, that questions I study may not appear, and that cramBIT is not responsible for my exam result.";
 
 export const PAYMENT_NOTE =
-  "cramBIT is free for everyone — this is a fully optional contribution, not a payment for results or for access. Nothing is unlocked by it and nothing is owed back.";
+  "cramBIT is free for everyone. This is a fully optional contribution, not a payment for results or access. Nothing is unlocked by it and nothing is owed back.";
 
 export const TERMS_SECTIONS: { heading: string; body: string }[] = [
   {
@@ -33,7 +33,7 @@ export const TERMS_SECTIONS: { heading: string; body: string }[] = [
   },
   {
     heading: "Support contributions",
-    body: "cramBIT is free for everyone — nothing is gated behind payment. Any contribution made through the optional \"support\" option is voluntary, unlocks nothing, and is not a purchase of results; it simply helps keep the service running.",
+    body: "cramBIT is free for everyone, nothing is gated behind payment. Any contribution made through the optional \"support\" option is voluntary, unlocks nothing, and is not a purchase of results. It simply helps keep the service running.",
   },
   {
     heading: "Acceptable use",

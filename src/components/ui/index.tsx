@@ -59,7 +59,7 @@ export function SectionHeading({
 type ButtonVariant = "primary" | "ghost" | "quiet";
 
 const buttonBase =
-  "inline-flex items-center justify-center gap-2 rounded-pill px-5 py-2.5 text-body-sm font-medium transition-[color,background-color,border-color,transform,opacity] duration-150 active:scale-[0.96] active:opacity-80 disabled:opacity-50 disabled:pointer-events-none disabled:active:scale-100";
+  "inline-flex items-center justify-center gap-2 rounded-pill px-5 py-2.5 text-body-sm font-medium transition-[color,background-color,border-color,transform,opacity] duration-150 hover:scale-[1.03] active:scale-[0.96] active:opacity-80 disabled:opacity-50 disabled:pointer-events-none disabled:active:scale-100";
 
 const buttonVariants: Record<ButtonVariant, string> = {
   primary: "bg-accent text-white hover:bg-accent-hover",

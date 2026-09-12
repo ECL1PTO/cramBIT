@@ -17,10 +17,10 @@ export default function PayPage() {
         <Card className="mt-6">
           <h1 className="text-h3 font-normal text-text">Support cramBIT</h1>
           <p className="mt-3 text-body-sm leading-relaxed text-muted">
-            cramBIT is free for everyone and stays that way — this isn&apos;t a paywall,
+            cramBIT is free for everyone and stays that way. This isn&apos;t a paywall,
             nothing is unlocked by it. If it genuinely helped, a small contribution
-            goes toward keeping it running (and maybe a proper end-sem version, if this
-            mid-sem run does well).
+            goes toward keeping it running, and maybe a proper end-sem version too,
+            if this mid-sem run goes well.
           </p>
 
           {RAZORPAY ? (
@@ -29,12 +29,12 @@ export default function PayPage() {
             </div>
           ) : (
             <p className="mt-6 text-body-sm text-faint">
-              Support isn&apos;t enabled yet — check back later.
+              Support isn&apos;t enabled yet, check back later.
             </p>
           )}
 
           <p className="mt-5 text-caption text-faint">
-            Entirely optional. No refunds needed — nothing was ever locked behind this.
+            Entirely optional. No refunds needed, nothing was ever locked behind this.
           </p>
         </Card>
       </Container>

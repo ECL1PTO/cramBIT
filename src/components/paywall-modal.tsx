@@ -5,7 +5,7 @@ import { Card } from "@/components/ui";
 import { FAIR_USE_SUBJECT_CAP, SUBJECT_REGEN_CAP } from "@/lib/limits";
 
 /**
- * cramBIT is free for everyone — this is no longer a paywall, just an honest
+ * cramBIT is free for everyone. This is no longer a paywall, just an honest
  * "you've hit the fair-use limit" notice. Nothing here is trying to sell
  * anything; /pay is a fully optional, no-strings "support us" link.
  */
@@ -39,7 +39,7 @@ export function PaywallModal({
             <>
               cramBIT is free, but to keep it running for everyone each account is capped
               at {FAIR_USE_SUBJECT_CAP} different subjects this season. You&apos;ve used all{" "}
-              {FAIR_USE_SUBJECT_CAP} — if that&apos;s genuinely not enough, message support
+              {FAIR_USE_SUBJECT_CAP}. If that&apos;s genuinely not enough, message support
               and we&apos;ll see what we can do.
             </>
           ) : (
