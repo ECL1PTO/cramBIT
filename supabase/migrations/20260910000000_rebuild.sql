@@ -195,4 +195,6 @@ alter table public.rate_limits enable row level security;
 
 -- ============================================================ admin seed
 
-update public.profiles set is_admin = true where email = 'redacted@example.com';
+-- Grant yourself admin once, manually, after your first login — do NOT hardcode
+-- an email here (this file ships in the repo). Run in the Supabase SQL editor:
+--   update public.profiles set is_admin = true where email = 'you@example.com';
