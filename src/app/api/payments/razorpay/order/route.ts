@@ -1,79 +1,45 @@
 import { NextResponse } from "next/server";
 import { z } from "zod";
 import { requireUser } from "@/lib/auth";
-import { createServiceClient } from "@/utils/supabase/service";
-import { getCourse } from "@/lib/engine/data";
-import { amountForPlan } from "@/data/pricing";
 import { createOrder } from "@/lib/razorpay";
 import { razorpayConfigured, env } from "@/lib/env";
+import { MIN_SUPPORT_AMOUNT, MAX_SUPPORT_AMOUNT } from "@/data/pricing";
 
 export const runtime = "nodejs";
 
+// cramBIT is free for everyone — this is a voluntary "support us" contribution
+// only. The amount is whatever the user chooses; the only thing enforced
+// server-side is that it's a sane positive number, not a scope/plan.
 const Body = z.object({
-  plan: z.enum(["subject", "bundle"]),
-  subjectCode: z.string().max(20).optional(),
+  amount: z.number().positive().min(MIN_SUPPORT_AMOUNT).max(MAX_SUPPORT_AMOUNT),
 });
 
 export async function POST(req: Request) {
   if (!razorpayConfigured) {
-    return NextResponse.json({ error: "Card/UPI checkout isn't enabled yet." }, { status: 503 });
+    return NextResponse.json({ error: "Checkout isn't enabled yet." }, { status: 503 });
   }
 
   const user = await requireUser();
   if (!user) return NextResponse.json({ error: "Sign in required." }, { status: 401 });
 
   const parsed = Body.safeParse(await req.json().catch(() => null));
-  if (!parsed.success) return NextResponse.json({ error: "Bad request." }, { status: 400 });
-  const { plan, subjectCode } = parsed.data;
-
-  // Server decides scope + amount — client input is never trusted.
-  let code: string | null = null;
-  if (plan === "subject") {
-    const course = subjectCode ? getCourse(subjectCode) : null;
-    if (!course) return NextResponse.json({ error: "Unknown subject." }, { status: 400 });
-    code = course.code;
+  if (!parsed.success) {
+    return NextResponse.json(
+      { error: `Enter an amount between ₹${MIN_SUPPORT_AMOUNT} and ₹${MAX_SUPPORT_AMOUNT}.` },
+      { status: 400 },
+    );
   }
-  const amount = env.PAYMENT_TEST_AMOUNT ?? amountForPlan(plan);
-
-  const db = createServiceClient();
-
-  // Don't sell what they already hold.
-  const { data: ents } = await db
-    .from("entitlements")
-    .select("scope, subject_code")
-    .eq("user_id", user.id)
-    .eq("active", true);
-  if (ents?.some((e) => e.scope === "bundle")) {
-    return NextResponse.json({ error: "You already have the season bundle." }, { status: 409 });
-  }
-  if (code && ents?.some((e) => e.scope === "subject" && e.subject_code === code)) {
-    return NextResponse.json({ error: `${code} is already unlocked.` }, { status: 409 });
-  }
+  const { amount } = parsed.data;
 
   let order;
   try {
-    order = await createOrder(amount, `crambit_${user.id.slice(0, 8)}_${Date.now()}`, {
+    order = await createOrder(amount, `crambit_support_${user.id.slice(0, 8)}_${Date.now()}`, {
       user_id: user.id,
-      plan,
-      subject_code: code ?? "",
+      purpose: "support",
     });
   } catch (err) {
     console.error("razorpay order:", err);
     return NextResponse.json({ error: "Could not start checkout." }, { status: 502 });
-  }
-
-  const { error } = await db.from("payment_claims").insert({
-    user_id: user.id,
-    plan,
-    subject_code: code,
-    amount,
-    provider: "razorpay",
-    provider_ref: order.id,
-    upi_utr: null,
-  });
-  if (error && error.code !== "23505") {
-    console.error("claim insert:", error);
-    return NextResponse.json({ error: "Could not start checkout." }, { status: 500 });
   }
 
   return NextResponse.json({
@@ -82,6 +48,5 @@ export async function POST(req: Request) {
     currency: order.currency,
     keyId: env.NEXT_PUBLIC_RAZORPAY_KEY_ID ?? env.RAZORPAY_KEY_ID,
     email: user.email ?? "",
-    name: plan === "bundle" ? "cramBIT — season bundle" : `cramBIT — unlock ${code}`,
   });
 }

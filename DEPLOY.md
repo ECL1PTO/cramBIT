@@ -207,10 +207,11 @@ Add every row to **Production** (and Preview if you want preview deploys to work
 | `LLM_GATEWAY_MODEL` | `crambit` (your combo name) |
 | `GROQ_API_KEY`, `OPENROUTER_API_KEY` | keep as fallback (optional) |
 
-Payments/email (only when you turn them on):
-`NEXT_PUBLIC_UPI_VPA`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_ADMIN_CHAT_ID`,
-`TELEGRAM_WEBHOOK_SECRET`, `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`,
-`SMTP_FROM`, `RESEND_API_KEY`.
+Support/email (only when you turn them on — cramBIT itself is free, these
+just power the optional "support us" contribution and transactional mail):
+`RAZORPAY_KEY_ID`, `RAZORPAY_KEY_SECRET`, `RAZORPAY_WEBHOOK_SECRET`,
+`NEXT_PUBLIC_RAZORPAY_KEY_ID`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_ADMIN_CHAT_ID`,
+`SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`, `SMTP_FROM`, `RESEND_API_KEY`.
 
 ### 2.3 Deploy, then fix the URL
 
@@ -225,6 +226,8 @@ Payments/email (only when you turn them on):
 In the Supabase **SQL Editor**, run (if you haven't):
 - `supabase/migrations/20260910000000_rebuild.sql`
 - `supabase/migrations/20260910120000_feedback.sql`
+- `supabase/migrations/20260911100000_razorpay.sql`
+- `supabase/migrations/20260912000000_contributions.sql`
 
 Then seed the course list from your machine:
 ```bash
@@ -244,5 +247,5 @@ for a real course code. If generation works, the gateway is wired correctly.
 - **Update OmniRoute**: `cd ~/omni && docker compose pull && docker compose up -d`.
 - **Add PYQ data**: run `scripts/scrape-archive.mjs` → `extract-pyqs.mjs` →
   `build-index.mjs` → `seed-subjects.mjs`, commit the `src/data/` changes.
-- **Payments**: see `project_reference/EMAIL_SETUP.md` and the UPI/Telegram env
-  vars; migration already has the tables.
+- **Support contributions**: see `project_reference/EMAIL_SETUP.md`; the
+  `contributions` migration already has the table, nothing else to run.

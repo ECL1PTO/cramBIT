@@ -23,24 +23,20 @@ const schema = z.object({
   LLM_GATEWAY_MODEL_FAST: z.string().optional(),
 
   NEXT_PUBLIC_SITE_URL: z.string().url().default("http://localhost:3000"),
-  NEXT_PUBLIC_UPI_VPA: z.string().min(3).optional(),
   NEXT_PUBLIC_SUPPORT_EMAIL: z.string().email().default("crambit.study@gmail.com"),
 
   TELEGRAM_BOT_TOKEN: z.string().optional(),
   TELEGRAM_ADMIN_CHAT_ID: z.string().optional(),
-  TELEGRAM_WEBHOOK_SECRET: z.string().optional(),
 
-  // Razorpay — when all three are set, checkout + the payment.captured webhook
-  // replace the manual UPI/UTR flow and unlock instantly.
+  // Razorpay — powers the fully optional "support us" contribution. cramBIT
+  // itself is free for everyone; nothing here gates access.
   RAZORPAY_KEY_ID: z.string().optional(),
   RAZORPAY_KEY_SECRET: z.string().optional(),
   RAZORPAY_WEBHOOK_SECRET: z.string().optional(),
   NEXT_PUBLIC_RAZORPAY_KEY_ID: z.string().optional(), // same value, exposed to checkout
-  // Set to "1" (rupees) only for a live end-to-end payment test. Remove after.
-  PAYMENT_TEST_AMOUNT: z.coerce.number().positive().optional(),
 
-  // Transactional email (payment activation). SMTP is preferred — one config
-  // that also powers Supabase Auth's magic-link mail. Resend API is a fallback.
+  // Transactional email (support ack + thank-you). SMTP is preferred — one
+  // config that also powers Supabase Auth's magic-link mail. Resend is a fallback.
   SMTP_HOST: z.string().optional(),
   SMTP_PORT: z.coerce.number().optional(),
   SMTP_USER: z.string().optional(),
@@ -67,13 +63,3 @@ export const env = parsed.data;
 export const razorpayConfigured = Boolean(
   env.RAZORPAY_KEY_ID && env.RAZORPAY_KEY_SECRET && env.RAZORPAY_WEBHOOK_SECRET,
 );
-
-export const upiFlowConfigured = Boolean(
-  env.NEXT_PUBLIC_UPI_VPA &&
-    env.TELEGRAM_BOT_TOKEN &&
-    env.TELEGRAM_ADMIN_CHAT_ID &&
-    env.TELEGRAM_WEBHOOK_SECRET,
-);
-
-/** Some paid path is available (Razorpay preferred, manual UPI as fallback). */
-export const paymentsConfigured = razorpayConfigured || upiFlowConfigured;

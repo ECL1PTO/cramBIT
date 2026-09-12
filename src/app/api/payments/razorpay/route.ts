@@ -1,12 +1,15 @@
 import { NextResponse } from "next/server";
 import { createServiceClient } from "@/utils/supabase/service";
 import { verifyWebhook } from "@/lib/razorpay";
-import { sendActivationEmail } from "@/lib/notify";
+import { sendThankYouEmail } from "@/lib/notify";
 
 export const runtime = "nodejs";
 
 // Razorpay webhook. Configure in the dashboard with event `payment.captured`
 // pointing at https://<site>/api/payments/razorpay and the shared secret.
+//
+// cramBIT is free for everyone now — this only ever records a voluntary
+// "support us" contribution. Nothing is unlocked or gated by it.
 export async function POST(req: Request) {
   const raw = await req.text();
   if (!verifyWebhook(raw, req.headers.get("x-razorpay-signature"))) {
@@ -15,7 +18,17 @@ export async function POST(req: Request) {
 
   let event: {
     event?: string;
-    payload?: { payment?: { entity?: { order_id?: string; email?: string; notes?: Record<string, string> } } };
+    payload?: {
+      payment?: {
+        entity?: {
+          id?: string;
+          order_id?: string;
+          email?: string;
+          amount?: number;
+          notes?: Record<string, string>;
+        };
+      };
+    };
   };
   try {
     event = JSON.parse(raw);
@@ -28,40 +41,28 @@ export async function POST(req: Request) {
   }
 
   const payment = event.payload?.payment?.entity;
-  const orderId = payment?.order_id;
-  if (!orderId) return NextResponse.json({ error: "no order_id" }, { status: 400 });
+  if (!payment?.order_id || payment.notes?.purpose !== "support") {
+    // Not a support contribution created through our order route — ignore
+    // rather than error, so Razorpay doesn't retry forever.
+    return NextResponse.json({ ok: true, ignored: "not-a-support-contribution" });
+  }
 
   const db = createServiceClient();
-  const { data: claim } = await db
-    .from("payment_claims")
-    .select("id, status, user_id, plan, subject_code")
-    .eq("provider_ref", orderId)
-    .maybeSingle();
-
-  if (!claim) {
-    // Order not created through our route — ignore rather than error (keeps
-    // Razorpay from retrying forever).
-    return NextResponse.json({ ok: true, unmatched: true });
-  }
-  if (claim.status === "approved") {
-    return NextResponse.json({ ok: true, already: true }); // idempotent
+  const { error } = await db.from("contributions").insert({
+    user_id: payment.notes?.user_id || null,
+    amount: Math.round((payment.amount ?? 0) / 100),
+    provider: "razorpay",
+    provider_ref: payment.id ?? payment.order_id,
+  });
+  if (error && error.code !== "23505") {
+    // 23505 = unique violation on provider_ref — Razorpay retried, already recorded.
+    console.error("contribution insert:", error);
+    return NextResponse.json({ error: "insert failed" }, { status: 500 });
   }
 
-  const { error } = await db
-    .from("payment_claims")
-    .update({ status: "approved", reviewed_at: new Date().toISOString(), reviewer: "razorpay" })
-    .eq("id", claim.id)
-    .eq("status", "pending");
-  if (error) {
-    console.error("razorpay approve:", error);
-    return NextResponse.json({ error: "update failed" }, { status: 500 });
-  }
-  // The grant_entitlement_on_approval trigger has now created the entitlement.
-
-  const scope = claim.plan === "bundle" ? "the season bundle" : (claim.subject_code ?? "your subject");
-  const to = payment?.notes?.email || payment?.email;
+  const to = payment.notes?.email || payment.email;
   if (to) {
-    sendActivationEmail(to, scope).catch((e) => console.error("activation email:", e));
+    sendThankYouEmail(to).catch((e) => console.error("thank-you email:", e));
   }
 
   return NextResponse.json({ ok: true });

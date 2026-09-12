@@ -1,40 +1,35 @@
 import "server-only";
 import type { SupabaseClient } from "@supabase/supabase-js";
-import { BUNDLE_SUBJECT_CAP } from "@/data/pricing";
+import { SUBJECT_REGEN_CAP, FAIR_USE_SUBJECT_CAP } from "@/lib/limits";
 
 /**
- * Anti-abuse model (college students will do anything to avoid paying):
+ * cramBIT is free for everyone — no payment, no plans. The only limits are
+ * fair-use caps that protect the free-tier LLM budget from a single account
+ * looping generations forever:
  *
- * - FREE plan: the first generation binds the user to ONE course. They may
- *   re-generate for that same course (tweaking the syllabus) up to
- *   FREE_REGEN_CAP times. Switching to any other course requires payment.
- * - PER-SUBJECT (₹49) and BUNDLE (₹199): every subject — including each
- *   subject inside a bundle — is capped at SUBJECT_REGEN_CAP re-generations,
- *   so no single subject becomes an unlimited re-roll.
+ * - a user may generate for up to FAIR_USE_SUBJECT_CAP distinct subjects
+ * - each subject may be (re)generated up to SUBJECT_REGEN_CAP times
  *
  * The course identity is the resolved subject code, or (for unknown courses)
  * the normalised typed string — stored in generated_papers.course_input.
  *
  * Caps are deliberately tight: every generation is a 4-5 call multi-pass job
- * against a shared free-tier LLM budget, so a free user gets a small number of
- * real attempts, not an unlimited re-roll.
+ * against a shared free-tier LLM budget, so no single account gets an
+ * unlimited re-roll.
  */
-
-export const FREE_REGEN_CAP = 4;
-export const SUBJECT_REGEN_CAP = 4;
+export { SUBJECT_REGEN_CAP, FAIR_USE_SUBJECT_CAP };
 
 export interface EntitlementCheck {
   allowed: boolean;
-  isPaid: boolean;
-  reason?: "needs-payment" | "regen-cap" | "bundle-full";
-  lockedCourse?: string; // the course the free/paid plan is bound to
+  reason?: "subject-cap" | "regen-cap";
+  lockedCourse?: string;
   triesLeft?: number;
 }
 
 export async function checkEntitlement(
   db: SupabaseClient,
   userId: string,
-  subjectCode: string | null,
+  _subjectCode: string | null,
   courseKey: string,
 ): Promise<EntitlementCheck> {
   // Admins (the operator) get unlimited, unrestricted access to every course.
@@ -43,71 +38,24 @@ export async function checkEntitlement(
     .select("is_admin")
     .eq("id", userId)
     .maybeSingle();
-  if (prof?.is_admin) return { allowed: true, isPaid: true };
+  if (prof?.is_admin) return { allowed: true };
 
-  const { data: ents } = await db
-    .from("entitlements")
-    .select("scope, subject_code")
-    .eq("user_id", userId)
-    .eq("active", true);
-
-  const hasBundle = ents?.some((e) => e.scope === "bundle") ?? false;
-  const hasSubject =
-    subjectCode != null &&
-    (ents?.some((e) => e.scope === "subject" && e.subject_code === subjectCode) ?? false);
-
-  if (hasBundle) {
-    const { data: paidRows } = await db
-      .from("generated_papers")
-      .select("subject_code, course_input")
-      .eq("user_id", userId)
-      .eq("is_paid", true);
-    const rows = paidRows ?? [];
-    const distinctSubjects = new Set(rows.map((r) => r.subject_code ?? r.course_input));
-    if (!distinctSubjects.has(courseKey) && distinctSubjects.size >= BUNDLE_SUBJECT_CAP) {
-      return { allowed: false, isPaid: true, reason: "bundle-full" };
-    }
-    const used = rows.filter((r) => (r.subject_code ?? r.course_input) === courseKey).length;
-    if (used >= SUBJECT_REGEN_CAP) {
-      return { allowed: false, isPaid: true, reason: "regen-cap", lockedCourse: courseKey };
-    }
-    return { allowed: true, isPaid: true, triesLeft: SUBJECT_REGEN_CAP - used };
-  }
-
-  if (hasSubject) {
-    const { count } = await db
-      .from("generated_papers")
-      .select("id", { count: "exact", head: true })
-      .eq("user_id", userId)
-      .eq("subject_code", subjectCode);
-    const used = count ?? 0;
-    if (used >= SUBJECT_REGEN_CAP) {
-      return { allowed: false, isPaid: true, reason: "regen-cap", lockedCourse: subjectCode! };
-    }
-    return { allowed: true, isPaid: true, triesLeft: SUBJECT_REGEN_CAP - used };
-  }
-
-  // ---- Free plan ----
-  const { data: freeRows } = await db
+  const { data: rows } = await db
     .from("generated_papers")
     .select("subject_code, course_input")
-    .eq("user_id", userId)
-    .eq("is_paid", false)
-    .order("created_at", { ascending: true });
+    .eq("user_id", userId);
 
-  if (!freeRows?.length) {
-    // First ever generation — this becomes their free course.
-    return { allowed: true, isPaid: false, triesLeft: FREE_REGEN_CAP - 1 };
-  }
+  const all = rows ?? [];
+  const distinctSubjects = new Set(all.map((r) => r.subject_code ?? r.course_input));
+  const used = all.filter((r) => (r.subject_code ?? r.course_input) === courseKey).length;
 
-  const boundKey = freeRows[0].subject_code ?? freeRows[0].course_input;
-  if (boundKey !== courseKey) {
-    return { allowed: false, isPaid: false, reason: "needs-payment", lockedCourse: boundKey };
+  if (!distinctSubjects.has(courseKey) && distinctSubjects.size >= FAIR_USE_SUBJECT_CAP) {
+    return { allowed: false, reason: "subject-cap" };
   }
-  if (freeRows.length >= FREE_REGEN_CAP) {
-    return { allowed: false, isPaid: false, reason: "regen-cap", lockedCourse: boundKey };
+  if (used >= SUBJECT_REGEN_CAP) {
+    return { allowed: false, reason: "regen-cap", lockedCourse: courseKey };
   }
-  return { allowed: true, isPaid: false, triesLeft: FREE_REGEN_CAP - freeRows.length };
+  return { allowed: true, triesLeft: SUBJECT_REGEN_CAP - used };
 }
 
 const LIMITS: Record<string, { max: number; windowMs: number }> = {

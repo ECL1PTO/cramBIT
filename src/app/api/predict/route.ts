@@ -11,7 +11,6 @@ import {
 } from "@/lib/engine/predict";
 import { normalizeCode } from "@/lib/engine/data";
 import { BlueprintSchema, CandidateSchema } from "@/lib/engine/types";
-import { PRICING } from "@/data/pricing";
 
 export const runtime = "nodejs";
 export const maxDuration = 60;
@@ -49,10 +48,9 @@ export async function POST(req: Request) {
   if (!ent.allowed) {
     return NextResponse.json(
       {
-        error: ent.reason ?? "needs-payment",
+        error: ent.reason ?? "subject-cap",
         courseCode: r.code,
         lockedCourse: ent.lockedCourse ?? null,
-        plans: { subject: r.code ? PRICING.perSubject : null, bundle: PRICING.bundle },
       },
       { status: 402 },
     );
@@ -67,7 +65,6 @@ export async function POST(req: Request) {
         courseName: r.name,
         borrowedFrom: r.borrowedFrom,
         papersRead: r.papersRead,
-        isPaid: ent.isPaid,
         triesLeft: ent.triesLeft ?? null,
         blueprint: bp,
       });
@@ -117,7 +114,7 @@ export async function POST(req: Request) {
       blueprint: { ...blueprint, topCandidates: candidates.slice(0, 12) },
       sets,
       set_count: sets.length,
-      is_paid: ent.isPaid,
+      is_paid: true, // cramBIT is free for everyone now — column kept for historical rows.
     });
     if (insertError) {
       // The paper was generated — don't fail the request, but the free-credit
@@ -128,7 +125,6 @@ export async function POST(req: Request) {
     return NextResponse.json({
       coverage: r.coverage,
       sets,
-      isPaid: ent.isPaid,
       triesLeft: ent.triesLeft != null ? ent.triesLeft - 1 : null,
     });
   } catch (err) {

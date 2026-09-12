@@ -61,15 +61,12 @@ export default function Dashboard() {
   const [sets, setSets] = useState<string[]>([]);
   const [activeSet, setActiveSet] = useState(0);
   const [courseCode, setCourseCode] = useState<string | null>(null);
-  const [isPaid, setIsPaid] = useState(false);
   const [triesLeft, setTriesLeft] = useState<number | null>(null);
   const [papersRead, setPapersRead] = useState(0);
   const [scanned, setScanned] = useState(0);
   const [copied, setCopied] = useState(false);
 
-  const [paywall, setPaywall] = useState<
-    null | { code: string | null; locked?: string | null; reason?: string }
-  >(null);
+  const [paywall, setPaywall] = useState<null | { code: string | null; reason?: string }>(null);
   const [needAck, setNeedAck] = useState(false);
 
   useEffect(() => {
@@ -196,11 +193,7 @@ export default function Dashboard() {
 
       if (planRes.status === 402) {
         setPhase("idle");
-        setPaywall({
-          code: plan.courseCode ?? null,
-          locked: plan.lockedCourse ?? null,
-          reason: plan.error,
-        });
+        setPaywall({ code: plan.courseCode ?? null, reason: plan.error });
         return;
       }
       if (planRes.status === 428) {
@@ -235,16 +228,11 @@ export default function Dashboard() {
       if (!writeRes.ok) {
         setPhase("idle");
         if (writeRes.status === 402)
-          return setPaywall({
-            code: plan.courseCode ?? null,
-            locked: written.lockedCourse ?? null,
-            reason: written.error,
-          });
+          return setPaywall({ code: plan.courseCode ?? null, reason: written.error });
         if (writeRes.status === 428) return setNeedAck(true);
         return fail(writeRes, written, "Generation failed.");
       }
       setSets(written.sets ?? []);
-      setIsPaid(Boolean(written.isPaid));
       setTriesLeft(written.triesLeft ?? null);
       setPhase("done");
       abortRef.current = null;
@@ -378,11 +366,10 @@ export default function Dashboard() {
 
           {triesLeft != null && sets.length > 0 && (
             <p className="fade-in text-caption text-faint">
-              {isPaid ? "Subject unlocked" : "Free plan"} · {triesLeft} regeneration
-              {triesLeft === 1 ? "" : "s"} left for{" "}
+              {triesLeft} regeneration{triesLeft === 1 ? "" : "s"} left for{" "}
               <span className="font-mono text-muted">{courseCode ?? courseInput}</span>.
-              Wrong syllabus? Fix it above and regenerate — switching to another course needs
-              payment.
+              Wrong syllabus? Fix it above and regenerate — everything&apos;s free, just capped
+              so it holds up for everyone.
             </p>
           )}
         </div>
@@ -514,7 +501,6 @@ export default function Dashboard() {
       {paywall && (
         <PaywallModal
           courseCode={paywall.code}
-          locked={paywall.locked}
           reason={paywall.reason}
           onClose={() => setPaywall(null)}
         />

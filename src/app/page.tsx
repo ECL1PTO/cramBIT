@@ -12,7 +12,6 @@ import { SupportForm } from "@/components/support-form";
 import { HeroVisual } from "@/components/hero-visual";
 import { ShareButton } from "@/components/share-button";
 import { courseCount, indexedPaperCount, questionCount } from "@/lib/engine/data";
-import { PRICING } from "@/data/pricing";
 import { DISCLAIMER_SHORT, NOT_AFFILIATED } from "@/data/legal";
 
 const compact = (n: number) =>
@@ -157,35 +156,29 @@ export default function LandingPage() {
           eyebrow="Pricing"
           title={
             <>
-              First subject <span className="gradient-text">free</span>. Try it against a real
-              exam.
+              Completely <span className="gradient-text">free</span>. No catch.
             </>
           }
-          lead="Generate your first subject for free, sit the exam, and see for yourself how close it lands. If it's worth it, come back and unlock the rest."
+          lead="cramBIT is free for every subject, for everyone. Up to 6 subjects and 4 generations each — a fair-use cap so the free infra behind this holds up, not a paywall."
         />
-        <div className="mt-10 grid gap-4 md:grid-cols-3">
+        <div className="mt-10 grid gap-4 md:grid-cols-2">
           <PriceCard
-            name="First subject"
+            name="Every subject"
             price="Free"
-            note="Any course, up to 4 generations for it. No card."
+            note="Up to 6 subjects, 4 generations each. No card, ever."
             cta={{ label: "Start free", href: "/login" }}
-          />
-          <PriceCard
-            name="Per subject"
-            price={`₹${PRICING.perSubject}`}
-            note="Unlock one extra subject — up to 4 generations for it. Pick which one after you log in."
-            cta={{ label: "Log in to unlock", href: "/login" }}
-          />
-          <PriceCard
-            name="Season bundle"
-            price={`₹${PRICING.bundle}`}
-            note="Up to 5 subjects this mid-sem season, 4 generations each. The obvious pick if you have 3 or more."
-            cta={{ label: "Unlock 5 subjects", href: "/pay?plan=bundle" }}
             highlight
+          />
+          <PriceCard
+            name="Support cramBIT"
+            price="Optional"
+            note="Free for everyone stays the plan. If it genuinely helped, you can chip in whatever feels right — entirely optional."
+            cta={{ label: "Support cramBIT", href: "/pay" }}
           />
         </div>
         <p className="mt-4 text-center text-caption text-faint md:text-left">
-          Payment unlocks the tool, not a result. No refunds on prediction accuracy.
+          Free means free — the caps exist to protect the free-tier infra, not to sell you
+          anything.
         </p>
       </Container>
 

@@ -29,8 +29,10 @@ what's actually likely to be asked, not a generic guess.
 
 Built for **BIT Mesra** — every campus — BBA, BCA, B.Com, MCA, MBA, engineering, and the
 B.Sc programmes — off a self-scraped corpus of ~1,400 real past papers across
-840 courses. First subject is free. It runs on entirely free-tier
-infrastructure and turns a profit at ₹49/subject.
+840 courses. Completely free for everyone — up to 6 subjects, 4 generations
+each, a fair-use cap rather than a paywall. It runs on entirely free-tier
+infrastructure; an optional "support us" contribution (any self-chosen
+amount) helps keep it running.
 
 Not affiliated with, endorsed by, or connected to Birla Institute of
 Technology, Mesra. Predictions are AI estimates with no accuracy guarantee.
@@ -69,7 +71,7 @@ regeneration on the same syllabus only re-runs the cheap assembly step.
 | Framework | Next.js 16 (App Router) · React 19 · TypeScript · Tailwind v4 |
 | Auth + DB | Supabase (Postgres, RLS, magic-link auth restricted to `@bitmesra.ac.in`) |
 | Inference | Self-hosted [OmniRoute](https://github.com/diegosouzapw/OmniRoute) gateway on an Oracle Cloud free-tier VM — quota-aware failover across Groq, NVIDIA NIM, OpenRouter, Gemini and more, so no single free-tier daily cap can take the product down |
-| Payments | Razorpay Checkout (auto-unlock via signed webhook), with a zero-fee manual UPI flow as a fallback path |
+| Support | Razorpay Checkout — fully optional, self-chosen-amount "support us" contribution. Nothing is gated behind it. |
 | Email | Gmail SMTP, branded templates, zero cost |
 | Data | Fully offline pipeline — no runtime scraping. PDFs → text → per-course JSON, committed to the repo |
 | Hosting | Vercel (free tier) |
@@ -114,7 +116,7 @@ npm run dev
 
 **Required:** a Supabase project + at least one free LLM key (Groq, Gemini,
 or an OpenAI-compatible gateway like OmniRoute). Everything else — Razorpay,
-Telegram/UPI, SMTP — is optional and the app degrades gracefully without it.
+Telegram, SMTP — is optional and the app degrades gracefully without it.
 
 See `.env.example` for the full list, and **`DEPLOY.md`** for a complete,
 click-by-click path to a $0/month production deployment (Vercel + a
@@ -131,7 +133,7 @@ src/
 ├─ components/           UI primitives + the paywall, feedback and support widgets
 ├─ lib/
 │  ├─ engine/            the 4-pass predictor: prompts, LLM routing, validation
-│  ├─ entitlement.ts     free/paid access rules — server-side, RLS-backed
+│  ├─ entitlement.ts     fair-use generation caps — server-side, RLS-backed
 │  ├─ razorpay.ts        order creation + webhook signature verification
 │  └─ notify.ts          transactional email (SMTP-first, Resend fallback)
 ├─ data/                 the offline-built course + PYQ corpus

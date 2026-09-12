@@ -1,15 +1,6 @@
 import "server-only";
 import { env } from "@/lib/env";
 
-interface ClaimNotice {
-  claimId: string;
-  email: string;
-  plan: string;
-  subjectCode: string | null;
-  amount: number;
-  utr: string;
-}
-
 /** Fire-and-forget ping when a student completes a magic-link sign-in. */
 export async function notifyAdminOfLogin(email: string): Promise<void> {
   if (!env.TELEGRAM_BOT_TOKEN || !env.TELEGRAM_ADMIN_CHAT_ID) return;
@@ -21,52 +12,6 @@ export async function notifyAdminOfLogin(email: string): Promise<void> {
       text: `👤 Login: ${email}`,
     }),
   }).catch(() => {});
-}
-
-/** Sends the admin a Telegram message with inline Approve / Reject buttons. */
-export async function notifyAdminOfClaim(c: ClaimNotice): Promise<void> {
-  if (!env.TELEGRAM_BOT_TOKEN || !env.TELEGRAM_ADMIN_CHAT_ID) return;
-
-  const text =
-    `💸 *Payment claim*\n` +
-    `Student: ${c.email}\n` +
-    `Plan: ${c.plan}${c.subjectCode ? ` (${c.subjectCode})` : ""}\n` +
-    `Expected: ₹${c.amount}\n` +
-    `UTR: \`${c.utr}\`\n\n` +
-    `Verify the credit in your UPI app, then:`;
-
-  await fetch(`https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/sendMessage`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      chat_id: env.TELEGRAM_ADMIN_CHAT_ID,
-      text,
-      parse_mode: "Markdown",
-      reply_markup: {
-        inline_keyboard: [
-          [
-            { text: "✅ Approve", callback_data: `approve:${c.claimId}` },
-            { text: "❌ Reject", callback_data: `reject:${c.claimId}` },
-          ],
-        ],
-      },
-    }),
-  }).catch(() => {});
-}
-
-export async function answerTelegramCallback(
-  callbackId: string,
-  text: string,
-): Promise<void> {
-  if (!env.TELEGRAM_BOT_TOKEN) return;
-  await fetch(
-    `https://api.telegram.org/bot${env.TELEGRAM_BOT_TOKEN}/answerCallbackQuery`,
-    {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ callback_query_id: callbackId, text }),
-    },
-  ).catch(() => {});
 }
 
 async function sendMail(opts: {
@@ -150,16 +95,17 @@ export async function notifyAdminOfSupport(fromEmail: string, message: string): 
   });
 }
 
-export async function sendActivationEmail(to: string, scope: string): Promise<void> {
+/** cramBIT is free for everyone — this just thanks a voluntary supporter. */
+export async function sendThankYouEmail(to: string): Promise<void> {
   await sendMail({
     to,
-    subject: "Your cramBIT access is active",
+    subject: "Thank you for supporting cramBIT",
     text:
-      `Your payment is confirmed and your ${scope} access is now active.\n\n` +
-      `Open ${env.NEXT_PUBLIC_SITE_URL}/dashboard and generate away.\n\n— cramBIT`,
+      `Genuinely, thank you — cramBIT is free for everyone and stays that way; ` +
+      `your support just helps keep it running and improving.\n\n— cramBIT`,
     html: shell(
-      "Your access is active",
-      `We've confirmed your payment. Your <b>${scope}</b> is unlocked — your predicted papers are ready.`,
+      "Thank you 🙏",
+      `Genuinely, thank you for chipping in. cramBIT is free for everyone and stays that way — your support just helps keep it running (and pushes it further, like a proper end-sem version).`,
       { href: `${env.NEXT_PUBLIC_SITE_URL}/dashboard`, label: "Open cramBIT →" },
     ),
   });

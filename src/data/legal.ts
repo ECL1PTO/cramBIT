@@ -16,7 +16,7 @@ export const DISCLAIMER_ACK =
   "I understand these are predictions with no guarantee of accuracy, that questions I study may not appear, and that cramBIT is not responsible for my exam result.";
 
 export const PAYMENT_NOTE =
-  "Payment unlocks access to the prediction tool. It is not payment for results. No refunds are given on the basis of prediction accuracy.";
+  "cramBIT is free for everyone — this is a fully optional contribution, not a payment for results or for access. Nothing is unlocked by it and nothing is owed back.";
 
 export const TERMS_SECTIONS: { heading: string; body: string }[] = [
   {
@@ -32,12 +32,12 @@ export const TERMS_SECTIONS: { heading: string; body: string }[] = [
     body: "To the maximum extent permitted by law, cramBIT and its operator are not liable for any academic outcome, loss, or damage arising from use of the service, including questions you studied that did not appear or errors in generated answers.",
   },
   {
-    heading: "Payments and refunds",
-    body: "Paid plans unlock access to the tool for the stated scope. Because the value is the prediction tool itself and not a guaranteed result, payments are non-refundable on the basis of prediction accuracy. Genuine duplicate or failed transactions will be resolved.",
+    heading: "Support contributions",
+    body: "cramBIT is free for everyone — nothing is gated behind payment. Any contribution made through the optional \"support\" option is voluntary, unlocks nothing, and is not a purchase of results; it simply helps keep the service running.",
   },
   {
     heading: "Acceptable use",
-    body: "One account per person, restricted to @bitmesra.ac.in students. Do not resell access, automate the service, or attempt to bypass free-tier limits. Accounts doing so may be suspended without refund.",
+    body: "One account per person, restricted to @bitmesra.ac.in students. Do not resell access, automate the service, or attempt to bypass the fair-use generation caps. Accounts doing so may be suspended.",
   },
   {
     heading: "Trademark",
@@ -48,11 +48,11 @@ export const TERMS_SECTIONS: { heading: string; body: string }[] = [
 export const PRIVACY_SECTIONS: { heading: string; body: string }[] = [
   {
     heading: "What we store",
-    body: "Your college email, the course codes and syllabus text you submit, the papers generated for you, and payment claim references. That's it.",
+    body: "Your college email, the course codes and syllabus text you submit, the papers generated for you, and (only if you choose to support the project) a record of that contribution. That's it.",
   },
   {
     heading: "How we use it",
-    body: "To run the prediction engine, show you your past papers, and process access. Syllabus text you paste and the relevant past-paper text are sent to third-party AI providers (routed through our infrastructure, which may include Google Gemini, Groq, and other model providers) to generate papers. We do not sell data or run advertising.",
+    body: "To run the prediction engine and show you your past papers. Syllabus text you paste and the relevant past-paper text are sent to third-party AI providers (routed through our infrastructure, which may include Google Gemini, Groq, and other model providers) to generate papers. We do not sell data or run advertising.",
   },
   {
     heading: "Deletion",

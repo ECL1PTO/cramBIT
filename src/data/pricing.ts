@@ -1,17 +1,8 @@
 /**
- * Pricing is defined here and recomputed server-side on every payment claim
- * / Razorpay order. The client never sets the amount.
+ * cramBIT is free for everyone — see entitlement.ts for the fair-use caps
+ * that replace payment as the only limit. The only money involved is a fully
+ * optional "support us" contribution (any self-chosen positive amount),
+ * recomputed/validated server-side and never trusted from the client.
  */
-export const PRICING = {
-  perSubject: 49, // rupees
-  bundle: 199, // rupees — up to BUNDLE_SUBJECT_CAP subjects this mid-sem season
-} as const;
-
-/** Marketing says "up to 5 subjects" — enforced in entitlement.ts. */
-export const BUNDLE_SUBJECT_CAP = 5;
-
-export type Plan = "subject" | "bundle";
-
-export function amountForPlan(plan: Plan): number {
-  return plan === "bundle" ? PRICING.bundle : PRICING.perSubject;
-}
+export const MIN_SUPPORT_AMOUNT = 1; // rupees
+export const MAX_SUPPORT_AMOUNT = 50_000; // rupees — sanity cap against fat-finger amounts
