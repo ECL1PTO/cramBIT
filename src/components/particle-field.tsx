@@ -75,22 +75,46 @@ export function ParticleField() {
     const rings: Ring[] = [];
     const onDown = (e: MouseEvent) => rings.push({ x: e.clientX, y: e.clientY, r: 0 });
 
-    function hexA(hex: string, a: number) {
+    function hexToRgb(hex: string): [number, number, number] {
       const c = hex.replace("#", "");
       const n =
         c.length === 3
           ? c.split("").map((ch) => ch + ch).join("")
           : c.padEnd(6, "0").slice(0, 6);
-      return `rgba(${parseInt(n.slice(0, 2), 16)},${parseInt(n.slice(2, 4), 16)},${parseInt(
-        n.slice(4, 6),
-        16,
-      )},${a})`;
+      return [parseInt(n.slice(0, 2), 16), parseInt(n.slice(2, 4), 16), parseInt(n.slice(4, 6), 16)];
     }
+    // Parsing a hex string is real work (split/join/parseInt x3) — do it once
+    // per colour per frame, not once per dot. At ~800 dots/frame this alone
+    // was a meaningful chunk of the per-frame cost.
+    const rgba = (rgb: [number, number, number], a: number) =>
+      `rgba(${rgb[0]},${rgb[1]},${rgb[2]},${a})`;
 
     let raf = 0;
     let t = 0;
 
+    // Freeze the (purely decorative) redraw while the page is actively
+    // scrolling — a canvas doing full-viewport gradient + ~800-dot redraws
+    // every frame competes with the browser's own scroll/composite work and
+    // is the main source of scroll jank. Resume shortly after scrolling stops;
+    // holding the last frame in between is imperceptible for something this slow.
+    let scrolling = false;
+    let scrollTimer: ReturnType<typeof setTimeout> | null = null;
+    const onScroll = () => {
+      scrolling = true;
+      if (scrollTimer) clearTimeout(scrollTimer);
+      scrollTimer = setTimeout(() => {
+        scrolling = false;
+      }, 150);
+    };
+
     function draw() {
+      // Hold the last frame while scrolling instead of doing the full redraw —
+      // the loop stays alive (cheap) so it resumes instantly once scrolling stops.
+      if (scrolling) {
+        if (!document.hidden) raf = requestAnimationFrame(draw);
+        return;
+      }
+
       t += reduce ? 0 : 0.014;
 
       const accent = cssVar("--c-accent", "#6674f6");
@@ -101,19 +125,22 @@ export function ParticleField() {
           ? false
           : window.matchMedia("(prefers-color-scheme: dark)").matches;
 
+      const accentRGB = hexToRgb(accent);
+      const accent2RGB = hexToRgb(accent2);
+
       ctx.clearRect(0, 0, w, h);
 
       // rotating colour wash
       const gx = w * (0.5 + 0.3 * Math.cos(t * 0.4));
       const gy = h * (0.35 + 0.25 * Math.sin(t * 0.33));
       const grad = ctx.createRadialGradient(gx, gy, 0, gx, gy, Math.max(w, h));
-      grad.addColorStop(0, hexA(accent, dark ? 0.28 : 0.16));
-      grad.addColorStop(0.5, hexA(accent2, dark ? 0.12 : 0.08));
-      grad.addColorStop(1, hexA(accent, 0));
+      grad.addColorStop(0, rgba(accentRGB, dark ? 0.28 : 0.16));
+      grad.addColorStop(0.5, rgba(accent2RGB, dark ? 0.12 : 0.08));
+      grad.addColorStop(1, rgba(accentRGB, 0));
       ctx.fillStyle = grad;
       ctx.fillRect(0, 0, w, h);
 
-      const dotBase = dark ? "#c8ccf5" : "#3a3a55";
+      const dotBaseRGB = hexToRgb(dark ? "#c8ccf5" : "#3a3a55");
 
       // dot grid
       const near: { x: number; y: number }[] = [];
@@ -130,7 +157,7 @@ export function ParticleField() {
 
           ctx.beginPath();
           ctx.arc(x, y, 1.1 + glow * 3, 0, Math.PI * 2);
-          ctx.fillStyle = hexA(glow > 0.06 ? accent : dotBase, (dark ? 0.22 : 0.2) + glow * 0.7);
+          ctx.fillStyle = rgba(glow > 0.06 ? accentRGB : dotBaseRGB, (dark ? 0.22 : 0.2) + glow * 0.7);
           ctx.fill();
           if (glow > 0.25) near.push({ x, y });
         }
@@ -142,7 +169,7 @@ export function ParticleField() {
             ctx.beginPath();
             ctx.moveTo(near[a].x, near[a].y);
             ctx.lineTo(near[b].x, near[b].y);
-            ctx.strokeStyle = hexA(accent, 0.4 * (1 - d / (GAP * 1.8)));
+            ctx.strokeStyle = rgba(accentRGB, 0.4 * (1 - d / (GAP * 1.8)));
             ctx.lineWidth = 1;
             ctx.stroke();
           }
@@ -161,8 +188,8 @@ export function ParticleField() {
           if (c.y > h + 40) c.y = -40;
         }
         const grd = ctx.createLinearGradient(c.x - c.vx * 26, c.y - c.vy * 26, c.x, c.y);
-        grd.addColorStop(0, hexA(accent, 0));
-        grd.addColorStop(1, hexA(accent2, dark ? 0.8 : 0.55));
+        grd.addColorStop(0, rgba(accentRGB, 0));
+        grd.addColorStop(1, rgba(accent2RGB, dark ? 0.8 : 0.55));
         ctx.strokeStyle = grd;
         ctx.lineWidth = 1.6;
         ctx.beginPath();
@@ -171,7 +198,7 @@ export function ParticleField() {
         ctx.stroke();
         ctx.beginPath();
         ctx.arc(c.x, c.y, 1.6, 0, Math.PI * 2);
-        ctx.fillStyle = hexA("#ffffff", dark ? 0.9 : 0.7);
+        ctx.fillStyle = rgba([255, 255, 255], dark ? 0.9 : 0.7);
         ctx.fill();
       }
 
@@ -181,7 +208,7 @@ export function ParticleField() {
         rg.r += 6;
         ctx.beginPath();
         ctx.arc(rg.x, rg.y, rg.r, 0, Math.PI * 2);
-        ctx.strokeStyle = hexA(accent, Math.max(0, 0.5 - rg.r / 320));
+        ctx.strokeStyle = rgba(accentRGB, Math.max(0, 0.5 - rg.r / 320));
         ctx.lineWidth = 2;
         ctx.stroke();
         if (rg.r > 320) rings.splice(i, 1);
@@ -209,14 +236,17 @@ export function ParticleField() {
     window.addEventListener("mousemove", onMove, { passive: true });
     window.addEventListener("mouseout", onLeave);
     window.addEventListener("mousedown", onDown);
+    window.addEventListener("scroll", onScroll, { passive: true });
     document.addEventListener("visibilitychange", onVis);
 
     return () => {
       cancelAnimationFrame(raf);
+      if (scrollTimer) clearTimeout(scrollTimer);
       window.removeEventListener("resize", onResize);
       window.removeEventListener("mousemove", onMove);
       window.removeEventListener("mouseout", onLeave);
       window.removeEventListener("mousedown", onDown);
+      window.removeEventListener("scroll", onScroll);
       document.removeEventListener("visibilitychange", onVis);
     };
   }, []);
