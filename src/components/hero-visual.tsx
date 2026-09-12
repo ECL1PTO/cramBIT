@@ -54,7 +54,7 @@ export function HeroVisual() {
         className="rise rise-4 absolute -right-4 bottom-8 rounded-pill border border-accent bg-accent-soft px-3 py-1.5 font-mono text-caption text-text shadow-lg"
         style={{ animation: "float-slow 8s ease-in-out infinite" }}
       >
-        3 sets ready
+        2 sets ready
       </div>
     </div>
   );
