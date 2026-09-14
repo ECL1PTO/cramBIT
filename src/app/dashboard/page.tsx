@@ -87,50 +87,82 @@ export default function Dashboard() {
     id: string;
     subject_code: string | null;
     course_input: string;
-    sets: string[];
+    set_count: number;
     created_at: string;
     when: string; // precomputed relative time, see fetchHistory
   }
   const [history, setHistory] = useState<HistoryRow[] | null>(null); // null = still loading
+  const [activeHistoryId, setActiveHistoryId] = useState<string | null>(null);
+  const [loadingHistoryId, setLoadingHistoryId] = useState<string | null>(null);
 
-  const fetchHistory = useCallback(async () => {
-    // Small and few columns on purpose — this renders in the sidebar and
-    // should feel instant, not like a second page load.
+  // Returns data rather than setting state itself — the effect that fires
+  // this on mount needs its own `.then(setHistory)` visible in the effect
+  // body for the set-state-in-effect lint rule to accept it (it traces into
+  // locally-defined functions, so a function that sets state itself gets
+  // flagged no matter how it's invoked from an effect).
+  const fetchHistory = useCallback(async (): Promise<HistoryRow[]> => {
+    // No `sets` here on purpose — that's the actual paper markdown and the
+    // list doesn't need it, set_count already has what it needs to display.
+    // Fetched lazily (loadFromHistory) only for the one row someone clicks.
     const { data, error } = await supabase
       .from("generated_papers")
-      .select("id, subject_code, course_input, sets, created_at")
+      .select("id, subject_code, course_input, set_count, created_at")
       .order("created_at", { ascending: false })
       .limit(6);
     const now = Date.now();
-    setHistory(
-      !error && data
-        ? (data as Omit<HistoryRow, "when">[]).map((r) => ({ ...r, when: relTime(r.created_at, now) }))
-        : [],
-    );
+    return !error && data
+      ? (data as Omit<HistoryRow, "when">[]).map((r) => ({ ...r, when: relTime(r.created_at, now) }))
+      : [];
   }, [supabase]);
 
-  function loadFromHistory(row: HistoryRow) {
-    setSets(row.sets);
+  async function loadFromHistory(row: HistoryRow) {
+    setLoadingHistoryId(row.id);
+    const { data, error } = await supabase
+      .from("generated_papers")
+      .select("sets")
+      .eq("id", row.id)
+      .single();
+    setLoadingHistoryId(null);
+    if (error || !data) return;
+    setSets(data.sets as string[]);
     setActiveSet(0);
     setCourseCode(row.subject_code);
     setCourseInput(row.course_input);
     setPhase("done");
+    setActiveHistoryId(row.id);
     document.getElementById("output")?.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
+  // History doesn't actually need to wait on the auth check below — the
+  // browser client already carries whatever session exists and attaches it
+  // to every query itself, and RLS is what actually enforces access either
+  // way. Firing it in its own effect instead of after getUser() resolves
+  // means it starts loading the instant the page mounts, not after an extra
+  // network round-trip first.
   useEffect(() => {
+    fetchHistory()
+      .then(setHistory)
+      .catch((e) => {
+        console.error("history fetch failed:", e);
+        setHistory([]);
+      });
+  }, [fetchHistory]);
+
+  useEffect(() => {
+    // getUser() re-verifies with Supabase's auth server (unlike getSession(),
+    // which just reads the local token) — worth it here since it's the one
+    // thing actually deciding whether to bounce to /login, but that's also
+    // why it's slower, so nothing else should be blocked on it finishing.
     supabase.auth
       .getUser()
       .then(async ({ data }) => {
         if (!data.user) return router.push("/login");
         setEmail(data.user.email ?? "");
-        // These two don't depend on each other — firing them together instead
-        // of one after another roughly halves the wait before the page feels
-        // ready, and it's what made history in particular feel slow to load.
-        const [{ data: profile }] = await Promise.all([
-          supabase.from("profiles").select("disclaimer_ack_at").eq("id", data.user.id).single(),
-          fetchHistory(),
-        ]);
+        const { data: profile } = await supabase
+          .from("profiles")
+          .select("disclaimer_ack_at")
+          .eq("id", data.user.id)
+          .single();
         setAckedAt(profile?.disclaimer_ack_at ?? null);
       })
       .catch((e) => {
@@ -140,7 +172,7 @@ export default function Dashboard() {
         console.error("auth check failed:", e);
         router.push("/login");
       });
-  }, [router, supabase, fetchHistory]);
+  }, [router, supabase]);
 
   // course autocomplete
   useEffect(() => {
@@ -296,7 +328,7 @@ export default function Dashboard() {
       setTriesLeft(written.triesLeft ?? null);
       setPhase("done");
       abortRef.current = null;
-      fetchHistory();
+      fetchHistory().then(setHistory);
     } catch (err) {
       setPhase("idle");
       abortRef.current = null;
@@ -464,12 +496,14 @@ export default function Dashboard() {
               </div>
               <div className="space-y-1.5">
                 {history.map((row) => {
-                  const active = row.sets === sets;
+                  const active = row.id === activeHistoryId;
+                  const loading = row.id === loadingHistoryId;
                   return (
                     <button
                       key={row.id}
                       onClick={() => loadFromHistory(row)}
-                      className={`group flex w-full items-center justify-between gap-3 rounded-input border px-3 py-2.5 text-left transition-[color,border-color,background-color,transform] duration-150 active:scale-[0.98] ${
+                      disabled={loading}
+                      className={`group flex w-full items-center justify-between gap-3 rounded-input border px-3 py-2.5 text-left transition-[color,border-color,background-color,transform] duration-150 active:scale-[0.98] disabled:opacity-60 ${
                         active
                           ? "border-accent bg-accent-soft"
                           : "border-border hover:border-accent/50 hover:bg-surface-2"
@@ -480,8 +514,8 @@ export default function Dashboard() {
                           {row.subject_code ?? row.course_input}
                         </span>
                         <span className="text-caption text-faint">
-                          {row.when} · {row.sets.length} set
-                          {row.sets.length === 1 ? "" : "s"}
+                          {row.when} · {row.set_count} set
+                          {row.set_count === 1 ? "" : "s"}
                         </span>
                       </span>
                       <span
@@ -489,7 +523,7 @@ export default function Dashboard() {
                           active ? "text-accent" : "text-faint group-hover:translate-x-0.5 group-hover:text-muted"
                         }`}
                       >
-                        →
+                        {loading ? "…" : "→"}
                       </span>
                     </button>
                   );
