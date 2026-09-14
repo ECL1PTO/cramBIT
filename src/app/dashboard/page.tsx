@@ -39,6 +39,20 @@ const STEP_COPY: Record<"planning" | "pooling" | "writing", string> = {
   writing: "Drafting and checking the papers…",
 };
 
+// Date.now() is impure, so this runs once when history is fetched rather
+// than during render — React lints against calling it inline in JSX. A
+// plain module-level function since it doesn't need any component state.
+function relTime(iso: string, now: number): string {
+  const mins = Math.floor((now - new Date(iso).getTime()) / 60000);
+  if (mins < 1) return "just now";
+  if (mins < 60) return `${mins}m ago`;
+  const hrs = Math.floor(mins / 60);
+  if (hrs < 24) return `${hrs}h ago`;
+  const days = Math.floor(hrs / 24);
+  if (days < 7) return `${days}d ago`;
+  return new Date(iso).toLocaleDateString(undefined, { day: "numeric", month: "short" });
+}
+
 export default function Dashboard() {
   const router = useRouter();
   const supabase = createClient();
@@ -75,16 +89,24 @@ export default function Dashboard() {
     course_input: string;
     sets: string[];
     created_at: string;
+    when: string; // precomputed relative time, see fetchHistory
   }
-  const [history, setHistory] = useState<HistoryRow[]>([]);
+  const [history, setHistory] = useState<HistoryRow[] | null>(null); // null = still loading
 
   const fetchHistory = useCallback(async () => {
+    // Small and few columns on purpose — this renders in the sidebar and
+    // should feel instant, not like a second page load.
     const { data, error } = await supabase
       .from("generated_papers")
       .select("id, subject_code, course_input, sets, created_at")
       .order("created_at", { ascending: false })
-      .limit(30);
-    if (!error && data) setHistory(data as HistoryRow[]);
+      .limit(6);
+    const now = Date.now();
+    setHistory(
+      !error && data
+        ? (data as Omit<HistoryRow, "when">[]).map((r) => ({ ...r, when: relTime(r.created_at, now) }))
+        : [],
+    );
   }, [supabase]);
 
   function loadFromHistory(row: HistoryRow) {
@@ -102,13 +124,14 @@ export default function Dashboard() {
       .then(async ({ data }) => {
         if (!data.user) return router.push("/login");
         setEmail(data.user.email ?? "");
-        const { data: profile } = await supabase
-          .from("profiles")
-          .select("disclaimer_ack_at")
-          .eq("id", data.user.id)
-          .single();
+        // These two don't depend on each other — firing them together instead
+        // of one after another roughly halves the wait before the page feels
+        // ready, and it's what made history in particular feel slow to load.
+        const [{ data: profile }] = await Promise.all([
+          supabase.from("profiles").select("disclaimer_ack_at").eq("id", data.user.id).single(),
+          fetchHistory(),
+        ]);
         setAckedAt(profile?.disclaimer_ack_at ?? null);
-        fetchHistory();
       })
       .catch((e) => {
         // A stale/expired session throws here instead of resolving with
@@ -427,6 +450,62 @@ export default function Dashboard() {
               just there so it holds up for everyone.
             </p>
           )}
+
+          {/* past papers — history === null while loading, [] once loaded-but-empty */}
+          {history === null ? (
+            <div className="space-y-2 border-t border-border pt-5 no-print">
+              <div className="h-3 w-24 animate-pulse rounded-full bg-surface-2" />
+              <div className="mt-3 space-y-2">
+                {[0, 1].map((i) => (
+                  <div key={i} className="h-12 animate-pulse rounded-input bg-surface-2" />
+                ))}
+              </div>
+            </div>
+          ) : (
+            history.length > 0 && (
+              <div className="fade-in space-y-3 border-t border-border pt-5 no-print">
+                <div className="flex items-baseline justify-between">
+                  <span className="font-mono text-caption tracking-wide text-faint">
+                    past papers
+                  </span>
+                  <span className="text-caption text-faint">no need to regenerate</span>
+                </div>
+                <div className="space-y-1.5">
+                  {history.map((row) => {
+                    const active = row.sets === sets;
+                    return (
+                      <button
+                        key={row.id}
+                        onClick={() => loadFromHistory(row)}
+                        className={`group flex w-full items-center justify-between gap-3 rounded-input border px-3 py-2.5 text-left transition-[color,border-color,background-color,transform] duration-150 active:scale-[0.98] ${
+                          active
+                            ? "border-accent bg-accent-soft"
+                            : "border-border hover:border-accent/50 hover:bg-surface-2"
+                        }`}
+                      >
+                        <span className="min-w-0">
+                          <span className="block truncate font-mono text-body-sm text-text">
+                            {row.subject_code ?? row.course_input}
+                          </span>
+                          <span className="text-caption text-faint">
+                            {row.when} · {row.sets.length} set
+                            {row.sets.length === 1 ? "" : "s"}
+                          </span>
+                        </span>
+                        <span
+                          className={`shrink-0 text-body-sm transition-[color,transform] duration-150 ${
+                            active ? "text-accent" : "text-faint group-hover:translate-x-0.5 group-hover:text-muted"
+                          }`}
+                        >
+                          →
+                        </span>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            )
+          )}
         </div>
 
         {/* output */}
@@ -555,36 +634,6 @@ export default function Dashboard() {
           )}
         </div>
       </Container>
-
-      {history.length > 0 && (
-        <Container className="pb-16 no-print">
-          <h2 className="text-h3 font-normal tracking-tight text-text">Your past papers</h2>
-          <p className="mt-1 text-body-sm text-faint">
-            Come back for these anytime, no need to regenerate.
-          </p>
-          <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {history.map((row) => (
-              <button
-                key={row.id}
-                onClick={() => loadFromHistory(row)}
-                className="lift flex flex-col items-start gap-1 rounded-sheet border border-border bg-surface p-4 text-left transition-[transform,border-color] duration-150"
-              >
-                <span className="font-mono text-body-sm text-text">
-                  {row.subject_code ?? row.course_input}
-                </span>
-                <span className="text-caption text-faint">
-                  {new Date(row.created_at).toLocaleDateString(undefined, {
-                    day: "numeric",
-                    month: "short",
-                  })}
-                  {" · "}
-                  {row.sets.length} set{row.sets.length === 1 ? "" : "s"}
-                </span>
-              </button>
-            ))}
-          </div>
-        </Container>
-      )}
 
       {paywall && (
         <PaywallModal
