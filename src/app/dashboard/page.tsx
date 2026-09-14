@@ -451,60 +451,51 @@ export default function Dashboard() {
             </p>
           )}
 
-          {/* past papers — history === null while loading, [] once loaded-but-empty */}
-          {history === null ? (
-            <div className="space-y-2 border-t border-border pt-5 no-print">
-              <div className="h-3 w-24 animate-pulse rounded-full bg-surface-2" />
-              <div className="mt-3 space-y-2">
-                {[0, 1].map((i) => (
-                  <div key={i} className="h-12 animate-pulse rounded-input bg-surface-2" />
-                ))}
+          {/* past papers — nothing renders until it's actually loaded (the
+              fetch is small/parallelized now, near-instant); an unlabeled
+              skeleton here read as broken UI rather than "loading". */}
+          {history != null && history.length > 0 && (
+            <div className="fade-in space-y-3 border-t border-border pt-5 no-print">
+              <div className="flex items-baseline justify-between">
+                <span className="font-mono text-caption tracking-wide text-faint">
+                  past papers
+                </span>
+                <span className="text-caption text-faint">no need to regenerate</span>
               </div>
-            </div>
-          ) : (
-            history.length > 0 && (
-              <div className="fade-in space-y-3 border-t border-border pt-5 no-print">
-                <div className="flex items-baseline justify-between">
-                  <span className="font-mono text-caption tracking-wide text-faint">
-                    past papers
-                  </span>
-                  <span className="text-caption text-faint">no need to regenerate</span>
-                </div>
-                <div className="space-y-1.5">
-                  {history.map((row) => {
-                    const active = row.sets === sets;
-                    return (
-                      <button
-                        key={row.id}
-                        onClick={() => loadFromHistory(row)}
-                        className={`group flex w-full items-center justify-between gap-3 rounded-input border px-3 py-2.5 text-left transition-[color,border-color,background-color,transform] duration-150 active:scale-[0.98] ${
-                          active
-                            ? "border-accent bg-accent-soft"
-                            : "border-border hover:border-accent/50 hover:bg-surface-2"
+              <div className="space-y-1.5">
+                {history.map((row) => {
+                  const active = row.sets === sets;
+                  return (
+                    <button
+                      key={row.id}
+                      onClick={() => loadFromHistory(row)}
+                      className={`group flex w-full items-center justify-between gap-3 rounded-input border px-3 py-2.5 text-left transition-[color,border-color,background-color,transform] duration-150 active:scale-[0.98] ${
+                        active
+                          ? "border-accent bg-accent-soft"
+                          : "border-border hover:border-accent/50 hover:bg-surface-2"
+                      }`}
+                    >
+                      <span className="min-w-0">
+                        <span className="block truncate font-mono text-body-sm text-text">
+                          {row.subject_code ?? row.course_input}
+                        </span>
+                        <span className="text-caption text-faint">
+                          {row.when} · {row.sets.length} set
+                          {row.sets.length === 1 ? "" : "s"}
+                        </span>
+                      </span>
+                      <span
+                        className={`shrink-0 text-body-sm transition-[color,transform] duration-150 ${
+                          active ? "text-accent" : "text-faint group-hover:translate-x-0.5 group-hover:text-muted"
                         }`}
                       >
-                        <span className="min-w-0">
-                          <span className="block truncate font-mono text-body-sm text-text">
-                            {row.subject_code ?? row.course_input}
-                          </span>
-                          <span className="text-caption text-faint">
-                            {row.when} · {row.sets.length} set
-                            {row.sets.length === 1 ? "" : "s"}
-                          </span>
-                        </span>
-                        <span
-                          className={`shrink-0 text-body-sm transition-[color,transform] duration-150 ${
-                            active ? "text-accent" : "text-faint group-hover:translate-x-0.5 group-hover:text-muted"
-                          }`}
-                        >
-                          →
-                        </span>
-                      </button>
-                    );
-                  })}
-                </div>
+                        →
+                      </span>
+                    </button>
+                  );
+                })}
               </div>
-            )
+            </div>
           )}
         </div>
 
