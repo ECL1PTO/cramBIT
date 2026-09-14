@@ -69,18 +69,55 @@ export default function Dashboard() {
   const [paywall, setPaywall] = useState<null | { code: string | null; reason?: string }>(null);
   const [needAck, setNeedAck] = useState(false);
 
+  interface HistoryRow {
+    id: string;
+    subject_code: string | null;
+    course_input: string;
+    sets: string[];
+    created_at: string;
+  }
+  const [history, setHistory] = useState<HistoryRow[]>([]);
+
+  const fetchHistory = useCallback(async () => {
+    const { data, error } = await supabase
+      .from("generated_papers")
+      .select("id, subject_code, course_input, sets, created_at")
+      .order("created_at", { ascending: false })
+      .limit(30);
+    if (!error && data) setHistory(data as HistoryRow[]);
+  }, [supabase]);
+
+  function loadFromHistory(row: HistoryRow) {
+    setSets(row.sets);
+    setActiveSet(0);
+    setCourseCode(row.subject_code);
+    setCourseInput(row.course_input);
+    setPhase("done");
+    document.getElementById("output")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
   useEffect(() => {
-    supabase.auth.getUser().then(async ({ data }) => {
-      if (!data.user) return router.push("/login");
-      setEmail(data.user.email ?? "");
-      const { data: profile } = await supabase
-        .from("profiles")
-        .select("disclaimer_ack_at")
-        .eq("id", data.user.id)
-        .single();
-      setAckedAt(profile?.disclaimer_ack_at ?? null);
-    });
-  }, [router, supabase]);
+    supabase.auth
+      .getUser()
+      .then(async ({ data }) => {
+        if (!data.user) return router.push("/login");
+        setEmail(data.user.email ?? "");
+        const { data: profile } = await supabase
+          .from("profiles")
+          .select("disclaimer_ack_at")
+          .eq("id", data.user.id)
+          .single();
+        setAckedAt(profile?.disclaimer_ack_at ?? null);
+        fetchHistory();
+      })
+      .catch((e) => {
+        // A stale/expired session throws here instead of resolving with
+        // { user: null } — previously this left the page silently half-broken
+        // (no email shown, nothing else worked either) with no way out.
+        console.error("auth check failed:", e);
+        router.push("/login");
+      });
+  }, [router, supabase, fetchHistory]);
 
   // course autocomplete
   useEffect(() => {
@@ -236,6 +273,7 @@ export default function Dashboard() {
       setTriesLeft(written.triesLeft ?? null);
       setPhase("done");
       abortRef.current = null;
+      fetchHistory();
     } catch (err) {
       setPhase("idle");
       abortRef.current = null;
@@ -244,7 +282,7 @@ export default function Dashboard() {
       if (signal.aborted) return;
       setError("Network error. Try again.");
     }
-  }, [courseInput, syllabus, ackedAt]);
+  }, [courseInput, syllabus, ackedAt, fetchHistory]);
 
   const busy = phase === "planning" || phase === "pooling" || phase === "writing";
 
@@ -263,6 +301,14 @@ export default function Dashboard() {
       <Container className="flex items-center justify-between py-5 no-print sm:py-6">
         <Wordmark size="md" />
         <div className="flex items-center gap-3 text-body-sm text-muted">
+          {email && (
+            <span
+              title={email}
+              className="grid h-7 w-7 shrink-0 place-items-center rounded-full border border-border bg-surface-2 font-mono text-caption text-text"
+            >
+              {email[0]?.toUpperCase()}
+            </span>
+          )}
           <span className="hidden max-w-[180px] truncate sm:inline">{email}</span>
           <ShareButton
             compact
@@ -273,8 +319,17 @@ export default function Dashboard() {
           <ThemeToggle />
           <button
             onClick={async () => {
-              await supabase.auth.signOut();
-              router.push("/login");
+              // signOut() can throw on a slightly stale session instead of just
+              // resolving — previously that meant the button silently did
+              // nothing at all. Always navigate away regardless.
+              try {
+                await supabase.auth.signOut();
+              } catch (e) {
+                console.error("sign out failed:", e);
+              } finally {
+                router.push("/login");
+                router.refresh();
+              }
             }}
             className="rounded-pill border border-text/25 px-3 py-1.5 transition-[color,border-color,transform,opacity] duration-150 hover:border-text/50 hover:text-text active:scale-[0.96] active:opacity-80"
           >
@@ -375,7 +430,7 @@ export default function Dashboard() {
         </div>
 
         {/* output */}
-        <div>
+        <div id="output">
           {busy && (
             <Card className="fade-in flex min-h-[420px] flex-col justify-center gap-5">
               {(["planning", "pooling", "writing"] as const).map((p, i) => {
@@ -500,6 +555,36 @@ export default function Dashboard() {
           )}
         </div>
       </Container>
+
+      {history.length > 0 && (
+        <Container className="pb-16 no-print">
+          <h2 className="text-h3 font-normal tracking-tight text-text">Your past papers</h2>
+          <p className="mt-1 text-body-sm text-faint">
+            Come back for these anytime, no need to regenerate.
+          </p>
+          <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {history.map((row) => (
+              <button
+                key={row.id}
+                onClick={() => loadFromHistory(row)}
+                className="lift flex flex-col items-start gap-1 rounded-sheet border border-border bg-surface p-4 text-left transition-[transform,border-color] duration-150"
+              >
+                <span className="font-mono text-body-sm text-text">
+                  {row.subject_code ?? row.course_input}
+                </span>
+                <span className="text-caption text-faint">
+                  {new Date(row.created_at).toLocaleDateString(undefined, {
+                    day: "numeric",
+                    month: "short",
+                  })}
+                  {" · "}
+                  {row.sets.length} set{row.sets.length === 1 ? "" : "s"}
+                </span>
+              </button>
+            ))}
+          </div>
+        </Container>
+      )}
 
       {paywall && (
         <PaywallModal
